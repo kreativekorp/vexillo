@@ -1,0 +1,191 @@
+<!--
+	Date: 2016/12/28 18:52:00 PST
+	Author: Rebecca Bettencourt <support@kreativekorp.com>
+-->
+
+<!-- - - - - - - - - - - - - DEFINITIONS - - - - - - - - - - - - -->
+
+<!ENTITY % def "(dim|color|symdef|imgdef)">
+
+<!ELEMENT dim EMPTY>
+<!ATTLIST dim
+	id CDATA #REQUIRED
+	e CDATA #REQUIRED
+>
+
+<!ELEMENT colorspec EMPTY>
+<!ATTLIST colorspec
+	model (rgb|hsv|hsl|cmyk|lab|xyy|xyz|ncs|cable|munsell|pantone) #REQUIRED
+	value CDATA #REQUIRED
+>
+
+<!ELEMENT color (colorspec)*>
+<!ATTLIST color
+	id CDATA #REQUIRED
+>
+
+<!ELEMENT symdef EMPTY>
+<!ATTLIST symdef
+	id CDATA #REQUIRED
+	d CDATA #REQUIRED
+>
+
+<!ELEMENT imgsrc (#PCDATA)>
+<!ATTLIST imgsrc
+	type CDATA #REQUIRED
+	enc (raw|base64|ascii85) #REQUIRED
+	src CDATA #IMPLIED
+>
+
+<!ELEMENT imgdef (imgsrc)*>
+<!ATTLIST imgdef
+	id CDATA #REQUIRED
+>
+
+<!-- - - - - - - - - - - - - INSTRUCTIONS - - - - - - - - - - - - -->
+
+<!ENTITY % inst "(g|for|field|hband|vband|cross|saltire|dband|disc|poly|symbol|image|hgrad|vgrad)">
+
+<!ELEMENT g (clip?,(%inst;)*)>
+<!ELEMENT clip (%inst;)*>
+
+<!ELEMENT for (%inst;)*>
+<!ATTLIST for
+	var CDATA #REQUIRED
+	start CDATA #REQUIRED
+	end CDATA #REQUIRED
+	step CDATA #IMPLIED
+>
+
+<!ELEMENT field EMPTY>
+<!ATTLIST field
+	x1 CDATA #REQUIRED
+	y1 CDATA #REQUIRED
+	x2 CDATA #REQUIRED
+	y2 CDATA #REQUIRED
+	color CDATA #IMPLIED
+>
+
+<!ELEMENT hband EMPTY>
+<!ATTLIST hband
+	x1 CDATA #REQUIRED
+	y1 CDATA #REQUIRED
+	x2 CDATA #REQUIRED
+	y2 CDATA #REQUIRED
+	bands CDATA #REQUIRED
+	colors CDATA #IMPLIED
+	weights CDATA #IMPLIED
+>
+
+<!ELEMENT vband EMPTY>
+<!ATTLIST vband
+	x1 CDATA #REQUIRED
+	y1 CDATA #REQUIRED
+	x2 CDATA #REQUIRED
+	y2 CDATA #REQUIRED
+	bands CDATA #REQUIRED
+	colors CDATA #IMPLIED
+	weights CDATA #IMPLIED
+>
+
+<!ELEMENT cross EMPTY>
+<!ATTLIST cross
+	x1 CDATA #REQUIRED
+	y1 CDATA #REQUIRED
+	x2 CDATA #REQUIRED
+	y2 CDATA #REQUIRED
+	x3 CDATA #REQUIRED
+	y3 CDATA #REQUIRED
+	x4 CDATA #REQUIRED
+	y4 CDATA #REQUIRED
+	color CDATA #IMPLIED
+>
+
+<!ELEMENT saltire EMPTY>
+<!ATTLIST saltire
+	x1 CDATA #REQUIRED
+	y1 CDATA #REQUIRED
+	x2 CDATA #REQUIRED
+	y2 CDATA #REQUIRED
+	thickness CDATA #REQUIRED
+	color CDATA #IMPLIED
+>
+
+<!ELEMENT dband EMPTY>
+<!ATTLIST dband
+	x1 CDATA #REQUIRED
+	y1 CDATA #REQUIRED
+	x2 CDATA #REQUIRED
+	y2 CDATA #REQUIRED
+	thickness CDATA #REQUIRED
+	color CDATA #IMPLIED
+>
+
+<!ELEMENT disc EMPTY>
+<!ATTLIST disc
+	cx CDATA #REQUIRED
+	cy CDATA #REQUIRED
+	w CDATA #REQUIRED
+	h CDATA #REQUIRED
+	arcstart CDATA #IMPLIED
+	arcend CDATA #IMPLIED
+	color CDATA #IMPLIED
+>
+
+<!ELEMENT poly EMPTY>
+<!ATTLIST poly
+	points CDATA #REQUIRED
+	color CDATA #IMPLIED
+>
+
+<!ELEMENT symbol EMPTY>
+<!ATTLIST symbol
+	symbol CDATA #REQUIRED
+	x CDATA #REQUIRED
+	y CDATA #REQUIRED
+	sx CDATA #REQUIRED
+	sy CDATA #REQUIRED
+	rotate CDATA #IMPLIED
+	color CDATA #IMPLIED
+>
+
+<!ELEMENT image EMPTY>
+<!ATTLIST image
+	x1 CDATA #REQUIRED
+	y1 CDATA #REQUIRED
+	x2 CDATA #REQUIRED
+	y2 CDATA #REQUIRED
+	image CDATA #REQUIRED
+>
+
+<!ELEMENT hgrad EMPTY>
+<!ATTLIST hgrad
+	x1 CDATA #REQUIRED
+	y1 CDATA #REQUIRED
+	x2 CDATA #REQUIRED
+	y2 CDATA #REQUIRED
+	color1 CDATA #IMPLIED
+	color2 CDATA #IMPLIED
+>
+
+<!ELEMENT vgrad EMPTY>
+<!ATTLIST vgrad
+	x1 CDATA #REQUIRED
+	y1 CDATA #REQUIRED
+	x2 CDATA #REQUIRED
+	y2 CDATA #REQUIRED
+	color1 CDATA #IMPLIED
+	color2 CDATA #IMPLIED
+>
+
+<!-- - - - - - - - - - - - - FLAG - - - - - - - - - - - - -->
+
+<!ELEMENT flag (defs?,(%inst;)*)>
+<!ATTLIST flag
+	id CDATA #IMPLIED
+	name CDATA #IMPLIED
+	properties CDATA #IMPLIED
+	fly CDATA #REQUIRED
+>
+
+<!ELEMENT defs (%def;)*>

@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+java -Dcom.kreative.arg0=vexcalc -cp /usr/local/bin/vexillo.jar com.kreative.vexillo.main.VexCalc "$@"
