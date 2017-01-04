@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="jp" name="Japan" properties="cf sf ce se normal" fly="h*3/2">
+	<defs>
+		<dim id="D" e="min(h*3/5,w*3/5)"/>
+		<color id="white">
+			<colorspec model="munsell" value="N9.4"/>
+			<colorspec model="munsell" value="N9.2"/>
+			<colorspec model="munsell" value="N9"/>
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="032 Coated"/>
+			<colorspec model="munsell" value="5.7R 3.7 15.5"/>
+			<colorspec model="munsell" value="6.2R 4 15.2"/>
+			<colorspec model="pantone" value="186 Coated"/>
+			<colorspec model="cmyk" value="0 90 80 5"/>
+			<colorspec model="cmyk" value="0 100 90 0"/>
+			<colorspec model="munsell" value="5R 4 12"/>
+			<colorspec model="rgb" value="188 0 45"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<disc cx="w/2" cy="h/2" w="D" h="D" color="red"/>
+</flag>

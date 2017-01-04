@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="sy-snc" name="Syrian National Coalition" properties="cf sf wf ce se we normal" fly="h*2">
+	<defs>
+		<color id="green">
+			<colorspec model="pantone" value="355"/>
+			<colorspec model="cmyk" value="94 0 100 0"/>
+			<colorspec model="rgb" value="0 169 79"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="032"/>
+			<colorspec model="cmyk" value="0 90 86 0"/>
+			<colorspec model="rgb" value="239 65 53"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="White"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="black">
+			<colorspec model="pantone" value="Black"/>
+			<colorspec model="cmyk" value="0 0 0 100"/>
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="green white black"/>
+	<symbol symbol="star" x="w/4" y="h/2+h*0.0955/6" sx="h/6" sy="h/6" color="red"/>
+	<symbol symbol="star" x="w/2" y="h/2+h*0.0955/6" sx="h/6" sy="h/6" color="red"/>
+	<symbol symbol="star" x="w*3/4" y="h/2+h*0.0955/6" sx="h/6" sy="h/6" color="red"/>
+</flag>

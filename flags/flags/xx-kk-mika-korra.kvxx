@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<!-- Copyright © Kreative Media, Rebecca G. Bettencourt. All rights reserved. -->
+<flag name="Korra-Texxa" fly="h*3/2">
+	<defs>
+		<dim id="u" e="h/20"/>
+		<color id="blue">
+			<colorspec model="rgb" value="51 0 170"/>
+		</color>
+		<color id="silver">
+			<colorspec model="rgb" value="221 221 221"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<dband x1="u*4" y1="u*8" x2="u*4" y2="u*18" thickness="u*2" color="silver"/>
+	<dband x1="u*9" y1="u*8" x2="u*4" y2="u*13" thickness="u*2" color="silver"/>
+	<dband x1="u*4" y1="u*13" x2="u*13" y2="u*13" thickness="u*2" color="silver"/>
+	<dband x1="u*9" y1="u*13" x2="u*9" y2="u*20" thickness="u*2" color="silver"/>
+</flag>

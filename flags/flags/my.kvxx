@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="my" name="Malaysia" properties="cf sf normal" fly="h*2">
+	<defs>
+		<dim id="cw" e="w/2"/>
+		<dim id="ch" e="h*8/14"/>
+		<dim id="ex" e="cw/2"/>
+		<dim id="ey" e="ch/2"/>
+		<dim id="eh" e="min(ch,cw*3/4)"/>
+		<dim id="od" e="eh*3/4"/>
+		<dim id="id" e="eh*2.75/4"/>
+		<dim id="sr" e="eh*2.5/8"/>
+		<dim id="ox" e="ex-eh*1.75/8"/>
+		<dim id="ix" e="ex-eh/8"/>
+		<dim id="sx" e="ex+eh*1.5/8"/>
+		<color id="blue">
+			<colorspec model="pantone" value="286"/>
+			<colorspec model="cmyk" value="100 66 0 2"/>
+			<colorspec model="rgb" value="0 93 170"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="485"/>
+			<colorspec model="cmyk" value="0 95 100 0"/>
+			<colorspec model="rgb" value="238 49 36"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="109"/>
+			<colorspec model="cmyk" value="0 10 100 0"/>
+			<colorspec model="rgb" value="255 221 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star14" d="M 0 -1 L 0.089008 -0.389971 L 0.433884 -0.900969
+		                       L 0.249396 -0.312733 L 0.781831 -0.62349
+		                       L 0.360388 -0.173553 L 0.974928 -0.222521
+		                       L 0.4 -0 L 0.974928 0.222521 L 0.360388 0.173553
+		                       L 0.781831 0.62349 L 0.249396 0.312733
+		                       L 0.433884 0.900969 L 0.089008 0.389971 L 0 1
+		                       L -0.089008 0.389971 L -0.433884 0.900969
+		                       L -0.249396 0.312733 L -0.781831 0.62349
+		                       L -0.360388 0.173553 L -0.974928 0.222521
+		                       L -0.4 0 L -0.974928 -0.222521
+		                       L -0.360388 -0.173553 L -0.781831 -0.62349
+		                       L -0.249396 -0.312733 L -0.433884 -0.900969
+		                       L -0.089008 -0.389971 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="14" colors="red white"/>
+	<field x1="0" y1="0" x2="cw" y2="ch" color="blue"/>
+	<disc cx="ox" cy="ey" w="od" h="od" color="yellow"/>
+	<disc cx="ix" cy="ey" w="id" h="id" color="blue"/>
+	<symbol symbol="star14" x="sx" y="ey" sx="sr" sy="sr" color="yellow"/>
+</flag>

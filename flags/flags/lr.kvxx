@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="lr" name="Liberia" properties="cf sf wf ce se we normal" fly="h*19/10">
+	<defs>
+		<dim id="c" e="h*5/11"/>
+		<!-- Using colors from the U.S. flag. -->
+		<color id="white">
+			<colorspec model="lab" value="D65 88.7 -0.2 5.4"/>
+			<colorspec model="munsell" value="2.5Y 8.8 0.7"/>
+			<colorspec model="lab" value="D50 100.0 0.0 0.0"/>
+			<colorspec model="rgb" value="1.0 1.0 1.0"/>
+			<colorspec model="cmyk" value="0.0 0.0 0.0 0.0"/>
+		</color>
+		<color id="red">
+			<colorspec model="lab" value="D65 33.9 51.2 24.7"/>
+			<colorspec model="munsell" value="5.5R 3.3 11.1"/>
+			<colorspec model="lab" value="D50 39.9 57.3 28.7"/>
+			<colorspec model="rgb" value="0.698 0.132 0.203"/>
+			<colorspec model="cmyk" value="0.196 1.0 0.757 0.118"/>
+		</color>
+		<color id="blue">
+			<colorspec model="lab" value="D65 23.2 13.1 -26.4"/>
+			<colorspec model="munsell" value="8.2PB 2.3 6.1"/>
+			<colorspec model="lab" value="D50 26.9 11.5 -30.3"/>
+			<colorspec model="rgb" value="0.234 0.233 0.430"/>
+			<colorspec model="cmyk" value="0.886 0.851 0.243 0.122"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="11" colors="red white"/>
+	<field x1="0" y1="0" x2="c" y2="c" color="blue"/>
+	<symbol symbol="star" x="c/2" y="c/2" sx="c/3" sy="c/3" color="white"/>
+</flag>

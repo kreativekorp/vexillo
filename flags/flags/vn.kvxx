@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="vn" name="Vietnam" properties="cf sf normal" fly="h*3/2">
+	<defs>
+		<dim id="r" e="min(h*3/10,w*3/10)"/>
+		<color id="red">
+			<colorspec model="pantone" value="1788"/>
+			<colorspec model="cmyk" value="0 88 88 11"/>
+			<colorspec model="rgb" value="226 28 28"/>
+			<colorspec model="ncs" value="10 85 Y80R"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="116"/>
+			<colorspec model="cmyk" value="0 0 100 0"/>
+			<colorspec model="rgb" value="255 255 0"/>
+			<colorspec model="ncs" value="05 70 G70Y"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<symbol symbol="star" x="w/2" y="h/2" sx="r" sy="r" color="yellow"/>
+</flag>

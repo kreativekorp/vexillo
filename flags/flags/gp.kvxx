@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="gp" name="Guadeloupe" properties="no-flag" fly="h*2">
+	<defs>
+		<dim id="sx" e="min(h*0.359,w/2)"/>
+		<dim id="sy" e="h*0.517"/>
+		<dim id="sr" e="min(h*0.180,w*0.325)"/>
+		<color id="green">
+			<colorspec model="rgb" value="7 137 48"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="218 18 26"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="252 221 9"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="green white red white green" weights="5 2 26 2 5"/>
+	<symbol symbol="star" x="sx" y="sy" sx="sr" sy="sr" color="yellow"/>
+</flag>

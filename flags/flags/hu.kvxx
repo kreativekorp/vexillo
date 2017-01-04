@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="hu" name="Hungary" properties="cf sf normal" fly="h*2">
+	<defs>
+		<color id="red">
+			<colorspec model="pantone" value="186"/>
+			<colorspec model="cmyk" value="0 100 81 4"/>
+			<colorspec model="rgb" value="227 24 55"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="348"/>
+			<colorspec model="cmyk" value="100 0 85 24"/>
+			<colorspec model="rgb" value="0 135 82"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="red white green"/>
+</flag>

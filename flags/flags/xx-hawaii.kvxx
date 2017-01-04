@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Hawaii" properties="cf sf normal" fly="h*2">
+	<defs>
+		<dim id="uh" e="h/2"/>
+		<dim id="uw" e="w*7/16"/>
+		<!-- Dimensions of Saltire -->
+		<dim id="t1" e="uh*6/32"/>
+		<dim id="t2" e="uh*4/32"/>
+		<!-- Dimensions of Cross -->
+		<dim id="cy1" e="uh*12/32"/>
+		<dim id="cy2" e="uh*13/32"/>
+		<dim id="cy3" e="uh*19/32"/>
+		<dim id="cy4" e="uh*20/32"/>
+		<dim id="cx1" e="uw/2-uh*4/32"/>
+		<dim id="cx2" e="uw/2-uh*3/32"/>
+		<dim id="cx3" e="uw/2+uh*3/32"/>
+		<dim id="cx4" e="uw/2+uh*4/32"/>
+		<!-- Colors from the UK flag. -->
+		<color id="blue">
+			<colorspec model="pantone" value="280 C"/>
+			<colorspec model="cmyk" value="100 72 0 18"/>
+			<colorspec model="rgb" value="0 36 125"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="186 C"/>
+			<colorspec model="cmyk" value="0 91 76 6"/>
+			<colorspec model="rgb" value="207 20 43"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="8" colors="white red blue"/>
+	<g>
+		<!-- Saltire -->
+		<field x1="0" y1="0" x2="uw" y2="uh" color="blue"/>
+		<saltire x1="0" y1="0" x2="uw" y2="uh" thickness="t1" color="white"/>
+		<g>
+			<clip>
+				<saltire x1="0" y1="0" x2="uw" y2="uh" thickness="t2"/>
+			</clip>
+			<poly points="0 0 uw/2 uh/2 0 uh/2" color="red"/>
+			<poly points="uw 0 uw/2 uh/2 uw/2 0" color="red"/>
+			<poly points="0 uh uw/2 uh/2 uw/2 uh" color="red"/>
+			<poly points="uw uh uw/2 uh/2 uw uh/2" color="red"/>
+		</g>
+		<!-- Cross -->
+		<cross x1="0" y1="0" x2="cx1" y2="cy1" x3="cx4" y3="cy4" x4="uw" y4="uh" color="white"/>
+		<cross x1="0" y1="0" x2="cx2" y2="cy2" x3="cx3" y3="cy3" x4="uw" y4="uh" color="red"/>
+	</g>
+</flag>

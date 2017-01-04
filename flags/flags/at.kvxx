@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="at" name="Austria" properties="cf ce normal" fly="h*3/2">
+	<defs>
+		<color id="red">
+			<colorspec model="pantone" value="032"/>
+			<colorspec model="rgb" value="239 65 53"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="red white red"/>
+</flag>

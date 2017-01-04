@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="nr" name="Nauru" properties="sf ce normal" fly="h*2">
+	<defs>
+		<dim id="sx" e="w/4"/>
+		<dim id="sy" e="h*17/24"/>
+		<dim id="sr" e="min(h/6,w/4)"/>
+		<color id="blue">
+			<colorspec model="pantone" value="280c"/>
+			<colorspec model="cmyk" value="100 70 0 10"/>
+			<colorspec model="rgb" value="0 82 156"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="123c"/>
+			<colorspec model="cmyk" value="0 30 95 0"/>
+			<colorspec model="rgb" value="253 185 36"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star12" d="M 0 -1 L 0.12941 -0.482963 L 0.5 -0.866025
+		                       L 0.353553 -0.353553 L 0.866025 -0.5
+		                       L 0.482963 -0.12941 L 1 -0 L 0.482963 0.12941
+		                       L 0.866025 0.5 L 0.353553 0.353553 L 0.5 0.866025
+		                       L 0.12941 0.482963 L 0 1 L -0.12941 0.482963
+		                       L -0.5 0.866025 L -0.353553 0.353553
+		                       L -0.866025 0.5 L -0.482963 0.12941 L -1 0
+		                       L -0.482963 -0.12941 L -0.866025 -0.5
+		                       L -0.353553 -0.353553 L -0.5 -0.866025
+		                       L -0.12941 -0.482963 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue yellow blue" weights="11 2 11"/>
+	<symbol symbol="star12" x="sx" y="sy" sx="sr" sy="sr" color="white"/>
+</flag>

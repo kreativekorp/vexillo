@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="it" name="Italy" properties="cf sf wf normal" fly="h*3/2">
+	<defs>
+		<color id="green">
+			<colorspec model="pantone" value="17-6153 TC"/>
+			<colorspec model="rgb" value="0 146 70"/>
+			<colorspec model="cmyk" value="100 0 100 45"/>
+			<colorspec model="hsv" value="149 100 57"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="11-0601 TC"/>
+			<colorspec model="rgb" value="241 242 241"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="hsv" value="120 0 95"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="18-1662 TC"/>
+			<colorspec model="rgb" value="206 43 55"/>
+			<colorspec model="cmyk" value="0 100 100 0"/>
+			<colorspec model="hsv" value="5 79 81"/>
+		</color>
+	</defs>
+	<vband x1="0" y1="0" x2="w" y2="h" bands="3" colors="green white red"/>
+</flag>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="am" name="Armenia" properties="cf sf wf normal" fly="h*2">
+	<defs>
+		<color id="red">
+			<colorspec model="pantone" value="485"/>
+			<colorspec model="cmyk" value="0 100 100 0"/>
+			<colorspec model="rgb" value="217 0 18"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="286"/>
+			<colorspec model="cmyk" value="100 80 0 0"/>
+			<colorspec model="rgb" value="0 51 160"/>
+		</color>
+		<color id="orange">
+			<colorspec model="pantone" value="1235"/>
+			<colorspec model="cmyk" value="0 35 100 0"/>
+			<colorspec model="rgb" value="242 168 0"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="red blue orange"/>
+</flag>

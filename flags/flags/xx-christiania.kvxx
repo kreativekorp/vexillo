@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Christiania" fly="h*3/2">
+	<!-- I could not find an authoritative source for proportion or colors. There probably is none. -->
+	<defs>
+		<dim id="d" e="min(w/4,h*3/8)"/>
+		<dim id="s" e="d*37/30"/>
+		<color id="red">
+			<colorspec model="rgb" value="255 0 0"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 255 0"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<disc cx="w/2" cy="h/2" w="d" h="d" color="yellow"/>
+	<disc cx="w/2-s" cy="h/2" w="d" h="d" color="yellow"/>
+	<disc cx="w/2+s" cy="h/2" w="d" h="d" color="yellow"/>
+</flag>

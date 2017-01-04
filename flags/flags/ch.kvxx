@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ch" name="Switzerland" properties="cf sf wf normal" fly="h">
+	<defs>
+		<!-- Size and location of red field. -->
+		<dim id="s" e="min(h,w)"/>
+		<dim id="x1" e="(w-s)/2"/>
+		<dim id="y1" e="(h-s)/2"/>
+		<dim id="x2" e="(w+s)/2"/>
+		<dim id="y2" e="(h+s)/2"/>
+		<!-- Size and location of outside of cross. -->
+		<dim id="cs" e="s*5/8"/>
+		<dim id="cx1" e="(w-cs)/2"/>
+		<dim id="cy1" e="(h-cs)/2"/>
+		<dim id="cx4" e="(w+cs)/2"/>
+		<dim id="cy4" e="(h+cs)/2"/>
+		<!-- Size and location of inside of cross. -->
+		<dim id="ct" e="cs*6/20"/>
+		<dim id="cx2" e="(w-ct)/2"/>
+		<dim id="cy2" e="(h-ct)/2"/>
+		<dim id="cx3" e="(w+ct)/2"/>
+		<dim id="cy3" e="(h+ct)/2"/>
+		<!-- Glaze only visible part. -->
+		<dim id=".glazeleft" e="x1"/>
+		<dim id=".glazetop" e="y1"/>
+		<dim id=".glazeright" e="x2"/>
+		<dim id=".glazebottom" e="y2"/>
+		<!-- Colors. -->
+		<color id="red">
+			<colorspec model="pantone" value="485"/>
+			<colorspec model="cmyk" value="0 100 100 0"/>
+			<colorspec model="rgb" value="255 0 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<field x1="x1" y1="y1" x2="x2" y2="y2" color="red"/>
+	<cross x1="cx1" y1="cy1" x2="cx2" y2="cy2" x3="cx3" y3="cy3" x4="cx4" y4="cy4" color="white"/>
+</flag>

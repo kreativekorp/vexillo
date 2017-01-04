@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="nl" name="Netherlands" properties="cf sf wf ce se we normal" fly="h*3/2">
+	<defs>
+		<color id="red">
+			<colorspec model="xyz" value="17.2 9.0 2.6"/>
+			<colorspec model="cmyk" value="0 84 77 32"/>
+			<colorspec model="rgb" value="174 28 40"/>
+		</color>
+		<color id="white">
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="blue">
+			<colorspec model="xyz" value="7.8 6.8 26.7"/>
+			<colorspec model="cmyk" value="76 50 0 46"/>
+			<colorspec model="rgb" value="33 70 139"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="red white blue"/>
+</flag>

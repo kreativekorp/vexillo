@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="za" name="South Africa" properties="cf sf ce se normal" fly="h*3/2">
+	<defs>
+		<dim id="ot" e="h/3"/>
+		<dim id="it" e="h/5"/>
+		<color id="green">
+			<colorspec model="pantone" value="3415 c"/>
+			<colorspec model="rgb" value="0 124 89"/>
+			<!-- colorspec model="cks" value="42 c" -->
+		</color>
+		<color id="black">
+			<colorspec model="pantone" value="Black"/>
+			<colorspec model="rgb" value="0 0 0"/>
+			<!-- colorspec model="cks" value="401 c" -->
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="White"/>
+			<colorspec model="rgb" value="255 255 255"/>
+			<!-- colorspec model="cks" value="701 c" -->
+		</color>
+		<color id="gold">
+			<colorspec model="pantone" value="1235 c"/>
+			<colorspec model="rgb" value="252 181 20"/>
+			<!-- colorspec model="cks" value="724 c" -->
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="179 c"/>
+			<colorspec model="rgb" value="226 61 40"/>
+			<!-- colorspec model="cks" value="750 c" -->
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="Reflex Blue c"/>
+			<colorspec model="rgb" value="12 28 140"/>
+			<!-- colorspec model="cks" value="762 c" -->
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="2" colors="red blue"/>
+	<poly points="0 0 w/2 h/2 0 h" color="black"/>
+	<g>
+		<clip>
+			<poly points="0 0 w/2 h/2 0 h"/>
+		</clip>
+		<dband x1="0" y1="0" x2="w/2" y2="h/2" thickness="ot" color="gold"/>
+		<dband x1="w/2" y1="h/2" x2="0" y2="h" thickness="ot" color="gold"/>
+	</g>
+	<g>
+		<clip>
+			<poly points="0 0 w 0 w h 0 h w/2 h/2"/>
+		</clip>
+		<dband x1="0" y1="0" x2="w/2" y2="h/2" thickness="ot" color="white"/>
+		<dband x1="w/2" y1="h/2" x2="0" y2="h" thickness="ot" color="white"/>
+		<dband x1="w/2" y1="h/2" x2="w" y2="h/2" thickness="ot" color="white"/>
+	</g>
+	<g>
+		<clip>
+			<field x1="0" y1="0" x2="w" y2="h"/>
+		</clip>
+		<dband x1="0" y1="0" x2="w/2" y2="h/2" thickness="it" color="green"/>
+		<dband x1="w/2" y1="h/2" x2="0" y2="h" thickness="it" color="green"/>
+		<dband x1="w/2" y1="h/2" x2="w" y2="h/2" thickness="it" color="green"/>
+	</g>
+</flag>

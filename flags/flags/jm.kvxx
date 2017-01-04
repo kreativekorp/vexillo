@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="jm" name="Jamaica" properties="cf sf wf ce normal" fly="h*2">
+	<defs>
+		<dim id="t" e="min(h/6,w/6)"/>
+		<color id="yellow">
+			<colorspec model="pantone" value="109U"/>
+			<colorspec model="cmyk" value="0 10 100 0"/>
+			<colorspec model="rgb" value="255 221 0"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="355U"/>
+			<colorspec model="cmyk" value="94 0 100 0"/>
+			<colorspec model="rgb" value="0 169 79"/>
+		</color>
+		<color id="black">
+			<colorspec model="cmyk" value="0 0 0 100"/>
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="green"/>
+	<poly points="0 0 w/2 h/2 0 h" color="black"/>
+	<poly points="w 0 w/2 h/2 w h" color="black"/>
+	<saltire x1="0" y1="0" x2="w" y2="h" thickness="t" color="yellow"/>
+</flag>

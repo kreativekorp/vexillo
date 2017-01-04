@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="in" name="India" properties="cf sf wf normal" fly="h*3/2">
+	<defs>
+		<dim id="cd1" e="min(h*4/15,w*8/15)"/>
+		<dim id="cd2" e="min(h*7/30,w*7/15)"/>
+		<dim id="cd3" e="min(h*7/150,w*7/75)"/>
+		<color id="orange">
+			<colorspec model="pantone" value="1495"/>
+			<colorspec model="cmyk" value="0 33 67 0"/>
+			<colorspec model="rgb" value="251 181 104"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="362"/>
+			<colorspec model="cmyk" value="70 0 100 9"/>
+			<colorspec model="rgb" value="73 169 66"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="2755"/>
+			<colorspec model="cmyk" value="100 97 0 30"/>
+			<colorspec model="rgb" value="30 33 113"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="spoke" d="M 0 1 L 0.0343 0.4 C 0.0343 0.4 0 0.1143 0 0.1143
+		                      C 0 0.1143 -0.0343 0.4 -0.0343 0.4 L 0 1 z"/>
+		<symdef id="disc" d="M 0.5 0 A 0.5 0.5 0 0 0 -0.5 0 A 0.5 0.5 0 0 0 0.5 0 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="orange white green"/>
+	<disc cx="w/2" cy="h/2" w="cd1" h="cd1" color="blue"/>
+	<disc cx="w/2" cy="h/2" w="cd2" h="cd2" color="white"/>
+	<disc cx="w/2" cy="h/2" w="cd3" h="cd3" color="blue"/>
+	<for var="x" start="0" end="23">
+		<symbol symbol="spoke" x="w/2" y="h/2" sx="cd2/2" sy="cd2/2" rotate="x*15" color="blue"/>
+	</for>
+	<for var="x" start="1" end="47" step="2">
+		<symbol symbol="disc" x="(w+cd2*sin(x*7.5))/2" y="(h+cd2*cos(x*7.5))/2"
+		                      sx="cd1/20" sy="cd1/20" color="blue"/>
+	</for>
+</flag>

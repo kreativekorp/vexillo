@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="td" name="Chad" properties="cf sf wf ce se we normal" fly="h*3/2">
+	<defs>
+		<color id="blue">
+			<colorspec model="pantone" value="281c"/>
+			<colorspec model="cmyk" value="100 70 0 35"/>
+			<colorspec model="rgb" value="12 28 140"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="116c"/>
+			<colorspec model="cmyk" value="0 10 95 0"/>
+			<colorspec model="rgb" value="252 209 22"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="186c"/>
+			<colorspec model="cmyk" value="0 90 80 5"/>
+			<colorspec model="rgb" value="206 17 38"/>
+		</color>
+	</defs>
+	<vband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue yellow red"/>
+</flag>

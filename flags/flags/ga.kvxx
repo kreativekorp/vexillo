@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ga" name="Gabon" fly="h*4/3">
+	<defs>
+		<color id="green">
+			<colorspec model="pantone" value="355"/>
+			<colorspec model="cmyk" value="94 0 100 0"/>
+			<colorspec model="rgb" value="0 169 79"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="109"/>
+			<colorspec model="cmyk" value="0 10 100 0"/>
+			<colorspec model="rgb" value="255 221 0"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="293"/>
+			<colorspec model="cmyk" value="100 57 0 2"/>
+			<colorspec model="rgb" value="0 103 177"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="green yellow blue"/>
+</flag>

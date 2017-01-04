@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Intersex Pride" fly="h*3/2">
+	<!-- I could not find an authoritative source for proportion or colors. There probably is none. -->
+	<defs>
+		<dim id="D" e="min(h*0.58,w*0.58)"/>
+		<dim id="d" e="min(h*0.40,w*0.40)"/>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 216 0"/>
+		</color>
+		<color id="purple">
+			<colorspec model="rgb" value="121 2 170"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="yellow"/>
+	<disc cx="w/2" cy="h/2" w="D" h="D" color="purple"/>
+	<disc cx="w/2" cy="h/2" w="d" h="d" color="yellow"/>
+</flag>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Fenno-Swede" fly="h*3/2">
+	<!-- I could not find an authoritative source for proportion or colors. There probably is none. -->
+	<defs>
+		<dim id="y1" e="h*2/5"/>
+		<dim id="y2" e="h*3/5"/>
+		<dim id="x1" e="min(h*2/5,w/2-h/10)"/>
+		<dim id="x2" e="min(h*3/5,w/2+h/10)"/>
+		<color id="red">
+			<colorspec model="pantone" value="179"/>
+			<colorspec model="cmyk" value="0 90 86 0"/>
+			<colorspec model="rgb" value="239 65 53"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="108"/>
+			<colorspec model="cmyk" value="0 6 95 0"/>
+			<colorspec model="rgb" value="255 229 18"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<cross x1="0" y1="0" x2="x1" y2="y1" x3="x2" y3="y2" x4="w" y4="h" color="yellow"/>
+</flag>

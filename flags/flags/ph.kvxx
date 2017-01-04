@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ph" name="Philippines" properties="cf sf wf ce se we normal" fly="h*2">
+	<defs>
+		<dim id="t" e="h*sqrt(3)/2"/>
+		<dim id="sr" e="h*5/90"/>
+		<dim id="sd" e="h*14/90"/>
+		<dim id="sx" e="sd/2"/>
+		<dim id="sy" e="sx*sqrt(3)"/>
+		<dim id="sunx" e="h*28/90"/>
+		<dim id="sunr" e="h*19/90"/>
+		<dim id="sund" e="h*18/90"/>
+		<color id="blue">
+			<colorspec model="cable" value="80173"/>
+			<colorspec model="pantone" value="286"/>
+			<colorspec model="rgb" value="0 56 168"/>
+			<colorspec model="cmyk" value="100 60 0 5"/>
+		</color>
+		<color id="red">
+			<colorspec model="cable" value="80108"/>
+			<colorspec model="pantone" value="186"/>
+			<colorspec model="rgb" value="206 17 38"/>
+			<colorspec model="cmyk" value="0 90 65 10"/>
+		</color>
+		<color id="white">
+			<colorspec model="cable" value="80001"/>
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="rgb" value="255 255 255"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="cable" value="80068"/>
+			<colorspec model="pantone" value="116"/>
+			<colorspec model="rgb" value="252 209 22"/>
+			<colorspec model="cmyk" value="0 18 85 0"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+		<symdef id="ray" d="M 0 -1 L -0.061512 -0.938488 L 0 0
+		                    l 0.061512 -0.938488 L 0 -1 z
+		                    M -0.117794 -0.894736 L -0.16799 -0.844542
+		                    L 0 0 L -0.117794 -0.894736 z
+		                    M 0.117796 -0.894736 l 0.050196 0.050196
+		                    L 0 0 L 0.117796 -0.894736 z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="2" colors="blue red"/>
+	<poly points="0 0 t h/2 0 h" color="white"/>
+	<symbol symbol="star" x="sx" y="sy" sx="sr" sy="sr" rotate="-30" color="yellow"/>
+	<symbol symbol="star" x="sx" y="h-sy" sx="sr" sy="sr" rotate="-150" color="yellow"/>
+	<symbol symbol="star" x="t-sd" y="h/2" sx="sr" sy="sr" rotate="90" color="yellow"/>
+	<for var="x" start="0" end="7">
+		<symbol symbol="ray" x="sunx" y="h/2" sx="sunr" sy="sunr" rotate="x*45" color="yellow"/>
+	</for>
+	<disc cx="sunx" cy="h/2" w="sund" h="sund" color="yellow"/>
+</flag>

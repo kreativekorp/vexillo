@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="sl" name="Sierra Leone" properties="cf sf wf ce se normal" fly="h*3/2">
+	<defs>
+		<color id="green">
+			<colorspec model="pantone" value="361"/>
+			<colorspec model="cmyk" value="69 0 100 0"/>
+			<colorspec model="rgb" value="84 185 72"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="292"/>
+			<colorspec model="cmyk" value="49 11 0 0"/>
+			<colorspec model="rgb" value="121 189 232"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="green white blue"/>
+</flag>

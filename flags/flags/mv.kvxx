@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="mv" name="Maldives" properties="cf sf wf ce se we normal" fly="h*3/2">
+	<defs>
+		<dim id="b" e="min(h/4,w/4)"/>
+		<dim id="d" e="min(h/3,w/3)"/>
+		<dim id="x1" e="w/2+d*3/16"/>
+		<dim id="x2" e="w/2+d*6/16"/>
+		<color id="red">
+			<colorspec model="pantone" value="186C"/>
+			<colorspec model="rgb" value="210 16 52"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="348C"/>
+			<colorspec model="rgb" value="0 126 58"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<field x1="b" y1="b" x2="w-b" y2="h-b" color="green"/>
+	<g>
+		<clip>
+			<field x1="b" y1="b" x2="w-b" y2="h-b"/>
+		</clip>
+		<disc cx="x1" cy="h/2" w="d" h="d" color="white"/>
+		<disc cx="x2" cy="h/2" w="d" h="d" color="green"/>
+	</g>
+</flag>

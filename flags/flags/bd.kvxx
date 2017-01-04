@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="bd" name="Bangladesh" properties="cf sf wf normal" fly="h*5/3">
+	<defs>
+		<dim id="C" e="min(h*3/4,w/2)"/>
+		<dim id="D" e="min(h*2/3,w*2/3)"/>
+		<color id="green">
+			<colorspec model="pantone" value="342c"/>
+			<colorspec model="cmyk" value="100 0 70 40"/>
+			<colorspec model="rgb" value="1 121 111"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="485"/>
+			<colorspec model="cmyk" value="0 100 80 5"/>
+			<colorspec model="rgb" value="225 24 55"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="green"/>
+	<disc cx="C" cy="h/2" w="D" h="D" color="red"/>
+</flag>

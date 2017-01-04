@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="CMYK" fly="h*3/2">
+	<defs>
+		<color id="cyan">
+			<colorspec model="cmyk" value="100 0 0 0"/>
+			<colorspec model="rgb" value="0 255 255"/>
+		</color>
+		<color id="magenta">
+			<colorspec model="cmyk" value="0 100 0 0"/>
+			<colorspec model="rgb" value="255 0 255"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="cmyk" value="0 0 100 0"/>
+			<colorspec model="rgb" value="255 255 0"/>
+		</color>
+		<color id="black">
+			<colorspec model="cmyk" value="0 0 0 100"/>
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+	</defs>
+	<vband x1="0" y1="0" x2="w" y2="h" bands="4" colors="cyan magenta yellow black"/>
+</flag>

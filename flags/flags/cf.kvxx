@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="cf" name="Central Africa" properties="cf sf wf normal" fly="h*5/3">
+	<defs>
+		<dim id="sr" e="min(h/8,w/8)"/>
+		<color id="blue">
+			<colorspec model="pantone" value="293"/>
+			<colorspec model="cmyk" value="100 57 0 2"/>
+			<colorspec model="rgb" value="0 103 177"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="032"/>
+			<colorspec model="cmyk" value="0 90 86 0"/>
+			<colorspec model="rgb" value="239 65 53"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="355"/>
+			<colorspec model="cmyk" value="94 0 100 0"/>
+			<colorspec model="rgb" value="0 169 79"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="109"/>
+			<colorspec model="cmyk" value="0 10 100 0"/>
+			<colorspec model="rgb" value="255 221 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="4" colors="blue white green yellow"/>
+	<vband x1="w/2-h/8" y1="0" x2="w/2+h/8" y2="h" bands="1" colors="red"/>
+	<symbol symbol="star" x="w*0.14" y="h/8+h*0.118/16" sx="sr" sy="sr" color="yellow"/>
+</flag>

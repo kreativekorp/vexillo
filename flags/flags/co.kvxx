@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="co" name="Colombia" properties="cf sf wf ce se we normal" fly="h*3/2">
+	<defs>
+		<color id="yellow">
+			<colorspec model="pantone" value="116"/>
+			<colorspec model="rgb" value="252 209 22"/>
+			<colorspec model="cmyk" value="0.0 0.171 0.913 0.0"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="287"/>
+			<colorspec model="rgb" value="0 56 147"/>
+			<colorspec model="cmyk" value="1.0 0.619 0.0 0.424"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="186"/>
+			<colorspec model="rgb" value="206 17 38"/>
+			<colorspec model="cmyk" value="0.0 0.917 0.816 0.192"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="yellow blue red" weights="2 1 1"/>
+</flag>

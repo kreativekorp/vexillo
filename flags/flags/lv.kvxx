@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="lv" name="Latvia" properties="cf sf ce normal" fly="h*2">
+	<defs>
+		<color id="red">
+			<colorspec model="pantone" value="201C"/>
+			<colorspec model="rgb" value="158 27 52"/>
+			<colorspec model="cmyk" value="25 100 77 20"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="White"/>
+			<colorspec model="rgb" value="255 255 255"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="red white red" weights="2 1 2"/>
+</flag>

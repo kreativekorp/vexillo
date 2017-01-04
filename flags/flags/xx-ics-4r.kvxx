@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Fourth Repeater" fly="h*11/7">
+	<defs>
+		<symdef id=".glazearea" d="M 0 0 L 1 0.5 L 0 1 Z"/>
+		<color id="red">
+			<colorspec model="rgb" value="255 0 0"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 255 0"/>
+		</color>
+	</defs>
+	<g>
+		<clip>
+			<poly points="0 0 w h/2 0 h"/>
+		</clip>
+		<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+		<field x1="0" y1="h/3" x2="h/3" y2="h*2/3" color="yellow"/>
+	</g>
+</flag>

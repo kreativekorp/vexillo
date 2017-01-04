@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="gm" name="Gambia" properties="cf sf wf ce se we normal" fly="h*3/2">
+	<!-- No reference for colors or proportions. Using Wikipedia. -->
+	<defs>
+		<color id="red">
+			<colorspec model="rgb" value="206 17 38"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="12 28 140"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="58 119 40"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="red white blue white green" weights="6 1 4 1 6"/>
+</flag>

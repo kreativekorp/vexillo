@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="mu" name="Mauritius" properties="cf sf wf normal" fly="h*3/2">
+	<defs>
+		<color id="red">
+			<colorspec model="pantone" value="1788c"/>
+			<colorspec model="cmyk" value="0 84 88 0"/>
+			<colorspec model="rgb" value="240 81 51"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="2756c"/>
+			<colorspec model="cmyk" value="100 94 0 29"/>
+			<colorspec model="rgb" value="28 38 116"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="012c"/>
+			<colorspec model="cmyk" value="0 4 100 0"/>
+			<colorspec model="rgb" value="255 232 0"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="7482c"/>
+			<colorspec model="cmyk" value="80 0 75 0"/>
+			<colorspec model="rgb" value="0 178 116"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="4" colors="red blue yellow green"/>
+</flag>

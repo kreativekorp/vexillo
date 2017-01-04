@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="an" name="Netherlands Antilles" fly="h*3/2">
+	<defs>
+		<dim id="t" e="min(h/3,w/3)"/>
+		<dim id="sr" e="min(h/24,w/24)"/>
+		<dim id="sy1" e="h/2-t/3"/>
+		<dim id="sy2" e="h/2-t*cos(67.5)/6"/>
+		<dim id="sy3" e="h/2+t/3"/>
+		<dim id="sx1" e="w/2-t*sin(67.5)*2/3"/>
+		<dim id="sx2" e="w/2-t*sin(22.5)*2/3"/>
+		<dim id="sx3" e="w/2"/>
+		<dim id="sx4" e="w/2+t*sin(22.5)*2/3"/>
+		<dim id="sx5" e="w/2+t*sin(67.5)*2/3"/>
+		<!-- Colors taken from Dutch flag. -->
+		<color id="red">
+			<colorspec model="xyz" value="17.2 9.0 2.6"/>
+			<colorspec model="cmyk" value="0 84 77 32"/>
+			<colorspec model="rgb" value="174 28 40"/>
+		</color>
+		<color id="blue">
+			<colorspec model="xyz" value="7.8 6.8 26.7"/>
+			<colorspec model="cmyk" value="76 50 0 46"/>
+			<colorspec model="rgb" value="33 70 139"/>
+		</color>
+		<color id="white">
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<field x1="(w-t)/2" y1="0" x2="(w+t)/2" y2="h" color="red"/>
+	<field x1="0" y1="(h-t)/2" x2="w" y2="(h+t)/2" color="blue"/>
+	<symbol symbol="star" x="sx3" y="sy1" sx="sr" sy="sr" color="white"/>
+	<symbol symbol="star" x="sx1" y="sy2" sx="sr" sy="sr" color="white"/>
+	<symbol symbol="star" x="sx5" y="sy2" sx="sr" sy="sr" color="white"/>
+	<symbol symbol="star" x="sx2" y="sy3" sx="sr" sy="sr" color="white"/>
+	<symbol symbol="star" x="sx4" y="sy3" sx="sr" sy="sr" color="white"/>
+</flag>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ck" name="Cook Islands" properties="cf sf normal" fly="h*2">
+	<defs>
+		<dim id="cw" e="w/2"/>
+		<dim id="ch" e="h/2"/>
+		<!-- Saltire -->
+		<dim id="t1" e="ch*6/30"/>
+		<dim id="t2" e="ch*4/30"/>
+		<!-- Cross -->
+		<dim id="cy1" e="ch*10/30"/>
+		<dim id="cy2" e="ch*12/30"/>
+		<dim id="cy3" e="ch*18/30"/>
+		<dim id="cy4" e="ch*20/30"/>
+		<dim id="cx1" e="cw/2-ch*5/30"/>
+		<dim id="cx2" e="cw/2-ch*3/30"/>
+		<dim id="cx3" e="cw/2+ch*3/30"/>
+		<dim id="cx4" e="cw/2+ch*5/30"/>
+		<!-- Stars -->
+		<dim id="sr" e="min(h*3/40,w*3/80)"/>
+		<dim id="sR" e="min(h*17/50,w*17/100)"/>
+		<dim id="sX" e="w*3/4"/>
+		<dim id="sY" e="h/2"/>
+		<!-- Colors -->
+		<color id="blue">
+			<colorspec model="pantone" value="281"/>
+			<colorspec model="cmyk" value="100 72 0 32"/>
+			<colorspec model="rgb" value="0 62 126"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="032"/>
+			<colorspec model="cmyk" value="0 90 86 0"/>
+			<colorspec model="rgb" value="239 65 53"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<g>
+		<saltire x1="0" y1="0" x2="cw" y2="ch" thickness="t1" color="white"/>
+		<g>
+			<clip>
+				<saltire x1="0" y1="0" x2="cw" y2="ch" thickness="t2"/>
+			</clip>
+			<poly points="0 0 cw/2 ch/2 0 ch/2" color="red"/>
+			<poly points="cw 0 cw/2 ch/2 cw/2 0" color="red"/>
+			<poly points="0 ch cw/2 ch/2 cw/2 ch" color="red"/>
+			<poly points="cw ch cw/2 ch/2 cw ch/2" color="red"/>
+		</g>
+		<cross x1="0" y1="0" x2="cx1" y2="cy1" x3="cx4" y3="cy4" x4="cw" y4="ch" color="white"/>
+		<cross x1="0" y1="0" x2="cx2" y2="cy2" x3="cx3" y3="cy3" x4="cw" y4="ch" color="red"/>
+	</g>
+	<for var="x" start="0" end="14">
+		<symbol symbol="star" x="sX+sR*sin(x*24)" y="sY-sR*cos(x*24)" sx="sr" sy="sr" rotate="x*24" color="white"/>
+	</for>
+</flag>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<!-- Copyright © Kreative Media, Rebecca G. Bettencourt. All rights reserved. -->
+<flag name="Kellahanamana" fly="h*3/2">
+	<defs>
+		<dim id="ch" e="min(h*3/15,w*2/15)"/>
+		<dim id="w2" e="w*11/24"/>
+		<dim id="h2" e="h*11/24"/>
+		<dim id="ch2" e="ch*11/24"/>
+		<dim id="x2" e="w/96"/>
+		<dim id="y2" e="h/96"/>
+		<dim id="x3" e="w*51/96"/>
+		<dim id="y3" e="h*51/96"/>
+		<dim id="sr" e="min(h/12,w/12)"/>
+		<color id="blue">
+			<colorspec model="rgb" value="153 221 255"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="pink">
+			<colorspec model="rgb" value="255 153 221"/>
+		</color>
+		<color id="purple">
+			<colorspec model="rgb" value="153 0 102"/>
+		</color>
+		<color id="gold">
+			<colorspec model="rgb" value="255 221 0"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 255 0"/>
+		</color>
+		<symdef id="curl" d="M -0.01759 0.5
+		                     c -0.10612 0.00002 -0.19713 -0.08094 -0.20743 -0.18864
+		                     c -0.00511 -0.05305 0.01113 -0.1044 0.04456 -0.14087
+		                     c 0.02974 -0.03239 0.07117 -0.04989 0.1166 -0.04956
+		                     c 0.04657 0.00043 0.08724 0.02458 0.10615 0.06306
+		                     c 0.01962 0.03993 0.01251 0.08864 -0.01905 0.13029
+		                     c -0.01289 0.01705 -0.03717 0.0204 -0.05426 0.00747
+		                     c -0.01705 -0.01291 -0.0204 -0.03722 -0.00747 -0.05426
+		                     c 0.01369 -0.01806 0.0178 -0.03605 0.01125 -0.04938
+		                     c -0.00601 -0.0122 -0.01994 -0.01959 -0.03734 -0.01974
+		                     c -0.02396 -0.00046 -0.04367 0.00799 -0.0588 0.02448
+		                     c -0.01832 0.01999 -0.0275 0.05029 -0.02453 0.0811
+		                     c 0.00687 0.07188 0.07075 0.12503 0.14286 0.118
+		                     c 0.09407 -0.00905 0.16265 -0.09261 0.15604 -0.19021
+		                     c -0.00681 -0.1005 -0.08982 -0.1543 -0.1777 -0.21126
+		                     c -0.08917 -0.05778 -0.19025 -0.12329 -0.20115 -0.24621
+		                     C -0.24013 -0.36333 -0.13881 -0.48596 -0.00201 -0.49904
+		                     c 0.05538 -0.00527 0.10958 0.01129 0.15254 0.04677
+		                     c 0.04294 0.03545 0.06951 0.0855 0.0748 0.14092
+		                     c 0.0051 0.05306 -0.01117 0.10441 -0.04465 0.14087
+		                     c -0.02935 0.032 -0.07007 0.04954 -0.11479 0.04956
+		                     c -0.00058 0 -0.00116 -0.00001 -0.00172 -0.00001
+		                     c -0.04659 -0.00042 -0.08731 -0.0246 -0.10623 -0.06309
+		                     c -0.01958 -0.03994 -0.01248 -0.0886 0.01904 -0.13018
+		                     c 0.01293 -0.01708 0.03721 -0.02037 0.05426 -0.00746
+		                     c 0.01704 0.01292 0.02037 0.03721 0.00746 0.05426
+		                     c -0.01366 0.018 -0.01775 0.03595 -0.01122 0.04924
+		                     c 0.006 0.01223 0.01999 0.01961 0.03741 0.01978
+		                     c 0.02383 0.00067 0.04362 -0.00798 0.05872 -0.02446
+		                     c 0.01836 -0.02 0.02756 -0.05034 0.02461 -0.08112
+		                     c -0.00333 -0.03483 -0.02004 -0.06629 -0.04702 -0.08857
+		                     c -0.02697 -0.02229 -0.06086 -0.03265 -0.09586 -0.0294
+		                     c -0.09455 0.00905 -0.16456 0.09401 -0.15606 0.18938
+		                     c 0.00756 0.08533 0.08104 0.13294 0.16611 0.18807
+		                     c 0.09535 0.0618 0.20344 0.13184 0.21284 0.27101
+		                     c 0.00948 0.13973 -0.08979 0.25944 -0.22593 0.27255
+		                     C -0.00438 0.4997 -0.01101 0.5 -0.01759 0.5 z"/>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue white pink" weights="2 2 13"/>
+	<g>
+		<!-- Outer -->
+		<symbol symbol="curl" x="w/2" y="h*1/8" sx="ch" sy="ch" rotate="0" color="purple"/>
+		<symbol symbol="curl" x="w/2" y="h*3/8-h/40" sx="ch" sy="ch" rotate="0" color="purple"/>
+		<symbol symbol="curl" x="w/2" y="h*5/8+h/40" sx="ch" sy="ch" rotate="0" color="purple"/>
+		<symbol symbol="curl" x="w/2" y="h*7/8" sx="ch" sy="ch" rotate="0" color="purple"/>
+		<symbol symbol="curl" x="w*1/12" y="h/2" sx="ch" sy="ch" rotate="90" color="purple"/>
+		<symbol symbol="curl" x="w*3/12-w/120" y="h/2" sx="ch" sy="ch" rotate="90" color="purple"/>
+		<symbol symbol="curl" x="w*5/12-w/60" y="h/2" sx="ch" sy="ch" rotate="90" color="purple"/>
+		<symbol symbol="curl" x="w*7/12+w/60" y="h/2" sx="ch" sy="ch" rotate="90" color="purple"/>
+		<symbol symbol="curl" x="w*9/12+w/120" y="h/2" sx="ch" sy="ch" rotate="90" color="purple"/>
+		<symbol symbol="curl" x="w*11/12" y="h/2" sx="ch" sy="ch" rotate="90" color="purple"/>
+	</g>
+	<g>
+		<!-- Top Left -->
+		<!-- symbol symbol="curl" x="x2+w2/2" y="y2+h2*1/8" sx="ch2" sy="ch2" rotate="0" color="purple" -->
+		<symbol symbol="curl" x="x2+w2/2" y="y2+h2*3/8-h2/40" sx="ch2" sy="ch2" rotate="0" color="purple"/>
+		<symbol symbol="curl" x="x2+w2/2" y="y2+h2*5/8+h2/40" sx="ch2" sy="ch2" rotate="0" color="purple"/>
+		<!-- symbol symbol="curl" x="x2+w2/2" y="y2+h2*7/8" sx="ch2" sy="ch2" rotate="0" color="purple" -->
+		<!-- symbol symbol="curl" x="x2+w2*1/12" y="y2+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple" -->
+		<symbol symbol="curl" x="x2+w2*3/12-w2/120" y="y2+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple"/>
+		<symbol symbol="curl" x="x2+w2*5/12-w2/60" y="y2+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple"/>
+		<symbol symbol="curl" x="x2+w2*7/12+w2/60" y="y2+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple"/>
+		<symbol symbol="curl" x="x2+w2*9/12+w2/120" y="y2+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple"/>
+		<!-- symbol symbol="curl" x="x2+w2*11/12" y="y2+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple" -->
+	</g>
+	<g>
+		<!-- Top Right -->
+		<!-- symbol symbol="curl" x="x3+w2/2" y="y2+h2*1/8" sx="ch2" sy="ch2" rotate="0" color="purple" -->
+		<symbol symbol="curl" x="x3+w2/2" y="y2+h2*3/8-h2/40" sx="ch2" sy="ch2" rotate="0" color="purple"/>
+		<symbol symbol="curl" x="x3+w2/2" y="y2+h2*5/8+h2/40" sx="ch2" sy="ch2" rotate="0" color="purple"/>
+		<!-- symbol symbol="curl" x="x3+w2/2" y="y2+h2*7/8" sx="ch2" sy="ch2" rotate="0" color="purple" -->
+		<!-- symbol symbol="curl" x="x3+w2*1/12" y="y2+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple" -->
+		<symbol symbol="curl" x="x3+w2*3/12-w2/120" y="y2+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple"/>
+		<symbol symbol="curl" x="x3+w2*5/12-w2/60" y="y2+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple"/>
+		<symbol symbol="curl" x="x3+w2*7/12+w2/60" y="y2+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple"/>
+		<symbol symbol="curl" x="x3+w2*9/12+w2/120" y="y2+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple"/>
+		<!-- symbol symbol="curl" x="x3+w2*11/12" y="y2+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple" -->
+	</g>
+	<g>
+		<!-- Bottom Left -->
+		<!-- symbol symbol="curl" x="x2+w2/2" y="y3+h2*1/8" sx="ch2" sy="ch2" rotate="0" color="purple" -->
+		<symbol symbol="curl" x="x2+w2/2" y="y3+h2*3/8-h2/40" sx="ch2" sy="ch2" rotate="0" color="purple"/>
+		<symbol symbol="curl" x="x2+w2/2" y="y3+h2*5/8+h2/40" sx="ch2" sy="ch2" rotate="0" color="purple"/>
+		<!-- symbol symbol="curl" x="x2+w2/2" y="y3+h2*7/8" sx="ch2" sy="ch2" rotate="0" color="purple" -->
+		<!-- symbol symbol="curl" x="x2+w2*1/12" y="y3+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple" -->
+		<symbol symbol="curl" x="x2+w2*3/12-w2/120" y="y3+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple"/>
+		<symbol symbol="curl" x="x2+w2*5/12-w2/60" y="y3+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple"/>
+		<symbol symbol="curl" x="x2+w2*7/12+w2/60" y="y3+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple"/>
+		<symbol symbol="curl" x="x2+w2*9/12+w2/120" y="y3+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple"/>
+		<!-- symbol symbol="curl" x="x2+w2*11/12" y="y3+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple" -->
+	</g>
+	<g>
+		<!-- Bottom Right -->
+		<!-- symbol symbol="curl" x="x3+w2/2" y="y3+h2*1/8" sx="ch2" sy="ch2" rotate="0" color="purple" -->
+		<symbol symbol="curl" x="x3+w2/2" y="y3+h2*3/8-h2/40" sx="ch2" sy="ch2" rotate="0" color="purple"/>
+		<symbol symbol="curl" x="x3+w2/2" y="y3+h2*5/8+h2/40" sx="ch2" sy="ch2" rotate="0" color="purple"/>
+		<!-- symbol symbol="curl" x="x3+w2/2" y="y3+h2*7/8" sx="ch2" sy="ch2" rotate="0" color="purple" -->
+		<!-- symbol symbol="curl" x="x3+w2*1/12" y="y3+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple" -->
+		<symbol symbol="curl" x="x3+w2*3/12-w2/120" y="y3+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple"/>
+		<symbol symbol="curl" x="x3+w2*5/12-w2/60" y="y3+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple"/>
+		<symbol symbol="curl" x="x3+w2*7/12+w2/60" y="y3+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple"/>
+		<symbol symbol="curl" x="x3+w2*9/12+w2/120" y="y3+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple"/>
+		<!-- symbol symbol="curl" x="x3+w2*11/12" y="y3+h2/2" sx="ch2" sy="ch2" rotate="90" color="purple" -->
+	</g>
+	<g>
+		<!-- Stars -->
+		<symbol symbol="star" x="w/8-x2/2" y="h/8-y2" sx="sr" sy="sr" rotate="0" color="gold"/>
+		<symbol symbol="star" x="w*7/8+x2/2" y="h/8-y2" sx="sr" sy="sr" rotate="0" color="gold"/>
+		<symbol symbol="star" x="w/8-x2/2" y="h*7/8+y2" sx="sr" sy="sr" rotate="0" color="yellow"/>
+		<symbol symbol="star" x="w*7/8+x2/2" y="h*7/8+y2" sx="sr" sy="sr" rotate="0" color="yellow"/>
+	</g>
+</flag>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="cl" name="Chile" properties="cf sf wf ce se we normal" fly="h*3/2">
+	<defs>
+		<color id="red">
+			<colorspec model="pantone" value="186C"/>
+			<colorspec model="cmyk" value="0 100 81 4"/>
+			<colorspec model="rgb" value="227 24 55"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="286C"/>
+			<colorspec model="cmyk" value="100 66 0 2"/>
+			<colorspec model="rgb" value="0 93 170"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="2" colors="white red"/>
+	<field x1="0" y1="0" x2="h/2" y2="h/2" color="blue"/>
+	<symbol symbol="star" x="h/4" y="h/4" sx="h/8" sy="h/8" color="white"/>
+</flag>

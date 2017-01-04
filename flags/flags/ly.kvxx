@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ly" name="Libya" properties="cf sf wf ce se normal" fly="h*2">
+	<!-- The FamFamFam icon is out of date. Libya changed its flag in 2011. -->
+	<defs>
+		<dim id="sr" e="h*0.707/0.9511/8"/>
+		<!-- Colors from Wikipedia -->
+		<color id="red">
+			<colorspec model="rgb" value="231 0 19"/>
+		</color>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="35 158 70"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="crescent" d="M 0.707241 -0.707214
+		                         A 1 1 0 1 0 0.707214 0.707214
+		                         A 0.833333 0.833333 0 1 1 0.707214 -0.707214 Z"/>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="red black green" weights="1 2 1"/>
+	<symbol symbol="crescent" x="w/2" y="h/2" sx="h/8" sy="h/8" color="white"/>
+	<symbol symbol="star" x="w/2+h*1.309/8" y="h/2" sx="sr" sy="sr" rotate="-90" color="white"/>
+</flag>

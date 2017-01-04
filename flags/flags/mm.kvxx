@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="mm" name="Myanmar (Burma)" properties="cf sf wf ce se normal" fly="h*3/2">
+	<!-- The FamFamFam icon for Myanmar is out of date. -->
+	<!-- Myanmar changed their flag on October 21, 2010. -->
+	<defs>
+		<!-- dim id="r" e="min(h*0.3685,w*0.3685)" (wikipedia) -->
+		<dim id="r" e="min(h/3,w/3)"/>
+		<color id="yellow">
+			<colorspec model="pantone" value="116"/>
+			<colorspec model="rgb" value="254 203 0"/>
+			<colorspec model="cmyk" value="0 20 100 0"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="361"/>
+			<colorspec model="rgb" value="52 178 51"/>
+			<colorspec model="cmyk" value="71 0 71 30"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="1788"/>
+			<colorspec model="rgb" value="234 40 57"/>
+			<colorspec model="cmyk" value="0 83 76 8"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="rgb" value="255 255 255"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="yellow green red"/>
+	<!-- symbol symbol="star" x="w*0.5" y="h*0.5352" sx="r" sy="r" color="white" (wikipedia) -->
+	<symbol symbol="star" x="w/2" y="h/2" sx="r" sy="r" color="white"/>
+</flag>

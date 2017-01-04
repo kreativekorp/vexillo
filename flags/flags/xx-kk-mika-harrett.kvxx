@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<!-- Copyright © Kreative Media, Rebecca G. Bettencourt. All rights reserved. -->
+<flag name="Harrett" fly="h*3/2">
+	<defs>
+		<dim id="s" e="min(h/2,w/2)"/>
+		<dim id="x" e="s/4"/>
+		<dim id="y" e="h-s*5/4"/>
+		<dim id="t" e="s/4"/>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="0 204 0"/>
+		</color>
+		<symdef id="halla" d="M 0 0 L 0.25 0 L 0.25 0.6069
+		                      L 0.75 0 L 1 0 L 1 1 L 0.75 1
+		                      L 0.75 0.3931 L 0.25 1 L 0 1 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<hband x1="0" y1="y" x2="x+t" y2="y+t" bands="1" colors="green"/>
+	<hband x1="x+s-t" y1="y+s-t" x2="w" y2="y+s" bands="1" colors="green"/>
+	<symbol symbol="halla" x="x" y="y" sx="s" sy="s" color="green"/>
+</flag>

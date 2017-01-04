@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ro" name="Romania" properties="cf sf wf ce se we normal" fly="h*3/2">
+	<defs>
+		<color id="blue">
+			<colorspec model="pantone" value="280c"/>
+			<colorspec model="cmyk" value="99 86 1 0"/>
+			<colorspec model="rgb" value="0 43 127"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="116c"/>
+			<colorspec model="cmyk" value="2 18 95 0"/>
+			<colorspec model="rgb" value="252 209 22"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="186c"/>
+			<colorspec model="cmyk" value="4 99 94 0"/>
+			<colorspec model="rgb" value="206 17 38"/>
+		</color>
+	</defs>
+	<vband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue yellow red"/>
+</flag>

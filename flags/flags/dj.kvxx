@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="dj" name="Djibouti" properties="cf sf wf ce se we normal" fly="h*3/2">
+	<defs>
+		<dim id="sr" e="min(h/10,w/10)"/>
+		<color id="blue">
+			<colorspec model="pantone" value="292c"/>
+			<colorspec model="cmyk" value="49 11 0 0"/>
+			<colorspec model="rgb" value="121 189 232"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="361c"/>
+			<colorspec model="cmyk" value="69 0 100 0"/>
+			<colorspec model="rgb" value="84 185 72"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="032c"/>
+			<colorspec model="cmyk" value="0 90 86 0"/>
+			<colorspec model="rgb" value="239 65 53"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="2" colors="blue green"/>
+	<poly points="0 0 w/2 h/2 0 h" color="white"/>
+	<symbol symbol="star" x="w/6" y="h/2" sx="sr" sy="sr" color="red"/>
+</flag>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Leather Pride" fly="h*3/2">
+	<!-- The precise shape, position, and rotation of the heart does not appear to be defined
+		 anywhere. These parameters were determined by tweaking them until they looked close. -->
+	<defs>
+		<dim id="hx" e="h*0.364"/>
+		<dim id="hy" e="h*0.264"/>
+		<dim id="hs" e="h*0.386"/>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="24 24 107"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="231 0 57"/>
+		</color>
+		<symdef id="heart" d="M 0 0.5 C 0 0.5 -0.5 0.06 -0.5 -0.25
+		                      C -0.5 -0.39 -0.39 -0.5 -0.25 -0.5
+		                      C -0.11 -0.5 0 -0.3 0 -0.3
+		                      C 0 -0.3 0.11 -0.5 0.25 -0.5
+		                      C 0.39 -0.5 0.5 -0.39 0.5 -0.25
+		                      C 0.5 0.06 0 0.5 0 0.5 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="9" colors="black blue black blue white blue black blue black"/>
+	<symbol symbol="heart" x="hx" y="hy" sx="hs" sy="hs" rotate="-40" color="red"/>
+</flag>

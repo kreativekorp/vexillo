@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ax" name="&#197;land Islands" properties="cf sf ce se normal" fly="h*26/17">
+	<defs>
+		<dim id="y1" e="h*12/34"/>
+		<dim id="y2" e="h*15/34"/>
+		<dim id="y3" e="h*19/34"/>
+		<dim id="y4" e="h*22/34"/>
+		<dim id="x1" e="min(h*16/34,w/2-h*5/34)"/>
+		<dim id="x2" e="min(h*19/34,w/2-h*2/34)"/>
+		<dim id="x3" e="min(h*23/34,w/2+h*2/34)"/>
+		<dim id="x4" e="min(h*26/34,w/2+h*5/34)"/>
+		<color id="blue">
+			<colorspec model="ncs" value="30 65 R90B"/>
+			<colorspec model="pantone" value="2945C"/>
+			<colorspec model="pantone" value="300U"/>
+			<colorspec model="cmyk" value="100 54 2 0"/>
+			<colorspec model="rgb" value="0 109 180"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="ncs" value="05 80 Y10R"/>
+			<colorspec model="pantone" value="116C"/>
+			<colorspec model="pantone" value="109U"/>
+			<colorspec model="cmyk" value="0 16 100 0"/>
+			<colorspec model="rgb" value="255 210 0"/>
+		</color>
+		<color id="red">
+			<colorspec model="ncs" value="10 85 Y90R"/>
+			<colorspec model="pantone" value="186C"/>
+			<colorspec model="pantone" value="185U"/>
+			<colorspec model="cmyk" value="6 100 100 0"/>
+			<colorspec model="rgb" value="255 31 39"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<cross x1="0" y1="0" x2="x1" y2="y1" x3="x4" y3="y4" x4="w" y4="h" color="yellow"/>
+	<cross x1="0" y1="0" x2="x2" y2="y2" x3="x3" y3="y3" x4="w" y4="h" color="red"/>
+</flag>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="cm" name="Cameroon" properties="cf sf wf ce se we normal" fly="h*3/2">
+	<defs>
+		<dim id="sr" e="min(w/11,h/3)"/>
+		<color id="green">
+			<colorspec model="pantone" value="355"/>
+			<colorspec model="cmyk" value="94 0 100 0"/>
+			<colorspec model="rgb" value="0 169 79"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="032"/>
+			<colorspec model="cmyk" value="0 90 86 0"/>
+			<colorspec model="rgb" value="239 65 53"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="109"/>
+			<colorspec model="cmyk" value="0 10 100 0"/>
+			<colorspec model="rgb" value="255 221 0"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<vband x1="0" y1="0" x2="w" y2="h" bands="3" colors="green red yellow"/>
+	<symbol symbol="star" x="w/2" y="h/2" sx="sr" sy="sr" color="yellow"/>
+</flag>

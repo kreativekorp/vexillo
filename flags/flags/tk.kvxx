@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="tk" name="Tokelau" fly="h*2">
+	<!-- The FamFamFam icon for Tokelau is an old proposal. -->
+	<!-- Tokelau approved an official flag in 2009. -->
+	<defs>
+		<dim id="sw" e="min(w,h*2)"/>
+		<dim id="sh" e="min(h,w/2)"/>
+		<dim id="sx" e="(w-sw)/2"/>
+		<dim id="sy" e="(h-sh)/2"/>
+		<dim id="r1" e="sh/24"/>
+		<dim id="r2" e="sh/20"/>
+		<dim id="r3" e="sh*7/120"/>
+		<color id="blue">
+			<colorspec model="pantone" value="280"/>
+			<colorspec model="cmyk" value="100 72 0 18"/>
+			<colorspec model="rgb" value="0 73 144"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="109"/>
+			<colorspec model="cmyk" value="0 10 100 0"/>
+			<colorspec model="rgb" value="255 221 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="sail" d="M 329.37609 777.2654
+		                     C 311.44173 777.11556 497.99952 677.83404 654.14523 550.66563
+		                     C 858.78891 383.99945 1299.541 117.15633 1429.1161 73.7954
+		                     c 13.5433 -4.53215 -27.7761 23.07308 -33.14 32.01541
+		                     c -138.3415 163.74043 -27.925 472.72379 144.9726 628.04829
+		                     c 51.99 39.7632 49.3274 41.85082 145.7074 45.7463
+		                     v 9 l -1357.28001 -11.34 z
+		                     M 318.12503 795.3246
+		                     c 0 0 -13.16343 9.4029 -13.12495 16.4061
+		                     c 0.043 7.7725 14.76557 18.0468 14.76557 18.0468
+		                     l 1338.74505 14.7656 l 24.6093 -16.4062
+		                     l -34.453 -21.328 l -1330.54197 -11.4843 z"/>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<symbol symbol="sail" x="sx" y="sy" sx="sw/1800" sy="sh/900" color="yellow"/>
+	<symbol symbol="star" x="sx+sh*0.381" y="sy+sh*0.125" sx="r2" sy="r2" color="white"/>
+	<symbol symbol="star" x="sx+sh*0.579" y="sy+sh*0.297" sx="r1" sy="r1" color="white"/>
+	<symbol symbol="star" x="sx+sh*0.150" y="sy+sh*0.358" sx="r2" sy="r2" color="white"/>
+	<symbol symbol="star" x="sx+sh*0.381" y="sy+sh*0.725" sx="r3" sy="r3" color="white"/>
+</flag>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="is" name="Iceland" properties="cf ce normal" fly="h*25/18">
+	<defs>
+		<dim id="y1" e="h*7/18"/>
+		<dim id="y2" e="h*8/18"/>
+		<dim id="y3" e="h*10/18"/>
+		<dim id="y4" e="h*11/18"/>
+		<dim id="x1" e="min(h*7/18,w/2-h/9)"/>
+		<dim id="x2" e="min(h*8/18,w/2-h/18)"/>
+		<dim id="x3" e="min(h*10/18,w/2+h/18)"/>
+		<dim id="x4" e="min(h*11/18,w/2+h/9)"/>
+		<color id="blue">
+			<colorspec model="pantone" value="287"/>
+			<colorspec model="cmyk" value="100 69 0 12"/>
+			<colorspec model="rgb" value="0 72 224"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="1c"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="I1795"/>
+			<colorspec model="cmyk" value="0 94 100 0"/>
+			<colorspec model="rgb" value="255 15 0"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<cross x1="0" y1="0" x2="x1" y2="y1" x3="x4" y3="y4" x4="w" y4="h" color="white"/>
+	<cross x1="0" y1="0" x2="x2" y2="y2" x3="x3" y3="y3" x4="w" y4="h" color="red"/>
+</flag>

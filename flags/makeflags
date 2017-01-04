@@ -1,0 +1,154 @@
+#!/usr/bin/env bash
+
+if command -v vexport >/dev/null 2>&1; then
+	VEXPORT="vexport -v"
+elif command -v vexillo >/dev/null 2>&1; then
+	VEXPORT="vexillo export -v"
+elif test -f vexillo.jar; then
+	VEXPORT="java -jar vexillo.jar export -v"
+else
+	echo "Please run make install or add vexillo.jar to this directory."
+	exit 1
+fi
+
+mkdir -p out/s{g,m}{a,c,d,f,k}00360
+mkdir -p out/p{g,m}{a,c,d,f,k}{00012,00024,00036,00048,00072,00360}
+mkdir -p out/wp{d00600,d00768,d00960,d01200,v00800,v00900,v01050,v01200,w00720,w00768,w00900,w01080,w01440}
+
+$VEXPORT -f svg \
+	-d out/sga00360 -h 360 -w   0 -g 30 flags/*.kvxx \
+	-d out/sgc00360 -h 360 -w 540 -g 30 flags/*.kvxx \
+	-d out/sgd00360 -h 360 -w 480 -g 30 flags/*.kvxx \
+	-d out/sgf00360 -h 360 -w 360 -g 30 flags/*.kvxx \
+	-d out/sgk00360 -h 396 -w 576 -g 36 flags/*.kvxx \
+	-d out/sma00360 -h 360 -w   0 -g  0 flags/*.kvxx \
+	-d out/smc00360 -h 360 -w 540 -g  0 flags/*.kvxx \
+	-d out/smd00360 -h 360 -w 480 -g  0 flags/*.kvxx \
+	-d out/smf00360 -h 360 -w 360 -g  0 flags/*.kvxx \
+	-d out/smk00360 -h 396 -w 576 -g  0 flags/*.kvxx
+
+$VEXPORT -f png \
+	-d out/pga00012 -h 12 -w  0 -s 30 -g 1 flags/*.kvxx \
+	-d out/pgc00012 -h 12 -w 18 -s 30 -g 1 flags/*.kvxx \
+	-d out/pgd00012 -h 12 -w 16 -s 30 -g 1 flags/*.kvxx \
+	-d out/pgf00012 -h 12 -w 12 -s 30 -g 1 flags/*.kvxx \
+	-d out/pgk00012 -h 11 -w 16 -s 36 -g 1 flags/*.kvxx \
+	-d out/pma00012 -h 12 -w  0 -s 30 -g 0 flags/*.kvxx \
+	-d out/pmc00012 -h 12 -w 18 -s 30 -g 0 flags/*.kvxx \
+	-d out/pmd00012 -h 12 -w 16 -s 30 -g 0 flags/*.kvxx \
+	-d out/pmf00012 -h 12 -w 12 -s 30 -g 0 flags/*.kvxx \
+	-d out/pmk00012 -h 11 -w 16 -s 36 -g 0 flags/*.kvxx
+
+$VEXPORT -f png \
+	-d out/pga00024 -h 24 -w  0 -s 15 -g 2 flags/*.kvxx \
+	-d out/pgc00024 -h 24 -w 36 -s 15 -g 2 flags/*.kvxx \
+	-d out/pgd00024 -h 24 -w 32 -s 15 -g 2 flags/*.kvxx \
+	-d out/pgf00024 -h 24 -w 24 -s 15 -g 2 flags/*.kvxx \
+	-d out/pgk00024 -h 22 -w 32 -s 18 -g 2 flags/*.kvxx \
+	-d out/pma00024 -h 24 -w  0 -s 15 -g 0 flags/*.kvxx \
+	-d out/pmc00024 -h 24 -w 36 -s 15 -g 0 flags/*.kvxx \
+	-d out/pmd00024 -h 24 -w 32 -s 15 -g 0 flags/*.kvxx \
+	-d out/pmf00024 -h 24 -w 24 -s 15 -g 0 flags/*.kvxx \
+	-d out/pmk00024 -h 22 -w 32 -s 18 -g 0 flags/*.kvxx
+
+$VEXPORT -f png \
+	-d out/pga00036 -h 36 -w  0 -s 10 -g 3 flags/*.kvxx \
+	-d out/pgc00036 -h 36 -w 54 -s 10 -g 3 flags/*.kvxx \
+	-d out/pgd00036 -h 36 -w 48 -s 10 -g 3 flags/*.kvxx \
+	-d out/pgf00036 -h 36 -w 36 -s 10 -g 3 flags/*.kvxx \
+	-d out/pgk00036 -h 33 -w 48 -s 12 -g 3 flags/*.kvxx \
+	-d out/pma00036 -h 36 -w  0 -s 10 -g 0 flags/*.kvxx \
+	-d out/pmc00036 -h 36 -w 54 -s 10 -g 0 flags/*.kvxx \
+	-d out/pmd00036 -h 36 -w 48 -s 10 -g 0 flags/*.kvxx \
+	-d out/pmf00036 -h 36 -w 36 -s 10 -g 0 flags/*.kvxx \
+	-d out/pmk00036 -h 33 -w 48 -s 12 -g 0 flags/*.kvxx
+
+$VEXPORT -f png \
+	-d out/pga00048 -h 48 -w  0 -s 8 -g 4 flags/*.kvxx \
+	-d out/pgc00048 -h 48 -w 72 -s 8 -g 4 flags/*.kvxx \
+	-d out/pgd00048 -h 48 -w 64 -s 8 -g 4 flags/*.kvxx \
+	-d out/pgf00048 -h 48 -w 48 -s 8 -g 4 flags/*.kvxx \
+	-d out/pgk00048 -h 44 -w 64 -s 9 -g 4 flags/*.kvxx \
+	-d out/pma00048 -h 48 -w  0 -s 8 -g 0 flags/*.kvxx \
+	-d out/pmc00048 -h 48 -w 72 -s 8 -g 0 flags/*.kvxx \
+	-d out/pmd00048 -h 48 -w 64 -s 8 -g 0 flags/*.kvxx \
+	-d out/pmf00048 -h 48 -w 48 -s 8 -g 0 flags/*.kvxx \
+	-d out/pmk00048 -h 44 -w 64 -s 9 -g 0 flags/*.kvxx
+
+$VEXPORT -f png \
+	-d out/pga00072 -h 72 -w   0 -s 5 -g 6 flags/*.kvxx \
+	-d out/pgc00072 -h 72 -w 108 -s 5 -g 6 flags/*.kvxx \
+	-d out/pgd00072 -h 72 -w  96 -s 5 -g 6 flags/*.kvxx \
+	-d out/pgf00072 -h 72 -w  72 -s 5 -g 6 flags/*.kvxx \
+	-d out/pgk00072 -h 66 -w  96 -s 6 -g 6 flags/*.kvxx \
+	-d out/pma00072 -h 72 -w   0 -s 5 -g 0 flags/*.kvxx \
+	-d out/pmc00072 -h 72 -w 108 -s 5 -g 0 flags/*.kvxx \
+	-d out/pmd00072 -h 72 -w  96 -s 5 -g 0 flags/*.kvxx \
+	-d out/pmf00072 -h 72 -w  72 -s 5 -g 0 flags/*.kvxx \
+	-d out/pmk00072 -h 66 -w  96 -s 6 -g 0 flags/*.kvxx
+
+$VEXPORT -f png \
+	-d out/pga00360 -h 360 -w   0 -g 30 flags/*.kvxx \
+	-d out/pgc00360 -h 360 -w 540 -g 30 flags/*.kvxx \
+	-d out/pgd00360 -h 360 -w 480 -g 30 flags/*.kvxx \
+	-d out/pgf00360 -h 360 -w 360 -g 30 flags/*.kvxx \
+	-d out/pgk00360 -h 396 -w 576 -g 36 flags/*.kvxx \
+	-d out/pma00360 -h 360 -w   0 -g  0 flags/*.kvxx \
+	-d out/pmc00360 -h 360 -w 540 -g  0 flags/*.kvxx \
+	-d out/pmd00360 -h 360 -w 480 -g  0 flags/*.kvxx \
+	-d out/pmf00360 -h 360 -w 360 -g  0 flags/*.kvxx \
+	-d out/pmk00360 -h 396 -w 576 -g  0 flags/*.kvxx
+
+$VEXPORT -f png \
+	-d out/wpd00600 -h  600 -w  800 -g 0 flags/*.kvxx \
+	-d out/wpd00768 -h  768 -w 1024 -g 0 flags/*.kvxx \
+	-d out/wpd00960 -h  960 -w 1280 -g 0 flags/*.kvxx \
+	-d out/wpd01200 -h 1200 -w 1600 -g 0 flags/*.kvxx \
+	-d out/wpv00800 -h  800 -w 1280 -g 0 flags/*.kvxx \
+	-d out/wpv00900 -h  900 -w 1440 -g 0 flags/*.kvxx \
+	-d out/wpv01050 -h 1050 -w 1680 -g 0 flags/*.kvxx \
+	-d out/wpv01200 -h 1200 -w 1920 -g 0 flags/*.kvxx \
+	-d out/wpw00720 -h  720 -w 1280 -g 0 flags/*.kvxx \
+	-d out/wpw00768 -h  768 -w 1366 -g 0 flags/*.kvxx \
+	-d out/wpw00900 -h  900 -w 1600 -g 0 flags/*.kvxx \
+	-d out/wpw01080 -h 1080 -w 1920 -g 0 flags/*.kvxx \
+	-d out/wpw01440 -h 1440 -w 2560 -g 0 flags/*.kvxx
+
+cd out
+rm -f svg-* png-* wp-*
+
+ln -s sga00360 svg-gloss-std
+ln -s sgc00360 svg-gloss-3x2
+ln -s sgd00360 svg-gloss-4x3
+ln -s sgf00360 svg-gloss-1x1
+ln -s sgk00360 svg-gloss-fam
+ln -s sma00360 svg-matte-std
+ln -s smc00360 svg-matte-3x2
+ln -s smd00360 svg-matte-4x3
+ln -s smf00360 svg-matte-1x1
+ln -s smk00360 svg-matte-fam
+
+ln -s pga00360 png-gloss-std
+ln -s pgc00360 png-gloss-3x2
+ln -s pgd00360 png-gloss-4x3
+ln -s pgf00360 png-gloss-1x1
+ln -s pgk00360 png-gloss-fam
+ln -s pma00360 png-matte-std
+ln -s pmc00360 png-matte-3x2
+ln -s pmd00360 png-matte-4x3
+ln -s pmf00360 png-matte-1x1
+ln -s pmk00360 png-matte-fam
+
+ln -s wpd00600 wp-800x600
+ln -s wpd00768 wp-1024x768
+ln -s wpd00960 wp-1280x960
+ln -s wpd01200 wp-1600x1200
+ln -s wpv00800 wp-1280x800
+ln -s wpv00900 wp-1440x900
+ln -s wpv01050 wp-1680x1050
+ln -s wpv01200 wp-1920x1200
+ln -s wpw00720 wp-1280x720
+ln -s wpw00768 wp-1366x768
+ln -s wpw00900 wp-1600x900
+ln -s wpw01080 wp-1920x1080
+ln -s wpw01440 wp-2560x1440

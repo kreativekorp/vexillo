@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Aristasia" fly="h*20/13">
+	<defs>
+		<dim id="ot" e="min(h*18/130,w*18/130)"/>
+		<dim id="it" e="min(h*12/130,w*12/130)"/>
+		<dim id="od" e="min(h*70/130,w*70/130)"/>
+		<dim id="id" e="min(h*60/130,w*60/130)"/>
+		<color id="blue">
+			<colorspec model="rgb" value="0 0 204"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 255 0"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="255 0 0"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<saltire x1="0" y1="0" x2="w" y2="h" thickness="ot" color="yellow"/>
+	<cross x1="0" y1="0" x2="(w-ot)/2" y2="(h-ot)/2" x3="(w+ot)/2" y3="(h+ot)/2" x4="w" y4="h" color="yellow"/>
+	<saltire x1="0" y1="0" x2="w" y2="h" thickness="it" color="red"/>
+	<cross x1="0" y1="0" x2="(w-it)/2" y2="(h-it)/2" x3="(w+it)/2" y3="(h+it)/2" x4="w" y4="h" color="red"/>
+	<disc cx="w/2" cy="h/2" w="od" h="od" color="yellow"/>
+	<disc cx="w/2" cy="h/2" w="id" h="id" color="red"/>
+</flag>

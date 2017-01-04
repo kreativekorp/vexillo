@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="bj" name="Benin" properties="cf sf wf ce se we normal" fly="h*3/2">
+	<defs>
+		<!-- Colors taken from flag of Guyana. I could not find a source for Benin. -->
+		<color id="green">
+			<colorspec model="pantone" value="355"/>
+			<colorspec model="cmyk" value="94 0 100 0"/>
+			<colorspec model="rgb" value="0 169 79"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="109"/>
+			<colorspec model="cmyk" value="0 10 100 0"/>
+			<colorspec model="rgb" value="255 221 0"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="032"/>
+			<colorspec model="cmyk" value="0 90 86 0"/>
+			<colorspec model="rgb" value="239 65 53"/>
+		</color>
+	</defs>
+	<vband x1="0" y1="0" x2="w*2/5" y2="h" bands="1" colors="green"/>
+	<hband x1="w*2/5" y1="0" x2="w" y2="h" bands="2" colors="yellow red"/>
+</flag>

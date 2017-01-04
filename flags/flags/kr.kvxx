@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="kr" name="South Korea" properties="cf sf wf ce se we normal" fly="h*3/2">
+	<defs>
+		<dim id="a" e="atan2(h,w)"/>
+		<dim id="dd" e="min(h/2,w/2)"/>
+		<dim id="dcx" e="w/2"/>
+		<dim id="dcy" e="h/2"/>
+		<dim id="tx1" e="dcx-dd*cos(a)*11/12"/>
+		<dim id="ty1" e="dcy-dd*sin(a)*11/12"/>
+		<dim id="tx2" e="dcx+dd*cos(a)*11/12"/>
+		<dim id="ty2" e="dcy+dd*sin(a)*11/12"/>
+		<dim id="ts" e="dd/3"/>
+		<color id="white">
+			<colorspec model="munsell" value="N9.5"/>
+			<colorspec model="pantone" value="White"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="munsell" value="6.0R 4.5 14"/>
+			<colorspec model="xyy" value="0.5640 0.3194 15.3"/>
+			<colorspec model="pantone" value="186C"/>
+			<colorspec model="rgb" value="198 12 48"/>
+		</color>
+		<color id="blue">
+			<colorspec model="munsell" value="5.0PB 3.0 12"/>
+			<colorspec model="xyy" value="0.1556 0.1354 6.5"/>
+			<colorspec model="pantone" value="294C"/>
+			<colorspec model="rgb" value="0 52 120"/>
+		</color>
+		<color id="black">
+			<colorspec model="munsell" value="N0.5"/>
+			<colorspec model="pantone" value="Black"/>
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<symdef id="halfdisc" d="M 0.5 0 A 0.5 0.5 0 0 0 -0.5 0 Z"/>
+		<symdef id="offsetdisc" d="M 0 0 A 0.25 0.25 0 0 0 -0.5 0 A 0.25 0.25 0 0 0 0 0 Z"/>
+		<symdef id="sky" d="M -0.75 -0.5 L 0.75 -0.5 L 0.75 -0.25 L -0.75 -0.25 Z
+		                    M -0.75 -0.125 L 0.75 -0.125 L 0.75 0.125 L -0.75 0.125 Z
+		                    M -0.75 0.25 L 0.75 0.25 L 0.75 0.5 L -0.75 0.5 Z"/>
+		<symdef id="sun" d="M -0.75 -0.5 L 0.75 -0.5 L 0.75 -0.25 L -0.75 -0.25 Z
+		                    M -0.75 -0.125 L -0.0625 -0.125 L -0.0625 0.125 L -0.75 0.125 Z
+		                    M 0.0625 -0.125 L 0.75 -0.125 L 0.75 0.125 L 0.0625 0.125 Z
+		                    M -0.75 0.25 L 0.75 0.25 L 0.75 0.5 L -0.75 0.5 Z"/>
+		<symdef id="moon" d="M -0.75 -0.5 L -0.0625 -0.5 L -0.0625 -0.25 L -0.75 -0.25 Z
+		                     M 0.0625 -0.5 L 0.75 -0.5 L 0.75 -0.25 L 0.0625 -0.25 Z
+		                     M -0.75 -0.125 L 0.75 -0.125 L 0.75 0.125 L -0.75 0.125 Z
+		                     M -0.75 0.25 L -0.0625 0.25 L -0.0625 0.5 L -0.75 0.5 Z
+		                     M 0.0625 0.25 L 0.75 0.25 L 0.75 0.5 L 0.0625 0.5 Z"/>
+		<symdef id="earth" d="M -0.75 -0.5 L -0.0625 -0.5 L -0.0625 -0.25 L -0.75 -0.25 Z
+		                      M 0.0625 -0.5 L 0.75 -0.5 L 0.75 -0.25 L 0.0625 -0.25 Z
+		                      M -0.75 -0.125 L -0.0625 -0.125 L -0.0625 0.125 L -0.75 0.125 Z
+		                      M 0.0625 -0.125 L 0.75 -0.125 L 0.75 0.125 L 0.0625 0.125 Z
+		                      M -0.75 0.25 L -0.0625 0.25 L -0.0625 0.5 L -0.75 0.5 Z
+		                      M 0.0625 0.25 L 0.75 0.25 L 0.75 0.5 L 0.0625 0.5 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<symbol symbol="halfdisc" x="dcx" y="dcy" sx="dd" sy="dd" rotate="a" color="red"/>
+	<symbol symbol="halfdisc" x="dcx" y="dcy" sx="dd" sy="dd" rotate="a+180" color="blue"/>
+	<symbol symbol="offsetdisc" x="dcx" y="dcy" sx="dd" sy="dd" rotate="a" color="red"/>
+	<symbol symbol="offsetdisc" x="dcx" y="dcy" sx="dd" sy="dd" rotate="a+180" color="blue"/>
+	<symbol symbol="sky" x="tx1" y="ty1" sx="ts" sy="ts" rotate="a+90" color="black"/>
+	<symbol symbol="earth" x="tx2" y="ty2" sx="ts" sy="ts" rotate="a+90" color="black"/>
+	<symbol symbol="sun" x="tx1" y="ty2" sx="ts" sy="ts" rotate="90-a" color="black"/>
+	<symbol symbol="moon" x="tx2" y="ty1" sx="ts" sy="ts" rotate="90-a" color="black"/>
+</flag>

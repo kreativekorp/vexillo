@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="to" name="Tonga" properties="cf sf ce se normal" fly="h*2">
+	<defs>
+		<dim id="ch" e="h/2"/>
+		<dim id="cw" e="w*5/12"/>
+		<dim id="cs" e="min(ch*3/4,cw*3/4)"/>
+		<dim id="cx1" e="cw/2-cs/2"/>
+		<dim id="cx2" e="cw/2-cs/6"/>
+		<dim id="cx3" e="cw/2+cs/6"/>
+		<dim id="cx4" e="cw/2+cs/2"/>
+		<dim id="cy1" e="ch/2-cs/2"/>
+		<dim id="cy2" e="ch/2-cs/6"/>
+		<dim id="cy3" e="ch/2+cs/6"/>
+		<dim id="cy4" e="ch/2+cs/2"/>
+		<color id="red">
+			<colorspec model="pantone" value="032"/>
+			<colorspec model="cmyk" value="0 90 86 0"/>
+			<colorspec model="rgb" value="239 65 53"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<field x1="0" y1="0" x2="cw" y2="ch" color="white"/>
+	<cross x1="cx1" y1="cy1" x2="cx2" y2="cy2" x3="cx3" y3="cy3" x4="cx4" y4="cy4" color="red"/>
+</flag>

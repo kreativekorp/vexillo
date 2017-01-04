@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="pw" name="Palau" properties="cf sf ce se normal" fly="h*8/5">
+	<defs>
+		<dim id="C" e="min(h*7/10,w/2)"/>
+		<dim id="D" e="min(h*3/5,w*3/5)"/>
+		<color id="blue">
+			<colorspec model="pantone" value="Process Blue"/>
+			<colorspec model="cmyk" value="100 10 0 10"/>
+			<colorspec model="rgb" value="0 147 208"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="109"/>
+			<colorspec model="cmyk" value="0 10 100 0"/>
+			<colorspec model="rgb" value="255 221 0"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<disc cx="C" cy="h/2" w="D" h="D" color="yellow"/>
+</flag>

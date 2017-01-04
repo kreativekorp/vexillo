@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="cn" name="China" properties="cf sf ce se normal" fly="h*3/2">
+	<defs>
+		<color id="red">
+			<colorspec model="xyy" value="0.555 0.328 9.4"/>
+			<colorspec model="xyy" value="0.565 0.325 12.3"/>
+			<colorspec model="xyy" value="0.595 0.328 9.2"/>
+			<colorspec model="rgb" value="222 41 16"/>
+		</color>
+		<color id="gold">
+			<colorspec model="xyy" value="0.446 0.489 41.2"/>
+			<colorspec model="xyy" value="0.450 0.463 32.4"/>
+			<colorspec model="xyy" value="0.467 0.463 33.0"/>
+			<colorspec model="rgb" value="255 222 0"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<symbol symbol="star" x="h*5/20" y="h*5/20" sx="h*3/20" sy="h*3/20" color="gold"/>
+	<symbol symbol="star" x="h*10/20" y="h*2/20" sx="h/20" sy="h/20" rotate="-120.963757" color="gold"/>
+	<symbol symbol="star" x="h*12/20" y="h*4/20" sx="h/20" sy="h/20" rotate="-98.130102" color="gold"/>
+	<symbol symbol="star" x="h*12/20" y="h*7/20" sx="h/20" sy="h/20" rotate="-74.054604" color="gold"/>
+	<symbol symbol="star" x="h*10/20" y="h*9/20" sx="h/20" sy="h/20" rotate="-51.340192" color="gold"/>
+</flag>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="bs" name="Bahamas" properties="cf sf wf normal" fly="h*2">
+	<defs>
+		<dim id="t" e="h*sqrt(3)/2"/>
+		<color id="blue">
+			<colorspec model="pantone" value="312C"/>
+			<colorspec model="cmyk" value="100 0 15 0"/>
+			<colorspec model="rgb" value="0 172 212"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="115C"/>
+			<colorspec model="cmyk" value="0 10 80 0"/>
+			<colorspec model="rgb" value="255 223 79"/>
+		</color>
+		<color id="black">
+			<colorspec model="cmyk" value="0 0 0 100"/>
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue yellow blue"/>
+	<poly points="0 0 t h/2 0 h" color="black"/>
+</flag>

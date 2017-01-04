@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ua" name="Ukraine" properties="cf sf wf se normal" fly="h*3/2">
+	<defs>
+		<color id="blue">
+			<colorspec model="pantone" value="2935 C"/>
+			<colorspec model="rgb" value="0 91 187"/>
+			<colorspec model="cmyk" value="100 47 0 0"/>
+			<!-- colorspec model="ral" value="5019 Capri Blue" -->
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="012 C"/>
+			<colorspec model="rgb" value="255 213 0"/>
+			<colorspec model="cmyk" value="0 4 100 0"/>
+			<!-- colorspec model="ral" value="1023 Traffic Yellow" -->
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="2" colors="blue yellow"/>
+</flag>

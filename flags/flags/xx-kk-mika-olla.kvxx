@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<!-- Copyright © Kreative Media, Rebecca G. Bettencourt. All rights reserved. -->
+<flag name="&#214;lla-Senna" fly="h*3/2">
+	<defs>
+		<dim id="s" e="min(h/2,w/2)"/>
+		<dim id="x" e="s*11/16"/>
+		<dim id="y" e="h-s*3/4"/>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 221 0"/>
+		</color>
+		<color id="magenta">
+			<colorspec model="rgb" value="221 0 221"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="yellow"/>
+	<disc cx="x" cy="y" w="s" h="s" arcstart="-135" arcend="135" color="magenta"/>
+	<disc cx="x" cy="y" w="s/3" h="s/3" color="yellow"/>
+	<symbol symbol="star" x="x" y="y" sx="s/8" sy="s/8" color="magenta"/>
+	<symbol symbol="star" x="x-s/3" y="y" sx="s/8" sy="s/8" color="magenta"/>
+</flag>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="cv" name="Cape Verde" properties="cf sf wf ce se we normal" fly="h*3/2">
+	<defs>
+		<dim id="sX" e="w*3/8"/>
+		<dim id="sY" e="h*5/8"/>
+		<dim id="sR" e="h/4"/>
+		<dim id="sr" e="h/20"/>
+		<color id="blue">
+			<colorspec model="pantone" value="287C"/>
+			<colorspec model="rgb" value="0 56 147"/>
+			<colorspec model="cmyk" value="100 89 8 2"/>
+			<colorspec model="hsv" value="218.69 100 55.47"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="rgb" value="255 255 255"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="hsv" value="0 0 100"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="186C"/>
+			<colorspec model="rgb" value="207 32 39"/>
+			<colorspec model="cmyk" value="12 100 100 3"/>
+			<colorspec model="hsv" value="347.31 98.49 80.31"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="116C"/>
+			<colorspec model="rgb" value="247 209 22"/>
+			<colorspec model="cmyk" value="4 15 98 0"/>
+			<colorspec model="hsv" value="47.74 100 100"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="blue white red white blue" weights="6 1 1 1 3"/>
+	<for var="i" start="0" end="9">
+		<symbol symbol="star" x="sX+sR*sin(i*36)" y="sY-sR*cos(i*36)" sx="sr" sy="sr" color="yellow"/>
+	</for>
+</flag>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="sg" name="Singapore" properties="cf sf normal" fly="h*3/2">
+	<defs>
+		<dim id="cy" e="h/4"/>
+		<dim id="cx1" e="h*45.5/144"/>
+		<dim id="cr1" e="h*26.5/144"/>
+		<dim id="cx2" e="h*60/144"/>
+		<dim id="cr2" e="h*29/144"/>
+		<dim id="sr" e="h*6.4/144"/>
+		<dim id="sR" e="h*15.2/144"/>
+		<color id="red">
+			<colorspec model="pantone" value="032"/>
+			<colorspec model="cmyk" value="0 90 86 0"/>
+			<colorspec model="rgb" value="239 65 53"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="2" colors="red white"/>
+	<disc cx="cx1" cy="cy" w="cr1*2" h="cr1*2" color="white"/>
+	<disc cx="cx2" cy="cy" w="cr2*2" h="cr2*2" color="red"/>
+	<for var="x" start="0" end="4">
+		<symbol symbol="star" x="cx2+sR*sin(x*72)" y="cy-sR*cos(x*72)" sx="sr" sy="sr" color="white"/>
+	</for>
+</flag>

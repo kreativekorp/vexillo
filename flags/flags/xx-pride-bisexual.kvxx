@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Bisexual Pride" fly="h*3/2">
+	<defs>
+		<color id="pink">
+			<colorspec model="pantone" value="226"/>
+			<colorspec model="rgb" value="214 2 112"/>
+		</color>
+		<color id="purple">
+			<colorspec model="pantone" value="258"/>
+			<colorspec model="rgb" value="155 79 150"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="286"/>
+			<colorspec model="rgb" value="0 56 168"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="pink purple blue" weights="2 1 2"/>
+</flag>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="tv" name="Tuvalu" properties="cf sf wf ce se we normal" fly="h*2">
+	<!-- FamFamFam's icon is the flag from Jan 1996 - April 1997, which proved unpopular with Tuvaluans. -->
+	<defs>
+		<dim id="uh" e="h/2"/>
+		<dim id="uw" e="w/2"/>
+		<!-- Saltire -->
+		<dim id="t1" e="uh*6/30"/>
+		<dim id="t2" e="uh*4/30"/>
+		<!-- Cross -->
+		<dim id="cy1" e="uh*10/30"/>
+		<dim id="cy2" e="uh*12/30"/>
+		<dim id="cy3" e="uh*18/30"/>
+		<dim id="cy4" e="uh*20/30"/>
+		<dim id="cx1" e="uw/2-uh*5/30"/>
+		<dim id="cx2" e="uw/2-uh*3/30"/>
+		<dim id="cx3" e="uw/2+uh*3/30"/>
+		<dim id="cx4" e="uw/2+uh*5/30"/>
+		<!-- Stars -->
+		<dim id="sr" e="min(h/12,w/24)"/>
+		<dim id="sx1" e="w*645.3396/1200"/>
+		<dim id="sx2" e="w*788.0256/1200"/>
+		<dim id="sx3" e="w*788.0256/1200"/>
+		<dim id="sx4" e="w*914.0304/1200"/>
+		<dim id="sx5" e="w*914.0304/1200"/>
+		<dim id="sx6" e="w*996.4416/1200"/>
+		<dim id="sx7" e="w*1019.928/1200"/>
+		<dim id="sx8" e="w*1102.836/1200"/>
+		<dim id="sx9" e="w*1102.836/1200"/>
+		<dim id="sy1" e="h*540.9936/600"/>
+		<dim id="sy2" e="h*504.5160/600"/>
+		<dim id="sy3" e="h*382.5324/600"/>
+		<dim id="sy4" e="h*473.6844/600"/>
+		<dim id="sy5" e="h*208.2708/600"/>
+		<dim id="sy6" e="h*390.0456/600"/>
+		<dim id="sy7" e="h*172.0776/600"/>
+		<dim id="sy8" e="h*321.5544/600"/>
+		<dim id="sy9" e="h*087.4860/600"/>
+		<!-- Colors -->
+		<color id="blue">
+			<colorspec model="pantone" value="280"/>
+			<colorspec model="cmyk" value="100 72 0 18"/>
+			<colorspec model="rgb" value="0 73 144"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="186"/>
+			<colorspec model="cmyk" value="0 100 81 4"/>
+			<colorspec model="rgb" value="227 24 55"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="ltblue">
+			<colorspec model="pantone" value="279"/>
+			<colorspec model="cmyk" value="68 34 0 0"/>
+			<colorspec model="rgb" value="80 145 205"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="116"/>
+			<colorspec model="cmyk" value="0 16 100 0"/>
+			<colorspec model="rgb" value="255 210 0"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="ltblue"/>
+	<g>
+		<field x1="0" y1="0" x2="uw" y2="uh" color="blue"/>
+		<saltire x1="0" y1="0" x2="uw" y2="uh" thickness="t1" color="white"/>
+		<g>
+			<clip>
+				<saltire x1="0" y1="0" x2="uw" y2="uh" thickness="t2"/>
+			</clip>
+			<poly points="0 0 uw/2 uh/2 0 uh/2" color="red"/>
+			<poly points="uw 0 uw/2 uh/2 uw/2 0" color="red"/>
+			<poly points="0 uh uw/2 uh/2 uw/2 uh" color="red"/>
+			<poly points="uw uh uw/2 uh/2 uw uh/2" color="red"/>
+		</g>
+		<cross x1="0" y1="0" x2="cx1" y2="cy1" x3="cx4" y3="cy4" x4="uw" y4="uh" color="white"/>
+		<cross x1="0" y1="0" x2="cx2" y2="cy2" x3="cx3" y3="cy3" x4="uw" y4="uh" color="red"/>
+	</g>
+	<g>
+		<symbol symbol="star" x="sx1" y="sy1" sx="sr" sy="sr" rotate="0" color="yellow"/>
+		<symbol symbol="star" x="sx2" y="sy2" sx="sr" sy="sr" rotate="180" color="yellow"/>
+		<symbol symbol="star" x="sx3" y="sy3" sx="sr" sy="sr" rotate="180" color="yellow"/>
+		<symbol symbol="star" x="sx4" y="sy4" sx="sr" sy="sr" rotate="180" color="yellow"/>
+		<symbol symbol="star" x="sx5" y="sy5" sx="sr" sy="sr" rotate="180" color="yellow"/>
+		<symbol symbol="star" x="sx6" y="sy6" sx="sr" sy="sr" rotate="0" color="yellow"/>
+		<symbol symbol="star" x="sx7" y="sy7" sx="sr" sy="sr" rotate="180" color="yellow"/>
+		<symbol symbol="star" x="sx8" y="sy8" sx="sr" sy="sr" rotate="0" color="yellow"/>
+		<symbol symbol="star" x="sx9" y="sy9" sx="sr" sy="sr" rotate="0" color="yellow"/>
+	</g>
+</flag>

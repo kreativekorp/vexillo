@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="mc" name="Monaco" properties="cf sf ce se normal" fly="h*5/4">
+	<defs>
+		<!-- Could not find a reference for colors. This is what Wikipedia uses. -->
+		<color id="red">
+			<colorspec model="rgb" value="206 17 38"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="2" colors="red white"/>
+</flag>

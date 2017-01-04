@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="rw" name="Rwanda" properties="cf sf wf normal" fly="h*3/2">
+	<defs>
+		<dim id="sx" e="w*0.82"/>
+		<dim id="sy" e="h*0.26125"/>
+		<dim id="sr" e="min(h*0.16125,w*0.18)"/>
+		<color id="blue">
+			<colorspec model="pantone" value="3005c"/>
+			<colorspec model="cmyk" value="100 34 0 2"/>
+			<colorspec model="rgb" value="0 129 198"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="109c"/>
+			<colorspec model="cmyk" value="0 10 100 0"/>
+			<colorspec model="rgb" value="255 221 0"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="3415c"/>
+			<colorspec model="cmyk" value="100 0 77 22"/>
+			<colorspec model="rgb" value="0 138 94"/>
+		</color>
+		<color id="sun">
+			<colorspec model="pantone" value="130c"/>
+			<colorspec model="cmyk" value="0 30 100 0"/>
+			<colorspec model="rgb" value="253 185 19"/>
+		</color>
+		<symdef id="rays" d="M 1 0 L 0.3074 0.0405 L 0.9659 0.2588
+		                     L 0.2865 0.1187 L 0.866 0.5 L 0.246 0.1888
+		                     L 0.7071 0.7071 L 0.1888 0.246 L 0.5 0.866
+		                     L 0.1187 0.2865 L 0.2588 0.9659 L 0.0405 0.3074
+		                     L 0 1 L -0.0086 -0.0086 z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue yellow green" weights="2 1 1"/>
+	<symbol symbol="rays" x="sx" y="sy" sx="sr" sy="sr" rotate="0" color="sun"/>
+	<symbol symbol="rays" x="sx" y="sy" sx="sr" sy="sr" rotate="90" color="sun"/>
+	<symbol symbol="rays" x="sx" y="sy" sx="sr" sy="sr" rotate="180" color="sun"/>
+	<symbol symbol="rays" x="sx" y="sy" sx="sr" sy="sr" rotate="270" color="sun"/>
+	<disc cx="sx" cy="sy" w="sr*0.62" h="sr*0.62" color="blue"/>
+	<disc cx="sx" cy="sy" w="sr*0.56" h="sr*0.56" color="sun"/>
+</flag>

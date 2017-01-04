@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="pr" name="Puerto Rico" fly="h*3/2">
+	<defs>
+		<dim id="t" e="h*sqrt(3)/2"/>
+		<dim id="r" e="h/6"/>
+		<color id="red">
+			<colorspec model="pantone" value="032"/>
+			<colorspec model="cmyk" value="0 90 86 0"/>
+			<colorspec model="rgb" value="239 65 53"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="281"/>
+			<colorspec model="cmyk" value="100 72 0 32"/>
+			<colorspec model="rgb" value="0 62 126"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="red white"/>
+	<poly points="0 0 t h/2 0 h" color="blue"/>
+	<symbol symbol="star" x="t/3" y="h/2" sx="r" sy="r" color="white"/>
+</flag>

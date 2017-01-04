@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="tn" name="Tunisia" properties="cf sf wf ce se we normal" fly="h*3/2">
+	<defs>
+		<dim id="d1" e="min(h/2,w/2)"/>
+		<dim id="d2" e="min(h*3/8,w*3/8)"/>
+		<dim id="d3" e="min(h*3/10,w*3/10)"/>
+		<dim id="d4" e="min(h*9/40,w*9/40)"/>
+		<dim id="x1" e="w/2"/>
+		<dim id="x2" e="w/2+d1/10"/>
+		<dim id="y" e="h/2"/>
+		<color id="red">
+			<colorspec model="pantone" value="S 94-1"/>
+			<colorspec model="cmyk" value="10 100 80 0"/>
+			<colorspec model="rgb" value="218 31 61"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<disc cx="x1" cy="y" w="d1" h="d1" color="white"/>
+	<disc cx="x1" cy="y" w="d2" h="d2" color="red"/>
+	<disc cx="x2" cy="y" w="d3" h="d3" color="white"/>
+	<symbol symbol="star" x="x2" y="y" sx="d4/2" sy="d4/2" rotate="-90" color="red"/>
+</flag>

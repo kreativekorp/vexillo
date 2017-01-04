@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="il" name="Israel" properties="cf sf wf normal" fly="h*11/8">
+	<defs>
+		<dim id="r1" e="min(h*69/320,w*69/160)"/>
+		<dim id="r2" e="min(h*47/320,w*47/160)"/>
+		<dim id="x11" e="w/2-r1*sqrt(3)/2"/>
+		<dim id="x12" e="w/2"/>
+		<dim id="x13" e="w/2+r1*sqrt(3)/2"/>
+		<dim id="y11" e="h/2-r1"/>
+		<dim id="y12" e="h/2-r1/2"/>
+		<dim id="y13" e="h/2+r1/2"/>
+		<dim id="y14" e="h/2+r1"/>
+		<dim id="x21" e="w/2-r2*sqrt(3)/2"/>
+		<dim id="x22" e="w/2"/>
+		<dim id="x23" e="w/2+r2*sqrt(3)/2"/>
+		<dim id="y21" e="h/2-r2"/>
+		<dim id="y22" e="h/2-r2/2"/>
+		<dim id="y23" e="h/2+r2/2"/>
+		<dim id="y24" e="h/2+r2"/>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="0 56 184"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="white blue white blue white" weights="3 5 16 5 3"/>
+	<poly points="x12 y11 x13 y13 x11 y13 x12 y11 x22 y21 x21 y23 x23 y23 x22 y21" color="blue"/>
+	<poly points="x12 y14 x11 y12 x13 y12 x12 y14 x22 y24 x23 y22 x21 y22 x22 y24" color="blue"/>
+</flag>

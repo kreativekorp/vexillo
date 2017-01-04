@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="vc" name="Saint Vincent and Grenadines" properties="cf sf wf ce se we normal" fly="h*11/7">
+	<defs>
+		<dim id="dh" e="h/3"/>
+		<dim id="dw" e="w*0.112"/>
+		<dim id="dy1" e="h*5/10"/>
+		<dim id="dy2" e="h*7/10"/>
+		<dim id="dx1" e="w*0.432"/>
+		<dim id="dx2" e="w*0.500"/>
+		<dim id="dx3" e="w*0.568"/>
+		<color id="blue">
+			<colorspec model="rgb" value="0 114 198"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="252 209 22"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="0 158 96"/>
+		</color>
+		<symdef id="diamond" d="M 0 -1 L 1 0 L 0 1 L -1 0 Z"/>
+	</defs>
+	<vband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue yellow green" weights="1 2 1"/>
+	<symbol symbol="diamond" x="dx1" y="dy1" sx="dw/2" sy="dh/2" color="green"/>
+	<symbol symbol="diamond" x="dx2" y="dy2" sx="dw/2" sy="dh/2" color="green"/>
+	<symbol symbol="diamond" x="dx3" y="dy1" sx="dw/2" sy="dh/2" color="green"/>
+</flag>

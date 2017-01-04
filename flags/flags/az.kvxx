@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="az" name="Azerbaijan" properties="cf sf wf ce se we normal" fly="h*2">
+	<defs>
+		<dim id="csh" e="min(h/6,w/3)"/>
+		<color id="blue">
+			<colorspec model="pantone" value="313C"/>
+			<colorspec model="rgb" value="0 151 195"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="185C"/>
+			<colorspec model="rgb" value="224 0 52"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="3405C"/>
+			<colorspec model="rgb" value="0 174 101"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="crestar" d="M 0.5569 0.5023
+		                        C 0.3952 0.7422 0.121 0.9 -0.19 0.9
+		                        c -0.4971 0 -0.9 -0.403 -0.9 -0.9
+		                        c 0 -0.4971 0.4029 -0.9 0.9 -0.9
+		                        c 0.3111 0 0.5852 0.1578 0.7469 0.3977
+		                        C 0.4196 -0.6544 0.221 -0.75 0 -0.75
+		                        c -0.4142 0 -0.75 0.3358 -0.75 0.75
+		                        c 0 0.4142 0.3358 0.75 0.75 0.75
+		                        C 0.221 0.75 0.4196 0.6544 0.5569 0.5023 z
+		                        M 1.041 0.0955 L 1.31 -0.0003 l -0.2691 -0.0955
+		                        l 0.1224 -0.258 l -0.2578 0.1228 L 0.8097 -0.5
+		                        l -0.0955 0.2691 L 0.4562 -0.3533 l 0.1228 0.2578
+		                        L 0.31 0.0003 l 0.2691 0.0955 l -0.1224 0.258
+		                        l 0.2578 -0.1228 L 0.8104 0.5 l 0.0955 -0.2691
+		                        l 0.258 0.1224 L 1.041 0.0955 z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue red green"/>
+	<symbol symbol="crestar" x="w/2" y="h/2" sx="csh" sy="csh" color="white"/>
+</flag>

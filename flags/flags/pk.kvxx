@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="pk" name="Pakistan" properties="cf sf wf normal" fly="h*3/2">
+	<defs>
+		<dim id="cx1" e="w*5/8"/>
+		<dim id="cy1" e="h/2"/>
+		<dim id="cw" e="min(w*3/4,h*9/8)"/>
+		<dim id="ch" e="min(h,w*2/3)"/>
+		<dim id="a" e="atan2(ch,cw)"/>
+		<dim id="e" e="ch*13/20"/>
+		<dim id="cx2" e="cx1+cw/2-e*cos(a)"/>
+		<dim id="cy2" e="cy1-ch/2+e*sin(a)"/>
+		<dim id="cr1" e="ch*3/10"/>
+		<dim id="cr2" e="ch*11/40"/>
+		<dim id="sr" e="ch/10"/>
+		<dim id="sx" e="cx2+sr*cos(a)"/>
+		<dim id="sy" e="cy2-sr*sin(a)"/>
+		<color id="green">
+			<colorspec model="pantone" value="343"/>
+			<colorspec model="cmyk" value="98 0 72 61"/>
+			<colorspec model="rgb" value="0 88 61"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w/4" y2="h" color="white"/>
+	<field x1="w/4" y1="0" x2="w" y2="h" color="green"/>
+	<disc cx="cx1" cy="cy1" w="cr1*2" h="cr1*2" color="white"/>
+	<disc cx="cx2" cy="cy2" w="cr2*2" h="cr2*2" color="green"/>
+	<symbol symbol="star" x="sx" y="sy" sx="sr" sy="sr" rotate="90-a" color="white"/>
+</flag>

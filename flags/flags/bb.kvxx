@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="bb" name="Barbados" properties="cf sf wf ce normal" fly="h*3/2">
+	<defs>
+		<dim id="th" e="min(w/3,h)"/>
+		<color id="blue">
+			<colorspec model="pantone" value="280c"/>
+			<colorspec model="cmyk" value="100 70 0 20"/>
+			<colorspec model="rgb" value="0 74 143"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="123c"/>
+			<colorspec model="cmyk" value="0 30 90 0"/>
+			<colorspec model="rgb" value="253 185 51"/>
+		</color>
+		<color id="black">
+			<colorspec model="pantone" value="Black"/>
+			<colorspec model="cmyk" value="0 0 0 100"/>
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<symdef id="trident" d="M 0 -0.4845
+		                        C -0.0325 -0.3959 -0.0656 -0.3036 -0.1365 -0.233
+		                        C -0.1145 -0.2402 -0.076 -0.2467 -0.0512 -0.2461
+		                        L -0.0512 0.1266 L -0.1565 0.1423
+		                        C -0.1602 0.1419 -0.1615 0.136 -0.1615 0.128
+		                        C -0.1716 0.0123 -0.199 -0.085 -0.2305 -0.1856
+		                        C -0.2327 -0.1994 -0.2726 -0.2519 -0.2419 -0.2426
+		                        C -0.2381 -0.2421 -0.197 -0.2254 -0.2035 -0.2334
+		                        C -0.2595 -0.2914 -0.3414 -0.3331 -0.4209 -0.3455
+		                        C -0.4279 -0.3472 -0.432 -0.3437 -0.4257 -0.3356
+		                        C -0.3202 -0.1733 -0.232 0.0184 -0.2327 0.2458
+		                        C -0.1917 0.2458 -0.0924 0.2215 -0.0512 0.2215
+		                        C -0.0512 0.2215 -0.0512 0.4845 -0.0512 0.4845
+		                        L 0 0.4845 L 0.0125 -0.25 z"/>
+	</defs>
+	<vband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue yellow blue"/>
+	<symbol symbol="trident" x="w/2" y="h/2" sx="th" sy="th" color="black"/>
+	<symbol symbol="trident" x="w/2" y="h/2" sx="-th" sy="th" color="black"/>
+</flag>

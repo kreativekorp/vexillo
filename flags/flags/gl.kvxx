@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="gl" name="Greenland" properties="cf sf ce normal" fly="h*3/2">
+	<defs>
+		<dim id="C" e="min(h*7/12,w/2)"/>
+		<dim id="D" e="min(h*8/12,w*2/3)"/>
+		<color id="red">
+			<colorspec model="pantone" value="186C"/>
+			<colorspec model="cmyk" value="0 100 81 4"/>
+			<colorspec model="rgb" value="227 24 55"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="2" colors="white red"/>
+	<disc cx="C" cy="h/2" w="D" h="D" arcstart="0" arcend="180" color="red"/>
+	<disc cx="C" cy="h/2" w="D" h="D" arcstart="180" arcend="360" color="white"/>
+</flag>

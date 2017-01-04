@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="lc" name="Saint Lucia" properties="cf sf wf ce normal" fly="h*2">
+	<defs>
+		<dim id="tw" e="min(h*2/3,w*2/3)"/>
+		<dim id="td" e="tw*4/3"/>
+		<dim id="th" e="sqrt(td*td-tw*tw/4)"/>
+		<dim id="tx1" e="(w-tw)/2"/>
+		<dim id="tx2" e="(w+tw)/2"/>
+		<dim id="ty1" e="(h-th)/2"/>
+		<dim id="ty2" e="(h+th)/2"/>
+		<dim id="tty" e="tw/6"/>
+		<dim id="ttx" e="tty*tw/th/2"/>
+		<color id="blue">
+			<colorspec model="pantone" value="3005"/>
+			<colorspec model="cmyk" value="100 34 0 2"/>
+			<colorspec model="rgb" value="0 129 198"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="109"/>
+			<colorspec model="cmyk" value="0 10 100 0"/>
+			<colorspec model="rgb" value="255 221 0"/>
+		</color>
+		<color id="black">
+			<colorspec model="pantone" value="Black"/>
+			<colorspec model="cmyk" value="0 0 0 100"/>
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="White"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<poly points="tx1 ty2 w/2 ty1 tx2 ty2" color="white"/>
+	<poly points="tx1+ttx ty2 w/2 ty1+tty tx2-ttx ty2" color="black"/>
+	<poly points="tx1 ty2 w/2 h/2 tx2 ty2" color="yellow"/>
+</flag>

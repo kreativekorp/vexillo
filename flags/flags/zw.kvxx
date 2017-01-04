@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="zw" name="Zimbabwe" properties="cf sf wf ce se we normal" fly="h*2">
+	<defs>
+		<dim id="tx" e="h*84/126"/>
+		<dim id="ts" e="h*5/126"/>
+		<dim id="cx" e="h*34/126"/>
+		<dim id="cy" e="h/2"/>
+		<dim id="r1" e="h*32/126"/>
+		<dim id="r2" e="h*27.5/126"/>
+		<dim id="r3" e="h*16/126"/>
+		<dim id="r4" e="h*13/126"/>
+		<dim id="bx1" e="h*16/126"/>
+		<dim id="by1" e="h*36/126"/>
+		<dim id="bx2" e="h*56/126"/>
+		<dim id="by2" e="h*82/126"/>
+		<color id="green">
+			<colorspec model="pantone" value="355"/>
+			<colorspec model="cmyk" value="94 0 100 0"/>
+			<colorspec model="rgb" value="0 169 79"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="102"/>
+			<colorspec model="cmyk" value="0 0 95 0"/>
+			<colorspec model="rgb" value="255 242 3"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="032"/>
+			<colorspec model="cmyk" value="0 90 86 0"/>
+			<colorspec model="rgb" value="239 65 53"/>
+		</color>
+		<color id="black">
+			<colorspec model="pantone" value="Black"/>
+			<colorspec model="cmyk" value="0 0 0 100"/>
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="White"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<imgdef id="bird">
+			<imgsrc type="image/svg+xml" enc="raw">
+				<![CDATA[
+					<?xml version="1.0" encoding="utf-8"?>
+					<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In  -->
+					<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+						<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+					]>
+					<svg version="1.1"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+						 x="0px" y="0px" width="165px" height="187px" viewBox="0.001 0 165 187"
+						 overflow="visible" enable-background="new 0.001 0 165 187" xml:space="preserve">
+					<defs>
+					</defs>
+					<path fill="#FFC618" d="M52.119,78.014c7.905,17.22,9.881,18.352,29.644,25.126c19.761,6.774,75.589,13.197,81.095,13.832
+						c-3.6-3.6-66.485-50.181-79.401-59.497c-12.916-9.317-16.516-13.552-16.516-13.552S55.295,22.963,51.272,16.822
+						C47.249,10.681,39.838,2,30.098,2c-9.74,0-15.668,5.717-18.492,15.881c-1.553,0.424-9.881,5.506-9.599,10.729
+						c2.4-0.283,17.504-4.518,22.727,12.562s5.505,45.029,0.141,58.863c-5.364,13.834-13.692,24.277-13.692,36.418
+						c0,1.693,1.129,5.082,3.952,5.082c0.988,5.365,8.893,43.617,8.893,43.617h112.645l17.893-69.168"/>
+					<path fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M52.119,78.014
+						c7.905,17.22,9.881,18.352,29.644,25.126c19.761,6.774,75.589,13.197,81.095,13.832c-3.6-3.6-66.485-50.181-79.401-59.497
+						c-12.916-9.317-16.516-13.552-16.516-13.552S55.295,22.963,51.272,16.822C47.249,10.681,39.838,2,30.098,2
+						c-9.74,0-15.668,5.717-18.492,15.881c-1.553,0.424-9.881,5.506-9.599,10.729c2.4-0.283,17.504-4.518,22.727,12.562
+						s5.505,45.029,0.141,58.863c-5.364,13.834-13.692,24.277-13.692,36.418c0,1.693,1.129,5.082,3.952,5.082
+						c0.988,5.365,8.893,43.617,8.893,43.617h112.645l17.893-69.168"/>
+					<path fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M15.135,141.535
+						c0,0,23.997-1.412,30.491-1.412c6.493,0,66.936,0.076,100.659,7.873"/>
+					<path fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M23.61,141.059
+						c0,0-2.404-2.912-0.852-8.699c1.553-5.786,18.492-20.75,18.492-41.923"/>
+					<path fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M38.144,140.123
+						c0,0-1.976-9.457,19.622-17.504c6.07-1.834,23.432-11.574,23.997-19.479"/>
+					<path fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M55.469,123.518
+						c0,0,52.974,0.232,94.897,8.701"/>
+					<path fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M68.748,117.197
+						c0,0,18.202,0.623,21.167-0.225c2.964-0.847,8.211-3.05,10.299-9.252"/>
+					<path fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M79.539,117.414
+						c0,0,9.735-5.062,11.644-11.645"/>
+					<path fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M50.143,185.152
+						c0,0-4.165-28.865-5.012-45.029l10.87,10.377l11.5-10.057l9.886,10.551l11.43-9.699l9.885,11.109l11.32-9.627l9.006,10.475
+						l11.289-8.164l13.422,12.756"/>
+					<path fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M141.38,166.957
+						c-40.322-5.775-94.281-5.4-94.281-5.4"/>
+					<path fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M28.353,61.785
+						c0,0,32.799-15.674,38.587-17.861"/>
+					<polyline fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="46.031,151.561 
+						57.057,161.598 67.018,151.637 77.094,162.025 87.974,152.404 97.991,162.932 109.288,153.605 118.519,164.385 129.756,155.793 
+						141.569,166.227 "/>
+					<circle fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" cx="77.316" cy="132.501" r="4.376"/>
+					<circle fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" cx="95.79" cy="133.741" r="4.376"/>
+					<circle fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" cx="27.028" cy="15.552" r="3.388"/>
+					</svg>
+				]]>
+			</imgsrc>
+			<imgsrc type="image/png" enc="ascii85">
+				<![CDATA[
+					M,6r;%14!\!!!!.8Ou6I!!!"q!!!#2#Qk&,!&H(,!rr<$)0A;LFAm*iFE_/6AH5#,Ddm9#8SqmKAQ!)JA9i1:ANTqm!+Si!<(-cezzzzzzzzzzzz!"]P?+;k88,m?Oh##IJh?qL`E<ssOg%$,<:T6q0QL_7Ce'$m6chlRX^\ekCd(d]aP*<6'>&9LfF;ZI@O0L/HBE.F"AYJ8E@mira&M?!Vb)bEF`<-[-A?/&hh.M-INlniS.Ag)u/./s6JmKZQS!D-`W4Qc8mX#%t:bqT%^c%"SGhj5hnr;N3NhHofD0!N[Zq>Kt?rqjV"HllZ&j5C6WF8^J4ORKq&<E<))lafiW\\WQ:*H?O5!<B[s`hN[aid;Is3rB"DAn0=M29aNbTY(7);r-ds'EIV80[B`\GJ9jIX2')f!3/*[d4gV7Tl8@m9Th2t]D&XX#no?$J?T1^m_C@Si,<7`oF2qlGXV#E`E_XlqqoOgRgL$BNdFE?!8'.9I0(PR;?@t@9`W\GV,IBHo4n7+-q9Fp.p,LC-3<VJA$uRAN?q4HkHZo[FP\Nss'i@+:5ue\4*@#$!;=MncPf^/6Q'^QQoXo,!4_B_;W_^,BY5Ko!5QA:60a\t3QeH@^aa9$UjMl[%?cr]lB-E1cijETVFs.$HNX,'-:7\_DK>n@>QJ@oJM[RQgffq:GN6dFr,&!'C:?S%ZG"5-2U"3/ATtrcFM8$&4m[k8TJ?[^$NOP'AjV\+;IC90HDACRr-<[>H[C*d5Fr<pY$TKp=f%0+gK9%]b<7AuJ(JsGp);f/_\CY)kD_SXM0_1#jK$K"bB]lIq=9gaH[?uU#/V%ed=*@XGq@3If,MCD7[di?)sp^tIjb*:H<3l5?_Y\)[OV`PRN'F5WK+H[UteL@frdI2B0snkMLe%J$0DHm`%c9o-f$3S?/l`"ZCqKMSC7-a-nbRPF@S2rjK7YRi-,])5DMD!0c>KISN0[Q!<,1UnX)N3;52*u<A$YO7g&8:CHcJeCUYR,ktX.tn`urQZWTLMhkrPa!?h=XGoPb'E8<K@qKAX[i-GY>jN"[B%-Plp]U31CiI]-mV`3/;A`SL0ai\;EB"HIC%8$:=!:"#ucAT*ngsFU_!+<?-R`*2`XoEidl&%t)-ki"C<GXbV@Eh!tW>I3ks#FoX0Z3<5QIBQ'YYAB;gkX9l&8jcXI/tJM%ZF]Fa_WKZGtt2i]ge6)'JLUqBm>^%#L!EM%^,E6FP"8ql?_?<H$g=f-38/kP^O&A`.5B&9#JS20jq/:Z4E>K)D#2$AKNUuV"M,l%OKNcCSU7Wo?sEL;0M5=C!rFuT9gmY:eH?)Sq*4l7I)+]1p(=(8sB8*9p8>'H#&l$^Xsl-$KXZ%mM+fVoehrn&5#CZ(?Q9nj'[<b&j+RI1hehLs+EAt(6@Os/$hf'C=&Bg]3CXiEdW6ib18f=\k@'+T2p/+)r(6uY#l<*qGJmO^0TF%,W]*bfD_^"+,T=V3a//?OJQWf4u6,u^hd*"]#.Wo@Udm\K*GkO7/thZQY`\\4EY>s\Q]#SE6V5EB.NO-Qk+!2i&[SM8j-`N*gGf^>+_1,2XdGA^k5>/j'&)IFFDG5_dq#P>5r`(6[;sbF['*CNn+_Y%$Z23a/^i^Afn.IghU$s,%A`MDNNR<lT_Q$k!;'H#7n?">3kX@mW]N@NFQH?=j_&cos:^g2Nl&4ncWXZDQ!.l=2U<\GUsYL%2[h0oN&)d-<Y6#S6DkS>!NJ+J^uKW935gN].Gf87>?oMebX9;W_/h'ltM"OBi2?8e,%CD+_&PM5m%*>dOZ244[JE&PLQj3J#Ga9A6iF$`-jn60p*s92R-TgSl@g7<WUH\bA-ONe&-Eu,1[s7?D!*QOk='uN9?oNhMTc"<5OM=X=5qi;c+mj65>67"4ap$JTt7i&B9E?mUp7HU+DJPZQAY:iDV2KK)*2[-;)qqlh)qBmh976O(!KU26s3%^h`j:>Do!q&ZfDT:,duLfaSf><>3"K!"e>jRikaBX:Vd]?*D$+p-#s?I.fF(]-./>C)=(L#e^sfUu9IHAHBf(OO>hg^-M<SWOSC]$I%SJ=YjlQ6.Mr`/2pI=.TqUu+auNm5,P&b#mO`0Y<E?A:NC#_(uIu2FgV3m(,)S[/=.4_8Rm?[\&<8hMh65k_'L^+7@*d_D'$T^e_M7DQ'L8>PZ(HA$PD0bXIhQA7gbpo!03uKfB%5=2:&ERX17CNHl1D_8+`^F;EdJfG%LGCki(g"C.Y4_BSYC@5.*#54<2C;Es=.fmlIr?$)NmRg*fPfWS"BfAjf2IWm!f7K/&[qU%/Bfr#e3Dfer9bgT&#T%qCP+;+c+DTe=3C"2AYS.^KmTh2-+uksCVK11oL"s.A\p3IJAUSIH=.&4-Y7%_30i/jpCkGe_U\D*,/oJ[W^2e#ecHJ6#[24om9I_OCp+!7rpjP1r98)S[ST?o7\Jb@+%5.,c@W&9c&#iOF`c[CfTKkFRXU9FBitd)!Ome9]iqp^&Bb+`\>.qi(8O,M1Adaebo)ULf_48BkY?WN;`mhtuY-<e?+bZD*TBCMD8rq7JN'iu8LW!)cHuj\XOIXMYo[-l3B+o)B]5ANS5iMM6_l06Ht33pgk/Jh6G7>pjF(VoJGD2ulh#BS%./mlBiFaMB_>K2+&5=WA&4)s\qh4S<As`N2oP"6krEkl5CD;ie&["cYX9[mgbX<4U!-6AG<Lm/L%-F2u%U/>&<&FI%b92fRq<?C<!s-e!s]9YPF8=XKAH1Oj+U!PEFKLdiHb?<eRMFZ0o`T%Hue4D83W'AMbZAOM7Oo;.\W(.+@kPVL0Cf^/617&b[;R<l%?Zh%Oqi"gnTPNij@AU*\U`Yd`f9t/%ePFu:+ms1LD-t?M<.OhpPU.amtWo0cs`jdFnN*a[5?2a:P'*)Nr&40>o9%fCF<">fEm5WE0@uSg)"DgqOC"IBu2JB<AA5g7;T/mYERRg)Rr^9'o5G<f,@Y`qW-!Z=aqpY0rD%0.k37,(#X$6?Aje?:rm^Qec],'G]$j6Rd,2m8B2cTHaSRL$)+UK),VYOZf4A$400!i1rf=4R&gr*"rrT-ura`8p/bZ$gr9pOHA0L*c<]4oh".TlnmH:_d8<j=3+)&Z<>0(J$!la[IQJ8'GUXX`3>ZL`FT2!FcNMhNL%CrTgd\\WL$Bs#_per+NBg!"cT`lPI*>i]&sc(V!0dHE*`I`/%;BkUi?q@rTff94>Dpo]*AoUVmbofPH=?.[2_CDkc:?mfo.pa1(D\G61.;h*L.rQ]f3]e)`C!.`b%M>gjr)eT;U'3tfo5+PO"r)+cBI/#>mBgZ.h`aG7@mHbcZHac-:fm2"MMl?H55q8lkn(mB5gatD<AgJ=VWGG6f\EV+7oDQ3%bd>pGkEu(L=X(k6H#A[p.O-t1FoC><Wqsr'R+S@tS:OgtWL%/e@8m'MhOJ!!H]Bf7;Hh=&rQG#@j0tlIf;[^9-`d]6RSPXm@hWl$#H%$Ne>:&tQfr*$qr>Q@9?Ip@CSWQtK+A`g*>^;pL6em!$Fs)@:cb9h$g55@QmqL'@_6`^ER>;@K(f7DND7K[9Y[2K2n"c>2YuT-]9^iM3[XW8j5><V#]]7(c%f6]]Vf>bIlBc*5!"?L:YfLS01+t]!/M1e0J**K\/`EKYTVVMDBr<nX_?,&Y@_lq1j-?/e9k/0*8RP)_FeqigB18`mOrD]o-]M-DJ=001%VrjfZ=sH6:`P0/%51?@t1!6oY$k]&bBGsenNZfYc$a_[pnL;!9?MV0t4XpHEW-m&@GJI&5.BjI>jOhYrm8=MT_^>OpHO[.MBcT%h\CFG<VTP%GtX*^QQ6ip+L5GodZ#3)_"E'r'X?O`,0&(TNpX#D\[:=$N!jL&$heEn"<W07t*PT=q<nE^[-kAP)<$i5B`?lQcNs,),2WRKTbAm61B^+YdCg^GF].$rA,8I@Im'0R.m3GVJGF<dFN?*M,Q(:XNQTjcT2R-eu>"Tmd@D%B%#1%GS[15fO6Zee4Zh;4SV29Y$nDfq67(ROtUf,hi?[H+aa-hk"=5\Aj53G%^Sa/EW*Rkch5DPJ5Y1-WVn=q1&3)MamRfqEpA".ZU<"0g=k_]J*cP)4.KNYV(Tp"5.COo!hVQ118=:<'CJN9KuuV@z8OZBBY!QNJ
+				]]>
+			</imgsrc>
+		</imgdef>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="7" colors="green yellow red black red yellow green"/>
+	<poly points="0 0 ts 0 tx+ts h/2 ts h 0 h" color="black"/>
+	<poly points="0 0 tx h/2 0 h" color="white"/>
+	<poly points="cx cy-r1
+	              cx+r3*sin(36) cy-r3*cos(36)
+	              cx+r1*sin(72) cy-r1*cos(72)
+	              cx+r4*sin(72) cy+r4*cos(72)
+	              cx+r2*sin(36) cy+r2*cos(36)
+	              cx cy+r4
+	              cx-r2*sin(36) cy+r2*cos(36)
+	              cx-r4*sin(72) cy+r4*cos(72)
+	              cx-r1*sin(72) cy-r1*cos(72)
+	              cx-r3*sin(36) cy-r3*cos(36)" color="red"/>
+	<image x1="bx1" y1="by1" x2="bx2" y2="by2" image="bird"/>
+</flag>

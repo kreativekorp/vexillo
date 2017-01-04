@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="jo" name="Jordan" properties="cf sf ce se normal" fly="h*2">
+	<defs>
+		<dim id="d" e="min(h/14,w/14)"/>
+		<color id="red">
+			<colorspec model="rgb" value="255 0 0"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="0 153 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.216942 -0.450484 L 0.781831 -0.62349
+		                     L 0.487464 -0.11126 L 0.974928 0.222521
+		                     L 0.390916 0.311745 L 0.433884 0.900969 L 0 0.5
+		                     L -0.433884 0.900969 L -0.390916 0.311745
+		                     L -0.974928 0.222521 L -0.487464 -0.11126
+		                     L -0.781831 -0.62349 L -0.216942 -0.450484 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="black white green"/>
+	<poly points="0 0 w/2 h/2 0 h" color="red"/>
+	<symbol symbol="star" x="w/6" y="h/2" sx="d" sy="d" color="white"/>
+</flag>

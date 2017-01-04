@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ma" name="Morocco" properties="cf sf wf se normal" fly="h*3/2">
+	<defs>
+		<dim id="sr" e="min(h/4,w/4)"/>
+		<color id="red">
+			<colorspec model="pantone" value="193"/>
+			<colorspec model="cmyk" value="0 100 66 13"/>
+			<colorspec model="rgb" value="209 18 66"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="363"/>
+			<colorspec model="cmyk" value="68 0 100 24"/>
+			<colorspec model="rgb" value="67 149 57"/>
+		</color>
+		<symdef id="pentagram" d="M 0.5838 0.8033 L 0 0.3793 l -0.5838 0.4241
+		                          l 0.223 -0.6862 l -0.5837 -0.424 h 0.7214
+		                          L 0 -0.9936 l 0.2231 0.6867 h 0.7214
+		                          l -0.5837 0.424 L 0.5838 0.8033 z
+		                          M 0.1245 0.2888 l 0.1811 0.1316
+		                          l -0.0692 -0.2129 L 0.1245 0.2888 z
+		                          M -0.2364 0.2075 l -0.0692 0.2129
+		                          l 0.1811 -0.1316 L -0.2364 0.2075 z
+		                          M -0.1889 0.0612 L 0 0.1984 l 0.1889 -0.1372
+		                          l -0.0721 -0.2218 h -0.2336 L -0.1889 0.0612 z
+		                          M 0.2706 -0.1606 l 0.0427 0.1314
+		                          l 0.1809 -0.1314 H 0.2706 z
+		                          M -0.4942 -0.1606 l 0.1809 0.1314
+		                          l 0.0427 -0.1314 H -0.4942 z
+		                          M -0.0693 -0.3069 h 0.1386 L 0 -0.5201
+		                          L -0.0693 -0.3069 z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<symbol symbol="pentagram" x="w/2" y="h/2" sx="sr" sy="sr" color="green"/>
+</flag>

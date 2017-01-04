@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ws" name="Samoa" properties="cf sf wf ce se we normal" fly="h*2">
+	<defs>
+		<dim id="ch" e="min(h/2,w/2)"/>
+		<color id="red">
+			<colorspec model="pantone" value="032"/>
+			<colorspec model="cmyk" value="0 90 86 0"/>
+			<colorspec model="rgb" value="239 65 53"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="281"/>
+			<colorspec model="cmyk" value="100 72 0 32"/>
+			<colorspec model="rgb" value="0 62 126"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<field x1="0" y1="0" x2="w/2" y2="h/2" color="blue"/>
+	<symbol symbol="star" x="w/4" y="h/4-ch*25/72" sx="ch*8/72" sy="ch*8/72" color="white"/>
+	<symbol symbol="star" x="w/4" y="h/4+ch*23/72" sx="ch*10/72" sy="ch*10/72" color="white"/>
+	<symbol symbol="star" x="w/4-ch*22/72" y="h/4-ch*7/72" sx="ch*8/72" sy="ch*8/72" color="white"/>
+	<symbol symbol="star" x="w/4+ch*22.5/72" y="h/4-ch*10.5/72" sx="ch*7.5/72" sy="ch*7.5/72" color="white"/>
+	<symbol symbol="star" x="w/4+ch*11/72" y="h/4+ch*5/72" sx="ch*5/72" sy="ch*5/72" color="white"/>
+</flag>

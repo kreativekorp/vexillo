@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Northern Ireland" fly="h*5/3">
+	<defs>
+		<dim id="t" e="min(h/5,w/5)"/>
+		<!-- Colors taken from gb. -->
+		<color id="red">
+			<colorspec model="pantone" value="186 C"/>
+			<colorspec model="cmyk" value="0 91 76 6"/>
+			<colorspec model="rgb" value="207 20 43"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<saltire x1="0" y1="0" x2="w" y2="h" thickness="t" color="red"/>
+</flag>

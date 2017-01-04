@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="np" name="Nepal" properties="cf sf wf normal" fly="h/1.2190">
+	<!-- Constant in fly attribute given by OEIS A230582. -->
+	<defs>
+		
+		<!-- Dimensions were calculated from a geometric construction in KSEG. -->
+		<!-- Accuracy is limited to 3 digits. -->
+		<dim id="x" e="(w-f)/2"/>
+		<dim id="mf" e="h/3.3060"/><!-- middle fly -->
+		<dim id="lf" e="h/1.2678"/><!-- lower fly -->
+		<dim id="uh" e="h/1.9466"/><!-- upper hoist -->
+		<dim id="TN" e="h/33.7858"/><!-- border width -->
+		<dim id="ix" e="x+TN"/><!-- inner x -->
+		<dim id="iy" e="h-TN"/><!-- inner y -->
+		<dim id="ih" e="h/1.0906"/><!-- inner hoist (AC) -->
+		<dim id="if" e="ih*3/4"/><!-- inner fly (AB) -->
+		<dim id="imf" e="if/3.4142"/><!-- inner middle fly (FE) -->
+		<dim id="ilh" e="ih/1.8856"/><!-- inner lower hoist (AF) -->
+		<dim id="sx" e="ix+if/4"/><!-- symbol x -->
+		<dim id="ssuny" e="iy-ih/1.57"/><!-- small sun y -->
+		<dim id="ssunr" e="ih/10.3585"/><!-- small sun radius -->
+		<dim id="suny" e="iy-ih/3.7712"/><!-- sun y -->
+		<dim id="sunr" e="ih/6.2305"/><!-- sun radius -->
+		
+		<!-- Glaze only visible part. -->
+		<dim id=".glazeleft" e="x"/>
+		<dim id=".glazetop" e="0"/>
+		<dim id=".glazeright" e="x+f"/>
+		<dim id=".glazebottom" e="h"/>
+		
+		<color id="red">
+			<colorspec model="pantone" value="186"/>
+			<colorspec model="cmyk" value="0 100 81 4"/>
+			<colorspec model="rgb" value="227 24 55"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="287"/>
+			<colorspec model="cmyk" value="100 68 0 12"/>
+			<colorspec model="rgb" value="0 83 155"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		
+		<symdef id="ssun" d="M 0.720 0 L 0.981 -0.195 L 0.665 -0.276
+							 L 0.831 -0.556 L 0.509 -0.509 L 0.556 -0.831
+							 L 0.276 -0.665 L 0.195 -0.981 L 0 -0.720
+							 L -0.195 -0.981 L -0.276 -0.665 L -0.556 -0.831
+							 L -0.509 -0.509 L -0.831 -0.556 L -0.665 -0.276
+							 L -0.981 -0.195 L -0.720 0 L -0.981 0.195
+							 L -0.665 0.276 L -0.831 0.556 L -0.509 0.509
+							 L -0.556 0.831 L -0.276 0.665 L -0.195 0.981
+							 L 0 0.720 L 0.195 0.981 L 0.276 0.665 L 0.556 0.831
+							 L 0.509 0.509 L 0.831 0.556 L 0.665 0.276
+							 L 0.981 0.195 Z"/>
+		<symdef id="moon" d="M -1 -0.4653 A 1 1 0 0 0 1 -0.4653
+							 A 1.0745 1.0745 0 0 1 -1 -0.4653 Z"/>
+		<symdef id="sun" d="M 1 0 L 0.581 -0.156 L 0.866 -0.5 L 0.425 -0.425
+							L 0.5 -0.866 L 0.156 -0.581 L 0 -1 L -0.156 -0.581
+							L -0.5 -0.866 L -0.425 -0.425 L -0.866 -0.5
+							L -0.581 -0.156 L -1 0 L -0.581 0.156 L -0.866 0.5
+							L -0.425 0.425 L -0.5 0.866 L -0.156 0.581 L 0 1
+							L 0.156 0.581 L 0.5 0.866 L 0.425 0.425 L 0.866 0.5
+							L 0.581 0.156 Z"/>
+		
+		<!-- Glaze only visible part. -->
+		<symdef id=".glazearea" d="M 0 0 L 1 0.5137 L 0.3687 0.5137 L 0.9615 1 L 0 1 Z"/>
+		
+	</defs>
+	<poly points="x 0 x+f uh x+mf uh x+lf h x h" color="blue"/>
+	<poly points="ix iy-ih ix+if iy-ilh ix+imf iy-ilh ix+if iy ix iy" color="red"/>
+	<g>
+		<clip>
+			<field x1="0" y1="0" x2="w" y2="h/2.2843"/>
+		</clip>
+		<symbol symbol="ssun" x="sx" y="ssuny" sx="ssunr" sy="ssunr" color="white"/>
+	</g>
+	<symbol symbol="moon" x="sx" y="ssuny" sx="sunr/1.0745" sy="sunr/1.0745" color="white"/>
+	<symbol symbol="sun" x="sx" y="suny" sx="sunr" sy="sunr" color="white"/>
+</flag>

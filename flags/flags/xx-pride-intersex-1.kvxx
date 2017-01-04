@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Intersex Pride" fly="h*4/3">
+	<!-- I could not find an authoritative source for proportion or colors. There probably is none. -->
+	<defs>
+		<color id="magenta">
+			<colorspec model="rgb" value="241 167 254"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="160 206 239"/>
+		</color>
+		<color id="pink">
+			<colorspec model="rgb" value="244 184 222"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="6" colors="magenta white blue pink white magenta"/>
+	<hgrad x1="0" y1="h*5/12" x2="w" y2="h*7/12" color1="blue" color2="pink"/>
+</flag>

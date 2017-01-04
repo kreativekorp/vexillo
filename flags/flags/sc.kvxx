@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="sc" name="Seychelles" properties="cf sf wf ce se we normal" fly="h*2">
+	<defs>
+		<color id="blue">
+			<colorspec model="pantone" value="294"/>
+			<colorspec model="cmyk" value="100 70 0 0"/>
+			<colorspec model="rgb" value="0 91 170"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="122"/>
+			<colorspec model="cmyk" value="0 20 100 0"/>
+			<colorspec model="rgb" value="255 203 5"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="1795"/>
+			<colorspec model="cmyk" value="0 100 100 0"/>
+			<colorspec model="rgb" value="237 28 36"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="356"/>
+			<colorspec model="cmyk" value="100 0 100 0"/>
+			<colorspec model="rgb" value="0 166 81"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<poly points="0 h 0 0 w*2/3 0" color="yellow"/>
+	<poly points="0 h 0 0 w/3 0" color="blue"/>
+	<poly points="0 h w h w h/3" color="white"/>
+	<poly points="0 h w h w h*2/3" color="green"/>
+</flag>

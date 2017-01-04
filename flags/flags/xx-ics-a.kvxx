@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Alfa" fly="h">
+	<defs>
+		<dim id="s" e="min(h,w)"/>
+		<dim id="x1" e="(w-s)/2"/>
+		<dim id="y1" e="(h-s)/2"/>
+		<dim id="x2" e="(w+s)/2"/>
+		<dim id="y2" e="(h+s)/2"/>
+		<dim id="x3" e="w/2+s/4"/>
+		<dim id="y3" e="h/2"/>
+		<dim id=".glazeleft" e="x1"/>
+		<dim id=".glazetop" e="y1"/>
+		<dim id=".glazeright" e="x2"/>
+		<dim id=".glazebottom" e="y2"/>
+		<symdef id=".glazearea" d="M 0 0 L 1 0 L 0.75 0.5 L 1 1 L 0 1 Z"/>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="0 0 255"/>
+		</color>
+	</defs>
+	<g>
+		<clip>
+			<poly points="x1 y1 x2 y1 x3 y3 x2 y2 x1 y2"/>
+		</clip>
+		<vband x1="x1" y1="y1" x2="x2" y2="y2" bands="2" colors="white blue"/>
+	</g>
+</flag>

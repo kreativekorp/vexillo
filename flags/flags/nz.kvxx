@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="nz" name="New Zealand" properties="cf sf wf se normal" fly="h*2">
+	<defs>
+		<!-- Dimensions of union. -->
+		<dim id="cw" e="w/2"/>
+		<dim id="ch" e="h/2"/>
+		<!-- Dimensions of saltire. -->
+		<dim id="t1" e="ch*6/30"/>
+		<dim id="t2" e="ch*4/30"/>
+		<!-- Dimensions of cross. -->
+		<dim id="cy1" e="ch*10/30"/>
+		<dim id="cy2" e="ch*12/30"/>
+		<dim id="cy3" e="ch*18/30"/>
+		<dim id="cy4" e="ch*20/30"/>
+		<dim id="cx1" e="cw/2-ch*5/30"/>
+		<dim id="cx2" e="cw/2-ch*3/30"/>
+		<dim id="cx3" e="cw/2+ch*3/30"/>
+		<dim id="cx4" e="cw/2+ch*5/30"/>
+		<!-- Dimensions of stars. -->
+		<dim id="sDA" e="sdA*1.44"/>
+		<dim id="sDB" e="sdB*1.51333333333"/>
+		<dim id="sDG" e="sdG*1.51333333333"/>
+		<dim id="sDD" e="sdD*1.616"/>
+		<dim id="sdA" e="min(w*7/120,h*7/60)"/>
+		<dim id="sdB" e="min(w/20,h/10)"/>
+		<dim id="sdG" e="min(w/20,h/10)"/>
+		<dim id="sdD" e="min(w/24,h/12)"/>
+		<dim id="sxA" e="w*3/4"/>
+		<dim id="sxB" e="w*127/200"/>
+		<dim id="sxG" e="w*3/4"/>
+		<dim id="sxD" e="w*101/120"/>
+		<dim id="syA" e="h*4/5"/>
+		<dim id="syB" e="h*13/30"/>
+		<dim id="syG" e="h/5"/>
+		<dim id="syD" e="h*28/75"/>
+		<!-- Colors. -->
+		<color id="blue">
+			<colorspec model="pantone" value="280 C"/>
+			<colorspec model="cmyk" value="100 72 0 18"/>
+			<colorspec model="rgb" value="0 36 125"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="186 C"/>
+			<colorspec model="cmyk" value="0 91 76 6"/>
+			<colorspec model="rgb" value="207 20 43"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<!-- Stars. -->
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<g>
+		<saltire x1="0" y1="0" x2="cw" y2="ch" thickness="t1" color="white"/>
+		<g>
+			<clip>
+				<saltire x1="0" y1="0" x2="cw" y2="ch" thickness="t2"/>
+			</clip>
+			<poly points="0 0 cw/2 ch/2 0 ch/2" color="red"/>
+			<poly points="cw 0 cw/2 ch/2 cw/2 0" color="red"/>
+			<poly points="0 ch cw/2 ch/2 cw/2 ch" color="red"/>
+			<poly points="cw ch cw/2 ch/2 cw ch/2" color="red"/>
+		</g>
+		<cross x1="0" y1="0" x2="cx1" y2="cy1" x3="cx4" y3="cy4" x4="cw" y4="ch" color="white"/>
+		<cross x1="0" y1="0" x2="cx2" y2="cy2" x3="cx3" y3="cy3" x4="cw" y4="ch" color="red"/>
+	</g>
+	<g>
+		<symbol symbol="star" x="sxA" y="syA" sx="sDA/2" sy="sDA/2" color="white"/><!-- Alpha Crucis -->
+		<symbol symbol="star" x="sxB" y="syB" sx="sDB/2" sy="sDB/2" color="white"/><!-- Beta Crucis -->
+		<symbol symbol="star" x="sxG" y="syG" sx="sDG/2" sy="sDG/2" color="white"/><!-- Gamma Crucis -->
+		<symbol symbol="star" x="sxD" y="syD" sx="sDD/2" sy="sDD/2" color="white"/><!-- Delta Crucis -->
+		<symbol symbol="star" x="sxA" y="syA" sx="sdA/2" sy="sdA/2" color="red"/><!-- Alpha Crucis -->
+		<symbol symbol="star" x="sxB" y="syB" sx="sdB/2" sy="sdB/2" color="red"/><!-- Beta Crucis -->
+		<symbol symbol="star" x="sxG" y="syG" sx="sdG/2" sy="sdG/2" color="red"/><!-- Gamma Crucis -->
+		<symbol symbol="star" x="sxD" y="syD" sx="sdD/2" sy="sdD/2" color="red"/><!-- Delta Crucis -->
+	</g>
+</flag>

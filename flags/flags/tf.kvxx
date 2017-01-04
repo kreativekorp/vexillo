@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="tf" name="French Southern Lands" fly="h*3/2">
+	<defs>
+		<dim id="ex" e="(h*0.6)+(w-h*0.6)*22/45"/>
+		<dim id="ey" e="h*3/4"/>
+		<dim id="eh" e="min(h/2,(w-h*0.6)*3/4)"/>
+		<dim id="sr" e="eh*0.105"/>
+		<dim id="sx1" e="ex-eh*0.415"/>
+		<dim id="sx2" e="ex-eh*0.225"/>
+		<dim id="sx3" e="ex"/>
+		<dim id="sx4" e="ex+eh*0.225"/>
+		<dim id="sx5" e="ex+eh*0.415"/>
+		<dim id="sy1" e="ey-eh*0.365"/>
+		<dim id="sy2" e="ey+eh*0.140"/>
+		<dim id="sy3" e="ey+eh*0.310"/>
+		<color id="blue">
+			<colorspec model="pantone" value="Reflex Blue"/>
+			<colorspec model="cmyk" value="100 70 0 5"/>
+			<colorspec model="rgb" value="0 85 164"/>
+			<colorspec model="ncs" value="25 65 R80B"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+			<colorspec model="ncs" value="white"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="Red 032"/>
+			<colorspec model="cmyk" value="0 90 86 0"/>
+			<colorspec model="rgb" value="250 60 50"/>
+			<colorspec model="ncs" value="05 80 Y80R"/>
+		</color>
+		<symdef id="atfa" d="M -0.305 -0.585 l 0.0644 0.1025 h 0.1831 v 0.3575
+		                     l -0.1375 -0.215 l -0.185 0.295 h 0.09 l 0.095 -0.17
+		                     l 0.195 0.35 l 0.195 -0.35 l 0.095 0.17 h 0.09
+		                     l -0.185 -0.295 l -0.1375 0.215 v -0.1975 h 0.0825
+		                     l 0.0613 -0.0975 h -0.1438 v -0.0625 h 0.1831
+		                     l 0.0644 -0.1025 h -0.61 z M -0.09 -0.1475 h -0.2
+		                     v 0.07 h 0.2 z M 0.29 -0.1475 h -0.2 v 0.07 h 0.2 z"/>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<field x1="0" y1="0" x2="h*0.605" y2="h*0.405" color="white"/>
+	<vband x1="0" y1="0" x2="h*0.595" y2="h*0.395" bands="3" colors="blue white red"/>
+	<symbol symbol="atfa" x="ex" y="ey" sx="eh" sy="eh" color="white"/>
+	<symbol symbol="star" x="sx1" y="sy1" sx="sr" sy="sr" color="white"/>
+	<symbol symbol="star" x="sx5" y="sy1" sx="sr" sy="sr" color="white"/>
+	<symbol symbol="star" x="sx2" y="sy2" sx="sr" sy="sr" color="white"/>
+	<symbol symbol="star" x="sx4" y="sy2" sx="sr" sy="sr" color="white"/>
+	<symbol symbol="star" x="sx3" y="sy3" sx="sr" sy="sr" color="white"/>
+</flag>

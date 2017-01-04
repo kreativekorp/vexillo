@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ie" name="Ireland" properties="cf sf wf ce se we normal" fly="h*2">
+	<defs>
+		<color id="green">
+			<colorspec model="pantone" value="347"/>
+			<colorspec model="rgb" value="0 154 73"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="White"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="orange">
+			<colorspec model="pantone" value="151"/>
+			<colorspec model="rgb" value="255 121 0"/>
+		</color>
+	</defs>
+	<vband x1="0" y1="0" x2="w" y2="h" bands="3" colors="green white orange"/>
+</flag>

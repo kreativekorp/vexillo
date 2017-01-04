@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Pansexual Pride" fly="h*4/3">
+	<!-- Proportions and colors from web archive of pansexualflag.tumblr.com. Probably the most authoritative source possible. -->
+	<defs>
+		<color id="pink">
+			<colorspec model="rgb" value="255 33 140"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 216 0"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="33 177 255"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="pink yellow blue"/>
+</flag>

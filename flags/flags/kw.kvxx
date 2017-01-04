@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="kw" name="Kuwait" properties="cf sf ce se we normal" fly="h*2">
+	<defs>
+		<color id="green">
+			<colorspec model="pantone" value="340C"/>
+			<colorspec model="cmyk" value="100 0 70 15"/>
+			<colorspec model="rgb" value="0 147 111"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="186C"/>
+			<colorspec model="cmyk" value="0 90 80 5"/>
+			<colorspec model="rgb" value="227 61 58"/>
+		</color>
+		<color id="black">
+			<colorspec model="cmyk" value="0 0 0 100"/>
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="green white red"/>
+	<poly points="0 0 w/4 h/3 w/4 h*2/3 0 h" color="black"/>
+</flag>

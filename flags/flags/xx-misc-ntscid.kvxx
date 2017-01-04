@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="NTSC Color Bars" fly="h*4/3">
+	<defs>
+		<color id="white">
+			<colorspec model="rgb" value="0.75 0.75 0.75"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="0.75 0.75 0.0"/>
+		</color>
+		<color id="cyan">
+			<colorspec model="rgb" value="0.0 0.75 0.75"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="0.0 0.75 0.0"/>
+		</color>
+		<color id="magenta">
+			<colorspec model="rgb" value="0.75 0.0 0.75"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="0.75 0.0 0.0"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="0.0 0.0 0.75"/>
+		</color>
+		<color id="black">
+			<colorspec model="rgb" value="0.075 0.075 0.075"/>
+		</color>
+		<color id="i">
+			<colorspec model="rgb" value="0.0 0.12 0.3"/>
+		</color>
+		<color id="superwhite">
+			<colorspec model="rgb" value="1.0 1.0 1.0"/>
+		</color>
+		<color id="q">
+			<colorspec model="rgb" value="0.2 0.0 0.42"/>
+		</color>
+		<color id="superblack">
+			<colorspec model="rgb" value="0.035 0.035 0.035"/>
+		</color>
+		<color id="pluge">
+			<colorspec model="rgb" value="0.115 0.115 0.115"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="black"/>
+	<vband x1="0" y1="0" x2="w" y2="h*8/12" bands="7" colors="white yellow cyan green magenta red blue black"/>
+	<vband x1="0" y1="h*8/12" x2="w" y2="h*9/12" bands="7" colors="blue black magenta black cyan black white"/>
+	<vband x1="0" y1="h*9/12" x2="w*5/7" y2="h" bands="4" colors="i superwhite q black"/>
+	<vband x1="w*5/7" y1="h*9/12" x2="w*6/7" y2="h" bands="3" colors="superblack black pluge"/>
+	<hband x1="0" y1="h*5/12" x2="w" y2="h*7/12" bands="1" colors="black"/>
+</flag>

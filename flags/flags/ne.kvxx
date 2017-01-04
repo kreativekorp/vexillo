@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ne" name="Niger" properties="cf sf wf normal" fly="h*7/6">
+	<defs>
+		<dim id="d" e="min(h*17/60,w*17/20)"/>
+		<color id="orange">
+			<!-- The NOC says 150 but I don't believe them (it's too light). -->
+			<colorspec model="pantone" value="150"/>
+			<colorspec model="rgb" value="224 82 6"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="355"/>
+			<colorspec model="rgb" value="13 176 43"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="orange white green"/>
+	<disc cx="w/2" cy="h/2" w="d" h="d" color="orange"/>
+</flag>

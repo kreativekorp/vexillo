@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="uz" name="Uzbekistan" properties="cf sf ce se normal" fly="h*2">
+	<defs>
+		<dim id="cx1" e="h*70/250"/>
+		<dim id="cx2" e="h*75/250"/>
+		<dim id="cy" e="h*40/250"/>
+		<dim id="cd" e="h*60/250"/>
+		<dim id="sby" e="h*16/250"/>
+		<dim id="sbx" e="h*184/250"/>
+		<dim id="sd" e="h*24/250"/>
+		<dim id="sr" e="h*6/250"/>
+		<color id="blue">
+			<colorspec model="pantone" value="313c"/>
+			<colorspec model="cmyk" value="100 0 8 13"/>
+			<colorspec model="rgb" value="0 154 199"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="361c"/>
+			<colorspec model="cmyk" value="69 0 100 0"/>
+			<colorspec model="rgb" value="84 185 72"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="485c"/>
+			<colorspec model="cmyk" value="0 95 100 0"/>
+			<colorspec model="rgb" value="238 49 36"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="blue red white red green" weights="16 1 16 1 16"/>
+	<disc cx="cx1" cy="cy" w="cd" h="cd" color="white"/>
+	<disc cx="cx2" cy="cy" w="cd" h="cd" color="blue"/>
+	<for var="y" start="0" end="2">
+		<for var="x" start="0" end="y+2">
+			<symbol symbol="star" x="sbx-sd*x" y="sby+sd*y" sx="sr" sy="sr" color="white"/>
+		</for>
+	</for>
+</flag>

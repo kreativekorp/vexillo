@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="tg" name="Togo" properties="cf sf wf ce se we normal" fly="h*1.618">
+	<defs>
+		<dim id="ch" e="h*3/5"/>
+		<color id="green">
+			<colorspec model="rgb" value="0 106 78"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 206 0"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="210 16 52"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="green yellow"/>
+	<field x1="0" y1="0" x2="ch" y2="ch" color="red"/>
+	<symbol symbol="star" x="ch/2" y="ch/2" sx="ch/3" sy="ch/3" color="white"/>
+</flag>

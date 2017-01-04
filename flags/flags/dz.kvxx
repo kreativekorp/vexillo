@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="dz" name="Algeria" properties="cf sf wf ce se normal" fly="h*3/2">
+	<defs>
+		<dim id="cr" e="min(h/4,w/4)"/>
+		<color id="green">
+			<colorspec model="pantone" value="356c"/>
+			<colorspec model="cmyk" value="100 0 90 25"/>
+			<colorspec model="rgb" value="0 134 75"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="186c"/>
+			<colorspec model="cmyk" value="0 90 80 5"/>
+			<colorspec model="rgb" value="227 61 58"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="crescent" d="M 0.8660254 -0.5 A 1 1 0 1 0 0.8660254 0.5
+		                         A 0.8 0.8 0 1 1 0.8660254 -0.5 Z"/>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<vband x1="0" y1="0" x2="w" y2="h" bands="2" colors="green white"/>
+	<symbol symbol="crescent" x="w/2" y="h/2" sx="cr" sy="cr" color="red"/>
+	<symbol symbol="star" x="w/2+cr*0.809/2" y="h/2" sx="cr/2" sy="cr/2" rotate="90" color="red"/>
+</flag>

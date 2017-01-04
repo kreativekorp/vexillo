@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Christian" fly="h*3/2">
+	<!-- I could not find an authoritative source for proportion or colors. There probably is none. -->
+	<defs>
+		<dim id="cw" e="h*254/400"/>
+		<dim id="ch" e="h*216/400"/>
+		<dim id="x1" e="h*72/400"/>
+		<dim id="x2" e="h*114/400"/>
+		<dim id="x3" e="h*138/400"/>
+		<dim id="x4" e="h*180/400"/>
+		<dim id="y1" e="h*36/400"/>
+		<dim id="y2" e="h*76/400"/>
+		<dim id="y3" e="h*100/400"/>
+		<dim id="y4" e="h*180/400"/>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="0 40 104"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="191 10 48"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<field x1="0" y1="0" x2="cw" y2="ch" color="blue"/>
+	<cross x1="x1" y1="y1" x2="x2" y2="y2" x3="x3" y3="y3" x4="x4" y4="y4" color="red"/>
+</flag>

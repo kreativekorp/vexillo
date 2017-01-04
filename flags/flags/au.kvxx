@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="au" name="Australia" properties="cf sf wf se normal" fly="h*2">
+	<defs>
+		<!-- Dimensions of union. -->
+		<dim id="cw" e="w/2"/>
+		<dim id="ch" e="h/2"/>
+		<!-- Dimensions of saltire. -->
+		<dim id="t1" e="ch*6/30"/>
+		<dim id="t2" e="ch*4/30"/>
+		<!-- Dimensions of cross. -->
+		<dim id="cy1" e="ch*10/30"/>
+		<dim id="cy2" e="ch*12/30"/>
+		<dim id="cy3" e="ch*18/30"/>
+		<dim id="cy4" e="ch*20/30"/>
+		<dim id="cx1" e="cw/2-ch*5/30"/>
+		<dim id="cx2" e="cw/2-ch*3/30"/>
+		<dim id="cx3" e="cw/2+ch*3/30"/>
+		<dim id="cx4" e="cw/2+ch*5/30"/>
+		<!-- Dimensions of stars. -->
+		<dim id="sdC" e="min(w*3/20,h*3/10)"/>
+		<dim id="sdA" e="min(w/14,h/7)"/>
+		<dim id="sdB" e="min(w/14,h/7)"/>
+		<dim id="sdG" e="min(w/14,h/7)"/>
+		<dim id="sdD" e="min(w/14,h/7)"/>
+		<dim id="sdE" e="min(w/24,h/12)"/>
+		<dim id="sxC" e="w/4"/>
+		<dim id="sxA" e="w*3/4"/>
+		<dim id="sxB" e="w*5/8"/>
+		<dim id="sxG" e="w*3/4"/>
+		<dim id="sxD" e="w*31/36"/>
+		<dim id="sxE" e="w*4/5"/>
+		<dim id="syC" e="h*3/4"/>
+		<dim id="syA" e="h*5/6"/>
+		<dim id="syB" e="h*7/16"/>
+		<dim id="syG" e="h/6"/>
+		<dim id="syD" e="h*89/240"/>
+		<dim id="syE" e="h*13/24"/>
+		<!-- Colors. -->
+		<color id="blue">
+			<colorspec model="pantone" value="280 C"/>
+			<colorspec model="rgb" value="0 43 127"/>
+			<colorspec model="cmyk" value="100 80 0 0"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="185 C"/>
+			<colorspec model="rgb" value="232 17 45"/>
+			<colorspec model="cmyk" value="0 100 100 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="rgb" value="255 255 255"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+		</color>
+		<!-- Stars. -->
+		<symdef id="star5" d="M 0 -1
+		                      L 0.261238 -0.359563
+		                      L 0.951057 -0.309017
+		                      L 0.422691 0.137341
+		                      L 0.587785 0.809017
+		                      L 0 0.444444
+		                      L -0.587785 0.809017
+		                      L -0.422691 0.137341
+		                      L -0.951057 -0.309017
+		                      L -0.261238 -0.359563 Z"/>
+		<symdef id="star7" d="M 0 -1
+		                      L 0.192837 -0.40043
+		                      L 0.781831 -0.62349
+		                      L 0.433301 -0.098898
+		                      L 0.974928 0.222521
+		                      L 0.34748 0.277106
+		                      L 0.433884 0.900969
+		                      L 0 0.444444
+		                      L -0.433884 0.900969
+		                      L -0.34748 0.277106
+		                      L -0.974928 0.222521
+		                      L -0.433301 -0.098898
+		                      L -0.781831 -0.62349
+		                      L -0.192837 -0.40043 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<g>
+		<saltire x1="0" y1="0" x2="cw" y2="ch" thickness="t1" color="white"/>
+		<g>
+			<clip>
+				<saltire x1="0" y1="0" x2="cw" y2="ch" thickness="t2"/>
+			</clip>
+			<poly points="0 0 cw/2 ch/2 0 ch/2" color="red"/>
+			<poly points="cw 0 cw/2 ch/2 cw/2 0" color="red"/>
+			<poly points="0 ch cw/2 ch/2 cw/2 ch" color="red"/>
+			<poly points="cw ch cw/2 ch/2 cw ch/2" color="red"/>
+		</g>
+		<cross x1="0" y1="0" x2="cx1" y2="cy1" x3="cx4" y3="cy4" x4="cw" y4="ch" color="white"/>
+		<cross x1="0" y1="0" x2="cx2" y2="cy2" x3="cx3" y3="cy3" x4="cw" y4="ch" color="red"/>
+	</g>
+	<g>
+		<symbol symbol="star7" x="sxC" y="syC" sx="sdC/2" sy="sdC/2" color="white"/><!-- Commonwealth -->
+		<symbol symbol="star7" x="sxA" y="syA" sx="sdA/2" sy="sdA/2" color="white"/><!-- Alpha Crucis -->
+		<symbol symbol="star7" x="sxB" y="syB" sx="sdB/2" sy="sdB/2" color="white"/><!-- Beta Crucis -->
+		<symbol symbol="star7" x="sxG" y="syG" sx="sdG/2" sy="sdG/2" color="white"/><!-- Gamma Crucis -->
+		<symbol symbol="star7" x="sxD" y="syD" sx="sdD/2" sy="sdD/2" color="white"/><!-- Delta Crucis -->
+		<symbol symbol="star5" x="sxE" y="syE" sx="sdE/2" sy="sdE/2" color="white"/><!-- Epsilon Crucis -->
+	</g>
+</flag>

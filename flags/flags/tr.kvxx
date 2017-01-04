@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="tr" name="Turkey" properties="cf sf wf ce se we normal" fly="h*3/2">
+	<defs>
+		<dim id="G" e="min(h,w*0.8)"/>
+		<dim id="A" e="G/2"/>
+		<dim id="B" e="G/2"/>
+		<dim id="C" e="G/16"/>
+		<dim id="D" e="G*2/5"/>
+		<dim id="E" e="G/3"/>
+		<dim id="F" e="G/3"/>
+		<color id="red">
+			<colorspec model="rgb" value="0.89 0.039 0.09"/>
+			<colorspec model="cmyk" value="0.0 0.956 0.899 0.11"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="1.0 1.0 1.0"/>
+			<colorspec model="cmyk" value="0.0 0.0 0.0 0.0"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<disc cx="A" cy="h/2" w="B" h="B" color="white"/>
+	<disc cx="A+C" cy="h/2" w="D" h="D" color="red"/>
+	<symbol symbol="star" x="A+C-D/2+E+F/2" y="h/2" sx="F/2" sy="F/2" rotate="-90" color="white"/>
+</flag>

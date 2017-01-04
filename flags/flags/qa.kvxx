@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="qa" name="Qatar" properties="cf sf wf ce se we normal" fly="h*28/11">
+	<defs>
+		<dim id="x1" e="w*8/28"/>
+		<dim id="x2" e="w*10/28"/>
+		<dim id="yh" e="h/18"/>
+		<color id="maroon">
+			<colorspec model="pantone" value="222c"/>
+			<colorspec model="cmyk" value="0 100 15 60"/>
+			<colorspec model="rgb" value="122 0 60"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="maroon"/>
+	<poly points="0 0 x1 yh*0 x2 yh*1 x1 yh*2 x2 yh*3 x1 yh*4 x2 yh*5 x1 yh*6
+	              x2 yh*7 x1 yh*8 x2 yh*9 x1 yh*10 x2 yh*11 x1 yh*12 x2 yh*13
+	              x1 yh*14 x2 yh*15 x1 yh*16 x2 yh*17 x1 yh*18 0 h" color="white"/>
+</flag>

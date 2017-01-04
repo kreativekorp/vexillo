@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="tz" name="Tanzania" properties="cf ce se normal" fly="h*3/2">
+	<defs>
+		<dim id="os" e="min(h*38/96,w*38/96)"/>
+		<dim id="is" e="min(h*26/96,w*26/96)"/>
+		<color id="green">
+			<colorspec model="pantone" value="361c"/>
+			<colorspec model="cmyk" value="69 0 100 0"/>
+			<colorspec model="rgb" value="84 185 72"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="116c"/>
+			<colorspec model="cmyk" value="0 16 100 0"/>
+			<colorspec model="rgb" value="255 210 0"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="299c"/>
+			<colorspec model="cmyk" value="85 19 0 0"/>
+			<colorspec model="rgb" value="0 157 220"/>
+		</color>
+		<color id="black">
+			<colorspec model="pantone" value="Black"/>
+			<colorspec model="cmyk" value="0 0 0 100"/>
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+	</defs>
+	<poly points="0 0 w 0 0 h" color="green"/>
+	<poly points="w 0 w h 0 h" color="blue"/>
+	<g>
+		<clip>
+			<field x1="0" y1="0" x2="w" y2="h"/>
+		</clip>
+		<dband x1="w" y1="0" x2="0" y2="h" thickness="os" color="yellow"/>
+		<dband x1="w" y1="0" x2="0" y2="h" thickness="is" color="black"/>
+	</g>
+</flag>

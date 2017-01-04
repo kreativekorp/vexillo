@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="pa" name="Panama" properties="cf sf wf ce se we normal" fly="h*3/2">
+	<defs>
+		<dim id="sr" e="min(h/8,w/8)"/>
+		<color id="red">
+			<colorspec model="pantone" value="186c"/>
+			<colorspec model="cmyk" value="0 90 80 5"/>
+			<colorspec model="rgb" value="227 61 58"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="300c"/>
+			<colorspec model="cmyk" value="100 45 0 0"/>
+			<colorspec model="rgb" value="0 119 192"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<field x1="w/2" y1="0" x2="w" y2="h/2" color="red"/>
+	<field x1="0" y1="h/2" x2="w/2" y2="h" color="blue"/>
+	<symbol symbol="star" x="w/4" y="h/4" sx="sr" sy="sr" color="blue"/>
+	<symbol symbol="star" x="w*3/4" y="h*3/4" sx="sr" sy="sr" color="red"/>
+</flag>

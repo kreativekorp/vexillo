@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="na" name="Namibia" properties="cf sf wf ce se we normal" fly="h*3/2">
+	<defs>
+		<dim id="t1" e="min(h*10/30,w*10/30)"/>
+		<dim id="t2" e="min(h*7.5/30,w*7.5/30)"/>
+		<dim id="sx" e="w*10/45"/>
+		<dim id="sy" e="h*8/30"/>
+		<dim id="sd" e="min(h*10/30,w*10/45)"/>
+		<dim id="sd1" e="sd*6/10"/>
+		<dim id="sd2" e="sd*5/10"/>
+		<color id="yellow">
+			<colorspec model="pantone" value="123"/>
+			<colorspec model="cmyk" value="0 30 90 0"/>
+			<colorspec model="rgb" value="253 185 51"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="485"/>
+			<colorspec model="cmyk" value="0 95 100 0"/>
+			<colorspec model="rgb" value="238 49 36"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="Reflex Blue"/>
+			<colorspec model="cmyk" value="100 70 0 5"/>
+			<colorspec model="rgb" value="0 85 164"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="347"/>
+			<colorspec model="cmyk" value="100 0 86 3"/>
+			<colorspec model="rgb" value="0 161 96"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star12" d="M 0 -1 L 0.155291 -0.579555 L 0.5 -0.866025
+		                       L 0.424264 -0.424264 L 0.866025 -0.5
+		                       L 0.579555 -0.155291 L 1 -0 L 0.579555 0.155291
+		                       L 0.866025 0.5 L 0.424264 0.424264 L 0.5 0.866025
+		                       L 0.155291 0.579555 L 0 1 L -0.155291 0.579555
+		                       L -0.5 0.866025 L -0.424264 0.424264
+		                       L -0.866025 0.5 L -0.579555 0.155291 L -1 0
+		                       L -0.579555 -0.155291 L -0.866025 -0.5
+		                       L -0.424264 -0.424264 L -0.5 -0.866025
+		                       L -0.155291 -0.579555 Z"/>
+		<symdef id="disc" d="M 0.5 0 A 0.5 0.5 0 0 0 -0.5 0 A 0.5 0.5 0 0 0 0.5 0 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<poly points="w 0 w h 0 h" color="green"/>
+	<g>
+		<clip>
+			<field x1="0" y1="0" x2="w" y2="h"/>
+		</clip>
+		<dband x1="w" y1="0" x2="0" y2="h" thickness="t1" color="white"/>
+		<dband x1="w" y1="0" x2="0" y2="h" thickness="t2" color="red"/>
+	</g>
+	<symbol symbol="star12" x="sx" y="sy" sx="sd/2" sy="sd/2" color="yellow"/>
+	<symbol symbol="disc" x="sx" y="sy" sx="sd1" sy="sd1" color="blue"/>
+	<symbol symbol="disc" x="sx" y="sy" sx="sd2" sy="sd2" color="yellow"/>
+</flag>

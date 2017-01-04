@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="cr" name="Costa Rica" properties="cf ce normal" fly="h*5/3">
+	<defs>
+		<color id="blue">
+			<colorspec model="rgb" value="0 43 127"/>
+			<colorspec model="cmyk" value="100 66 0 50"/>
+			<colorspec model="pantone" value="280"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="206 17 38"/>
+			<colorspec model="cmyk" value="0 91 81 19"/>
+			<colorspec model="pantone" value="186"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="pantone" value="Safe"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="blue white red white blue" weights="1 1 2 1 1"/>
+</flag>

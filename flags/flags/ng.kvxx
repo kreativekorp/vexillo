@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ng" name="Nigeria" properties="cf sf wf normal" fly="h*2">
+	<defs>
+		<!-- Can't find a good reference. Going with Wikipedia. -->
+		<color id="green">
+			<colorspec model="rgb" value="0 135 81"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<vband x1="0" y1="0" x2="w" y2="h" bands="3" colors="green white green"/>
+</flag>

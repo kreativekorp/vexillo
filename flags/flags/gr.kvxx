@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="gr" name="Greece" properties="cf sf wf ce se we normal" fly="h*3/2">
+	<defs>
+		<dim id="a" e="h*2/9"/>
+		<dim id="b" e="h*3/9"/>
+		<dim id="c" e="h*5/9"/>
+		<color id="blue">
+			<colorspec model="pantone" value="286C"/>
+			<colorspec model="cmyk" value="100 60 0 5"/>
+			<colorspec model="pantone" value="285"/>
+			<colorspec model="pantone" value="Reflex Blue"/>
+			<colorspec model="rgb" value="0 97 170"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="9" colors="blue white"/>
+	<field x1="0" y1="0" x2="c" y2="c" color="blue"/>
+	<cross x1="0" y1="0" x2="a" y2="a" x3="b" y3="b" x4="c" y4="c" color="white"/>
+</flag>

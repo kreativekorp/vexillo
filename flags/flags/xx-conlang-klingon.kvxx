@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Klingon" fly="h*5/3">
+	<!-- I could not find an authoritative source for proportion or colors. -->
+	<!-- There probably is none. This is all Hu'tegh trial and error. -->
+	<defs>
+		<dim id="c" e="h*0.536"/>
+		<dim id="d" e="h*0.612"/>
+		<dim id="e" e="h*0.658"/>
+		<dim id="f" e="h*0.726"/>
+		<color id="red">
+			<colorspec model="rgb" value="220 0 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<symdef id="empire" d="M 0.162 -0.242
+		                       C 0.105 -0.148 0.054 -0.094 -0.002 0
+		                       C -0.057 -0.096 -0.117 -0.152 -0.171 -0.248
+		                       C -0.166 -0.295 -0.108 -0.262 0 -1
+		                       C 0.096 -0.268 0.149 -0.301 0.162 -0.242 z
+		                       M -0.434 0.205
+		                       c 0.088 -0.092 0.141 -0.154 0.398 -0.171
+		                       C -0.079 -0.032 -0.158 -0.124 -0.201 -0.189
+		                       C -0.247 -0.099 -0.45 -0.1 -0.434 0.205 z
+		                       M 0.195 -0.197
+		                       C 0.145 -0.126 0.083 -0.04 0.033 0.031
+		                       C 0.205 0.137 0.41 0.149 0.49 0.037
+		                       C 0.387 0.028 0.279 -0.024 0.195 -0.197 z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<disc cx="w/2" cy="c" w="d" h="d" color="white"/>
+	<symbol symbol="empire" x="w/2" y="f" sx="e" sy="e" color="black"/>
+</flag>

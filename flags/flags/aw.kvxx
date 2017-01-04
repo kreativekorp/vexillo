@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="aw" name="Aruba" properties="cf sf normal" fly="h*3/2">
+	<defs>
+		<dim id="u" e="h/18"/>
+		<!-- The uncommented colors are from the NOC. -->
+		<!-- The commented colors are from the British Flag Institute. -->
+		<!-- I believe the NOC colors to be slightly more accurate. -->
+		<color id="blue">
+			<colorspec model="pantone" value="279"/>
+			<colorspec model="cmyk" value="68 34 0 0"/>
+			<colorspec model="rgb" value="80 145 205"/>
+			<!-- colorspec model="pantone" value="300" -->
+			<!-- colorspec model="cmyk" value="100 44 0 0" -->
+			<!-- colorspec model="rgb" value="0 121 193" -->
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="108"/>
+			<colorspec model="cmyk" value="0 6 95 0"/>
+			<colorspec model="rgb" value="255 229 18"/>
+			<!-- colorspec model="pantone" value="109" -->
+			<!-- colorspec model="cmyk" value="0 10 100 0" -->
+			<!-- colorspec model="rgb" value="255 221 0" -->
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="186"/>
+			<colorspec model="cmyk" value="0 100 81 4"/>
+			<colorspec model="rgb" value="227 24 55"/>
+			<!-- colorspec model="pantone" value="032" -->
+			<!-- colorspec model="cmyk" value="0 90 86 0" -->
+			<!-- colorspec model="rgb" value="239 65 53" -->
+		</color>
+		<symdef id="star4" d="M 0 -1 L 0.2357 -0.2357 L 1 0 L 0.2357 0.2357
+		                      L 0 1 L -0.2357 0.2357 L -1 0 L -0.2357 -0.2357 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="blue yellow blue yellow blue" weights="12 1 1 1 3"/>
+	<symbol symbol="star4" x="u*4" y="u*4" sx="u*3" sy="u*3" color="white"/>
+	<symbol symbol="star4" x="u*4" y="u*4" sx="u*2.5" sy="u*2.5" color="red"/>
+</flag>

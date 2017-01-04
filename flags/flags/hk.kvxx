@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="hk" name="Hong Kong" properties="cf sf ce se normal" fly="h*3/2">
+	<defs>
+		<dim id="d" e="min(h/2,w/2)"/>
+		<color id="red">
+			<colorspec model="rgb" value="255 0 0"/>
+			<colorspec model="cmyk" value="0 100 90 0"/>
+			<colorspec model="hsl" value="0 100 50"/>
+			<colorspec model="pantone" value="186"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="hsl" value="0 100 100"/>
+			<colorspec model="pantone" value="Safe"/>
+		</color>
+		<symdef id="petal" d="m 0 0
+		                      c -0.3509 -0.1483 -0.1953 -0.6053 0.1402 -0.5823
+		                      c -0.0679 0.0349 -0.0777 0.1 -0.039 0.1603
+		                      c 0.0434 0.0675 -0.0040 0.1762 -0.0627 0.2026
+		                      c -0.0964 0.0434 -0.1158 0.1592 -0.0386 0.2194 z"/>
+		<symdef id="star" d="m -0.0191 -0.3303 l -0.0197 0.031
+		                     l -0.0071 -0.036 l -0.0356 -0.0092
+		                     l 0.0321 -0.018 l -0.0022 -0.0367
+		                     l 0.027 0.025 l 0.0342 -0.0135
+		                     l -0.0154 0.0334 l 0.0233 0.0284 z"/>
+		<symdef id="trace" d="m 0.0019 -0.0041
+		                      c -0.0424 -0.0218 -0.0767 -0.0672 -0.0916 -0.1214
+		                      c -0.017 -0.0622 -0.0072 -0.1291 0.0269 -0.1835
+		                      l -0.0074 -0.0046
+		                      c -0.0355 0.0564 -0.0456 0.1258 -0.028 0.1904
+		                      c 0.0158 0.0574 0.0507 0.1037 0.096 0.1269 z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<for var="x" start="0" end="4">
+		<symbol symbol="petal" x="w/2" y="h/2" sx="d" sy="d" rotate="x*72" color="white"/>
+		<symbol symbol="star" x="w/2" y="h/2" sx="d" sy="d" rotate="x*72" color="red"/>
+		<symbol symbol="trace" x="w/2" y="h/2" sx="d" sy="d" rotate="x*72" color="red"/>
+	</for>
+</flag>

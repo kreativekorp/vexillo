@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="cw" name="Cura&#231;ao" fly="h*3/2">
+	<defs>
+		<dim id="sd1" e="h/6"/>
+		<dim id="sd2" e="h*2/9"/>
+		<dim id="sx1" e="h/6"/>
+		<dim id="sx2" e="h/3"/>
+		<color id="blue">
+			<colorspec model="pantone" value="280"/>
+			<colorspec model="cmyk" value="100 72 0 18"/>
+			<colorspec model="rgb" value="0 73 144"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="102"/>
+			<colorspec model="cmyk" value="0 0 95 0"/>
+			<colorspec model="rgb" value="255 242 3"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue yellow blue" weights="5 1 2"/>
+	<symbol symbol="star" x="sx1" y="sx1" sx="sd1/2" sy="sd1/2" color="white"/>
+	<symbol symbol="star" x="sx2" y="sx2" sx="sd2/2" sy="sd2/2" color="white"/>
+</flag>

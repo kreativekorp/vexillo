@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="th" name="Thailand" properties="cf sf wf ce se normal" fly="h*3/2">
+	<defs>
+		<color id="red">
+			<colorspec model="munsell" value="5R 4 12"/>
+			<colorspec model="rgb" value="237 28 36"/>
+		</color>
+		<color id="blue">
+			<colorspec model="munsell" value="7.5PB 2 4"/>
+			<colorspec model="rgb" value="36 29 79"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="red white blue white red" weights="1 1 2 1 1"/>
+</flag>

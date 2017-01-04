@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Six" fly="h">
+	<defs>
+		<dim id="s" e="min(h,w)"/>
+		<dim id="x1" e="(w-s)/2"/>
+		<dim id="y1" e="(h-s)/2"/>
+		<dim id="x2" e="(w+s)/2"/>
+		<dim id="y2" e="(h+s)/2"/>
+		<dim id=".glazeleft" e="x1"/>
+		<dim id=".glazetop" e="y1"/>
+		<dim id=".glazeright" e="x2"/>
+		<dim id=".glazebottom" e="y2"/>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="0 0 255"/>
+		</color>
+	</defs>
+	<field x1="x1" y1="y1" x2="x2" y2="y2" color="white"/>
+	<poly points="x1+s*2/7 y1 x1+s*4/7 y1 x1 y1+s*4/7 x1 y1+s*2/7" color="blue"/>
+	<poly points="x2-s/7 y1 x2 y1 x2 y1+s/7 x1+s/7 y2 x1 y2 x1 y2-s/7" color="blue"/>
+	<poly points="x2 y2-s*4/7 x2 y2-s*2/7 x2-s*2/7 y2 x2-s*4/7 y2" color="blue"/>
+</flag>

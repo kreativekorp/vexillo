@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Scotland" properties="cf sf wf normal" fly="h*5/3">
+	<defs>
+		<dim id="t" e="min(h/5,w/5)"/>
+		<color id="blue">
+			<colorspec model="pantone" value="300"/>
+			<colorspec model="rgb" value="0 101 189"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<saltire x1="0" y1="0" x2="w" y2="h" thickness="t" color="white"/>
+</flag>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="lt" name="Lithuania" properties="cf sf wf ce normal" fly="h*5/3">
+	<defs>
+		<color id="yellow">
+			<colorspec model="pantone" value="15-0955 TP"/>
+			<colorspec model="pantone" value="1235 c/u"/>
+			<colorspec model="rgb" value="253 185 19"/>
+			<colorspec model="cmyk" value="0 30 100 0"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="19-6026 TP"/>
+			<colorspec model="pantone" value="349 c/u"/>
+			<colorspec model="rgb" value="0 106 68"/>
+			<colorspec model="cmyk" value="100 55 100 0"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="19-1664 TP"/>
+			<colorspec model="pantone" value="180 c/u"/>
+			<colorspec model="rgb" value="193 39 45"/>
+			<colorspec model="cmyk" value="25 100 100 0"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="yellow green red"/>
+</flag>
