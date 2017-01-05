@@ -1,5 +1,5 @@
 <!--
-	Date: 2016/12/28 18:52:00 PST
+	Date: 2017/01/04 22:46:55 PST
 	Author: Rebecca Bettencourt <support@kreativekorp.com>
 -->
 
@@ -15,7 +15,7 @@
 
 <!ELEMENT colorspec EMPTY>
 <!ATTLIST colorspec
-	model (rgb|hsv|hsl|cmyk|lab|xyy|xyz|ncs|cable|munsell|pantone) #REQUIRED
+	model (rgb|hsv|hsl|cmyk|lab|xyy|xyz|ncs|munsell|cable|ral|pantone) #REQUIRED
 	value CDATA #REQUIRED
 >
 

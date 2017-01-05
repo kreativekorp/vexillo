@@ -7,7 +7,7 @@ public class DummyFrame extends JFrame {
 	public static final long serialVersionUID = 1L;
 	
 	public DummyFrame() {
-		setJMenuBar(new FlagMenuBar(null));
+		setJMenuBar(new FlagMenuBar(null, null));
 		setUndecorated(true);
 		setResizable(false);
 		setMinimumSize(new Dimension(0,0));

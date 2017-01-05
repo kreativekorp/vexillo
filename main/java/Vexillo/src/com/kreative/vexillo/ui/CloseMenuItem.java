@@ -12,7 +12,7 @@ public class CloseMenuItem extends JMenuItem {
 	
 	public CloseMenuItem(final Window window) {
 		setText("Close");
-		if (!OSUtils.isMacOS()) setMnemonic(KeyEvent.VK_W);
+		if (!OSUtils.isMacOS()) setMnemonic(KeyEvent.VK_C);
 		setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_W, InputUtils.META_MASK));
 		if (window == null) {
 			setEnabled(false);

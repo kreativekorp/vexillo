@@ -9,24 +9,12 @@ public class FlagFrame extends JFrame {
 	
 	private final FlagPanel panel;
 	
-	public FlagFrame(File parent, Flag flag) {
-		this(flag.getName(), parent, flag);
-	}
-	
-	public FlagFrame(String title, File parent, Flag flag) {
+	public FlagFrame(String title, File flagFile, Flag flag) {
 		super(title);
-		setJMenuBar(new FlagMenuBar(this));
-		panel = new FlagPanel(parent, flag);
+		setJMenuBar(new FlagMenuBar(this, flagFile));
+		panel = new FlagPanel(flagFile.getParentFile(), flag);
 		setContentPane(panel);
 		pack();
-	}
-	
-	public File getParentFile() {
-		return panel.getParentFile();
-	}
-	
-	public Flag getFlag() {
-		return panel.getFlag();
 	}
 	
 	public void setFlag(File parent, Flag flag) {

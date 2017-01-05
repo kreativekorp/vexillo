@@ -17,6 +17,7 @@ public class ColorParser {
 		if (model.equalsIgnoreCase("ncs")) return parseNCS(value);
 		if (model.equalsIgnoreCase("munsell")) return parseMunsell(value);
 		if (model.equalsIgnoreCase("cable")) return parseCable(value);
+		if (model.equalsIgnoreCase("ral")) return parseRAL(value);
 		if (model.equalsIgnoreCase("pms")) return parsePantone(value);
 		if (model.equalsIgnoreCase("pantone")) return parsePantone(value);
 		throw new IllegalArgumentException("Unsupported color model: " + model);
@@ -215,6 +216,14 @@ public class ColorParser {
 			return new Color.Cable(Integer.parseInt(value));
 		} catch (NumberFormatException e) {
 			throw new IllegalArgumentException("Invalid value for Cable: " + value);
+		}
+	}
+	
+	private static Color parseRAL(String value) {
+		try {
+			return new Color.RAL(Integer.parseInt(value));
+		} catch (NumberFormatException e) {
+			throw new IllegalArgumentException("Invalid value for RAL: " + value);
 		}
 	}
 	

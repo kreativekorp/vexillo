@@ -69,7 +69,7 @@ public class VexView {
 	private static void renderFlag(File file, Flag flag) {
 		String title = file.getName();
 		if (flag.getName() != null) title += ": " + flag.getName();
-		FlagFrame frame = new FlagFrame(title, file.getParentFile(), flag);
+		FlagFrame frame = new FlagFrame(title, file, flag);
 		frame.setVisible(true);
 	}
 }

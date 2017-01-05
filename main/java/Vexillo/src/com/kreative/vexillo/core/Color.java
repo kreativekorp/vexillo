@@ -206,6 +206,13 @@ public abstract class Color {
 		}
 	}
 	
+	public static final class RAL extends Color {
+		public final int number;
+		public RAL(int number) {
+			this.number = Math.max(1000, Math.min(9999, number));
+		}
+	}
+	
 	public static final class Pantone extends Color {
 		public final String name;
 		public Pantone(String name) {
