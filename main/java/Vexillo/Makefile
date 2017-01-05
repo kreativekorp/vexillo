@@ -36,10 +36,13 @@ vexillo-src.tgz: src
 	tar -czf vexillo-src.tgz src/com/kreative
 
 install: vexillo.jar
-	sudo cp -i vexillo.jar /usr/local/bin/
-	sudo cp -i dep/ascii85??code /usr/local/bin/
-	sudo cp -i dep/base64??code /usr/local/bin/
+	sudo cp -f vexillo.jar /usr/local/bin/
+	sudo chmod -f 644 /usr/local/bin/vexillo.jar
+	sudo cp -i dep/{ascii85,base64}{en,de}code /usr/local/bin/
+	sudo chmod -f 755 /usr/local/bin/{ascii85,base64}{en,de}code
 	sudo cp -i dep/rewritesvgpath /usr/local/bin/
-	sudo cp -i dep/vex???? /usr/local/bin/
+	sudo chmod -f 755 /usr/local/bin/rewritesvgpath
+	sudo cp -f dep/vex{illo,view,port,calc} /usr/local/bin/
+	sudo chmod -f 755 /usr/local/bin/vex{illo,view,port,calc}
 
 .PHONY: all eclipseall clean eclipseclean install
