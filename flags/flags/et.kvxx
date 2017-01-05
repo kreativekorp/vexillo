@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="et" name="Ethiopia" properties="cf sf wf ce se we normal" fly="h*2">
+	<defs>
+		<dim id="eh" e="min(h*2/3,w*2/3)"/>
+		<!-- NOC is the only spec we have for colors. -->
+		<color id="green">
+			<colorspec model="pantone" value="347"/>
+			<colorspec model="cmyk" value="100 0 86 3"/>
+			<colorspec model="rgb" value="0 161 96"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="Process Yellow"/>
+			<colorspec model="cmyk" value="0 0 100 0"/>
+			<colorspec model="rgb" value="255 242 0"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="032"/>
+			<colorspec model="cmyk" value="0 90 86 0"/>
+			<colorspec model="rgb" value="239 65 53"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="638"/>
+			<colorspec model="cmyk" value="83 0 10 0"/>
+			<colorspec model="rgb" value="0 182 222"/>
+		</color>
+		<symdef id="star" d="M -0.3804 -0.1244 h 0.2906 l 0.0657 -0.2022
+		                     l 0.0175 0.0539 l -0.0955 0.2939 l -0.0284 -0.0206
+		                     l 0.0298 -0.0917 H -0.3345 L -0.3804 -0.1244
+		                     M -0.2351 0.3228 l 0.0898 -0.2764 L -0.3173 -0.0786
+		                     h 0.0567 l 0.25 0.1816 l -0.0284 0.0206
+		                     l -0.078 -0.0566 L -0.1892 0.2895 L -0.2351 0.3228
+		                     M 0.2351 0.3228 l -0.2351 -0.1708 l -0.172 0.125
+		                     l 0.0175 -0.0539 l 0.25 -0.1816 l 0.0108 0.0333
+		                     l -0.078 0.0566 l 0.1892 0.1375 L 0.2351 0.3228
+		                     M 0.3804 -0.1244 l -0.2351 0.1708 l 0.0657 0.2022
+		                     l -0.0459 -0.0333 l -0.0955 -0.2939 h 0.035
+		                     l 0.0298 0.0917 l 0.1892 -0.1375 H 0.3804
+		                     M 0 -0.4008 l 0.0898 0.2764 h 0.2126
+		                     l -0.0459 0.0333 H -0.0524 l 0.0108 -0.0333
+		                     h 0.0964 L -0.0175 -0.3468 L 0 -0.4008 z
+		                     M 0.0083 0.4008 h -0.0167 v -0.2167 h 0.0167
+		                     V 0.4008 z M 0.3778 0.1323 l -0.2061 -0.067
+		                     l 0.0052 -0.0159 l 0.2061 0.067 L 0.3778 0.1323 z
+		                     M -0.3778 0.1323 L -0.383 0.1165 l 0.2061 -0.067
+		                     l 0.0051 0.0159 L -0.3778 0.1323 z M 0.1145 -0.1426
+		                     l -0.0135 -0.0098 l 0.1274 -0.1753 l 0.0135 0.0098
+		                     L 0.1145 -0.1426 z M -0.1145 -0.1426
+		                     L -0.2419 -0.3179 l 0.0135 -0.0098 l 0.1274 0.1753
+		                     L -0.1145 -0.1426 z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="green yellow red"/>
+	<disc cx="w/2" cy="h/2" w="eh" h="eh" color="blue"/>
+	<symbol symbol="star" x="w/2" y="h/2" sx="eh" sy="eh" color="yellow"/>
+</flag>

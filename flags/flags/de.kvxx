@@ -3,24 +3,24 @@
 <flag id="de" name="Germany" properties="cf sf ce normal" fly="h*5/3">
 	<defs>
 		<color id="black">
+			<colorspec model="ral" value="9005"/>
 			<colorspec model="cmyk" value="0 0 0 100"/>
 			<colorspec model="pantone" value="Black"/>
 			<colorspec model="rgb" value="0 0 0"/>
-			<!-- colorspec model="ral" value="9005" -->
 			<!-- colorspec model="hks" value="0 0 0" -->
 		</color>
 		<color id="red">
+			<colorspec model="ral" value="3020"/>
 			<colorspec model="cmyk" value="0 100 100 0"/>
 			<colorspec model="pantone" value="485"/>
 			<colorspec model="rgb" value="255 0 0"/>
-			<!-- colorspec model="ral" value="3020" -->
 			<!-- colorspec model="hks" value="5.0PB 3.0 12" -->
 		</color>
 		<color id="gold">
+			<colorspec model="ral" value="1021"/>
 			<colorspec model="cmyk" value="0 12 100 5"/>
 			<colorspec model="pantone" value="7405"/>
 			<colorspec model="rgb" value="255 204 0"/>
-			<!-- colorspec model="ral" value="1021" -->
 			<!-- colorspec model="hks" value="6.0R 4.5 14" -->
 		</color>
 	</defs>
