@@ -41,4 +41,12 @@ public class FlagPanel extends JPanel {
 		this.parent = parent;
 		this.flag = flag;
 	}
+	
+	public int getViewerWidth() {
+		return viewer.getWidth();
+	}
+	
+	public int getViewerHeight() {
+		return viewer.getHeight();
+	}
 }
