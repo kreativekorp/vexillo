@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="km" name="Comoros" properties="cf sf wf normal" fly="h*5/3">
+	<defs>
+		<!-- Guessing size and placement of crescent and stars from Wikipedia SVG. -->
+		<dim id="tx" e="h*sqrt(3)/2"/>
+		<dim id="cx1" e="h*17/60"/>
+		<dim id="cx2" e="h*23/60"/>
+		<dim id="cd" e="h*9/20"/>
+		<dim id="sr" e="h/24"/>
+		<dim id="sx" e="h/3"/>
+		<dim id="sy1" e="h/2-cd/3"/>
+		<dim id="sy2" e="h/2-cd/9"/>
+		<dim id="sy3" e="h/2+cd/9"/>
+		<dim id="sy4" e="h/2+cd/3"/>
+		<color id="green">
+			<colorspec model="pantone" value="363"/>
+			<colorspec model="rgb" value="61 142 51"/>
+			<colorspec model="cmyk" value="57 0 54 44"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="127"/>
+			<colorspec model="rgb" value="255 198 30"/>
+			<colorspec model="cmyk" value="0 22 88 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="rgb" value="255 255 255"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="186"/>
+			<colorspec model="rgb" value="206 17 38"/>
+			<colorspec model="cmyk" value="0 92 82 15"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="285"/>
+			<colorspec model="rgb" value="58 117 196"/>
+			<colorspec model="cmyk" value="70 40 0 23"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="4" colors="yellow white red blue"/>
+	<poly points="0 0 tx h/2 0 h" color="green"/>
+	<disc cx="cx1" cy="h/2" w="cd" h="cd" color="white"/>
+	<disc cx="cx2" cy="h/2" w="cd" h="cd" color="green"/>
+	<symbol symbol="star" x="sx" y="sy1" sx="sr" sy="sr" color="white"/>
+	<symbol symbol="star" x="sx" y="sy2" sx="sr" sy="sr" color="white"/>
+	<symbol symbol="star" x="sx" y="sy3" sx="sr" sy="sr" color="white"/>
+	<symbol symbol="star" x="sx" y="sy4" sx="sr" sy="sr" color="white"/>
+</flag>
