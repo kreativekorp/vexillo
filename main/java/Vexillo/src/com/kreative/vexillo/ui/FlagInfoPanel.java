@@ -58,6 +58,10 @@ public class FlagInfoPanel extends JPanel {
 		proportionLabel.addMouseListener(new MouseAdapter() {
 			public void mouseClicked(MouseEvent e) {
 				for (Container c = FlagInfoPanel.this; c != null; c = c.getParent()) {
+					if (c instanceof FlagFrame) {
+						((FlagFrame)c).setAspectRatio(0, 0);
+						break;
+					}
 					if (c instanceof Window) {
 						((Window)c).pack();
 						break;
