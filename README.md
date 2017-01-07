@@ -24,16 +24,15 @@ The `.kvxx` files containing descriptions of flags. Run the `makeflags` script t
     * `pm` indicates PNG files.
     * `sg` indicates SVG files with a glossy finish applied, like on FamFamFam flag icons.
     * `pg` indicates PNG files with a glossy finish applied, like on FamFamFam flag icons.
-    * `wp` indicates large, wallpaper-size PNG files.
   * The third letter indicates the aspect ratio:
     * `a` indicates an aspect ratio that matches the official proper dimensions of each flag.
     * `c` indicates a 3:2 aspect ratio.
     * `d` indicates a 4:3 aspect ratio, which matches standard non-widescreen monitors.
     * `f` indicates a 1:1 or square aspect ratio.
     * `k` indicates a 16:11 aspect ratio, which matches FamFamFam flag icons.
-    * `v` indicates a 16:10 widescreen aspect ratio.
-    * `w` indicates a 16:9 widescreen aspect ratio.
-  * The last five digits indicate the height of the image. (For the `k` series, the actual height is slightly smaller than indicated.)
+  * The last three digits indicate the height of the image:
+    * `072` indicates a height of 72px (or 66px for the `k` series).
+    * `360` indicates a height of 360px (or 396px for the `k` series).
 
 [`fonts/Fiavex`](https://github.com/kreativekorp/vexillo/tree/master/fonts/Fiavex)
 
