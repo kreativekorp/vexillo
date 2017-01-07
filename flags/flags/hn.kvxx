@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="hn" name="Honduras" properties="cf sf wf ce se normal" fly="h*2">
+	<defs>
+		<dim id="sr" e="h/18"/>
+		<dim id="sx1" e="w*2/6"/>
+		<dim id="sx2" e="w*3/6"/>
+		<dim id="sx3" e="w*4/6"/>
+		<dim id="sy1" e="h*5/12"/>
+		<dim id="sy2" e="h*6/12"/>
+		<dim id="sy3" e="h*7/12"/>
+		<color id="blue">
+			<colorspec model="pantone" value="285"/>
+			<colorspec model="cmyk" value="89 43 0 0"/>
+			<colorspec model="rgb" value="0 125 195"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue white blue"/>
+	<symbol symbol="star" x="sx1" y="sy1" sx="sr" sy="sr" color="blue"/>
+	<symbol symbol="star" x="sx3" y="sy1" sx="sr" sy="sr" color="blue"/>
+	<symbol symbol="star" x="sx2" y="sy2" sx="sr" sy="sr" color="blue"/>
+	<symbol symbol="star" x="sx1" y="sy3" sx="sr" sy="sr" color="blue"/>
+	<symbol symbol="star" x="sx3" y="sy3" sx="sr" sy="sr" color="blue"/>
+</flag>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="gg" name="Guernsey" properties="cf sf normal" fly="h*3/2">
+	<defs>
+		<dim id="t" e="min(h/4,w/4)"/>
+		<dim id="ch" e="min(h*3/4,w*3/4)"/>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="232 17 45"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="249 221 22"/>
+		</color>
+		<symdef id="cross" d="M -0.5 0.1111 l 0.0556 -0.0556 h 0.3889 v 0.3889
+		                      l -0.0556 0.0556 h 0.2222 l -0.0556 -0.0556
+		                      v -0.3889 h 0.3889 l 0.0556 0.0556 v -0.2222
+		                      l -0.0556 0.0556 h -0.3889 v -0.3889
+		                      l 0.0556 -0.0556 h -0.2222 l 0.0556 0.0556
+		                      v 0.3889 h -0.3889 l -0.0556 -0.0556 z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<cross x1="0" y1="0" x2="(w-t)/2" y2="(h-t)/2" x3="(w+t)/2" y3="(h+t)/2" x4="w" y4="h" color="red"/>
+	<symbol symbol="cross" x="w/2" y="h/2" sx="ch" sy="ch" color="yellow"/>
+</flag>
