@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="cd" name="Congo (Democratic Republic)" properties="cf sf wf ce se we normal" fly="h*4/3">
+	<defs>
+		<color id="blue">
+			<colorspec model="pantone" value="Process Blue"/>
+			<colorspec model="cmyk" value="100 10 0 10"/>
+			<colorspec model="rgb" value="0 147 208"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="109"/>
+			<colorspec model="cmyk" value="0 10 100 0"/>
+			<colorspec model="rgb" value="255 221 0"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="032"/>
+			<colorspec model="cmyk" value="0 90 86 0"/>
+			<colorspec model="rgb" value="239 65 53"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<g>
+		<clip>
+			<field x1="0" y1="0" x2="w" y2="h"/>
+		</clip>
+		<poly points="0 h*3/4 w (-h/20) w h/4 0 h+h/20" color="yellow"/>
+		<poly points="0 h*4/5 w 0 w h/5 0 h" color="red"/>
+	</g>
+	<!-- Positioning is entirely trial and error here. :P -->
+	<symbol symbol="star" x="w*0.185" y="h*0.265" sx="min(h*0.205,w*0.19)" sy="min(h*0.205,w*0.19)" color="yellow"/>
+</flag>

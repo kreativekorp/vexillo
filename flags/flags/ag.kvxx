@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ag" name="Antigua and Barbuda" properties="cf sf wf ce normal" fly="h*3/2">
+	<defs>
+		<dim id="y1" e="h*18/46"/>
+		<dim id="y2" e="h*28/46"/>
+		<dim id="sr" e="h*15/46"/>
+		<color id="red">
+			<colorspec model="pantone" value="186c"/>
+			<colorspec model="cmyk" value="0 100 81 4"/>
+			<colorspec model="rgb" value="227 24 55"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="300c"/>
+			<colorspec model="cmyk" value="100 44 0 0"/>
+			<colorspec model="rgb" value="0 121 193"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="116c"/>
+			<colorspec model="cmyk" value="0 16 100 0"/>
+			<colorspec model="rgb" value="255 210 0"/>
+		</color>
+		<color id="black">
+			<colorspec model="pantone" value="Black"/>
+			<colorspec model="cmyk" value="0 0 0 100"/>
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="White"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star16" d="M 0 -1 L 0.097545 -0.490393 L 0.382683 -0.92388
+		                       L 0.277785 -0.415735 L 0.707107 -0.707107
+		                       L 0.415735 -0.277785 L 0.92388 -0.382683
+		                       L 0.490393 -0.097545 L 1 -0 L 0.490393 0.097545
+		                       L 0.92388 0.382683 L 0.415735 0.277785
+		                       L 0.707107 0.707107 L 0.277785 0.415735
+		                       L 0.382683 0.92388 L 0.097545 0.490393 L 0 1
+		                       L -0.097545 0.490393 L -0.382683 0.92388
+		                       L -0.277785 0.415735 L -0.707107 0.707107
+		                       L -0.415735 0.277785 L -0.92388 0.382683
+		                       L -0.490393 0.097545 L -1 0 L -0.490393 -0.097545
+		                       L -0.92388 -0.382683 L -0.415735 -0.277785
+		                       L -0.707107 -0.707107 L -0.277785 -0.415735
+		                       L -0.382683 -0.92388 L -0.097545 -0.490393 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="black"/>
+	<symbol symbol="star16" x="w/2" y="y1" sx="sr" sy="sr" color="yellow"/>
+	<field x1="0" y1="y1" x2="w" y2="h" color="blue"/>
+	<field x1="0" y1="y2" x2="w" y2="h" color="white"/>
+	<poly points="0 h 0 0 w/2 h w 0 w h" color="red"/>
+</flag>

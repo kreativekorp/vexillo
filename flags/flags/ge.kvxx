@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ge" name="Georgia" properties="cf sf ce se normal" fly="h*3/2">
+	<defs>
+		<dim id="t" e="min(h/5,w/5)"/>
+		<color id="red">
+			<colorspec model="rgb" value="255 0 0"/>
+			<colorspec model="cmyk" value="0 100 100 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+		</color>
+		<symdef id="cross" d="M 0.4892 0
+		                      c 0 -0.0594 0.0037 -0.118 0.0108 -0.1755
+		                      c -0.12 0.0227 -0.2429 0.0374 -0.368 0.0435
+		                      C 0.1381 -0.2571 0.1529 -0.38 0.1755 -0.5
+		                      C 0.118 -0.4929 0.0594 -0.4892 0 -0.4892
+		                      S -0.118 -0.4929 -0.1755 -0.5
+		                      c 0.0227 0.12 0.0374 0.2429 0.0435 0.368
+		                      C -0.2571 -0.1381 -0.38 -0.1529 -0.5 -0.1755
+		                      C -0.4929 -0.118 -0.4892 -0.0594 -0.4892 0
+		                      S -0.4929 0.118 -0.5 0.1755
+		                      c 0.12 -0.0227 0.2429 -0.0374 0.368 -0.0435
+		                      C -0.1381 0.2571 -0.1529 0.38 -0.1755 0.5
+		                      C -0.118 0.4929 -0.0594 0.4892 0 0.4892
+		                      S 0.118 0.4929 0.1755 0.5
+		                      c -0.0227 -0.12 -0.0374 -0.2429 -0.0435 -0.368
+		                      C 0.2571 0.1381 0.38 0.1529 0.5 0.1755
+		                      C 0.4929 0.118 0.4892 0.0594 0.4892 0 z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<cross x1="0" y1="0" x2="(w-t)/2" y2="(h-t)/2" x3="(w+t)/2" y3="(h+t)/2" x4="w" y4="h" color="red"/>
+	<symbol symbol="cross" x="(w-t)/4" y="(h-t)/4" sx="t" sy="t" color="red"/>
+	<symbol symbol="cross" x="w-(w-t)/4" y="(h-t)/4" sx="t" sy="t" color="red"/>
+	<symbol symbol="cross" x="(w-t)/4" y="h-(h-t)/4" sx="t" sy="t" color="red"/>
+	<symbol symbol="cross" x="w-(w-t)/4" y="h-(h-t)/4" sx="t" sy="t" color="red"/>
+</flag>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="gd" name="Grenada" properties="cf sf wf normal" fly="h*5/3">
+	<defs>
+		<dim id="b" e="min(h*2/15,w*2/15)"/>
+		<dim id="dd" e="min(h*0.24,w*0.24)"/>
+		<color id="red">
+			<colorspec model="pantone" value="032"/>
+			<colorspec model="cmyk" value="0 90 86 0"/>
+			<colorspec model="rgb" value="239 65 53"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="109"/>
+			<colorspec model="cmyk" value="0 10 100 0"/>
+			<colorspec model="rgb" value="255 221 0"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="355"/>
+			<colorspec model="cmyk" value="94 0 100 0"/>
+			<colorspec model="rgb" value="0 169 79"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+		<symdef id="kernel" d="M 67.749 150.41
+		                       c 4.504 8.39 13.265 17.52 20.916 20.73
+		                       c 0.123 -8.52 -2.9 -19.44 -7.034 -28.14
+		                       l -13.882 7.41 z"/>
+		<symdef id="shell" d="M 60.112 121.63
+		                      c 6.529 13.61 -16.933 46.08 22.156 53.69
+		                      c -4.822 -6.58 -7.931 -17.44 -6.755 -26.16
+		                      c 8.201 3.12 16.83 12.25 20.317 19.23
+		                      c 10.23 -37.15 -26.24 -34.89 -35.718 -46.76 z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<field x1="b" y1="b" x2="w-b" y2="h-b" color="yellow"/>
+	<poly points="b b w/2 h/2 b h-b" color="green"/>
+	<poly points="w-b h-b w/2 h/2 w-b b" color="green"/>
+	<disc cx="w/2" cy="h/2" w="dd" h="dd" color="red"/>
+	<symbol symbol="star" x="w/2" y="h/2" sx="dd*0.45" sy="dd*0.45" color="yellow"/>
+	<symbol symbol="star" x="w*0.3" y="b/2+b*0.0475" sx="b/2" sy="b/2" color="yellow"/>
+	<symbol symbol="star" x="w*0.5" y="b/2+b*0.0475" sx="b/2" sy="b/2" color="yellow"/>
+	<symbol symbol="star" x="w*0.7" y="b/2+b*0.0475" sx="b/2" sy="b/2" color="yellow"/>
+	<symbol symbol="star" x="w*0.3" y="h-b/2+b*0.0475" sx="b/2" sy="b/2" color="yellow"/>
+	<symbol symbol="star" x="w*0.5" y="h-b/2+b*0.0475" sx="b/2" sy="b/2" color="yellow"/>
+	<symbol symbol="star" x="w*0.7" y="h-b/2+b*0.0475" sx="b/2" sy="b/2" color="yellow"/>
+	<symbol symbol="kernel" x="0" y="0" sx="h/300" sy="h/300" color="red"/>
+	<symbol symbol="shell" x="0" y="0" sx="h/300" sy="h/300" color="yellow"/>
+</flag>

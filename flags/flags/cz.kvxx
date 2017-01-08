@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
-<flag id="cz" name="Czech Republic" properties="cf sf wf ce se normal" fly="h*3/2">
+<flag id="cz" name="Czechia" properties="cf sf wf ce se normal" fly="h*3/2">
 	<defs>
 		<color id="red">
 			<colorspec model="pantone" value="192"/>

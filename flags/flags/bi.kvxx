@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="bi" name="Burundi" properties="cf sf wf ce se we normal" fly="h*5/3">
+	<defs>
+		<dim id="dd" e="min(h*3/5,w*3/5)"/>
+		<dim id="ts" e="min(h/4,w/4)"/>
+		<dim id="tr" e="ts/sqrt(3)"/>
+		<dim id="t" e="min(h/8,w/8)"/>
+		<dim id="sd" e="min(h/8,w/8)"/>
+		<color id="red">
+			<colorspec model="pantone" value="186c"/>
+			<colorspec model="cmyk" value="0 90 80 5"/>
+			<colorspec model="rgb" value="227 61 58"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="361c"/>
+			<colorspec model="cmyk" value="80 0 90 0"/>
+			<colorspec model="rgb" value="0 178 89"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star6" d="M 0 -1 L 0.288675 -0.5 L 0.866025 -0.5
+		                      L 0.57735 -0 L 0.866025 0.5 L 0.288675 0.5 L 0 1
+		                      L -0.288675 0.5 L -0.866025 0.5 L -0.57735 0
+		                      L -0.866025 -0.5 L -0.288675 -0.5 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<poly points="0 0 w/2 h/2 0 h" color="green"/>
+	<poly points="w h w/2 h/2 w 0" color="green"/>
+	<saltire x1="0" y1="0" x2="w" y2="h" thickness="t" color="white"/>
+	<disc cx="w/2" cy="h/2" w="dd" h="dd" color="white"/>
+	<symbol symbol="star6" x="w/2" y="h/2-tr" sx="sd*0.55" sy="sd*0.55" color="green"/>
+	<symbol symbol="star6" x="w/2-ts/2" y="h/2+tr/2" sx="sd*0.55" sy="sd*0.55" color="green"/>
+	<symbol symbol="star6" x="w/2+ts/2" y="h/2+tr/2" sx="sd*0.55" sy="sd*0.55" color="green"/>
+	<symbol symbol="star6" x="w/2" y="h/2-tr" sx="sd*0.45" sy="sd*0.45" color="red"/>
+	<symbol symbol="star6" x="w/2-ts/2" y="h/2+tr/2" sx="sd*0.45" sy="sd*0.45" color="red"/>
+	<symbol symbol="star6" x="w/2+ts/2" y="h/2+tr/2" sx="sd*0.45" sy="sd*0.45" color="red"/>
+</flag>

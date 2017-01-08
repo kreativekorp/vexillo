@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ai" name="Anguilla" properties="cf sf se normal" fly="h*2">
+	<defs>
+		<dim id="cw" e="w/2"/>
+		<dim id="ch" e="h/2"/>
+		<!-- Saltire -->
+		<dim id="t1" e="ch*6/30"/>
+		<dim id="t2" e="ch*4/30"/>
+		<!-- Cross -->
+		<dim id="cy1" e="ch*10/30"/>
+		<dim id="cy2" e="ch*12/30"/>
+		<dim id="cy3" e="ch*18/30"/>
+		<dim id="cy4" e="ch*20/30"/>
+		<dim id="cx1" e="cw/2-ch*5/30"/>
+		<dim id="cx2" e="cw/2-ch*3/30"/>
+		<dim id="cx3" e="cw/2+ch*3/30"/>
+		<dim id="cx4" e="cw/2+ch*5/30"/>
+		<!-- COA -->
+		<dim id="coah" e="min(h/2,w/2)"/>
+		<dim id="coay1" e="(h-coah)/2"/>
+		<dim id="coay2" e="(h+coah)/2"/>
+		<dim id="coax1" e="w*3/4-coah/2"/>
+		<dim id="coax2" e="w*3/4+coah/2"/>
+		<!-- Colors -->
+		<color id="blue">
+			<colorspec model="pantone" value="280 C"/>
+			<colorspec model="cmyk" value="100 72 0 18"/>
+			<colorspec model="rgb" value="0 36 125"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="186 C"/>
+			<colorspec model="cmyk" value="0 91 76 6"/>
+			<colorspec model="rgb" value="207 20 43"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<imgdef id="coa">
+			<imgsrc type="image/svg+xml" enc="raw">
+				<![CDATA[
+					<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+					<!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
+					<svg
+					   xmlns:dc="http://purl.org/dc/elements/1.1/"
+					   xmlns:cc="http://creativecommons.org/ns#"
+					   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+					   xmlns:svg="http://www.w3.org/2000/svg"
+					   xmlns="http://www.w3.org/2000/svg"
+					   xmlns:xlink="http://www.w3.org/1999/xlink"
+					   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+					   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+					   height="250"
+					   id="svg1"
+					   sodipodi:docname="AJAX1.svg"
+					   sodipodi:version="0.32"
+					   width="200"
+					   inkscape:version="0.48.2 r9819"
+					   version="1.0">
+					  <defs
+						 id="defs3">
+						<linearGradient
+						   id="linearGradient1108">
+						  <stop
+							 id="stop1109"
+							 offset="0"
+							 style="stop-color:#000;stop-opacity:1;" />
+						  <stop
+							 id="stop1110"
+							 offset="1"
+							 style="stop-color:#fff;stop-opacity:1;" />
+						</linearGradient>
+						<linearGradient
+						   id="linearGradient1111"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1112"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1113"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1114"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1115"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1116"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1117"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1118"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1119"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1120"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1121"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1122"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1123"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1124"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1125"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1126"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1127"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1128"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1129"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1130"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1131"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1132"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1133"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1134"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1135"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1136"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1137"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1138"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1139"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1140"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1141"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1142"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1143"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1144"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1145"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1146"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1147"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1148"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1149"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1150"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1151"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1152"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1153"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1154"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1155"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1156"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1157"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1158"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1159"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1160"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1161"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1162"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1163"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1164"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1165"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1166"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1167"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1168"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1169"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1170"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1171"
+						   xlink:href="#linearGradient1108" />
+						<linearGradient
+						   id="linearGradient1172"
+						   xlink:href="#linearGradient1108" />
+					  </defs>
+					  <sodipodi:namedview
+						 id="base"
+						 showgrid="false"
+						 inkscape:zoom="2.2999995"
+						 inkscape:cx="31.351869"
+						 inkscape:cy="125.00005"
+						 inkscape:window-width="1280"
+						 inkscape:window-height="1004"
+						 inkscape:window-x="-8"
+						 inkscape:window-y="-8"
+						 inkscape:current-layer="g3637"
+						 showguides="true"
+						 inkscape:guide-bbox="true"
+						 inkscape:window-maximized="1" />
+					  <metadata
+						 id="metadata2830">
+						<rdf:RDF>
+						  <cc:Work
+							 rdf:about="">
+							<dc:title>Australia - New South Wales</dc:title>
+							<dc:description />
+							<dc:subject>
+							  <rdf:Bag>
+								<rdf:li>oceania</rdf:li>
+								<rdf:li>flags</rdf:li>
+								<rdf:li>sign</rdf:li>
+								<rdf:li>signs_and_symbols</rdf:li>
+								<rdf:li />
+								<rdf:li>australia</rdf:li>
+							  </rdf:Bag>
+							</dc:subject>
+							<dc:publisher>
+							  <cc:Agent
+								 rdf:about="http://www.openclipart.org">
+								<dc:title>Caleb Moore</dc:title>
+							  </cc:Agent>
+							</dc:publisher>
+							<dc:creator>
+							  <cc:Agent
+								 rdf:about="">
+								<dc:title>Caleb Moore</dc:title>
+							  </cc:Agent>
+							</dc:creator>
+							<dc:rights>
+							  <cc:Agent
+								 rdf:about="">
+								<dc:title>Caleb Moore</dc:title>
+							  </cc:Agent>
+							</dc:rights>
+							<dc:date />
+							<dc:format>image/svg+xml</dc:format>
+							<dc:type
+							   rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+							<cc:license
+							   rdf:resource="http://web.resource.org/cc/PublicDomain">
+							  <dc:date />
+							</cc:license>
+							<dc:language>en</dc:language>
+						  </cc:Work>
+						  <cc:License
+							 rdf:about="http://web.resource.org/cc/PublicDomain">
+							<cc:permits
+							   rdf:resource="http://web.resource.org/cc/Reproduction" />
+							<cc:permits
+							   rdf:resource="http://web.resource.org/cc/Distribution" />
+							<cc:permits
+							   rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+						  </cc:License>
+						</rdf:RDF>
+					  </metadata>
+					  <g
+						 id="g2131"
+						 transform="matrix(1.461856,0,0,1.393699,-1181.717,-333.3322)">
+						<g
+						   id="g1387"
+						   transform="translate(374.4339,64.7382)">
+						  <path
+							 d="M 433.93393,176.84741 C 433.93393,265.83546 440.70227,297.43456 463.92227,321.83256 C 487.14227,346.23056 495.93975,350.07354 502.41393,353.81141 C 509.88244,349.49946 518.48774,344.76231 539.53293,322.68793 C 560.34796,300.85497 570.41393,269.38334 570.41393,175.32781 C 555.27393,182.12701 547.73393,184.36701 534.49393,184.32741 C 524.68793,185.33521 509.55993,178.74401 500.51393,174.43261 C 494.60193,178.38041 486.02593,183.08841 470.61393,183.61701 C 452.81393,184.40001 447.17393,181.38361 433.93393,176.84741 z "
+							 id="path2149"
+							 sodipodi:nodetypes="czczccccc"
+							 style="fill:#fdc301;stroke:none;fill-opacity:1" />
+						  <path
+							 d="M 438.03393,182.46761 C 438.03393,209.99831 436.48234,247.51884 442.02793,269.22741 C 447.59734,291.02921 448.87593,294.22285 453.06393,301.83141 L 550.65993,301.07141 C 556.68878,290.11846 556.99307,283.33402 561.46393,265.83256 C 565.91872,248.39401 567.04393,209.52141 567.17393,180.56801 C 557.35993,185.78461 544.50793,189.48161 532.03393,187.85961 C 522.03393,187.09701 512.79393,184.81461 502.03393,178.73301 C 492.69993,184.32521 489.44593,186.87781 474.03393,187.53081 C 462.03393,188.12261 452.31393,189.09441 438.03393,182.46761 z "
+							 id="path2197"
+							 sodipodi:nodetypes="czcczccccc"
+							 style="fill:#ffffff;stroke:none" />
+						  <path
+							 d="M 453.27393,301.22741 C 460.21993,315.84541 492.96807,343.86166 502.54517,349.66141 C 513.47193,343.04433 542.36193,315.35941 550.41393,301.22741 L 453.27393,301.22741 z "
+							 id="path3329"
+							 sodipodi:nodetypes="cccc"
+							 style="fill:#99ccff;fill-opacity:1;stroke:none" />
+						  <g
+							 id="g3625"
+							 transform="matrix(2,0,0,2,-37.58607,49.22741)">
+							<path
+							   d="M 271,87 C 272.543,90.6293 277.49,94.637 278.85,96.6011 C 277.119,98.5651 276.773,98.3512 277,102 C 280.01,98.8507 280.064,98.5224 282,99 C 286.241,103.232 282.759,112.321 279.254,114.297 C 275.75,116.405 276.386,114.224 271.134,116.866 C 273.542,118.925 276.332,116.564 278.612,117.195 C 279.851,118.665 278.023,121.344 278.986,123.867 C 281.001,123.673 280.759,119.605 281.228,118.13 C 282.7,112.726 291.55,108.957 292,104 C 293.866,103.124 295.731,103.726 298,105 C 296.87,100.356 293.132,100.406 292.13,98.9556 C 289.745,95.311 287.631,91.1532 282.537,90.0746 C 278.67,89.2558 278.959,90.3209 276.481,88.6306 C 274.938,87.4292 270.25,85.1572 271,87 z "
+							   id="path3627"
+							   sodipodi:nodetypes="ccccscccsccssss"
+							   style="font-size:12px;fill:#ff9900;fill-opacity:1" />
+							<path
+							   d="m 267.04489,122.10443 c 0,0.44513 -0.36084,0.80597 -0.80597,0.80597 -0.44512,0 -0.80597,-0.36084 -0.80597,-0.80597 0,-0.44512 0.36085,-0.80597 0.80597,-0.80597 0.44513,0 0.80597,0.36085 0.80597,0.80597 z"
+							   id="path3629"
+							   sodipodi:cx="266.23892"
+							   sodipodi:cy="122.10443"
+							   sodipodi:rx="0.805969"
+							   sodipodi:ry="0.805969"
+							   sodipodi:type="arc"
+							   style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+							   transform="translate(15.07813,-30.97657)" />
+						  </g>
+						  <g
+							 id="g3631"
+							 transform="matrix(-0.934314,-1.768338,1.768338,-0.934314,579.0375,814.5258)">
+							<path
+							   d="M 271,87 C 272.543,90.6293 277.49,94.637 278.85,96.6011 C 277.119,98.5651 276.773,98.3512 277,102 C 280.01,98.8507 280.064,98.5224 282,99 C 286.241,103.232 282.759,112.321 279.254,114.297 C 275.75,116.405 276.386,114.224 271.134,116.866 C 273.542,118.925 276.332,116.564 278.612,117.195 C 279.851,118.665 278.023,121.344 278.986,123.867 C 281.001,123.673 280.759,119.605 281.228,118.13 C 282.7,112.726 291.55,108.957 292,104 C 293.866,103.124 295.731,103.726 298,105 C 296.87,100.356 293.132,100.406 292.13,98.9556 C 289.745,95.311 287.631,91.1532 282.537,90.0746 C 278.67,89.2558 278.959,90.3209 276.481,88.6306 C 274.938,87.4292 270.25,85.1572 271,87 z "
+							   id="path3633"
+							   sodipodi:nodetypes="ccccscccsccssss"
+							   style="font-size:12px;fill:#ff9900" />
+							<path
+							   d="m 267.04489,122.10443 c 0,0.44513 -0.36084,0.80597 -0.80597,0.80597 -0.44512,0 -0.80597,-0.36084 -0.80597,-0.80597 0,-0.44512 0.36085,-0.80597 0.80597,-0.80597 0.44513,0 0.80597,0.36085 0.80597,0.80597 z"
+							   id="path3635"
+							   sodipodi:cx="266.23892"
+							   sodipodi:cy="122.10443"
+							   sodipodi:rx="0.805969"
+							   sodipodi:ry="0.805969"
+							   sodipodi:type="arc"
+							   style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+							   transform="translate(15.07813,-30.97657)" />
+						  </g>
+						  <g
+							 id="g3637"
+							 transform="matrix(-1.030072,1.714332,-1.714332,-1.030072,948.4105,-116.6442)">
+							<path
+							   d="M 271,87 C 272.543,90.6293 277.49,94.637 278.85,96.6011 C 277.119,98.5651 276.773,98.3512 277,102 C 280.01,98.8507 280.064,98.5224 282,99 C 286.241,103.232 282.759,112.321 279.254,114.297 C 275.75,116.405 276.386,114.224 271.134,116.866 C 273.542,118.925 276.332,116.564 278.612,117.195 C 279.851,118.665 278.023,121.344 278.986,123.867 C 281.001,123.673 280.759,119.605 281.228,118.13 C 282.7,112.726 291.55,108.957 292,104 C 293.866,103.124 295.731,103.726 298,105 C 296.87,100.356 293.132,100.406 292.13,98.9556 C 289.745,95.311 287.631,91.1532 282.537,90.0746 C 278.67,89.2558 278.959,90.3209 276.481,88.6306 C 274.938,87.4292 270.25,85.1572 271,87 z "
+							   id="path3639"
+							   sodipodi:nodetypes="ccccscccsccssss"
+							   style="font-size:12px;fill:#ff9900" />
+							<path
+							   d="m 267.04489,122.10443 c 0,0.44513 -0.36084,0.80597 -0.80597,0.80597 -0.44512,0 -0.80597,-0.36084 -0.80597,-0.80597 0,-0.44512 0.36085,-0.80597 0.80597,-0.80597 0.44513,0 0.80597,0.36085 0.80597,0.80597 z"
+							   id="path3641"
+							   sodipodi:cx="266.23892"
+							   sodipodi:cy="122.10443"
+							   sodipodi:rx="0.805969"
+							   sodipodi:ry="0.805969"
+							   sodipodi:type="arc"
+							   style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+							   transform="translate(15.07813,-30.97657)" />
+						  </g>
+						</g>
+					  </g>
+					</svg>
+				]]>
+			</imgsrc>
+			<imgsrc type="image/png" enc="ascii85">
+				<![CDATA[
+					M,6r;%14!\!!!!.8Ou6I!!!#?!!!#q#R18/!9EDN2uipY#%C4q6id5errE(l]r.%o!$D856pXdsSF)kkGT>8A^jgQO[?@$7HZ'a;#gKkOEkqnudn<#R645&i,VK^lOQ<7NQhJ:kKf&?kkVYV!\%tMAYt_J(gDFGU)m5@*\n01aj%>V\GIGiC(@CSfp9QSsBBE=ER="D%M?4Y_2W?HPnm,(!7c^1rS,:_MNb2It!j/Cp$d`5M<AM`_h#j2&k&<J^7h!kZ7nr#r9ZblBOc=Se8%97%TV*D;,:aTUU4+>+EO9^XnV1c#4g"l<<*']O9"t"XXC@je2m,Zm[6Qs@qLo8UncQefBf2/O1+clt,:i"gR`<Z=Xp'[q\9'f)mPBO2X)a5s9>:+W#g0oFkq:IE7CWVB[lO>X.T!*<oMY!\PWWe"4JepZ2+-rs*O;47VD<#jq'OH7Kj3(Nl64&!mo<q8ZqJ.,MH&$['Y]B$hZ1Z"%T;jr'rY(4^^)s.*RmDCR89e;<hrsPHpfHP.&bl(jqIac9pJEq%iTorY%DY*k'Q8CZ35Bebp<SZ3e80!/&i=5X$ENP&N$VCnK,d#L>jX^`^_r0Rs2s.'F!d4cqs!GJ[r^7">Ms1#2P.TE&2NV+gUFsd't[!.r.F6ALR0M$88^+aE%-H#%,>K?Ulh#mL,<X8-LK.Q[%-#M@VtD1)/'7WGG+'hRl3VEO+gfY"$O"JNiU2WDJ#WKGs\;-m$n#L0iriIiu@P$/WAchJ<S@K*FH8b)&d'nekRs[m1NA)5o&RQqR'C+OXP5;h7Qk"F(QoQE;"h=X.<<7g5rY_G"3bgdRNKMWs+E&Ts4f8I=:Io9lQ9ImA.I*dLGP(>40jZM+ju`P7QK=JLtu%,jcX_>]+!b>G'umK(:\bt9^[\Gr]HF?TeAf7i!VDH26[eHcke.,+c!$O(U.9<h0UYqO)nAKA&Z2apCq0ePlT@UO:U2_#\r)K@.)a+=F8mR7UKJaE1qe0d(m#8A^DPs"J4/6#P.R&IOJN\"V+l!g5N/J,lP&p`.L*Dud<71Ha5]R)BjY6_i=pJmkaeH6iY'H6``e8iB1k(8l/39A=U7KuO5-o!')P&h>-74LMLG?<:UT;274"'"7np'GJ7,("co*.7jL7'8?MhGp:V2@T1'VQr)rB75&^@Xf3:%?,QTo*KTI`eV/2C;@;UrGR@`hYL@IEm,&kLHJ8EVZN-`%d4aO6Ffpfrf$3U#O:/Al9>o/5H7.SY>FORbk3S)lR?G@)NQQERjX8uU'&9R5_)_S?kfIm;CNJ0_O2fug@>fM"017$W'RnEVnXgm"Q9%njM5,a_p:U+GVXJ&%-f^dI)T[$.U2jZZAO3a!#$'d7"n;K3!\Z3eBL%76hS%qe`Y-6mN2:rlD;Q,1IIf6*>PMP[:'SF72SsmoT6(3@/iC2d2,+H8]_\J!=jpia&)+;e1S\p.gC>hp_4CjD,?3X!0\<pHl1@:hT8Ppghf`a/j/pn))192cr2B>,"=5YQU6"ecr7c"?m+\@[kTq<qHo:%GRJcmV<&9hR.\O_kMY8C8CaG6IRg"[`G-!1dkH'2:;!^K;fAS4OcUm!0c97YN)22p.:\#t`X#7's,N8_eHsdlZ`&=S6^PoWAZ0nqfe>M[kfkSRWG2]]?l?p#;]:8.qE@=X4cUM0"DZgh8`m[__e?`dmIO=+lK.B=]a'Y::V`*B,;kac^<len('RnF[0=dF!rH8\6bjk@c0T@HN'TruS9QV9]c8V<rl.b]4](c=)*JOW.\qj!?XA/3+XCW1ML]`@9$<q&k>8iV#HlLBQUoXNAAd2aqoH6HTMebl_07Ro?qdPXI(+jTaIsuD_bWRH_5W?n'\-\WoXu0nD'iBt"6r+NBDnS5O^kR[^j>Rr)jC_1=ol;h8+jG-MY\ZA\K#r"ff24gkVlLLKrRK')Kacb$"J"Gle;2paH>YZC,&Vm$H/Eq?o^l8PI)X9q`Ij0o$fSSl,IO+NkYnNbFj/!EdTa3NL?(^F^1cAY1'&a4B0X"TdTpX<![O2-"LMAAPpPYDT'[3P!EPGa)S&<j'_A;:k:['AiWhocr5>Z>@9?8/Tc0/ZtZu?RF(2?k]DRYg+sl#K#NdJXSj`q4r7cgl:l`P8uR(IWETlBT0Th([>^-Ed](T13i_L>k^59:RoX-1nUD?K2jQ[n,aSe>:8mUPoNN(&>H7Z)V"Qrg%;XUL2"#mkh&mRm?tnEP_;,i2h,$O'^bZg"L4X%L'G!YJ%u0);i(D:.P-l,Qcuke+qpPDs%b*i$qafOid-qW(CdAuJ5grJi$q/j^3pW,NVph?gC&6`4kCA\pb:Wi3s$mYp4bJFQK<cr7c7"7hkFal.dsC<q@D)K1Ba<(r*?'-8;e=lHpo>NV*!mSiZQ[2F(!>?,hr!Xjs2\3Frh6nal*&oKof8cMgtbf,(u3qB-j8t@&anIMEHR#a.B(ZD-P#CuPnt@I,#,\bGGt=YYk`>Gna6MJ!UtP168O_N6-mE>r[:QlD$'J(Kp%WrSPP$(&_J2c)%Fc7_K;PN>[f"3E^B5'rK]&f[iU]=#n"V/nj(7#W/_H6_HXa9!!K=p$dN+=jWC#?;9o71T%WjiZCWA]NKlTVXr4$#qa%d.h*Z[4''gFRYWbu^&5*MJ!up[NZkN\lJ^k/Q>!WKO83D:r-G2#?)Y,N;Y5f,N#'#)&P&"$H%'NtChPs7B;BT75R6e\iV_Eb1iigtVdFatMiJS=W:`ste;NSa(&dN2iKrWD"htq.D-VK$_@I9EQ)(<?Hg'TWlk/_nRktf.9)EuE)/-XI[Q%B9J,:G&5"9er0i9d.kLEP)_c\sCYdYig2Lk4.XM]&=`+AfBRG.eH9r:i/UjEc2VJM9cUH,A&<&q6^^`.G*%>6hA9Rc)OscHB-/]i`K$DM'9O"XsS#_!Y8KTA.!13B7F+K@M$]`+t1Z'!&^l+C`3MFck!grd/6$>RR><X6e#c9<@j$#H?Gcr^`0i5i!L6q/>HW.?K"[Ae5bb_^Ok;_PuB)Hd%r5X>b;+EYBr,#o'ICf#/5";S<7br\4;V'Q=8WQX*H65=g-n5lu&gCVTlSfQ:JHALZOG<\oORY8[RNGd'bd=-*Ol:TX=<eEqn;DMC<4@F(uNoc_iQK),Rq9Q>8qFb%p!ct,2$Ne0G.T^NTaA6IngHc8TC4>aSt/@!&h$(AEVrKmLOU?NM6%-mT'JX()D@mKd.0PE?Q3Y2'gJ1F>Sf*.mYV'$4lh'0uX(9cBIQWP_,?PU0a'97O75O[J1mS5HL%ZIn+L+Fas/l#lP+Ofkl.@>Cu0l8MI)F+3^f^Z'B\;F_Q//Wgb%(up=lmWZS+9LL/i`Aa=rNY"N[rY?V[lVtNk`D*90C"U<4nP?V,Hlc/QPPf3*J@Y%]V+Sa(A8lEA6VU:l.=lGHP^Im^qb#"jC_oR`Sg!H3Oo3NE9M0;nQ&#M6-D&p54nVDk2],=#n'!]TcaLpD^bLLAQj],Qp01$MZ+IE_r/'ZiX-MbhjKn/nITM`#.?`*#?Fqs2R!&kSGFh)EYl8!f-fN7fU<OCn:glaEoTBL((S$[$T-oGVAFD.e0!e(^6>pu%%[hic`kaJd!,i)rsQ7u"oFV*&Vh]:VR(^Y,n="d:R:KR`D$nPM5Aq.JdAIUG,Bsa%LHe^nq!(qerTK%VgejYQk$gM6dIQ^W,qn2X4n#/(VqIpkbVQ/L5UNBE:0L3UE![<+AnG,m8ZH\r"BRCcEn;Zi2tE.Pq>:eb(-X)TQDH$)?:c_J?,Jg]EE<fk4.h8oo]54;+c/Opg:lef/[In[u6%LU'Pr^[mqs7[os"ZjssnU%tE,bp><JL?PrAl3;jU@cI'dl&bdEjCdc.?=$%U)<q4IbAtS`GRrK1\i:C@+(LbsM?t=8,P^!J%5m6I<Dpg3M+53-7*8:`<s-RLLZ6-sn".Ds.__9-5M:lc5'Z:R=&(?N40g&RCSLMY&RgQ\HdHJp^`ngu2DpVkS,GBGqeNAJ?ck*>im79OO4U(`>aKuZ7bF#KNe@Tjn=M?!YYYZ!1WX].j==g`2b9fC!#chmcZkV3:Pe5o(*&W'jJlTQTC"\,h`S#F/+<0d%g7=Xt,!(Gt\rDCbj.Q"*erQk"8,K__4o"<L=1dFA2V6OIKk
+					$V1n@I\<D@`2l5*Q-n2)K/V@aRr;=Parus6E?O&WWb.%%%5$AjW,H3i:$T+gl[JCk_9&_T*2)dJ)\5`b\.F>HAN,2/gq!6A*r46VZG;I;?gq9N0^K7XZ=IIfXkfA&"50FHlJrS:6A+UKR=Af_%"cFj""A^C4j@d>l1n7k>@m2!Y,MPf47chtJ7QLZ*kI1G&e&.t^u#_&)j^e9dk7V"B#,qbDn;?A&]P5hFDGa%69^r#i\YA.&E2:IhaCZq!@%VE]^:2KR1dFqIud&h^8=&XR,Wc*mX/\GUb7j+h"V=c_88N*_h33u0W.8:+?u5SItVOAiCLBK1JRb]ur"CreH9&t&1GE;nk<+X/GOX^e^.)='FVPU0?oo>tLEeOH&q)>['Uq>3442V[G&!>hki0#PQPH)olbH$LEb,6<_Q7.Vb]+CI'Z,g[)df5Q');:8CHq'Z)aE:dtTd;9;^pAu%O#sWW]41qjakKN*6J`C0o>_/1YUqoA`o!L1CiH;_IPZ)Zc)(p2=#PI0[h8_hW?`_QoH5dWL2KK$RdYZK_@PfTkRSOTj;b"JNaArO)S=PH#rJ&k.-(>cp'b$[HI;[YpnE+qbQ,a1^Ae83!1PdA'YrGOG=?@<[o:-;=ZuU7,jNR5^VYj6J.CD@KnW0pI;.nu^2c__j03CMlQWa,DK,idOqjff7q4FGZ(p]^X6XeCb,+l'O5/%C!\O+)@De6:ldPX;t,5J/[qj0D9S.Si>YY1L3<]W8:)BIgTKs*CYF8)f@RR)6&cQMm(=/8un%,aN\6$Gid&^M8jhQ:R3=g@-Ik?^46`XGcW^Da"KDHdgN-Kqg:o?(=Y$1$.*0A;ahe8u+jT)qf[!\_dE]grX9EV=UO>VPIM)#62Xo:\>.F-Z54jM\4W%A4EcdPbtp+.$*MGGP$8$;S:V^>&JL>3g60D:\BYf)J3Xr(jk(07c.oYjZk"0K_&\&RCc4_d1+AG/'4>k;tu>($euF(G.F6aG;rW&C[ge&#9k_7sd2WSH`5Dh<XdMgHU<\LV`:X3AWH@"/ai[PQ")8VmPBaK)5H1It!gmoqVs8D>Dlc&5aTDX?9DmIsq0[-N6'Y?YSsla8[@S3R\5*4:]]-$*RS6#M7],Cb%^@+)o&:D<5LU+2$n_$=[,]+MeDJDgi7uE9;93d0'+!YO?!=rM:?`"EqHYcV9'/B>`++p<$bhe)fn(pgs=!U'Ua]>U!tg;'?8jTpt[:RmE9#p)#mDp4WCqZ3e:SNfUJTmp^Nb]^Bs.cB&T52jjP#9`IV3<&ofG#;OH\&c&:H:3C;,rUAMe_/7b$V:35u9ZM]2GjBNi!DE1djJ8uTp\mo"DT.JfKB1c"bA]OEjK*5P/?I3LI0V6YRarB1-[c.fI3Gk2%_W&G3ZD+K$_!*q*oC:d5^:sZ0nU3/_YbN:2M9L$JB`S%5/t^k%l%MIPOS#JG]]m%HF*K[D(J5DZMP9\&!qg,SU,)TXM%>4^^:2XW$1dZ->d?+GOprcTHlki1+:gGTFp&V\^'a/E@RK+D<.tX`]3!Q&#FHYm\RY^5+N54Y=pn?*&InHIYPA=2a*uko2.Y4=Z*=<L:8)Prta2c%XO\FH\Z\\$:_:<M-q#`EOY(n6:7GV^\Hp5Fo7Q3CTrDH6&fW[7,aE6Z]CuY3f0cRRF]s]BLVB217qnoBP_O^[cUWhLH'OMhM?C>)uKIq';4?6=Rp$d>Ik+\ITM#niU3L_=h:4,h8egQi'%g\45h\m//1LJeIUXDE!nNh]8g]/&:_Ag")ViNmh.uR#0[K9T_)I;>Eba,V:(?8cM1gqb0e)i0BtT"n,1siOZF#,Z[N</]j]*:_(QL(M,ok'T@G:F4D?&j^2O6qLMbJaO?JEQKIr\:FKt*miJt1g6_[r:I;GrUZI`7KKjF25UN"0VkV>7`E^jNRFBJ#nb^)%T^!YLtdu%T^b(0(je'$6L(W2bUFKTotJOWq_\FOrj\::gs_FA<HVQa65R@ssc*,<HUAgPPc%^(B-pP0iOogc0DehH_FGIAhSFZUHfr\f%IHCps*pe:Gl$opPX8_I+FhnBo0J-ASR^l7?HM:,&!YZW[a3Y$\C-Nu`0s)dS3VQ\YY;5QRgdaQSNs"TFATpt]$)$KRebK.OXkI\LEEd$b).JC.oY(.&_'(5]m`D:No&+n;FmhF[bHF\38PQ')""I/o'lX+OJpE`lqb^CO=50ofZH2Tpt"Ed%&"SOL.IGKI>nGH7fr0./iH%V_VK[1bAB!ppA#ua9c;L*g,'uZ%;HbeZ,ZtLX_IAFcq6PZD=,^aKFm-@A14>K_d*G.L0,?=[OnCg=8B2R[ZF<(flI[Jf;I,5cdEL&a']$NU]Nb9$;hU;o\hkAf0jTr0jqoIVUg)`<?.[LefXO\3sD<buoH"H#*IIl>eHM.@+0HB[AD=Tg!<gu2^]p$*Yi8eZ/hlP7)WXHST1ctA\`S-ler4:smpK#,9YNtVd'n=DdSg*,L8C3gK3:W7X\<:n_^6#gALR7/?qfg[oUs8PLejlgf%8*91gF:b?rCH<.f^X@[b+W)6Dj6I);lXVOofPCdP%_9fV?82e_1Nh=`G02JKf08^KITM"1WZ.hF\:f]s+&-[k^ON^-%A/+D^?oFF*E:GQc=NI0#M,Egsfj8]hEJk@4>MTHKgink8B\R7.]Z4nF(B<HBZ<=a:)OV#RY$+n6^,a$IUiLe)-g2P/g)/k.`9ncRfZ2+!5ZGj:X>43:$;!j_,gbfI/*qklhkSNIT'<DN8S^6'KF_>^)&:/!_RuPQ>C'3>"*#81Fs%r:9>ehATLF%D7!qidEi"eZeXjM\?F]oDQVhlT6E#C5;3eg*2iBGe1c)(U^Fo)lVShS\!Lcg^;ki#XQWJUWj,Bp)p-F"T>3$TA-nQ8!t^0U&<tk4VNN)lsdZU:51QRR+uhW;dg?1[@F&&L\A.JSXaCc1fYX^4_ZC^Rcu#4PAWid&5;up+GO*i;'XcmCNo$9]6JXcRm(\3Z?jNDs%6V;rY<e,HudhNj74Z6:T:MbfRI)%-.*]Y)jYq!].2s1ojJ>M;%[CO$+46=R\neaW89@soWgY&B[XEuMm&)rA9,jXXOj\O^C8pn8PR3u(F=Ni];,(ek5t'H0_[TpmEZ!F4UplZ1=K..@M+CW$=LOP_6hUIeO$Gqoi0goE9&b.Sq8?1l+H:XC3N-b"#fROWQUXP$o2@E%M@#%4PfXf.U+h!n,,:f#@tF8=nFg2,0V14:b,Qh4Sg<PHCP>/^(W['W.(AAbjhmC@Db7^7!NZ.]KBO;:^a,s\E*B*D(4nEpbegf@!NKEV\J:.U;Q(KNkj)HB8'ni]G@?:<2:BWFG]+g8O5Us/hD6Q#P9Gio!lU+_Q'*4C%/[Tg.Z16?1#fJm1&:DWY:qD&PlKq9^FYaduro@oocLh^=S0"XJT'i.LWBkfD=*&'Y4OK[TONF"8gAl4S:!mn$DBnW@?!Ha,8iBj`]'K8M?ICd,(G;A3!Hmn,-g1AI)A!0Mh<I"]:J^!F;oG!.TTM4Rk2d$FjnXC1.^F#21:pUAgNWT==!oRAB.^R.4"MV9l=DND<j%']*5GOD#!L9^?&Em5%9P8k8-YLe*fK@prHDZ:#U0Fr?TT%S)frBS6oq2q(Z<,bW>YAu[/$a:)NCfT[#K+=B)4P-,[uKqcl(pt.%I-ZO!nL"'Roa@:0ne^=+e\NlfZfBq;(37F%tEdYL%\<6kZ2sDM9q@'+Pc63*Cc6+JUk^p*)C=?l@\3&@7r7YHHNDg%O'WV@MQ6W7:ouY42m$n!=R9h,3HOsaX<tI[*RX,'MSj?OV/i`T&D%;RBT1.5JA;E0.B],uE<E$2oe_e]#<L674$#b27]#30D9^j&2(.6'pK.(o8ptD'DG^:PJFb,sAl2"*Dd!3L#kJk.-4Y=]9]C(.$q>Tl?;RZn^rlDY5q$quN6BB.=K8A2!]Pf^]k:DRI*iHlCEW1Iu^LPSGisD=C3ng2'O\G?.Iur2\C0K9^kN#O5P9J`"Mp%&6K8:)/?K^B#!cZ.r:c]fo387,ZEE!H2mCTpB3C!'U<.,VZ]Q1j1=2X,A^boH.:>j<NZr:t[FN;>LLecWGTIGq(-j[fY$p><sRs1h?.u:5/cA5sGfsfHlr&mo9)#<5=4`eAiH*
+					i_s*W"t2P`#A2%,S;./a3F+k/3^%FZhH,WS7L_Vo-mmdefPR"fY?4$!Y"H^D^Co$6i4q#f)h2`\+.N3t=?D9Dr"uqM'sB5tCD+13L42O-blYMcX,lH#(7F:!Y([pAh2L!rk:h<nre(Y::.$'kE*MY[@Xf_Z?Df5UI-OU0R4Wl@/;+lHb>'Em_-6S/ri:31$iVVs/1>>Z_kN7EI1"?ucH0pnhEe8KJfWX)EQDK<_UOKFf5]OuO.D>tKRT48DPu#j>ho/76HC(K,01(@B@kk)XR6X?@aN#td?Udt+9N'R1R><T^"]r,qN.s1mY>Fn8MC9`0md:1@)CdVBi2q[D2W>A[o@^sb0$A1#\g\5\9[+C0^jDl&PrZm\F9n&2E#E`_T^l,6Z(X(jgV1:?*`bt-m'huh-W@5TZ25n'Sn'r3:2%9MNq%,C]HY&p6dOYROsr\j:Cph[q*4:CjH#;08QS8s-\Y-u<N1I^=I*>.f#Cu'Fa.84C^2HYf-S23\T99sfY=OUs1SCfPtVAC_#8H'K-8QR-$$R;fJrgqe4;.ojJ4n$A>gX'Mq7;qX(SR@dXiU!Fi@CbSSi`)!^B43-"&6Ek!G5/b/Fet=5kWUVDT@%?q9Y!7alg=9,Vis:XP@%@E1?&XH/0eA44J_9UmsR@(l^BAH_+8#>_=qYUq\@*i`44erldX]l['V)lq0Mb`M4$304e]Jm*F>*-Z^kRpH1iWkkS_(SBC*0q?23aE[>P\JhCX^K64Rr[1m>.t0ElHaD%oD9RG4Z-F;oX4lLsEK.EO:&2fQo^0^k:F$QBMG#J4<l;uQ$SMa'6^Qg%S;BaMZHe\Z*g`ZKT^n8[slb1acA<_KM*B-H+?0!e/?`#hF[ohkZZP`f?Lrg2]_._6&?%<rHZj9aY2@GQEE51_idA4qL?;!Rbi><e-dCr>D.DcK+2154Q"M6`#ePi9)\,51cmf>_])BfAEA[sm_Jf9Pb'?'Z4*446HN/8gR@iSWSWq_<jt_j96L;;39'%9F+;0S.d_6>kpFrQF4Cl`Z(F0=%eC69G[J(Ok`/)L,\&elOb*$7E\c4Jgal3T2nNk;cfko)(p1r?"(nFhi*78$W8*h1%r0[fiA_UQB!:4qMD^5c5&`fI@4KV:L`[T>;!Mh&"T.JQM!Oq6)/IpF9&:Q"s#pBPtr^*O,1:qA5VsUq7hnl*nO_ru!n],1*,i@VgHla5s]3YAXB,IPF8@m*W2XWncfu8<:$7itb"Q:bc\^,eBZ5VVB4LpCKI":A=2J3fq\I.ZW:XF73So/&b']NS=;5ZVBW-ls$L7i7jjO'b(\Td(t7S=skW@ql>jONA%-^<NN<m1EV=sn'Xg.dTb=DroAolQ\@&q!*fOKjo\`2+C^c]/(L.?Om+0X13>t#6ka8EY17+Xm;S0+UAm(&q/>S?S,SqLKWEh_E+D+2Ig";+U&&7><D^;s\<<UZHKe9#?4#1"$`(')Z)^8S2%ug^QYqe2qCT9Ml_gd.O0&fEUXW-QSd3\qV1Q3bbD?chh]Z8MbFRc[Z=rluP[(*=VlOp+UNs&q=%g_oB`"U]0C&VM<%>0&mY4)E[/o:648Ri64*EJ&::tNeUfTj:S0*77[2&+i3l,['2tE?IpO^*opoo&$D10S5a+L:L`_W86:"9Z9+dKpf7lTX0VWYX[=CI"Rk]*&_l)[MS#F]&P9<A]G=SRpB<WNHW1k4*Ag;S5Vb4RIXgr-Bh[\mUtS9D5%pG"cB:J$@o-rCqYc+)>ooEt9s.QIu\d5QIqPu.^QLea"*19\94(HaWRLQS*S[@NIp>U@b%Iq5V1Nb>I/`:UsP%9a&JY0jSoYn,;*]eK.!0_O;`Y!'M:<`)W=l`B_?+To,K+(E('g_fFABRr#_"1jOppq"^Q8pWh5PB<^sAF\:;.+!B8T^6"^pEaERKoB&U^T;(R\inb3;RKY_7N>QL:[2o3-l5SR]j?F=bOLB@KB,maY)a>oNIY!,H_8[_(bnQ^6.?Y]XW[:Nc4>qj5*JoDO;>8gU9.'%J(Ip6cA#[uh;7@<I_@W.F:t'=46_'Sp*6BeQL2b?Z,\-4ak&T%^I7A(A*.#G\q3=&f:cCB+]A1i)(uq=B>;-7:N\b'L"#FgkdU)RltS-'(?O!Ej[eD3!#YN'6pXd.`b"I7ru%9^`-P(r6a&:SMF/i+eLNtI*+oUU6U`1KLmVdi7$kXq1*(CE=&4pdlsC51Vnqt'[@&q@[Jugen6V!?NTm1p<8G3#nf@FgCH_6[p9WD*V^ou;d]o)N;H"J2]s_<;IIfs6@Ki0GdCXm.SAFcch8ee&W&G/CK0NY<6W?[(_6?R?`+=8;O6*#s:oT@=B/1dKMUIV@ro_O/R5V56pFWfA?HNH#r_HTsEIu2IiIr2+DS^p<HOp^WnKG:;KPTJ!*Z(\)B@83'fcQAHcZJ2Uf_d],!U)X6.q[rfX^_E,g.P_b-%.(RP,6>U*NM$Zl`'[n,-h)\Rr5%oIVAMQ2Vg#E;R=e<$o:3XZW88"Lmg_+TTY@eP5qNf>JE0o^T#M5DUe*sN?""n;rBIhe,<<HN+.%R;SQT9BC+QXgL9^jmC?<2KIj;,9He"NSEMgf7@i*)9?iqK;*:(<0PGWAT:]s/RL9o_K8Wdqp2K7o%a_IcFr2FKq?`,\7I'V=&?0t#m$QOdDS^p,$=]C)2EeB40=*E*mrPe0^L!cd*<Gb<d]lbH<>sP<J*QbFs,2ga#>I;Q*i(BFC+>#W((aJ39LVbqFf>kCVAr%8Ejs5n>n"D3Rr#4t:t!=6Q)W<V22Yf<"+'[^!)gKem$NBK@TfoXL4Zo;"FF1N2EFSh165&u,g,%j3e>AT(3K*;iLc=KelAG3dSK_>D;lg7os1ehJr6Ua7T9Og'c[9M";j_TMThPH#L1MWP+W-0ToXX145GeQkQf5kqLd)>\6p25\D1DY&k"8c`(XH&!#09^&cY_,[Fpb4..3*L1kXrQFA^I*`r?Yur7\aAA&[>u6XT$<HM:L_D9bdE_8U?X>b4X;\36o'07Z\-QUrg,Jk-hR(4[BO/T07i7Ol5tfneUA$^PQ!k8CbF-#8*\0B9d7R?teLG@CA)M-nk_*%Z>%4"N1H<%kL;I$?(u'm1Bu5qmqce$;;+HB6YnXaHi*)8V;IMRp04_RklX`=&2*9NZaLi_/P[$Zt9gc@aRj=/&eJY8"VccNYEL:_6\NfTJ\j>.rG.1oK6"BaO.$Am9N-LLV9Fd>>E[AS09]nO&0-Jir;@0^"k*g*9eG+G,L*g(\nS2k?L)X%#XqdcoaN,;.<&C?'KaF;/&p5_n;?>b`O'&$CV-+*0&8W@_*l-!%!C)*/scqEL`eo/TS+<m1?fU<L+t?H:ou.jSf'%T&E:V/3$aQ!M@n;dnQ]?./b`8[.;"*QXS(m^drrh6T6#(>8*cE:+BYW_M``2Bl-o/J#INLq=%2>W+r8Jin]hYn$lKG+\]IR?k^=b3j=7<iLd3^D$Xqb2#qlAMS)ANJN:@&D1gLX>:K/.>TDU7k-Fa%'NEm.E6cd^1KGeJ^PM.Z/<XHj59[C/lNGp,sAYs,E!ccX=[Oh<?h0n90q>;COmULL)b9E+BgV!5EK#DXW86rR/VSS7YVh:DR`=i83F8$^[40J]eZEN_ag#`#t2uc7C0jf90lMpa!Fsa+eUcKdiZY:b>uZ4\l<DkP["9oqYRM^42dCbm4$ROP'n[S?*mS8MSB43\Zg176mD%>Y!T5l3Ut7RlK'GaK$#:<76GFHZ]0P!_Me_nirJ87IJ@)MqR*g_U''-9I/`H_Xm<8%lbM61C+9P?dZ$>m8&PhEm08RqiCWO,-%R[9)95Y_jaYk#XdrLQqL,U5At=i%YAtIKg00aLb(1\c(9Rq>'("/7^^T4;@]<Ks!,0X"WEKG\+r"p<)Lk+p@1c8p.a\t6:]Gu%e`Y\-Hj>&g^[U2h'.gkjF=^Os,cikN"Q&V`(a<QYb:?+oM)Cc;IjOP33"^Qc<Ni+kFe[2U%m-CZ:I,5t...RT^'8(cF=p%^nLts;Uf1j64f+^2acp^)qkr,tiALlPpE,:3M;Ba+0:P9[!GN"hXBi"]"eP^M51a+g[BSf%bfX=I]9@^0Nr$DK;6lth:0UDap:)2Ihd#FE@pRTqiK3cYgQ@pY?m_E:e
+					(!jH,h3[<c@i="S:le?-_ql^R#;BLg=RPPWHoT8-UUY2(>es1e4-NImi7q%]"W"\$N93HhL888l%L/(_j1O9h]'/&C:`WU=,4CISV*(<@N>fPe;MGmSdGAhghp/\!?-L>=(0W'aJ=E(\?!#2:V'@T]gO@<dH9=-]$*q$;0p>`3_C3m:)EU#@+/Ijo3\&(0fS@kcEpi_PPWP^3uE-CPaPMG7q,,m.5[F8=X8k<aU(kQ(tGL2QD89-:X:)=i[W@!T#(#?hM'niUKE:H5jRRch,/AOaqt1A?[rT0le0.sntpg_B.hsc"[]7;2H0)8O]7!N_XkMjGnF"kp5X>]*+'(Z*-<0WWP-%7-<MG/."[YdJMVeGhM+(7EHo1bgm`&03d2r7'.=$lHh9'F(2*Z;N4ed\V(17sV-o^[5uKR='35Z3nVS3iP`qjqTU\oAqYfp'(\J_)&I-L7a`dq:-=o9Pc@d]+^jEiJXi4aPl.d;Qa(P$e^!;;&B0s'^_*oD=YO2N4/Zbc"fstV@%729"In8"-;+\GF!gRL@E5m_:SPI'^1C[pc6eV$+Gk8PoF=dE,HCUu;!/I):5.R1+cie]&f?Va/N`1[&mt45&Bgq5H3kjTnVB6j$dG3'pJuSM01uDQ5r^4nRa+YQL_iWhlC?.R3d7D^(U0[t:<KOd&FCKVhRR0/tDLg9p9<:otcSOLdn*"n93\(\$KrZ&Fbh&Id1#+I-^7LUkSs,qsd1Q9u+!dm,O?fa9cpafLen8'E]pPl0dFkusBA:D#*$r:@iT?&"_e&/@F"8>s,9:kHD10(k3R3!HmD:(I*9:J+gbPiH6qu]o5UDnNP></\nf79t+AFXu#0_Uu[d2LUa#697(2.M=iu.][fk%,MVr%C%*4+=2OpJ,SFS'!]!j`1np/9OO6[1MSgSWoJ;U9oaE*l7\--C]OghEdZgL[no%#I-S5TKQZ>9E;T[YE*7Uh5<udM^8(<C'4d2NrUG)Fhe'974fh]D>#383?M'a[C[9m,oQ_s(uaP4dPAMP?&5PQ1YDeK+8rO.TLa$3(<KUlf6er[Q^;EaH:EF0hh2\<:?=1JmHJ_gO:['bJ8<MV-=^SLmkI)a#`pPh0(CiWSaZ?,QtG>9d@<QD1\RZ+GR^"Zu%oWI\\ZUA3[e3m84D5W[;Zp+9s!n3%-4/Y967;;,c-s&6+<U%];Fi'hC:6+(H2Ag@Z`377eL53>A=u@^l\b73k7C2Gp=3TqDM<bFq+3Do;^FUb76(4U:^';RIcdGpT[=dG4=aUoY\nO%4_h[`@IXJ#%DF!pQL(_EP7!g!7`K#6u=\5Gl@C6m+KfT0['c$S#g*O[BY3pf"kKJTT:M;1..tWnV@Q&nX:I,g6dDbiQaNiWQ^"SIO'G,Ae7)h?1jHKm)7_5WWT#HYL[=g$.b'Sjqf!_[raQ3N=,n2RM9I>80J"j$SBjP)ch0"$J4C`.t6Ir)h5Zh(t2,IgA,N..[I$T42<gP5I&ugY0-BUZlEBE&r\0[i%.Uo<$FR7#igOL6$tJ_.lsc?Yd&oYt[Mhqfrg+/I/TU%_HUc^eT3Jh:foEgW@%4@u_`0XK),Tm=0)`k#;O7\J`nfX`nttS@&AYjCip:5-sr@SVhdZ9tBFMY?cpo50W#pg[NAl2$7'b6aeJ#XJXM>X'GuYIc@C%<N%VfT$@B@P!hLH*'"Y#jrls/Q1HN<T4Mg/KUP:<W5#c(-ANXt](L51VEd44Wg?m;#BbcV5GdCc[V$Bo54`t`S%sD;G5o&-O"&FNO^/aA-Bu(pOfhQ<@(V#h)&u+F:n&Xhr3UT,a8uMX5`RsFPucXQ\BSu>Y>(f=5Lg%,^EmP/!H\-^BcHhOTKki"+5((&Ip"q5-BVcrYfNWB10C3t\-qApTSJMPLdN2t5]%K`b6gYQCkuA*dB"_Xb:$1_oNJYS"Cfp[24L3Qm5Ci-3U2t3R*hJ^K4GigTACH3fOq^)XI=`0Ef3)V9gN:r^!%\.[B2lUi^)r"q-./fG#c*p>9FFoBYML!VXqZ#..nrhR<`:'T:ND'+DM+90dV'ghR&(;qnBkm5Y?_W$FD%8Um?&ioiA!U%Fb5d\t>VG)EC8_mY()>r/&-lE(Nth+'g!b)"7J2S].VsS,/>K+@>/rqadc>W,[%c$+%g?au3!$gm?;V(WZ^TQtmT*^XqaMNFA3hF$bVg='9U0nZ[VATuYLLs+m8D"8.$Lj<Q#k@A`c+'Gau[Pl+ER-+jOT)G%Jl."s&qhZA1BO1V3El/")Q-AI5L5W_B$k5?d#`A0=GA"u,04!f_.FZNM?)acth!4p?C-?t#JF\..-bc1S')'#l`odn21e2SFh'KFYe74RP>U,E)s4hVO_(Ve1#@uaK^'Zaa0RHqAu42oX(UL:&NPF5#he#G>e*38_5auLfi2;r2$ktPNYP??=K.aY=HO[GZ)].B,!ZU)._=soR;*)mILG<$$C'iqN:".q?hHNA$4fWhhL<o]>iApZ2.Mn-`OJB4qBkqS6Pj1PL&bjPUA/Y[Q[mnrMdc=q8*A-qA3lf`,u)<pdK7P/<^8;r;`$DK$&0?DC=k=,Xsj]&up.V40Yju!,<0IlQgUsf?3ak,'j1?)H^8@KI\3=g\HX?JATG8pM)'i'Zd+@?Po(NGK(8!+$)oikG9C?HiL-=cG1N-b*M^kZ@=nM/(26,AE1%d5A-RH;*j,>oGjiWGsf)5S?lqT5+VW4CCqL3s0AD;$&1Ar_($KG^3\q*8TGc.o0"'M2D.W#!%#P,k/GH!$3VL43keDkY+t;qO\81=pk:`E8AH/<J>*Uma;<kL3<%7388ca(d)B3@C(L)=Mh7.cX9#QA(a<S"#f$F9sSs.S1Ds0Euu<H9Y19far.^;ESkkc&C1&P`.*uJ5Kj+)u/(N>X,QX$LcND6Fq&@0[]WC#+7,7)mWNo\^"oE?mN$E6.@/p%-.bgcKb>K^gg>g^Ksa"*9S=!Nu@,A)JA7k%(X6S8DSO3$3^H,jh,5`>R&b+NR<:^RI%8%T+o?I53)N'Vu(raFc7HpW2W2W(1r0";%S8P$=3o%9fp-mruX8ApL>R>.UW?gr-r4.hl7kl>L_Q<Ik84Q.KoilQ#fH/?*1Q*mf.FR2c5.m@<g^%b'Z,\Xb)EqV9pO$`>=]VZ#KG*&AaGCl3W$bX[ad?'`Em5mR$8@2UgPg_VD!lZ'++T(s!t&*Zgr?%:n9'!h^7)l6'FG=CXK\..c7+CVs3rK>aT+MJ>N>P&+,.aAN0B:ueO!29K1^IHqK^AD_SKkJ,2;\I-9PT39:kV@-kX*6/Lek,8Wm\g;CJ.L:Qn9snEP`B]*j`EGi.pD;PsAIH2r\!c9i0NN(Pf+bb^<Nt%'\WS6hpE60N$AOqHAI-0tNHs:W/(PM*M$bhrG']SBR.!0SO&SOejqHf2G<%\2jYa)OO;:e5]*q&="+)8P)=RS3j8AX2-rki,FHnH%p0JS/3D<<@eQbr]a:SRV:fH"](igZco!/UdI5c5-mtZqG<Bt2L?I2YH-].WtC.>r#0&of!KX-H)=CS[,Q8@)kC,+("d[3b3Dm@H+(HM9Jb;oEdCROLZ8$Tud6n.r2X,OF;d^>R7r!S[Q$oLcP3\W>;R#g%SZD-PY8FB073Cb042<T8Ja')LMaL>F9jCGCGS5^%"=iOiJWAdY4MDSq7lZ4WMr"G8<-UheeoJK])f6]\&WK&m\"M)?K:0>oZ>Tm_p"@/:"cZH5,^plpFG.Z&_FjH9Hl/84Fq+^n))pIt\KNg![Y?N\La`[#,rpH"Ukocl="@-#:fCZ+4#cC*0Ze(S^@aENu<+dRIb=h]"/""em!"Us7LA=:!9C<-.G=o#[On/n]+Ns"d.^]OA4jo^ml;V(AI[N5Scp>eEMh1#+b\k!;QA=6Ca;<Xn4QVf4kp.nr"@/:"/`9[5.[Uc]b].,0YBXBI>+O`MBR.G@_"4)^r@CG1)@DHJEk/d`lcR[:8DYa#J1RF1TL?Jf?rEdTNV);>ie8@/+q?%5_U-*)SEmj<Q?"gLaJD>e]],/\:68Na![+\p8NNl*!])$[nZ$IX.XI-RXpQOFb=REmSn4efo<DK]eJ]V><!?])b]B>f;\/qSRuYpir[i),UbMmB=QXmZD6D2G.9]J$`d^3a^)O/c4LJ
+					's-okY"OdG/`o?rPo``')=Ej62ONTQstRGP!3m/([o(k`(UpjPcEn%)WD;/:tmR'4X5GrgSb+KO]K!VM,]"jt>,G?r$?cT_cN&p2s0Eo2"upAZB65iINmjEsrK.B+m`aD1q[O=,%9rJZ)#nr7>C%N:O5jEZaieL0(T]V]7@*?'/dqESJi+YlP^A%OO[AWFE)O;7n_quB^Gbc2R=K%GleTLtdAPZV(@8#i!E]nHCIdTAlo1]29bR_]"0`6((,7R7"UQ.uZ1*hr#7RT+JHH_+Z\1#4Rp1//!6aB\1]HC=4k*@J)>jd--c##V-/o8.Xe+9;C5/lAQ;JW`Q69KZ:#rlW9a00:RbAgiqHb\NY?(Q#k0;Xh!W+IB/!mAj#h?<XV.i@a:r;osEC*)'o$AX`@/c,j$i;'InMoT]#"BW?lf*2"?LI^u\r.0m5t)5IG8jD5M&&n,XVKDET22(Liaj^#rT+*.m4RMJ`:OVf=n*CcImrG3o0m54325ld^D&LQd#U*O%Gln`8D]&sBg<-O*C9.rX7cS<?3V-)^AJDB9:kI6HWQ)1j'"b@??M6?tjU5c3PK6Z5D1^B"rZ&gtrE0fr/SE9bS0p[hH,2[TEd-`uq[X//YO>ZY=Gh"SWVF;F?TS/T%HeIET\l5?VL4P\3h`#"+!23_`I*#[6^Dme8lR=5Q1\)eDZbQ$;dAkC!Yh=FFX,?>eR=.Y`*+kN2')J"H@h%7*R'JtOir^[iaor+Z&ji7SlTj86dJs%R(hLA=H'3L(cQUDnURQYLS>HZBQ*%<G^2#.-5a;qXEFA[=THG$F.[ak@SckeUb3RQmk'b?>LEoNOrdj1Tnm36@&ZUF!P[CRk1Pj\([_:,Wr#kN+<6esj,nkgRdDg<l]q"P^cBpljeKl'oJ!fhTF(9D#(3Qh70,GFh_j\FN&d>81]:baQQ<2LdhO!#WM8oqMU6'o%$Mg9oS3hN!-km@@#4`DGAf'L2+>MnOp)12]_t,:9Wg=BnKjinNMXMlep;\^O<@^\EG*h`p'6<1i"U0aH5UA@AqAhtr,&5Y)Q?XJ4;e*+#P%cu"IV*o0N5nihOeLhk<Q7KUjN;TP$BbCpN&+2)Sr?^p&O:<?c@%e?MJbq'V-U6Tjs"CoI6O7,OTu<0H)$foA(lXZ'+,)0+L7G6nJV(ZmctpZrPirFGTNPb7BEhdW\g76ruL-J\&V+#on%QQQV2j@MLpF*JI'D'_+jGN\a%ZeQ?XJ4J5KpZ$uW&>b]b;,!\lbamkg86Y0)"D<WUn\"U.Huh[3s4U)jJIGRG6*h)DU9k]aI[hg:aZF0=s=\sa^2*@J).jc[rh.?PP['o5UN5uL+:dpJ>c:gd>*Z27fA/1l/nV=LNor:`"dG8%.CgB^$bYDiGX8mN<_m8Y8i"U2.;IjJ/Ee6e$jIBQ]S=Q4U^rC4`:G*]XP@"S+XN"+P]CZlN9q7J3?SV/%\^lj;$fSHV>W0lk$BN6'1MTtR)=l]LR\15eu1FnmUrG"H_Is2hao/8HPH?JHRnP`6qRuo#,9c(:5eB`rUJNp;lZb5LQLa>k,]U\Bd)5m<1J:Tr=X_L8bAp4FY86YKaQ4t#Y9uorP0Lbp^_O8fkR2#0td19CK^5YCI3YFSd"&lnbe(8t'l>mXj<.;ATc!ZSqOr%e)5s`qT#V*'10.GBmJ>hucF_W%;(>[)=f,Q.6DIJM(r`CIDGDjNOq:'.%)_!1k"3;s<QiZ5[+Q"A4"EgL)9o0jI2T,`@Y>Jj06qrQqk,CW2'GSJOHn1S$Lq4Nr[WLPVL<.X8fOc71.4C"iLgU?dE1'&k()S+UAHrA6JZF`bg2$MT9MnWJ$mA:-C_dnt+S$U>V[13<T`/\Nbb(nl0d@8<Uk+,LA=2NXafQ]C!K((kK6l0Hk3]1-?($q\5_6"%Q8@*n<!rdYe@WG+bfmFV"Z65i;h^smL64MLz8OZBBY!QNJ
+				]]>
+			</imgsrc>
+		</imgdef>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<g>
+		<saltire x1="0" y1="0" x2="cw" y2="ch" thickness="t1" color="white"/>
+		<g>
+			<clip>
+				<saltire x1="0" y1="0" x2="cw" y2="ch" thickness="t2"/>
+			</clip>
+			<poly points="0 0 cw/2 ch/2 0 ch/2" color="red"/>
+			<poly points="cw 0 cw/2 ch/2 cw/2 0" color="red"/>
+			<poly points="0 ch cw/2 ch/2 cw/2 ch" color="red"/>
+			<poly points="cw ch cw/2 ch/2 cw ch/2" color="red"/>
+		</g>
+		<cross x1="0" y1="0" x2="cx1" y2="cy1" x3="cx4" y3="cy4" x4="cw" y4="ch" color="white"/>
+		<cross x1="0" y1="0" x2="cx2" y2="cy2" x3="cx3" y3="cy3" x4="cw" y4="ch" color="red"/>
+	</g>
+	<image x1="coax1" y1="coay1" x2="coax2" y2="coay2" image="coa"/>
+</flag>
