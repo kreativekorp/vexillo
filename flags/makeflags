@@ -12,19 +12,8 @@ else
 fi
 
 rm -rf out
-mkdir -p out/{s,p}{g,m}{a,c,d,f,k}{072,360}
-
-$VEXPORT -f svg \
-	-d out/sga072 -h  72 -w   0 -g  6 flags/*.kvxx \
-	-d out/sgc072 -h  72 -w 108 -g  6 flags/*.kvxx \
-	-d out/sgd072 -h  72 -w  96 -g  6 flags/*.kvxx \
-	-d out/sgf072 -h  72 -w  72 -g  6 flags/*.kvxx \
-	-d out/sgk072 -h  66 -w  96 -g  6 flags/*.kvxx \
-	-d out/sma072 -h  72 -w   0 -g  0 flags/*.kvxx \
-	-d out/smc072 -h  72 -w 108 -g  0 flags/*.kvxx \
-	-d out/smd072 -h  72 -w  96 -g  0 flags/*.kvxx \
-	-d out/smf072 -h  72 -w  72 -g  0 flags/*.kvxx \
-	-d out/smk072 -h  66 -w  96 -g  0 flags/*.kvxx
+mkdir -p out/s{g,m}{a,c,d,f,k}360
+mkdir -p out/p{g,m}{a,c,d,f,k}{360,128,072}
 
 $VEXPORT -f svg \
 	-d out/sga360 -h 360 -w   0 -g 30 flags/*.kvxx \
@@ -39,18 +28,6 @@ $VEXPORT -f svg \
 	-d out/smk360 -h 396 -w 576 -g  0 flags/*.kvxx
 
 $VEXPORT -f png \
-	-d out/pga072 -h  72 -w   0 -g  6 flags/*.kvxx \
-	-d out/pgc072 -h  72 -w 108 -g  6 flags/*.kvxx \
-	-d out/pgd072 -h  72 -w  96 -g  6 flags/*.kvxx \
-	-d out/pgf072 -h  72 -w  72 -g  6 flags/*.kvxx \
-	-d out/pgk072 -h  66 -w  96 -g  6 flags/*.kvxx \
-	-d out/pma072 -h  72 -w   0 -g  0 flags/*.kvxx \
-	-d out/pmc072 -h  72 -w 108 -g  0 flags/*.kvxx \
-	-d out/pmd072 -h  72 -w  96 -g  0 flags/*.kvxx \
-	-d out/pmf072 -h  72 -w  72 -g  0 flags/*.kvxx \
-	-d out/pmk072 -h  66 -w  96 -g  0 flags/*.kvxx
-
-$VEXPORT -f png \
 	-d out/pga360 -h 360 -w   0 -g 30 flags/*.kvxx \
 	-d out/pgc360 -h 360 -w 540 -g 30 flags/*.kvxx \
 	-d out/pgd360 -h 360 -w 480 -g 30 flags/*.kvxx \
@@ -62,18 +39,31 @@ $VEXPORT -f png \
 	-d out/pmf360 -h 360 -w 360 -g  0 flags/*.kvxx \
 	-d out/pmk360 -h 396 -w 576 -g  0 flags/*.kvxx
 
-cd out
+$VEXPORT -f png \
+	-d out/pga128 -w 128 -h   0 -g  8 flags/*.kvxx \
+	-d out/pgc128 -w 128 -h  86 -g  8 flags/*.kvxx \
+	-d out/pgd128 -w 128 -h  96 -g  8 flags/*.kvxx \
+	-d out/pgf128 -w 128 -h 128 -g  8 flags/*.kvxx \
+	-d out/pgk128 -w 128 -h  88 -g  8 flags/*.kvxx \
+	-d out/pma128 -w 128 -h   0 -g  0 flags/*.kvxx \
+	-d out/pmc128 -w 128 -h  86 -g  0 flags/*.kvxx \
+	-d out/pmd128 -w 128 -h  96 -g  0 flags/*.kvxx \
+	-d out/pmf128 -w 128 -h 128 -g  0 flags/*.kvxx \
+	-d out/pmk128 -w 128 -h  88 -g  0 flags/*.kvxx
 
-zip -r sga072.zip sga072
-zip -r sgc072.zip sgc072
-zip -r sgd072.zip sgd072
-zip -r sgf072.zip sgf072
-zip -r sgk072.zip sgk072
-zip -r sma072.zip sma072
-zip -r smc072.zip smc072
-zip -r smd072.zip smd072
-zip -r smf072.zip smf072
-zip -r smk072.zip smk072
+$VEXPORT -f png \
+	-d out/pga072 -h  72 -w   0 -g  6 flags/*.kvxx \
+	-d out/pgc072 -h  72 -w 108 -g  6 flags/*.kvxx \
+	-d out/pgd072 -h  72 -w  96 -g  6 flags/*.kvxx \
+	-d out/pgf072 -h  72 -w  72 -g  6 flags/*.kvxx \
+	-d out/pgk072 -h  66 -w  96 -g  6 flags/*.kvxx \
+	-d out/pma072 -h  72 -w   0 -g  0 flags/*.kvxx \
+	-d out/pmc072 -h  72 -w 108 -g  0 flags/*.kvxx \
+	-d out/pmd072 -h  72 -w  96 -g  0 flags/*.kvxx \
+	-d out/pmf072 -h  72 -w  72 -g  0 flags/*.kvxx \
+	-d out/pmk072 -h  66 -w  96 -g  0 flags/*.kvxx
+
+cd out
 
 zip -r sga360.zip sga360
 zip -r sgc360.zip sgc360
@@ -86,17 +76,6 @@ zip -r smd360.zip smd360
 zip -r smf360.zip smf360
 zip -r smk360.zip smk360
 
-zip -r pga072.zip pga072
-zip -r pgc072.zip pgc072
-zip -r pgd072.zip pgd072
-zip -r pgf072.zip pgf072
-zip -r pgk072.zip pgk072
-zip -r pma072.zip pma072
-zip -r pmc072.zip pmc072
-zip -r pmd072.zip pmd072
-zip -r pmf072.zip pmf072
-zip -r pmk072.zip pmk072
-
 zip -r pga360.zip pga360
 zip -r pgc360.zip pgc360
 zip -r pgd360.zip pgd360
@@ -107,3 +86,25 @@ zip -r pmc360.zip pmc360
 zip -r pmd360.zip pmd360
 zip -r pmf360.zip pmf360
 zip -r pmk360.zip pmk360
+
+zip -r pga128.zip pga128
+zip -r pgc128.zip pgc128
+zip -r pgd128.zip pgd128
+zip -r pgf128.zip pgf128
+zip -r pgk128.zip pgk128
+zip -r pma128.zip pma128
+zip -r pmc128.zip pmc128
+zip -r pmd128.zip pmd128
+zip -r pmf128.zip pmf128
+zip -r pmk128.zip pmk128
+
+zip -r pga072.zip pga072
+zip -r pgc072.zip pgc072
+zip -r pgd072.zip pgd072
+zip -r pgf072.zip pgf072
+zip -r pgk072.zip pgk072
+zip -r pma072.zip pma072
+zip -r pmc072.zip pmc072
+zip -r pmd072.zip pmd072
+zip -r pmf072.zip pmf072
+zip -r pmk072.zip pmk072
