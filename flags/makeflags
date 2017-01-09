@@ -13,7 +13,7 @@ fi
 
 rm -rf out
 mkdir -p out/s{g,m}{a,c,d,f,k}360
-mkdir -p out/p{g,m}{a,c,d,f,k}{360,128,072}
+mkdir -p out/p{g,m}{a,c,d,f,k}{360,128,072,024}
 
 $VEXPORT -f svg \
 	-d out/sga360 -h 360 -w   0 -g 30 flags/*.kvxx \
@@ -63,6 +63,18 @@ $VEXPORT -f png \
 	-d out/pmf072 -h  72 -w  72 -g  0 flags/*.kvxx \
 	-d out/pmk072 -h  66 -w  96 -g  0 flags/*.kvxx
 
+$VEXPORT -f png \
+	-d out/pga024 -h  24 -w   0 -g  2 -s  3 flags/*.kvxx \
+	-d out/pgc024 -h  24 -w  36 -g  2 -s  3 flags/*.kvxx \
+	-d out/pgd024 -h  24 -w  32 -g  2 -s  3 flags/*.kvxx \
+	-d out/pgf024 -h  24 -w  24 -g  2 -s  3 flags/*.kvxx \
+	-d out/pgk024 -h  22 -w  32 -g  2 -s  3 flags/*.kvxx \
+	-d out/pma024 -h  24 -w   0 -g  0 -s  3 flags/*.kvxx \
+	-d out/pmc024 -h  24 -w  36 -g  0 -s  3 flags/*.kvxx \
+	-d out/pmd024 -h  24 -w  32 -g  0 -s  3 flags/*.kvxx \
+	-d out/pmf024 -h  24 -w  24 -g  0 -s  3 flags/*.kvxx \
+	-d out/pmk024 -h  22 -w  32 -g  0 -s  3 flags/*.kvxx
+
 cd out
 
 zip -r sga360.zip sga360
@@ -108,3 +120,14 @@ zip -r pmc072.zip pmc072
 zip -r pmd072.zip pmd072
 zip -r pmf072.zip pmf072
 zip -r pmk072.zip pmk072
+
+zip -r pga024.zip pga024
+zip -r pgc024.zip pgc024
+zip -r pgd024.zip pgd024
+zip -r pgf024.zip pgf024
+zip -r pgk024.zip pgk024
+zip -r pma024.zip pma024
+zip -r pmc024.zip pmc024
+zip -r pmd024.zip pmd024
+zip -r pmf024.zip pmf024
+zip -r pmk024.zip pmk024
