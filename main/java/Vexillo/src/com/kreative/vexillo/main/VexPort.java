@@ -144,8 +144,7 @@ public class VexPort {
 		public boolean verbose = false;
 		
 		public String getStatusString() {
-			StringBuffer s = new StringBuffer();
-			s.append((width > 0) ? (width + "x" + height) : height);
+			StringBuffer s = new StringBuffer(width + "x" + height);
 			if (supersample > 1) s.append(" " + supersample + "x");
 			s.append((glaze > 0) ? " glazed" : " matte");
 			s.append(" " + format);
