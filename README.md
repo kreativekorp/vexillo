@@ -30,9 +30,10 @@ The `.kvxx` files containing descriptions of flags. Run the `makeflags` script t
     * `d` indicates a 4:3 aspect ratio, which matches standard non-widescreen monitors.
     * `f` indicates a 1:1 or square aspect ratio.
     * `k` indicates a 16:11 aspect ratio, which matches FamFamFam flag icons.
-  * The last three digits indicate the height of the image:
-    * `072` indicates a height of 72px (or 66px for the `k` series).
-    * `360` indicates a height of 360px (or 396px for the `k` series).
+  * The last three digits indicate the size of the image:
+    * `072` indicates a **height** of 72px (or 66px for the `k` series).
+    * `128` indicates a **width** of 128px.
+    * `360` indicates a **height** of 360px (or 396px for the `k` series).
 
 [`fonts/Fiavex`](https://github.com/kreativekorp/vexillo/tree/master/fonts/Fiavex)
 
