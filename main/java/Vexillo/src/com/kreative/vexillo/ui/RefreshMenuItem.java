@@ -13,7 +13,7 @@ import com.kreative.vexillo.core.FlagParser;
 public class RefreshMenuItem extends JMenuItem {
 	private static final long serialVersionUID = 1L;
 	
-	public RefreshMenuItem(final FlagFrame frame, final File flagFile) {
+	public RefreshMenuItem(final FlagFrame frame) {
 		setText("Refresh");
 		if (!OSUtils.isMacOS()) setMnemonic(KeyEvent.VK_R);
 		setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_R, InputUtils.META_MASK));
@@ -23,13 +23,13 @@ public class RefreshMenuItem extends JMenuItem {
 			addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent event) {
 					try {
+						File flagFile = frame.getFlagFile();
 						FileInputStream in = new FileInputStream(flagFile);
 						Flag flag = FlagParser.parse(flagFile.getName(), in);
 						in.close();
 						String title = flagFile.getName();
 						if (flag.getName() != null) title += ": " + flag.getName();
-						frame.setTitle(title);
-						frame.setFlag(flagFile.getParentFile(), flag);
+						frame.setFlag(title, flagFile, flag);
 					} catch (Exception e) {}
 				}
 			});

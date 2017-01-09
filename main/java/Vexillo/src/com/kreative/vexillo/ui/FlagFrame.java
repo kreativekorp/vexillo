@@ -2,34 +2,56 @@ package com.kreative.vexillo.ui;
 
 import java.io.File;
 import javax.swing.JFrame;
-import com.kreative.vexillo.core.DimensionUtils;
 import com.kreative.vexillo.core.Flag;
 
 public class FlagFrame extends JFrame {
 	private static final long serialVersionUID = 1L;
 	
 	private final FlagPanel panel;
+	private File flagFile;
+	private Flag flag;
 	
 	public FlagFrame(String title, File flagFile, Flag flag) {
 		super(title);
-		setJMenuBar(new FlagMenuBar(this, flagFile));
-		panel = new FlagPanel(flagFile.getParentFile(), flag);
+		setJMenuBar(new FlagMenuBar(this));
+		this.panel = new FlagPanel(flagFile.getParentFile(), flag);
+		this.flagFile = flagFile;
+		this.flag = flag;
 		setContentPane(panel);
 		pack();
 	}
 	
-	public void setFlag(File parent, Flag flag) {
-		panel.setFlag(parent, flag);
-		setHoist(panel.getViewerHeight());
+	public File getParentFile() {
+		return flagFile.getParentFile();
+	}
+	
+	public File getFlagFile() {
+		return flagFile;
+	}
+	
+	public Flag getFlag() {
+		return flag;
+	}
+	
+	public void setFlag(String title, File flagFile, Flag flag) {
+		setTitle(title);
+		this.panel.setFlag(flagFile.getParentFile(), flag);
+		this.flagFile = flagFile;
+		this.flag = flag;
+	}
+	
+	public int getViewerWidth() {
+		return panel.getViewerWidth();
+	}
+	
+	public int getViewerHeight() {
+		return panel.getViewerHeight();
 	}
 	
 	public void setHoist(int h) {
-		Flag flag = panel.getFlag();
 		int w = (
-			(flag == null || flag.getFly() == null) ? (h * 3 / 2) :
-			(int)Math.round(flag.getFly().value(
-				DimensionUtils.createNamespace(flag.dimensions(), h)
-			))
+			(flag == null || flag.getFly() == null) ?
+			(h * 3 / 2) : flag.getWidthFromHeight(h)
 		);
 		int xp = this.getWidth() - panel.getViewerWidth();
 		int yp = this.getHeight() - panel.getViewerHeight();
@@ -44,4 +66,11 @@ public class FlagFrame extends JFrame {
 			setSize(xp + panel.getViewerHeight() * n / d, this.getHeight());
 		}
 	}
+	
+	public boolean isGlazed() { return panel.isGlazed(); }
+	public int getGlaze() { return panel.getGlaze(); }
+	public int getGlazeAmount() { return panel.getGlazeAmount(); }
+	public void setGlaze(boolean glaze) { panel.setGlaze(glaze); }
+	public void setGlaze(boolean gl, int amt) { panel.setGlaze(gl, amt); }
+	public void setGlaze(int amount) { panel.setGlaze(amount); }
 }

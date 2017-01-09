@@ -2,12 +2,10 @@ package com.kreative.vexillo.ui;
 
 import java.awt.Dimension;
 import java.awt.Graphics;
-import java.awt.Graphics2D;
 import java.awt.Insets;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import javax.swing.JComponent;
-import com.kreative.vexillo.core.DimensionUtils;
 import com.kreative.vexillo.core.Flag;
 import com.kreative.vexillo.core.FlagRenderer;
 
@@ -22,6 +20,8 @@ public class FlagViewer extends JComponent {
 	private File parent;
 	private Flag flag;
 	private FlagRenderer renderer;
+	private boolean glaze;
+	private int glazeAmount;
 	private Dimension minSize;
 	private Dimension prefSize;
 	
@@ -29,6 +29,8 @@ public class FlagViewer extends JComponent {
 		this.parent = parent;
 		this.flag = flag;
 		this.renderer = new FlagRenderer(parent, flag);
+		this.glaze = false;
+		this.glazeAmount = 8;
 		this.minSize = null;
 		this.prefSize = null;
 	}
@@ -48,16 +50,43 @@ public class FlagViewer extends JComponent {
 		this.repaint();
 	}
 	
+	public boolean isGlazed() {
+		return glaze;
+	}
+	
+	public int getGlaze() {
+		return glaze ? glazeAmount : 0;
+	}
+	
+	public int getGlazeAmount() {
+		return glazeAmount;
+	}
+	
+	public void setGlaze(boolean glaze) {
+		this.glaze = glaze;
+		this.repaint();
+	}
+	
+	public void setGlaze(boolean glaze, int glazeAmount) {
+		this.glaze = glaze;
+		this.glazeAmount = (glazeAmount > 1) ? glazeAmount : 1;
+		this.repaint();
+	}
+	
+	public void setGlaze(int glazeAmount) {
+		this.glaze = (glazeAmount > 0);
+		if (this.glaze) this.glazeAmount = glazeAmount;
+		this.repaint();
+	}
+	
 	@Override
 	protected void paintComponent(Graphics g) {
 		if (flag != null) {
 			Insets i = getInsets();
 			int w = getWidth() - i.left - i.right;
 			int h = getHeight() - i.top - i.bottom;
-			BufferedImage img = new BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
-			Graphics2D g2 = img.createGraphics();
-			renderer.render(g2, 0, 0, w, h);
-			g2.dispose();
+			int gl = glaze ? glazeAmount : 0;
+			BufferedImage img = renderer.renderToImage(w, h, 0, gl);
 			g.drawImage(img, i.left, i.top, null);
 		}
 	}
@@ -91,9 +120,7 @@ public class FlagViewer extends JComponent {
 			return this.prefSize;
 		} else if (flag != null) {
 			Insets i = getInsets();
-			int w = (int)Math.round(flag.getFly().value(
-				DimensionUtils.createNamespace(
-					flag.dimensions(), DEFAULT_HEIGHT)));
+			int w = flag.getWidthFromHeight(DEFAULT_HEIGHT);
 			return new Dimension(
 				i.left + i.right + w,
 				i.top + i.bottom + DEFAULT_HEIGHT

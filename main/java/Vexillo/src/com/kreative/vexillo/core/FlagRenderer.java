@@ -41,18 +41,45 @@ public class FlagRenderer {
 		this.imageCache = new HashMap<String, BufferedImage>();
 	}
 	
+	public void renderToFile(File out, String format, int w, int h, int supersample, int glaze) throws IOException {
+		BufferedImage img = renderToImage(w, h, supersample, glaze);
+		ImageIO.write(img, format, out);
+	}
+	
+	public BufferedImage renderToImage(int w, int h, int supersample, int glaze) {
+		BufferedImage img;
+		if (supersample > 1) {
+			img = new BufferedImage(w * supersample, h * supersample, BufferedImage.TYPE_INT_ARGB);
+			Graphics2D g = img.createGraphics();
+			render(g, 0, 0, w * supersample, h * supersample);
+			g.dispose();
+			img = ImageUtils.scale(img, w, h);
+		} else {
+			img = new BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
+			Graphics2D g = img.createGraphics();
+			render(g, 0, 0, w, h);
+			g.dispose();
+		}
+		if (glaze > 0) {
+			Graphics2D g = img.createGraphics();
+			glaze(g, 0, 0, w, h, glaze);
+			g.dispose();
+		}
+		return img;
+	}
+	
+	public void render(Graphics2D g, int x, int y, int w, int h) {
+		prep(g);
+		Map<String, Dimension> d = flag.createNamespace(h, w);
+		for (Instruction i : flag.instructions()) execute(i, d, g, x, y, w, h);
+	}
+	
 	private void prep(Graphics2D g) {
 		g.setRenderingHint(RenderingHints.KEY_ALPHA_INTERPOLATION, RenderingHints.VALUE_ALPHA_INTERPOLATION_QUALITY);
 		g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 		g.setRenderingHint(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BICUBIC);
 		g.setRenderingHint(RenderingHints.KEY_RENDERING, RenderingHints.VALUE_RENDER_QUALITY);
 		g.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
-	}
-	
-	public void render(Graphics2D g, int x, int y, int w, int h) {
-		prep(g);
-		Map<String, Dimension> d = DimensionUtils.createNamespace(flag.dimensions(), h, w, flag.getFly());
-		for (Instruction i : flag.instructions()) execute(i, d, g, x, y, w, h);
 	}
 	
 	private void execute(Instruction i, Map<String, Dimension> d, Graphics2D g, int x, int y, int w, int h) {
@@ -492,7 +519,7 @@ public class FlagRenderer {
 	
 	public void glaze(Graphics2D g, int x, int y, int w, int h, int t) {
 		prep(g);
-		Map<String, Dimension> d = DimensionUtils.createNamespace(flag.dimensions(), h, w, flag.getFly());
+		Map<String, Dimension> d = flag.createNamespace(h, w);
 		int gx = d.containsKey(".glazeleft") ? (x + (int)Math.round(d.get(".glazeleft").value(d))) : x;
 		int gy = d.containsKey(".glazetop") ? (y + (int)Math.round(d.get(".glazetop").value(d))) : y;
 		int gw = d.containsKey(".glazeright") ? (x + (int)Math.round(d.get(".glazeright").value(d)) - gx) : w;

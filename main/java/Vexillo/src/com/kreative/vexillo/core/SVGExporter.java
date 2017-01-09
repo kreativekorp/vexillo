@@ -9,9 +9,11 @@ import java.awt.geom.Line2D;
 import java.awt.geom.PathIterator;
 import java.awt.geom.Rectangle2D;
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -34,8 +36,17 @@ public class SVGExporter {
 		this.imageCache = new HashMap<String, String>();
 	}
 	
+	public void export(File out, int w, int h, int glaze) throws IOException {
+		FileOutputStream fos = new FileOutputStream(out);
+		OutputStreamWriter osw = new OutputStreamWriter(fos, "UTF-8");
+		PrintWriter pw = new PrintWriter(osw, true);
+		export(pw, w, h, glaze);
+		pw.flush();
+		pw.close();
+	}
+	
 	public void export(PrintWriter out, int w, int h, int glaze) {
-		Map<String, Dimension> d = DimensionUtils.createNamespace(flag.dimensions(), h, w, flag.getFly());
+		Map<String, Dimension> d = flag.createNamespace(h, w);
 		List<String> styleBlock = new LinkedList<String>();
 		List<String> defsBlock = new LinkedList<String>();
 		List<String> groupBlock = new LinkedList<String>();

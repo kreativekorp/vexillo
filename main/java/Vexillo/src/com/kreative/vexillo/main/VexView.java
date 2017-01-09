@@ -63,6 +63,7 @@ public class VexView {
 				e.getClass().getSimpleName() + ": " +
 				e.getMessage()
 			);
+			e.printStackTrace();
 		}
 	}
 	

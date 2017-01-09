@@ -42,11 +42,12 @@ public class FlagPanel extends JPanel {
 		this.flag = flag;
 	}
 	
-	public int getViewerWidth() {
-		return viewer.getWidth();
-	}
-	
-	public int getViewerHeight() {
-		return viewer.getHeight();
-	}
+	public int getViewerWidth() { return viewer.getWidth(); }
+	public int getViewerHeight() { return viewer.getHeight(); }
+	public boolean isGlazed() { return viewer.isGlazed(); }
+	public int getGlaze() { return viewer.getGlaze(); }
+	public int getGlazeAmount() { return viewer.getGlazeAmount(); }
+	public void setGlaze(boolean glaze) { viewer.setGlaze(glaze); }
+	public void setGlaze(boolean gl, int amt) { viewer.setGlaze(gl, amt); }
+	public void setGlaze(int amount) { viewer.setGlaze(amount); }
 }

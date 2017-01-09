@@ -8,9 +8,10 @@ import javax.swing.KeyStroke;
 public class SetHoistMenuItem extends JMenuItem {
 	private static final long serialVersionUID = 1L;
 	
-	public SetHoistMenuItem(String text, int acc, final FlagFrame frame, final int h) {
+	public SetHoistMenuItem(String text, int mn, int acc, final FlagFrame frame, final int h) {
 		setText(text);
-		if (acc != 0) setAccelerator(KeyStroke.getKeyStroke(acc, InputUtils.META_MASK));
+		if (mn != 0 && !OSUtils.isMacOS()) setMnemonic(mn);
+		if (acc != 0) setAccelerator(KeyStroke.getKeyStroke(acc, 0));
 		if (frame == null) {
 			setEnabled(false);
 		} else {

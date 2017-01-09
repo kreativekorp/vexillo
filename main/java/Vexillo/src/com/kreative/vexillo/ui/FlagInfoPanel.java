@@ -1,18 +1,12 @@
 package com.kreative.vexillo.ui;
 
 import java.awt.BorderLayout;
-import java.awt.Container;
 import java.awt.Font;
 import java.awt.GridLayout;
-import java.awt.Window;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 import java.io.InputStream;
 import javax.swing.BorderFactory;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import com.kreative.vexillo.core.Dimension;
-import com.kreative.vexillo.core.DimensionUtils;
 import com.kreative.vexillo.core.Flag;
 import com.kreative.vexillo.core.PropertySet;
 
@@ -54,21 +48,6 @@ public class FlagInfoPanel extends JPanel {
 		add(infoPanel, BorderLayout.CENTER);
 		setBorder(BorderFactory.createEmptyBorder(VBORDER,HBORDER,VBORDER,HBORDER));
 		setFlag(flag);
-		
-		proportionLabel.addMouseListener(new MouseAdapter() {
-			public void mouseClicked(MouseEvent e) {
-				for (Container c = FlagInfoPanel.this; c != null; c = c.getParent()) {
-					if (c instanceof FlagFrame) {
-						((FlagFrame)c).setAspectRatio(0, 0);
-						break;
-					}
-					if (c instanceof Window) {
-						((Window)c).pack();
-						break;
-					}
-				}
-			}
-		});
 	}
 	
 	public Flag getFlag() {
@@ -97,13 +76,12 @@ public class FlagInfoPanel extends JPanel {
 	}
 	
 	private String proportionString() {
-		Dimension fly = flag.getFly();
 		int bestDenom = 1;
-		double bestNum = fly.value(DimensionUtils.createNamespace(flag.dimensions(), 1));
+		double bestNum = flag.getWidthFromHeight2D(1);
 		double bestError = Math.abs(bestNum - Math.round(bestNum));
 		if (bestError == 0) return bestDenom + ":" + (int)Math.round(bestNum);
 		for (int denom = 2; denom < 1000; denom++) {
-			double num = fly.value(DimensionUtils.createNamespace(flag.dimensions(), denom));
+			double num = flag.getWidthFromHeight2D(denom);
 			double error = Math.abs(num - Math.round(num));
 			if (error == 0) return denom + ":" + (int)Math.round(num);
 			else if (error < bestError) {

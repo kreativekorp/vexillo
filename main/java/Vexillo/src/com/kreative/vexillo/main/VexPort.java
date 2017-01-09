@@ -1,19 +1,11 @@
 package com.kreative.vexillo.main;
 
-import java.awt.Graphics2D;
-import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
-import javax.imageio.ImageIO;
-import com.kreative.vexillo.core.DimensionUtils;
 import com.kreative.vexillo.core.Flag;
 import com.kreative.vexillo.core.FlagParser;
 import com.kreative.vexillo.core.FlagRenderer;
-import com.kreative.vexillo.core.ImageUtils;
 import com.kreative.vexillo.core.SVGExporter;
 
 public class VexPort {
@@ -110,40 +102,20 @@ public class VexPort {
 	
 	private static void renderFlag(File file, Flag flag, File out, Options o) {
 		try {
-			int height = o.height;
-			if (height < 1) height = 200;
 			int width = o.width;
-			if (width < 1) width = (int)Math.round(flag.getFly().value(
-				DimensionUtils.createNamespace(flag.dimensions(), height)));
-			int glaze = o.glaze;
+			int height = o.height;
+			if (width < 1) {
+				if (height < 1) height = 200;
+				width = flag.getWidthFromHeight(height);
+			} else if (height < 1) {
+				height = flag.getHeightFromWidth(width);
+			}
 			if (o.format.equalsIgnoreCase("svg")) {
-				PrintWriter pw = printToFile(out);
-				if (pw == null) return;
-				SVGExporter exporter = new SVGExporter(file.getParentFile(), flag);
-				exporter.export(pw, width, height, glaze);
-				pw.flush();
-				pw.close();
-			} else if (o.supersample > 1) {
-				BufferedImage img = new BufferedImage(width * o.supersample, height * o.supersample, BufferedImage.TYPE_INT_ARGB);
-				Graphics2D g = img.createGraphics();
-				FlagRenderer renderer = new FlagRenderer(file.getParentFile(), flag);
-				renderer.render(g, 0, 0, width * o.supersample, height * o.supersample);
-				g.dispose();
-				img = ImageUtils.scale(img, width, height);
-				if (glaze > 0) {
-					g = img.createGraphics();
-					renderer.glaze(g, 0, 0, width, height, glaze);
-					g.dispose();
-				}
-				writeFile(img, o.format, out);
+				SVGExporter e = new SVGExporter(file.getParentFile(), flag);
+				e.export(out, width, height, o.glaze);
 			} else {
-				BufferedImage img = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
-				Graphics2D g = img.createGraphics();
-				FlagRenderer renderer = new FlagRenderer(file.getParentFile(), flag);
-				renderer.render(g, 0, 0, width, height);
-				if (glaze > 0) renderer.glaze(g, 0, 0, width, height, glaze);
-				g.dispose();
-				writeFile(img, o.format, out);
+				FlagRenderer r = new FlagRenderer(file.getParentFile(), flag);
+				r.renderToFile(out, o.format, width, height, o.supersample, o.glaze);
 			}
 		} catch (RuntimeException e) {
 			System.err.println(
@@ -151,28 +123,6 @@ public class VexPort {
 				e.getClass().getSimpleName() + ": " +
 				e.getMessage()
 			);
-		}
-	}
-	
-	private static PrintWriter printToFile(File out) {
-		try {
-			FileOutputStream fos = new FileOutputStream(out);
-			OutputStreamWriter osw = new OutputStreamWriter(fos, "UTF-8");
-			PrintWriter pw = new PrintWriter(osw, true);
-			return pw;
-		} catch (IOException e) {
-			System.err.println(
-				"Error writing " + out.getName() + ": " +
-				e.getClass().getSimpleName() + ": " +
-				e.getMessage()
-			);
-			return null;
-		}
-	}
-	
-	private static void writeFile(BufferedImage img, String format, File out) {
-		try {
-			ImageIO.write(img, format, out);
 		} catch (IOException e) {
 			System.err.println(
 				"Error writing " + out.getName() + ": " +
