@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="uk-eng" name="England" properties="cf sf normal" fly="h*5/3">
+	<defs>
+		<dim id="y1" e="h*2/5"/>
+		<dim id="y2" e="h*3/5"/>
+		<dim id="x1" e="w/2-h/10"/>
+		<dim id="x2" e="w/2+h/10"/>
+		<!-- Colors taken from gb. -->
+		<color id="red">
+			<colorspec model="pantone" value="186 C"/>
+			<colorspec model="cmyk" value="0 91 76 6"/>
+			<colorspec model="rgb" value="207 20 43"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<cross x1="0" y1="0" x2="x1" y2="y1" x3="x2" y3="y2" x4="w" y4="h" color="red"/>
+</flag>

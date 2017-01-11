@@ -75,6 +75,10 @@ $VEXPORT -f png \
 	-d out/pmf024 -h  24 -w  24 -g  0 -s  3 flags/*.kvxx \
 	-d out/pmk024 -h  22 -w  32 -g  0 -s  3 flags/*.kvxx
 
+export COPYFILE_DISABLE=true
+find flags -name .DS_Store -delete
+zip -r out/vexillo-flags.zip flags
+
 cd out
 
 zip -r sga360.zip sga360
