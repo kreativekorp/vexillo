@@ -15,6 +15,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
+import java.io.StringWriter;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -34,6 +35,15 @@ public class SVGExporter {
 		this.parent = parent;
 		this.flag = flag;
 		this.imageCache = new HashMap<String, String>();
+	}
+	
+	public String exportToString(int w, int h, int glaze) {
+		StringWriter sw = new StringWriter();
+		PrintWriter pw = new PrintWriter(sw, true);
+		export(pw, w, h, glaze);
+		pw.flush();
+		pw.close();
+		return sw.getBuffer().toString();
 	}
 	
 	public void export(File out, int w, int h, int glaze) throws IOException {

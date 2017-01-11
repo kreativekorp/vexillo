@@ -42,7 +42,7 @@ install: vexillo.jar
 	sudo chmod -f 755 /usr/local/bin/{ascii85,base64}{en,de}code
 	sudo cp -i dep/rewritesvgpath /usr/local/bin/
 	sudo chmod -f 755 /usr/local/bin/rewritesvgpath
-	sudo cp -f dep/vex{illo,view,port,calc} /usr/local/bin/
-	sudo chmod -f 755 /usr/local/bin/vex{illo,view,port,calc}
+	sudo cp -f dep/vex{illo,view,port,info,calc} /usr/local/bin/
+	sudo chmod -f 755 /usr/local/bin/vex{illo,view,port,info,calc}
 
 .PHONY: all eclipseall clean eclipseclean install

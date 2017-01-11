@@ -20,6 +20,12 @@ public class FlagMenuBar extends JMenuBar {
 		}
 		add(file);
 		
+		JMenu edit = new JMenu("Edit");
+		if (!OSUtils.isMacOS()) edit.setMnemonic(KeyEvent.VK_E);
+		edit.add(new CopyImageMenuItem(frame));
+		edit.add(new CopySVGMenuItem(frame));
+		add(edit);
+		
 		JMenu view = new JMenu("View");
 		if (!OSUtils.isMacOS()) view.setMnemonic(KeyEvent.VK_V);
 		view.add(new SetHoistMenuItem("Small", KeyEvent.VK_S, KeyEvent.VK_1, frame, 120));
