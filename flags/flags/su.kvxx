@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="su" name="Soviet Union" properties="cf sf ce se historical" fly="h*2">
+	<defs>
+		<color id="red">
+			<colorspec model="rgb" value="204 0 0"/>
+		</color>
+		<color id="gold">
+			<colorspec model="rgb" value="255 215 0"/>
+		</color>
+		<symdef id="star" d="M 191.6 61.4 h -27 l 21.8 16 l -8.2 25.6
+		                     L 200 87.2 l 21.8 15.8 l -8.2 -25.6 l 21.8 -16
+		                     h -27 L 200 35.6 l -8.4 25.8 z
+		                     m 8.4 -9.8 l 4.8 14.8 h 15.4 l -12.4 9
+		                     l 4.72 14.7 L 200 81 l -12.52 9.1 l 4.72 -14.7
+		                     l -12.4 -9 h 15.4 l 4.8 -14.8 z"/>
+		<symdef id="hammer" d="M 166.577 138.645 l -33.986 32.37
+		                       l 18.126 18.126 l 15.651 -15.756
+		                       c 30.522 30.98 54.246 55.066 83.72 84.978
+		                       c 8.159 8.46 22.368 -3.044 13.268 -12.812
+		                       c -31.14 -30.347 -52.722 -52.25 -85.165 -84.067
+		                       l 19.235 -19.348 z"/>
+		<symdef id="sickle" d="M 165.43 229.454
+		                       c 60.803 56.406 159.333 -45.304 33.413 -119.013
+		                       c 93.707 104.11 3.745 136.026 -28.829 103.909
+		                       l -1.64 -1.355
+		                       c -1.33 1.493 -2.663 2.984 -3.991 4.478
+		                       c -2.524 -2.382 -6.444 -3.082 -7.65 0.991
+		                       c -4.96 -0.343 -7.87 2.405 -9.167 7.553
+		                       c -9.224 6.11 -19.21 11.472 -24.949 21.068
+		                       c -3.28 10.15 3.208 14.564 10.547 13.724
+		                       c 12.031 -4.998 15.75 -15.801 22.188 -24.714
+		                       c 4.552 -1.449 8.407 -3.397 9.114 -7.54"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<symbol symbol="star" x="0" y="0" sx="h/600" sy="h/600" color="gold"/>
+	<symbol symbol="hammer" x="0" y="0" sx="h/600" sy="h/600" color="gold"/>
+	<symbol symbol="sickle" x="0" y="0" sx="h/600" sy="h/600" color="gold"/>
+</flag>

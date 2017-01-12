@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="yu" name="Yugoslavia" properties="cf sf wf historical" fly="h*2">
+	<defs>
+		<!-- Using colors of modern-day Serbia -->
+		<color id="red">
+			<colorspec model="pantone" value="192C"/>
+			<colorspec model="cmyk" value="0 90 70 10"/>
+			<colorspec model="rgb" value="198 54 60"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="280C"/>
+			<colorspec model="cmyk" value="100 72 0 19"/>
+			<colorspec model="rgb" value="12 64 118"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="gold">
+			<colorspec model="rgb" value="255 215 0"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue white red"/>
+	<symbol symbol="star" x="w/2" y="h/2" sx="h/3" sy="h/3" color="gold"/>
+	<symbol symbol="star" x="w/2" y="h/2" sx="h*3/10" sy="h*3/10" color="red"/>
+</flag>
