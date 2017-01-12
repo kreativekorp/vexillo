@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag fly="h*3/2">
+	<defs>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 238 0"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="yellow"/>
+</flag>
