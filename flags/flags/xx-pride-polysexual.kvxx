@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Polysexual Pride" fly="h*4/3">
+	<defs>
+		<color id="pink">
+			<colorspec model="rgb" value="246 28 185"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="7 213 105"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="28 146 246"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="pink green blue"/>
+</flag>
