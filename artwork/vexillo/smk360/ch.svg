@@ -6,7 +6,7 @@
 .white{fill:rgb(255,255,255);}
 </style>
 <g>
-<rect x="90" y="0" width="396" height="396" class="red"/>
+<rect x="0" y="0" width="576" height="396" class="red"/>
 <g>
 <rect x="164.25" y="160.875" width="247.5" height="74.25" class="white"/>
 <rect x="250.875" y="74.25" width="74.25" height="247.5" class="white"/>

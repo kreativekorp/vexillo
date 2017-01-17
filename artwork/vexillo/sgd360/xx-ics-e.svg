@@ -15,13 +15,13 @@
 </defs>
 <g>
 <g>
-<rect x="60" y="0" width="360" height="180" class="blue"/>
-<rect x="60" y="180" width="360" height="180" class="red"/>
+<rect x="0" y="0" width="480" height="180" class="blue"/>
+<rect x="0" y="180" width="480" height="180" class="red"/>
 </g>
 </g>
 <g>
-<rect x="60" y="0" width="360" height="360" fill="url(#glaze)"/>
-<path d="M 90 30 L 390 30 L 390 330 L 90 330 Z M 120 60 L 120 300 L 360 300 L 360 60 Z" fill="rgb(255,255,255)" opacity="0.4"/>
-<path d="M 60 0 L 420 0 L 420 360 L 60 360 Z M 90 30 L 90 330 L 390 330 L 390 30 Z" fill="rgb(0,0,0)" opacity="0.4"/>
+<rect x="0" y="0" width="480" height="360" fill="url(#glaze)"/>
+<path d="M 30 30 L 450 30 L 450 330 L 30 330 Z M 60 60 L 60 300 L 420 300 L 420 60 Z" fill="rgb(255,255,255)" opacity="0.4"/>
+<path d="M 0 0 L 480 0 L 480 360 L 0 360 Z M 30 30 L 30 330 L 450 330 L 450 30 Z" fill="rgb(0,0,0)" opacity="0.4"/>
 </g>
 </svg>

@@ -7,8 +7,8 @@
 .white{fill:rgb(255,255,255);}
 </style>
 <g>
-<rect x="90" y="0" width="396" height="396" class="blue"/>
-<rect x="169.2" y="79.2" width="237.6" height="237.6" class="white"/>
-<rect x="248.4" y="158.4" width="79.2" height="79.2" class="red"/>
+<rect x="0" y="0" width="576" height="396" class="blue"/>
+<rect x="115.2" y="79.2" width="345.6" height="237.6" class="white"/>
+<rect x="230.4" y="158.4" width="115.2" height="79.2" class="red"/>
 </g>
 </svg>

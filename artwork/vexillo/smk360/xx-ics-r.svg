@@ -6,9 +6,9 @@
 .yellow{fill:rgb(255,255,0);}
 </style>
 <g>
-<rect x="90" y="0" width="396" height="396" class="red"/>
+<rect x="0" y="0" width="576" height="396" class="red"/>
 <g>
-<rect x="90" y="158.4" width="396" height="79.2" class="yellow"/>
+<rect x="0" y="158.4" width="576" height="79.2" class="yellow"/>
 <rect x="248.4" y="0" width="79.2" height="396" class="yellow"/>
 </g>
 </g>

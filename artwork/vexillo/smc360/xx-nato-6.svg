@@ -6,9 +6,9 @@
 .white{fill:rgb(255,255,255);}
 </style>
 <g>
-<rect x="90" y="0" width="360" height="360" class="white"/>
-<path d="M 192.8571 0 L 295.7143 0 L 90 205.7143 L 90 102.8571 Z" class="blue"/>
-<path d="M 398.5714 0 L 450 0 L 450 51.4286 L 141.4286 360 L 90 360 L 90 308.5714 Z" class="blue"/>
-<path d="M 450 154.2857 L 450 257.1429 L 347.1429 360 L 244.2857 360 Z" class="blue"/>
+<rect x="0" y="0" width="540" height="360" class="white"/>
+<path d="M 154.2857 0 L 308.5714 0 L 0 205.7143 L 0 102.8571 Z" class="blue"/>
+<path d="M 462.8571 0 L 540 0 L 540 51.4286 L 77.1429 360 L 0 360 L 0 308.5714 Z" class="blue"/>
+<path d="M 540 154.2857 L 540 257.1429 L 385.7143 360 L 231.4286 360 Z" class="blue"/>
 </g>
 </svg>

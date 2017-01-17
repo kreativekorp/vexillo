@@ -7,12 +7,12 @@
 </style>
 <g>
 <g>
-<rect x="90" y="0" width="60" height="360" class="yellow"/>
-<rect x="150" y="0" width="60" height="360" class="blue"/>
-<rect x="210" y="0" width="60" height="360" class="yellow"/>
-<rect x="270" y="0" width="60" height="360" class="blue"/>
-<rect x="330" y="0" width="60" height="360" class="yellow"/>
-<rect x="390" y="0" width="60" height="360" class="blue"/>
+<rect x="0" y="0" width="90" height="360" class="yellow"/>
+<rect x="90" y="0" width="90" height="360" class="blue"/>
+<rect x="180" y="0" width="90" height="360" class="yellow"/>
+<rect x="270" y="0" width="90" height="360" class="blue"/>
+<rect x="360" y="0" width="90" height="360" class="yellow"/>
+<rect x="450" y="0" width="90" height="360" class="blue"/>
 </g>
 </g>
 </svg>

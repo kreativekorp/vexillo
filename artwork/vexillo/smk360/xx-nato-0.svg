@@ -6,22 +6,22 @@
 .white{fill:rgb(255,255,255);}
 </style>
 <g>
-<rect x="90" y="0" width="396" height="396" class="white"/>
+<rect x="0" y="0" width="576" height="396" class="white"/>
 <g>
-<rect x="116.4" y="52.8" width="79.2" height="26.4" class="blue"/>
-<rect x="142.8" y="26.4" width="26.4" height="79.2" class="blue"/>
+<rect x="26.4" y="52.8" width="79.2" height="26.4" class="blue"/>
+<rect x="52.8" y="26.4" width="26.4" height="79.2" class="blue"/>
 </g>
 <g>
-<rect x="380.4" y="52.8" width="79.2" height="26.4" class="blue"/>
-<rect x="406.8" y="26.4" width="26.4" height="79.2" class="blue"/>
+<rect x="470.4" y="52.8" width="79.2" height="26.4" class="blue"/>
+<rect x="496.8" y="26.4" width="26.4" height="79.2" class="blue"/>
 </g>
 <g>
-<rect x="116.4" y="316.8" width="79.2" height="26.4" class="blue"/>
-<rect x="142.8" y="290.4" width="26.4" height="79.2" class="blue"/>
+<rect x="26.4" y="316.8" width="79.2" height="26.4" class="blue"/>
+<rect x="52.8" y="290.4" width="26.4" height="79.2" class="blue"/>
 </g>
 <g>
-<rect x="380.4" y="316.8" width="79.2" height="26.4" class="blue"/>
-<rect x="406.8" y="290.4" width="26.4" height="79.2" class="blue"/>
+<rect x="470.4" y="316.8" width="79.2" height="26.4" class="blue"/>
+<rect x="496.8" y="290.4" width="26.4" height="79.2" class="blue"/>
 </g>
 <g>
 <rect x="248.4" y="184.8" width="79.2" height="26.4" class="blue"/>

@@ -6,7 +6,7 @@
 .white{fill:rgb(255,255,255);}
 </style>
 <g>
-<rect x="60" y="0" width="360" height="360" class="blue"/>
-<rect x="180" y="120" width="120" height="120" class="white"/>
+<rect x="0" y="0" width="480" height="360" class="blue"/>
+<rect x="160" y="120" width="160" height="120" class="white"/>
 </g>
 </svg>

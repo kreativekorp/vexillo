@@ -8,7 +8,7 @@
 <defs>
 <path id="-glazearea" d="M 0.0 0.0 L 1.0 0.0 L 0.75 0.5 L 1.0 1.0 L 0.0 1.0 Z"/>
 <clipPath id="clip0">
-<path d="M 60 0 L 420 0 L 330 180 L 420 360 L 60 360 Z"/>
+<path d="M 0 0 L 480 0 L 360 180 L 480 360 L 0 360 Z"/>
 </clipPath>
 <linearGradient id="glaze" x1="0%" y1="0%" x2="100%" y2="100%">
 <stop offset="0%" stop-color="rgb(255,255,255)" stop-opacity="0.2"/>
@@ -20,14 +20,14 @@
 <g>
 <g clip-path="url(#clip0)">
 <g>
-<rect x="60" y="0" width="180" height="360" class="white"/>
-<rect x="240" y="0" width="180" height="360" class="blue"/>
+<rect x="0" y="0" width="240" height="360" class="white"/>
+<rect x="240" y="0" width="240" height="360" class="blue"/>
 </g>
 </g>
 </g>
 <g>
-<path d="M 60 0 L 420 0 L 330 180 L 420 360 L 60 360 Z" fill="url(#glaze)"/>
-<path d="M 322.918 60 L 276.324 153.1879 L 262.9309 180 L 276.324 206.8121 L 322.918 300 L 120 300 L 120 60 Z M 90 30 L 90 330 L 371.459 330 L 303.162 193.4061 L 296.4655 180 L 303.162 166.5939 L 371.459 30 Z" fill="rgb(255,255,255)" opacity="0.4"/>
-<path d="M 371.459 30 L 303.162 166.5939 L 296.4655 180 L 303.162 193.4061 L 371.459 330 L 90 330 L 90 30 Z M 60 0 L 60 360 L 420 360 L 330 180 L 420 0 Z" fill="rgb(0,0,0)" opacity="0.4"/>
+<path d="M 0 0 L 480 0 L 360 180 L 480 360 L 0 360 Z" fill="url(#glaze)"/>
+<path d="M 367.889 60 L 310.0608 146.7424 L 287.9124 180 L 310.0608 213.2576 L 367.889 300 L 60 300 L 60 60 Z M 30 30 L 30 330 L 423.9445 330 L 335.0304 196.6288 L 323.9562 180 L 335.0304 163.3712 L 423.9445 30 Z" fill="rgb(255,255,255)" opacity="0.4"/>
+<path d="M 423.9445 30 L 335.0304 163.3712 L 323.9562 180 L 335.0304 196.6288 L 423.9445 330 L 30 330 L 30 30 Z M 0 0 L 0 360 L 480 360 L 360 180 L 480 0 Z" fill="rgb(0,0,0)" opacity="0.4"/>
 </g>
 </svg>

@@ -6,7 +6,7 @@
 .green{fill:rgb(0,255,0);}
 </style>
 <g>
-<rect x="90" y="0" width="396" height="396" class="green"/>
-<rect x="222" y="132" width="132" height="132" class="blue"/>
+<rect x="0" y="0" width="576" height="396" class="green"/>
+<rect x="192" y="132" width="192" height="132" class="blue"/>
 </g>
 </svg>

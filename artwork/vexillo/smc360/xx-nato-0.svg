@@ -6,22 +6,22 @@
 .white{fill:rgb(255,255,255);}
 </style>
 <g>
-<rect x="90" y="0" width="360" height="360" class="white"/>
+<rect x="0" y="0" width="540" height="360" class="white"/>
 <g>
-<rect x="114" y="48" width="72" height="24" class="blue"/>
-<rect x="138" y="24" width="24" height="72" class="blue"/>
+<rect x="24" y="48" width="72" height="24" class="blue"/>
+<rect x="48" y="24" width="24" height="72" class="blue"/>
 </g>
 <g>
-<rect x="354" y="48" width="72" height="24" class="blue"/>
-<rect x="378" y="24" width="24" height="72" class="blue"/>
+<rect x="444" y="48" width="72" height="24" class="blue"/>
+<rect x="468" y="24" width="24" height="72" class="blue"/>
 </g>
 <g>
-<rect x="114" y="288" width="72" height="24" class="blue"/>
-<rect x="138" y="264" width="24" height="72" class="blue"/>
+<rect x="24" y="288" width="72" height="24" class="blue"/>
+<rect x="48" y="264" width="24" height="72" class="blue"/>
 </g>
 <g>
-<rect x="354" y="288" width="72" height="24" class="blue"/>
-<rect x="378" y="264" width="24" height="72" class="blue"/>
+<rect x="444" y="288" width="72" height="24" class="blue"/>
+<rect x="468" y="264" width="24" height="72" class="blue"/>
 </g>
 <g>
 <rect x="234" y="168" width="72" height="24" class="blue"/>

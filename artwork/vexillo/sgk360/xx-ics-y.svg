@@ -14,16 +14,16 @@
 </linearGradient>
 </defs>
 <g>
-<rect x="90" y="0" width="396" height="396" class="yellow"/>
-<path d="M 169.2 0 L 248.4 0 L 90 158.4 L 90 79.2 Z" class="red"/>
-<path d="M 327.6 0 L 406.8 0 L 90 316.8 L 90 237.6 Z" class="red"/>
-<path d="M 486 0 L 486 79.2 L 169.2 396 L 90 396 Z" class="red"/>
-<path d="M 486 158.4 L 486 237.6 L 327.6 396 L 248.4 396 Z" class="red"/>
-<path d="M 486 316.8 L 486 396 L 406.8 396 Z" class="red"/>
+<rect x="0" y="0" width="576" height="396" class="yellow"/>
+<path d="M 115.2 0 L 230.4 0 L 0 158.4 L 0 79.2 Z" class="red"/>
+<path d="M 345.6 0 L 460.8 0 L 0 316.8 L 0 237.6 Z" class="red"/>
+<path d="M 576 0 L 576 79.2 L 115.2 396 L 0 396 Z" class="red"/>
+<path d="M 576 158.4 L 576 237.6 L 345.6 396 L 230.4 396 Z" class="red"/>
+<path d="M 576 316.8 L 576 396 L 460.8 396 Z" class="red"/>
 </g>
 <g>
-<rect x="90" y="0" width="396" height="396" fill="url(#glaze)"/>
-<path d="M 126 36 L 450 36 L 450 360 L 126 360 Z M 162 72 L 162 324 L 414 324 L 414 72 Z" fill="rgb(255,255,255)" opacity="0.4"/>
-<path d="M 90 0 L 486 0 L 486 396 L 90 396 Z M 126 36 L 126 360 L 450 360 L 450 36 Z" fill="rgb(0,0,0)" opacity="0.4"/>
+<rect x="0" y="0" width="576" height="396" fill="url(#glaze)"/>
+<path d="M 36 36 L 540 36 L 540 360 L 36 360 Z M 72 72 L 72 324 L 504 324 L 504 72 Z" fill="rgb(255,255,255)" opacity="0.4"/>
+<path d="M 0 0 L 576 0 L 576 396 L 0 396 Z M 36 36 L 36 360 L 540 360 L 540 36 Z" fill="rgb(0,0,0)" opacity="0.4"/>
 </g>
 </svg>

@@ -14,14 +14,14 @@
 </linearGradient>
 </defs>
 <g>
-<rect x="60" y="0" width="360" height="360" class="white"/>
-<path d="M 162.8571 0 L 265.7143 0 L 60 205.7143 L 60 102.8571 Z" class="blue"/>
-<path d="M 368.5714 0 L 420 0 L 420 51.4286 L 111.4286 360 L 60 360 L 60 308.5714 Z" class="blue"/>
-<path d="M 420 154.2857 L 420 257.1429 L 317.1429 360 L 214.2857 360 Z" class="blue"/>
+<rect x="0" y="0" width="480" height="360" class="white"/>
+<path d="M 137.1429 0 L 274.2857 0 L 0 205.7143 L 0 102.8571 Z" class="blue"/>
+<path d="M 411.4286 0 L 480 0 L 480 51.4286 L 68.5714 360 L 0 360 L 0 308.5714 Z" class="blue"/>
+<path d="M 480 154.2857 L 480 257.1429 L 342.8571 360 L 205.7143 360 Z" class="blue"/>
 </g>
 <g>
-<rect x="60" y="0" width="360" height="360" fill="url(#glaze)"/>
-<path d="M 90 30 L 390 30 L 390 330 L 90 330 Z M 120 60 L 120 300 L 360 300 L 360 60 Z" fill="rgb(255,255,255)" opacity="0.4"/>
-<path d="M 60 0 L 420 0 L 420 360 L 60 360 Z M 90 30 L 90 330 L 390 330 L 390 30 Z" fill="rgb(0,0,0)" opacity="0.4"/>
+<rect x="0" y="0" width="480" height="360" fill="url(#glaze)"/>
+<path d="M 30 30 L 450 30 L 450 330 L 30 330 Z M 60 60 L 60 300 L 420 300 L 420 60 Z" fill="rgb(255,255,255)" opacity="0.4"/>
+<path d="M 0 0 L 480 0 L 480 360 L 0 360 Z M 30 30 L 30 330 L 450 330 L 450 30 Z" fill="rgb(0,0,0)" opacity="0.4"/>
 </g>
 </svg>

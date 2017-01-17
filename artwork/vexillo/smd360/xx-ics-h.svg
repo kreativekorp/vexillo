@@ -7,8 +7,8 @@
 </style>
 <g>
 <g>
-<rect x="60" y="0" width="180" height="360" class="white"/>
-<rect x="240" y="0" width="180" height="360" class="red"/>
+<rect x="0" y="0" width="240" height="360" class="white"/>
+<rect x="240" y="0" width="240" height="360" class="red"/>
 </g>
 </g>
 </svg>

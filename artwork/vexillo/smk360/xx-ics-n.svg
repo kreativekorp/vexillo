@@ -6,14 +6,14 @@
 .white{fill:rgb(255,255,255);}
 </style>
 <g>
-<rect x="90" y="0" width="396" height="396" class="blue"/>
-<rect x="189" y="0" width="99" height="99" class="white"/>
-<rect x="387" y="0" width="99" height="99" class="white"/>
-<rect x="90" y="99" width="99" height="99" class="white"/>
-<rect x="288" y="99" width="99" height="99" class="white"/>
-<rect x="189" y="198" width="99" height="99" class="white"/>
-<rect x="387" y="198" width="99" height="99" class="white"/>
-<rect x="90" y="297" width="99" height="99" class="white"/>
-<rect x="288" y="297" width="99" height="99" class="white"/>
+<rect x="0" y="0" width="576" height="396" class="blue"/>
+<rect x="144" y="0" width="144" height="99" class="white"/>
+<rect x="432" y="0" width="144" height="99" class="white"/>
+<rect x="0" y="99" width="144" height="99" class="white"/>
+<rect x="288" y="99" width="144" height="99" class="white"/>
+<rect x="144" y="198" width="144" height="99" class="white"/>
+<rect x="432" y="198" width="144" height="99" class="white"/>
+<rect x="0" y="297" width="144" height="99" class="white"/>
+<rect x="288" y="297" width="144" height="99" class="white"/>
 </g>
 </svg>

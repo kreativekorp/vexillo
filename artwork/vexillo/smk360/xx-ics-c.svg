@@ -8,11 +8,11 @@
 </style>
 <g>
 <g>
-<rect x="90" y="0" width="396" height="79.2" class="blue"/>
-<rect x="90" y="79.2" width="396" height="79.2" class="white"/>
-<rect x="90" y="158.4" width="396" height="79.2" class="red"/>
-<rect x="90" y="237.6" width="396" height="79.2" class="white"/>
-<rect x="90" y="316.8" width="396" height="79.2" class="blue"/>
+<rect x="0" y="0" width="576" height="79.2" class="blue"/>
+<rect x="0" y="79.2" width="576" height="79.2" class="white"/>
+<rect x="0" y="158.4" width="576" height="79.2" class="red"/>
+<rect x="0" y="237.6" width="576" height="79.2" class="white"/>
+<rect x="0" y="316.8" width="576" height="79.2" class="blue"/>
 </g>
 </g>
 </svg>

@@ -7,9 +7,9 @@
 </style>
 <g>
 <g>
-<rect x="90" y="0" width="396" height="79.2" class="yellow"/>
-<rect x="90" y="79.2" width="396" height="237.6" class="blue"/>
-<rect x="90" y="316.8" width="396" height="79.2" class="yellow"/>
+<rect x="0" y="0" width="576" height="79.2" class="yellow"/>
+<rect x="0" y="79.2" width="576" height="237.6" class="blue"/>
+<rect x="0" y="316.8" width="576" height="79.2" class="yellow"/>
 </g>
 </g>
 </svg>

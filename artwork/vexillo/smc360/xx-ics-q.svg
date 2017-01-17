@@ -5,6 +5,6 @@
 .yellow{fill:rgb(255,255,0);}
 </style>
 <g>
-<rect x="90" y="0" width="360" height="360" class="yellow"/>
+<rect x="0" y="0" width="540" height="360" class="yellow"/>
 </g>
 </svg>

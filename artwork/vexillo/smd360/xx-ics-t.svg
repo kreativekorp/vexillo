@@ -8,9 +8,9 @@
 </style>
 <g>
 <g>
-<rect x="60" y="0" width="120" height="360" class="red"/>
-<rect x="180" y="0" width="120" height="360" class="white"/>
-<rect x="300" y="0" width="120" height="360" class="blue"/>
+<rect x="0" y="0" width="160" height="360" class="red"/>
+<rect x="160" y="0" width="160" height="360" class="white"/>
+<rect x="320" y="0" width="160" height="360" class="blue"/>
 </g>
 </g>
 </svg>

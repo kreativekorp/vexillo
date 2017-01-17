@@ -6,7 +6,7 @@
 .white{fill:rgb(255,255,255);}
 </style>
 <g>
-<rect x="90" y="0" width="396" height="396" class="white"/>
-<path d="M 288 0 L 486 198 L 288 396 L 90 198 Z" class="red"/>
+<rect x="0" y="0" width="576" height="396" class="white"/>
+<path d="M 288 0 L 576 198 L 288 396 L 0 198 Z" class="red"/>
 </g>
 </svg>

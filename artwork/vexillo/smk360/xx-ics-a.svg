@@ -8,14 +8,14 @@
 <defs>
 <path id="-glazearea" d="M 0.0 0.0 L 1.0 0.0 L 0.75 0.5 L 1.0 1.0 L 0.0 1.0 Z"/>
 <clipPath id="clip0">
-<path d="M 90 0 L 486 0 L 387 198 L 486 396 L 90 396 Z"/>
+<path d="M 0 0 L 576 0 L 432 198 L 576 396 L 0 396 Z"/>
 </clipPath>
 </defs>
 <g>
 <g clip-path="url(#clip0)">
 <g>
-<rect x="90" y="0" width="198" height="396" class="white"/>
-<rect x="288" y="0" width="198" height="396" class="blue"/>
+<rect x="0" y="0" width="288" height="396" class="white"/>
+<rect x="288" y="0" width="288" height="396" class="blue"/>
 </g>
 </g>
 </g>

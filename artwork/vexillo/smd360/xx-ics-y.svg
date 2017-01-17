@@ -6,11 +6,11 @@
 .yellow{fill:rgb(255,255,0);}
 </style>
 <g>
-<rect x="60" y="0" width="360" height="360" class="yellow"/>
-<path d="M 132 0 L 204 0 L 60 144 L 60 72 Z" class="red"/>
-<path d="M 276 0 L 348 0 L 60 288 L 60 216 Z" class="red"/>
-<path d="M 420 0 L 420 72 L 132 360 L 60 360 Z" class="red"/>
-<path d="M 420 144 L 420 216 L 276 360 L 204 360 Z" class="red"/>
-<path d="M 420 288 L 420 360 L 348 360 Z" class="red"/>
+<rect x="0" y="0" width="480" height="360" class="yellow"/>
+<path d="M 96 0 L 192 0 L 0 144 L 0 72 Z" class="red"/>
+<path d="M 288 0 L 384 0 L 0 288 L 0 216 Z" class="red"/>
+<path d="M 480 0 L 480 72 L 96 360 L 0 360 Z" class="red"/>
+<path d="M 480 144 L 480 216 L 288 360 L 192 360 Z" class="red"/>
+<path d="M 480 288 L 480 360 L 384 360 Z" class="red"/>
 </g>
 </svg>

@@ -6,7 +6,7 @@
 .yellow{fill:rgb(255,255,0);}
 </style>
 <g>
-<rect x="90" y="0" width="396" height="396" class="yellow"/>
+<rect x="0" y="0" width="576" height="396" class="yellow"/>
 <ellipse cx="288" cy="198" rx="99" ry="99" class="black"/>
 </g>
 </svg>
