@@ -4,7 +4,7 @@ Kreative Vexillo is a repository of images of flags in various formats, sizes, a
 
 Flags are named according to ISO 3166-1 alpha-2 country codes. Flags are present for all officially assigned codes as well as many exceptionally reserved, transitionally reserved, and user-assigned codes. Many other flags are included, among them ICS and NATO signal flags, pride flags, and flags for constructed languages.
 
-Kreative Vexillo contains **488 flags**. For comparison, the [My'file flag icon set](http://www.kreativekorp.com/lib/flags/) contains **300 flags** and the original [FamFamFam flag icon set](http://www.famfamfam.com/lab/icons/flags/) contains **247 flags**.
+Kreative Vexillo contains **492 flags**. For comparison, the [My'file flag icon set](http://www.kreativekorp.com/lib/flags/) contains **300 flags** and the original [FamFamFam flag icon set](http://www.famfamfam.com/lab/icons/flags/) contains **247 flags**.
 
 The flag images and the XML files used to describe them are placed in the public domain, free to use for any purpose with no requirement for attribution, except where otherwise noted within the XML file. The source code and binaries used to produce them, as well as any other computer programs in this repository including digital font files, are released under the Mozilla Public License.
 
@@ -214,6 +214,7 @@ The Java project for the Vexillo command line tools. Run `make` to compile the J
 
   * `vexillo view` or `vexview` - View `.kvxx` files in a window.
   * `vexillo export` or `vexport` - Convert `.kvxx` files to SVG or PNG in any size.
+  * `vexillo info` or `vexinfo` - Print information about `.kvxx` files.
   * `vexillo calc` or `vexcalc` - Calculator.
   * `base64encode` and `base64decode` - Convert files to and from Base64 (used in `.kvxx` and SVG files).
   * `ascii85encode` and `ascii85decode` - Convert files to and from ASCII85 (used in `.kvxx` and PostScript files).
