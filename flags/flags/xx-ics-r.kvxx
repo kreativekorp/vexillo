@@ -2,15 +2,7 @@
 <!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
 <flag name="Romeo" fly="h">
 	<defs>
-		<dim id="s" e="min(h,w)"/>
-		<dim id="x1" e="(w-s)/2"/>
-		<dim id="y1" e="(h-s)/2"/>
-		<dim id="x2" e="(w+s)/2"/>
-		<dim id="y2" e="(h+s)/2"/>
-		<dim id=".glazeleft" e="x1"/>
-		<dim id=".glazetop" e="y1"/>
-		<dim id=".glazeright" e="x2"/>
-		<dim id=".glazebottom" e="y2"/>
+		<dim id="t" e="min(h/5,w/5)"/>
 		<color id="red">
 			<colorspec model="rgb" value="255 0 0"/>
 		</color>
@@ -18,6 +10,6 @@
 			<colorspec model="rgb" value="255 255 0"/>
 		</color>
 	</defs>
-	<field x1="x1" y1="y1" x2="x2" y2="y2" color="red"/>
-	<cross x1="x1" y1="y1" x2="w/2-s/10" y2="h/2-s/10" x3="w/2+s/10" y3="h/2+s/10" x4="x2" y4="y2" color="yellow"/>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<cross x1="0" y1="0" x2="(w-t)/2" y2="(h-t)/2" x3="(w+t)/2" y3="(h+t)/2" x4="w" y4="h" color="yellow"/>
 </flag>

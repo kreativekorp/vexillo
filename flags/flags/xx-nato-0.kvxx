@@ -2,15 +2,7 @@
 <!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
 <flag name="Zero" fly="h">
 	<defs>
-		<dim id="s" e="min(h,w)"/>
-		<dim id="x1" e="(w-s)/2"/>
-		<dim id="y1" e="(h-s)/2"/>
-		<dim id="x2" e="(w+s)/2"/>
-		<dim id="y2" e="(h+s)/2"/>
-		<dim id=".glazeleft" e="x1"/>
-		<dim id=".glazetop" e="y1"/>
-		<dim id=".glazeright" e="x2"/>
-		<dim id=".glazebottom" e="y2"/>
+		<dim id="cu" e="min(h/15,w/15)"/>
 		<color id="white">
 			<colorspec model="rgb" value="255 255 255"/>
 		</color>
@@ -18,10 +10,10 @@
 			<colorspec model="rgb" value="0 0 255"/>
 		</color>
 	</defs>
-	<field x1="x1" y1="y1" x2="x2" y2="y2" color="white"/>
-	<cross x1="x1+s*1/15" y1="y1+s*1/15" x2="x1+s*2/15" y2="y1+s*2/15" x3="x1+s*3/15" y3="y1+s*3/15" x4="x1+s*4/15" y4="y1+s*4/15" color="blue"/>
-	<cross x1="x2-s*4/15" y1="y1+s*1/15" x2="x2-s*3/15" y2="y1+s*2/15" x3="x2-s*2/15" y3="y1+s*3/15" x4="x2-s*1/15" y4="y1+s*4/15" color="blue"/>
-	<cross x1="x1+s*1/15" y1="y2-s*4/15" x2="x1+s*2/15" y2="y2-s*3/15" x3="x1+s*3/15" y3="y2-s*2/15" x4="x1+s*4/15" y4="y2-s*1/15" color="blue"/>
-	<cross x1="x2-s*4/15" y1="y2-s*4/15" x2="x2-s*3/15" y2="y2-s*3/15" x3="x2-s*2/15" y3="y2-s*2/15" x4="x2-s*1/15" y4="y2-s*1/15" color="blue"/>
-	<cross x1="w/2-s*3/30" y1="h/2-s*3/30" x2="w/2-s*1/30" y2="h/2-s*1/30" x3="w/2+s*1/30" y3="h/2+s*1/30" x4="w/2+s*3/30" y4="h/2+s*3/30" color="blue"/>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<cross x1="cu" y1="cu" x2="cu*2" y2="cu*2" x3="cu*3" y3="cu*3" x4="cu*4" y4="cu*4" color="blue"/>
+	<cross x1="w-cu*4" y1="cu" x2="w-cu*3" y2="cu*2" x3="w-cu*2" y3="cu*3" x4="w-cu" y4="cu*4" color="blue"/>
+	<cross x1="cu" y1="h-cu*4" x2="cu*2" y2="h-cu*3" x3="cu*3" y3="h-cu*2" x4="cu*4" y4="h-cu" color="blue"/>
+	<cross x1="w-cu*4" y1="h-cu*4" x2="w-cu*3" y2="h-cu*3" x3="w-cu*2" y3="h-cu*2" x4="w-cu" y4="h-cu" color="blue"/>
+	<cross x1="(w-cu*3)/2" y1="(h-cu*3)/2" x2="(w-cu)/2" y2="(h-cu)/2" x3="(w+cu)/2" y3="(h+cu)/2" x4="(w+cu*3)/2" y4="(h+cu*3)/2" color="blue"/>
 </flag>

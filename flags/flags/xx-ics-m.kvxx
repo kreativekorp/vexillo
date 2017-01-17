@@ -2,15 +2,6 @@
 <!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
 <flag name="Mike" fly="h">
 	<defs>
-		<dim id="s" e="min(h,w)"/>
-		<dim id="x1" e="(w-s)/2"/>
-		<dim id="y1" e="(h-s)/2"/>
-		<dim id="x2" e="(w+s)/2"/>
-		<dim id="y2" e="(h+s)/2"/>
-		<dim id=".glazeleft" e="x1"/>
-		<dim id=".glazetop" e="y1"/>
-		<dim id=".glazeright" e="x2"/>
-		<dim id=".glazebottom" e="y2"/>
 		<color id="blue">
 			<colorspec model="rgb" value="0 0 255"/>
 		</color>
@@ -18,6 +9,6 @@
 			<colorspec model="rgb" value="255 255 255"/>
 		</color>
 	</defs>
-	<field x1="x1" y1="y1" x2="x2" y2="y2" color="blue"/>
-	<saltire x1="x1" y1="y1" x2="x2" y2="y2" thickness="s/5" color="white"/>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<saltire x1="0" y1="0" x2="w" y2="h" thickness="min(h/5,w/5)" color="white"/>
 </flag>

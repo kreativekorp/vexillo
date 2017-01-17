@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
-<flag name="Bravo" fly="h">
+<flag fly="h*3/2">
 	<defs>
 		<symdef id=".glazearea" d="M 0 0 L 1 0 L 0.75 0.5 L 1 1 L 0 1 Z"/>
-		<color id="red">
-			<colorspec model="rgb" value="255 0 0"/>
+		<color id="brown">
+			<colorspec model="rgb" value="153 102 51"/>
 		</color>
 	</defs>
-	<poly points="0 0 w 0 w*3/4 h/2 w h 0 h" color="red"/>
+	<poly points="0 0 w 0 w*3/4 h/2 w h 0 h" color="brown"/>
 </flag>
