@@ -29,6 +29,8 @@ public class Vexillo {
 			VexView.main(arg0 + " view", args, argi + 1);
 		} else if (args[argi].equalsIgnoreCase("export")) {
 			VexPort.main(arg0 + " export", args, argi + 1);
+		} else if (args[argi].equalsIgnoreCase("emoji")) {
+			VexMoji.main(arg0 + " emoji", args, argi + 1);
 		} else if (args[argi].equalsIgnoreCase("info")) {
 			VexInfo.main(arg0 + " info", args, argi + 1);
 		} else if (args[argi].equalsIgnoreCase("calc")) {
@@ -55,6 +57,7 @@ public class Vexillo {
 		System.out.println("Usage:");
 		System.out.println("  " + arg0 + " view <files>");
 		System.out.println("  " + arg0 + " export [<options>] <files>");
+		System.out.println("  " + arg0 + " emoji [<options>] <output-file> <encoding-file> <flag-files>");
 		System.out.println("  " + arg0 + " info <fields> <files>");
 		System.out.println("  " + arg0 + " calc <expression>");
 		System.out.println("  " + arg0 + " RewriteSVGPath [<options>] <paths>");
