@@ -72,6 +72,11 @@ public class SVGExporter {
 		List<String> glazeBlock = new LinkedList<String>();
 		int[] next = new int[NEXT_ID];
 		
+		if (embeddedMode) {
+			defsBlock.add("<clipPath id=\"bounds\">");
+			defsBlock.add("<rect x=\"0\" y=\"0\" width=\"" + w + "\" height=\"" + h + "\"/>");
+			defsBlock.add("</clipPath>");
+		}
 		prep(styleBlock, defsBlock);
 		for (Instruction i : flag.instructions()) execute(i, d, defsBlock, groupBlock, next, false);
 		if (glaze > 0) glaze(d, defsBlock, glazeBlock, w, h, glaze);
@@ -98,6 +103,7 @@ public class SVGExporter {
 			out.println("</defs>");
 		}
 		if (tx != 0 || ty != 0) out.println("<g transform=\"translate(" + tx + " " + ty + ")\">");
+		if (embeddedMode) out.println("<g clip-path=\"url(#bounds)\">");
 		if (!groupBlock.isEmpty()) {
 			out.println("<g>");
 			for (String line : groupBlock) out.println(line);
@@ -108,6 +114,7 @@ public class SVGExporter {
 			for (String line : glazeBlock) out.println(line);
 			out.println("</g>");
 		}
+		if (embeddedMode) out.println("</g>");
 		if (tx != 0 || ty != 0) out.println("</g>");
 		if (embeddedMode) out.print("</svg>");
 		else out.println("</svg>");
