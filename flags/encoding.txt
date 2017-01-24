@@ -1,0 +1,1513 @@
+## E000-E07F	Generic Flags
+
+xx-generic-wht	E000; 2690; 1F3F3
+xx-generic-ylw	E001
+xx-generic-org	E002
+xx-generic-red	E003
+xx-generic-mag	E004
+xx-generic-vlt	E005
+xx-generic-ind	E006
+xx-generic-blu	E007
+xx-generic-trq	E008
+xx-generic-grn	E009
+xx-generic-brn	E00A
+xx-generic-tan	E00B
+xx-generic-lgy	E00C
+xx-generic-mgy	E00D
+xx-generic-dgy	E00E
+xx-generic-blk	E00F; 2691; 1F3F4
+
+xx-generic-wht-tpz	E010
+xx-generic-ylw-tpz	E011
+xx-generic-org-tpz	E012
+xx-generic-red-tpz	E013
+xx-generic-mag-tpz	E014
+xx-generic-vlt-tpz	E015
+xx-generic-ind-tpz	E016
+xx-generic-blu-tpz	E017
+xx-generic-trq-tpz	E018
+xx-generic-grn-tpz	E019
+xx-generic-brn-tpz	E01A
+xx-generic-tan-tpz	E01B
+xx-generic-lgy-tpz	E01C
+xx-generic-mgy-tpz	E01D
+xx-generic-dgy-tpz	E01E
+xx-generic-blk-tpz	E01F
+
+xx-generic-wht-tri	E020
+xx-generic-ylw-tri	E021
+xx-generic-org-tri	E022
+xx-generic-red-tri	E023
+xx-generic-mag-tri	E024
+xx-generic-vlt-tri	E025
+xx-generic-ind-tri	E026
+xx-generic-blu-tri	E027
+xx-generic-trq-tri	E028
+xx-generic-grn-tri	E029
+xx-generic-brn-tri	E02A
+xx-generic-tan-tri	E02B
+xx-generic-lgy-tri	E02C
+xx-generic-mgy-tri	E02D
+xx-generic-dgy-tri	E02E
+xx-generic-blk-tri	E02F
+
+xx-generic-wht-swt	E030
+xx-generic-ylw-swt	E031
+xx-generic-org-swt	E032
+xx-generic-red-swt	E033
+xx-generic-mag-swt	E034
+xx-generic-vlt-swt	E035
+xx-generic-ind-swt	E036
+xx-generic-blu-swt	E037
+xx-generic-trq-swt	E038
+xx-generic-grn-swt	E039
+xx-generic-brn-swt	E03A
+xx-generic-tan-swt	E03B
+xx-generic-lgy-swt	E03C
+xx-generic-mgy-swt	E03D
+xx-generic-dgy-swt	E03E
+xx-generic-blk-swt	E03F
+
+
+## E080-E0FF	Signal Flags
+
+xx-ics-ca	E080; 0040; 0060
+xx-ics-a	E081; 0041; 0061
+xx-ics-b	E082; 0042; 0062
+xx-ics-c	E083; 0043; 0063
+xx-ics-d	E084; 0044; 0064
+xx-ics-e	E085; 0045; 0065
+xx-ics-f	E086; 0046; 0066
+xx-ics-g	E087; 0047; 0067
+xx-ics-h	E088; 0048; 0068
+xx-ics-i	E089; 0049; 0069
+xx-ics-j	E08A; 004A; 006A
+xx-ics-k	E08B; 004B; 006B
+xx-ics-l	E08C; 004C; 006C
+xx-ics-m	E08D; 004D; 006D
+xx-ics-n	E08E; 004E; 006E
+xx-ics-o	E08F; 004F; 006F
+xx-ics-p	E090; 0050; 0070
+xx-ics-q	E091; 0051; 0071
+xx-ics-r	E092; 0052; 0072
+xx-ics-s	E093; 0053; 0073
+xx-ics-t	E094; 0054; 0074
+xx-ics-u	E095; 0055; 0075
+xx-ics-v	E096; 0056; 0076
+xx-ics-w	E097; 0057; 0077
+xx-ics-x	E098; 0058; 0078
+xx-ics-y	E099; 0059; 0079
+xx-ics-z	E09A; 005A; 007A
+xx-semaphore-jp-l	E09B; 005B; 007B
+xx-semaphore	E09C; 005C; 007C
+xx-semaphore-jp-r	E09D; 005D; 007D
+xx-semaphore-xx-1	E09E; 005E; 007E
+xx-semaphore-xx-2	E09F; 005F; 007F
+
+xx-ics-0	E0A0; 0030
+xx-ics-1	E0A1; 0031
+xx-ics-2	E0A2; 0032
+xx-ics-3	E0A3; 0033
+xx-ics-4	E0A4; 0034
+xx-ics-5	E0A5; 0035
+xx-ics-6	E0A6; 0036
+xx-ics-7	E0A7; 0037
+xx-ics-8	E0A8; 0038
+xx-ics-9	E0A9; 0039
+xx-ics-1r	E0AA; 003A
+xx-ics-2r	E0AB; 003B
+xx-ics-3r	E0AC; 003C
+xx-ics-4r	E0AD; 003D
+xx-ics-5r	E0AE; 003E
+xx-ics-6r	E0AF; 003F
+
+xx-nato-0	E0B0
+xx-nato-1	E0B1
+xx-nato-2	E0B2
+xx-nato-3	E0B3
+xx-nato-4	E0B4
+xx-nato-5	E0B5
+xx-nato-6	E0B6
+xx-nato-7	E0B7
+xx-nato-8	E0B8
+xx-nato-9	E0B9
+xx-esperanto-ch	E0BA; 0108; 0109
+xx-esperanto-gh	E0BB; 011C; 011D
+xx-esperanto-hh	E0BC; 0124; 0125
+xx-esperanto-jh	E0BD; 0134; 0135
+xx-esperanto-sh	E0BE; 015C; 015D
+xx-esperanto-uu	E0BF; 016C; 016D
+
+
+## E100-E3FF	ISO Country Code Flags
+
+aa	E100; 1F1E6+1F1E6
+ab	E101; 1F1E6+1F1E7
+ac; xx-ascensionisland	E102; 1F1E6+1F1E8
+ad	E103; 1F1E6+1F1E9
+ae	E104; 1F1E6+1F1EA
+af	E105; 1F1E6+1F1EB
+ag	E106; 1F1E6+1F1EC
+ah	E107; 1F1E6+1F1ED
+ai	E108; 1F1E6+1F1EE
+aj	E109; 1F1E6+1F1EF
+ak	E10A; 1F1E6+1F1F0
+al	E10B; 1F1E6+1F1F1
+am	E10C; 1F1E6+1F1F2
+an; xx-netherlandsantilles	E10D; 1F1E6+1F1F3
+ao	E10E; 1F1E6+1F1F4
+ap	E10F; 1F1E6+1F1F5
+aq	E110; 1F1E6+1F1F6
+ar	E111; 1F1E6+1F1F7
+as	E112; 1F1E6+1F1F8
+at	E113; 1F1E6+1F1F9
+au	E114; 1F1E6+1F1FA
+av	E115; 1F1E6+1F1FB
+aw	E116; 1F1E6+1F1FC
+ax	E117; 1F1E6+1F1FD
+ay	E118; 1F1E6+1F1FE
+az	E119; 1F1E6+1F1FF
+
+ba	E11A; 1F1E7+1F1E6
+bb	E11B; 1F1E7+1F1E7
+bc	E11C; 1F1E7+1F1E8
+bd	E11D; 1F1E7+1F1E9
+be	E11E; 1F1E7+1F1EA
+bf	E11F; 1F1E7+1F1EB
+bg	E120; 1F1E7+1F1EC
+bh	E121; 1F1E7+1F1ED
+bi	E122; 1F1E7+1F1EE
+bj	E123; 1F1E7+1F1EF
+bk	E124; 1F1E7+1F1F0
+bl	E125; 1F1E7+1F1F1
+bm	E126; 1F1E7+1F1F2
+bn	E127; 1F1E7+1F1F3
+bo	E128; 1F1E7+1F1F4
+bp	E129; 1F1E7+1F1F5
+bq	E12A; 1F1E7+1F1F6
+br	E12B; 1F1E7+1F1F7
+bs	E12C; 1F1E7+1F1F8
+bt	E12D; 1F1E7+1F1F9
+bu; xx-burma	E12E; 1F1E7+1F1FA
+bv	E12F; 1F1E7+1F1FB
+bw	E130; 1F1E7+1F1FC
+bx	E131; 1F1E7+1F1FD
+by	E132; 1F1E7+1F1FE
+bz	E133; 1F1E7+1F1FF
+
+ca	E134; 1F1E8+1F1E6
+cb	E135; 1F1E8+1F1E7
+cc	E136; 1F1E8+1F1E8
+cd	E137; 1F1E8+1F1E9
+ce	E138; 1F1E8+1F1EA
+cf	E139; 1F1E8+1F1EB
+cg	E13A; 1F1E8+1F1EC
+ch	E13B; 1F1E8+1F1ED
+ci	E13C; 1F1E8+1F1EE
+cj	E13D; 1F1E8+1F1EF
+ck	E13E; 1F1E8+1F1F0
+cl	E13F; 1F1E8+1F1F1
+cm	E140; 1F1E8+1F1F2
+cn	E141; 1F1E8+1F1F3
+co	E142; 1F1E8+1F1F4
+cp; xx-clippertonisland	E143; 1F1E8+1F1F5
+cq	E144; 1F1E8+1F1F6
+cr	E145; 1F1E8+1F1F7
+cs; xx-serbiaandmontenegro	E146; 1F1E8+1F1F8
+ct	E147; 1F1E8+1F1F9
+cu	E148; 1F1E8+1F1FA
+cv	E149; 1F1E8+1F1FB
+cw	E14A; 1F1E8+1F1FC
+cx	E14B; 1F1E8+1F1FD
+cy	E14C; 1F1E8+1F1FE
+cz	E14D; 1F1E8+1F1FF
+
+da	E14E; 1F1E9+1F1E6
+db	E14F; 1F1E9+1F1E7
+dc	E150; 1F1E9+1F1E8
+dd	E151; 1F1E9+1F1E9
+de	E152; 1F1E9+1F1EA
+df	E153; 1F1E9+1F1EB
+dg; xx-diegogarcia	E154; 1F1E9+1F1EC
+dh	E155; 1F1E9+1F1ED
+di	E156; 1F1E9+1F1EE
+dj	E157; 1F1E9+1F1EF
+dk	E158; 1F1E9+1F1F0
+dl	E159; 1F1E9+1F1F1
+dm	E15A; 1F1E9+1F1F2
+dn	E15B; 1F1E9+1F1F3
+do	E15C; 1F1E9+1F1F4
+dp	E15D; 1F1E9+1F1F5
+dq	E15E; 1F1E9+1F1F6
+dr	E15F; 1F1E9+1F1F7
+ds	E160; 1F1E9+1F1F8
+dt	E161; 1F1E9+1F1F9
+du	E162; 1F1E9+1F1FA
+dv	E163; 1F1E9+1F1FB
+dw	E164; 1F1E9+1F1FC
+dx	E165; 1F1E9+1F1FD
+dy	E166; 1F1E9+1F1FE
+dz	E167; 1F1E9+1F1FF
+
+ea; xx-ceutaandmelilla	E168; 1F1EA+1F1E6
+eb	E169; 1F1EA+1F1E7
+ec	E16A; 1F1EA+1F1E8
+ed	E16B; 1F1EA+1F1E9
+ee	E16C; 1F1EA+1F1EA
+ef	E16D; 1F1EA+1F1EB
+eg	E16E; 1F1EA+1F1EC
+eh	E16F; 1F1EA+1F1ED
+ei	E170; 1F1EA+1F1EE
+ej	E171; 1F1EA+1F1EF
+ek	E172; 1F1EA+1F1F0
+el	E173; 1F1EA+1F1F1
+em	E174; 1F1EA+1F1F2
+en	E175; 1F1EA+1F1F3
+eo	E176; 1F1EA+1F1F4
+ep	E177; 1F1EA+1F1F5
+eq	E178; 1F1EA+1F1F6
+er	E179; 1F1EA+1F1F7
+es	E17A; 1F1EA+1F1F8
+et	E17B; 1F1EA+1F1F9
+eu; xx-europeanunion	E17C; 1F1EA+1F1FA
+ev	E17D; 1F1EA+1F1FB
+ew	E17E; 1F1EA+1F1FC
+ex	E17F; 1F1EA+1F1FD
+ey	E180; 1F1EA+1F1FE
+ez; xx-eurozone	E181; 1F1EA+1F1FF
+
+fa	E182; 1F1EB+1F1E6
+fb	E183; 1F1EB+1F1E7
+fc	E184; 1F1EB+1F1E8
+fd	E185; 1F1EB+1F1E9
+fe	E186; 1F1EB+1F1EA
+ff	E187; 1F1EB+1F1EB
+fg	E188; 1F1EB+1F1EC
+fh	E189; 1F1EB+1F1ED
+fi	E18A; 1F1EB+1F1EE
+fj	E18B; 1F1EB+1F1EF
+fk	E18C; 1F1EB+1F1F0
+fl	E18D; 1F1EB+1F1F1
+fm	E18E; 1F1EB+1F1F2
+fn	E18F; 1F1EB+1F1F3
+fo	E190; 1F1EB+1F1F4
+fp	E191; 1F1EB+1F1F5
+fq	E192; 1F1EB+1F1F6
+fr	E193; 1F1EB+1F1F7
+fs	E194; 1F1EB+1F1F8
+ft	E195; 1F1EB+1F1F9
+fu	E196; 1F1EB+1F1FA
+fv	E197; 1F1EB+1F1FB
+fw	E198; 1F1EB+1F1FC
+fx; xx-francemetropolitan	E199; 1F1EB+1F1FD
+fy	E19A; 1F1EB+1F1FE
+fz	E19B; 1F1EB+1F1FF
+
+ga	E19C; 1F1EC+1F1E6
+gb	E19D; 1F1EC+1F1E7
+gc	E19E; 1F1EC+1F1E8
+gd	E19F; 1F1EC+1F1E9
+ge	E1A0; 1F1EC+1F1EA
+gf	E1A1; 1F1EC+1F1EB
+gg	E1A2; 1F1EC+1F1EC
+gh	E1A3; 1F1EC+1F1ED
+gi	E1A4; 1F1EC+1F1EE
+gj	E1A5; 1F1EC+1F1EF
+gk	E1A6; 1F1EC+1F1F0
+gl	E1A7; 1F1EC+1F1F1
+gm	E1A8; 1F1EC+1F1F2
+gn	E1A9; 1F1EC+1F1F3
+go	E1AA; 1F1EC+1F1F4
+gp	E1AB; 1F1EC+1F1F5
+gq	E1AC; 1F1EC+1F1F6
+gr	E1AD; 1F1EC+1F1F7
+gs	E1AE; 1F1EC+1F1F8
+gt	E1AF; 1F1EC+1F1F9
+gu	E1B0; 1F1EC+1F1FA
+gv	E1B1; 1F1EC+1F1FB
+gw	E1B2; 1F1EC+1F1FC
+gx	E1B3; 1F1EC+1F1FD
+gy	E1B4; 1F1EC+1F1FE
+gz	E1B5; 1F1EC+1F1FF
+
+ha	E1B6; 1F1ED+1F1E6
+hb	E1B7; 1F1ED+1F1E7
+hc	E1B8; 1F1ED+1F1E8
+hd	E1B9; 1F1ED+1F1E9
+he	E1BA; 1F1ED+1F1EA
+hf	E1BB; 1F1ED+1F1EB
+hg	E1BC; 1F1ED+1F1EC
+hh	E1BD; 1F1ED+1F1ED
+hi	E1BE; 1F1ED+1F1EE
+hj	E1BF; 1F1ED+1F1EF
+hk	E1C0; 1F1ED+1F1F0
+hl	E1C1; 1F1ED+1F1F1
+hm	E1C2; 1F1ED+1F1F2
+hn	E1C3; 1F1ED+1F1F3
+ho	E1C4; 1F1ED+1F1F4
+hp	E1C5; 1F1ED+1F1F5
+hq	E1C6; 1F1ED+1F1F6
+hr	E1C7; 1F1ED+1F1F7
+hs	E1C8; 1F1ED+1F1F8
+ht	E1C9; 1F1ED+1F1F9
+hu	E1CA; 1F1ED+1F1FA
+hv	E1CB; 1F1ED+1F1FB
+hw	E1CC; 1F1ED+1F1FC
+hx	E1CD; 1F1ED+1F1FD
+hy	E1CE; 1F1ED+1F1FE
+hz	E1CF; 1F1ED+1F1FF
+
+ia	E1D0; 1F1EE+1F1E6
+ib	E1D1; 1F1EE+1F1E7
+ic; xx-canaryislands	E1D2; 1F1EE+1F1E8
+id	E1D3; 1F1EE+1F1E9
+ie	E1D4; 1F1EE+1F1EA
+if	E1D5; 1F1EE+1F1EB
+ig	E1D6; 1F1EE+1F1EC
+ih	E1D7; 1F1EE+1F1ED
+ii	E1D8; 1F1EE+1F1EE
+ij	E1D9; 1F1EE+1F1EF
+ik	E1DA; 1F1EE+1F1F0
+il	E1DB; 1F1EE+1F1F1
+im	E1DC; 1F1EE+1F1F2
+in	E1DD; 1F1EE+1F1F3
+io	E1DE; 1F1EE+1F1F4
+ip	E1DF; 1F1EE+1F1F5
+iq	E1E0; 1F1EE+1F1F6
+ir	E1E1; 1F1EE+1F1F7
+is	E1E2; 1F1EE+1F1F8
+it	E1E3; 1F1EE+1F1F9
+iu	E1E4; 1F1EE+1F1FA
+iv	E1E5; 1F1EE+1F1FB
+iw	E1E6; 1F1EE+1F1FC
+ix	E1E7; 1F1EE+1F1FD
+iy	E1E8; 1F1EE+1F1FE
+iz	E1E9; 1F1EE+1F1FF
+
+ja	E1EA; 1F1EF+1F1E6
+jb	E1EB; 1F1EF+1F1E7
+jc	E1EC; 1F1EF+1F1E8
+jd	E1ED; 1F1EF+1F1E9
+je	E1EE; 1F1EF+1F1EA
+jf	E1EF; 1F1EF+1F1EB
+jg	E1F0; 1F1EF+1F1EC
+jh	E1F1; 1F1EF+1F1ED
+ji	E1F2; 1F1EF+1F1EE
+jj	E1F3; 1F1EF+1F1EF
+jk	E1F4; 1F1EF+1F1F0
+jl	E1F5; 1F1EF+1F1F1
+jm	E1F6; 1F1EF+1F1F2
+jn	E1F7; 1F1EF+1F1F3
+jo	E1F8; 1F1EF+1F1F4
+jp	E1F9; 1F1EF+1F1F5
+jq	E1FA; 1F1EF+1F1F6
+jr	E1FB; 1F1EF+1F1F7
+js	E1FC; 1F1EF+1F1F8
+jt	E1FD; 1F1EF+1F1F9
+ju	E1FE; 1F1EF+1F1FA
+jv	E1FF; 1F1EF+1F1FB
+jw	E200; 1F1EF+1F1FC
+jx	E201; 1F1EF+1F1FD
+jy	E202; 1F1EF+1F1FE
+jz	E203; 1F1EF+1F1FF
+
+ka	E204; 1F1F0+1F1E6
+kb	E205; 1F1F0+1F1E7
+kc	E206; 1F1F0+1F1E8
+kd	E207; 1F1F0+1F1E9
+ke	E208; 1F1F0+1F1EA
+kf	E209; 1F1F0+1F1EB
+kg	E20A; 1F1F0+1F1EC
+kh	E20B; 1F1F0+1F1ED
+ki	E20C; 1F1F0+1F1EE
+kj	E20D; 1F1F0+1F1EF
+kk	E20E; 1F1F0+1F1F0
+kl	E20F; 1F1F0+1F1F1
+km	E210; 1F1F0+1F1F2
+kn	E211; 1F1F0+1F1F3
+ko	E212; 1F1F0+1F1F4
+kp	E213; 1F1F0+1F1F5
+kq	E214; 1F1F0+1F1F6
+kr	E215; 1F1F0+1F1F7
+ks	E216; 1F1F0+1F1F8
+kt	E217; 1F1F0+1F1F9
+ku	E218; 1F1F0+1F1FA
+kv	E219; 1F1F0+1F1FB
+kw	E21A; 1F1F0+1F1FC
+kx	E21B; 1F1F0+1F1FD
+ky	E21C; 1F1F0+1F1FE
+kz	E21D; 1F1F0+1F1FF
+
+la	E21E; 1F1F1+1F1E6
+lb	E21F; 1F1F1+1F1E7
+lc	E220; 1F1F1+1F1E8
+ld	E221; 1F1F1+1F1E9
+le	E222; 1F1F1+1F1EA
+lf	E223; 1F1F1+1F1EB
+lg	E224; 1F1F1+1F1EC
+lh	E225; 1F1F1+1F1ED
+li	E226; 1F1F1+1F1EE
+lj	E227; 1F1F1+1F1EF
+lk	E228; 1F1F1+1F1F0
+ll	E229; 1F1F1+1F1F1
+lm	E22A; 1F1F1+1F1F2
+ln	E22B; 1F1F1+1F1F3
+lo	E22C; 1F1F1+1F1F4
+lp	E22D; 1F1F1+1F1F5
+lq	E22E; 1F1F1+1F1F6
+lr	E22F; 1F1F1+1F1F7
+ls	E230; 1F1F1+1F1F8
+lt	E231; 1F1F1+1F1F9
+lu	E232; 1F1F1+1F1FA
+lv	E233; 1F1F1+1F1FB
+lw	E234; 1F1F1+1F1FC
+lx	E235; 1F1F1+1F1FD
+ly	E236; 1F1F1+1F1FE
+lz	E237; 1F1F1+1F1FF
+
+ma	E238; 1F1F2+1F1E6
+mb	E239; 1F1F2+1F1E7
+mc	E23A; 1F1F2+1F1E8
+md	E23B; 1F1F2+1F1E9
+me	E23C; 1F1F2+1F1EA
+mf	E23D; 1F1F2+1F1EB
+mg	E23E; 1F1F2+1F1EC
+mh	E23F; 1F1F2+1F1ED
+mi	E240; 1F1F2+1F1EE
+mj	E241; 1F1F2+1F1EF
+mk	E242; 1F1F2+1F1F0
+ml	E243; 1F1F2+1F1F1
+mm	E244; 1F1F2+1F1F2
+mn	E245; 1F1F2+1F1F3
+mo	E246; 1F1F2+1F1F4
+mp	E247; 1F1F2+1F1F5
+mq	E248; 1F1F2+1F1F6
+mr	E249; 1F1F2+1F1F7
+ms	E24A; 1F1F2+1F1F8
+mt	E24B; 1F1F2+1F1F9
+mu	E24C; 1F1F2+1F1FA
+mv	E24D; 1F1F2+1F1FB
+mw	E24E; 1F1F2+1F1FC
+mx	E24F; 1F1F2+1F1FD
+my	E250; 1F1F2+1F1FE
+mz	E251; 1F1F2+1F1FF
+
+na	E252; 1F1F3+1F1E6
+nb	E253; 1F1F3+1F1E7
+nc	E254; 1F1F3+1F1E8
+nd	E255; 1F1F3+1F1E9
+ne	E256; 1F1F3+1F1EA
+nf	E257; 1F1F3+1F1EB
+ng	E258; 1F1F3+1F1EC
+nh	E259; 1F1F3+1F1ED
+ni	E25A; 1F1F3+1F1EE
+nj	E25B; 1F1F3+1F1EF
+nk	E25C; 1F1F3+1F1F0
+nl	E25D; 1F1F3+1F1F1
+nm	E25E; 1F1F3+1F1F2
+nn	E25F; 1F1F3+1F1F3
+no	E260; 1F1F3+1F1F4
+np	E261; 1F1F3+1F1F5
+nq	E262; 1F1F3+1F1F6
+nr	E263; 1F1F3+1F1F7
+ns	E264; 1F1F3+1F1F8
+nt; xx-neutralzone	E265; 1F1F3+1F1F9
+nu	E266; 1F1F3+1F1FA
+nv	E267; 1F1F3+1F1FB
+nw	E268; 1F1F3+1F1FC
+nx	E269; 1F1F3+1F1FD
+ny	E26A; 1F1F3+1F1FE
+nz	E26B; 1F1F3+1F1FF
+
+oa	E26C; 1F1F4+1F1E6
+ob	E26D; 1F1F4+1F1E7
+oc	E26E; 1F1F4+1F1E8
+od	E26F; 1F1F4+1F1E9
+oe	E270; 1F1F4+1F1EA
+of	E271; 1F1F4+1F1EB
+og	E272; 1F1F4+1F1EC
+oh	E273; 1F1F4+1F1ED
+oi	E274; 1F1F4+1F1EE
+oj	E275; 1F1F4+1F1EF
+ok	E276; 1F1F4+1F1F0
+ol	E277; 1F1F4+1F1F1
+om	E278; 1F1F4+1F1F2
+on	E279; 1F1F4+1F1F3
+oo	E27A; 1F1F4+1F1F4
+op	E27B; 1F1F4+1F1F5
+oq	E27C; 1F1F4+1F1F6
+or	E27D; 1F1F4+1F1F7
+os	E27E; 1F1F4+1F1F8
+ot	E27F; 1F1F4+1F1F9
+ou	E280; 1F1F4+1F1FA
+ov	E281; 1F1F4+1F1FB
+ow	E282; 1F1F4+1F1FC
+ox	E283; 1F1F4+1F1FD
+oy	E284; 1F1F4+1F1FE
+oz	E285; 1F1F4+1F1FF
+
+pa	E286; 1F1F5+1F1E6
+pb	E287; 1F1F5+1F1E7
+pc	E288; 1F1F5+1F1E8
+pd	E289; 1F1F5+1F1E9
+pe	E28A; 1F1F5+1F1EA
+pf	E28B; 1F1F5+1F1EB
+pg	E28C; 1F1F5+1F1EC
+ph	E28D; 1F1F5+1F1ED
+pi	E28E; 1F1F5+1F1EE
+pj	E28F; 1F1F5+1F1EF
+pk	E290; 1F1F5+1F1F0
+pl	E291; 1F1F5+1F1F1
+pm	E292; 1F1F5+1F1F2
+pn	E293; 1F1F5+1F1F3
+po	E294; 1F1F5+1F1F4
+pp	E295; 1F1F5+1F1F5
+pq	E296; 1F1F5+1F1F6
+pr	E297; 1F1F5+1F1F7
+ps	E298; 1F1F5+1F1F8
+pt	E299; 1F1F5+1F1F9
+pu	E29A; 1F1F5+1F1FA
+pv	E29B; 1F1F5+1F1FB
+pw	E29C; 1F1F5+1F1FC
+px	E29D; 1F1F5+1F1FD
+py	E29E; 1F1F5+1F1FE
+pz	E29F; 1F1F5+1F1FF
+
+qa	E2A0; 1F1F6+1F1E6
+qb	E2A1; 1F1F6+1F1E7
+qc	E2A2; 1F1F6+1F1E8
+qd	E2A3; 1F1F6+1F1E9
+qe	E2A4; 1F1F6+1F1EA
+qf	E2A5; 1F1F6+1F1EB
+qg	E2A6; 1F1F6+1F1EC
+qh	E2A7; 1F1F6+1F1ED
+qi	E2A8; 1F1F6+1F1EE
+qj	E2A9; 1F1F6+1F1EF
+qk	E2AA; 1F1F6+1F1F0
+ql	E2AB; 1F1F6+1F1F1
+qm	E2AC; 1F1F6+1F1F2
+qn	E2AD; 1F1F6+1F1F3
+qo	E2AE; 1F1F6+1F1F4
+qp	E2AF; 1F1F6+1F1F5
+qq	E2B0; 1F1F6+1F1F6
+qr	E2B1; 1F1F6+1F1F7
+qs	E2B2; 1F1F6+1F1F8
+qt	E2B3; 1F1F6+1F1F9
+qu	E2B4; 1F1F6+1F1FA
+qv	E2B5; 1F1F6+1F1FB
+qw	E2B6; 1F1F6+1F1FC
+qx	E2B7; 1F1F6+1F1FD
+qy	E2B8; 1F1F6+1F1FE
+qz	E2B9; 1F1F6+1F1FF
+
+ra	E2BA; 1F1F7+1F1E6
+rb	E2BB; 1F1F7+1F1E7
+rc	E2BC; 1F1F7+1F1E8
+rd	E2BD; 1F1F7+1F1E9
+re	E2BE; 1F1F7+1F1EA
+rf	E2BF; 1F1F7+1F1EB
+rg	E2C0; 1F1F7+1F1EC
+rh	E2C1; 1F1F7+1F1ED
+ri	E2C2; 1F1F7+1F1EE
+rj	E2C3; 1F1F7+1F1EF
+rk	E2C4; 1F1F7+1F1F0
+rl	E2C5; 1F1F7+1F1F1
+rm	E2C6; 1F1F7+1F1F2
+rn	E2C7; 1F1F7+1F1F3
+ro	E2C8; 1F1F7+1F1F4
+rp	E2C9; 1F1F7+1F1F5
+rq	E2CA; 1F1F7+1F1F6
+rr	E2CB; 1F1F7+1F1F7
+rs	E2CC; 1F1F7+1F1F8
+rt	E2CD; 1F1F7+1F1F9
+ru	E2CE; 1F1F7+1F1FA
+rv	E2CF; 1F1F7+1F1FB
+rw	E2D0; 1F1F7+1F1FC
+rx	E2D1; 1F1F7+1F1FD
+ry	E2D2; 1F1F7+1F1FE
+rz	E2D3; 1F1F7+1F1FF
+
+sa	E2D4; 1F1F8+1F1E6
+sb	E2D5; 1F1F8+1F1E7
+sc	E2D6; 1F1F8+1F1E8
+sd	E2D7; 1F1F8+1F1E9
+se	E2D8; 1F1F8+1F1EA
+sf; xx-suomifinland	E2D9; 1F1F8+1F1EB
+sg	E2DA; 1F1F8+1F1EC
+sh	E2DB; 1F1F8+1F1ED
+si	E2DC; 1F1F8+1F1EE
+sj	E2DD; 1F1F8+1F1EF
+sk	E2DE; 1F1F8+1F1F0
+sl	E2DF; 1F1F8+1F1F1
+sm	E2E0; 1F1F8+1F1F2
+sn	E2E1; 1F1F8+1F1F3
+so	E2E2; 1F1F8+1F1F4
+sp	E2E3; 1F1F8+1F1F5
+sq	E2E4; 1F1F8+1F1F6
+sr	E2E5; 1F1F8+1F1F7
+ss	E2E6; 1F1F8+1F1F8
+st	E2E7; 1F1F8+1F1F9
+su; xx-ussr; xx-sovietunion	E2E8; 1F1F8+1F1FA
+sv	E2E9; 1F1F8+1F1FB
+sw	E2EA; 1F1F8+1F1FC
+sx	E2EB; 1F1F8+1F1FD
+sy	E2EC; 1F1F8+1F1FE
+sz	E2ED; 1F1F8+1F1FF
+
+ta; xx-tristandacunha	E2EE; 1F1F9+1F1E6
+tb	E2EF; 1F1F9+1F1E7
+tc	E2F0; 1F1F9+1F1E8
+td	E2F1; 1F1F9+1F1E9
+te	E2F2; 1F1F9+1F1EA
+tf	E2F3; 1F1F9+1F1EB
+tg	E2F4; 1F1F9+1F1EC
+th	E2F5; 1F1F9+1F1ED
+ti	E2F6; 1F1F9+1F1EE
+tj	E2F7; 1F1F9+1F1EF
+tk	E2F8; 1F1F9+1F1F0
+tl	E2F9; 1F1F9+1F1F1
+tm	E2FA; 1F1F9+1F1F2
+tn	E2FB; 1F1F9+1F1F3
+to	E2FC; 1F1F9+1F1F4
+tp; xx-easttimor; xx-portuguesetimor	E2FD; 1F1F9+1F1F5
+tq	E2FE; 1F1F9+1F1F6
+tr	E2FF; 1F1F9+1F1F7
+ts	E300; 1F1F9+1F1F8
+tt	E301; 1F1F9+1F1F9
+tu	E302; 1F1F9+1F1FA
+tv	E303; 1F1F9+1F1FB
+tw	E304; 1F1F9+1F1FC
+tx	E305; 1F1F9+1F1FD
+ty	E306; 1F1F9+1F1FE
+tz	E307; 1F1F9+1F1FF
+
+ua	E308; 1F1FA+1F1E6
+ub	E309; 1F1FA+1F1E7
+uc	E30A; 1F1FA+1F1E8
+ud	E30B; 1F1FA+1F1E9
+ue	E30C; 1F1FA+1F1EA
+uf	E30D; 1F1FA+1F1EB
+ug	E30E; 1F1FA+1F1EC
+uh	E30F; 1F1FA+1F1ED
+ui	E310; 1F1FA+1F1EE
+uj	E311; 1F1FA+1F1EF
+uk	E312; 1F1FA+1F1F0
+ul	E313; 1F1FA+1F1F1
+um	E314; 1F1FA+1F1F2
+un; xx-unitednations	E315; 1F1FA+1F1F3
+uo	E316; 1F1FA+1F1F4
+up	E317; 1F1FA+1F1F5
+uq	E318; 1F1FA+1F1F6
+ur	E319; 1F1FA+1F1F7
+us	E31A; 1F1FA+1F1F8
+ut	E31B; 1F1FA+1F1F9
+uu	E31C; 1F1FA+1F1FA
+uv	E31D; 1F1FA+1F1FB
+uw	E31E; 1F1FA+1F1FC
+ux	E31F; 1F1FA+1F1FD
+uy	E320; 1F1FA+1F1FE
+uz	E321; 1F1FA+1F1FF
+
+va	E322; 1F1FB+1F1E6
+vb	E323; 1F1FB+1F1E7
+vc	E324; 1F1FB+1F1E8
+vd	E325; 1F1FB+1F1E9
+ve	E326; 1F1FB+1F1EA
+vf	E327; 1F1FB+1F1EB
+vg	E328; 1F1FB+1F1EC
+vh	E329; 1F1FB+1F1ED
+vi	E32A; 1F1FB+1F1EE
+vj	E32B; 1F1FB+1F1EF
+vk	E32C; 1F1FB+1F1F0
+vl	E32D; 1F1FB+1F1F1
+vm	E32E; 1F1FB+1F1F2
+vn	E32F; 1F1FB+1F1F3
+vo	E330; 1F1FB+1F1F4
+vp	E331; 1F1FB+1F1F5
+vq	E332; 1F1FB+1F1F6
+vr	E333; 1F1FB+1F1F7
+vs	E334; 1F1FB+1F1F8
+vt	E335; 1F1FB+1F1F9
+vu	E336; 1F1FB+1F1FA
+vv	E337; 1F1FB+1F1FB
+vw	E338; 1F1FB+1F1FC
+vx	E339; 1F1FB+1F1FD
+vy	E33A; 1F1FB+1F1FE
+vz	E33B; 1F1FB+1F1FF
+
+wa	E33C; 1F1FC+1F1E6
+wb	E33D; 1F1FC+1F1E7
+wc	E33E; 1F1FC+1F1E8
+wd	E33F; 1F1FC+1F1E9
+we	E340; 1F1FC+1F1EA
+wf	E341; 1F1FC+1F1EB
+wg	E342; 1F1FC+1F1EC
+wh	E343; 1F1FC+1F1ED
+wi	E344; 1F1FC+1F1EE
+wj	E345; 1F1FC+1F1EF
+wk	E346; 1F1FC+1F1F0
+wl	E347; 1F1FC+1F1F1
+wm	E348; 1F1FC+1F1F2
+wn	E349; 1F1FC+1F1F3
+wo	E34A; 1F1FC+1F1F4
+wp	E34B; 1F1FC+1F1F5
+wq	E34C; 1F1FC+1F1F6
+wr	E34D; 1F1FC+1F1F7
+ws	E34E; 1F1FC+1F1F8
+wt	E34F; 1F1FC+1F1F9
+wu	E350; 1F1FC+1F1FA
+wv	E351; 1F1FC+1F1FB
+ww	E352; 1F1FC+1F1FC
+wx	E353; 1F1FC+1F1FD
+wy	E354; 1F1FC+1F1FE
+wz	E355; 1F1FC+1F1FF
+
+xa	E356; 1F1FD+1F1E6
+xb	E357; 1F1FD+1F1E7
+xc	E358; 1F1FD+1F1E8
+xd	E359; 1F1FD+1F1E9
+xe	E35A; 1F1FD+1F1EA
+xf	E35B; 1F1FD+1F1EB
+xg	E35C; 1F1FD+1F1EC
+xh	E35D; 1F1FD+1F1ED
+xi	E35E; 1F1FD+1F1EE
+xj	E35F; 1F1FD+1F1EF
+xk; xx-kosovo	E360; 1F1FD+1F1F0
+xl	E361; 1F1FD+1F1F1
+xm	E362; 1F1FD+1F1F2
+xn	E363; 1F1FD+1F1F3
+xo	E364; 1F1FD+1F1F4
+xp	E365; 1F1FD+1F1F5
+xq	E366; 1F1FD+1F1F6
+xr	E367; 1F1FD+1F1F7
+xs	E368; 1F1FD+1F1F8
+xt	E369; 1F1FD+1F1F9
+xu	E36A; 1F1FD+1F1FA
+xv	E36B; 1F1FD+1F1FB
+xw	E36C; 1F1FD+1F1FC
+xx	E36D; 1F1FD+1F1FD
+xy	E36E; 1F1FD+1F1FE
+xz	E36F; 1F1FD+1F1FF
+
+ya	E370; 1F1FE+1F1E6
+yb	E371; 1F1FE+1F1E7
+yc	E372; 1F1FE+1F1E8
+yd	E373; 1F1FE+1F1E9
+ye	E374; 1F1FE+1F1EA
+yf	E375; 1F1FE+1F1EB
+yg	E376; 1F1FE+1F1EC
+yh	E377; 1F1FE+1F1ED
+yi	E378; 1F1FE+1F1EE
+yj	E379; 1F1FE+1F1EF
+yk	E37A; 1F1FE+1F1F0
+yl	E37B; 1F1FE+1F1F1
+ym	E37C; 1F1FE+1F1F2
+yn	E37D; 1F1FE+1F1F3
+yo	E37E; 1F1FE+1F1F4
+yp	E37F; 1F1FE+1F1F5
+yq	E380; 1F1FE+1F1F6
+yr	E381; 1F1FE+1F1F7
+ys	E382; 1F1FE+1F1F8
+yt	E383; 1F1FE+1F1F9
+yu; xx-yugoslavia	E384; 1F1FE+1F1FA
+yv	E385; 1F1FE+1F1FB
+yw	E386; 1F1FE+1F1FC
+yx	E387; 1F1FE+1F1FD
+yy	E388; 1F1FE+1F1FE
+yz	E389; 1F1FE+1F1FF
+
+za	E38A; 1F1FF+1F1E6
+zb	E38B; 1F1FF+1F1E7
+zc	E38C; 1F1FF+1F1E8
+zd	E38D; 1F1FF+1F1E9
+ze	E38E; 1F1FF+1F1EA
+zf	E38F; 1F1FF+1F1EB
+zg	E390; 1F1FF+1F1EC
+zh	E391; 1F1FF+1F1ED
+zi	E392; 1F1FF+1F1EE
+zj	E393; 1F1FF+1F1EF
+zk	E394; 1F1FF+1F1F0
+zl	E395; 1F1FF+1F1F1
+zm	E396; 1F1FF+1F1F2
+zn	E397; 1F1FF+1F1F3
+zo	E398; 1F1FF+1F1F4
+zp	E399; 1F1FF+1F1F5
+zq	E39A; 1F1FF+1F1F6
+zr; xx-zaire	E39B; 1F1FF+1F1F7
+zs	E39C; 1F1FF+1F1F8
+zt	E39D; 1F1FF+1F1F9
+zu	E39E; 1F1FF+1F1FA
+zv	E39F; 1F1FF+1F1FB
+zw	E3A0; 1F1FF+1F1FC
+zx	E3A1; 1F1FF+1F1FD
+zy	E3A2; 1F1FF+1F1FE
+zz	E3A3; 1F1FF+1F1FF
+
+
+## E400-E4FF	North American Flags
+
+us-dc; xx-districtofcolumbia	E400
+us-de; xx-delaware	E401
+us-pa; xx-pennsylvania	E402
+us-nj; xx-newjersey	E403
+us-ga; xx-georgia	E404
+us-ct; xx-connecticut	E405
+us-ma; xx-massachusetts	E406
+us-md; xx-maryland	E407
+us-sc; xx-southcarolina	E408
+us-nh; xx-newhampshire	E409
+us-va; xx-virginia	E40A
+us-ny; xx-newyork	E40B
+us-nc; xx-northcarolina	E40C
+us-ri; xx-rhodeisland	E40D
+us-vt; xx-vermont	E40E
+us-ky; xx-kentucky	E40F
+us-tn; xx-tennessee	E410
+us-oh; xx-ohio	E411
+us-la; xx-louisiana	E412
+us-in; xx-indiana	E413
+us-ms; xx-mississippi	E414
+us-il; xx-illinois	E415
+us-al; xx-alabama	E416
+us-me; xx-maine	E417
+us-mo; xx-missouri	E418
+us-ar; xx-arkansas	E419
+us-mi; xx-michigan	E41A
+us-fl; xx-florida	E41B
+us-tx; xx-texas	E41C
+us-ia; xx-iowa	E41D
+us-wi; xx-wisconsin	E41E
+us-ca; xx-california	E41F
+us-mn; xx-minnesota	E420
+us-or; xx-oregon	E421
+us-ks; xx-kansas	E422
+us-wv; xx-westvirginia	E423
+us-nv; xx-nevada	E424
+us-ne; xx-nebraska	E425
+us-co; xx-colorado	E426
+us-nd; xx-northdakota	E427
+us-sd; xx-southdakota	E428
+us-mt; xx-montana	E429
+us-wa; xx-washington	E42A
+us-id; xx-idaho	E42B
+us-wy; xx-wyoming	E42C
+us-ut; xx-utah	E42D
+us-ok; xx-oklahoma	E42E
+us-nm; xx-newmexico	E42F
+us-az; xx-arizona	E430
+us-ak; xx-alaska	E431
+us-hi; xx-hawaii	E432
+xx-northtakoma	E43F
+
+ca-on; xx-ontario	E440
+ca-qc; xx-quebec	E441
+ca-ns; xx-novascotia	E442
+ca-nb; xx-newbrunswick	E443
+ca-mb; xx-manitoba	E444
+ca-nt; xx-northwestterritories	E445
+ca-bc; xx-britishcolumbia	E446
+ca-pe; xx-princeedwardisland	E447
+ca-yt; xx-yukon	E448
+ca-sk; xx-saskatchewan	E449
+ca-ab; xx-alberta	E44A
+ca-nl; xx-newfoundlandandlabrador	E44B
+ca-nu; xx-nunavut	E44C
+
+mx-cmx; xx-ciudaddemexico	E480
+mx-mex; xx-mexico	E481
+mx-gua; xx-guanajuato	E482
+mx-oax; xx-oaxaca	E483
+mx-pue; xx-puebla	E484
+mx-mic; xx-michoacan	E485
+mx-slp; xx-sanluispotosi	E486
+mx-ver; xx-veracruz	E487
+mx-yuc; xx-yucatan	E488
+mx-jal; xx-jalisco	E489
+mx-zac; xx-zacatecas	E48A
+mx-que; xx-queretaro	E48B
+mx-son; xx-sonora	E48C
+mx-tab; xx-tabasco	E48D
+mx-tam; xx-tamaulipas	E48E
+mx-nle; xx-nuevoleon	E48F
+mx-coa; xx-coahuila	E490
+mx-dur; xx-durango	E491
+mx-chh; xx-chihuahua	E492
+mx-chp; xx-chiapas	E493
+mx-sin; xx-sinaloa	E494
+mx-gro; xx-guerrero	E495
+mx-tla; xx-tlaxcala	E496
+mx-col; xx-colima	E497
+mx-agu; xx-aguascalientes	E498
+mx-cam; xx-campeche	E499
+mx-hid; xx-hidalgo	E49A
+mx-mor; xx-morelos	E49B
+mx-nay; xx-nayarit	E49C
+mx-bcn; xx-bajacalifornia	E49D
+mx-roo; xx-quintanaroo	E49E
+mx-bcs; xx-bajacaliforniasur	E49F
+
+xx-na-us	E4C0
+xx-na-ca	E4C1
+xx-na-mx	E4C2
+xx-na-cherokee	E4C3
+xx-na-chickasaw	E4C4
+xx-na-choctaw	E4C5
+xx-na-easternshawnee	E4C6
+xx-na-hopi	E4C7
+xx-na-iroquois	E4C8
+xx-na-lakota	E4C9
+xx-na-miccosukee	E4CA
+xx-na-navajo	E4CB
+xx-na-northerncheyenne	E4CC
+xx-na-quapaw	E4CD
+xx-na-shawnee	E4CE
+xx-na-spokane	E4CF
+
+
+## E500-E5FF	British Flags
+
+gb-ukm; uk-ukm; xx-unitedkingdom	E500
+gb-gbn; uk-gbn; xx-greatbritain	E501
+gb-eaw; uk-eaw; xx-englandandwales	E502
+gb-eng; uk-eng; xx-england	E503
+gb-wls; uk-wls; xx-wales	E504
+gb-sct; uk-sct; xx-scotland	E505
+gb-nir; uk-nir; xx-northernireland	E506
+xx-scotchirish	E50F
+
+gb-bkm; uk-bkm	E510
+gb-cam; uk-cam	E511
+gb-cma; uk-cma	E512
+gb-dby; uk-dby	E513
+gb-dev; uk-dev	E514
+gb-dor; uk-dor	E515
+gb-esx; uk-esx	E516
+gb-ess; uk-ess	E517
+gb-gls; uk-gls	E518
+gb-ham; uk-ham	E519
+gb-hrt; uk-hrt	E51A
+gb-ken; uk-ken	E51B
+gb-lan; uk-lan	E51C
+gb-lec; uk-lec	E51D
+gb-lin; uk-lin	E51E
+gb-nfk; uk-nfk	E51F
+gb-nyk; uk-nyk	E520
+gb-nth; uk-nth	E521
+gb-ntt; uk-ntt	E522
+gb-oxf; uk-oxf	E523
+gb-som; uk-som	E524
+gb-sts; uk-sts	E525
+gb-sfk; uk-sfk	E526
+gb-sry; uk-sry	E527
+gb-war; uk-war	E528
+gb-wsx; uk-wsx	E529
+gb-wor; uk-wor	E52A
+gb-lnd; uk-lnd	E52B
+gb-bdg; uk-bdg	E52C
+gb-bne; uk-bne	E52D
+gb-bex; uk-bex	E52E
+gb-ben; uk-ben	E52F
+gb-bry; uk-bry	E530
+gb-cmd; uk-cmd	E531
+gb-cry; uk-cry	E532
+gb-eal; uk-eal	E533
+gb-enf; uk-enf	E534
+gb-gre; uk-gre	E535
+gb-hck; uk-hck	E536
+gb-hmf; uk-hmf	E537
+gb-hry; uk-hry	E538
+gb-hrw; uk-hrw	E539
+gb-hav; uk-hav	E53A
+gb-hil; uk-hil	E53B
+gb-hns; uk-hns	E53C
+gb-isl; uk-isl	E53D
+gb-kec; uk-kec	E53E
+gb-ktt; uk-ktt	E53F
+gb-lbh; uk-lbh	E540
+gb-lew; uk-lew	E541
+gb-mrt; uk-mrt	E542
+gb-nwm; uk-nwm	E543
+gb-rdb; uk-rdb	E544
+gb-ric; uk-ric	E545
+gb-swk; uk-swk	E546
+gb-stn; uk-stn	E547
+gb-twh; uk-twh	E548
+gb-wft; uk-wft	E549
+gb-wnd; uk-wnd	E54A
+gb-wsm; uk-wsm	E54B
+gb-bns; uk-bns	E54C
+gb-bir; uk-bir	E54D
+gb-bol; uk-bol	E54E
+gb-brd; uk-brd	E54F
+gb-bur; uk-bur	E550
+gb-cld; uk-cld	E551
+gb-cov; uk-cov	E552
+gb-dnc; uk-dnc	E553
+gb-dud; uk-dud	E554
+gb-gat; uk-gat	E555
+gb-kir; uk-kir	E556
+gb-kwl; uk-kwl	E557
+gb-lds; uk-lds	E558
+gb-liv; uk-liv	E559
+gb-man; uk-man	E55A
+gb-net; uk-net	E55B
+gb-nty; uk-nty	E55C
+gb-old; uk-old	E55D
+gb-rch; uk-rch	E55E
+gb-rot; uk-rot	E55F
+gb-shn; uk-shn	E560
+gb-slf; uk-slf	E561
+gb-saw; uk-saw	E562
+gb-sft; uk-sft	E563
+gb-shf; uk-shf	E564
+gb-sol; uk-sol	E565
+gb-sty; uk-sty	E566
+gb-skp; uk-skp	E567
+gb-snd; uk-snd	E568
+gb-tam; uk-tam	E569
+gb-trf; uk-trf	E56A
+gb-wkf; uk-wkf	E56B
+gb-wll; uk-wll	E56C
+gb-wgn; uk-wgn	E56D
+gb-wrl; uk-wrl	E56E
+gb-wlv; uk-wlv	E56F
+gb-bas; uk-bas	E570
+gb-bdf; uk-bdf	E571
+gb-bbd; uk-bbd	E572
+gb-bpl; uk-bpl	E573
+gb-bmh; uk-bmh	E574
+gb-brc; uk-brc	E575
+gb-bnh; uk-bnh	E576
+gb-bst; uk-bst	E577
+gb-cbf; uk-cbf	E578
+gb-che; uk-che	E579
+gb-chw; uk-chw	E57A
+gb-con; uk-con	E57B
+gb-dal; uk-dal	E57C
+gb-der; uk-der	E57D
+gb-dur; uk-dur	E57E
+gb-ery; uk-ery	E57F
+gb-hal; uk-hal	E580
+gb-hpl; uk-hpl	E581
+gb-hef; uk-hef	E582
+gb-iow; uk-iow	E583
+gb-ios; uk-ios	E584
+gb-khl; uk-khl	E585
+gb-lce; uk-lce	E586
+gb-lut; uk-lut	E587
+gb-mdw; uk-mdw	E588
+gb-mdb; uk-mdb	E589
+gb-mik; uk-mik	E58A
+gb-nel; uk-nel	E58B
+gb-nln; uk-nln	E58C
+gb-nsm; uk-nsm	E58D
+gb-nbl; uk-nbl	E58E
+gb-ngm; uk-ngm	E58F
+gb-pte; uk-pte	E590
+gb-ply; uk-ply	E591
+gb-pol; uk-pol	E592
+gb-por; uk-por	E593
+gb-rdg; uk-rdg	E594
+gb-rcc; uk-rcc	E595
+gb-rut; uk-rut	E596
+gb-shr; uk-shr	E597
+gb-slg; uk-slg	E598
+gb-sgc; uk-sgc	E599
+gb-sth; uk-sth	E59A
+gb-sos; uk-sos	E59B
+gb-stt; uk-stt	E59C
+gb-ste; uk-ste	E59D
+gb-swd; uk-swd	E59E
+gb-tfw; uk-tfw	E59F
+gb-thr; uk-thr	E5A0
+gb-tob; uk-tob	E5A1
+gb-wrt; uk-wrt	E5A2
+gb-wbk; uk-wbk	E5A3
+gb-wil; uk-wil	E5A4
+gb-wnm; uk-wnm	E5A5
+gb-wok; uk-wok	E5A6
+gb-yor; uk-yor	E5A7
+
+gb-bgw; uk-bgw	E5B0
+gb-bge; uk-bge	E5B1
+gb-cay; uk-cay	E5B2
+gb-crf; uk-crf	E5B3
+gb-cmn; uk-cmn	E5B4
+gb-cgn; uk-cgn	E5B5
+gb-cwy; uk-cwy	E5B6
+gb-den; uk-den	E5B7
+gb-fln; uk-fln	E5B8
+gb-gwn; uk-gwn	E5B9
+gb-agy; uk-agy	E5BA
+gb-mty; uk-mty	E5BB
+gb-mon; uk-mon	E5BC
+gb-ntl; uk-ntl	E5BD
+gb-nwp; uk-nwp	E5BE
+gb-pem; uk-pem	E5BF
+gb-pow; uk-pow	E5C0
+gb-rct; uk-rct	E5C1
+gb-swa; uk-swa	E5C2
+gb-tof; uk-tof	E5C3
+gb-vgl; uk-vgl	E5C4
+gb-wrx; uk-wrx	E5C5
+
+gb-abe; uk-abe	E5D0
+gb-abd; uk-abd	E5D1
+gb-ans; uk-ans	E5D2
+gb-agb; uk-agb	E5D3
+gb-clk; uk-clk	E5D4
+gb-dgy; uk-dgy	E5D5
+gb-dnd; uk-dnd	E5D6
+gb-eay; uk-eay	E5D7
+gb-edu; uk-edu	E5D8
+gb-eln; uk-eln	E5D9
+gb-erw; uk-erw	E5DA
+gb-edh; uk-edh	E5DB
+gb-els; uk-els	E5DC
+gb-fal; uk-fal	E5DD
+gb-fif; uk-fif	E5DE
+gb-glg; uk-glg	E5DF
+gb-hld; uk-hld	E5E0
+gb-ivc; uk-ivc	E5E1
+gb-mln; uk-mln	E5E2
+gb-mry; uk-mry	E5E3
+gb-nay; uk-nay	E5E4
+gb-nlk; uk-nlk	E5E5
+gb-ork; uk-ork	E5E6
+gb-pkn; uk-pkn	E5E7
+gb-rfw; uk-rfw	E5E8
+gb-scb; uk-scb	E5E9
+gb-zet; uk-zet	E5EA
+gb-say; uk-say	E5EB
+gb-slk; uk-slk	E5EC
+gb-stg; uk-stg	E5ED
+gb-wdu; uk-wdu	E5EE
+gb-wln; uk-wln	E5EF
+
+gb-ann; uk-ann	E5F0
+gb-and; uk-and	E5F1
+gb-abc; uk-abc	E5F2
+gb-bfs; uk-bfs	E5F3
+gb-ccg; uk-ccg	E5F4
+gb-drs; uk-drs	E5F5
+gb-fmo; uk-fmo	E5F6
+gb-lbc; uk-lbc	E5F7
+gb-mea; uk-mea	E5F8
+gb-mul; uk-mul	E5F9
+gb-nmd; uk-nmd	E5FA
+
+
+## E600-E6FF	Scandinavian Flags
+
+no-01	E601
+no-02	E602
+no-03	E603
+no-04	E604
+no-05	E605
+no-06	E606
+no-07	E607
+no-08	E608
+no-09	E609
+no-10	E60A
+no-11	E60B
+no-12	E60C
+no-14	E60E
+no-15	E60F
+no-16	E610
+no-17	E611
+no-18	E612
+no-19	E613
+no-20	E614
+no-21	E615
+no-22	E616
+
+dk-015	E640
+dk-020	E641
+dk-025	E642
+dk-030	E643
+dk-035	E644
+dk-040; xx-bornholm	E645
+dk-042	E646
+dk-050	E647
+dk-055	E648
+dk-060	E649
+dk-065	E64A
+dk-070	E64B
+dk-076	E64C
+dk-080	E64D
+dk-101	E64E
+dk-147	E64F
+dk-81	E651
+dk-82	E652
+dk-83	E653
+dk-84	E654
+dk-85	E655
+xx-christiania	E67F
+
+se-ab	E681
+se-c	E683
+se-d	E684
+se-e	E685
+se-f	E686
+se-g	E687
+se-h	E688
+se-i	E689
+se-k	E68A
+se-m; xx-scania	E68C
+se-n	E68D
+se-o	E68E
+se-s	E691
+se-t	E692
+se-u	E693
+se-w	E694
+se-x	E695
+se-y	E696
+se-z	E697
+se-ac	E698
+se-bd	E699
+xx-fennoswede	E6BF
+
+fi-01	E6C1
+fi-02	E6C2
+fi-03	E6C3
+fi-04	E6C4
+fi-05	E6C5
+fi-06	E6C6
+fi-07	E6C7
+fi-08	E6C8
+fi-09	E6C9
+fi-10	E6CA
+fi-11	E6CB
+fi-12	E6CC
+fi-13	E6CD
+fi-14	E6CE
+fi-15	E6CF
+fi-16	E6D0
+fi-17	E6D1
+fi-18	E6D2
+fi-19	E6D3
+
+
+## E700-E7FF	Iberian Flags
+
+pt-01	E701
+pt-02	E702
+pt-03	E703
+pt-04	E704
+pt-05	E705
+pt-06	E706
+pt-07	E707
+pt-08	E708
+pt-09	E709
+pt-10	E70A
+pt-11	E70B
+pt-12	E70C
+pt-13	E70D
+pt-14	E70E
+pt-15	E70F
+pt-16	E710
+pt-17	E711
+pt-18	E712
+pt-20	E714
+pt-30	E71E
+
+es-an	E740
+es-ar	E741
+es-as	E742
+es-cb	E743
+es-ce	E744
+es-cl	E745
+es-cm	E746
+es-cn	E747
+es-ct; xx-catalonia	E748
+es-ex	E749
+es-ga	E74A
+es-ib	E74B
+es-mc	E74C
+es-md	E74D
+es-ml	E74E
+es-nc	E74F
+es-pv	E750
+es-ri	E751
+es-vc	E752
+
+es-a	E780
+es-ab	E781
+es-al	E782
+es-av	E783
+es-b	E784
+es-ba	E785
+es-bi	E786
+es-bu	E787
+es-c	E788
+es-ca	E789
+es-cc	E78A
+es-co	E78B
+es-cr	E78C
+es-cs	E78D
+es-cu	E78E
+es-gc	E78F
+es-gi	E790
+es-gr	E791
+es-gu	E792
+es-h	E793
+es-hu	E794
+es-j	E795
+es-l	E796
+es-le	E797
+es-lo	E798
+es-lu	E799
+es-m	E79A
+es-ma	E79B
+es-mu	E79C
+es-na	E79D
+es-o	E79E
+es-or	E79F
+es-p	E7A0
+es-pm	E7A1
+es-po	E7A2
+es-s	E7A3
+es-sa	E7A4
+es-se	E7A5
+es-sg	E7A6
+es-so	E7A7
+es-ss	E7A8
+es-t	E7A9
+es-te	E7AA
+es-tf	E7AB
+es-to	E7AC
+es-v	E7AD
+es-va	E7AE
+es-vi	E7AF
+es-z	E7B0
+es-za	E7B1
+
+
+## F300-F3FF	Miscellaneous Subdivision Flags
+
+#   First:         Second/1:      Second/2:
+#   a   (18) - 0   ab  (19) - 0   abc  (29) - 0/8
+#   b   (22) - 1   cd  (18) - 1   def  (33) - 1/9
+#   c   (21) - 2   e   (16) - 2   ghij (38) - 2/A
+#   def (22) - 3   f   ( 9) - 3   klm  (38) - 3/B
+#   g   (19) - 4   g   (14) - 4   nop  (32) - 4/C
+#   hij (21) - 5   hij (24) - 5   qrs  (35) - 5/D
+#   kl  (22) - 6   kl  (21) - 6   tuv  (32) - 6/E
+#   m   (23) - 7   m   (17) - 7   wxyz (34) - 7/F
+#   n   (12) - 8   n   (13) - 8
+#   op  (15) - 9   op  (19) - 9   Second/3:
+#   qr  ( 7) - A   qr  (21) - A   abcde (53) - 0/6/C
+#   s   (22) - B   s   (14) - B   fghi  (42) - 1/7/D
+#   t   (18) - C   t   (12) - C   jklm  (43) - 2/8/D
+#   uv  (15) - D   uv  (20) - D   nopqr (53) - 3/9/E
+#   wx  ( 7) - E   wx  (15) - E   stu   (40) - 4/A/F
+#   yz  ( 7) - F   yz  (19) - F   vwxyz (40) - 5/B/F
+
+aq-smith; xx-aq-smith	F30A
+so-somaliland; xx-somaliland	F3B9
+sy-snc; xx-sy-snc	F3BF
+xx-northpole	F3EC
+
+
+## F400-F4FF	Constructed Language Flags
+
+xx-conlang	F400
+xx-conlang-esperanto	F420
+xx-conlang-lfn	F430
+xx-conlang-klingon	F440
+
+
+## F500-F5FF	Pride Flags
+
+xx-pride-lgbt	F500; 1F308; 1F3F3+200D+1F308
+
+xx-pride-asexual	F510
+xx-pride-lesbian	F511; 26A2; 1F3F3+200D+26A2
+xx-pride-gay	F512; 26A3; 1F3F3+200D+26A3
+xx-pride-bisexual	F513
+xx-pride-pansexual	F514
+xx-pride-polysexual	F515
+xx-pride-demisexual	F516
+
+xx-pride-trans	F520; 26A7; 1F3F3+200D+26A7
+
+xx-pride-agender	F530
+xx-pride-female	F531; 2640; 1F3F3+200D+2640
+xx-pride-male	F532; 2642; 1F3F3+200D+2642
+xx-pride-androgyne	F533
+xx-pride-bigender	F534
+xx-pride-genderfluid	F535
+xx-pride-genderqueer	F536
+xx-pride-nonbinary	F537
+
+xx-pride-intersex-1	F540
+xx-pride-intersex-2	F541
+
+xx-pride-bear	F550
+xx-pride-lipstick	F551
+
+xx-pride-leather	F560
+xx-pride-poly	F561
+
+xx-pride-ally	F570
+
+xx-aristasia	F580
+
+xx-christian	F5C0; 271D; 1F3F3+200D+271D
+
+
+## F600-F6FF	Sports Flags
+
+xx-racing-start	F600
+xx-racing-caution	F601
+xx-racing-hazard	F602
+xx-racing-pit-closed	F603
+xx-racing-stop	F604
+xx-racing-slow-vehicle	F606
+xx-racing-final-lap	F607
+xx-racing-return	F608
+xx-racing-return-service	F609
+xx-racing-unsportsmanlike	F60A
+xx-racing-not-scored	F60B
+xx-racing-faster-car-1	F60C
+xx-racing-faster-car-2	F60D
+xx-racing-finish	F60F; 1F3C1
+
+
+## F700-F7FF	Mika City Flags
+
+xx-kk-mika	F700
+xx-kk-kellahanamana	F701
+xx-kk-kappaa	F702
+
+xx-kk-mika-tammy	F720
+xx-kk-mika-emily	F721
+
+xx-kk-mika-annett	F741
+xx-kk-mika-harrett	F748
+xx-kk-mika-korra	F74B
+xx-kk-mika-lyndaea	F74C
+xx-kk-mika-morra	F74D
+xx-kk-mika-olla	F74F
+
+xx-kk-kappaa-ioxio	F769
+xx-kk-kappaa-sibleck	F773
+
+
+## F800-F8FF	Miscellaneous Flags
+
+xx-misc-vexillo	F800
+xx-misc-fam	F801
+
+xx-org-fiav	F820
+xx-org-fotw	F821
+
+xx-pirate	F840; 2620; 1F3F4+200D+2620
+xx-pace	F841; 262E; 1F3F3+200D+262E
+
+xx-misc-rgb	F860
+xx-misc-cmyk	F861
+xx-misc-ntsc	F862
+xx-misc-ntscid	F863
+
+xx-misc-iguana	F880

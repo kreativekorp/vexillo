@@ -1,0 +1,70 @@
+#!/usr/bin/env bash
+
+if command -v vexmoji >/dev/null 2>&1; then
+	VEXMOJI="vexmoji"
+elif command -v vexillo >/dev/null 2>&1; then
+	VEXMOJI="vexillo emoji"
+elif test -f vexillo.jar; then
+	VEXMOJI="java -jar vexillo.jar emoji"
+else
+	echo "Please run make install or add vexillo.jar to this directory."
+	exit 1
+fi
+
+rm -rf fonts
+mkdir fonts
+
+$VEXMOJI -n 'Kreative Vexillo GA' -ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw    0 -bh 120 -bw   0 -bg 10 -o fonts/VexilloGA.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI -n 'Kreative Vexillo MA' -ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw    0 -bh 120 -bw   0 -bg  0 -o fonts/VexilloMA.sfd -e encoding.txt flags/*.kvxx
+
+$VEXMOJI -n 'Kreative Vexillo GC' -ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw 1800 -bh 120 -bw 180 -bg 10 -o fonts/VexilloGC.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI -n 'Kreative Vexillo MC' -ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw 1800 -bh 120 -bw 180 -bg  0 -o fonts/VexilloMC.sfd -e encoding.txt flags/*.kvxx
+
+$VEXMOJI -n 'Kreative Vexillo GD' -ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw 1600 -bh 120 -bw 160 -bg 10 -o fonts/VexilloGD.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI -n 'Kreative Vexillo MD' -ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw 1600 -bh 120 -bw 160 -bg  0 -o fonts/VexilloMD.sfd -e encoding.txt flags/*.kvxx
+
+$VEXMOJI -n 'Kreative Vexillo GF' -ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw 1200 -bh 120 -bw 120 -bg 10 -o fonts/VexilloGF.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI -n 'Kreative Vexillo MF' -ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw 1200 -bh 120 -bw 120 -bg  0 -o fonts/VexilloMF.sfd -e encoding.txt flags/*.kvxx
+
+$VEXMOJI -n 'Kreative Vexillo GK' -ma  900 -md 300 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1100 -gw 1600 -bh 132 -bw 192 -bg 12 -o fonts/VexilloGK.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI -n 'Kreative Vexillo MK' -ma  900 -md 300 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1100 -gw 1600 -bh 132 -bw 192 -bg  0 -o fonts/VexilloMK.sfd -e encoding.txt flags/*.kvxx
+
+if command -v fontforge >/dev/null 2>&1; then
+	FONTFORGE="fontforge"
+elif test -f /Applications/FontForge.app/Contents/Resources/opt/local/bin/fontforge; then
+	FONTFORGE="/Applications/FontForge.app/Contents/Resources/opt/local/bin/fontforge"
+else
+	echo "Could not find FontForge. SFD files must be compiled to TTF manually."
+	exit 0
+fi
+
+$FONTFORGE -lang=ff -c 'i = 1; while (i < $argc); Open($argv[i]); Generate($argv[i]:r + ".ttf", "", 128); i = i+1; endloop' fonts/Vexillo??.sfd
+
+if test -f BitsNPicas.jar; then
+	BITSNPICAS="java -jar BitsNPicas.jar"
+elif test -f ../BitsNPicas/BitsNPicas.jar; then
+	BITSNPICAS="java -jar ../BitsNPicas/BitsNPicas.jar"
+elif test -f ../../BitsNPicas/BitsNPicas.jar; then
+	BITSNPICAS="java -jar ../../BitsNPicas/BitsNPicas.jar"
+elif test -f ../../../BitsNPicas/BitsNPicas.jar; then
+	BITSNPICAS="java -jar ../../../BitsNPicas/BitsNPicas.jar"
+elif test -f ../../../../BitsNPicas/BitsNPicas.jar; then
+	BITSNPICAS="java -jar ../../../../BitsNPicas/BitsNPicas.jar"
+else
+	echo "Could not find BitsNPicas. Images must be injected into TTF manually."
+	exit 0
+fi
+
+$BITSNPICAS injectsbix fonts/Vexillo??.ttf
+$BITSNPICAS injectsvg fonts/Vexillo??.ttf
+
+rm -rf tmp
+mkdir tmp
+cd tmp
+mkdir Apple
+mkdir Mozilla+Adobe
+cp ../fonts/*.ttf.sbix.ttf Apple
+cp ../fonts/*.ttf.svg.ttf Mozilla+Adobe
+zip -r ../fonts/vexillo-fonts.zip Apple Mozilla+Adobe
+cd ..
+rm -rf tmp
