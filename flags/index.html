@@ -1,0 +1,3507 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kreative Vexillo</title>
+<style>
+	body, table {
+		font-family: sans-serif;
+		font-size: 12px;
+		line-height: 16px;
+	}
+	h1 {
+		font-size: 24px;
+		line-height: 28px;
+	}
+	h2 {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.small {
+		font-size: 8px;
+		line-height: 12px;
+	}
+	tr.none th, tr.none td, th.none, td.none {
+		background: #ccc;
+	}
+	th.idcol, td.idcol {
+		text-align: left;
+		min-width: 192px;
+		max-width: 192px;
+		width: 192px;
+	}
+	th.namecol, td.namecol {
+		text-align: left;
+		min-width: 256px;
+		max-width: 256px;
+		width: 256px;
+	}
+	th.vcol, td.vcol {
+		text-align: center;
+		min-width: 32px;
+		max-width: 32px;
+		width: 32px;
+	}
+	th.cccol, td.cccol {
+		text-align: center;
+		min-width: 22px;
+		max-width: 22px;
+		width: 22px;
+	}
+	td.v {
+		padding: 4px 4px 2px 4px;
+	}
+	th.vhtmlcol, td.vhtmlcol {
+		text-align: left;
+		min-width: 192px;
+		max-width: 192px;
+		width: 192px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.clickcopy {
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		cursor: pointer;
+	}
+	.butterbar {
+		display: block;
+		position: fixed;
+		top: 4px;
+		left: 50%;
+		width: 200px;
+		margin: 0 0 0 -100px;
+		padding: 4px;
+		background: #ddd;
+		border: solid 1px #bbb;
+		border-radius: 4px;
+		font-family: sans-serif;
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 14px;
+		text-align: center;
+		color: black;
+	}
+	@font-face { font-family: VexilloXGA; src: url(fonts/VexilloGA.ttf.sbix.ttf); }
+	@font-face { font-family: VexilloXGC; src: url(fonts/VexilloGC.ttf.sbix.ttf); }
+	@font-face { font-family: VexilloXGD; src: url(fonts/VexilloGD.ttf.sbix.ttf); }
+	@font-face { font-family: VexilloXGF; src: url(fonts/VexilloGF.ttf.sbix.ttf); }
+	@font-face { font-family: VexilloXGK; src: url(fonts/VexilloGK.ttf.sbix.ttf); }
+	@font-face { font-family: VexilloXMA; src: url(fonts/VexilloMA.ttf.sbix.ttf); }
+	@font-face { font-family: VexilloXMC; src: url(fonts/VexilloMC.ttf.sbix.ttf); }
+	@font-face { font-family: VexilloXMD; src: url(fonts/VexilloMD.ttf.sbix.ttf); }
+	@font-face { font-family: VexilloXMF; src: url(fonts/VexilloMF.ttf.sbix.ttf); }
+	@font-face { font-family: VexilloXMK; src: url(fonts/VexilloMK.ttf.sbix.ttf); }
+	@font-face { font-family: VexilloSGA; src: url(fonts/VexilloGA.ttf.svg.ttf); }
+	@font-face { font-family: VexilloSGC; src: url(fonts/VexilloGC.ttf.svg.ttf); }
+	@font-face { font-family: VexilloSGD; src: url(fonts/VexilloGD.ttf.svg.ttf); }
+	@font-face { font-family: VexilloSGF; src: url(fonts/VexilloGF.ttf.svg.ttf); }
+	@font-face { font-family: VexilloSGK; src: url(fonts/VexilloGK.ttf.svg.ttf); }
+	@font-face { font-family: VexilloSMA; src: url(fonts/VexilloMA.ttf.svg.ttf); }
+	@font-face { font-family: VexilloSMC; src: url(fonts/VexilloMC.ttf.svg.ttf); }
+	@font-face { font-family: VexilloSMD; src: url(fonts/VexilloMD.ttf.svg.ttf); }
+	@font-face { font-family: VexilloSMF; src: url(fonts/VexilloMF.ttf.svg.ttf); }
+	@font-face { font-family: VexilloSMK; src: url(fonts/VexilloMK.ttf.svg.ttf); }
+	.v.x.ga { font-family: VexilloXGA; }
+	.v.x.gc { font-family: VexilloXGC; }
+	.v.x.gd { font-family: VexilloXGD; }
+	.v.x.gf { font-family: VexilloXGF; }
+	.v.x.gk { font-family: VexilloXGK; }
+	.v.x.ma { font-family: VexilloXMA; }
+	.v.x.mc { font-family: VexilloXMC; }
+	.v.x.md { font-family: VexilloXMD; }
+	.v.x.mf { font-family: VexilloXMF; }
+	.v.x.mk { font-family: VexilloXMK; }
+	.v.s.ga { font-family: VexilloSGA; }
+	.v.s.gc { font-family: VexilloSGC; }
+	.v.s.gd { font-family: VexilloSGD; }
+	.v.s.gf { font-family: VexilloSGF; }
+	.v.s.gk { font-family: VexilloSGK; }
+	.v.s.ma { font-family: VexilloSMA; }
+	.v.s.mc { font-family: VexilloSMC; }
+	.v.s.md { font-family: VexilloSMD; }
+	.v.s.mf { font-family: VexilloSMF; }
+	.v.s.mk { font-family: VexilloSMK; }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+	window.getFlagInfo = function() {
+		var vexenc = [
+			[['xx-generic-wht'], [[0xE000], [0x2690], [0x1F3F3]]],
+			[['xx-generic-ylw'], [[0xE001]]],
+			[['xx-generic-org'], [[0xE002]]],
+			[['xx-generic-red'], [[0xE003]]],
+			[['xx-generic-mag'], [[0xE004]]],
+			[['xx-generic-vlt'], [[0xE005]]],
+			[['xx-generic-ind'], [[0xE006]]],
+			[['xx-generic-blu'], [[0xE007]]],
+			[['xx-generic-trq'], [[0xE008]]],
+			[['xx-generic-grn'], [[0xE009]]],
+			[['xx-generic-brn'], [[0xE00A]]],
+			[['xx-generic-tan'], [[0xE00B]]],
+			[['xx-generic-lgy'], [[0xE00C]]],
+			[['xx-generic-mgy'], [[0xE00D]]],
+			[['xx-generic-dgy'], [[0xE00E]]],
+			[['xx-generic-blk'], [[0xE00F], [0x2691], [0x1F3F4]]],
+			[['xx-generic-wht-tpz'], [[0xE010]]],
+			[['xx-generic-ylw-tpz'], [[0xE011]]],
+			[['xx-generic-org-tpz'], [[0xE012]]],
+			[['xx-generic-red-tpz'], [[0xE013]]],
+			[['xx-generic-mag-tpz'], [[0xE014]]],
+			[['xx-generic-vlt-tpz'], [[0xE015]]],
+			[['xx-generic-ind-tpz'], [[0xE016]]],
+			[['xx-generic-blu-tpz'], [[0xE017]]],
+			[['xx-generic-trq-tpz'], [[0xE018]]],
+			[['xx-generic-grn-tpz'], [[0xE019]]],
+			[['xx-generic-brn-tpz'], [[0xE01A]]],
+			[['xx-generic-tan-tpz'], [[0xE01B]]],
+			[['xx-generic-lgy-tpz'], [[0xE01C]]],
+			[['xx-generic-mgy-tpz'], [[0xE01D]]],
+			[['xx-generic-dgy-tpz'], [[0xE01E]]],
+			[['xx-generic-blk-tpz'], [[0xE01F]]],
+			[['xx-generic-wht-tri'], [[0xE020]]],
+			[['xx-generic-ylw-tri'], [[0xE021]]],
+			[['xx-generic-org-tri'], [[0xE022]]],
+			[['xx-generic-red-tri'], [[0xE023]]],
+			[['xx-generic-mag-tri'], [[0xE024]]],
+			[['xx-generic-vlt-tri'], [[0xE025]]],
+			[['xx-generic-ind-tri'], [[0xE026]]],
+			[['xx-generic-blu-tri'], [[0xE027]]],
+			[['xx-generic-trq-tri'], [[0xE028]]],
+			[['xx-generic-grn-tri'], [[0xE029]]],
+			[['xx-generic-brn-tri'], [[0xE02A]]],
+			[['xx-generic-tan-tri'], [[0xE02B]]],
+			[['xx-generic-lgy-tri'], [[0xE02C]]],
+			[['xx-generic-mgy-tri'], [[0xE02D]]],
+			[['xx-generic-dgy-tri'], [[0xE02E]]],
+			[['xx-generic-blk-tri'], [[0xE02F]]],
+			[['xx-generic-wht-swt'], [[0xE030]]],
+			[['xx-generic-ylw-swt'], [[0xE031]]],
+			[['xx-generic-org-swt'], [[0xE032]]],
+			[['xx-generic-red-swt'], [[0xE033]]],
+			[['xx-generic-mag-swt'], [[0xE034]]],
+			[['xx-generic-vlt-swt'], [[0xE035]]],
+			[['xx-generic-ind-swt'], [[0xE036]]],
+			[['xx-generic-blu-swt'], [[0xE037]]],
+			[['xx-generic-trq-swt'], [[0xE038]]],
+			[['xx-generic-grn-swt'], [[0xE039]]],
+			[['xx-generic-brn-swt'], [[0xE03A]]],
+			[['xx-generic-tan-swt'], [[0xE03B]]],
+			[['xx-generic-lgy-swt'], [[0xE03C]]],
+			[['xx-generic-mgy-swt'], [[0xE03D]]],
+			[['xx-generic-dgy-swt'], [[0xE03E]]],
+			[['xx-generic-blk-swt'], [[0xE03F]]],
+			[['xx-ics-ca'], [[0xE080], [0x0040], [0x0060]]],
+			[['xx-ics-a'], [[0xE081], [0x0041], [0x0061]]],
+			[['xx-ics-b'], [[0xE082], [0x0042], [0x0062]]],
+			[['xx-ics-c'], [[0xE083], [0x0043], [0x0063]]],
+			[['xx-ics-d'], [[0xE084], [0x0044], [0x0064]]],
+			[['xx-ics-e'], [[0xE085], [0x0045], [0x0065]]],
+			[['xx-ics-f'], [[0xE086], [0x0046], [0x0066]]],
+			[['xx-ics-g'], [[0xE087], [0x0047], [0x0067]]],
+			[['xx-ics-h'], [[0xE088], [0x0048], [0x0068]]],
+			[['xx-ics-i'], [[0xE089], [0x0049], [0x0069]]],
+			[['xx-ics-j'], [[0xE08A], [0x004A], [0x006A]]],
+			[['xx-ics-k'], [[0xE08B], [0x004B], [0x006B]]],
+			[['xx-ics-l'], [[0xE08C], [0x004C], [0x006C]]],
+			[['xx-ics-m'], [[0xE08D], [0x004D], [0x006D]]],
+			[['xx-ics-n'], [[0xE08E], [0x004E], [0x006E]]],
+			[['xx-ics-o'], [[0xE08F], [0x004F], [0x006F]]],
+			[['xx-ics-p'], [[0xE090], [0x0050], [0x0070]]],
+			[['xx-ics-q'], [[0xE091], [0x0051], [0x0071]]],
+			[['xx-ics-r'], [[0xE092], [0x0052], [0x0072]]],
+			[['xx-ics-s'], [[0xE093], [0x0053], [0x0073]]],
+			[['xx-ics-t'], [[0xE094], [0x0054], [0x0074]]],
+			[['xx-ics-u'], [[0xE095], [0x0055], [0x0075]]],
+			[['xx-ics-v'], [[0xE096], [0x0056], [0x0076]]],
+			[['xx-ics-w'], [[0xE097], [0x0057], [0x0077]]],
+			[['xx-ics-x'], [[0xE098], [0x0058], [0x0078]]],
+			[['xx-ics-y'], [[0xE099], [0x0059], [0x0079]]],
+			[['xx-ics-z'], [[0xE09A], [0x005A], [0x007A]]],
+			[['xx-semaphore-jp-l'], [[0xE09B], [0x005B], [0x007B]]],
+			[['xx-semaphore'], [[0xE09C], [0x005C], [0x007C]]],
+			[['xx-semaphore-jp-r'], [[0xE09D], [0x005D], [0x007D]]],
+			[['xx-semaphore-xx-1'], [[0xE09E], [0x005E], [0x007E]]],
+			[['xx-semaphore-xx-2'], [[0xE09F], [0x005F], [0x007F]]],
+			[['xx-ics-0'], [[0xE0A0], [0x0030]]],
+			[['xx-ics-1'], [[0xE0A1], [0x0031]]],
+			[['xx-ics-2'], [[0xE0A2], [0x0032]]],
+			[['xx-ics-3'], [[0xE0A3], [0x0033]]],
+			[['xx-ics-4'], [[0xE0A4], [0x0034]]],
+			[['xx-ics-5'], [[0xE0A5], [0x0035]]],
+			[['xx-ics-6'], [[0xE0A6], [0x0036]]],
+			[['xx-ics-7'], [[0xE0A7], [0x0037]]],
+			[['xx-ics-8'], [[0xE0A8], [0x0038]]],
+			[['xx-ics-9'], [[0xE0A9], [0x0039]]],
+			[['xx-ics-1r'], [[0xE0AA], [0x003A]]],
+			[['xx-ics-2r'], [[0xE0AB], [0x003B]]],
+			[['xx-ics-3r'], [[0xE0AC], [0x003C]]],
+			[['xx-ics-4r'], [[0xE0AD], [0x003D]]],
+			[['xx-ics-5r'], [[0xE0AE], [0x003E]]],
+			[['xx-ics-6r'], [[0xE0AF], [0x003F]]],
+			[['xx-nato-0'], [[0xE0B0]]],
+			[['xx-nato-1'], [[0xE0B1]]],
+			[['xx-nato-2'], [[0xE0B2]]],
+			[['xx-nato-3'], [[0xE0B3]]],
+			[['xx-nato-4'], [[0xE0B4]]],
+			[['xx-nato-5'], [[0xE0B5]]],
+			[['xx-nato-6'], [[0xE0B6]]],
+			[['xx-nato-7'], [[0xE0B7]]],
+			[['xx-nato-8'], [[0xE0B8]]],
+			[['xx-nato-9'], [[0xE0B9]]],
+			[['xx-esperanto-ch'], [[0xE0BA], [0x0108], [0x0109]]],
+			[['xx-esperanto-gh'], [[0xE0BB], [0x011C], [0x011D]]],
+			[['xx-esperanto-hh'], [[0xE0BC], [0x0124], [0x0125]]],
+			[['xx-esperanto-jh'], [[0xE0BD], [0x0134], [0x0135]]],
+			[['xx-esperanto-sh'], [[0xE0BE], [0x015C], [0x015D]]],
+			[['xx-esperanto-uu'], [[0xE0BF], [0x016C], [0x016D]]],
+			[['aa'], [[0xE100], [0x1F1E6, 0x1F1E6]]],
+			[['ab'], [[0xE101], [0x1F1E6, 0x1F1E7]]],
+			[['ac', 'xx-ascensionisland'], [[0xE102], [0x1F1E6, 0x1F1E8]]],
+			[['ad'], [[0xE103], [0x1F1E6, 0x1F1E9]]],
+			[['ae'], [[0xE104], [0x1F1E6, 0x1F1EA]]],
+			[['af'], [[0xE105], [0x1F1E6, 0x1F1EB]]],
+			[['ag'], [[0xE106], [0x1F1E6, 0x1F1EC]]],
+			[['ah'], [[0xE107], [0x1F1E6, 0x1F1ED]]],
+			[['ai'], [[0xE108], [0x1F1E6, 0x1F1EE]]],
+			[['aj'], [[0xE109], [0x1F1E6, 0x1F1EF]]],
+			[['ak'], [[0xE10A], [0x1F1E6, 0x1F1F0]]],
+			[['al'], [[0xE10B], [0x1F1E6, 0x1F1F1]]],
+			[['am'], [[0xE10C], [0x1F1E6, 0x1F1F2]]],
+			[['an', 'xx-netherlandsantilles'], [[0xE10D], [0x1F1E6, 0x1F1F3]]],
+			[['ao'], [[0xE10E], [0x1F1E6, 0x1F1F4]]],
+			[['ap'], [[0xE10F], [0x1F1E6, 0x1F1F5]]],
+			[['aq'], [[0xE110], [0x1F1E6, 0x1F1F6]]],
+			[['ar'], [[0xE111], [0x1F1E6, 0x1F1F7]]],
+			[['as'], [[0xE112], [0x1F1E6, 0x1F1F8]]],
+			[['at'], [[0xE113], [0x1F1E6, 0x1F1F9]]],
+			[['au'], [[0xE114], [0x1F1E6, 0x1F1FA]]],
+			[['av'], [[0xE115], [0x1F1E6, 0x1F1FB]]],
+			[['aw'], [[0xE116], [0x1F1E6, 0x1F1FC]]],
+			[['ax'], [[0xE117], [0x1F1E6, 0x1F1FD]]],
+			[['ay'], [[0xE118], [0x1F1E6, 0x1F1FE]]],
+			[['az'], [[0xE119], [0x1F1E6, 0x1F1FF]]],
+			[['ba'], [[0xE11A], [0x1F1E7, 0x1F1E6]]],
+			[['bb'], [[0xE11B], [0x1F1E7, 0x1F1E7]]],
+			[['bc'], [[0xE11C], [0x1F1E7, 0x1F1E8]]],
+			[['bd'], [[0xE11D], [0x1F1E7, 0x1F1E9]]],
+			[['be'], [[0xE11E], [0x1F1E7, 0x1F1EA]]],
+			[['bf'], [[0xE11F], [0x1F1E7, 0x1F1EB]]],
+			[['bg'], [[0xE120], [0x1F1E7, 0x1F1EC]]],
+			[['bh'], [[0xE121], [0x1F1E7, 0x1F1ED]]],
+			[['bi'], [[0xE122], [0x1F1E7, 0x1F1EE]]],
+			[['bj'], [[0xE123], [0x1F1E7, 0x1F1EF]]],
+			[['bk'], [[0xE124], [0x1F1E7, 0x1F1F0]]],
+			[['bl'], [[0xE125], [0x1F1E7, 0x1F1F1]]],
+			[['bm'], [[0xE126], [0x1F1E7, 0x1F1F2]]],
+			[['bn'], [[0xE127], [0x1F1E7, 0x1F1F3]]],
+			[['bo'], [[0xE128], [0x1F1E7, 0x1F1F4]]],
+			[['bp'], [[0xE129], [0x1F1E7, 0x1F1F5]]],
+			[['bq'], [[0xE12A], [0x1F1E7, 0x1F1F6]]],
+			[['br'], [[0xE12B], [0x1F1E7, 0x1F1F7]]],
+			[['bs'], [[0xE12C], [0x1F1E7, 0x1F1F8]]],
+			[['bt'], [[0xE12D], [0x1F1E7, 0x1F1F9]]],
+			[['bu', 'xx-burma'], [[0xE12E], [0x1F1E7, 0x1F1FA]]],
+			[['bv'], [[0xE12F], [0x1F1E7, 0x1F1FB]]],
+			[['bw'], [[0xE130], [0x1F1E7, 0x1F1FC]]],
+			[['bx'], [[0xE131], [0x1F1E7, 0x1F1FD]]],
+			[['by'], [[0xE132], [0x1F1E7, 0x1F1FE]]],
+			[['bz'], [[0xE133], [0x1F1E7, 0x1F1FF]]],
+			[['ca'], [[0xE134], [0x1F1E8, 0x1F1E6]]],
+			[['cb'], [[0xE135], [0x1F1E8, 0x1F1E7]]],
+			[['cc'], [[0xE136], [0x1F1E8, 0x1F1E8]]],
+			[['cd'], [[0xE137], [0x1F1E8, 0x1F1E9]]],
+			[['ce'], [[0xE138], [0x1F1E8, 0x1F1EA]]],
+			[['cf'], [[0xE139], [0x1F1E8, 0x1F1EB]]],
+			[['cg'], [[0xE13A], [0x1F1E8, 0x1F1EC]]],
+			[['ch'], [[0xE13B], [0x1F1E8, 0x1F1ED]]],
+			[['ci'], [[0xE13C], [0x1F1E8, 0x1F1EE]]],
+			[['cj'], [[0xE13D], [0x1F1E8, 0x1F1EF]]],
+			[['ck'], [[0xE13E], [0x1F1E8, 0x1F1F0]]],
+			[['cl'], [[0xE13F], [0x1F1E8, 0x1F1F1]]],
+			[['cm'], [[0xE140], [0x1F1E8, 0x1F1F2]]],
+			[['cn'], [[0xE141], [0x1F1E8, 0x1F1F3]]],
+			[['co'], [[0xE142], [0x1F1E8, 0x1F1F4]]],
+			[['cp', 'xx-clippertonisland'], [[0xE143], [0x1F1E8, 0x1F1F5]]],
+			[['cq'], [[0xE144], [0x1F1E8, 0x1F1F6]]],
+			[['cr'], [[0xE145], [0x1F1E8, 0x1F1F7]]],
+			[['cs', 'xx-serbiaandmontenegro'], [[0xE146], [0x1F1E8, 0x1F1F8]]],
+			[['ct'], [[0xE147], [0x1F1E8, 0x1F1F9]]],
+			[['cu'], [[0xE148], [0x1F1E8, 0x1F1FA]]],
+			[['cv'], [[0xE149], [0x1F1E8, 0x1F1FB]]],
+			[['cw'], [[0xE14A], [0x1F1E8, 0x1F1FC]]],
+			[['cx'], [[0xE14B], [0x1F1E8, 0x1F1FD]]],
+			[['cy'], [[0xE14C], [0x1F1E8, 0x1F1FE]]],
+			[['cz'], [[0xE14D], [0x1F1E8, 0x1F1FF]]],
+			[['da'], [[0xE14E], [0x1F1E9, 0x1F1E6]]],
+			[['db'], [[0xE14F], [0x1F1E9, 0x1F1E7]]],
+			[['dc'], [[0xE150], [0x1F1E9, 0x1F1E8]]],
+			[['dd'], [[0xE151], [0x1F1E9, 0x1F1E9]]],
+			[['de'], [[0xE152], [0x1F1E9, 0x1F1EA]]],
+			[['df'], [[0xE153], [0x1F1E9, 0x1F1EB]]],
+			[['dg', 'xx-diegogarcia'], [[0xE154], [0x1F1E9, 0x1F1EC]]],
+			[['dh'], [[0xE155], [0x1F1E9, 0x1F1ED]]],
+			[['di'], [[0xE156], [0x1F1E9, 0x1F1EE]]],
+			[['dj'], [[0xE157], [0x1F1E9, 0x1F1EF]]],
+			[['dk'], [[0xE158], [0x1F1E9, 0x1F1F0]]],
+			[['dl'], [[0xE159], [0x1F1E9, 0x1F1F1]]],
+			[['dm'], [[0xE15A], [0x1F1E9, 0x1F1F2]]],
+			[['dn'], [[0xE15B], [0x1F1E9, 0x1F1F3]]],
+			[['do'], [[0xE15C], [0x1F1E9, 0x1F1F4]]],
+			[['dp'], [[0xE15D], [0x1F1E9, 0x1F1F5]]],
+			[['dq'], [[0xE15E], [0x1F1E9, 0x1F1F6]]],
+			[['dr'], [[0xE15F], [0x1F1E9, 0x1F1F7]]],
+			[['ds'], [[0xE160], [0x1F1E9, 0x1F1F8]]],
+			[['dt'], [[0xE161], [0x1F1E9, 0x1F1F9]]],
+			[['du'], [[0xE162], [0x1F1E9, 0x1F1FA]]],
+			[['dv'], [[0xE163], [0x1F1E9, 0x1F1FB]]],
+			[['dw'], [[0xE164], [0x1F1E9, 0x1F1FC]]],
+			[['dx'], [[0xE165], [0x1F1E9, 0x1F1FD]]],
+			[['dy'], [[0xE166], [0x1F1E9, 0x1F1FE]]],
+			[['dz'], [[0xE167], [0x1F1E9, 0x1F1FF]]],
+			[['ea', 'xx-ceutaandmelilla'], [[0xE168], [0x1F1EA, 0x1F1E6]]],
+			[['eb'], [[0xE169], [0x1F1EA, 0x1F1E7]]],
+			[['ec'], [[0xE16A], [0x1F1EA, 0x1F1E8]]],
+			[['ed'], [[0xE16B], [0x1F1EA, 0x1F1E9]]],
+			[['ee'], [[0xE16C], [0x1F1EA, 0x1F1EA]]],
+			[['ef'], [[0xE16D], [0x1F1EA, 0x1F1EB]]],
+			[['eg'], [[0xE16E], [0x1F1EA, 0x1F1EC]]],
+			[['eh'], [[0xE16F], [0x1F1EA, 0x1F1ED]]],
+			[['ei'], [[0xE170], [0x1F1EA, 0x1F1EE]]],
+			[['ej'], [[0xE171], [0x1F1EA, 0x1F1EF]]],
+			[['ek'], [[0xE172], [0x1F1EA, 0x1F1F0]]],
+			[['el'], [[0xE173], [0x1F1EA, 0x1F1F1]]],
+			[['em'], [[0xE174], [0x1F1EA, 0x1F1F2]]],
+			[['en'], [[0xE175], [0x1F1EA, 0x1F1F3]]],
+			[['eo'], [[0xE176], [0x1F1EA, 0x1F1F4]]],
+			[['ep'], [[0xE177], [0x1F1EA, 0x1F1F5]]],
+			[['eq'], [[0xE178], [0x1F1EA, 0x1F1F6]]],
+			[['er'], [[0xE179], [0x1F1EA, 0x1F1F7]]],
+			[['es'], [[0xE17A], [0x1F1EA, 0x1F1F8]]],
+			[['et'], [[0xE17B], [0x1F1EA, 0x1F1F9]]],
+			[['eu', 'xx-europeanunion'], [[0xE17C], [0x1F1EA, 0x1F1FA]]],
+			[['ev'], [[0xE17D], [0x1F1EA, 0x1F1FB]]],
+			[['ew'], [[0xE17E], [0x1F1EA, 0x1F1FC]]],
+			[['ex'], [[0xE17F], [0x1F1EA, 0x1F1FD]]],
+			[['ey'], [[0xE180], [0x1F1EA, 0x1F1FE]]],
+			[['ez', 'xx-eurozone'], [[0xE181], [0x1F1EA, 0x1F1FF]]],
+			[['fa'], [[0xE182], [0x1F1EB, 0x1F1E6]]],
+			[['fb'], [[0xE183], [0x1F1EB, 0x1F1E7]]],
+			[['fc'], [[0xE184], [0x1F1EB, 0x1F1E8]]],
+			[['fd'], [[0xE185], [0x1F1EB, 0x1F1E9]]],
+			[['fe'], [[0xE186], [0x1F1EB, 0x1F1EA]]],
+			[['ff'], [[0xE187], [0x1F1EB, 0x1F1EB]]],
+			[['fg'], [[0xE188], [0x1F1EB, 0x1F1EC]]],
+			[['fh'], [[0xE189], [0x1F1EB, 0x1F1ED]]],
+			[['fi'], [[0xE18A], [0x1F1EB, 0x1F1EE]]],
+			[['fj'], [[0xE18B], [0x1F1EB, 0x1F1EF]]],
+			[['fk'], [[0xE18C], [0x1F1EB, 0x1F1F0]]],
+			[['fl'], [[0xE18D], [0x1F1EB, 0x1F1F1]]],
+			[['fm'], [[0xE18E], [0x1F1EB, 0x1F1F2]]],
+			[['fn'], [[0xE18F], [0x1F1EB, 0x1F1F3]]],
+			[['fo'], [[0xE190], [0x1F1EB, 0x1F1F4]]],
+			[['fp'], [[0xE191], [0x1F1EB, 0x1F1F5]]],
+			[['fq'], [[0xE192], [0x1F1EB, 0x1F1F6]]],
+			[['fr'], [[0xE193], [0x1F1EB, 0x1F1F7]]],
+			[['fs'], [[0xE194], [0x1F1EB, 0x1F1F8]]],
+			[['ft'], [[0xE195], [0x1F1EB, 0x1F1F9]]],
+			[['fu'], [[0xE196], [0x1F1EB, 0x1F1FA]]],
+			[['fv'], [[0xE197], [0x1F1EB, 0x1F1FB]]],
+			[['fw'], [[0xE198], [0x1F1EB, 0x1F1FC]]],
+			[['fx', 'xx-francemetropolitan'], [[0xE199], [0x1F1EB, 0x1F1FD]]],
+			[['fy'], [[0xE19A], [0x1F1EB, 0x1F1FE]]],
+			[['fz'], [[0xE19B], [0x1F1EB, 0x1F1FF]]],
+			[['ga'], [[0xE19C], [0x1F1EC, 0x1F1E6]]],
+			[['gb'], [[0xE19D], [0x1F1EC, 0x1F1E7]]],
+			[['gc'], [[0xE19E], [0x1F1EC, 0x1F1E8]]],
+			[['gd'], [[0xE19F], [0x1F1EC, 0x1F1E9]]],
+			[['ge'], [[0xE1A0], [0x1F1EC, 0x1F1EA]]],
+			[['gf'], [[0xE1A1], [0x1F1EC, 0x1F1EB]]],
+			[['gg'], [[0xE1A2], [0x1F1EC, 0x1F1EC]]],
+			[['gh'], [[0xE1A3], [0x1F1EC, 0x1F1ED]]],
+			[['gi'], [[0xE1A4], [0x1F1EC, 0x1F1EE]]],
+			[['gj'], [[0xE1A5], [0x1F1EC, 0x1F1EF]]],
+			[['gk'], [[0xE1A6], [0x1F1EC, 0x1F1F0]]],
+			[['gl'], [[0xE1A7], [0x1F1EC, 0x1F1F1]]],
+			[['gm'], [[0xE1A8], [0x1F1EC, 0x1F1F2]]],
+			[['gn'], [[0xE1A9], [0x1F1EC, 0x1F1F3]]],
+			[['go'], [[0xE1AA], [0x1F1EC, 0x1F1F4]]],
+			[['gp'], [[0xE1AB], [0x1F1EC, 0x1F1F5]]],
+			[['gq'], [[0xE1AC], [0x1F1EC, 0x1F1F6]]],
+			[['gr'], [[0xE1AD], [0x1F1EC, 0x1F1F7]]],
+			[['gs'], [[0xE1AE], [0x1F1EC, 0x1F1F8]]],
+			[['gt'], [[0xE1AF], [0x1F1EC, 0x1F1F9]]],
+			[['gu'], [[0xE1B0], [0x1F1EC, 0x1F1FA]]],
+			[['gv'], [[0xE1B1], [0x1F1EC, 0x1F1FB]]],
+			[['gw'], [[0xE1B2], [0x1F1EC, 0x1F1FC]]],
+			[['gx'], [[0xE1B3], [0x1F1EC, 0x1F1FD]]],
+			[['gy'], [[0xE1B4], [0x1F1EC, 0x1F1FE]]],
+			[['gz'], [[0xE1B5], [0x1F1EC, 0x1F1FF]]],
+			[['ha'], [[0xE1B6], [0x1F1ED, 0x1F1E6]]],
+			[['hb'], [[0xE1B7], [0x1F1ED, 0x1F1E7]]],
+			[['hc'], [[0xE1B8], [0x1F1ED, 0x1F1E8]]],
+			[['hd'], [[0xE1B9], [0x1F1ED, 0x1F1E9]]],
+			[['he'], [[0xE1BA], [0x1F1ED, 0x1F1EA]]],
+			[['hf'], [[0xE1BB], [0x1F1ED, 0x1F1EB]]],
+			[['hg'], [[0xE1BC], [0x1F1ED, 0x1F1EC]]],
+			[['hh'], [[0xE1BD], [0x1F1ED, 0x1F1ED]]],
+			[['hi'], [[0xE1BE], [0x1F1ED, 0x1F1EE]]],
+			[['hj'], [[0xE1BF], [0x1F1ED, 0x1F1EF]]],
+			[['hk'], [[0xE1C0], [0x1F1ED, 0x1F1F0]]],
+			[['hl'], [[0xE1C1], [0x1F1ED, 0x1F1F1]]],
+			[['hm'], [[0xE1C2], [0x1F1ED, 0x1F1F2]]],
+			[['hn'], [[0xE1C3], [0x1F1ED, 0x1F1F3]]],
+			[['ho'], [[0xE1C4], [0x1F1ED, 0x1F1F4]]],
+			[['hp'], [[0xE1C5], [0x1F1ED, 0x1F1F5]]],
+			[['hq'], [[0xE1C6], [0x1F1ED, 0x1F1F6]]],
+			[['hr'], [[0xE1C7], [0x1F1ED, 0x1F1F7]]],
+			[['hs'], [[0xE1C8], [0x1F1ED, 0x1F1F8]]],
+			[['ht'], [[0xE1C9], [0x1F1ED, 0x1F1F9]]],
+			[['hu'], [[0xE1CA], [0x1F1ED, 0x1F1FA]]],
+			[['hv'], [[0xE1CB], [0x1F1ED, 0x1F1FB]]],
+			[['hw'], [[0xE1CC], [0x1F1ED, 0x1F1FC]]],
+			[['hx'], [[0xE1CD], [0x1F1ED, 0x1F1FD]]],
+			[['hy'], [[0xE1CE], [0x1F1ED, 0x1F1FE]]],
+			[['hz'], [[0xE1CF], [0x1F1ED, 0x1F1FF]]],
+			[['ia'], [[0xE1D0], [0x1F1EE, 0x1F1E6]]],
+			[['ib'], [[0xE1D1], [0x1F1EE, 0x1F1E7]]],
+			[['ic', 'xx-canaryislands'], [[0xE1D2], [0x1F1EE, 0x1F1E8]]],
+			[['id'], [[0xE1D3], [0x1F1EE, 0x1F1E9]]],
+			[['ie'], [[0xE1D4], [0x1F1EE, 0x1F1EA]]],
+			[['if'], [[0xE1D5], [0x1F1EE, 0x1F1EB]]],
+			[['ig'], [[0xE1D6], [0x1F1EE, 0x1F1EC]]],
+			[['ih'], [[0xE1D7], [0x1F1EE, 0x1F1ED]]],
+			[['ii'], [[0xE1D8], [0x1F1EE, 0x1F1EE]]],
+			[['ij'], [[0xE1D9], [0x1F1EE, 0x1F1EF]]],
+			[['ik'], [[0xE1DA], [0x1F1EE, 0x1F1F0]]],
+			[['il'], [[0xE1DB], [0x1F1EE, 0x1F1F1]]],
+			[['im'], [[0xE1DC], [0x1F1EE, 0x1F1F2]]],
+			[['in'], [[0xE1DD], [0x1F1EE, 0x1F1F3]]],
+			[['io'], [[0xE1DE], [0x1F1EE, 0x1F1F4]]],
+			[['ip'], [[0xE1DF], [0x1F1EE, 0x1F1F5]]],
+			[['iq'], [[0xE1E0], [0x1F1EE, 0x1F1F6]]],
+			[['ir'], [[0xE1E1], [0x1F1EE, 0x1F1F7]]],
+			[['is'], [[0xE1E2], [0x1F1EE, 0x1F1F8]]],
+			[['it'], [[0xE1E3], [0x1F1EE, 0x1F1F9]]],
+			[['iu'], [[0xE1E4], [0x1F1EE, 0x1F1FA]]],
+			[['iv'], [[0xE1E5], [0x1F1EE, 0x1F1FB]]],
+			[['iw'], [[0xE1E6], [0x1F1EE, 0x1F1FC]]],
+			[['ix'], [[0xE1E7], [0x1F1EE, 0x1F1FD]]],
+			[['iy'], [[0xE1E8], [0x1F1EE, 0x1F1FE]]],
+			[['iz'], [[0xE1E9], [0x1F1EE, 0x1F1FF]]],
+			[['ja'], [[0xE1EA], [0x1F1EF, 0x1F1E6]]],
+			[['jb'], [[0xE1EB], [0x1F1EF, 0x1F1E7]]],
+			[['jc'], [[0xE1EC], [0x1F1EF, 0x1F1E8]]],
+			[['jd'], [[0xE1ED], [0x1F1EF, 0x1F1E9]]],
+			[['je'], [[0xE1EE], [0x1F1EF, 0x1F1EA]]],
+			[['jf'], [[0xE1EF], [0x1F1EF, 0x1F1EB]]],
+			[['jg'], [[0xE1F0], [0x1F1EF, 0x1F1EC]]],
+			[['jh'], [[0xE1F1], [0x1F1EF, 0x1F1ED]]],
+			[['ji'], [[0xE1F2], [0x1F1EF, 0x1F1EE]]],
+			[['jj'], [[0xE1F3], [0x1F1EF, 0x1F1EF]]],
+			[['jk'], [[0xE1F4], [0x1F1EF, 0x1F1F0]]],
+			[['jl'], [[0xE1F5], [0x1F1EF, 0x1F1F1]]],
+			[['jm'], [[0xE1F6], [0x1F1EF, 0x1F1F2]]],
+			[['jn'], [[0xE1F7], [0x1F1EF, 0x1F1F3]]],
+			[['jo'], [[0xE1F8], [0x1F1EF, 0x1F1F4]]],
+			[['jp'], [[0xE1F9], [0x1F1EF, 0x1F1F5]]],
+			[['jq'], [[0xE1FA], [0x1F1EF, 0x1F1F6]]],
+			[['jr'], [[0xE1FB], [0x1F1EF, 0x1F1F7]]],
+			[['js'], [[0xE1FC], [0x1F1EF, 0x1F1F8]]],
+			[['jt'], [[0xE1FD], [0x1F1EF, 0x1F1F9]]],
+			[['ju'], [[0xE1FE], [0x1F1EF, 0x1F1FA]]],
+			[['jv'], [[0xE1FF], [0x1F1EF, 0x1F1FB]]],
+			[['jw'], [[0xE200], [0x1F1EF, 0x1F1FC]]],
+			[['jx'], [[0xE201], [0x1F1EF, 0x1F1FD]]],
+			[['jy'], [[0xE202], [0x1F1EF, 0x1F1FE]]],
+			[['jz'], [[0xE203], [0x1F1EF, 0x1F1FF]]],
+			[['ka'], [[0xE204], [0x1F1F0, 0x1F1E6]]],
+			[['kb'], [[0xE205], [0x1F1F0, 0x1F1E7]]],
+			[['kc'], [[0xE206], [0x1F1F0, 0x1F1E8]]],
+			[['kd'], [[0xE207], [0x1F1F0, 0x1F1E9]]],
+			[['ke'], [[0xE208], [0x1F1F0, 0x1F1EA]]],
+			[['kf'], [[0xE209], [0x1F1F0, 0x1F1EB]]],
+			[['kg'], [[0xE20A], [0x1F1F0, 0x1F1EC]]],
+			[['kh'], [[0xE20B], [0x1F1F0, 0x1F1ED]]],
+			[['ki'], [[0xE20C], [0x1F1F0, 0x1F1EE]]],
+			[['kj'], [[0xE20D], [0x1F1F0, 0x1F1EF]]],
+			[['kk'], [[0xE20E], [0x1F1F0, 0x1F1F0]]],
+			[['kl'], [[0xE20F], [0x1F1F0, 0x1F1F1]]],
+			[['km'], [[0xE210], [0x1F1F0, 0x1F1F2]]],
+			[['kn'], [[0xE211], [0x1F1F0, 0x1F1F3]]],
+			[['ko'], [[0xE212], [0x1F1F0, 0x1F1F4]]],
+			[['kp'], [[0xE213], [0x1F1F0, 0x1F1F5]]],
+			[['kq'], [[0xE214], [0x1F1F0, 0x1F1F6]]],
+			[['kr'], [[0xE215], [0x1F1F0, 0x1F1F7]]],
+			[['ks'], [[0xE216], [0x1F1F0, 0x1F1F8]]],
+			[['kt'], [[0xE217], [0x1F1F0, 0x1F1F9]]],
+			[['ku'], [[0xE218], [0x1F1F0, 0x1F1FA]]],
+			[['kv'], [[0xE219], [0x1F1F0, 0x1F1FB]]],
+			[['kw'], [[0xE21A], [0x1F1F0, 0x1F1FC]]],
+			[['kx'], [[0xE21B], [0x1F1F0, 0x1F1FD]]],
+			[['ky'], [[0xE21C], [0x1F1F0, 0x1F1FE]]],
+			[['kz'], [[0xE21D], [0x1F1F0, 0x1F1FF]]],
+			[['la'], [[0xE21E], [0x1F1F1, 0x1F1E6]]],
+			[['lb'], [[0xE21F], [0x1F1F1, 0x1F1E7]]],
+			[['lc'], [[0xE220], [0x1F1F1, 0x1F1E8]]],
+			[['ld'], [[0xE221], [0x1F1F1, 0x1F1E9]]],
+			[['le'], [[0xE222], [0x1F1F1, 0x1F1EA]]],
+			[['lf'], [[0xE223], [0x1F1F1, 0x1F1EB]]],
+			[['lg'], [[0xE224], [0x1F1F1, 0x1F1EC]]],
+			[['lh'], [[0xE225], [0x1F1F1, 0x1F1ED]]],
+			[['li'], [[0xE226], [0x1F1F1, 0x1F1EE]]],
+			[['lj'], [[0xE227], [0x1F1F1, 0x1F1EF]]],
+			[['lk'], [[0xE228], [0x1F1F1, 0x1F1F0]]],
+			[['ll'], [[0xE229], [0x1F1F1, 0x1F1F1]]],
+			[['lm'], [[0xE22A], [0x1F1F1, 0x1F1F2]]],
+			[['ln'], [[0xE22B], [0x1F1F1, 0x1F1F3]]],
+			[['lo'], [[0xE22C], [0x1F1F1, 0x1F1F4]]],
+			[['lp'], [[0xE22D], [0x1F1F1, 0x1F1F5]]],
+			[['lq'], [[0xE22E], [0x1F1F1, 0x1F1F6]]],
+			[['lr'], [[0xE22F], [0x1F1F1, 0x1F1F7]]],
+			[['ls'], [[0xE230], [0x1F1F1, 0x1F1F8]]],
+			[['lt'], [[0xE231], [0x1F1F1, 0x1F1F9]]],
+			[['lu'], [[0xE232], [0x1F1F1, 0x1F1FA]]],
+			[['lv'], [[0xE233], [0x1F1F1, 0x1F1FB]]],
+			[['lw'], [[0xE234], [0x1F1F1, 0x1F1FC]]],
+			[['lx'], [[0xE235], [0x1F1F1, 0x1F1FD]]],
+			[['ly'], [[0xE236], [0x1F1F1, 0x1F1FE]]],
+			[['lz'], [[0xE237], [0x1F1F1, 0x1F1FF]]],
+			[['ma'], [[0xE238], [0x1F1F2, 0x1F1E6]]],
+			[['mb'], [[0xE239], [0x1F1F2, 0x1F1E7]]],
+			[['mc'], [[0xE23A], [0x1F1F2, 0x1F1E8]]],
+			[['md'], [[0xE23B], [0x1F1F2, 0x1F1E9]]],
+			[['me'], [[0xE23C], [0x1F1F2, 0x1F1EA]]],
+			[['mf'], [[0xE23D], [0x1F1F2, 0x1F1EB]]],
+			[['mg'], [[0xE23E], [0x1F1F2, 0x1F1EC]]],
+			[['mh'], [[0xE23F], [0x1F1F2, 0x1F1ED]]],
+			[['mi'], [[0xE240], [0x1F1F2, 0x1F1EE]]],
+			[['mj'], [[0xE241], [0x1F1F2, 0x1F1EF]]],
+			[['mk'], [[0xE242], [0x1F1F2, 0x1F1F0]]],
+			[['ml'], [[0xE243], [0x1F1F2, 0x1F1F1]]],
+			[['mm'], [[0xE244], [0x1F1F2, 0x1F1F2]]],
+			[['mn'], [[0xE245], [0x1F1F2, 0x1F1F3]]],
+			[['mo'], [[0xE246], [0x1F1F2, 0x1F1F4]]],
+			[['mp'], [[0xE247], [0x1F1F2, 0x1F1F5]]],
+			[['mq'], [[0xE248], [0x1F1F2, 0x1F1F6]]],
+			[['mr'], [[0xE249], [0x1F1F2, 0x1F1F7]]],
+			[['ms'], [[0xE24A], [0x1F1F2, 0x1F1F8]]],
+			[['mt'], [[0xE24B], [0x1F1F2, 0x1F1F9]]],
+			[['mu'], [[0xE24C], [0x1F1F2, 0x1F1FA]]],
+			[['mv'], [[0xE24D], [0x1F1F2, 0x1F1FB]]],
+			[['mw'], [[0xE24E], [0x1F1F2, 0x1F1FC]]],
+			[['mx'], [[0xE24F], [0x1F1F2, 0x1F1FD]]],
+			[['my'], [[0xE250], [0x1F1F2, 0x1F1FE]]],
+			[['mz'], [[0xE251], [0x1F1F2, 0x1F1FF]]],
+			[['na'], [[0xE252], [0x1F1F3, 0x1F1E6]]],
+			[['nb'], [[0xE253], [0x1F1F3, 0x1F1E7]]],
+			[['nc'], [[0xE254], [0x1F1F3, 0x1F1E8]]],
+			[['nd'], [[0xE255], [0x1F1F3, 0x1F1E9]]],
+			[['ne'], [[0xE256], [0x1F1F3, 0x1F1EA]]],
+			[['nf'], [[0xE257], [0x1F1F3, 0x1F1EB]]],
+			[['ng'], [[0xE258], [0x1F1F3, 0x1F1EC]]],
+			[['nh'], [[0xE259], [0x1F1F3, 0x1F1ED]]],
+			[['ni'], [[0xE25A], [0x1F1F3, 0x1F1EE]]],
+			[['nj'], [[0xE25B], [0x1F1F3, 0x1F1EF]]],
+			[['nk'], [[0xE25C], [0x1F1F3, 0x1F1F0]]],
+			[['nl'], [[0xE25D], [0x1F1F3, 0x1F1F1]]],
+			[['nm'], [[0xE25E], [0x1F1F3, 0x1F1F2]]],
+			[['nn'], [[0xE25F], [0x1F1F3, 0x1F1F3]]],
+			[['no'], [[0xE260], [0x1F1F3, 0x1F1F4]]],
+			[['np'], [[0xE261], [0x1F1F3, 0x1F1F5]]],
+			[['nq'], [[0xE262], [0x1F1F3, 0x1F1F6]]],
+			[['nr'], [[0xE263], [0x1F1F3, 0x1F1F7]]],
+			[['ns'], [[0xE264], [0x1F1F3, 0x1F1F8]]],
+			[['nt', 'xx-neutralzone'], [[0xE265], [0x1F1F3, 0x1F1F9]]],
+			[['nu'], [[0xE266], [0x1F1F3, 0x1F1FA]]],
+			[['nv'], [[0xE267], [0x1F1F3, 0x1F1FB]]],
+			[['nw'], [[0xE268], [0x1F1F3, 0x1F1FC]]],
+			[['nx'], [[0xE269], [0x1F1F3, 0x1F1FD]]],
+			[['ny'], [[0xE26A], [0x1F1F3, 0x1F1FE]]],
+			[['nz'], [[0xE26B], [0x1F1F3, 0x1F1FF]]],
+			[['oa'], [[0xE26C], [0x1F1F4, 0x1F1E6]]],
+			[['ob'], [[0xE26D], [0x1F1F4, 0x1F1E7]]],
+			[['oc'], [[0xE26E], [0x1F1F4, 0x1F1E8]]],
+			[['od'], [[0xE26F], [0x1F1F4, 0x1F1E9]]],
+			[['oe'], [[0xE270], [0x1F1F4, 0x1F1EA]]],
+			[['of'], [[0xE271], [0x1F1F4, 0x1F1EB]]],
+			[['og'], [[0xE272], [0x1F1F4, 0x1F1EC]]],
+			[['oh'], [[0xE273], [0x1F1F4, 0x1F1ED]]],
+			[['oi'], [[0xE274], [0x1F1F4, 0x1F1EE]]],
+			[['oj'], [[0xE275], [0x1F1F4, 0x1F1EF]]],
+			[['ok'], [[0xE276], [0x1F1F4, 0x1F1F0]]],
+			[['ol'], [[0xE277], [0x1F1F4, 0x1F1F1]]],
+			[['om'], [[0xE278], [0x1F1F4, 0x1F1F2]]],
+			[['on'], [[0xE279], [0x1F1F4, 0x1F1F3]]],
+			[['oo'], [[0xE27A], [0x1F1F4, 0x1F1F4]]],
+			[['op'], [[0xE27B], [0x1F1F4, 0x1F1F5]]],
+			[['oq'], [[0xE27C], [0x1F1F4, 0x1F1F6]]],
+			[['or'], [[0xE27D], [0x1F1F4, 0x1F1F7]]],
+			[['os'], [[0xE27E], [0x1F1F4, 0x1F1F8]]],
+			[['ot'], [[0xE27F], [0x1F1F4, 0x1F1F9]]],
+			[['ou'], [[0xE280], [0x1F1F4, 0x1F1FA]]],
+			[['ov'], [[0xE281], [0x1F1F4, 0x1F1FB]]],
+			[['ow'], [[0xE282], [0x1F1F4, 0x1F1FC]]],
+			[['ox'], [[0xE283], [0x1F1F4, 0x1F1FD]]],
+			[['oy'], [[0xE284], [0x1F1F4, 0x1F1FE]]],
+			[['oz'], [[0xE285], [0x1F1F4, 0x1F1FF]]],
+			[['pa'], [[0xE286], [0x1F1F5, 0x1F1E6]]],
+			[['pb'], [[0xE287], [0x1F1F5, 0x1F1E7]]],
+			[['pc'], [[0xE288], [0x1F1F5, 0x1F1E8]]],
+			[['pd'], [[0xE289], [0x1F1F5, 0x1F1E9]]],
+			[['pe'], [[0xE28A], [0x1F1F5, 0x1F1EA]]],
+			[['pf'], [[0xE28B], [0x1F1F5, 0x1F1EB]]],
+			[['pg'], [[0xE28C], [0x1F1F5, 0x1F1EC]]],
+			[['ph'], [[0xE28D], [0x1F1F5, 0x1F1ED]]],
+			[['pi'], [[0xE28E], [0x1F1F5, 0x1F1EE]]],
+			[['pj'], [[0xE28F], [0x1F1F5, 0x1F1EF]]],
+			[['pk'], [[0xE290], [0x1F1F5, 0x1F1F0]]],
+			[['pl'], [[0xE291], [0x1F1F5, 0x1F1F1]]],
+			[['pm'], [[0xE292], [0x1F1F5, 0x1F1F2]]],
+			[['pn'], [[0xE293], [0x1F1F5, 0x1F1F3]]],
+			[['po'], [[0xE294], [0x1F1F5, 0x1F1F4]]],
+			[['pp'], [[0xE295], [0x1F1F5, 0x1F1F5]]],
+			[['pq'], [[0xE296], [0x1F1F5, 0x1F1F6]]],
+			[['pr'], [[0xE297], [0x1F1F5, 0x1F1F7]]],
+			[['ps'], [[0xE298], [0x1F1F5, 0x1F1F8]]],
+			[['pt'], [[0xE299], [0x1F1F5, 0x1F1F9]]],
+			[['pu'], [[0xE29A], [0x1F1F5, 0x1F1FA]]],
+			[['pv'], [[0xE29B], [0x1F1F5, 0x1F1FB]]],
+			[['pw'], [[0xE29C], [0x1F1F5, 0x1F1FC]]],
+			[['px'], [[0xE29D], [0x1F1F5, 0x1F1FD]]],
+			[['py'], [[0xE29E], [0x1F1F5, 0x1F1FE]]],
+			[['pz'], [[0xE29F], [0x1F1F5, 0x1F1FF]]],
+			[['qa'], [[0xE2A0], [0x1F1F6, 0x1F1E6]]],
+			[['qb'], [[0xE2A1], [0x1F1F6, 0x1F1E7]]],
+			[['qc'], [[0xE2A2], [0x1F1F6, 0x1F1E8]]],
+			[['qd'], [[0xE2A3], [0x1F1F6, 0x1F1E9]]],
+			[['qe'], [[0xE2A4], [0x1F1F6, 0x1F1EA]]],
+			[['qf'], [[0xE2A5], [0x1F1F6, 0x1F1EB]]],
+			[['qg'], [[0xE2A6], [0x1F1F6, 0x1F1EC]]],
+			[['qh'], [[0xE2A7], [0x1F1F6, 0x1F1ED]]],
+			[['qi'], [[0xE2A8], [0x1F1F6, 0x1F1EE]]],
+			[['qj'], [[0xE2A9], [0x1F1F6, 0x1F1EF]]],
+			[['qk'], [[0xE2AA], [0x1F1F6, 0x1F1F0]]],
+			[['ql'], [[0xE2AB], [0x1F1F6, 0x1F1F1]]],
+			[['qm'], [[0xE2AC], [0x1F1F6, 0x1F1F2]]],
+			[['qn'], [[0xE2AD], [0x1F1F6, 0x1F1F3]]],
+			[['qo'], [[0xE2AE], [0x1F1F6, 0x1F1F4]]],
+			[['qp'], [[0xE2AF], [0x1F1F6, 0x1F1F5]]],
+			[['qq'], [[0xE2B0], [0x1F1F6, 0x1F1F6]]],
+			[['qr'], [[0xE2B1], [0x1F1F6, 0x1F1F7]]],
+			[['qs'], [[0xE2B2], [0x1F1F6, 0x1F1F8]]],
+			[['qt'], [[0xE2B3], [0x1F1F6, 0x1F1F9]]],
+			[['qu'], [[0xE2B4], [0x1F1F6, 0x1F1FA]]],
+			[['qv'], [[0xE2B5], [0x1F1F6, 0x1F1FB]]],
+			[['qw'], [[0xE2B6], [0x1F1F6, 0x1F1FC]]],
+			[['qx'], [[0xE2B7], [0x1F1F6, 0x1F1FD]]],
+			[['qy'], [[0xE2B8], [0x1F1F6, 0x1F1FE]]],
+			[['qz'], [[0xE2B9], [0x1F1F6, 0x1F1FF]]],
+			[['ra'], [[0xE2BA], [0x1F1F7, 0x1F1E6]]],
+			[['rb'], [[0xE2BB], [0x1F1F7, 0x1F1E7]]],
+			[['rc'], [[0xE2BC], [0x1F1F7, 0x1F1E8]]],
+			[['rd'], [[0xE2BD], [0x1F1F7, 0x1F1E9]]],
+			[['re'], [[0xE2BE], [0x1F1F7, 0x1F1EA]]],
+			[['rf'], [[0xE2BF], [0x1F1F7, 0x1F1EB]]],
+			[['rg'], [[0xE2C0], [0x1F1F7, 0x1F1EC]]],
+			[['rh'], [[0xE2C1], [0x1F1F7, 0x1F1ED]]],
+			[['ri'], [[0xE2C2], [0x1F1F7, 0x1F1EE]]],
+			[['rj'], [[0xE2C3], [0x1F1F7, 0x1F1EF]]],
+			[['rk'], [[0xE2C4], [0x1F1F7, 0x1F1F0]]],
+			[['rl'], [[0xE2C5], [0x1F1F7, 0x1F1F1]]],
+			[['rm'], [[0xE2C6], [0x1F1F7, 0x1F1F2]]],
+			[['rn'], [[0xE2C7], [0x1F1F7, 0x1F1F3]]],
+			[['ro'], [[0xE2C8], [0x1F1F7, 0x1F1F4]]],
+			[['rp'], [[0xE2C9], [0x1F1F7, 0x1F1F5]]],
+			[['rq'], [[0xE2CA], [0x1F1F7, 0x1F1F6]]],
+			[['rr'], [[0xE2CB], [0x1F1F7, 0x1F1F7]]],
+			[['rs'], [[0xE2CC], [0x1F1F7, 0x1F1F8]]],
+			[['rt'], [[0xE2CD], [0x1F1F7, 0x1F1F9]]],
+			[['ru'], [[0xE2CE], [0x1F1F7, 0x1F1FA]]],
+			[['rv'], [[0xE2CF], [0x1F1F7, 0x1F1FB]]],
+			[['rw'], [[0xE2D0], [0x1F1F7, 0x1F1FC]]],
+			[['rx'], [[0xE2D1], [0x1F1F7, 0x1F1FD]]],
+			[['ry'], [[0xE2D2], [0x1F1F7, 0x1F1FE]]],
+			[['rz'], [[0xE2D3], [0x1F1F7, 0x1F1FF]]],
+			[['sa'], [[0xE2D4], [0x1F1F8, 0x1F1E6]]],
+			[['sb'], [[0xE2D5], [0x1F1F8, 0x1F1E7]]],
+			[['sc'], [[0xE2D6], [0x1F1F8, 0x1F1E8]]],
+			[['sd'], [[0xE2D7], [0x1F1F8, 0x1F1E9]]],
+			[['se'], [[0xE2D8], [0x1F1F8, 0x1F1EA]]],
+			[['sf', 'xx-suomifinland'], [[0xE2D9], [0x1F1F8, 0x1F1EB]]],
+			[['sg'], [[0xE2DA], [0x1F1F8, 0x1F1EC]]],
+			[['sh'], [[0xE2DB], [0x1F1F8, 0x1F1ED]]],
+			[['si'], [[0xE2DC], [0x1F1F8, 0x1F1EE]]],
+			[['sj'], [[0xE2DD], [0x1F1F8, 0x1F1EF]]],
+			[['sk'], [[0xE2DE], [0x1F1F8, 0x1F1F0]]],
+			[['sl'], [[0xE2DF], [0x1F1F8, 0x1F1F1]]],
+			[['sm'], [[0xE2E0], [0x1F1F8, 0x1F1F2]]],
+			[['sn'], [[0xE2E1], [0x1F1F8, 0x1F1F3]]],
+			[['so'], [[0xE2E2], [0x1F1F8, 0x1F1F4]]],
+			[['sp'], [[0xE2E3], [0x1F1F8, 0x1F1F5]]],
+			[['sq'], [[0xE2E4], [0x1F1F8, 0x1F1F6]]],
+			[['sr'], [[0xE2E5], [0x1F1F8, 0x1F1F7]]],
+			[['ss'], [[0xE2E6], [0x1F1F8, 0x1F1F8]]],
+			[['st'], [[0xE2E7], [0x1F1F8, 0x1F1F9]]],
+			[['su', 'xx-ussr', 'xx-sovietunion'], [[0xE2E8], [0x1F1F8, 0x1F1FA]]],
+			[['sv'], [[0xE2E9], [0x1F1F8, 0x1F1FB]]],
+			[['sw'], [[0xE2EA], [0x1F1F8, 0x1F1FC]]],
+			[['sx'], [[0xE2EB], [0x1F1F8, 0x1F1FD]]],
+			[['sy'], [[0xE2EC], [0x1F1F8, 0x1F1FE]]],
+			[['sz'], [[0xE2ED], [0x1F1F8, 0x1F1FF]]],
+			[['ta', 'xx-tristandacunha'], [[0xE2EE], [0x1F1F9, 0x1F1E6]]],
+			[['tb'], [[0xE2EF], [0x1F1F9, 0x1F1E7]]],
+			[['tc'], [[0xE2F0], [0x1F1F9, 0x1F1E8]]],
+			[['td'], [[0xE2F1], [0x1F1F9, 0x1F1E9]]],
+			[['te'], [[0xE2F2], [0x1F1F9, 0x1F1EA]]],
+			[['tf'], [[0xE2F3], [0x1F1F9, 0x1F1EB]]],
+			[['tg'], [[0xE2F4], [0x1F1F9, 0x1F1EC]]],
+			[['th'], [[0xE2F5], [0x1F1F9, 0x1F1ED]]],
+			[['ti'], [[0xE2F6], [0x1F1F9, 0x1F1EE]]],
+			[['tj'], [[0xE2F7], [0x1F1F9, 0x1F1EF]]],
+			[['tk'], [[0xE2F8], [0x1F1F9, 0x1F1F0]]],
+			[['tl'], [[0xE2F9], [0x1F1F9, 0x1F1F1]]],
+			[['tm'], [[0xE2FA], [0x1F1F9, 0x1F1F2]]],
+			[['tn'], [[0xE2FB], [0x1F1F9, 0x1F1F3]]],
+			[['to'], [[0xE2FC], [0x1F1F9, 0x1F1F4]]],
+			[['tp', 'xx-easttimor', 'xx-portuguesetimor'], [[0xE2FD], [0x1F1F9, 0x1F1F5]]],
+			[['tq'], [[0xE2FE], [0x1F1F9, 0x1F1F6]]],
+			[['tr'], [[0xE2FF], [0x1F1F9, 0x1F1F7]]],
+			[['ts'], [[0xE300], [0x1F1F9, 0x1F1F8]]],
+			[['tt'], [[0xE301], [0x1F1F9, 0x1F1F9]]],
+			[['tu'], [[0xE302], [0x1F1F9, 0x1F1FA]]],
+			[['tv'], [[0xE303], [0x1F1F9, 0x1F1FB]]],
+			[['tw'], [[0xE304], [0x1F1F9, 0x1F1FC]]],
+			[['tx'], [[0xE305], [0x1F1F9, 0x1F1FD]]],
+			[['ty'], [[0xE306], [0x1F1F9, 0x1F1FE]]],
+			[['tz'], [[0xE307], [0x1F1F9, 0x1F1FF]]],
+			[['ua'], [[0xE308], [0x1F1FA, 0x1F1E6]]],
+			[['ub'], [[0xE309], [0x1F1FA, 0x1F1E7]]],
+			[['uc'], [[0xE30A], [0x1F1FA, 0x1F1E8]]],
+			[['ud'], [[0xE30B], [0x1F1FA, 0x1F1E9]]],
+			[['ue'], [[0xE30C], [0x1F1FA, 0x1F1EA]]],
+			[['uf'], [[0xE30D], [0x1F1FA, 0x1F1EB]]],
+			[['ug'], [[0xE30E], [0x1F1FA, 0x1F1EC]]],
+			[['uh'], [[0xE30F], [0x1F1FA, 0x1F1ED]]],
+			[['ui'], [[0xE310], [0x1F1FA, 0x1F1EE]]],
+			[['uj'], [[0xE311], [0x1F1FA, 0x1F1EF]]],
+			[['uk'], [[0xE312], [0x1F1FA, 0x1F1F0]]],
+			[['ul'], [[0xE313], [0x1F1FA, 0x1F1F1]]],
+			[['um'], [[0xE314], [0x1F1FA, 0x1F1F2]]],
+			[['un', 'xx-unitednations'], [[0xE315], [0x1F1FA, 0x1F1F3]]],
+			[['uo'], [[0xE316], [0x1F1FA, 0x1F1F4]]],
+			[['up'], [[0xE317], [0x1F1FA, 0x1F1F5]]],
+			[['uq'], [[0xE318], [0x1F1FA, 0x1F1F6]]],
+			[['ur'], [[0xE319], [0x1F1FA, 0x1F1F7]]],
+			[['us'], [[0xE31A], [0x1F1FA, 0x1F1F8]]],
+			[['ut'], [[0xE31B], [0x1F1FA, 0x1F1F9]]],
+			[['uu'], [[0xE31C], [0x1F1FA, 0x1F1FA]]],
+			[['uv'], [[0xE31D], [0x1F1FA, 0x1F1FB]]],
+			[['uw'], [[0xE31E], [0x1F1FA, 0x1F1FC]]],
+			[['ux'], [[0xE31F], [0x1F1FA, 0x1F1FD]]],
+			[['uy'], [[0xE320], [0x1F1FA, 0x1F1FE]]],
+			[['uz'], [[0xE321], [0x1F1FA, 0x1F1FF]]],
+			[['va'], [[0xE322], [0x1F1FB, 0x1F1E6]]],
+			[['vb'], [[0xE323], [0x1F1FB, 0x1F1E7]]],
+			[['vc'], [[0xE324], [0x1F1FB, 0x1F1E8]]],
+			[['vd'], [[0xE325], [0x1F1FB, 0x1F1E9]]],
+			[['ve'], [[0xE326], [0x1F1FB, 0x1F1EA]]],
+			[['vf'], [[0xE327], [0x1F1FB, 0x1F1EB]]],
+			[['vg'], [[0xE328], [0x1F1FB, 0x1F1EC]]],
+			[['vh'], [[0xE329], [0x1F1FB, 0x1F1ED]]],
+			[['vi'], [[0xE32A], [0x1F1FB, 0x1F1EE]]],
+			[['vj'], [[0xE32B], [0x1F1FB, 0x1F1EF]]],
+			[['vk'], [[0xE32C], [0x1F1FB, 0x1F1F0]]],
+			[['vl'], [[0xE32D], [0x1F1FB, 0x1F1F1]]],
+			[['vm'], [[0xE32E], [0x1F1FB, 0x1F1F2]]],
+			[['vn'], [[0xE32F], [0x1F1FB, 0x1F1F3]]],
+			[['vo'], [[0xE330], [0x1F1FB, 0x1F1F4]]],
+			[['vp'], [[0xE331], [0x1F1FB, 0x1F1F5]]],
+			[['vq'], [[0xE332], [0x1F1FB, 0x1F1F6]]],
+			[['vr'], [[0xE333], [0x1F1FB, 0x1F1F7]]],
+			[['vs'], [[0xE334], [0x1F1FB, 0x1F1F8]]],
+			[['vt'], [[0xE335], [0x1F1FB, 0x1F1F9]]],
+			[['vu'], [[0xE336], [0x1F1FB, 0x1F1FA]]],
+			[['vv'], [[0xE337], [0x1F1FB, 0x1F1FB]]],
+			[['vw'], [[0xE338], [0x1F1FB, 0x1F1FC]]],
+			[['vx'], [[0xE339], [0x1F1FB, 0x1F1FD]]],
+			[['vy'], [[0xE33A], [0x1F1FB, 0x1F1FE]]],
+			[['vz'], [[0xE33B], [0x1F1FB, 0x1F1FF]]],
+			[['wa'], [[0xE33C], [0x1F1FC, 0x1F1E6]]],
+			[['wb'], [[0xE33D], [0x1F1FC, 0x1F1E7]]],
+			[['wc'], [[0xE33E], [0x1F1FC, 0x1F1E8]]],
+			[['wd'], [[0xE33F], [0x1F1FC, 0x1F1E9]]],
+			[['we'], [[0xE340], [0x1F1FC, 0x1F1EA]]],
+			[['wf'], [[0xE341], [0x1F1FC, 0x1F1EB]]],
+			[['wg'], [[0xE342], [0x1F1FC, 0x1F1EC]]],
+			[['wh'], [[0xE343], [0x1F1FC, 0x1F1ED]]],
+			[['wi'], [[0xE344], [0x1F1FC, 0x1F1EE]]],
+			[['wj'], [[0xE345], [0x1F1FC, 0x1F1EF]]],
+			[['wk'], [[0xE346], [0x1F1FC, 0x1F1F0]]],
+			[['wl'], [[0xE347], [0x1F1FC, 0x1F1F1]]],
+			[['wm'], [[0xE348], [0x1F1FC, 0x1F1F2]]],
+			[['wn'], [[0xE349], [0x1F1FC, 0x1F1F3]]],
+			[['wo'], [[0xE34A], [0x1F1FC, 0x1F1F4]]],
+			[['wp'], [[0xE34B], [0x1F1FC, 0x1F1F5]]],
+			[['wq'], [[0xE34C], [0x1F1FC, 0x1F1F6]]],
+			[['wr'], [[0xE34D], [0x1F1FC, 0x1F1F7]]],
+			[['ws'], [[0xE34E], [0x1F1FC, 0x1F1F8]]],
+			[['wt'], [[0xE34F], [0x1F1FC, 0x1F1F9]]],
+			[['wu'], [[0xE350], [0x1F1FC, 0x1F1FA]]],
+			[['wv'], [[0xE351], [0x1F1FC, 0x1F1FB]]],
+			[['ww'], [[0xE352], [0x1F1FC, 0x1F1FC]]],
+			[['wx'], [[0xE353], [0x1F1FC, 0x1F1FD]]],
+			[['wy'], [[0xE354], [0x1F1FC, 0x1F1FE]]],
+			[['wz'], [[0xE355], [0x1F1FC, 0x1F1FF]]],
+			[['xa'], [[0xE356], [0x1F1FD, 0x1F1E6]]],
+			[['xb'], [[0xE357], [0x1F1FD, 0x1F1E7]]],
+			[['xc'], [[0xE358], [0x1F1FD, 0x1F1E8]]],
+			[['xd'], [[0xE359], [0x1F1FD, 0x1F1E9]]],
+			[['xe'], [[0xE35A], [0x1F1FD, 0x1F1EA]]],
+			[['xf'], [[0xE35B], [0x1F1FD, 0x1F1EB]]],
+			[['xg'], [[0xE35C], [0x1F1FD, 0x1F1EC]]],
+			[['xh'], [[0xE35D], [0x1F1FD, 0x1F1ED]]],
+			[['xi'], [[0xE35E], [0x1F1FD, 0x1F1EE]]],
+			[['xj'], [[0xE35F], [0x1F1FD, 0x1F1EF]]],
+			[['xk', 'xx-kosovo'], [[0xE360], [0x1F1FD, 0x1F1F0]]],
+			[['xl'], [[0xE361], [0x1F1FD, 0x1F1F1]]],
+			[['xm'], [[0xE362], [0x1F1FD, 0x1F1F2]]],
+			[['xn'], [[0xE363], [0x1F1FD, 0x1F1F3]]],
+			[['xo'], [[0xE364], [0x1F1FD, 0x1F1F4]]],
+			[['xp'], [[0xE365], [0x1F1FD, 0x1F1F5]]],
+			[['xq'], [[0xE366], [0x1F1FD, 0x1F1F6]]],
+			[['xr'], [[0xE367], [0x1F1FD, 0x1F1F7]]],
+			[['xs'], [[0xE368], [0x1F1FD, 0x1F1F8]]],
+			[['xt'], [[0xE369], [0x1F1FD, 0x1F1F9]]],
+			[['xu'], [[0xE36A], [0x1F1FD, 0x1F1FA]]],
+			[['xv'], [[0xE36B], [0x1F1FD, 0x1F1FB]]],
+			[['xw'], [[0xE36C], [0x1F1FD, 0x1F1FC]]],
+			[['xx'], [[0xE36D], [0x1F1FD, 0x1F1FD]]],
+			[['xy'], [[0xE36E], [0x1F1FD, 0x1F1FE]]],
+			[['xz'], [[0xE36F], [0x1F1FD, 0x1F1FF]]],
+			[['ya'], [[0xE370], [0x1F1FE, 0x1F1E6]]],
+			[['yb'], [[0xE371], [0x1F1FE, 0x1F1E7]]],
+			[['yc'], [[0xE372], [0x1F1FE, 0x1F1E8]]],
+			[['yd'], [[0xE373], [0x1F1FE, 0x1F1E9]]],
+			[['ye'], [[0xE374], [0x1F1FE, 0x1F1EA]]],
+			[['yf'], [[0xE375], [0x1F1FE, 0x1F1EB]]],
+			[['yg'], [[0xE376], [0x1F1FE, 0x1F1EC]]],
+			[['yh'], [[0xE377], [0x1F1FE, 0x1F1ED]]],
+			[['yi'], [[0xE378], [0x1F1FE, 0x1F1EE]]],
+			[['yj'], [[0xE379], [0x1F1FE, 0x1F1EF]]],
+			[['yk'], [[0xE37A], [0x1F1FE, 0x1F1F0]]],
+			[['yl'], [[0xE37B], [0x1F1FE, 0x1F1F1]]],
+			[['ym'], [[0xE37C], [0x1F1FE, 0x1F1F2]]],
+			[['yn'], [[0xE37D], [0x1F1FE, 0x1F1F3]]],
+			[['yo'], [[0xE37E], [0x1F1FE, 0x1F1F4]]],
+			[['yp'], [[0xE37F], [0x1F1FE, 0x1F1F5]]],
+			[['yq'], [[0xE380], [0x1F1FE, 0x1F1F6]]],
+			[['yr'], [[0xE381], [0x1F1FE, 0x1F1F7]]],
+			[['ys'], [[0xE382], [0x1F1FE, 0x1F1F8]]],
+			[['yt'], [[0xE383], [0x1F1FE, 0x1F1F9]]],
+			[['yu', 'xx-yugoslavia'], [[0xE384], [0x1F1FE, 0x1F1FA]]],
+			[['yv'], [[0xE385], [0x1F1FE, 0x1F1FB]]],
+			[['yw'], [[0xE386], [0x1F1FE, 0x1F1FC]]],
+			[['yx'], [[0xE387], [0x1F1FE, 0x1F1FD]]],
+			[['yy'], [[0xE388], [0x1F1FE, 0x1F1FE]]],
+			[['yz'], [[0xE389], [0x1F1FE, 0x1F1FF]]],
+			[['za'], [[0xE38A], [0x1F1FF, 0x1F1E6]]],
+			[['zb'], [[0xE38B], [0x1F1FF, 0x1F1E7]]],
+			[['zc'], [[0xE38C], [0x1F1FF, 0x1F1E8]]],
+			[['zd'], [[0xE38D], [0x1F1FF, 0x1F1E9]]],
+			[['ze'], [[0xE38E], [0x1F1FF, 0x1F1EA]]],
+			[['zf'], [[0xE38F], [0x1F1FF, 0x1F1EB]]],
+			[['zg'], [[0xE390], [0x1F1FF, 0x1F1EC]]],
+			[['zh'], [[0xE391], [0x1F1FF, 0x1F1ED]]],
+			[['zi'], [[0xE392], [0x1F1FF, 0x1F1EE]]],
+			[['zj'], [[0xE393], [0x1F1FF, 0x1F1EF]]],
+			[['zk'], [[0xE394], [0x1F1FF, 0x1F1F0]]],
+			[['zl'], [[0xE395], [0x1F1FF, 0x1F1F1]]],
+			[['zm'], [[0xE396], [0x1F1FF, 0x1F1F2]]],
+			[['zn'], [[0xE397], [0x1F1FF, 0x1F1F3]]],
+			[['zo'], [[0xE398], [0x1F1FF, 0x1F1F4]]],
+			[['zp'], [[0xE399], [0x1F1FF, 0x1F1F5]]],
+			[['zq'], [[0xE39A], [0x1F1FF, 0x1F1F6]]],
+			[['zr', 'xx-zaire'], [[0xE39B], [0x1F1FF, 0x1F1F7]]],
+			[['zs'], [[0xE39C], [0x1F1FF, 0x1F1F8]]],
+			[['zt'], [[0xE39D], [0x1F1FF, 0x1F1F9]]],
+			[['zu'], [[0xE39E], [0x1F1FF, 0x1F1FA]]],
+			[['zv'], [[0xE39F], [0x1F1FF, 0x1F1FB]]],
+			[['zw'], [[0xE3A0], [0x1F1FF, 0x1F1FC]]],
+			[['zx'], [[0xE3A1], [0x1F1FF, 0x1F1FD]]],
+			[['zy'], [[0xE3A2], [0x1F1FF, 0x1F1FE]]],
+			[['zz'], [[0xE3A3], [0x1F1FF, 0x1F1FF]]],
+			[['us-dc', 'xx-districtofcolumbia'], [[0xE400]]],
+			[['us-de', 'xx-delaware'], [[0xE401]]],
+			[['us-pa', 'xx-pennsylvania'], [[0xE402]]],
+			[['us-nj', 'xx-newjersey'], [[0xE403]]],
+			[['us-ga', 'xx-georgia'], [[0xE404]]],
+			[['us-ct', 'xx-connecticut'], [[0xE405]]],
+			[['us-ma', 'xx-massachusetts'], [[0xE406]]],
+			[['us-md', 'xx-maryland'], [[0xE407]]],
+			[['us-sc', 'xx-southcarolina'], [[0xE408]]],
+			[['us-nh', 'xx-newhampshire'], [[0xE409]]],
+			[['us-va', 'xx-virginia'], [[0xE40A]]],
+			[['us-ny', 'xx-newyork'], [[0xE40B]]],
+			[['us-nc', 'xx-northcarolina'], [[0xE40C]]],
+			[['us-ri', 'xx-rhodeisland'], [[0xE40D]]],
+			[['us-vt', 'xx-vermont'], [[0xE40E]]],
+			[['us-ky', 'xx-kentucky'], [[0xE40F]]],
+			[['us-tn', 'xx-tennessee'], [[0xE410]]],
+			[['us-oh', 'xx-ohio'], [[0xE411]]],
+			[['us-la', 'xx-louisiana'], [[0xE412]]],
+			[['us-in', 'xx-indiana'], [[0xE413]]],
+			[['us-ms', 'xx-mississippi'], [[0xE414]]],
+			[['us-il', 'xx-illinois'], [[0xE415]]],
+			[['us-al', 'xx-alabama'], [[0xE416]]],
+			[['us-me', 'xx-maine'], [[0xE417]]],
+			[['us-mo', 'xx-missouri'], [[0xE418]]],
+			[['us-ar', 'xx-arkansas'], [[0xE419]]],
+			[['us-mi', 'xx-michigan'], [[0xE41A]]],
+			[['us-fl', 'xx-florida'], [[0xE41B]]],
+			[['us-tx', 'xx-texas'], [[0xE41C]]],
+			[['us-ia', 'xx-iowa'], [[0xE41D]]],
+			[['us-wi', 'xx-wisconsin'], [[0xE41E]]],
+			[['us-ca', 'xx-california'], [[0xE41F]]],
+			[['us-mn', 'xx-minnesota'], [[0xE420]]],
+			[['us-or', 'xx-oregon'], [[0xE421]]],
+			[['us-ks', 'xx-kansas'], [[0xE422]]],
+			[['us-wv', 'xx-westvirginia'], [[0xE423]]],
+			[['us-nv', 'xx-nevada'], [[0xE424]]],
+			[['us-ne', 'xx-nebraska'], [[0xE425]]],
+			[['us-co', 'xx-colorado'], [[0xE426]]],
+			[['us-nd', 'xx-northdakota'], [[0xE427]]],
+			[['us-sd', 'xx-southdakota'], [[0xE428]]],
+			[['us-mt', 'xx-montana'], [[0xE429]]],
+			[['us-wa', 'xx-washington'], [[0xE42A]]],
+			[['us-id', 'xx-idaho'], [[0xE42B]]],
+			[['us-wy', 'xx-wyoming'], [[0xE42C]]],
+			[['us-ut', 'xx-utah'], [[0xE42D]]],
+			[['us-ok', 'xx-oklahoma'], [[0xE42E]]],
+			[['us-nm', 'xx-newmexico'], [[0xE42F]]],
+			[['us-az', 'xx-arizona'], [[0xE430]]],
+			[['us-ak', 'xx-alaska'], [[0xE431]]],
+			[['us-hi', 'xx-hawaii'], [[0xE432]]],
+			[['xx-northtakoma'], [[0xE43F]]],
+			[['ca-on', 'xx-ontario'], [[0xE440]]],
+			[['ca-qc', 'xx-quebec'], [[0xE441]]],
+			[['ca-ns', 'xx-novascotia'], [[0xE442]]],
+			[['ca-nb', 'xx-newbrunswick'], [[0xE443]]],
+			[['ca-mb', 'xx-manitoba'], [[0xE444]]],
+			[['ca-nt', 'xx-northwestterritories'], [[0xE445]]],
+			[['ca-bc', 'xx-britishcolumbia'], [[0xE446]]],
+			[['ca-pe', 'xx-princeedwardisland'], [[0xE447]]],
+			[['ca-yt', 'xx-yukon'], [[0xE448]]],
+			[['ca-sk', 'xx-saskatchewan'], [[0xE449]]],
+			[['ca-ab', 'xx-alberta'], [[0xE44A]]],
+			[['ca-nl', 'xx-newfoundlandandlabrador'], [[0xE44B]]],
+			[['ca-nu', 'xx-nunavut'], [[0xE44C]]],
+			[['mx-cmx', 'xx-ciudaddemexico'], [[0xE480]]],
+			[['mx-mex', 'xx-mexico'], [[0xE481]]],
+			[['mx-gua', 'xx-guanajuato'], [[0xE482]]],
+			[['mx-oax', 'xx-oaxaca'], [[0xE483]]],
+			[['mx-pue', 'xx-puebla'], [[0xE484]]],
+			[['mx-mic', 'xx-michoacan'], [[0xE485]]],
+			[['mx-slp', 'xx-sanluispotosi'], [[0xE486]]],
+			[['mx-ver', 'xx-veracruz'], [[0xE487]]],
+			[['mx-yuc', 'xx-yucatan'], [[0xE488]]],
+			[['mx-jal', 'xx-jalisco'], [[0xE489]]],
+			[['mx-zac', 'xx-zacatecas'], [[0xE48A]]],
+			[['mx-que', 'xx-queretaro'], [[0xE48B]]],
+			[['mx-son', 'xx-sonora'], [[0xE48C]]],
+			[['mx-tab', 'xx-tabasco'], [[0xE48D]]],
+			[['mx-tam', 'xx-tamaulipas'], [[0xE48E]]],
+			[['mx-nle', 'xx-nuevoleon'], [[0xE48F]]],
+			[['mx-coa', 'xx-coahuila'], [[0xE490]]],
+			[['mx-dur', 'xx-durango'], [[0xE491]]],
+			[['mx-chh', 'xx-chihuahua'], [[0xE492]]],
+			[['mx-chp', 'xx-chiapas'], [[0xE493]]],
+			[['mx-sin', 'xx-sinaloa'], [[0xE494]]],
+			[['mx-gro', 'xx-guerrero'], [[0xE495]]],
+			[['mx-tla', 'xx-tlaxcala'], [[0xE496]]],
+			[['mx-col', 'xx-colima'], [[0xE497]]],
+			[['mx-agu', 'xx-aguascalientes'], [[0xE498]]],
+			[['mx-cam', 'xx-campeche'], [[0xE499]]],
+			[['mx-hid', 'xx-hidalgo'], [[0xE49A]]],
+			[['mx-mor', 'xx-morelos'], [[0xE49B]]],
+			[['mx-nay', 'xx-nayarit'], [[0xE49C]]],
+			[['mx-bcn', 'xx-bajacalifornia'], [[0xE49D]]],
+			[['mx-roo', 'xx-quintanaroo'], [[0xE49E]]],
+			[['mx-bcs', 'xx-bajacaliforniasur'], [[0xE49F]]],
+			[['xx-na-us'], [[0xE4C0]]],
+			[['xx-na-ca'], [[0xE4C1]]],
+			[['xx-na-mx'], [[0xE4C2]]],
+			[['xx-na-cherokee'], [[0xE4C3]]],
+			[['xx-na-chickasaw'], [[0xE4C4]]],
+			[['xx-na-choctaw'], [[0xE4C5]]],
+			[['xx-na-easternshawnee'], [[0xE4C6]]],
+			[['xx-na-hopi'], [[0xE4C7]]],
+			[['xx-na-iroquois'], [[0xE4C8]]],
+			[['xx-na-lakota'], [[0xE4C9]]],
+			[['xx-na-miccosukee'], [[0xE4CA]]],
+			[['xx-na-navajo'], [[0xE4CB]]],
+			[['xx-na-northerncheyenne'], [[0xE4CC]]],
+			[['xx-na-quapaw'], [[0xE4CD]]],
+			[['xx-na-shawnee'], [[0xE4CE]]],
+			[['xx-na-spokane'], [[0xE4CF]]],
+			[['gb-ukm', 'uk-ukm', 'xx-unitedkingdom'], [[0xE500]]],
+			[['gb-gbn', 'uk-gbn', 'xx-greatbritain'], [[0xE501]]],
+			[['gb-eaw', 'uk-eaw', 'xx-englandandwales'], [[0xE502]]],
+			[['gb-eng', 'uk-eng', 'xx-england'], [[0xE503]]],
+			[['gb-wls', 'uk-wls', 'xx-wales'], [[0xE504]]],
+			[['gb-sct', 'uk-sct', 'xx-scotland'], [[0xE505]]],
+			[['gb-nir', 'uk-nir', 'xx-northernireland'], [[0xE506]]],
+			[['xx-scotchirish'], [[0xE50F]]],
+			[['gb-bkm', 'uk-bkm'], [[0xE510]]],
+			[['gb-cam', 'uk-cam'], [[0xE511]]],
+			[['gb-cma', 'uk-cma'], [[0xE512]]],
+			[['gb-dby', 'uk-dby'], [[0xE513]]],
+			[['gb-dev', 'uk-dev'], [[0xE514]]],
+			[['gb-dor', 'uk-dor'], [[0xE515]]],
+			[['gb-esx', 'uk-esx'], [[0xE516]]],
+			[['gb-ess', 'uk-ess'], [[0xE517]]],
+			[['gb-gls', 'uk-gls'], [[0xE518]]],
+			[['gb-ham', 'uk-ham'], [[0xE519]]],
+			[['gb-hrt', 'uk-hrt'], [[0xE51A]]],
+			[['gb-ken', 'uk-ken'], [[0xE51B]]],
+			[['gb-lan', 'uk-lan'], [[0xE51C]]],
+			[['gb-lec', 'uk-lec'], [[0xE51D]]],
+			[['gb-lin', 'uk-lin'], [[0xE51E]]],
+			[['gb-nfk', 'uk-nfk'], [[0xE51F]]],
+			[['gb-nyk', 'uk-nyk'], [[0xE520]]],
+			[['gb-nth', 'uk-nth'], [[0xE521]]],
+			[['gb-ntt', 'uk-ntt'], [[0xE522]]],
+			[['gb-oxf', 'uk-oxf'], [[0xE523]]],
+			[['gb-som', 'uk-som'], [[0xE524]]],
+			[['gb-sts', 'uk-sts'], [[0xE525]]],
+			[['gb-sfk', 'uk-sfk'], [[0xE526]]],
+			[['gb-sry', 'uk-sry'], [[0xE527]]],
+			[['gb-war', 'uk-war'], [[0xE528]]],
+			[['gb-wsx', 'uk-wsx'], [[0xE529]]],
+			[['gb-wor', 'uk-wor'], [[0xE52A]]],
+			[['gb-lnd', 'uk-lnd'], [[0xE52B]]],
+			[['gb-bdg', 'uk-bdg'], [[0xE52C]]],
+			[['gb-bne', 'uk-bne'], [[0xE52D]]],
+			[['gb-bex', 'uk-bex'], [[0xE52E]]],
+			[['gb-ben', 'uk-ben'], [[0xE52F]]],
+			[['gb-bry', 'uk-bry'], [[0xE530]]],
+			[['gb-cmd', 'uk-cmd'], [[0xE531]]],
+			[['gb-cry', 'uk-cry'], [[0xE532]]],
+			[['gb-eal', 'uk-eal'], [[0xE533]]],
+			[['gb-enf', 'uk-enf'], [[0xE534]]],
+			[['gb-gre', 'uk-gre'], [[0xE535]]],
+			[['gb-hck', 'uk-hck'], [[0xE536]]],
+			[['gb-hmf', 'uk-hmf'], [[0xE537]]],
+			[['gb-hry', 'uk-hry'], [[0xE538]]],
+			[['gb-hrw', 'uk-hrw'], [[0xE539]]],
+			[['gb-hav', 'uk-hav'], [[0xE53A]]],
+			[['gb-hil', 'uk-hil'], [[0xE53B]]],
+			[['gb-hns', 'uk-hns'], [[0xE53C]]],
+			[['gb-isl', 'uk-isl'], [[0xE53D]]],
+			[['gb-kec', 'uk-kec'], [[0xE53E]]],
+			[['gb-ktt', 'uk-ktt'], [[0xE53F]]],
+			[['gb-lbh', 'uk-lbh'], [[0xE540]]],
+			[['gb-lew', 'uk-lew'], [[0xE541]]],
+			[['gb-mrt', 'uk-mrt'], [[0xE542]]],
+			[['gb-nwm', 'uk-nwm'], [[0xE543]]],
+			[['gb-rdb', 'uk-rdb'], [[0xE544]]],
+			[['gb-ric', 'uk-ric'], [[0xE545]]],
+			[['gb-swk', 'uk-swk'], [[0xE546]]],
+			[['gb-stn', 'uk-stn'], [[0xE547]]],
+			[['gb-twh', 'uk-twh'], [[0xE548]]],
+			[['gb-wft', 'uk-wft'], [[0xE549]]],
+			[['gb-wnd', 'uk-wnd'], [[0xE54A]]],
+			[['gb-wsm', 'uk-wsm'], [[0xE54B]]],
+			[['gb-bns', 'uk-bns'], [[0xE54C]]],
+			[['gb-bir', 'uk-bir'], [[0xE54D]]],
+			[['gb-bol', 'uk-bol'], [[0xE54E]]],
+			[['gb-brd', 'uk-brd'], [[0xE54F]]],
+			[['gb-bur', 'uk-bur'], [[0xE550]]],
+			[['gb-cld', 'uk-cld'], [[0xE551]]],
+			[['gb-cov', 'uk-cov'], [[0xE552]]],
+			[['gb-dnc', 'uk-dnc'], [[0xE553]]],
+			[['gb-dud', 'uk-dud'], [[0xE554]]],
+			[['gb-gat', 'uk-gat'], [[0xE555]]],
+			[['gb-kir', 'uk-kir'], [[0xE556]]],
+			[['gb-kwl', 'uk-kwl'], [[0xE557]]],
+			[['gb-lds', 'uk-lds'], [[0xE558]]],
+			[['gb-liv', 'uk-liv'], [[0xE559]]],
+			[['gb-man', 'uk-man'], [[0xE55A]]],
+			[['gb-net', 'uk-net'], [[0xE55B]]],
+			[['gb-nty', 'uk-nty'], [[0xE55C]]],
+			[['gb-old', 'uk-old'], [[0xE55D]]],
+			[['gb-rch', 'uk-rch'], [[0xE55E]]],
+			[['gb-rot', 'uk-rot'], [[0xE55F]]],
+			[['gb-shn', 'uk-shn'], [[0xE560]]],
+			[['gb-slf', 'uk-slf'], [[0xE561]]],
+			[['gb-saw', 'uk-saw'], [[0xE562]]],
+			[['gb-sft', 'uk-sft'], [[0xE563]]],
+			[['gb-shf', 'uk-shf'], [[0xE564]]],
+			[['gb-sol', 'uk-sol'], [[0xE565]]],
+			[['gb-sty', 'uk-sty'], [[0xE566]]],
+			[['gb-skp', 'uk-skp'], [[0xE567]]],
+			[['gb-snd', 'uk-snd'], [[0xE568]]],
+			[['gb-tam', 'uk-tam'], [[0xE569]]],
+			[['gb-trf', 'uk-trf'], [[0xE56A]]],
+			[['gb-wkf', 'uk-wkf'], [[0xE56B]]],
+			[['gb-wll', 'uk-wll'], [[0xE56C]]],
+			[['gb-wgn', 'uk-wgn'], [[0xE56D]]],
+			[['gb-wrl', 'uk-wrl'], [[0xE56E]]],
+			[['gb-wlv', 'uk-wlv'], [[0xE56F]]],
+			[['gb-bas', 'uk-bas'], [[0xE570]]],
+			[['gb-bdf', 'uk-bdf'], [[0xE571]]],
+			[['gb-bbd', 'uk-bbd'], [[0xE572]]],
+			[['gb-bpl', 'uk-bpl'], [[0xE573]]],
+			[['gb-bmh', 'uk-bmh'], [[0xE574]]],
+			[['gb-brc', 'uk-brc'], [[0xE575]]],
+			[['gb-bnh', 'uk-bnh'], [[0xE576]]],
+			[['gb-bst', 'uk-bst'], [[0xE577]]],
+			[['gb-cbf', 'uk-cbf'], [[0xE578]]],
+			[['gb-che', 'uk-che'], [[0xE579]]],
+			[['gb-chw', 'uk-chw'], [[0xE57A]]],
+			[['gb-con', 'uk-con'], [[0xE57B]]],
+			[['gb-dal', 'uk-dal'], [[0xE57C]]],
+			[['gb-der', 'uk-der'], [[0xE57D]]],
+			[['gb-dur', 'uk-dur'], [[0xE57E]]],
+			[['gb-ery', 'uk-ery'], [[0xE57F]]],
+			[['gb-hal', 'uk-hal'], [[0xE580]]],
+			[['gb-hpl', 'uk-hpl'], [[0xE581]]],
+			[['gb-hef', 'uk-hef'], [[0xE582]]],
+			[['gb-iow', 'uk-iow'], [[0xE583]]],
+			[['gb-ios', 'uk-ios'], [[0xE584]]],
+			[['gb-khl', 'uk-khl'], [[0xE585]]],
+			[['gb-lce', 'uk-lce'], [[0xE586]]],
+			[['gb-lut', 'uk-lut'], [[0xE587]]],
+			[['gb-mdw', 'uk-mdw'], [[0xE588]]],
+			[['gb-mdb', 'uk-mdb'], [[0xE589]]],
+			[['gb-mik', 'uk-mik'], [[0xE58A]]],
+			[['gb-nel', 'uk-nel'], [[0xE58B]]],
+			[['gb-nln', 'uk-nln'], [[0xE58C]]],
+			[['gb-nsm', 'uk-nsm'], [[0xE58D]]],
+			[['gb-nbl', 'uk-nbl'], [[0xE58E]]],
+			[['gb-ngm', 'uk-ngm'], [[0xE58F]]],
+			[['gb-pte', 'uk-pte'], [[0xE590]]],
+			[['gb-ply', 'uk-ply'], [[0xE591]]],
+			[['gb-pol', 'uk-pol'], [[0xE592]]],
+			[['gb-por', 'uk-por'], [[0xE593]]],
+			[['gb-rdg', 'uk-rdg'], [[0xE594]]],
+			[['gb-rcc', 'uk-rcc'], [[0xE595]]],
+			[['gb-rut', 'uk-rut'], [[0xE596]]],
+			[['gb-shr', 'uk-shr'], [[0xE597]]],
+			[['gb-slg', 'uk-slg'], [[0xE598]]],
+			[['gb-sgc', 'uk-sgc'], [[0xE599]]],
+			[['gb-sth', 'uk-sth'], [[0xE59A]]],
+			[['gb-sos', 'uk-sos'], [[0xE59B]]],
+			[['gb-stt', 'uk-stt'], [[0xE59C]]],
+			[['gb-ste', 'uk-ste'], [[0xE59D]]],
+			[['gb-swd', 'uk-swd'], [[0xE59E]]],
+			[['gb-tfw', 'uk-tfw'], [[0xE59F]]],
+			[['gb-thr', 'uk-thr'], [[0xE5A0]]],
+			[['gb-tob', 'uk-tob'], [[0xE5A1]]],
+			[['gb-wrt', 'uk-wrt'], [[0xE5A2]]],
+			[['gb-wbk', 'uk-wbk'], [[0xE5A3]]],
+			[['gb-wil', 'uk-wil'], [[0xE5A4]]],
+			[['gb-wnm', 'uk-wnm'], [[0xE5A5]]],
+			[['gb-wok', 'uk-wok'], [[0xE5A6]]],
+			[['gb-yor', 'uk-yor'], [[0xE5A7]]],
+			[['gb-bgw', 'uk-bgw'], [[0xE5B0]]],
+			[['gb-bge', 'uk-bge'], [[0xE5B1]]],
+			[['gb-cay', 'uk-cay'], [[0xE5B2]]],
+			[['gb-crf', 'uk-crf'], [[0xE5B3]]],
+			[['gb-cmn', 'uk-cmn'], [[0xE5B4]]],
+			[['gb-cgn', 'uk-cgn'], [[0xE5B5]]],
+			[['gb-cwy', 'uk-cwy'], [[0xE5B6]]],
+			[['gb-den', 'uk-den'], [[0xE5B7]]],
+			[['gb-fln', 'uk-fln'], [[0xE5B8]]],
+			[['gb-gwn', 'uk-gwn'], [[0xE5B9]]],
+			[['gb-agy', 'uk-agy'], [[0xE5BA]]],
+			[['gb-mty', 'uk-mty'], [[0xE5BB]]],
+			[['gb-mon', 'uk-mon'], [[0xE5BC]]],
+			[['gb-ntl', 'uk-ntl'], [[0xE5BD]]],
+			[['gb-nwp', 'uk-nwp'], [[0xE5BE]]],
+			[['gb-pem', 'uk-pem'], [[0xE5BF]]],
+			[['gb-pow', 'uk-pow'], [[0xE5C0]]],
+			[['gb-rct', 'uk-rct'], [[0xE5C1]]],
+			[['gb-swa', 'uk-swa'], [[0xE5C2]]],
+			[['gb-tof', 'uk-tof'], [[0xE5C3]]],
+			[['gb-vgl', 'uk-vgl'], [[0xE5C4]]],
+			[['gb-wrx', 'uk-wrx'], [[0xE5C5]]],
+			[['gb-abe', 'uk-abe'], [[0xE5D0]]],
+			[['gb-abd', 'uk-abd'], [[0xE5D1]]],
+			[['gb-ans', 'uk-ans'], [[0xE5D2]]],
+			[['gb-agb', 'uk-agb'], [[0xE5D3]]],
+			[['gb-clk', 'uk-clk'], [[0xE5D4]]],
+			[['gb-dgy', 'uk-dgy'], [[0xE5D5]]],
+			[['gb-dnd', 'uk-dnd'], [[0xE5D6]]],
+			[['gb-eay', 'uk-eay'], [[0xE5D7]]],
+			[['gb-edu', 'uk-edu'], [[0xE5D8]]],
+			[['gb-eln', 'uk-eln'], [[0xE5D9]]],
+			[['gb-erw', 'uk-erw'], [[0xE5DA]]],
+			[['gb-edh', 'uk-edh'], [[0xE5DB]]],
+			[['gb-els', 'uk-els'], [[0xE5DC]]],
+			[['gb-fal', 'uk-fal'], [[0xE5DD]]],
+			[['gb-fif', 'uk-fif'], [[0xE5DE]]],
+			[['gb-glg', 'uk-glg'], [[0xE5DF]]],
+			[['gb-hld', 'uk-hld'], [[0xE5E0]]],
+			[['gb-ivc', 'uk-ivc'], [[0xE5E1]]],
+			[['gb-mln', 'uk-mln'], [[0xE5E2]]],
+			[['gb-mry', 'uk-mry'], [[0xE5E3]]],
+			[['gb-nay', 'uk-nay'], [[0xE5E4]]],
+			[['gb-nlk', 'uk-nlk'], [[0xE5E5]]],
+			[['gb-ork', 'uk-ork'], [[0xE5E6]]],
+			[['gb-pkn', 'uk-pkn'], [[0xE5E7]]],
+			[['gb-rfw', 'uk-rfw'], [[0xE5E8]]],
+			[['gb-scb', 'uk-scb'], [[0xE5E9]]],
+			[['gb-zet', 'uk-zet'], [[0xE5EA]]],
+			[['gb-say', 'uk-say'], [[0xE5EB]]],
+			[['gb-slk', 'uk-slk'], [[0xE5EC]]],
+			[['gb-stg', 'uk-stg'], [[0xE5ED]]],
+			[['gb-wdu', 'uk-wdu'], [[0xE5EE]]],
+			[['gb-wln', 'uk-wln'], [[0xE5EF]]],
+			[['gb-ann', 'uk-ann'], [[0xE5F0]]],
+			[['gb-and', 'uk-and'], [[0xE5F1]]],
+			[['gb-abc', 'uk-abc'], [[0xE5F2]]],
+			[['gb-bfs', 'uk-bfs'], [[0xE5F3]]],
+			[['gb-ccg', 'uk-ccg'], [[0xE5F4]]],
+			[['gb-drs', 'uk-drs'], [[0xE5F5]]],
+			[['gb-fmo', 'uk-fmo'], [[0xE5F6]]],
+			[['gb-lbc', 'uk-lbc'], [[0xE5F7]]],
+			[['gb-mea', 'uk-mea'], [[0xE5F8]]],
+			[['gb-mul', 'uk-mul'], [[0xE5F9]]],
+			[['gb-nmd', 'uk-nmd'], [[0xE5FA]]],
+			[['no-01'], [[0xE601]]],
+			[['no-02'], [[0xE602]]],
+			[['no-03'], [[0xE603]]],
+			[['no-04'], [[0xE604]]],
+			[['no-05'], [[0xE605]]],
+			[['no-06'], [[0xE606]]],
+			[['no-07'], [[0xE607]]],
+			[['no-08'], [[0xE608]]],
+			[['no-09'], [[0xE609]]],
+			[['no-10'], [[0xE60A]]],
+			[['no-11'], [[0xE60B]]],
+			[['no-12'], [[0xE60C]]],
+			[['no-14'], [[0xE60E]]],
+			[['no-15'], [[0xE60F]]],
+			[['no-16'], [[0xE610]]],
+			[['no-17'], [[0xE611]]],
+			[['no-18'], [[0xE612]]],
+			[['no-19'], [[0xE613]]],
+			[['no-20'], [[0xE614]]],
+			[['no-21'], [[0xE615]]],
+			[['no-22'], [[0xE616]]],
+			[['dk-015'], [[0xE640]]],
+			[['dk-020'], [[0xE641]]],
+			[['dk-025'], [[0xE642]]],
+			[['dk-030'], [[0xE643]]],
+			[['dk-035'], [[0xE644]]],
+			[['dk-040', 'xx-bornholm'], [[0xE645]]],
+			[['dk-042'], [[0xE646]]],
+			[['dk-050'], [[0xE647]]],
+			[['dk-055'], [[0xE648]]],
+			[['dk-060'], [[0xE649]]],
+			[['dk-065'], [[0xE64A]]],
+			[['dk-070'], [[0xE64B]]],
+			[['dk-076'], [[0xE64C]]],
+			[['dk-080'], [[0xE64D]]],
+			[['dk-101'], [[0xE64E]]],
+			[['dk-147'], [[0xE64F]]],
+			[['dk-81'], [[0xE651]]],
+			[['dk-82'], [[0xE652]]],
+			[['dk-83'], [[0xE653]]],
+			[['dk-84'], [[0xE654]]],
+			[['dk-85'], [[0xE655]]],
+			[['xx-christiania'], [[0xE67F]]],
+			[['se-ab'], [[0xE681]]],
+			[['se-c'], [[0xE683]]],
+			[['se-d'], [[0xE684]]],
+			[['se-e'], [[0xE685]]],
+			[['se-f'], [[0xE686]]],
+			[['se-g'], [[0xE687]]],
+			[['se-h'], [[0xE688]]],
+			[['se-i'], [[0xE689]]],
+			[['se-k'], [[0xE68A]]],
+			[['se-m', 'xx-scania'], [[0xE68C]]],
+			[['se-n'], [[0xE68D]]],
+			[['se-o'], [[0xE68E]]],
+			[['se-s'], [[0xE691]]],
+			[['se-t'], [[0xE692]]],
+			[['se-u'], [[0xE693]]],
+			[['se-w'], [[0xE694]]],
+			[['se-x'], [[0xE695]]],
+			[['se-y'], [[0xE696]]],
+			[['se-z'], [[0xE697]]],
+			[['se-ac'], [[0xE698]]],
+			[['se-bd'], [[0xE699]]],
+			[['xx-fennoswede'], [[0xE6BF]]],
+			[['fi-01'], [[0xE6C1]]],
+			[['fi-02'], [[0xE6C2]]],
+			[['fi-03'], [[0xE6C3]]],
+			[['fi-04'], [[0xE6C4]]],
+			[['fi-05'], [[0xE6C5]]],
+			[['fi-06'], [[0xE6C6]]],
+			[['fi-07'], [[0xE6C7]]],
+			[['fi-08'], [[0xE6C8]]],
+			[['fi-09'], [[0xE6C9]]],
+			[['fi-10'], [[0xE6CA]]],
+			[['fi-11'], [[0xE6CB]]],
+			[['fi-12'], [[0xE6CC]]],
+			[['fi-13'], [[0xE6CD]]],
+			[['fi-14'], [[0xE6CE]]],
+			[['fi-15'], [[0xE6CF]]],
+			[['fi-16'], [[0xE6D0]]],
+			[['fi-17'], [[0xE6D1]]],
+			[['fi-18'], [[0xE6D2]]],
+			[['fi-19'], [[0xE6D3]]],
+			[['pt-01'], [[0xE701]]],
+			[['pt-02'], [[0xE702]]],
+			[['pt-03'], [[0xE703]]],
+			[['pt-04'], [[0xE704]]],
+			[['pt-05'], [[0xE705]]],
+			[['pt-06'], [[0xE706]]],
+			[['pt-07'], [[0xE707]]],
+			[['pt-08'], [[0xE708]]],
+			[['pt-09'], [[0xE709]]],
+			[['pt-10'], [[0xE70A]]],
+			[['pt-11'], [[0xE70B]]],
+			[['pt-12'], [[0xE70C]]],
+			[['pt-13'], [[0xE70D]]],
+			[['pt-14'], [[0xE70E]]],
+			[['pt-15'], [[0xE70F]]],
+			[['pt-16'], [[0xE710]]],
+			[['pt-17'], [[0xE711]]],
+			[['pt-18'], [[0xE712]]],
+			[['pt-20'], [[0xE714]]],
+			[['pt-30'], [[0xE71E]]],
+			[['es-an'], [[0xE740]]],
+			[['es-ar'], [[0xE741]]],
+			[['es-as'], [[0xE742]]],
+			[['es-cb'], [[0xE743]]],
+			[['es-ce'], [[0xE744]]],
+			[['es-cl'], [[0xE745]]],
+			[['es-cm'], [[0xE746]]],
+			[['es-cn'], [[0xE747]]],
+			[['es-ct', 'xx-catalonia'], [[0xE748]]],
+			[['es-ex'], [[0xE749]]],
+			[['es-ga'], [[0xE74A]]],
+			[['es-ib'], [[0xE74B]]],
+			[['es-mc'], [[0xE74C]]],
+			[['es-md'], [[0xE74D]]],
+			[['es-ml'], [[0xE74E]]],
+			[['es-nc'], [[0xE74F]]],
+			[['es-pv'], [[0xE750]]],
+			[['es-ri'], [[0xE751]]],
+			[['es-vc'], [[0xE752]]],
+			[['es-a'], [[0xE780]]],
+			[['es-ab'], [[0xE781]]],
+			[['es-al'], [[0xE782]]],
+			[['es-av'], [[0xE783]]],
+			[['es-b'], [[0xE784]]],
+			[['es-ba'], [[0xE785]]],
+			[['es-bi'], [[0xE786]]],
+			[['es-bu'], [[0xE787]]],
+			[['es-c'], [[0xE788]]],
+			[['es-ca'], [[0xE789]]],
+			[['es-cc'], [[0xE78A]]],
+			[['es-co'], [[0xE78B]]],
+			[['es-cr'], [[0xE78C]]],
+			[['es-cs'], [[0xE78D]]],
+			[['es-cu'], [[0xE78E]]],
+			[['es-gc'], [[0xE78F]]],
+			[['es-gi'], [[0xE790]]],
+			[['es-gr'], [[0xE791]]],
+			[['es-gu'], [[0xE792]]],
+			[['es-h'], [[0xE793]]],
+			[['es-hu'], [[0xE794]]],
+			[['es-j'], [[0xE795]]],
+			[['es-l'], [[0xE796]]],
+			[['es-le'], [[0xE797]]],
+			[['es-lo'], [[0xE798]]],
+			[['es-lu'], [[0xE799]]],
+			[['es-m'], [[0xE79A]]],
+			[['es-ma'], [[0xE79B]]],
+			[['es-mu'], [[0xE79C]]],
+			[['es-na'], [[0xE79D]]],
+			[['es-o'], [[0xE79E]]],
+			[['es-or'], [[0xE79F]]],
+			[['es-p'], [[0xE7A0]]],
+			[['es-pm'], [[0xE7A1]]],
+			[['es-po'], [[0xE7A2]]],
+			[['es-s'], [[0xE7A3]]],
+			[['es-sa'], [[0xE7A4]]],
+			[['es-se'], [[0xE7A5]]],
+			[['es-sg'], [[0xE7A6]]],
+			[['es-so'], [[0xE7A7]]],
+			[['es-ss'], [[0xE7A8]]],
+			[['es-t'], [[0xE7A9]]],
+			[['es-te'], [[0xE7AA]]],
+			[['es-tf'], [[0xE7AB]]],
+			[['es-to'], [[0xE7AC]]],
+			[['es-v'], [[0xE7AD]]],
+			[['es-va'], [[0xE7AE]]],
+			[['es-vi'], [[0xE7AF]]],
+			[['es-z'], [[0xE7B0]]],
+			[['es-za'], [[0xE7B1]]],
+			[['aq-smith', 'xx-aq-smith'], [[0xF30A]]],
+			[['so-somaliland', 'xx-somaliland'], [[0xF3B9]]],
+			[['sy-snc', 'xx-sy-snc'], [[0xF3BF]]],
+			[['xx-northpole'], [[0xF3EC]]],
+			[['xx-conlang'], [[0xF400]]],
+			[['xx-conlang-esperanto'], [[0xF420]]],
+			[['xx-conlang-lfn'], [[0xF430]]],
+			[['xx-conlang-klingon'], [[0xF440]]],
+			[['xx-pride-lgbt'], [[0xF500], [0x1F308], [0x1F3F3, 0x200D, 0x1F308]]],
+			[['xx-pride-asexual'], [[0xF510]]],
+			[['xx-pride-lesbian'], [[0xF511], [0x26A2], [0x1F3F3, 0x200D, 0x26A2]]],
+			[['xx-pride-gay'], [[0xF512], [0x26A3], [0x1F3F3, 0x200D, 0x26A3]]],
+			[['xx-pride-bisexual'], [[0xF513]]],
+			[['xx-pride-pansexual'], [[0xF514]]],
+			[['xx-pride-polysexual'], [[0xF515]]],
+			[['xx-pride-demisexual'], [[0xF516]]],
+			[['xx-pride-trans'], [[0xF520], [0x26A7], [0x1F3F3, 0x200D, 0x26A7]]],
+			[['xx-pride-agender'], [[0xF530]]],
+			[['xx-pride-female'], [[0xF531], [0x2640], [0x1F3F3, 0x200D, 0x2640]]],
+			[['xx-pride-male'], [[0xF532], [0x2642], [0x1F3F3, 0x200D, 0x2642]]],
+			[['xx-pride-androgyne'], [[0xF533]]],
+			[['xx-pride-bigender'], [[0xF534]]],
+			[['xx-pride-genderfluid'], [[0xF535]]],
+			[['xx-pride-genderqueer'], [[0xF536]]],
+			[['xx-pride-nonbinary'], [[0xF537]]],
+			[['xx-pride-intersex-1'], [[0xF540]]],
+			[['xx-pride-intersex-2'], [[0xF541]]],
+			[['xx-pride-bear'], [[0xF550]]],
+			[['xx-pride-lipstick'], [[0xF551]]],
+			[['xx-pride-leather'], [[0xF560]]],
+			[['xx-pride-poly'], [[0xF561]]],
+			[['xx-pride-ally'], [[0xF570]]],
+			[['xx-aristasia'], [[0xF580]]],
+			[['xx-christian'], [[0xF5C0], [0x271D], [0x1F3F3, 0x200D, 0x271D]]],
+			[['xx-racing-start'], [[0xF600]]],
+			[['xx-racing-caution'], [[0xF601]]],
+			[['xx-racing-hazard'], [[0xF602]]],
+			[['xx-racing-pit-closed'], [[0xF603]]],
+			[['xx-racing-stop'], [[0xF604]]],
+			[['xx-racing-slow-vehicle'], [[0xF606]]],
+			[['xx-racing-final-lap'], [[0xF607]]],
+			[['xx-racing-return'], [[0xF608]]],
+			[['xx-racing-return-service'], [[0xF609]]],
+			[['xx-racing-unsportsmanlike'], [[0xF60A]]],
+			[['xx-racing-not-scored'], [[0xF60B]]],
+			[['xx-racing-faster-car-1'], [[0xF60C]]],
+			[['xx-racing-faster-car-2'], [[0xF60D]]],
+			[['xx-racing-finish'], [[0xF60F], [0x1F3C1]]],
+			[['xx-kk-mika'], [[0xF700]]],
+			[['xx-kk-kellahanamana'], [[0xF701]]],
+			[['xx-kk-kappaa'], [[0xF702]]],
+			[['xx-kk-mika-tammy'], [[0xF720]]],
+			[['xx-kk-mika-emily'], [[0xF721]]],
+			[['xx-kk-mika-annett'], [[0xF741]]],
+			[['xx-kk-mika-harrett'], [[0xF748]]],
+			[['xx-kk-mika-korra'], [[0xF74B]]],
+			[['xx-kk-mika-lyndaea'], [[0xF74C]]],
+			[['xx-kk-mika-morra'], [[0xF74D]]],
+			[['xx-kk-mika-olla'], [[0xF74F]]],
+			[['xx-kk-kappaa-ioxio'], [[0xF769]]],
+			[['xx-kk-kappaa-sibleck'], [[0xF773]]],
+			[['xx-misc-vexillo'], [[0xF800]]],
+			[['xx-misc-fam'], [[0xF801]]],
+			[['xx-org-fiav'], [[0xF820]]],
+			[['xx-org-fotw'], [[0xF821]]],
+			[['xx-pirate'], [[0xF840], [0x2620], [0x1F3F4, 0x200D, 0x2620]]],
+			[['xx-pace'], [[0xF841], [0x262E], [0x1F3F3, 0x200D, 0x262E]]],
+			[['xx-misc-rgb'], [[0xF860]]],
+			[['xx-misc-cmyk'], [[0xF861]]],
+			[['xx-misc-ntsc'], [[0xF862]]],
+			[['xx-misc-ntscid'], [[0xF863]]],
+			[['xx-misc-iguana'], [[0xF880]]]
+		];
+		var chr = function(cp) {
+			if (String.fromCodePoint) {
+				return String.fromCodePoint(cp);
+			} else if (cp >= 0 && cp < 0x10000) {
+				return String.fromCharCode(cp);
+			} else if (cp >= 0x10000 && cp < 0x110000) {
+				return String.fromCharCode(
+					0xD800 | ((cp - 0x10000) >> 10),
+					0xDC00 | (cp & 0x3FF)
+				);
+			}
+		};
+		var chrs = function(cps) {
+			if (String.fromCodePoint) {
+				return String.fromCodePoint.apply(String, cps);
+			} else {
+				var s = '';
+				for (var i = 0; i < cps.length; i++) {
+					s += chr(cps[i]);
+				}
+				return s;
+			}
+		};
+		var tagflag = function(s) {
+			var cps = [0x1F3F3];
+			for (var i = 0; i < s.length; i++) {
+				var cp = s.charCodeAt(i);
+				if (cp >= 0x30 && cp <= 0x39) cps.push(0xE0000 + cp);
+				else if (cp >= 0x41 && cp <= 0x5A) cps.push(0xE0020 + cp);
+				else if (cp >= 0x61 && cp <= 0x7A) cps.push(0xE0000 + cp);
+			}
+			cps.push(0xE007F);
+			if (cps.length > 2) return chrs(cps);
+		};
+		var isris = function(cp) {
+			return (cp >= 0x1F1E6 && cp <= 0x1F1FF);
+		};
+		var ispua = function(cp) {
+			return (
+				(cp >= 0xE000 && cp < 0xF900) ||
+				(cp >= 0xF0000 && cp < 0xFFFFE) ||
+				(cp >= 0x100000 && cp < 0x10FFFE)
+			);
+		};
+		var untagflag = function(s) {
+			var chars = [];
+			for (var i = 0; i < s.length; i++) {
+				var c1 = s.charCodeAt(i);
+				if (c1 >= 0xD800 && c1 < 0xDC00 && (i + 1) < s.length) {
+					var c2 = s.charCodeAt(i + 1);
+					if (c2 >= 0xDC00 && c2 < 0xE000) {
+						var ch = 0x10000 + ((c1 & 0x3FF) << 10) + (c2 & 0x3FF);
+						chars.push(ch);
+						i++;
+						continue;
+					}
+				}
+				chars.push(c1);
+			}
+			if (
+				(chars.length > 2) &&
+				(chars[0] == 0x1F3F3) &&
+				(chars[chars.length - 1] == 0xE007F)
+			) {
+				var ascii = [];
+				for (var i = 1; (i + 1) < chars.length; i++) {
+					if (chars[i] > 0xE0020 && chars[i] < 0xE007F) {
+						ascii.push(chars[i] - 0xE0000);
+					}
+				}
+				return chrs(ascii);
+			}
+		};
+		var vexencreverse = {};
+		var vexencforward = {};
+		for (var i = 0; i < vexenc.length; i++) {
+			for (var j = 0; j < vexenc[i][1].length; j++) {
+				var k = chrs(vexenc[i][1][j]);
+				vexencreverse[k] = vexenc[i];
+			}
+			for (var j = 0; j < vexenc[i][0].length; j++) {
+				var k = vexenc[i][0][j].replace(new RegExp('-', 'g'), '');
+				vexencforward[k] = vexenc[i];
+			}
+		}
+		var mkinfo = function(e, s) {
+			var p1, p2, pua, zwj, ris;
+			for (var i = 0; i < e[1].length; i++) {
+				var cps = e[1][i];
+				if (cps.length == 2 && isris(cps[0]) && isris(cps[1])) {
+					if (!ris) ris = chrs(cps);
+				} else if (cps.length > 2 && cps.indexOf(0x200D) > 0) {
+					if (!zwj) zwj = chrs(cps);
+				} else if (cps.length == 1 && ispua(cps[0])) {
+					if (!pua) pua = chrs(cps);
+				} else if (cps.length == 1 && !ispua(cps[0])) {
+					if (!p1) p1 = chrs(cps);
+					else if (!p2) p2 = chrs(cps);
+				}
+			}
+			return [s, p1, p2, pua, zwj, ris, tagflag(s)];
+		};
+		var vexencinfo = function(s) {
+			var u;
+			var e = vexencreverse[s];
+			if (e) return mkinfo(e, e[0][0]);
+			s = untagflag(s) || s;
+			s = s.replace(new RegExp('\\s', 'g'), '').toLowerCase();
+			s = s.replace(new RegExp('[^a-z0-9-]+', 'g'), '-');
+			var k = s.replace(new RegExp('-', 'g'), '');
+			e = vexencforward[k];
+			if (e) return mkinfo(e, s);
+			return [s, u, u, u, u, u, tagflag(s)];
+		};
+		return vexencinfo;
+	}();
+	window.toHTMLEntities = function(s) {
+		var html = '';
+		for (var i = 0; i < s.length; i++) {
+			var c1 = s.charCodeAt(i);
+			if (c1 >= 0xD800 && c1 < 0xDC00 && (i + 1) < s.length) {
+				var c2 = s.charCodeAt(i + 1);
+				if (c2 >= 0xDC00 && c2 < 0xE000) {
+					var ch = 0x10000 + ((c1 & 0x3FF) << 10) + (c2 & 0x3FF);
+					html += '&#x' + ch.toString(16).toUpperCase() + ';';
+					i++;
+					continue;
+				}
+			}
+			html += '&#x' + c1.toString(16).toUpperCase() + ';';
+		}
+		return html;
+	};
+	$(document).ready(function() {
+		var handler = function() {
+			var info = window.getFlagInfo($('.flagid-input').val().trim());
+			if (info && info[0]) {
+				$('.flagid-output').text(info[0]);
+			} else {
+				$('.flagid-output').text('\u00A0');
+			}
+			if (info && info[1]) {
+				$('.p1').removeClass('none');
+				$('.p1 .v').text(info[1]);
+				$('.p1 .vhtml').text(window.toHTMLEntities(info[1]));
+			} else {
+				$('.p1').addClass('none');
+				$('.p1 .v').text('\u00A0');
+				$('.p1 .vhtml').text('\u00A0');
+			}
+			if (info && info[2]) {
+				$('.p2').removeClass('none');
+				$('.p2 .v').text(info[2]);
+				$('.p2 .vhtml').text(window.toHTMLEntities(info[2]));
+			} else {
+				$('.p2').addClass('none');
+				$('.p2 .v').text('\u00A0');
+				$('.p2 .vhtml').text('\u00A0');
+			}
+			if (info && info[3]) {
+				$('.pua').removeClass('none');
+				$('.pua .v').text(info[3]);
+				$('.pua .vhtml').text(window.toHTMLEntities(info[3]));
+			} else {
+				$('.pua').addClass('none');
+				$('.pua .v').text('\u00A0');
+				$('.pua .vhtml').text('\u00A0');
+			}
+			if (info && info[4]) {
+				$('.zwj').removeClass('none');
+				$('.zwj .v').text(info[4]);
+				$('.zwj .vhtml').text(window.toHTMLEntities(info[4]));
+			} else {
+				$('.zwj').addClass('none');
+				$('.zwj .v').text('\u00A0');
+				$('.zwj .vhtml').text('\u00A0');
+			}
+			if (info && info[5]) {
+				$('.ris').removeClass('none');
+				$('.ris .v').text(info[5]);
+				$('.ris .vhtml').text(window.toHTMLEntities(info[5]));
+			} else {
+				$('.ris').addClass('none');
+				$('.ris .v').text('\u00A0');
+				$('.ris .vhtml').text('\u00A0');
+			}
+			if (info && info[6]) {
+				$('.tag').removeClass('none');
+				$('.tag .v').text(info[6]);
+				$('.tag .vhtml').text(window.toHTMLEntities(info[6]));
+			} else {
+				$('.tag').addClass('none');
+				$('.tag .v').text('\u00A0');
+				$('.tag .vhtml').text('\u00A0');
+			}
+		};
+		handler();
+		$('.flagid-input').change(handler).keydown(handler).keyup(handler);
+		
+		var clickCopy = function(element) {
+			$(element).addClass('clickcopy').click(function() {
+				var tmp = $('<input>');
+				$('body').append(tmp);
+				tmp.val($(element).text()).select();
+				document.execCommand('copy');
+				tmp.remove();
+				var bb = $('<div>').text('Copied to clipboard.');
+				bb.addClass('butterbar').css('opacity', 0);
+				$('body').append(bb);
+				bb.animate({'opacity': 1}, 400, function() {
+					setTimeout(function() {
+						bb.animate({'opacity': 0}, 400, function() {
+							bb.remove();
+						});
+					}, 2000);
+				});
+			});
+		};
+		$('table.lookuptable tbody .vcol').each(function() { clickCopy(this); });
+		$('table.lookuptable tbody .vhtmlcol').each(function() { clickCopy(this); });
+		
+		var clickLookup = function(element) {
+			$(element).addClass('clickcopy').click(function() {
+				var id = $(element).attr('title');
+				$('.flagid-input').val(id).change().focus();
+			});
+		};
+		var clickLookupCC = function(element) {
+			$(element).addClass('clickcopy').click(function() {
+				var id = $(element).attr('title');
+				id = new RegExp('\\b[A-Z]{2}\\b').exec(id)[0].toLowerCase();
+				$('.flagid-input').val(id).change().focus();
+			});
+		};
+		$('table.generictable tbody .v').each(function() { clickLookup(this); });
+		$('table.cctable tbody .v').each(function() { clickLookupCC(this); });
+		
+		$('body').keydown(function(event) {
+			if (event.which == 27) {
+				$('.flagid-input').val('').change().focus();
+				event.stopPropagation();
+				event.preventDefault();
+			}
+		});
+	});
+</script>
+</head>
+<body>
+<h1>Kreative Vexillo</h1>
+<p>
+	Kreative Vexillo is a collection of images of flags in various formats,
+	sizes, and aspect ratios, as well as the XML files used to describe them
+	and the computer programs used to generate them.
+</p>
+<p>
+	This page describes the Kreative Vexillo <b>emoji fonts</b>, TrueType fonts
+	that contain the flags as embedded color images. The flags are encoded
+	using four methods: private use code points, zero-width joiner sequences,
+	regional indicator symbols, and tag characters.
+</p>
+<p>
+	Flags are present for all officially assigned ISO 3166-1 alpha-2 country
+	codes as well as many exceptionally reserved, transitionally reserved, and
+	user-assigned codes. Many other flags are included, among them ICS and NATO
+	signal flags, pride flags, and flags for constructed languages.
+</p>
+<p>
+	Kreative Vexillo contains <b>492 flags</b>. For comparison, the
+	<a href="http://www.kreativekorp.com/lib/flags/">My'file flag icon set</a>
+	contains <b>300 flags</b> and the original
+	<a href="http://www.famfamfam.com/lab/icons/flags/">FamFamFam flag icon set</a>
+	contains <b>247 flags</b>.
+</p>
+<p>
+	The flag images and the XML files used to describe them are placed in
+	the public domain, free to use for any purpose with no requirement for
+	attribution, except where otherwise noted within the XML file. The source
+	code and binaries used to produce them, as well as any other computer
+	programs in this repository including digital font files, are released
+	under the Mozilla Public License.
+</p>
+<h1>Look Up Flags</h1>
+<p>Enter flag ID: &nbsp; <input class="flagid-input"></p>
+<table border="1" cellspacing="0" cellpadding="4" class="lookuptable">
+	<thead>
+		<tr>
+			<td class="idcol"><code class="flagid-output"></code></td>
+			<th class="vcol">GA</th>
+			<th class="vcol">GC</th>
+			<th class="vcol">GD</th>
+			<th class="vcol">GF</th>
+			<th class="vcol">GK</th>
+			<th class="vcol">MA</th>
+			<th class="vcol">MC</th>
+			<th class="vcol">MD</th>
+			<th class="vcol">MF</th>
+			<th class="vcol">MK</th>
+			<th class="vcol">Sys</th>
+			<th class="vhtmlcol">HTML</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="p1">
+			<th class="idcol">Plain</th>
+			<td class="vcol v s ga">&nbsp;</td>
+			<td class="vcol v s gc">&nbsp;</td>
+			<td class="vcol v s gd">&nbsp;</td>
+			<td class="vcol v s gf">&nbsp;</td>
+			<td class="vcol v s gk">&nbsp;</td>
+			<td class="vcol v s ma">&nbsp;</td>
+			<td class="vcol v s mc">&nbsp;</td>
+			<td class="vcol v s md">&nbsp;</td>
+			<td class="vcol v s mf">&nbsp;</td>
+			<td class="vcol v s mk">&nbsp;</td>
+			<td class="vcol v">&nbsp;</td>
+			<td class="vhtmlcol"><code class="vhtml">&nbsp;</code></td>
+		</tr>
+		<tr class="p2">
+			<th class="idcol">Plain</th>
+			<td class="vcol v s ga">&nbsp;</td>
+			<td class="vcol v s gc">&nbsp;</td>
+			<td class="vcol v s gd">&nbsp;</td>
+			<td class="vcol v s gf">&nbsp;</td>
+			<td class="vcol v s gk">&nbsp;</td>
+			<td class="vcol v s ma">&nbsp;</td>
+			<td class="vcol v s mc">&nbsp;</td>
+			<td class="vcol v s md">&nbsp;</td>
+			<td class="vcol v s mf">&nbsp;</td>
+			<td class="vcol v s mk">&nbsp;</td>
+			<td class="vcol v">&nbsp;</td>
+			<td class="vhtmlcol"><code class="vhtml">&nbsp;</code></td>
+		</tr>
+		<tr class="pua">
+			<th class="idcol">PUA</th>
+			<td class="vcol v s ga">&nbsp;</td>
+			<td class="vcol v s gc">&nbsp;</td>
+			<td class="vcol v s gd">&nbsp;</td>
+			<td class="vcol v s gf">&nbsp;</td>
+			<td class="vcol v s gk">&nbsp;</td>
+			<td class="vcol v s ma">&nbsp;</td>
+			<td class="vcol v s mc">&nbsp;</td>
+			<td class="vcol v s md">&nbsp;</td>
+			<td class="vcol v s mf">&nbsp;</td>
+			<td class="vcol v s mk">&nbsp;</td>
+			<td class="vcol v">&nbsp;</td>
+			<td class="vhtmlcol"><code class="vhtml">&nbsp;</code></td>
+		</tr>
+		<tr class="zwj">
+			<th class="idcol">ZWJ</th>
+			<td class="vcol v s ga">&nbsp;</td>
+			<td class="vcol v s gc">&nbsp;</td>
+			<td class="vcol v s gd">&nbsp;</td>
+			<td class="vcol v s gf">&nbsp;</td>
+			<td class="vcol v s gk">&nbsp;</td>
+			<td class="vcol v s ma">&nbsp;</td>
+			<td class="vcol v s mc">&nbsp;</td>
+			<td class="vcol v s md">&nbsp;</td>
+			<td class="vcol v s mf">&nbsp;</td>
+			<td class="vcol v s mk">&nbsp;</td>
+			<td class="vcol v">&nbsp;</td>
+			<td class="vhtmlcol"><code class="vhtml">&nbsp;</code></td>
+		</tr>
+		<tr class="ris">
+			<th class="idcol">RIS</th>
+			<td class="vcol v s ga">&nbsp;</td>
+			<td class="vcol v s gc">&nbsp;</td>
+			<td class="vcol v s gd">&nbsp;</td>
+			<td class="vcol v s gf">&nbsp;</td>
+			<td class="vcol v s gk">&nbsp;</td>
+			<td class="vcol v s ma">&nbsp;</td>
+			<td class="vcol v s mc">&nbsp;</td>
+			<td class="vcol v s md">&nbsp;</td>
+			<td class="vcol v s mf">&nbsp;</td>
+			<td class="vcol v s mk">&nbsp;</td>
+			<td class="vcol v">&nbsp;</td>
+			<td class="vhtmlcol"><code class="vhtml">&nbsp;</code></td>
+		</tr>
+		<tr class="tag">
+			<th class="idcol">Tag</th>
+			<td class="vcol v s ga">&nbsp;</td>
+			<td class="vcol v s gc">&nbsp;</td>
+			<td class="vcol v s gd">&nbsp;</td>
+			<td class="vcol v s gf">&nbsp;</td>
+			<td class="vcol v s gk">&nbsp;</td>
+			<td class="vcol v s ma">&nbsp;</td>
+			<td class="vcol v s mc">&nbsp;</td>
+			<td class="vcol v s md">&nbsp;</td>
+			<td class="vcol v s mf">&nbsp;</td>
+			<td class="vcol v s mk">&nbsp;</td>
+			<td class="vcol v">&nbsp;</td>
+			<td class="vhtmlcol"><code class="vhtml">&nbsp;</code></td>
+		</tr>
+	</tbody>
+</table>
+<p>Click a cell to copy its contents to the clipboard.</p>
+<h1>Browse Flags</h1>
+<p>Click a cell for further details.</p>
+<h2><code>E000-E07F</code> &nbsp; Generic Flags</h2>
+<table border="1" cellspacing="0" cellpadding="4" class="generictable">
+	<thead>
+		<tr>
+			<th class="vcol"></th>
+			<th class="vcol"><code>xxx0</code></th>
+			<th class="vcol"><code>xxx1</code></th>
+			<th class="vcol"><code>xxx2</code></th>
+			<th class="vcol"><code>xxx3</code></th>
+			<th class="vcol"><code>xxx4</code></th>
+			<th class="vcol"><code>xxx5</code></th>
+			<th class="vcol"><code>xxx6</code></th>
+			<th class="vcol"><code>xxx7</code></th>
+			<th class="vcol"><code>xxx8</code></th>
+			<th class="vcol"><code>xxx9</code></th>
+			<th class="vcol"><code>xxxA</code></th>
+			<th class="vcol"><code>xxxB</code></th>
+			<th class="vcol"><code>xxxC</code></th>
+			<th class="vcol"><code>xxxD</code></th>
+			<th class="vcol"><code>xxxE</code></th>
+			<th class="vcol"><code>xxxF</code></th>
+			<th class="vcol"></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th class="vcol"><code>E00x</code></th>
+			<td class="vcol v s gc" title="xx-generic-wht">&#xE000;</td>
+			<td class="vcol v s gc" title="xx-generic-ylw">&#xE001;</td>
+			<td class="vcol v s gc" title="xx-generic-org">&#xE002;</td>
+			<td class="vcol v s gc" title="xx-generic-red">&#xE003;</td>
+			<td class="vcol v s gc" title="xx-generic-mag">&#xE004;</td>
+			<td class="vcol v s gc" title="xx-generic-vlt">&#xE005;</td>
+			<td class="vcol v s gc" title="xx-generic-ind">&#xE006;</td>
+			<td class="vcol v s gc" title="xx-generic-blu">&#xE007;</td>
+			<td class="vcol v s gc" title="xx-generic-trq">&#xE008;</td>
+			<td class="vcol v s gc" title="xx-generic-grn">&#xE009;</td>
+			<td class="vcol v s gc" title="xx-generic-brn">&#xE00A;</td>
+			<td class="vcol v s gc" title="xx-generic-tan">&#xE00B;</td>
+			<td class="vcol v s gc" title="xx-generic-lgy">&#xE00C;</td>
+			<td class="vcol v s gc" title="xx-generic-mgy">&#xE00D;</td>
+			<td class="vcol v s gc" title="xx-generic-dgy">&#xE00E;</td>
+			<td class="vcol v s gc" title="xx-generic-blk">&#xE00F;</td>
+			<th class="vcol"></th>
+		</tr>
+		<tr>
+			<th class="vcol"><code>E01x</code></th>
+			<td class="vcol v s gc" title="xx-generic-wht-tpz">&#xE010;</td>
+			<td class="vcol v s gc" title="xx-generic-ylw-tpz">&#xE011;</td>
+			<td class="vcol v s gc" title="xx-generic-org-tpz">&#xE012;</td>
+			<td class="vcol v s gc" title="xx-generic-red-tpz">&#xE013;</td>
+			<td class="vcol v s gc" title="xx-generic-mag-tpz">&#xE014;</td>
+			<td class="vcol v s gc" title="xx-generic-vlt-tpz">&#xE015;</td>
+			<td class="vcol v s gc" title="xx-generic-ind-tpz">&#xE016;</td>
+			<td class="vcol v s gc" title="xx-generic-blu-tpz">&#xE017;</td>
+			<td class="vcol v s gc" title="xx-generic-trq-tpz">&#xE018;</td>
+			<td class="vcol v s gc" title="xx-generic-grn-tpz">&#xE019;</td>
+			<td class="vcol v s gc" title="xx-generic-brn-tpz">&#xE01A;</td>
+			<td class="vcol v s gc" title="xx-generic-tan-tpz">&#xE01B;</td>
+			<td class="vcol v s gc" title="xx-generic-lgy-tpz">&#xE01C;</td>
+			<td class="vcol v s gc" title="xx-generic-mgy-tpz">&#xE01D;</td>
+			<td class="vcol v s gc" title="xx-generic-dgy-tpz">&#xE01E;</td>
+			<td class="vcol v s gc" title="xx-generic-blk-tpz">&#xE01F;</td>
+			<th class="vcol"><code>tpz</code></th>
+		</tr>
+		<tr>
+			<th class="vcol"><code>E02x</code></th>
+			<td class="vcol v s gc" title="xx-generic-wht-tri">&#xE020;</td>
+			<td class="vcol v s gc" title="xx-generic-ylw-tri">&#xE021;</td>
+			<td class="vcol v s gc" title="xx-generic-org-tri">&#xE022;</td>
+			<td class="vcol v s gc" title="xx-generic-red-tri">&#xE023;</td>
+			<td class="vcol v s gc" title="xx-generic-mag-tri">&#xE024;</td>
+			<td class="vcol v s gc" title="xx-generic-vlt-tri">&#xE025;</td>
+			<td class="vcol v s gc" title="xx-generic-ind-tri">&#xE026;</td>
+			<td class="vcol v s gc" title="xx-generic-blu-tri">&#xE027;</td>
+			<td class="vcol v s gc" title="xx-generic-trq-tri">&#xE028;</td>
+			<td class="vcol v s gc" title="xx-generic-grn-tri">&#xE029;</td>
+			<td class="vcol v s gc" title="xx-generic-brn-tri">&#xE02A;</td>
+			<td class="vcol v s gc" title="xx-generic-tan-tri">&#xE02B;</td>
+			<td class="vcol v s gc" title="xx-generic-lgy-tri">&#xE02C;</td>
+			<td class="vcol v s gc" title="xx-generic-mgy-tri">&#xE02D;</td>
+			<td class="vcol v s gc" title="xx-generic-dgy-tri">&#xE02E;</td>
+			<td class="vcol v s gc" title="xx-generic-blk-tri">&#xE02F;</td>
+			<th class="vcol"><code>tri</code></th>
+		</tr>
+		<tr>
+			<th class="vcol"><code>E03x</code></th>
+			<td class="vcol v s gc" title="xx-generic-wht-swt">&#xE030;</td>
+			<td class="vcol v s gc" title="xx-generic-ylw-swt">&#xE031;</td>
+			<td class="vcol v s gc" title="xx-generic-org-swt">&#xE032;</td>
+			<td class="vcol v s gc" title="xx-generic-red-swt">&#xE033;</td>
+			<td class="vcol v s gc" title="xx-generic-mag-swt">&#xE034;</td>
+			<td class="vcol v s gc" title="xx-generic-vlt-swt">&#xE035;</td>
+			<td class="vcol v s gc" title="xx-generic-ind-swt">&#xE036;</td>
+			<td class="vcol v s gc" title="xx-generic-blu-swt">&#xE037;</td>
+			<td class="vcol v s gc" title="xx-generic-trq-swt">&#xE038;</td>
+			<td class="vcol v s gc" title="xx-generic-grn-swt">&#xE039;</td>
+			<td class="vcol v s gc" title="xx-generic-brn-swt">&#xE03A;</td>
+			<td class="vcol v s gc" title="xx-generic-tan-swt">&#xE03B;</td>
+			<td class="vcol v s gc" title="xx-generic-lgy-swt">&#xE03C;</td>
+			<td class="vcol v s gc" title="xx-generic-mgy-swt">&#xE03D;</td>
+			<td class="vcol v s gc" title="xx-generic-dgy-swt">&#xE03E;</td>
+			<td class="vcol v s gc" title="xx-generic-blk-swt">&#xE03F;</td>
+			<th class="vcol"><code>swt</code></th>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<th class="vcol"></th>
+			<th class="vcol"><code>wht</code></th>
+			<th class="vcol"><code>ylw</code></th>
+			<th class="vcol"><code>org</code></th>
+			<th class="vcol"><code>red</code></th>
+			<th class="vcol"><code>mag</code></th>
+			<th class="vcol"><code>vlt</code></th>
+			<th class="vcol"><code>ind</code></th>
+			<th class="vcol"><code>blu</code></th>
+			<th class="vcol"><code>trq</code></th>
+			<th class="vcol"><code>grn</code></th>
+			<th class="vcol"><code>brn</code></th>
+			<th class="vcol"><code>tan</code></th>
+			<th class="vcol"><code>lgy</code></th>
+			<th class="vcol"><code>mgy</code></th>
+			<th class="vcol"><code>dgy</code></th>
+			<th class="vcol"><code>blk</code></th>
+			<th class="vcol"></th>
+		</tr>
+	</tfoot>
+</table>
+<h2><code>E080-E0FF</code> &nbsp; Signal Flags</h2>
+<table border="1" cellspacing="0" cellpadding="4" class="generictable">
+	<thead>
+		<tr>
+			<th class="vcol"></th>
+			<th class="vcol"><code>xxx0</code></th>
+			<th class="vcol"><code>xxx1</code></th>
+			<th class="vcol"><code>xxx2</code></th>
+			<th class="vcol"><code>xxx3</code></th>
+			<th class="vcol"><code>xxx4</code></th>
+			<th class="vcol"><code>xxx5</code></th>
+			<th class="vcol"><code>xxx6</code></th>
+			<th class="vcol"><code>xxx7</code></th>
+			<th class="vcol"><code>xxx8</code></th>
+			<th class="vcol"><code>xxx9</code></th>
+			<th class="vcol"><code>xxxA</code></th>
+			<th class="vcol"><code>xxxB</code></th>
+			<th class="vcol"><code>xxxC</code></th>
+			<th class="vcol"><code>xxxD</code></th>
+			<th class="vcol"><code>xxxE</code></th>
+			<th class="vcol"><code>xxxF</code></th>
+			<th class="vcol"></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th class="vcol" rowspan="2"><code>E08x</code></th>
+			<td class="vcol v s gc" title="xx-ics-ca">&#xE080;</td>
+			<td class="vcol v s gc" title="xx-ics-a">&#xE081;</td>
+			<td class="vcol v s gc" title="xx-ics-b">&#xE082;</td>
+			<td class="vcol v s gc" title="xx-ics-c">&#xE083;</td>
+			<td class="vcol v s gc" title="xx-ics-d">&#xE084;</td>
+			<td class="vcol v s gc" title="xx-ics-e">&#xE085;</td>
+			<td class="vcol v s gc" title="xx-ics-f">&#xE086;</td>
+			<td class="vcol v s gc" title="xx-ics-g">&#xE087;</td>
+			<td class="vcol v s gc" title="xx-ics-h">&#xE088;</td>
+			<td class="vcol v s gc" title="xx-ics-i">&#xE089;</td>
+			<td class="vcol v s gc" title="xx-ics-j">&#xE08A;</td>
+			<td class="vcol v s gc" title="xx-ics-k">&#xE08B;</td>
+			<td class="vcol v s gc" title="xx-ics-l">&#xE08C;</td>
+			<td class="vcol v s gc" title="xx-ics-m">&#xE08D;</td>
+			<td class="vcol v s gc" title="xx-ics-n">&#xE08E;</td>
+			<td class="vcol v s gc" title="xx-ics-o">&#xE08F;</td>
+			<th class="vcol" rowspan="6">ICS</th>
+		</tr>
+		<tr>
+			<th class="vcol">CA</th>
+			<th class="vcol">A</th>
+			<th class="vcol">B</th>
+			<th class="vcol">C</th>
+			<th class="vcol">D</th>
+			<th class="vcol">E</th>
+			<th class="vcol">F</th>
+			<th class="vcol">G</th>
+			<th class="vcol">H</th>
+			<th class="vcol">I</th>
+			<th class="vcol">J</th>
+			<th class="vcol">K</th>
+			<th class="vcol">L</th>
+			<th class="vcol">M</th>
+			<th class="vcol">N</th>
+			<th class="vcol">O</th>
+		</tr>
+		<tr>
+			<th class="vcol" rowspan="2"><code>E09x</code></th>
+			<td class="vcol v s gc" title="xx-ics-p">&#xE090;</td>
+			<td class="vcol v s gc" title="xx-ics-q">&#xE091;</td>
+			<td class="vcol v s gc" title="xx-ics-r">&#xE092;</td>
+			<td class="vcol v s gc" title="xx-ics-s">&#xE093;</td>
+			<td class="vcol v s gc" title="xx-ics-t">&#xE094;</td>
+			<td class="vcol v s gc" title="xx-ics-u">&#xE095;</td>
+			<td class="vcol v s gc" title="xx-ics-v">&#xE096;</td>
+			<td class="vcol v s gc" title="xx-ics-w">&#xE097;</td>
+			<td class="vcol v s gc" title="xx-ics-x">&#xE098;</td>
+			<td class="vcol v s gc" title="xx-ics-y">&#xE099;</td>
+			<td class="vcol v s gc" title="xx-ics-z">&#xE09A;</td>
+			<td class="vcol v s gc" title="xx-semaphore-jp-l">&#xE09B;</td>
+			<td class="vcol v s gc" title="xx-semaphore">&#xE09C;</td>
+			<td class="vcol v s gc" title="xx-semaphore-jp-r">&#xE09D;</td>
+			<td class="vcol none"></td>
+			<td class="vcol none"></td>
+		</tr>
+		<tr>
+			<th class="vcol">P</th>
+			<th class="vcol">Q</th>
+			<th class="vcol">R</th>
+			<th class="vcol">S</th>
+			<th class="vcol">T</th>
+			<th class="vcol">U</th>
+			<th class="vcol">V</th>
+			<th class="vcol">W</th>
+			<th class="vcol">X</th>
+			<th class="vcol">Y</th>
+			<th class="vcol">Z</th>
+			<th class="vcol">JP-L</th>
+			<th class="vcol">Sem</th>
+			<th class="vcol">JP-R</th>
+			<th class="vcol none"></th>
+			<th class="vcol none"></th>
+		</tr>
+		<tr>
+			<th class="vcol" rowspan="2"><code>E0Ax</code></th>
+			<td class="vcol v s gc" title="xx-ics-0">&#xE0A0;</td>
+			<td class="vcol v s gc" title="xx-ics-1">&#xE0A1;</td>
+			<td class="vcol v s gc" title="xx-ics-2">&#xE0A2;</td>
+			<td class="vcol v s gc" title="xx-ics-3">&#xE0A3;</td>
+			<td class="vcol v s gc" title="xx-ics-4">&#xE0A4;</td>
+			<td class="vcol v s gc" title="xx-ics-5">&#xE0A5;</td>
+			<td class="vcol v s gc" title="xx-ics-6">&#xE0A6;</td>
+			<td class="vcol v s gc" title="xx-ics-7">&#xE0A7;</td>
+			<td class="vcol v s gc" title="xx-ics-8">&#xE0A8;</td>
+			<td class="vcol v s gc" title="xx-ics-9">&#xE0A9;</td>
+			<td class="vcol v s gc" title="xx-ics-1r">&#xE0AA;</td>
+			<td class="vcol v s gc" title="xx-ics-2r">&#xE0AB;</td>
+			<td class="vcol v s gc" title="xx-ics-3r">&#xE0AC;</td>
+			<td class="vcol v s gc" title="xx-ics-4r">&#xE0AD;</td>
+			<td class="vcol none"></td>
+			<td class="vcol none"></td>
+		</tr>
+		<tr>
+			<th class="vcol">0</th>
+			<th class="vcol">1</th>
+			<th class="vcol">2</th>
+			<th class="vcol">3</th>
+			<th class="vcol">4</th>
+			<th class="vcol">5</th>
+			<th class="vcol">6</th>
+			<th class="vcol">7</th>
+			<th class="vcol">8</th>
+			<th class="vcol">9</th>
+			<th class="vcol">1R</th>
+			<th class="vcol">2R</th>
+			<th class="vcol">3R</th>
+			<th class="vcol">4R</th>
+			<th class="vcol none"></th>
+			<th class="vcol none"></th>
+		</tr>
+		<tr>
+			<th class="vcol" rowspan="2"><code>E0Bx</code></th>
+			<td class="vcol v s gc" title="xx-nato-0">&#xE0B0;</td>
+			<td class="vcol v s gc" title="xx-nato-1">&#xE0B1;</td>
+			<td class="vcol v s gc" title="xx-nato-2">&#xE0B2;</td>
+			<td class="vcol v s gc" title="xx-nato-3">&#xE0B3;</td>
+			<td class="vcol v s gc" title="xx-nato-4">&#xE0B4;</td>
+			<td class="vcol v s gc" title="xx-nato-5">&#xE0B5;</td>
+			<td class="vcol v s gc" title="xx-nato-6">&#xE0B6;</td>
+			<td class="vcol v s gc" title="xx-nato-7">&#xE0B7;</td>
+			<td class="vcol v s gc" title="xx-nato-8">&#xE0B8;</td>
+			<td class="vcol v s gc" title="xx-nato-9">&#xE0B9;</td>
+			<td class="vcol v s gc" title="xx-esperanto-ch">&#xE0BA;</td>
+			<td class="vcol v s gc" title="xx-esperanto-gh">&#xE0BB;</td>
+			<td class="vcol v s gc" title="xx-esperanto-hh">&#xE0BC;</td>
+			<td class="vcol v s gc" title="xx-esperanto-jh">&#xE0BD;</td>
+			<td class="vcol v s gc" title="xx-esperanto-sh">&#xE0BE;</td>
+			<td class="vcol v s gc" title="xx-esperanto-uu">&#xE0BF;</td>
+			<th class="vcol small" rowspan="2">NATO/<br>Esper-<br>anto</th>
+		</tr>
+		<tr>
+			<th class="vcol">0</th>
+			<th class="vcol">1</th>
+			<th class="vcol">2</th>
+			<th class="vcol">3</th>
+			<th class="vcol">4</th>
+			<th class="vcol">5</th>
+			<th class="vcol">6</th>
+			<th class="vcol">7</th>
+			<th class="vcol">8</th>
+			<th class="vcol">9</th>
+			<th class="vcol">&#x108;</th>
+			<th class="vcol">&#x11C;</th>
+			<th class="vcol">&#x124;</th>
+			<th class="vcol">&#x134;</th>
+			<th class="vcol">&#x15C;</th>
+			<th class="vcol">&#x16C;</th>
+		</tr>
+	</tbody>
+</table>
+<h2><code>E100-E3FF</code> &nbsp; ISO Country Codes</h2>
+<table border="1" cellspacing="0" cellpadding="4" class="cctable">
+	<thead>
+		<tr>
+			<th class="cccol"></th>
+			<th class="cccol"><code>xA</code></th>
+			<th class="cccol"><code>xB</code></th>
+			<th class="cccol"><code>xC</code></th>
+			<th class="cccol"><code>xD</code></th>
+			<th class="cccol"><code>xE</code></th>
+			<th class="cccol"><code>xF</code></th>
+			<th class="cccol"><code>xG</code></th>
+			<th class="cccol"><code>xH</code></th>
+			<th class="cccol"><code>xI</code></th>
+			<th class="cccol"><code>xJ</code></th>
+			<th class="cccol"><code>xK</code></th>
+			<th class="cccol"><code>xL</code></th>
+			<th class="cccol"><code>xM</code></th>
+			<th class="cccol"><code>xN</code></th>
+			<th class="cccol"><code>xO</code></th>
+			<th class="cccol"><code>xP</code></th>
+			<th class="cccol"><code>xQ</code></th>
+			<th class="cccol"><code>xR</code></th>
+			<th class="cccol"><code>xS</code></th>
+			<th class="cccol"><code>xT</code></th>
+			<th class="cccol"><code>xU</code></th>
+			<th class="cccol"><code>xV</code></th>
+			<th class="cccol"><code>xW</code></th>
+			<th class="cccol"><code>xX</code></th>
+			<th class="cccol"><code>xY</code></th>
+			<th class="cccol"><code>xZ</code></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th class="cccol"><code>Ax</code></th>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E102 - 1F1E6+1F1E8 - AC - Ascension Island">&#x1F1E6;&#x1F1E8;</td>
+			<td class="cccol v s gc" title="E103 - 1F1E6+1F1E9 - AD - Andorra">&#x1F1E6;&#x1F1E9;</td>
+			<td class="cccol v s gc" title="E104 - 1F1E6+1F1EA - AE - United Arab Emirates">&#x1F1E6;&#x1F1EA;</td>
+			<td class="cccol v s gc" title="E105 - 1F1E6+1F1EB - AF - Afghanistan">&#x1F1E6;&#x1F1EB;</td>
+			<td class="cccol v s gc" title="E106 - 1F1E6+1F1EC - AG - Antigua and Barbuda">&#x1F1E6;&#x1F1EC;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E108 - 1F1E6+1F1EE - AI - Anguilla">&#x1F1E6;&#x1F1EE;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E10B - 1F1E6+1F1F1 - AL - Albania">&#x1F1E6;&#x1F1F1;</td>
+			<td class="cccol v s gc" title="E10C - 1F1E6+1F1F2 - AM - Armenia">&#x1F1E6;&#x1F1F2;</td>
+			<td class="cccol v s gc" title="E10D - 1F1E6+1F1F3 - AN - Netherlands Antilles">&#x1F1E6;&#x1F1F3;</td>
+			<td class="cccol v s gc" title="E10E - 1F1E6+1F1F4 - AO - Angola">&#x1F1E6;&#x1F1F4;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E110 - 1F1E6+1F1F6 - AQ - Antarctica">&#x1F1E6;&#x1F1F6;</td>
+			<td class="cccol v s gc" title="E111 - 1F1E6+1F1F7 - AR - Argentina">&#x1F1E6;&#x1F1F7;</td>
+			<td class="cccol v s gc" title="E112 - 1F1E6+1F1F8 - AS - American Samoa">&#x1F1E6;&#x1F1F8;</td>
+			<td class="cccol v s gc" title="E113 - 1F1E6+1F1F9 - AT - Austria">&#x1F1E6;&#x1F1F9;</td>
+			<td class="cccol v s gc" title="E114 - 1F1E6+1F1FA - AU - Australia">&#x1F1E6;&#x1F1FA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E116 - 1F1E6+1F1FC - AW - Aruba">&#x1F1E6;&#x1F1FC;</td>
+			<td class="cccol v s gc" title="E117 - 1F1E6+1F1FD - AX - Åland Islands">&#x1F1E6;&#x1F1FD;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E119 - 1F1E6+1F1FF - AZ - Azerbaijan">&#x1F1E6;&#x1F1FF;</td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Bx</code></th>
+			<td class="cccol v s gc" title="E11A - 1F1E7+1F1E6 - BA - Bosnia and Herzegovina">&#x1F1E7;&#x1F1E6;</td>
+			<td class="cccol v s gc" title="E11B - 1F1E7+1F1E7 - BB - Barbados">&#x1F1E7;&#x1F1E7;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E11D - 1F1E7+1F1E9 - BD - Bangladesh">&#x1F1E7;&#x1F1E9;</td>
+			<td class="cccol v s gc" title="E11E - 1F1E7+1F1EA - BE - Belgium">&#x1F1E7;&#x1F1EA;</td>
+			<td class="cccol v s gc" title="E11F - 1F1E7+1F1EB - BF - Burkina Faso">&#x1F1E7;&#x1F1EB;</td>
+			<td class="cccol v s gc" title="E120 - 1F1E7+1F1EC - BG - Bulgaria">&#x1F1E7;&#x1F1EC;</td>
+			<td class="cccol v s gc" title="E121 - 1F1E7+1F1ED - BH - Bahrain">&#x1F1E7;&#x1F1ED;</td>
+			<td class="cccol v s gc" title="E122 - 1F1E7+1F1EE - BI - Burundi">&#x1F1E7;&#x1F1EE;</td>
+			<td class="cccol v s gc" title="E123 - 1F1E7+1F1EF - BJ - Benin">&#x1F1E7;&#x1F1EF;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E125 - 1F1E7+1F1F1 - BL - Saint Barthelemy">&#x1F1E7;&#x1F1F1;</td>
+			<td class="cccol v s gc" title="E126 - 1F1E7+1F1F2 - BM - Bermuda">&#x1F1E7;&#x1F1F2;</td>
+			<td class="cccol v s gc" title="E127 - 1F1E7+1F1F3 - BN - Brunei">&#x1F1E7;&#x1F1F3;</td>
+			<td class="cccol v s gc" title="E128 - 1F1E7+1F1F4 - BO - Bolivia">&#x1F1E7;&#x1F1F4;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E12A - 1F1E7+1F1F6 - BQ - Bonaire, Sint Eustatius, and Saba">&#x1F1E7;&#x1F1F6;</td>
+			<td class="cccol v s gc" title="E12B - 1F1E7+1F1F7 - BR - Brazil">&#x1F1E7;&#x1F1F7;</td>
+			<td class="cccol v s gc" title="E12C - 1F1E7+1F1F8 - BS - Bahamas">&#x1F1E7;&#x1F1F8;</td>
+			<td class="cccol v s gc" title="E12D - 1F1E7+1F1F9 - BT - Bhutan">&#x1F1E7;&#x1F1F9;</td>
+			<td class="cccol v s gc" title="E12E - 1F1E7+1F1FA - BU - Burma (Myanmar)">&#x1F1E7;&#x1F1FA;</td>
+			<td class="cccol v s gc" title="E12F - 1F1E7+1F1FB - BV - Bouvet Island">&#x1F1E7;&#x1F1FB;</td>
+			<td class="cccol v s gc" title="E130 - 1F1E7+1F1FC - BW - Botswana">&#x1F1E7;&#x1F1FC;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E132 - 1F1E7+1F1FE - BY - Belarus">&#x1F1E7;&#x1F1FE;</td>
+			<td class="cccol v s gc" title="E133 - 1F1E7+1F1FF - BZ - Belize">&#x1F1E7;&#x1F1FF;</td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Cx</code></th>
+			<td class="cccol v s gc" title="E134 - 1F1E8+1F1E6 - CA - Canada">&#x1F1E8;&#x1F1E6;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E136 - 1F1E8+1F1E8 - CC - Cocos Islands">&#x1F1E8;&#x1F1E8;</td>
+			<td class="cccol v s gc" title="E137 - 1F1E8+1F1E9 - CD - Congo (Democratic Republic)">&#x1F1E8;&#x1F1E9;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E139 - 1F1E8+1F1EB - CF - Central Africa">&#x1F1E8;&#x1F1EB;</td>
+			<td class="cccol v s gc" title="E13A - 1F1E8+1F1EC - CG - Congo (Republic)">&#x1F1E8;&#x1F1EC;</td>
+			<td class="cccol v s gc" title="E13B - 1F1E8+1F1ED - CH - Switzerland">&#x1F1E8;&#x1F1ED;</td>
+			<td class="cccol v s gc" title="E13C - 1F1E8+1F1EE - CI - Côte d'Ivoire">&#x1F1E8;&#x1F1EE;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E13E - 1F1E8+1F1F0 - CK - Cook Islands">&#x1F1E8;&#x1F1F0;</td>
+			<td class="cccol v s gc" title="E13F - 1F1E8+1F1F1 - CL - Chile">&#x1F1E8;&#x1F1F1;</td>
+			<td class="cccol v s gc" title="E140 - 1F1E8+1F1F2 - CM - Cameroon">&#x1F1E8;&#x1F1F2;</td>
+			<td class="cccol v s gc" title="E141 - 1F1E8+1F1F3 - CN - China">&#x1F1E8;&#x1F1F3;</td>
+			<td class="cccol v s gc" title="E142 - 1F1E8+1F1F4 - CO - Colombia">&#x1F1E8;&#x1F1F4;</td>
+			<td class="cccol v s gc" title="E143 - 1F1E8+1F1F5 - CP - Clipperton Island">&#x1F1E8;&#x1F1F5;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E145 - 1F1E8+1F1F7 - CR - Costa Rica">&#x1F1E8;&#x1F1F7;</td>
+			<td class="cccol v s gc" title="E146 - 1F1E8+1F1F8 - CS - Serbia and Montenegro">&#x1F1E8;&#x1F1F8;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E148 - 1F1E8+1F1FA - CU - Cuba">&#x1F1E8;&#x1F1FA;</td>
+			<td class="cccol v s gc" title="E149 - 1F1E8+1F1FB - CV - Cape Verde">&#x1F1E8;&#x1F1FB;</td>
+			<td class="cccol v s gc" title="E14A - 1F1E8+1F1FC - CW - Curaçao">&#x1F1E8;&#x1F1FC;</td>
+			<td class="cccol v s gc" title="E14B - 1F1E8+1F1FD - CX - Christmas Island">&#x1F1E8;&#x1F1FD;</td>
+			<td class="cccol v s gc" title="E14C - 1F1E8+1F1FE - CY - Cyprus">&#x1F1E8;&#x1F1FE;</td>
+			<td class="cccol v s gc" title="E14D - 1F1E8+1F1FF - CZ - Czechia">&#x1F1E8;&#x1F1FF;</td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Dx</code></th>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E152 - 1F1E9+1F1EA - DE - Germany">&#x1F1E9;&#x1F1EA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E154 - 1F1E9+1F1EC - DG - Diego Garcia">&#x1F1E9;&#x1F1EC;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E157 - 1F1E9+1F1EF - DJ - Djibouti">&#x1F1E9;&#x1F1EF;</td>
+			<td class="cccol v s gc" title="E158 - 1F1E9+1F1F0 - DK - Denmark">&#x1F1E9;&#x1F1F0;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E15A - 1F1E9+1F1F2 - DM - Dominica">&#x1F1E9;&#x1F1F2;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E15C - 1F1E9+1F1F4 - DO - Dominican Republic">&#x1F1E9;&#x1F1F4;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E167 - 1F1E9+1F1FF - DZ - Algeria">&#x1F1E9;&#x1F1FF;</td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Ex</code></th>
+			<td class="cccol v s gc" title="E168 - 1F1EA+1F1E6 - EA - Ceuta and Melilla">&#x1F1EA;&#x1F1E6;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E16A - 1F1EA+1F1E8 - EC - Ecuador">&#x1F1EA;&#x1F1E8;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E16C - 1F1EA+1F1EA - EE - Estonia">&#x1F1EA;&#x1F1EA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E16E - 1F1EA+1F1EC - EG - Egypt">&#x1F1EA;&#x1F1EC;</td>
+			<td class="cccol v s gc" title="E16F - 1F1EA+1F1ED - EH - Western Sahara">&#x1F1EA;&#x1F1ED;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E179 - 1F1EA+1F1F7 - ER - Eritrea">&#x1F1EA;&#x1F1F7;</td>
+			<td class="cccol v s gc" title="E17A - 1F1EA+1F1F8 - ES - Spain">&#x1F1EA;&#x1F1F8;</td>
+			<td class="cccol v s gc" title="E17B - 1F1EA+1F1F9 - ET - Ethiopia">&#x1F1EA;&#x1F1F9;</td>
+			<td class="cccol v s gc" title="E17C - 1F1EA+1F1FA - EU - European Union">&#x1F1EA;&#x1F1FA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Fx</code></th>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E18A - 1F1EB+1F1EE - FI - Finland">&#x1F1EB;&#x1F1EE;</td>
+			<td class="cccol v s gc" title="E18B - 1F1EB+1F1EF - FJ - Fiji">&#x1F1EB;&#x1F1EF;</td>
+			<td class="cccol v s gc" title="E18C - 1F1EB+1F1F0 - FK - Falkland Islands">&#x1F1EB;&#x1F1F0;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E18E - 1F1EB+1F1F2 - FM - Micronesia">&#x1F1EB;&#x1F1F2;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E190 - 1F1EB+1F1F4 - FO - Faroe Islands">&#x1F1EB;&#x1F1F4;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E193 - 1F1EB+1F1F7 - FR - France">&#x1F1EB;&#x1F1F7;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Gx</code></th>
+			<td class="cccol v s gc" title="E19C - 1F1EC+1F1E6 - GA - Gabon">&#x1F1EC;&#x1F1E6;</td>
+			<td class="cccol v s gc" title="E19D - 1F1EC+1F1E7 - GB - Great Britain">&#x1F1EC;&#x1F1E7;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E19F - 1F1EC+1F1E9 - GD - Grenada">&#x1F1EC;&#x1F1E9;</td>
+			<td class="cccol v s gc" title="E1A0 - 1F1EC+1F1EA - GE - Georgia">&#x1F1EC;&#x1F1EA;</td>
+			<td class="cccol v s gc" title="E1A1 - 1F1EC+1F1EB - GF - French Guiana">&#x1F1EC;&#x1F1EB;</td>
+			<td class="cccol v s gc" title="E1A2 - 1F1EC+1F1EC - GG - Guernsey">&#x1F1EC;&#x1F1EC;</td>
+			<td class="cccol v s gc" title="E1A3 - 1F1EC+1F1ED - GH - Ghana">&#x1F1EC;&#x1F1ED;</td>
+			<td class="cccol v s gc" title="E1A4 - 1F1EC+1F1EE - GI - Gibraltar">&#x1F1EC;&#x1F1EE;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E1A7 - 1F1EC+1F1F1 - GL - Greenland">&#x1F1EC;&#x1F1F1;</td>
+			<td class="cccol v s gc" title="E1A8 - 1F1EC+1F1F2 - GM - Gambia">&#x1F1EC;&#x1F1F2;</td>
+			<td class="cccol v s gc" title="E1A9 - 1F1EC+1F1F3 - GN - Guinea">&#x1F1EC;&#x1F1F3;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E1AB - 1F1EC+1F1F5 - GP - Guadeloupe">&#x1F1EC;&#x1F1F5;</td>
+			<td class="cccol v s gc" title="E1AC - 1F1EC+1F1F6 - GQ - Equatorial Guinea">&#x1F1EC;&#x1F1F6;</td>
+			<td class="cccol v s gc" title="E1AD - 1F1EC+1F1F7 - GR - Greece">&#x1F1EC;&#x1F1F7;</td>
+			<td class="cccol v s gc" title="E1AE - 1F1EC+1F1F8 - GS - South Georgia and South Sandwich Islands">&#x1F1EC;&#x1F1F8;</td>
+			<td class="cccol v s gc" title="E1AF - 1F1EC+1F1F9 - GT - Guatemala">&#x1F1EC;&#x1F1F9;</td>
+			<td class="cccol v s gc" title="E1B0 - 1F1EC+1F1FA - GU - Guam">&#x1F1EC;&#x1F1FA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E1B2 - 1F1EC+1F1FC - GW - Guinea-Bissau">&#x1F1EC;&#x1F1FC;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E1B4 - 1F1EC+1F1FE - GY - Guyana">&#x1F1EC;&#x1F1FE;</td>
+			<td class="cccol none"></td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Hx</code></th>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E1C0 - 1F1ED+1F1F0 - HK - Hong Kong">&#x1F1ED;&#x1F1F0;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E1C2 - 1F1ED+1F1F2 - HM - Heard Island and McDonald Islands">&#x1F1ED;&#x1F1F2;</td>
+			<td class="cccol v s gc" title="E1C3 - 1F1ED+1F1F3 - HN - Honduras">&#x1F1ED;&#x1F1F3;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E1C7 - 1F1ED+1F1F7 - HR - Croatia">&#x1F1ED;&#x1F1F7;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E1C9 - 1F1ED+1F1F9 - HT - Haiti">&#x1F1ED;&#x1F1F9;</td>
+			<td class="cccol v s gc" title="E1CA - 1F1ED+1F1FA - HU - Hungary">&#x1F1ED;&#x1F1FA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Ix</code></th>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E1D2 - 1F1EE+1F1E8 - IC - Canary Islands">&#x1F1EE;&#x1F1E8;</td>
+			<td class="cccol v s gc" title="E1D3 - 1F1EE+1F1E9 - ID - Indonesia">&#x1F1EE;&#x1F1E9;</td>
+			<td class="cccol v s gc" title="E1D4 - 1F1EE+1F1EA - IE - Ireland">&#x1F1EE;&#x1F1EA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E1DB - 1F1EE+1F1F1 - IL - Israel">&#x1F1EE;&#x1F1F1;</td>
+			<td class="cccol v s gc" title="E1DC - 1F1EE+1F1F2 - IM - Isle of Man">&#x1F1EE;&#x1F1F2;</td>
+			<td class="cccol v s gc" title="E1DD - 1F1EE+1F1F3 - IN - India">&#x1F1EE;&#x1F1F3;</td>
+			<td class="cccol v s gc" title="E1DE - 1F1EE+1F1F4 - IO - British Indian Ocean Territory (Chagos Islands)">&#x1F1EE;&#x1F1F4;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E1E0 - 1F1EE+1F1F6 - IQ - Iraq">&#x1F1EE;&#x1F1F6;</td>
+			<td class="cccol v s gc" title="E1E1 - 1F1EE+1F1F7 - IR - Iran">&#x1F1EE;&#x1F1F7;</td>
+			<td class="cccol v s gc" title="E1E2 - 1F1EE+1F1F8 - IS - Iceland">&#x1F1EE;&#x1F1F8;</td>
+			<td class="cccol v s gc" title="E1E3 - 1F1EE+1F1F9 - IT - Italy">&#x1F1EE;&#x1F1F9;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Jx</code></th>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E1EE - 1F1EF+1F1EA - JE - Jersey">&#x1F1EF;&#x1F1EA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E1F6 - 1F1EF+1F1F2 - JM - Jamaica">&#x1F1EF;&#x1F1F2;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E1F8 - 1F1EF+1F1F4 - JO - Jordan">&#x1F1EF;&#x1F1F4;</td>
+			<td class="cccol v s gc" title="E1F9 - 1F1EF+1F1F5 - JP - Japan">&#x1F1EF;&#x1F1F5;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Kx</code></th>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E208 - 1F1F0+1F1EA - KE - Kenya">&#x1F1F0;&#x1F1EA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E20A - 1F1F0+1F1EC - KG - Kyrgyzstan">&#x1F1F0;&#x1F1EC;</td>
+			<td class="cccol v s gc" title="E20B - 1F1F0+1F1ED - KH - Cambodia">&#x1F1F0;&#x1F1ED;</td>
+			<td class="cccol v s gc" title="E20C - 1F1F0+1F1EE - KI - Kiribati">&#x1F1F0;&#x1F1EE;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E210 - 1F1F0+1F1F2 - KM - Comoros">&#x1F1F0;&#x1F1F2;</td>
+			<td class="cccol v s gc" title="E211 - 1F1F0+1F1F3 - KN - Saint Kitts and Nevis">&#x1F1F0;&#x1F1F3;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E213 - 1F1F0+1F1F5 - KP - North Korea">&#x1F1F0;&#x1F1F5;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E215 - 1F1F0+1F1F7 - KR - South Korea">&#x1F1F0;&#x1F1F7;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E21A - 1F1F0+1F1FC - KW - Kuwait">&#x1F1F0;&#x1F1FC;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E21C - 1F1F0+1F1FE - KY - Cayman Islands">&#x1F1F0;&#x1F1FE;</td>
+			<td class="cccol v s gc" title="E21D - 1F1F0+1F1FF - KZ - Kazakhstan">&#x1F1F0;&#x1F1FF;</td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Lx</code></th>
+			<td class="cccol v s gc" title="E21E - 1F1F1+1F1E6 - LA - Laos">&#x1F1F1;&#x1F1E6;</td>
+			<td class="cccol v s gc" title="E21F - 1F1F1+1F1E7 - LB - Lebanon">&#x1F1F1;&#x1F1E7;</td>
+			<td class="cccol v s gc" title="E220 - 1F1F1+1F1E8 - LC - Saint Lucia">&#x1F1F1;&#x1F1E8;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E226 - 1F1F1+1F1EE - LI - Liechtenstein">&#x1F1F1;&#x1F1EE;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E228 - 1F1F1+1F1F0 - LK - Sri Lanka">&#x1F1F1;&#x1F1F0;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E22F - 1F1F1+1F1F7 - LR - Liberia">&#x1F1F1;&#x1F1F7;</td>
+			<td class="cccol v s gc" title="E230 - 1F1F1+1F1F8 - LS - Lesotho">&#x1F1F1;&#x1F1F8;</td>
+			<td class="cccol v s gc" title="E231 - 1F1F1+1F1F9 - LT - Lithuania">&#x1F1F1;&#x1F1F9;</td>
+			<td class="cccol v s gc" title="E232 - 1F1F1+1F1FA - LU - Luxembourg">&#x1F1F1;&#x1F1FA;</td>
+			<td class="cccol v s gc" title="E233 - 1F1F1+1F1FB - LV - Latvia">&#x1F1F1;&#x1F1FB;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E236 - 1F1F1+1F1FE - LY - Libya">&#x1F1F1;&#x1F1FE;</td>
+			<td class="cccol none"></td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Mx</code></th>
+			<td class="cccol v s gc" title="E238 - 1F1F2+1F1E6 - MA - Morocco">&#x1F1F2;&#x1F1E6;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E23A - 1F1F2+1F1E8 - MC - Monaco">&#x1F1F2;&#x1F1E8;</td>
+			<td class="cccol v s gc" title="E23B - 1F1F2+1F1E9 - MD - Moldova">&#x1F1F2;&#x1F1E9;</td>
+			<td class="cccol v s gc" title="E23C - 1F1F2+1F1EA - ME - Montenegro">&#x1F1F2;&#x1F1EA;</td>
+			<td class="cccol v s gc" title="E23D - 1F1F2+1F1EB - MF - Saint Martin">&#x1F1F2;&#x1F1EB;</td>
+			<td class="cccol v s gc" title="E23E - 1F1F2+1F1EC - MG - Madagascar">&#x1F1F2;&#x1F1EC;</td>
+			<td class="cccol v s gc" title="E23F - 1F1F2+1F1ED - MH - Marshall Islands">&#x1F1F2;&#x1F1ED;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E242 - 1F1F2+1F1F0 - MK - Macedonia">&#x1F1F2;&#x1F1F0;</td>
+			<td class="cccol v s gc" title="E243 - 1F1F2+1F1F1 - ML - Mali">&#x1F1F2;&#x1F1F1;</td>
+			<td class="cccol v s gc" title="E244 - 1F1F2+1F1F2 - MM - Myanmar (Burma)">&#x1F1F2;&#x1F1F2;</td>
+			<td class="cccol v s gc" title="E245 - 1F1F2+1F1F3 - MN - Mongolia">&#x1F1F2;&#x1F1F3;</td>
+			<td class="cccol v s gc" title="E246 - 1F1F2+1F1F4 - MO - Macao">&#x1F1F2;&#x1F1F4;</td>
+			<td class="cccol v s gc" title="E247 - 1F1F2+1F1F5 - MP - Northern Mariana Islands">&#x1F1F2;&#x1F1F5;</td>
+			<td class="cccol v s gc" title="E248 - 1F1F2+1F1F6 - MQ - Martinique">&#x1F1F2;&#x1F1F6;</td>
+			<td class="cccol v s gc" title="E249 - 1F1F2+1F1F7 - MR - Mauritania">&#x1F1F2;&#x1F1F7;</td>
+			<td class="cccol v s gc" title="E24A - 1F1F2+1F1F8 - MS - Montserrat">&#x1F1F2;&#x1F1F8;</td>
+			<td class="cccol v s gc" title="E24B - 1F1F2+1F1F9 - MT - Malta">&#x1F1F2;&#x1F1F9;</td>
+			<td class="cccol v s gc" title="E24C - 1F1F2+1F1FA - MU - Mauritius">&#x1F1F2;&#x1F1FA;</td>
+			<td class="cccol v s gc" title="E24D - 1F1F2+1F1FB - MV - Maldives">&#x1F1F2;&#x1F1FB;</td>
+			<td class="cccol v s gc" title="E24E - 1F1F2+1F1FC - MW - Malawi">&#x1F1F2;&#x1F1FC;</td>
+			<td class="cccol v s gc" title="E24F - 1F1F2+1F1FD - MX - Mexico">&#x1F1F2;&#x1F1FD;</td>
+			<td class="cccol v s gc" title="E250 - 1F1F2+1F1FE - MY - Malaysia">&#x1F1F2;&#x1F1FE;</td>
+			<td class="cccol v s gc" title="E251 - 1F1F2+1F1FF - MZ - Mozambique">&#x1F1F2;&#x1F1FF;</td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Nx</code></th>
+			<td class="cccol v s gc" title="E252 - 1F1F3+1F1E6 - NA - Namibia">&#x1F1F3;&#x1F1E6;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E254 - 1F1F3+1F1E8 - NC - New Caledonia">&#x1F1F3;&#x1F1E8;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E256 - 1F1F3+1F1EA - NE - Niger">&#x1F1F3;&#x1F1EA;</td>
+			<td class="cccol v s gc" title="E257 - 1F1F3+1F1EB - NF - Norfolk Island">&#x1F1F3;&#x1F1EB;</td>
+			<td class="cccol v s gc" title="E258 - 1F1F3+1F1EC - NG - Nigeria">&#x1F1F3;&#x1F1EC;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E25A - 1F1F3+1F1EE - NI - Nicaragua">&#x1F1F3;&#x1F1EE;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E25D - 1F1F3+1F1F1 - NL - Netherlands">&#x1F1F3;&#x1F1F1;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E260 - 1F1F3+1F1F4 - NO - Norway">&#x1F1F3;&#x1F1F4;</td>
+			<td class="cccol v s gc" title="E261 - 1F1F3+1F1F5 - NP - Nepal">&#x1F1F3;&#x1F1F5;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E263 - 1F1F3+1F1F7 - NR - Nauru">&#x1F1F3;&#x1F1F7;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E266 - 1F1F3+1F1FA - NU - Niue">&#x1F1F3;&#x1F1FA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E26B - 1F1F3+1F1FF - NZ - New Zealand">&#x1F1F3;&#x1F1FF;</td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Ox</code></th>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E278 - 1F1F4+1F1F2 - OM - Oman">&#x1F1F4;&#x1F1F2;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Px</code></th>
+			<td class="cccol v s gc" title="E286 - 1F1F5+1F1E6 - PA - Panama">&#x1F1F5;&#x1F1E6;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E28A - 1F1F5+1F1EA - PE - Peru">&#x1F1F5;&#x1F1EA;</td>
+			<td class="cccol v s gc" title="E28B - 1F1F5+1F1EB - PF - French Polynesia">&#x1F1F5;&#x1F1EB;</td>
+			<td class="cccol v s gc" title="E28C - 1F1F5+1F1EC - PG - Papua New Guinea">&#x1F1F5;&#x1F1EC;</td>
+			<td class="cccol v s gc" title="E28D - 1F1F5+1F1ED - PH - Philippines">&#x1F1F5;&#x1F1ED;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E290 - 1F1F5+1F1F0 - PK - Pakistan">&#x1F1F5;&#x1F1F0;</td>
+			<td class="cccol v s gc" title="E291 - 1F1F5+1F1F1 - PL - Poland">&#x1F1F5;&#x1F1F1;</td>
+			<td class="cccol v s gc" title="E292 - 1F1F5+1F1F2 - PM - Saint Pierre and Miquelon">&#x1F1F5;&#x1F1F2;</td>
+			<td class="cccol v s gc" title="E293 - 1F1F5+1F1F3 - PN - Pitcairn Islands">&#x1F1F5;&#x1F1F3;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E297 - 1F1F5+1F1F7 - PR - Puerto Rico">&#x1F1F5;&#x1F1F7;</td>
+			<td class="cccol v s gc" title="E298 - 1F1F5+1F1F8 - PS - Palestine">&#x1F1F5;&#x1F1F8;</td>
+			<td class="cccol v s gc" title="E299 - 1F1F5+1F1F9 - PT - Portugal">&#x1F1F5;&#x1F1F9;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E29C - 1F1F5+1F1FC - PW - Palau">&#x1F1F5;&#x1F1FC;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E29E - 1F1F5+1F1FE - PY - Paraguay">&#x1F1F5;&#x1F1FE;</td>
+			<td class="cccol none"></td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Qx</code></th>
+			<td class="cccol v s gc" title="E2A0 - 1F1F6+1F1E6 - QA - Qatar">&#x1F1F6;&#x1F1E6;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E2B4 - 1F1F6+1F1FA - QU - European Union">&#x1F1F6;&#x1F1FA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Rx</code></th>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E2BE - 1F1F7+1F1EA - RE - Réunion">&#x1F1F7;&#x1F1EA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E2C8 - 1F1F7+1F1F4 - RO - Romania">&#x1F1F7;&#x1F1F4;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E2CC - 1F1F7+1F1F8 - RS - Serbia">&#x1F1F7;&#x1F1F8;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E2CE - 1F1F7+1F1FA - RU - Russia">&#x1F1F7;&#x1F1FA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E2D0 - 1F1F7+1F1FC - RW - Rwanda">&#x1F1F7;&#x1F1FC;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Sx</code></th>
+			<td class="cccol v s gc" title="E2D4 - 1F1F8+1F1E6 - SA - Saudi Arabia">&#x1F1F8;&#x1F1E6;</td>
+			<td class="cccol v s gc" title="E2D5 - 1F1F8+1F1E7 - SB - Solomon Islands">&#x1F1F8;&#x1F1E7;</td>
+			<td class="cccol v s gc" title="E2D6 - 1F1F8+1F1E8 - SC - Seychelles">&#x1F1F8;&#x1F1E8;</td>
+			<td class="cccol v s gc" title="E2D7 - 1F1F8+1F1E9 - SD - Sudan">&#x1F1F8;&#x1F1E9;</td>
+			<td class="cccol v s gc" title="E2D8 - 1F1F8+1F1EA - SE - Sweden">&#x1F1F8;&#x1F1EA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E2DA - 1F1F8+1F1EC - SG - Singapore">&#x1F1F8;&#x1F1EC;</td>
+			<td class="cccol v s gc" title="E2DB - 1F1F8+1F1ED - SH - Saint Helena">&#x1F1F8;&#x1F1ED;</td>
+			<td class="cccol v s gc" title="E2DC - 1F1F8+1F1EE - SI - Slovenia">&#x1F1F8;&#x1F1EE;</td>
+			<td class="cccol v s gc" title="E2DD - 1F1F8+1F1EF - SJ - Svalbard and Jan Mayen">&#x1F1F8;&#x1F1EF;</td>
+			<td class="cccol v s gc" title="E2DE - 1F1F8+1F1F0 - SK - Slovakia">&#x1F1F8;&#x1F1F0;</td>
+			<td class="cccol v s gc" title="E2DF - 1F1F8+1F1F1 - SL - Sierra Leone">&#x1F1F8;&#x1F1F1;</td>
+			<td class="cccol v s gc" title="E2E0 - 1F1F8+1F1F2 - SM - San Marino">&#x1F1F8;&#x1F1F2;</td>
+			<td class="cccol v s gc" title="E2E1 - 1F1F8+1F1F3 - SN - Senegal">&#x1F1F8;&#x1F1F3;</td>
+			<td class="cccol v s gc" title="E2E2 - 1F1F8+1F1F4 - SO - Somalia">&#x1F1F8;&#x1F1F4;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E2E5 - 1F1F8+1F1F7 - SR - Suriname">&#x1F1F8;&#x1F1F7;</td>
+			<td class="cccol v s gc" title="E2E6 - 1F1F8+1F1F8 - SS - South Sudan">&#x1F1F8;&#x1F1F8;</td>
+			<td class="cccol v s gc" title="E2E7 - 1F1F8+1F1F9 - ST - São Tomé and Príncipe">&#x1F1F8;&#x1F1F9;</td>
+			<td class="cccol v s gc" title="E2E8 - 1F1F8+1F1FA - SU - Soviet Union">&#x1F1F8;&#x1F1FA;</td>
+			<td class="cccol v s gc" title="E2E9 - 1F1F8+1F1FB - SV - El Salvador">&#x1F1F8;&#x1F1FB;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E2EB - 1F1F8+1F1FD - SX - Sint Maarten">&#x1F1F8;&#x1F1FD;</td>
+			<td class="cccol v s gc" title="E2EC - 1F1F8+1F1FE - SY - Syria">&#x1F1F8;&#x1F1FE;</td>
+			<td class="cccol v s gc" title="E2ED - 1F1F8+1F1FF - SZ - Swaziland">&#x1F1F8;&#x1F1FF;</td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Tx</code></th>
+			<td class="cccol v s gc" title="E2EE - 1F1F9+1F1E6 - TA - Tristan da Cunha">&#x1F1F9;&#x1F1E6;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E2F0 - 1F1F9+1F1E8 - TC - Turks and Caicos Islands">&#x1F1F9;&#x1F1E8;</td>
+			<td class="cccol v s gc" title="E2F1 - 1F1F9+1F1E9 - TD - Chad">&#x1F1F9;&#x1F1E9;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E2F3 - 1F1F9+1F1EB - TF - French Southern Lands">&#x1F1F9;&#x1F1EB;</td>
+			<td class="cccol v s gc" title="E2F4 - 1F1F9+1F1EC - TG - Togo">&#x1F1F9;&#x1F1EC;</td>
+			<td class="cccol v s gc" title="E2F5 - 1F1F9+1F1ED - TH - Thailand">&#x1F1F9;&#x1F1ED;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E2F7 - 1F1F9+1F1EF - TJ - Tajikistan">&#x1F1F9;&#x1F1EF;</td>
+			<td class="cccol v s gc" title="E2F8 - 1F1F9+1F1F0 - TK - Tokelau">&#x1F1F9;&#x1F1F0;</td>
+			<td class="cccol v s gc" title="E2F9 - 1F1F9+1F1F1 - TL - Timor-Leste">&#x1F1F9;&#x1F1F1;</td>
+			<td class="cccol v s gc" title="E2FA - 1F1F9+1F1F2 - TM - Turkmenistan">&#x1F1F9;&#x1F1F2;</td>
+			<td class="cccol v s gc" title="E2FB - 1F1F9+1F1F3 - TN - Tunisia">&#x1F1F9;&#x1F1F3;</td>
+			<td class="cccol v s gc" title="E2FC - 1F1F9+1F1F4 - TO - Tonga">&#x1F1F9;&#x1F1F4;</td>
+			<td class="cccol v s gc" title="E2FD - 1F1F9+1F1F5 - TP - Portuguese Timor">&#x1F1F9;&#x1F1F5;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E2FF - 1F1F9+1F1F7 - TR - Turkey">&#x1F1F9;&#x1F1F7;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E301 - 1F1F9+1F1F9 - TT - Trinidad and Tobago">&#x1F1F9;&#x1F1F9;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E303 - 1F1F9+1F1FB - TV - Tuvalu">&#x1F1F9;&#x1F1FB;</td>
+			<td class="cccol v s gc" title="E304 - 1F1F9+1F1FC - TW - Taiwan">&#x1F1F9;&#x1F1FC;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E307 - 1F1F9+1F1FF - TZ - Tanzania">&#x1F1F9;&#x1F1FF;</td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Ux</code></th>
+			<td class="cccol v s gc" title="E308 - 1F1FA+1F1E6 - UA - Ukraine">&#x1F1FA;&#x1F1E6;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E30E - 1F1FA+1F1EC - UG - Uganda">&#x1F1FA;&#x1F1EC;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E312 - 1F1FA+1F1F0 - UK - United Kingdom">&#x1F1FA;&#x1F1F0;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E314 - 1F1FA+1F1F2 - UM - United States Minor Outlying Islands">&#x1F1FA;&#x1F1F2;</td>
+			<td class="cccol v s gc" title="E315 - 1F1FA+1F1F3 - UN - United Nations">&#x1F1FA;&#x1F1F3;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E31A - 1F1FA+1F1F8 - US - United States">&#x1F1FA;&#x1F1F8;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E320 - 1F1FA+1F1FE - UY - Uruguay">&#x1F1FA;&#x1F1FE;</td>
+			<td class="cccol v s gc" title="E321 - 1F1FA+1F1FF - UZ - Uzbekistan">&#x1F1FA;&#x1F1FF;</td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Vx</code></th>
+			<td class="cccol v s gc" title="E322 - 1F1FB+1F1E6 - VA - Vatican City">&#x1F1FB;&#x1F1E6;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E324 - 1F1FB+1F1E8 - VC - Saint Vincent and Grenadines">&#x1F1FB;&#x1F1E8;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E326 - 1F1FB+1F1EA - VE - Venezuela">&#x1F1FB;&#x1F1EA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E328 - 1F1FB+1F1EC - VG - British Virgin Islands">&#x1F1FB;&#x1F1EC;</td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E32A - 1F1FB+1F1EE - VI - U.S. Virgin Islands">&#x1F1FB;&#x1F1EE;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E32F - 1F1FB+1F1F3 - VN - Vietnam">&#x1F1FB;&#x1F1F3;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E336 - 1F1FB+1F1FA - VU - Vanuatu">&#x1F1FB;&#x1F1FA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Wx</code></th>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E341 - 1F1FC+1F1EB - WF - Wallis and Futuna">&#x1F1FC;&#x1F1EB;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E34E - 1F1FC+1F1F8 - WS - Samoa">&#x1F1FC;&#x1F1F8;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Xx</code></th>
+			<td class="cccol v s gc" title="E356 - 1F1FD+1F1E6 - XA - Canary Islands">&#x1F1FD;&#x1F1E6;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E35A - 1F1FD+1F1EA - XE - England">&#x1F1FD;&#x1F1EA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E360 - 1F1FD+1F1F0 - XK - Kosovo">&#x1F1FD;&#x1F1F0;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E368 - 1F1FD+1F1F8 - XS - Scotland">&#x1F1FD;&#x1F1F8;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E36C - 1F1FD+1F1FC - XW - Wales">&#x1F1FD;&#x1F1FC;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Yx</code></th>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E374 - 1F1FE+1F1EA - YE - Yemen">&#x1F1FE;&#x1F1EA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E383 - 1F1FE+1F1F9 - YT - Mayotte">&#x1F1FE;&#x1F1F9;</td>
+			<td class="cccol v s gc" title="E384 - 1F1FE+1F1FA - YU - Yugoslavia">&#x1F1FE;&#x1F1FA;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+		</tr>
+		<tr>
+			<th class="cccol"><code>Zx</code></th>
+			<td class="cccol v s gc" title="E38A - 1F1FF+1F1E6 - ZA - South Africa">&#x1F1FF;&#x1F1E6;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E396 - 1F1FF+1F1F2 - ZM - Zambia">&#x1F1FF;&#x1F1F2;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E39B - 1F1FF+1F1F7 - ZR - Zaire">&#x1F1FF;&#x1F1F7;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol v s gc" title="E3A0 - 1F1FF+1F1FC - ZW - Zimbabwe">&#x1F1FF;&#x1F1FC;</td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+			<td class="cccol none"></td>
+		</tr>
+	</tbody>
+</table>
+<h2><code>E400-F3FF</code> &nbsp; ISO Country Code Subdivisions</h2>
+<table border="1" cellspacing="0" cellpadding="4" class="generictable">
+	<tr>
+		<th class="vcol"><code>E41C</code></th>
+		<td class="vcol v s gc" title="us-tx">&#xE41C;</td>
+		<td class="idcol"><code>us-tx</code></td>
+		<td class="namecol">Texas</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>E41F</code></th>
+		<td class="vcol v s gc" title="us-ca">&#xE41F;</td>
+		<td class="idcol"><code>us-ca</code></td>
+		<td class="namecol">California</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>E432</code></th>
+		<td class="vcol v s gc" title="us-hi">&#xE432;</td>
+		<td class="idcol"><code>us-hi</code></td>
+		<td class="namecol">Hawaii</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>E43F</code></th>
+		<td class="vcol v s gc" title="xx-northtakoma">&#xE43F;</td>
+		<td class="idcol"><code>xx-northtakoma</code></td>
+		<td class="namecol">North Takoma</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>E4C0</code></th>
+		<td class="vcol v s gc" title="xx-na-us">&#xE4C0;</td>
+		<td class="idcol"><code>xx-na-us</code></td>
+		<td class="namecol">Native American (United States)</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>E4C1</code></th>
+		<td class="vcol v s gc" title="xx-na-ca">&#xE4C1;</td>
+		<td class="idcol"><code>xx-na-ca</code></td>
+		<td class="namecol">Native American (Canada)</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>E4CA</code></th>
+		<td class="vcol v s gc" title="xx-na-miccosukee">&#xE4CA;</td>
+		<td class="idcol"><code>xx-na-miccosukee</code></td>
+		<td class="namecol">Miccosukee</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>E503</code></th>
+		<td class="vcol v s gc" title="gb-eng">&#xE503;</td>
+		<td class="idcol"><code>gb-eng</code></td>
+		<td class="namecol">England</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>E504</code></th>
+		<td class="vcol v s gc" title="gb-wls">&#xE504;</td>
+		<td class="idcol"><code>gb-wls</code></td>
+		<td class="namecol">Wales</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>E505</code></th>
+		<td class="vcol v s gc" title="gb-sct">&#xE505;</td>
+		<td class="idcol"><code>gb-sct</code></td>
+		<td class="namecol">Scotland</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>E506</code></th>
+		<td class="vcol v s gc" title="gb-nir">&#xE506;</td>
+		<td class="idcol"><code>gb-nir</code></td>
+		<td class="namecol">Northern Ireland</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>E50F</code></th>
+		<td class="vcol v s gc" title="xx-scotchirish">&#xE50F;</td>
+		<td class="idcol"><code>xx-scotchirish</code></td>
+		<td class="namecol">Scotch-Irish</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>E645</code></th>
+		<td class="vcol v s gc" title="dk-040">&#xE645;</td>
+		<td class="idcol"><code>dk-040</code></td>
+		<td class="namecol">Bornholm</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>E67F</code></th>
+		<td class="vcol v s gc" title="xx-christiania">&#xE67F;</td>
+		<td class="idcol"><code>xx-christiania</code></td>
+		<td class="namecol">Freetown Christiania</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>E68C</code></th>
+		<td class="vcol v s gc" title="se-m">&#xE68C;</td>
+		<td class="idcol"><code>se-m</code></td>
+		<td class="namecol">Scania</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>E6BF</code></th>
+		<td class="vcol v s gc" title="xx-fennoswede">&#xE6BF;</td>
+		<td class="idcol"><code>xx-fennoswede</code></td>
+		<td class="namecol">Fenno-Swede</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>E748</code></th>
+		<td class="vcol v s gc" title="es-ct">&#xE748;</td>
+		<td class="idcol"><code>es-ct</code></td>
+		<td class="namecol">Catalonia</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F30A</code></th>
+		<td class="vcol v s gc" title="aq-smith">&#xF30A;</td>
+		<td class="idcol"><code>aq-smith</code></td>
+		<td class="namecol">Antarctica (Whitney Smith Proposal)</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F3B9</code></th>
+		<td class="vcol v s gc" title="xx-somaliland">&#xF3B9;</td>
+		<td class="idcol"><code>xx-somaliland</code></td>
+		<td class="namecol">Somaliland</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F3BF</code></th>
+		<td class="vcol v s gc" title="sy-snc">&#xF3BF;</td>
+		<td class="idcol"><code>sy-snc</code></td>
+		<td class="namecol">Syrian National Coalition</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F3EC</code></th>
+		<td class="vcol v s gc" title="xx-northpole">&#xF3EC;</td>
+		<td class="idcol"><code>xx-northpole</code></td>
+		<td class="namecol">North Pole</td>
+	</tr>
+</table>
+<h2><code>F400-F4FF</code> &nbsp; Constructed Languages</h2>
+<table border="1" cellspacing="0" cellpadding="4" class="generictable">
+	<tr>
+		<th class="vcol"><code>F400</code></th>
+		<td class="vcol v s gc" title="xx-conlang">&#xF400;</td>
+		<td class="idcol"><code>xx-conlang</code></td>
+		<td class="namecol">Conlang</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F420</code></th>
+		<td class="vcol v s gc" title="xx-conlang-esperanto">&#xF420;</td>
+		<td class="idcol"><code>xx-conlang-esperanto</code></td>
+		<td class="namecol">Esperanto</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F430</code></th>
+		<td class="vcol v s gc" title="xx-conlang-lfn">&#xF430;</td>
+		<td class="idcol"><code>xx-conlang-lfn</code></td>
+		<td class="namecol">Lingua Franca Nova</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F440</code></th>
+		<td class="vcol v s gc" title="xx-conlang-klingon">&#xF440;</td>
+		<td class="idcol"><code>xx-conlang-klingon</code></td>
+		<td class="namecol">Klingon</td>
+	</tr>
+</table>
+<h2><code>F500-F5FF</code> &nbsp; Pride Flags</h2>
+<table border="1" cellspacing="0" cellpadding="4" class="generictable">
+	<tr>
+		<th class="vcol"><code>F500</code></th>
+		<td class="vcol v s gc" title="xx-pride-lgbt">&#xF500;</td>
+		<td class="idcol"><code>xx-pride-lgbt</code></td>
+		<td class="namecol">LGBT Pride</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F510</code></th>
+		<td class="vcol v s gc" title="xx-pride-asexual">&#xF510;</td>
+		<td class="idcol"><code>xx-pride-asexual</code></td>
+		<td class="namecol">Asexual Pride</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F513</code></th>
+		<td class="vcol v s gc" title="xx-pride-bisexual">&#xF513;</td>
+		<td class="idcol"><code>xx-pride-bisexual</code></td>
+		<td class="namecol">Bisexual Pride</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F514</code></th>
+		<td class="vcol v s gc" title="xx-pride-pansexual">&#xF514;</td>
+		<td class="idcol"><code>xx-pride-pansexual</code></td>
+		<td class="namecol">Pansexual Pride</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F515</code></th>
+		<td class="vcol v s gc" title="xx-pride-polysexual">&#xF515;</td>
+		<td class="idcol"><code>xx-pride-polysexual</code></td>
+		<td class="namecol">Polysexual Pride</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F520</code></th>
+		<td class="vcol v s gc" title="xx-pride-trans">&#xF520;</td>
+		<td class="idcol"><code>xx-pride-trans</code></td>
+		<td class="namecol">Trans Pride</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F530</code></th>
+		<td class="vcol v s gc" title="xx-pride-agender">&#xF530;</td>
+		<td class="idcol"><code>xx-pride-agender</code></td>
+		<td class="namecol">Agender Pride</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F535</code></th>
+		<td class="vcol v s gc" title="xx-pride-genderfluid">&#xF535;</td>
+		<td class="idcol"><code>xx-pride-genderfluid</code></td>
+		<td class="namecol">Genderfluid Pride</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F536</code></th>
+		<td class="vcol v s gc" title="xx-pride-genderqueer">&#xF536;</td>
+		<td class="idcol"><code>xx-pride-genderqueer</code></td>
+		<td class="namecol">Genderqueer Pride</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F537</code></th>
+		<td class="vcol v s gc" title="xx-pride-nonbinary">&#xF537;</td>
+		<td class="idcol"><code>xx-pride-nonbinary</code></td>
+		<td class="namecol">Non-Binary Pride</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F540</code></th>
+		<td class="vcol v s gc" title="xx-pride-intersex-1">&#xF540;</td>
+		<td class="idcol"><code>xx-pride-intersex-1</code></td>
+		<td class="namecol">Intersex Pride</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F541</code></th>
+		<td class="vcol v s gc" title="xx-pride-intersex-2">&#xF541;</td>
+		<td class="idcol"><code>xx-pride-intersex-2</code></td>
+		<td class="namecol">Intersex Pride</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F550</code></th>
+		<td class="vcol v s gc" title="xx-pride-bear">&#xF550;</td>
+		<td class="idcol"><code>xx-pride-bear</code></td>
+		<td class="namecol">Bear Pride</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F551</code></th>
+		<td class="vcol v s gc" title="xx-pride-lipstick">&#xF551;</td>
+		<td class="idcol"><code>xx-pride-lipstick</code></td>
+		<td class="namecol">Lipstick Lesbian Pride</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F560</code></th>
+		<td class="vcol v s gc" title="xx-pride-leather">&#xF560;</td>
+		<td class="idcol"><code>xx-pride-leather</code></td>
+		<td class="namecol">Leather Pride</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F561</code></th>
+		<td class="vcol v s gc" title="xx-pride-poly">&#xF561;</td>
+		<td class="idcol"><code>xx-pride-poly</code></td>
+		<td class="namecol">Poly Pride</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F570</code></th>
+		<td class="vcol v s gc" title="xx-pride-ally">&#xF570;</td>
+		<td class="idcol"><code>xx-pride-ally</code></td>
+		<td class="namecol">Ally Pride</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F580</code></th>
+		<td class="vcol v s gc" title="xx-aristasia">&#xF580;</td>
+		<td class="idcol"><code>xx-aristasia</code></td>
+		<td class="namecol">Aristasia</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F5C0</code></th>
+		<td class="vcol v s gc" title="xx-christian">&#xF5C0;</td>
+		<td class="idcol"><code>xx-christian</code></td>
+		<td class="namecol">Christian</td>
+	</tr>
+</table>
+<h2><code>F600-F6FF</code> &nbsp; Sports Flags</h2>
+<table border="1" cellspacing="0" cellpadding="4" class="generictable">
+	<tr>
+		<th class="vcol"><code>F600</code></th>
+		<td class="vcol v s gc" title="xx-racing-start">&#xF600;</td>
+		<td class="idcol"><code>xx-racing-start</code></td>
+		<td class="namecol">Start of Race / Safe Conditions / Pit Lane Open</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F601</code></th>
+		<td class="vcol v s gc" title="xx-racing-caution">&#xF601;</td>
+		<td class="idcol"><code>xx-racing-caution</code></td>
+		<td class="namecol">Caution</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F602</code></th>
+		<td class="vcol v s gc" title="xx-racing-hazard">&#xF602;</td>
+		<td class="idcol"><code>xx-racing-hazard</code></td>
+		<td class="namecol">Debris/Fluid/Oil on Track</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F603</code></th>
+		<td class="vcol v s gc" title="xx-racing-pit-closed">&#xF603;</td>
+		<td class="idcol"><code>xx-racing-pit-closed</code></td>
+		<td class="namecol">Pit Lane Closed</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F604</code></th>
+		<td class="vcol v s gc" title="xx-racing-stop">&#xF604;</td>
+		<td class="idcol"><code>xx-racing-stop</code></td>
+		<td class="namecol">Race Stopped or Delayed</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F606</code></th>
+		<td class="vcol v s gc" title="xx-racing-slow-vehicle">&#xF606;</td>
+		<td class="idcol"><code>xx-racing-slow-vehicle</code></td>
+		<td class="namecol">Slow Vehicle on Track / Final Lap</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F607</code></th>
+		<td class="vcol v s gc" title="xx-racing-final-lap">&#xF607;</td>
+		<td class="idcol"><code>xx-racing-final-lap</code></td>
+		<td class="namecol">Final Lap / Ambulance on Course</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F608</code></th>
+		<td class="vcol v s gc" title="xx-racing-return">&#xF608;</td>
+		<td class="idcol"><code>xx-racing-return</code></td>
+		<td class="namecol">Return to Pits for Penalty or Disqualification</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F609</code></th>
+		<td class="vcol v s gc" title="xx-racing-return-service">&#xF609;</td>
+		<td class="idcol"><code>xx-racing-return-service</code></td>
+		<td class="namecol">Return to Pits to Service a Mechanical Problem</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F60A</code></th>
+		<td class="vcol v s gc" title="xx-racing-unsportsmanlike">&#xF60A;</td>
+		<td class="idcol"><code>xx-racing-unsportsmanlike</code></td>
+		<td class="namecol">Unsportsmanlike Conduct</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F60B</code></th>
+		<td class="vcol v s gc" title="xx-racing-not-scored">&#xF60B;</td>
+		<td class="idcol"><code>xx-racing-not-scored</code></td>
+		<td class="namecol">Ignoring Black Flag; No Longer Being Scored</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F60C</code></th>
+		<td class="vcol v s gc" title="xx-racing-faster-car-1">&#xF60C;</td>
+		<td class="idcol"><code>xx-racing-faster-car-1</code></td>
+		<td class="namecol">Faster Car Approaching (FIA)</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F60D</code></th>
+		<td class="vcol v s gc" title="xx-racing-faster-car-2">&#xF60D;</td>
+		<td class="idcol"><code>xx-racing-faster-car-2</code></td>
+		<td class="namecol">Faster Car Approaching (NASCAR/Indy)</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F60F</code></th>
+		<td class="vcol v s gc" title="xx-racing-finish">&#xF60F;</td>
+		<td class="idcol"><code>xx-racing-finish</code></td>
+		<td class="namecol">Race Finished (Checkered Flag)</td>
+	</tr>
+</table>
+<h2><code>F700-F7FF</code> &nbsp; Mika City</h2>
+<table border="1" cellspacing="0" cellpadding="4" class="generictable">
+	<tr>
+		<th class="vcol"><code>F700</code></th>
+		<td class="vcol v s gc" title="xx-kk-mika">&#xF700;</td>
+		<td class="idcol"><code>xx-kk-mika</code></td>
+		<td class="namecol">Mika</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F701</code></th>
+		<td class="vcol v s gc" title="xx-kk-kellahanamana">&#xF701;</td>
+		<td class="idcol"><code>xx-kk-kellahanamana</code></td>
+		<td class="namecol">Kellahanamana</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F702</code></th>
+		<td class="vcol v s gc" title="xx-kk-kappaa">&#xF702;</td>
+		<td class="idcol"><code>xx-kk-kappaa</code></td>
+		<td class="namecol">Kappaa</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F720</code></th>
+		<td class="vcol v s gc" title="xx-kk-mika-tammy">&#xF720;</td>
+		<td class="idcol"><code>xx-kk-mika-tammy</code></td>
+		<td class="namecol">Tammy</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F741</code></th>
+		<td class="vcol v s gc" title="xx-kk-mika-annett">&#xF741;</td>
+		<td class="idcol"><code>xx-kk-mika-annett</code></td>
+		<td class="namecol">Annett-Toynenda</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F748</code></th>
+		<td class="vcol v s gc" title="xx-kk-mika-harrett">&#xF748;</td>
+		<td class="idcol"><code>xx-kk-mika-harrett</code></td>
+		<td class="namecol">Harrett</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F74B</code></th>
+		<td class="vcol v s gc" title="xx-kk-mika-korra">&#xF74B;</td>
+		<td class="idcol"><code>xx-kk-mika-korra</code></td>
+		<td class="namecol">Korra-Texxa</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F74C</code></th>
+		<td class="vcol v s gc" title="xx-kk-mika-lyndaea">&#xF74C;</td>
+		<td class="idcol"><code>xx-kk-mika-lyndaea</code></td>
+		<td class="namecol">Lyndaea</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F74D</code></th>
+		<td class="vcol v s gc" title="xx-kk-mika-morra">&#xF74D;</td>
+		<td class="idcol"><code>xx-kk-mika-morra</code></td>
+		<td class="namecol">Morra-Rytta</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F74F</code></th>
+		<td class="vcol v s gc" title="xx-kk-mika-olla">&#xF74F;</td>
+		<td class="idcol"><code>xx-kk-mika-olla</code></td>
+		<td class="namecol">&Ouml;lla-Senna</td>
+	</tr>
+</table>
+<h2><code>F800-F8FF</code> &nbsp; Miscellaneous Flags</h2>
+<table border="1" cellspacing="0" cellpadding="4" class="generictable">
+	<tr>
+		<th class="vcol"><code>F800</code></th>
+		<td class="vcol v s gc" title="xx-misc-vexillo">&#xF800;</td>
+		<td class="idcol"><code>xx-misc-vexillo</code></td>
+		<td class="namecol">Vexillo</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F801</code></th>
+		<td class="vcol v s gc" title="xx-misc-fam">&#xF801;</td>
+		<td class="idcol"><code>xx-misc-fam</code></td>
+		<td class="namecol">FamFamFam</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F820</code></th>
+		<td class="vcol v s gc" title="xx-org-fiav">&#xF820;</td>
+		<td class="idcol"><code>xx-org-fiav</code></td>
+		<td class="namecol">FIAV</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F821</code></th>
+		<td class="vcol v s gc" title="xx-org-fotw">&#xF821;</td>
+		<td class="idcol"><code>xx-org-fotw</code></td>
+		<td class="namecol">Flags of the World</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F840</code></th>
+		<td class="vcol v s gc" title="xx-pirate">&#xF840;</td>
+		<td class="idcol"><code>xx-pirate</code></td>
+		<td class="namecol">Pirate</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F841</code></th>
+		<td class="vcol v s gc" title="xx-pace">&#xF841;</td>
+		<td class="idcol"><code>xx-pace</code></td>
+		<td class="namecol">Pace</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F860</code></th>
+		<td class="vcol v s gc" title="xx-misc-rgb">&#xF860;</td>
+		<td class="idcol"><code>xx-misc-rgb</code></td>
+		<td class="namecol">RGB</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F861</code></th>
+		<td class="vcol v s gc" title="xx-misc-cmyk">&#xF861;</td>
+		<td class="idcol"><code>xx-misc-cmyk</code></td>
+		<td class="namecol">CMYK</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F862</code></th>
+		<td class="vcol v s gc" title="xx-misc-ntsc">&#xF862;</td>
+		<td class="idcol"><code>xx-misc-ntsc</code></td>
+		<td class="namecol">NTSC Color Bars</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F863</code></th>
+		<td class="vcol v s gc" title="xx-misc-ntscid">&#xF863;</td>
+		<td class="idcol"><code>xx-misc-ntscid</code></td>
+		<td class="namecol">NTSC Color Bars (with Station ID)</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F880</code></th>
+		<td class="vcol v s gc" title="xx-misc-iguana">&#xF880;</td>
+		<td class="idcol"><code>xx-misc-iguana</code></td>
+		<td class="namecol">Iguana iguana powersurgius</td>
+	</tr>
+</table>
+</body>
+</html>
