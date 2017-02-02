@@ -24,7 +24,7 @@
 			<imgsrc type="image/svg+xml" enc="raw">
 				<![CDATA[
 					<?xml version="1.0" encoding="UTF-8"?>
-					<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600">
+					<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
 					<g stroke="#000" stroke-width="0.5208">
 					<g fill="#fff">
 					<path d="m481.74,187.59c-4.9875-1.7708-8.2083,0.805-8.0458,7.2442,0.15833,6.4392,3.5417,10.142,8.5292,7.7271l-0.48334-14.971z"/>

@@ -97,6 +97,11 @@
 		                    c 2.894 1.161 6.658 2.03 6.658 2.103 L 467.997 0 z"/>
 	</defs>
 	<field x1="0" y1="0" x2="w" y2="h" color="orange"/>
-	<symbol symbol="sky" x="sx" y="0" sx="sw" sy="sh" color="purple"/>
-	<symbol symbol="babel" x="sx" y="0" sx="sw" sy="sh" color="black"/>
+	<g>
+		<clip>
+			<field x1="0" y1="0" x2="w" y2="h"/>
+		</clip>
+		<symbol symbol="sky" x="sx" y="0" sx="sw" sy="sh" color="purple"/>
+		<symbol symbol="babel" x="sx" y="0" sx="sw" sy="sh" color="black"/>
+	</g>
 </flag>
