@@ -915,8 +915,9 @@ ca-nu; xx-nunavut	E44C
 
 us-nyc; xx-newyorkcity	E460
 us-chi; xx-chicago	E461
-us-phx; xx-phoenix	E462
-us-pdx; xx-portland	E463
+us-den; xx-denver	E462
+us-phx; xx-phoenix	E463
+us-pdx; xx-portland	E464
 
 mx-cmx; xx-ciudaddemexico	E480
 mx-mex; xx-mexico	E481
@@ -1867,6 +1868,7 @@ xx-misc-fam	F801
 
 xx-org-fiav	F820
 xx-org-fotw	F821
+xx-org-nava	F822
 
 xx-pirate	F840; 2620; 1F3F4+200D+2620
 xx-pace	F841; 262E; 1F3F3+200D+262E
