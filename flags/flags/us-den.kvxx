@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="us-den" name="Denver" fly="h*5/3">
+	<defs>
+		<dim id="sd" e="min(h*13/36,w*13/36)"/>
+		<color id="blue">
+			<colorspec model="rgb" value="0 40 104"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="191 10 48"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 215 0"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<g>
+		<clip>
+			<field x1="0" y1="0" x2="w" y2="h"/>
+		</clip>
+		<poly points="(-w/10) h (-w/10) h*4/5 w*2/10 h*11/45 w*5/10 h*4/5 w*8/10 h*11/45 w*11/10 h*4/5 w*11/10 h" color="white"/>
+		<poly points="(-w/10) h w*2/10 h*4/9 w*5/10 h w*8/10 h*4/9 w*11/10 h" color="red"/>
+	</g>
+	<disc cx="w/2" cy="h*5/18" w="sd" h="sd" color="yellow"/>
+</flag>

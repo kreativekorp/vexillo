@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="us-md" name="Maryland" properties="cf sf normal" fly="h*3/2">
+	<defs>
+		<dim id="ct" e="min(h*8/125,w*6/125)"/>
+		<color id="red">
+			<colorspec model="pantone" value="201C"/>
+			<colorspec model="pantone" value="193U"/>
+			<colorspec model="rgb" value="152 30 50"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="124C"/>
+			<colorspec model="pantone" value="124U"/>
+			<colorspec model="rgb" value="234 171 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="White"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="black">
+			<colorspec model="pantone" value="Black"/>
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<symdef id="hcross" d="M -0.5 0.5 v 0.4844
+		                       c 0 0.2761 0.2238 0.5 0.5 0.5
+		                       s 0.5 -0.2239 0.5 -0.5 v -0.4844 h 0.4375
+		                       c 0.2762 0 0.5 -0.2239 0.5 -0.5
+		                       s -0.2238 -0.5 -0.5 -0.5 h -0.4375 v -0.4844
+		                       c 0 -0.2761 -0.2238 -0.5 -0.5 -0.5
+		                       s -0.5 0.2239 -0.5 0.5 v 0.4844 V 0.5 z"/>
+		<symdef id="vcross" d="M 0.5 0.5 h 0.4844
+		                       c 0.2762 0 0.5 -0.2239 0.5 -0.5
+		                       s -0.2238 -0.5 -0.5 -0.5 h -0.4844 v -0.25
+		                       c 0 -0.2761 -0.2238 -0.5 -0.5 -0.5
+		                       s -0.5 0.2239 -0.5 0.5 v 0.25 h -0.4844
+		                       c -0.2762 0 -0.5 0.2239 -0.5 0.5
+		                       s 0.2238 0.5 0.5 0.5 h 0.4844 H 0.5 z"/>
+	</defs>
+	<g>
+		<vband x1="0" y1="0" x2="w" y2="h" bands="12" colors="yellow black"/>
+		<g>
+			<clip>
+				<poly points="0 0 w/12 0 w h*11/12 w h w*11/12 h 0 h/12"/>
+			</clip>
+			<vband x1="0" y1="0" x2="w" y2="h" bands="12" colors="black yellow"/>
+		</g>
+	</g>
+	<g>
+		<field x1="0" y1="h/2" x2="w/4" y2="h*3/4" color="white"/>
+		<field x1="w/4" y1="h/2" x2="w/2" y2="h*3/4" color="red"/>
+		<field x1="0" y1="h*3/4" x2="w/4" y2="h" color="red"/>
+		<field x1="w/4" y1="h*3/4" x2="w/2" y2="h" color="white"/>
+	</g>
+	<g>
+		<field x1="w/2" y1="0" x2="w*3/4" y2="h/4" color="white"/>
+		<field x1="w*3/4" y1="0" x2="w" y2="h/4" color="red"/>
+		<field x1="w/2" y1="h/4" x2="w*3/4" y2="h/2" color="red"/>
+		<field x1="w*3/4" y1="h/4" x2="w" y2="h/2" color="white"/>
+	</g>
+	<g>
+		<clip>
+			<field x1="0" y1="h/2" x2="w/4" y2="h*3/4"/>
+			<field x1="w/4" y1="h*3/4" x2="w/2" y2="h"/>
+			<field x1="w/2" y1="0" x2="w*3/4" y2="h/4"/>
+			<field x1="w*3/4" y1="h/4" x2="w" y2="h/2"/>
+		</clip>
+		<cross x1="w*0.075" y1="h*0.615" x2="w/4-ct/2" y2="h*3/4-ct/2" x3="w/4+ct/2" y3="h*3/4+ct/2" x4="w*0.425" y4="h*0.885" color="red"/>
+		<cross x1="w*0.575" y1="h*0.115" x2="w*3/4-ct/2" y2="h/4-ct/2" x3="w*3/4+ct/2" y3="h/4+ct/2" x4="w*0.925" y4="h*0.385" color="red"/>
+		<symbol symbol="hcross" x="w*0.425" y="h*3/4" sx="ct" sy="ct" color="red"/>
+		<symbol symbol="hcross" x="w*0.075" y="h*3/4" sx="ct" sy="ct" rotate="180" color="red"/>
+		<symbol symbol="hcross" x="w*0.925" y="h/4" sx="ct" sy="ct" color="red"/>
+		<symbol symbol="hcross" x="w*0.575" y="h/4" sx="ct" sy="ct" rotate="180" color="red"/>
+		<symbol symbol="vcross" x="w/4" y="h*0.615" sx="ct" sy="ct" color="red"/>
+		<symbol symbol="vcross" x="w/4" y="h*0.885" sx="ct" sy="ct" rotate="180" color="red"/>
+		<symbol symbol="vcross" x="w*3/4" y="h*0.115" sx="ct" sy="ct" color="red"/>
+		<symbol symbol="vcross" x="w*3/4" y="h*0.385" sx="ct" sy="ct" rotate="180" color="red"/>
+	</g>
+	<g>
+		<clip>
+			<field x1="w/4" y1="h/2" x2="w/2" y2="h*3/4"/>
+			<field x1="0" y1="h*3/4" x2="w/4" y2="h"/>
+			<field x1="w*3/4" y1="0" x2="w" y2="h/4"/>
+			<field x1="w/2" y1="h/4" x2="w*3/4" y2="h/2"/>
+		</clip>
+		<cross x1="w*0.075" y1="h*0.615" x2="w/4-ct/2" y2="h*3/4-ct/2" x3="w/4+ct/2" y3="h*3/4+ct/2" x4="w*0.425" y4="h*0.885" color="white"/>
+		<cross x1="w*0.575" y1="h*0.115" x2="w*3/4-ct/2" y2="h/4-ct/2" x3="w*3/4+ct/2" y3="h/4+ct/2" x4="w*0.925" y4="h*0.385" color="white"/>
+		<symbol symbol="hcross" x="w*0.425" y="h*3/4" sx="ct" sy="ct" color="white"/>
+		<symbol symbol="hcross" x="w*0.075" y="h*3/4" sx="ct" sy="ct" rotate="180" color="white"/>
+		<symbol symbol="hcross" x="w*0.925" y="h/4" sx="ct" sy="ct" color="white"/>
+		<symbol symbol="hcross" x="w*0.575" y="h/4" sx="ct" sy="ct" rotate="180" color="white"/>
+		<symbol symbol="vcross" x="w/4" y="h*0.615" sx="ct" sy="ct" color="white"/>
+		<symbol symbol="vcross" x="w/4" y="h*0.885" sx="ct" sy="ct" rotate="180" color="white"/>
+		<symbol symbol="vcross" x="w*3/4" y="h*0.115" sx="ct" sy="ct" color="white"/>
+		<symbol symbol="vcross" x="w*3/4" y="h*0.385" sx="ct" sy="ct" rotate="180" color="white"/>
+	</g>
+</flag>

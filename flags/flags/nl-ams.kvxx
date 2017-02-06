@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="nl-ams" name="Amsterdam" fly="h*3/2">
+	<defs>
+		<dim id="sh" e="min(h/3,w/4)"/>
+		<color id="red">
+			<colorspec model="rgb" value="218 18 26"/>
+		</color>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="cross" d="M -0.15 -0.45 L  0.15 -0.45 L  0.15 -0.15
+		                      L  0.45 -0.15 L  0.45  0.15 L  0.15  0.15
+		                      L  0.15  0.45 L -0.15  0.45 L -0.15  0.15
+		                      L -0.45  0.15 L -0.45 -0.15 L -0.15 -0.15 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="red black red"/>
+	<symbol symbol="cross" x="w*2/9" y="h/2" sx="sh" sy="sh" rotate="45" color="white"/>
+	<symbol symbol="cross" x="w/2"   y="h/2" sx="sh" sy="sh" rotate="45" color="white"/>
+	<symbol symbol="cross" x="w*7/9" y="h/2" sx="sh" sy="sh" rotate="45" color="white"/>
+</flag>

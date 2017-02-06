@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="us-dc" name="District of Columbia" fly="h*2">
+	<defs>
+		<color id="red">
+			<colorspec model="rgb" value="232 27 57"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="white red" weights="3 2 1 2 2"/>
+	<symbol symbol="star" x="w/4" y="h*3/20" sx="h/10" sy="h/10" color="red"/>
+	<symbol symbol="star" x="w/2" y="h*3/20" sx="h/10" sy="h/10" color="red"/>
+	<symbol symbol="star" x="w*3/4" y="h*3/20" sx="h/10" sy="h/10" color="red"/>
+</flag>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="us-tn" name="Tennessee" properties="cf sf normal" fly="h*5/3">
+	<defs>
+		<dim id="cx" e="(w-h*6/48)/2"/>
+		<dim id="cy" e="h/2"/>
+		<dim id="d1" e="min(h*13/24,w*13/24)"/>
+		<dim id="d2" e="min(h*12/24,w*12/24)"/>
+		<dim id="sR" e="min(h*3/24,w*3/24)"/>
+		<dim id="sr" e="min(h*2.8/24,w*2.8/24)"/>
+		<color id="red">
+			<colorspec model="rgb" value="204 0 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="0 45 101"/>
+		</color>
+		<symdef id="disc" d="M 0.5 0 A 0.5 0.5 0 0 0 -0.5 0 A 0.5 0.5 0 0 0 0.5 0 Z"/>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<field x1="w-h*6/48" y1="0" x2="w" y2="h" color="white"/>
+	<field x1="w-h*5/48" y1="0" x2="w" y2="h" color="blue"/>
+	<symbol symbol="disc" x="cx" y="cy" sx="d1" sy="d1" color="white"/>
+	<symbol symbol="disc" x="cx" y="cy" sx="d2" sy="d2" color="blue"/>
+	<symbol symbol="star" x="cx-sR*sin(18)" y="cy+sR*cos(18)" sx="sr" sy="sr" rotate="18" color="white"/>
+	<symbol symbol="star" x="cx-sR*sin(138)" y="cy+sR*cos(138)" sx="sr" sy="sr" rotate="138" color="white"/>
+	<symbol symbol="star" x="cx-sR*sin(258)" y="cy+sR*cos(258)" sx="sr" sy="sr" rotate="258" color="white"/>
+</flag>

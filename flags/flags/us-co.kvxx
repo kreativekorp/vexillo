@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="us-co" name="Colorado" properties="cf sf normal" fly="h*3/2">
+	<defs>
+		<dim id="dd" e="min(h/3,w*2/5)"/>
+		<color id="blue">
+			<colorspec model="rgb" value="16 46 130"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="191 44 52"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="246 208 71"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue white blue"/>
+	<disc cx="w*19/45" cy="h/2" w="dd*2" h="dd*2" arcstart="22.5" arcend="337.5" color="red"/>
+	<disc cx="w*19/45" cy="h/2" w="dd" h="dd" color="yellow"/>
+</flag>
