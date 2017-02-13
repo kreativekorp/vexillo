@@ -1473,7 +1473,7 @@ fr-46	E84E
 fr-47	E84F
 fr-48	E850
 fr-49	E851
-fr-50	E852
+fr-50; xx-manche	E852
 fr-51	E853
 fr-52	E854
 fr-53	E855
@@ -1615,7 +1615,7 @@ ch-ur	E915
 ch-vs	E916
 ch-vd	E917
 ch-zg	E918
-ch-zh	E919
+ch-zh; xx-zurich	E919
 
 it-21	E940
 it-23	E941
