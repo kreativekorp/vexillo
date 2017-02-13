@@ -43,9 +43,12 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 
 <table align="center">
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/aq-smith.png" width="18" height="12" title="Antarctica (Whitney Smith Proposal)"></td><td><code>aq-smith</code></td><td>Antarctica (Whitney Smith Proposal)</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/ca-on.png" width="18" height="12" title="Ontario"></td><td><code>ca-on</code></td><td>Ontario</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/ca-qc.png" width="18" height="12" title="Quebec"></td><td><code>ca-qc</code></td><td>Quebec</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/ch-zh.png" width="18" height="12" title="Zürich"></td><td><code>ch-zh</code></td><td>Zürich</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/dk-040.png" width="18" height="12" title="Bornholm"></td><td><code>dk-040</code></td><td>Bornholm</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/es-ct.png" width="18" height="12" title="Catalonia"></td><td><code>es-ct</code></td><td>Catalonia</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/fr-50.png" width="18" height="12" title="Manche"></td><td><code>fr-50</code></td><td>Manche</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/gb-eng.png" width="18" height="12" title="England"></td><td><code>gb-eng</code></td><td>England</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/gb-nir.png" width="18" height="12" title="Northern Ireland"></td><td><code>gb-nir</code></td><td>Northern Ireland</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/gb-sct.png" width="18" height="12" title="Scotland"></td><td><code>gb-sct</code></td><td>Scotland</td></tr>
@@ -59,6 +62,7 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/uk-wls.png" width="18" height="12" title="Wales"></td><td><code>uk-wls</code></td><td>Wales</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-ak.png" width="18" height="12" title="Alaska"></td><td><code>us-ak</code></td><td>Alaska</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-al.png" width="18" height="12" title="Alabama"></td><td><code>us-al</code></td><td>Alabama</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-ar.png" width="18" height="12" title="Arkansas"></td><td><code>us-ar</code></td><td>Arkansas</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-az.png" width="18" height="12" title="Arizona"></td><td><code>us-az</code></td><td>Arizona</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-ca.png" width="18" height="12" title="California"></td><td><code>us-ca</code></td><td>California</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-co.png" width="18" height="12" title="Colorado"></td><td><code>us-co</code></td><td>Colorado</td></tr>
