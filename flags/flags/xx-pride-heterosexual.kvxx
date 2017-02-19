@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Heterosexual Pride" properties="proposal" fly="h*(sqrt(5)+1)/2">
+	<defs>
+		<color id="blue">
+			<colorspec model="rgb" value="70 135 230"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="pink">
+			<colorspec model="rgb" value="239 100 158"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue white pink"/>
+</flag>

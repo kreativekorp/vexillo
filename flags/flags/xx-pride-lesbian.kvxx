@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Lesbian Pride" fly="h*17/10">
+	<!--
+		This is noticeably different from the image on Wikipedia.
+		There is no SVG version of the original image available,
+		nor is there likely to be a standardized version.
+	-->
+	<defs>
+		<dim id="tw" e="min(h,w*sqrt(3)/2)"/>
+		<dim id="th" e="tw*sqrt(3)/2"/>
+		<dim id="lh" e="tw*7/10"/>
+		<color id="purple">
+			<colorspec model="rgb" value="118 48 126"/>
+		</color>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="labrys" d="M 0.0488 -0.3304
+		                       A -0.39 -0.39 0 0 0 0.3094 -0.4799
+		                       A -0.39 -0.39 0 0 1 0.3094 -0.0051
+		                       A -0.39 -0.39 0 0 0 0.0488 -0.1546 Z
+		                       M -0.0487 -0.1546
+		                       A -0.39 -0.39 0 0 0 -0.3094 -0.0051
+		                       A -0.39 -0.39 0 0 1 -0.3094 -0.4799
+		                       A -0.39 -0.39 0 0 0 -0.0487 -0.3304 Z
+		                       M -0.039 -0.3741
+		                       A -0.039 -0.0195 0 0 1 0.039 -0.3741
+		                       V 0.4595
+		                       A -0.039 -0.0195 0 0 1 -0.039 0.4595 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="purple"/>
+	<poly points="(w-tw)/2 (h-th)/2 (w+tw)/2 (h-th)/2 w/2 (h+th)/2" color="black"/>
+	<symbol symbol="labrys" x="w/2" y="h/2-lh/12" sx="lh" sy="lh" color="white"/>
+</flag>

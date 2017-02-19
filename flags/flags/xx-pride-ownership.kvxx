@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Ownership" fly="h*5/3">
+	<defs>
+		<dim id="s" e="min(h,w*4/3)"/>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="238 0 0"/>
+		</color>
+		<symdef id="shield" d="M 0.413 -0.12 V -0.5 H -0.413 v 0.38
+		                       c 0 0.1059 0.0113 0.3081 0.2098 0.4858
+		                       c 0.087 0.0794 0.1267 0.1002 0.2042 0.1342
+		                       c 0.0775 -0.0359 0.1172 -0.0586 0.2023 -0.1342
+		                       C 0.4017 0.1881 0.413 -0.0142 0.413 -0.12 z"/>
+		<symdef id="disc" d="M 0.5 0 A 0.5 0.5 0 0 0 -0.5 0 A 0.5 0.5 0 0 0 0.5 0 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="9" colors="black white"/>
+	<symbol symbol="shield" x="w/2" y="h/2" sx="s*611/815" sy="s*611/815" color="white"/>
+	<symbol symbol="shield" x="w/2" y="h/2" sx="s*529/815" sy="s*529/815" color="red"/>
+	<symbol symbol="disc" x="w/2" y="h/2-s*46.5/815" sx="s*66/163" sy="s*66/163" color="white"/>
+	<symbol symbol="disc" x="w/2" y="h/2-s*46.5/815" sx="s*44/163" sy="s*44/163" color="red"/>
+</flag>

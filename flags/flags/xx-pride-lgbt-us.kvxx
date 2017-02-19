@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="LGBT Pride (United States)" fly="h*3/2">
+	<defs>
+		<dim id="A" e="h*13/14"/>
+		<dim id="B" e="A*19/10"/>
+		<dim id="C" e="A*7/13"/>
+		<dim id="D" e="B*2/5"/>
+		<dim id="E" e="C/10"/>
+		<dim id="F" e="C/10"/>
+		<dim id="G" e="D/12"/>
+		<dim id="H" e="D/12"/>
+		<dim id="K" e="L*4/5"/>
+		<dim id="L" e="A/13"/>
+		<color id="red">
+			<colorspec model="rgb" value="255 0 0"/>
+		</color>
+		<color id="orange">
+			<colorspec model="rgb" value="255 153 0"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 255 0"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="0 153 0"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="0 0 255"/>
+		</color>
+		<color id="purple">
+			<colorspec model="rgb" value="153 0 153"/>
+		</color>
+		<color id="usblue">
+			<colorspec model="lab" value="D65 23.2 13.1 -26.4"/>
+			<colorspec model="munsell" value="8.2PB 2.3 6.1"/>
+			<colorspec model="lab" value="D50 26.9 11.5 -30.3"/>
+			<colorspec model="rgb" value="0.234 0.233 0.430"/>
+			<colorspec model="cmyk" value="0.886 0.851 0.243 0.122"/>
+		</color>
+		<color id="uswhite">
+			<colorspec model="lab" value="D65 88.7 -0.2 5.4"/>
+			<colorspec model="munsell" value="2.5Y 8.8 0.7"/>
+			<colorspec model="lab" value="D50 100.0 0.0 0.0"/>
+			<colorspec model="rgb" value="1.0 1.0 1.0"/>
+			<colorspec model="cmyk" value="0.0 0.0 0.0 0.0"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="6" colors="red orange yellow green blue purple"/>
+	<field x1="0" y1="0" x2="D" y2="C" color="usblue"/>
+	<for var="y" start="0" end="8" step="2">
+		<for var="x" start="0" end="10" step="2">
+			<symbol symbol="star" x="G+H*x" y="E+F*y" sx="K/2" sy="K/2" color="uswhite"/>
+		</for>
+	</for>
+	<for var="y" start="1" end="7" step="2">
+		<for var="x" start="1" end="9" step="2">
+			<symbol symbol="star" x="G+H*x" y="E+F*y" sx="K/2" sy="K/2" color="uswhite"/>
+		</for>
+	</for>
+</flag>

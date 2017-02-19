@@ -918,6 +918,7 @@ us-chi; xx-chicago	E461
 us-den; xx-denver	E462
 us-phx; xx-phoenix	E463
 us-pdx; xx-portland	E464
+xx-cascadia	E47F
 
 mx-cmx; xx-ciudaddemexico	E480
 mx-mex; xx-mexico	E481
@@ -1787,6 +1788,9 @@ xx-conlang-klingon	F440
 ## F500-F5FF	Pride Flags
 
 xx-pride-lgbt	F500; 1F308; 1F3F3+200D+1F308
+xx-pride-lgbt-7band	F501
+xx-pride-lgbt-8band	F502
+xx-pride-lgbt-us	F503
 
 xx-pride-asexual	F510
 xx-pride-lesbian	F511; 26A2; 1F3F3+200D+26A2
@@ -1797,6 +1801,7 @@ xx-pride-polysexual	F515
 xx-pride-demisexual	F516
 
 xx-pride-trans	F520; 26A7; 1F3F3+200D+26A7
+xx-pride-trans-il	F521
 
 xx-pride-agender	F530
 xx-pride-female	F531; 2640; 1F3F3+200D+2640
@@ -1812,11 +1817,18 @@ xx-pride-intersex-2	F541
 
 xx-pride-bear	F550
 xx-pride-lipstick	F551
+xx-pride-twink	F552
 
 xx-pride-leather	F560
 xx-pride-poly	F561
+xx-pride-bdsm	F562
+xx-pride-rubber	F563
+xx-pride-ownership	F564
+xx-pride-master-slave	F565
+xx-pride-fat-fetish	F566
 
 xx-pride-ally	F570
+xx-pride-heterosexual	F571
 
 xx-aristasia	F580
 

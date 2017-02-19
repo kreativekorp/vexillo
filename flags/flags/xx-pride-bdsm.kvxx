@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="BDSM Pride" fly="h*5/3">
+	<!-- For the flag included in the My'file flag icon set under the name 'bdsm', see 'xx-pride-leather'. -->
+	<defs>
+		<dim id="dd" e="min(h*7/10,w*7/10)"/>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="0 0 255"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="255 0 0"/>
+		</color>
+		<symdef id="disc" d="M 0.5 0 A 0.5 0.5 0 0 0 -0.5 0 A 0.5 0.5 0 0 0 0.5 0 Z"/>
+		<symdef id="squel" d="M 0 -0.4366
+		                      c -0.049 0 -0.0967 0.02 -0.131 0.055
+		                      c -0.0338 0.0345 -0.0525 0.08 -0.0525 0.1284
+		                      c 0 0.1011 0.0823 0.1834 0.1834 0.1834
+		                      c 0.024 0 0.0474 -0.0046 0.0696 -0.0137
+		                      c 0.0076 -0.0031 0.015 -0.0067 0.0221 -0.0109
+		                      l 0.0002 0.0003
+		                      c 0.0763 -0.0439 0.1732 -0.0471 0.2547 -0.0001
+		                      c 0.0374 0.0216 0.068 0.0516 0.0899 0.0874
+		                      C 0.433 -0.2443 0.2385 -0.4366 0 -0.4366 z
+		                      M 0 -0.2021
+		                      c -0.0282 0 -0.0511 -0.0229 -0.0511 -0.0511
+		                      s 0.0229 -0.0511 0.0511 -0.0511
+		                      c 0.0282 0 0.0511 0.0229 0.0511 0.0511
+		                      S 0.0282 -0.2021 0 -0.2021 z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="9" colors="black blue black blue white blue black blue black"/>
+	<symbol symbol="disc" x="w/2" y="h/2" sx="dd" sy="dd" color="white"/>
+	<symbol symbol="squel" x="w/2" y="h/2" sx="dd" sy="dd" rotate="120" color="red"/>
+	<symbol symbol="squel" x="w/2" y="h/2" sx="dd" sy="dd" rotate="240" color="red"/>
+	<symbol symbol="squel" x="w/2" y="h/2" sx="dd" sy="dd" rotate="360" color="red"/>
+</flag>
