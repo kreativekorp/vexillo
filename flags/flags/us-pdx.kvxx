@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="us-pdx" name="Portland" fly="h*5/3">
+	<defs>
+		<dim id="x" e="(w-f)/2"/>
+		<dim id="u" e="h/72"/>
+		<color id="green">
+			<colorspec model="rgb" value="0 105 60"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 182 18"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="75 146 219"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="green"/>
+	<poly points="0 u*29 x+u*36 u*29 x+u*36 0 x+u*60 0
+	              x+u*60 u*19 w u*19 w u*43 x+u*70 u*43
+	              x+u*70 h x+u*46 h x+u*46 u*53 0 u*53" color="white"/>
+	<poly points="0 u*31 x+u*38 u*31 x+u*38 0 x+u*58 0
+	              x+u*58 u*21 w u*21 w u*41 x+u*68 u*41
+	              x+u*68 h x+u*48 h x+u*48 u*51 0 u*51" color="yellow"/>
+	<poly points="0 u*35 x+u*42 u*35 x+u*42 0 x+u*54 0
+	              x+u*54 u*25 w u*25 w u*37 x+u*64 u*37
+	              x+u*64 h x+u*52 h x+u*52 u*47 0 u*47" color="white"/>
+	<poly points="0 u*37 x+u*44 u*37 x+u*52 u*45 0 u*45" color="blue"/>
+	<poly points="x+u*44 0 x+u*52 0 x+u*52 u*27 x+u*44 u*35" color="blue"/>
+	<poly points="w u*27 w u*35 x+u*62 u*35 x+u*54 u*27" color="blue"/>
+	<poly points="x+u*54 h x+u*54 u*45 x+u*62 u*37 x+u*62 h" color="blue"/>
+	<g>
+		<clip>
+			<field x1="x+u*44" y1="u*27" x2="x+u*62" y2="u*45"/>
+		</clip>
+		<disc cx="x+u*44" cy="u*27" w="u*16" h="u*16" color="blue"/>
+		<disc cx="x+u*62" cy="u*27" w="u*16" h="u*16" color="blue"/>
+		<disc cx="x+u*44" cy="u*45" w="u*16" h="u*16" color="blue"/>
+		<disc cx="x+u*62" cy="u*45" w="u*16" h="u*16" color="blue"/>
+	</g>
+</flag>

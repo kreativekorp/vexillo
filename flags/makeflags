@@ -77,7 +77,7 @@ $VEXPORT -f png \
 
 export COPYFILE_DISABLE=true
 find flags -name .DS_Store -delete
-zip -r out/vexillo-flags.zip flags
+zip -r out/vexillo-flags.zip flags/*.kvxx
 
 cd out
 

@@ -4,7 +4,7 @@ Kreative Vexillo is a repository of images of flags in various formats, sizes, a
 
 Flags are named according to ISO 3166-1 alpha-2 country codes. Flags are present for all officially assigned codes as well as many exceptionally reserved, transitionally reserved, and user-assigned codes. Many other flags are included, among them ICS and NATO signal flags, pride flags, and flags for constructed languages.
 
-Kreative Vexillo contains **492 flags**. For comparison, the [My'file flag icon set](http://www.kreativekorp.com/lib/flags/) contains **300 flags** and the original [FamFamFam flag icon set](http://www.famfamfam.com/lab/icons/flags/) contains **247 flags**.
+Kreative Vexillo contains **over 500 flags**. For comparison, the [My'file flag icon set](http://www.kreativekorp.com/lib/flags/) contains **300 flags** and the original [FamFamFam flag icon set](http://www.famfamfam.com/lab/icons/flags/) contains **247 flags**.
 
 The flag images and the XML files used to describe them are placed in the public domain, free to use for any purpose with no requirement for attribution, except where otherwise noted within the XML file. The source code and binaries used to produce them, as well as any other computer programs in this repository including digital font files, are released under the Mozilla Public License.
 
@@ -43,24 +43,47 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 
 <table align="center">
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/aq-smith.png" width="18" height="12" title="Antarctica (Whitney Smith Proposal)"></td><td><code>aq-smith</code></td><td>Antarctica (Whitney Smith Proposal)</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/ca-on.png" width="18" height="12" title="Ontario"></td><td><code>ca-on</code></td><td>Ontario</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/ca-qc.png" width="18" height="12" title="Quebec"></td><td><code>ca-qc</code></td><td>Quebec</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/ch-zh.png" width="18" height="12" title="Zürich"></td><td><code>ch-zh</code></td><td>Zürich</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/dk-040.png" width="18" height="12" title="Bornholm"></td><td><code>dk-040</code></td><td>Bornholm</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/es-ct.png" width="18" height="12" title="Catalonia"></td><td><code>es-ct</code></td><td>Catalonia</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/fr-50.png" width="18" height="12" title="Manche"></td><td><code>fr-50</code></td><td>Manche</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/gb-eng.png" width="18" height="12" title="England"></td><td><code>gb-eng</code></td><td>England</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/gb-nir.png" width="18" height="12" title="Northern Ireland"></td><td><code>gb-nir</code></td><td>Northern Ireland</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/gb-sct.png" width="18" height="12" title="Scotland"></td><td><code>gb-sct</code></td><td>Scotland</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/gb-wls.png" width="18" height="12" title="Wales"></td><td><code>gb-wls</code></td><td>Wales</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/nl-ams.png" width="18" height="12" title="Amsterdam"></td><td><code>nl-ams</code></td><td>Amsterdam</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/se-m.png" width="18" height="12" title="Scania"></td><td><code>se-m</code></td><td>Scania</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/sy-snc.png" width="18" height="12" title="Syrian National Coalition"></td><td><code>sy-snc</code></td><td>Syrian National Coalition</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/uk-eng.png" width="18" height="12" title="England"></td><td><code>uk-eng</code></td><td>England</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/uk-nir.png" width="18" height="12" title="Northern Ireland"></td><td><code>uk-nir</code></td><td>Northern Ireland</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/uk-sct.png" width="18" height="12" title="Scotland"></td><td><code>uk-sct</code></td><td>Scotland</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/uk-wls.png" width="18" height="12" title="Wales"></td><td><code>uk-wls</code></td><td>Wales</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-ak.png" width="18" height="12" title="Alaska"></td><td><code>us-ak</code></td><td>Alaska</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-al.png" width="18" height="12" title="Alabama"></td><td><code>us-al</code></td><td>Alabama</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-ar.png" width="18" height="12" title="Arkansas"></td><td><code>us-ar</code></td><td>Arkansas</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-az.png" width="18" height="12" title="Arizona"></td><td><code>us-az</code></td><td>Arizona</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-ca.png" width="18" height="12" title="California"></td><td><code>us-ca</code></td><td>California</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-co.png" width="18" height="12" title="Colorado"></td><td><code>us-co</code></td><td>Colorado</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-dc.png" width="18" height="12" title="District of Columbia"></td><td><code>us-dc</code></td><td>District of Columbia</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-hi.png" width="18" height="12" title="Hawaii"></td><td><code>us-hi</code></td><td>Hawaii</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-md.png" width="18" height="12" title="Maryland"></td><td><code>us-md</code></td><td>Maryland</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-ms.png" width="18" height="12" title="Mississippi"></td><td><code>us-ms</code></td><td>Mississippi</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-nm.png" width="18" height="12" title="New Mexico"></td><td><code>us-nm</code></td><td>New Mexico</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-sc.png" width="18" height="12" title="South Carolina"></td><td><code>us-sc</code></td><td>South Carolina</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-tn.png" width="18" height="12" title="Tennessee"></td><td><code>us-tn</code></td><td>Tennessee</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-tx.png" width="18" height="12" title="Texas"></td><td><code>us-tx</code></td><td>Texas</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-chi.png" width="18" height="12" title="Chicago"></td><td><code>us-chi</code></td><td>Chicago</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-den.png" width="18" height="12" title="Denver"></td><td><code>us-den</code></td><td>Denver</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-nyc.png" width="18" height="12" title="New York City"></td><td><code>us-nyc</code></td><td>New York City</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-pdx.png" width="18" height="12" title="Portland"></td><td><code>us-pdx</code></td><td>Portland</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/us-phx.png" width="18" height="12" title="Phoenix"></td><td><code>us-phx</code></td><td>Phoenix</td></tr>
 </table>
 
 ## Aliases for ISO Country Codes or Subdivisions
+
+These are duplicates of flags with country codes or subdivision codes, but under the `xx` code instead. These are included for compatibility with the FamFamFam and My'file flag icon sets. No new duplicate flags will be added to this list.
 
 <table align="center">
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-bornholm.png" width="18" height="12" title="Bornholm"></td><td><code>xx-bornholm</code></td><td>Bornholm</td></tr>
@@ -82,6 +105,7 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 ## Non-ISO Subdivisions
 
 <table align="center">
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-cascadia.png" width="18" height="12" title="Cascadia"></td><td><code>xx-cascadia</code></td><td>Cascadia</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-christiania.png" width="18" height="12" title="Freetown Christiania"></td><td><code>xx-christiania</code></td><td>Freetown Christiania</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-fennoswede.png" width="18" height="12" title="Fenno-Swede"></td><td><code>xx-fennoswede</code></td><td>Fenno-Swede</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-na-ca.png" width="18" height="12" title="Native American (Canada)"></td><td><code>xx-na-ca</code></td><td>Native American (Canada)</td></tr>
@@ -107,20 +131,33 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-agender.png" width="18" height="12" title="Agender Pride"></td><td><code>xx-pride-agender</code></td><td>Agender Pride</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-ally.png" width="18" height="12" title="Ally Pride"></td><td><code>xx-pride-ally</code></td><td>Ally Pride</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-asexual.png" width="18" height="12" title="Asexual Pride"></td><td><code>xx-pride-asexual</code></td><td>Asexual Pride</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-bdsm.png" width="18" height="12" title="BDSM Pride"></td><td><code>xx-pride-bdsm</code></td><td>BDSM Pride</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-bear.png" width="18" height="12" title="Bear Pride"></td><td><code>xx-pride-bear</code></td><td>Bear Pride</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-bisexual.png" width="18" height="12" title="Bisexual Pride"></td><td><code>xx-pride-bisexual</code></td><td>Bisexual Pride</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-demisexual.png" width="18" height="12" title="Demisexual Pride"></td><td><code>xx-pride-demisexual</code></td><td>Demisexual Pride</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-fat-fetish.png" width="18" height="12" title="Fat Fetish Flag"></td><td><code>xx-pride-fat-fetish</code></td><td>Fat Fetish Flag</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-genderfluid.png" width="18" height="12" title="Genderfluid Pride"></td><td><code>xx-pride-genderfluid</code></td><td>Genderfluid Pride</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-genderqueer.png" width="18" height="12" title="Genderqueer Pride"></td><td><code>xx-pride-genderqueer</code></td><td>Genderqueer Pride</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-heterosexual.png" width="18" height="12" title="Heterosexual Pride"></td><td><code>xx-pride-heterosexual</code></td><td>Heterosexual Pride</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-intersex-1.png" width="18" height="12" title="Intersex Pride"></td><td><code>xx-pride-intersex-1</code></td><td>Intersex Pride</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-intersex-2.png" width="18" height="12" title="Intersex Pride"></td><td><code>xx-pride-intersex-2</code></td><td>Intersex Pride</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-leather.png" width="18" height="12" title="Leather Pride"></td><td><code>xx-pride-leather</code></td><td>Leather Pride</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-lesbian.png" width="18" height="12" title="Lesbian Pride"></td><td><code>xx-pride-lesbian</code></td><td>Lesbian Pride</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-lgbt.png" width="18" height="12" title="LGBT Pride"></td><td><code>xx-pride-lgbt</code></td><td>LGBT Pride</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-lgbt-7band.png" width="18" height="12" title="LGBT Pride (7-Band Version)"></td><td><code>xx-pride-lgbt-7band</code></td><td>LGBT Pride (7-Band Version)</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-lgbt-8band.png" width="18" height="12" title="LGBT Pride (8-Band Version)"></td><td><code>xx-pride-lgbt-8band</code></td><td>LGBT Pride (8-Band Version)</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-lgbt-us.png" width="18" height="12" title="LGBT Pride (United States)"></td><td><code>xx-pride-lgbt-us</code></td><td>LGBT Pride (United States)</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-lipstick.png" width="18" height="12" title="Lipstick Lesbian Pride"></td><td><code>xx-pride-lipstick</code></td><td>Lipstick Lesbian Pride</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-master-slave.png" width="18" height="12" title="Master-Slave Pride"></td><td><code>xx-pride-master-slave</code></td><td>Master-Slave Pride</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-nonbinary.png" width="18" height="12" title="Non-Binary Pride"></td><td><code>xx-pride-nonbinary</code></td><td>Non-Binary Pride</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-ownership.png" width="18" height="12" title="Ownership Flag"></td><td><code>xx-pride-ownership</code></td><td>Ownership Flag</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-pansexual.png" width="18" height="12" title="Pansexual Pride"></td><td><code>xx-pride-pansexual</code></td><td>Pansexual Pride</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-poly.png" width="18" height="12" title="Poly Pride"></td><td><code>xx-pride-poly</code></td><td>Poly Pride</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-polysexual.png" width="18" height="12" title="Polysexual Pride"></td><td><code>xx-pride-polysexual</code></td><td>Polysexual Pride</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-rubber.png" width="18" height="12" title="Rubber Pride"></td><td><code>xx-pride-rubber</code></td><td>Rubber Pride</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-trans.png" width="18" height="12" title="Trans Pride"></td><td><code>xx-pride-trans</code></td><td>Trans Pride</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-trans-il.png" width="18" height="12" title="Trans Pride (Israel)"></td><td><code>xx-pride-trans-il</code></td><td>Trans Pride (Israel)</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-twink.png" width="18" height="12" title="Twink Pride"></td><td><code>xx-pride-twink</code></td><td>Twink Pride</td></tr>
 </table>
 
 ## Racing Flags
@@ -157,6 +194,7 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-northtakoma.png" width="18" height="12" title="North Takoma"></td><td><code>xx-northtakoma</code></td><td>North Takoma</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-org-fiav.png" width="18" height="12" title="FIAV"></td><td><code>xx-org-fiav</code></td><td>FIAV</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-org-fotw.png" width="18" height="12" title="Flags of the World"></td><td><code>xx-org-fotw</code></td><td>Flags of the World</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-org-nava.png" width="18" height="12" title="North American Vexillological Association"></td><td><code>xx-org-nava</code></td><td>North American Vexillological Association</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pace.png" width="18" height="12" title="Pace"></td><td><code>xx-pace</code></td><td>Pace</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pirate.png" width="18" height="12" title="Pirate"></td><td><code>xx-pirate</code></td><td>Pirate</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-semaphore.png" width="18" height="12" title="Semaphore"></td><td><code>xx-semaphore</code></td><td>Semaphore</td></tr>
@@ -164,7 +202,7 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-semaphore-jp-r.png" width="18" height="12" title="Semaphore (Japan, Right Hand)"></td><td><code>xx-semaphore-jp-r</code></td><td>Semaphore (Japan, Right Hand)</td></tr>
 </table>
 
-## Mika City Flags
+## Kreative Media
 
 <table align="center">
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-kk-kappaa.png" width="18" height="12" title="Kappaa"></td><td><code>xx-kk-kappaa</code></td><td>Kappaa</td></tr>

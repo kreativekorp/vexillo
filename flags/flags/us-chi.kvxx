@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="us-chi" name="Chicago" fly="h*3/2">
+	<defs>
+		<dim id="sh" e="min(h/8,w/9.5)"/>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="179 221 242"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="255 0 0"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.183333 -0.317543
+		                     L 0.866025 -0.5 L 0.366667 -0
+		                     L 0.866025 0.5 L 0.183334 0.317543
+		                     L 0 1 L -0.183333 0.317543
+		                     L -0.866025 0.5  L -0.366667 0
+		                     L -0.866025 -0.5 L -0.183334 -0.317543 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="white blue white blue white" weights="1 1 2 1 1"/>
+	<symbol symbol="star" x="w*15/72" y="h/2" sx="sh" sy="sh" color="red"/>
+	<symbol symbol="star" x="w*29/72" y="h/2" sx="sh" sy="sh" color="red"/>
+	<symbol symbol="star" x="w*43/72" y="h/2" sx="sh" sy="sh" color="red"/>
+	<symbol symbol="star" x="w*57/72" y="h/2" sx="sh" sy="sh" color="red"/>
+</flag>
