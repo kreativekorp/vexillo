@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-java -Dcom.kreative.arg0=rewritesvgpath -cp /usr/local/bin/vexillo.jar com.kreative.vexillo.main.RewriteSVGPath "$@"
+java -Dcom.kreative.arg0=rewritesvgpath -cp /usr/local/lib/vexillo.jar com.kreative.vexillo.main.RewriteSVGPath "$@"

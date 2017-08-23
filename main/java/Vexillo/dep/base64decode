@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-java -Dcom.kreative.arg0=base64decode -cp /usr/local/bin/vexillo.jar com.kreative.vexillo.main.Base64Decode "$@"
+java -Dcom.kreative.arg0=base64decode -cp /usr/local/lib/vexillo.jar com.kreative.vexillo.main.Base64Decode "$@"
