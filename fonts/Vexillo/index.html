@@ -1800,22 +1800,22 @@
 			[['xx-conlang-esperanto'], [[0xF420]]],
 			[['xx-conlang-lfn'], [[0xF430]]],
 			[['xx-conlang-klingon'], [[0xF440]]],
-			[['xx-pride-lgbt'], [[0xF500], [0x1F308], [0x1F3F3, 0x200D, 0x1F308]]],
+			[['xx-pride-lgbt'], [[0xF500], [0x1F308], [0x1F3F3, 0x200D, 0x1F308], [0x1F3F4, 0x200D, 0x1F308]]],
 			[['xx-pride-lgbt-7band'], [[0xF501]]],
 			[['xx-pride-lgbt-8band'], [[0xF502]]],
 			[['xx-pride-lgbt-us'], [[0xF503]]],
 			[['xx-pride-asexual'], [[0xF510]]],
-			[['xx-pride-lesbian'], [[0xF511], [0x26A2], [0x1F3F3, 0x200D, 0x26A2]]],
-			[['xx-pride-gay'], [[0xF512], [0x26A3], [0x1F3F3, 0x200D, 0x26A3]]],
+			[['xx-pride-lesbian'], [[0xF511], [0x26A2], [0x1F3F3, 0x200D, 0x26A2], [0x1F3F4, 0x200D, 0x26A2]]],
+			[['xx-pride-gay'], [[0xF512], [0x26A3], [0x1F3F3, 0x200D, 0x26A3], [0x1F3F4, 0x200D, 0x26A3]]],
 			[['xx-pride-bisexual'], [[0xF513]]],
 			[['xx-pride-pansexual'], [[0xF514]]],
 			[['xx-pride-polysexual'], [[0xF515]]],
 			[['xx-pride-demisexual'], [[0xF516]]],
-			[['xx-pride-trans'], [[0xF520], [0x26A7], [0x1F3F3, 0x200D, 0x26A7]]],
+			[['xx-pride-trans'], [[0xF520], [0x26A7], [0x1F3F3, 0x200D, 0x26A7], [0x1F3F4, 0x200D, 0x26A7]]],
 			[['xx-pride-trans-il'], [[0xF521]]],
 			[['xx-pride-agender'], [[0xF530]]],
-			[['xx-pride-female'], [[0xF531], [0x2640], [0x1F3F3, 0x200D, 0x2640]]],
-			[['xx-pride-male'], [[0xF532], [0x2642], [0x1F3F3, 0x200D, 0x2642]]],
+			[['xx-pride-female'], [[0xF531], [0x2640], [0x1F3F3, 0x200D, 0x2640], [0x1F3F4, 0x200D, 0x2640]]],
+			[['xx-pride-male'], [[0xF532], [0x2642], [0x1F3F3, 0x200D, 0x2642], [0x1F3F4, 0x200D, 0x2642]]],
 			[['xx-pride-androgyne'], [[0xF533]]],
 			[['xx-pride-bigender'], [[0xF534]]],
 			[['xx-pride-genderfluid'], [[0xF535]]],
@@ -1836,7 +1836,7 @@
 			[['xx-pride-ally'], [[0xF570]]],
 			[['xx-pride-heterosexual'], [[0xF571]]],
 			[['xx-aristasia'], [[0xF580]]],
-			[['xx-christian'], [[0xF5C0], [0x271D], [0x1F3F3, 0x200D, 0x271D]]],
+			[['xx-christian'], [[0xF5C0], [0x271D], [0x1F3F3, 0x200D, 0x271D], [0x1F3F4, 0x200D, 0x271D]]],
 			[['xx-racing-start'], [[0xF600]]],
 			[['xx-racing-caution'], [[0xF601]]],
 			[['xx-racing-hazard'], [[0xF602]]],
@@ -1869,8 +1869,8 @@
 			[['xx-org-fiav'], [[0xF820]]],
 			[['xx-org-fotw'], [[0xF821]]],
 			[['xx-org-nava'], [[0xF822]]],
-			[['xx-pirate'], [[0xF840], [0x2620], [0x1F3F4, 0x200D, 0x2620]]],
-			[['xx-pace'], [[0xF841], [0x262E], [0x1F3F3, 0x200D, 0x262E]]],
+			[['xx-pirate'], [[0xF840], [0x2620], [0x1F3F3, 0x200D, 0x2620], [0x1F3F4, 0x200D, 0x2620]]],
+			[['xx-pace'], [[0xF841], [0x262E], [0x1F3F3, 0x200D, 0x262E], [0x1F3F4, 0x200D, 0x262E]]],
 			[['xx-misc-rgb'], [[0xF860]]],
 			[['xx-misc-cmyk'], [[0xF861]]],
 			[['xx-misc-ntsc'], [[0xF862]]],
@@ -1901,7 +1901,7 @@
 			}
 		};
 		var tagflag = function(s) {
-			var cps = [0x1F3F3];
+			var cps = [0x1F3F4];
 			for (var i = 0; i < s.length; i++) {
 				var cp = s.charCodeAt(i);
 				if (cp >= 0x30 && cp <= 0x39) cps.push(0xE0000 + cp);
@@ -1938,7 +1938,7 @@
 			}
 			if (
 				(chars.length > 2) &&
-				(chars[0] == 0x1F3F3) &&
+				(chars[0] == 0x1F3F3 || chars[0] == 0x1F3F4) &&
 				(chars[chars.length - 1] == 0xE007F)
 			) {
 				var ascii = [];

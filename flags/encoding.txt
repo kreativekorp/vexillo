@@ -1787,25 +1787,25 @@ xx-conlang-klingon	F440
 
 ## F500-F5FF	Pride Flags
 
-xx-pride-lgbt	F500; 1F308; 1F3F3+200D+1F308
+xx-pride-lgbt	F500; 1F308; 1F3F3+200D+1F308; 1F3F4+200D+1F308
 xx-pride-lgbt-7band	F501
 xx-pride-lgbt-8band	F502
 xx-pride-lgbt-us	F503
 
 xx-pride-asexual	F510
-xx-pride-lesbian	F511; 26A2; 1F3F3+200D+26A2
-xx-pride-gay	F512; 26A3; 1F3F3+200D+26A3
+xx-pride-lesbian	F511; 26A2; 1F3F3+200D+26A2; 1F3F4+200D+26A2
+xx-pride-gay	F512; 26A3; 1F3F3+200D+26A3; 1F3F4+200D+26A3
 xx-pride-bisexual	F513
 xx-pride-pansexual	F514
 xx-pride-polysexual	F515
 xx-pride-demisexual	F516
 
-xx-pride-trans	F520; 26A7; 1F3F3+200D+26A7
+xx-pride-trans	F520; 26A7; 1F3F3+200D+26A7; 1F3F4+200D+26A7
 xx-pride-trans-il	F521
 
 xx-pride-agender	F530
-xx-pride-female	F531; 2640; 1F3F3+200D+2640
-xx-pride-male	F532; 2642; 1F3F3+200D+2642
+xx-pride-female	F531; 2640; 1F3F3+200D+2640; 1F3F4+200D+2640
+xx-pride-male	F532; 2642; 1F3F3+200D+2642; 1F3F4+200D+2642
 xx-pride-androgyne	F533
 xx-pride-bigender	F534
 xx-pride-genderfluid	F535
@@ -1832,7 +1832,7 @@ xx-pride-heterosexual	F571
 
 xx-aristasia	F580
 
-xx-christian	F5C0; 271D; 1F3F3+200D+271D
+xx-christian	F5C0; 271D; 1F3F3+200D+271D; 1F3F4+200D+271D
 
 
 ## F600-F6FF	Sports Flags
@@ -1882,8 +1882,8 @@ xx-org-fiav	F820
 xx-org-fotw	F821
 xx-org-nava	F822
 
-xx-pirate	F840; 2620; 1F3F4+200D+2620
-xx-pace	F841; 262E; 1F3F3+200D+262E
+xx-pirate	F840; 2620; 1F3F3+200D+2620; 1F3F4+200D+2620
+xx-pace	F841; 262E; 1F3F3+200D+262E; 1F3F4+200D+262E
 
 xx-misc-rgb	F860
 xx-misc-cmyk	F861

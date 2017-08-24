@@ -60,6 +60,7 @@ public class SFDExporter {
 		}
 		SortedSet<Integer> remaining = new TreeSet<Integer>();
 		remaining.add(0x1F3F3);
+		remaining.add(0x1F3F4);
 		for (char ch = '0'; ch <= '9'; ch++) remaining.add(0xE0000 + ch);
 		for (char ch = 'a'; ch <= 'z'; ch++) remaining.add(0xE0000 + ch);
 		remaining.add(0xE007F);
@@ -214,8 +215,16 @@ public class SFDExporter {
 			if (ids != null) {
 				for (String id : ids) {
 					if (id.length() > 0) {
+						// Proposal for flag tag sequences used 1F3F3 as base.
 						StringBuffer sb = new StringBuffer("Ligature2: \"Emoji Sequences 0-1\"");
-						for (int codePoint : getFlagIdCodeSequence(id)) {
+						for (int codePoint : getFlagIdCodeSequence(id, 0x1F3F3)) {
+							sb.append(' ');
+							sb.append(getCharacterName(codePoint));
+						}
+						sfd.println(sb.toString());
+						// Final version of flag tag sequences uses 1F3F4 as base.
+						sb = new StringBuffer("Ligature2: \"Emoji Sequences 0-1\"");
+						for (int codePoint : getFlagIdCodeSequence(id, 0x1F3F4)) {
 							sb.append(' ');
 							sb.append(getCharacterName(codePoint));
 						}
@@ -338,10 +347,10 @@ public class SFDExporter {
 		}
 	}
 	
-	private static int[] getFlagIdCodeSequence(String id) {
+	private static int[] getFlagIdCodeSequence(String id, int base) {
 		int[] buf = new int[id.length() + 2];
 		int pos = 0;
-		buf[pos++] = 0x1F3F3;
+		buf[pos++] = base;
 		CharacterIterator it = new StringCharacterIterator(id);
 		for (char ch = it.first(); ch != CharacterIterator.DONE; ch = it.next()) {
 			if ((ch >= '0' && ch <= '9') || (ch >= 'a' && ch <= 'z')) {
