@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Pandunia" fly="h*8/5">
+	<defs>
+		<dim id="d" e="min(h,w)*3/4"/>
+		<dim id="di" e="min(h,w)*4/5"/>
+		<dim id="dj" e="min(h,w)"/>
+		<dim id="o" e="(h-min(h,w))/2"/>
+		<color id="dkblue">
+			<colorspec model="rgb" value="0 19 127"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="253 244 0"/>
+		</color>
+		<color id="ltblue">
+			<colorspec model="rgb" value="0 148 255"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="0 255 33"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="dkblue"/>
+	<g>
+		<clip>
+			<disc cx="w/2" cy="h/2" w="d" h="d"/>
+		</clip>
+		<field x1="0" y1="0" x2="w" y2="h" color="ltblue"/>
+		<disc cx="w/2" cy="o" w="dj" h="di" color="yellow"/>
+		<disc cx="w/2" cy="h-o" w="dj" h="di" color="green"/>
+	</g>
+</flag>

@@ -1782,6 +1782,7 @@ xx-northpole	F3EC
 xx-conlang	F400
 xx-conlang-esperanto	F420
 xx-conlang-lfn	F430
+xx-conlang-pandunia	F438
 xx-conlang-klingon	F440
 
 
