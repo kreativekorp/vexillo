@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="fr-e" name="Brittany" properties="cf sf normal" fly="h*3/2">
+    <defs>
+        <dim id="cw" e="h*2/3"/>
+        <dim id="ch" e="h*4/9"/>
+        <dim id="es" e="ch/3"/>
+        <color id="black">
+            <colorspec model="rgb" value="0 0 0"/>
+        </color>
+        <color id="white">
+            <colorspec model="rgb" value="255 255 255"/>
+        </color>
+        <symdef id="ermine" d="M -0.1013 -0.3113 l 0.1013 0.0675
+                               L -0.1013 -0.1763 L -0.27 -0.2438
+                               L -0.1013 -0.3113 z
+                               M 0 -0.5138 l -0.0675 0.1688
+                               l 0.0675 0.1013 l 0.0675 -0.1013
+                               L 0 -0.5138 z
+                               M 0.27 -0.2438 L 0.1013 -0.3113
+                               l -0.1013 0.0675 L 0.1013 -0.1763
+                               L 0.27 -0.2438 z
+                               M 0 -0.2438 L -0.3038 0.4988
+                               l 0.2363 -0.1013 l 0.0675 0.135
+                               l 0.0675 -0.135 L 0.3038 0.4988
+                               L 0 -0.2438 z"/>
+    </defs>
+    <hband x1="0" y1="0" x2="w" y2="h" bands="9" colors="black white"/>
+    <field x1="0" y1="0" x2="cw" y2="ch" color="white"/>
+    <for var="x" start="1" end="7" step="2">
+        <symbol symbol="ermine" x="cw*x/8" y="ch*31/160" sx="es" sy="es" color="black"/>
+    </for>
+    <for var="x" start="2" end="6" step="2">
+        <symbol symbol="ermine" x="cw*x/8" y="ch/2" sx="es" sy="es" color="black"/>
+    </for>
+    <for var="x" start="1" end="7" step="2">
+        <symbol symbol="ermine" x="cw*x/8" y="ch*129/160" sx="es" sy="es" color="black"/>
+    </for>
+</flag>

@@ -1400,16 +1400,18 @@ ad-08	E7C8
 
 ## E800-E8FF	Western European Flags A
 
+fr-lre	E800
+
 fr-a	E801
 fr-b	E802
 fr-c	E803
 fr-d	E804
-fr-e	E805
-fr-f	E806
+fr-e; fr-bre; xx-brittany	E805
+fr-f; fr-cvl	E806
 fr-g	E807
-fr-h	E808
+fr-h; fr-cor	E808
 fr-i	E809
-fr-j	E80A
+fr-j; fr-idf	E80A
 fr-k	E80B
 fr-l	E80C
 fr-m	E80D
@@ -1417,14 +1419,23 @@ fr-n	E80E
 fr-o	E80F
 fr-p	E810
 fr-q	E811
-fr-r	E812
+fr-r; fr-pdl	E812
 fr-s	E813
 fr-t	E814
-fr-u	E815
+fr-u; fr-pac	E815
 fr-v	E816
 
-fr-2a	E81A
-fr-2b	E81B
+fr-ara	E817
+fr-bfc	E818
+fr-ges	E819
+fr-gua	E81A
+fr-hdf	E81B
+fr-may	E81C
+fr-nor	E81D
+fr-naq	E81E
+fr-occ	E81F
+
+fr-2a	E820
 
 fr-01	E821
 fr-02	E822
@@ -1445,6 +1456,9 @@ fr-16	E830
 fr-17	E831
 fr-18	E832
 fr-19	E833
+
+fr-2b	E834
+
 fr-21	E835
 fr-22	E836
 fr-23	E837
