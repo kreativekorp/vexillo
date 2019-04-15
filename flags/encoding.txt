@@ -1808,12 +1808,17 @@ xx-pride-lgbt-8band	F502
 xx-pride-lgbt-us	F503
 
 xx-pride-asexual	F510
-xx-pride-lesbian	F511; 26A2; 1F3F3+200D+26A2; 1F3F4+200D+26A2
+xx-pride-lesbian-1	F511; 26A2; 1F3F3+200D+26A2; 1F3F4+200D+26A2
 xx-pride-gay	F512; 26A3; 1F3F3+200D+26A3; 1F3F4+200D+26A3
 xx-pride-bisexual	F513
 xx-pride-pansexual	F514
 xx-pride-polysexual	F515
 xx-pride-demisexual	F516
+xx-pride-lesbian-2	F517
+xx-pride-lesbian-3	F518
+xx-pride-lesbian-4	F519
+xx-pride-lesbian-5	F51A
+xx-pride-lesbian-6	F51B
 
 xx-pride-trans	F520; 26A7; 1F3F3+200D+26A7; 1F3F4+200D+26A7
 xx-pride-trans-il	F521
@@ -1831,8 +1836,9 @@ xx-pride-intersex-1	F540
 xx-pride-intersex-2	F541
 
 xx-pride-bear	F550
-xx-pride-lipstick	F551
+xx-pride-lipstick-1	F551
 xx-pride-twink	F552
+xx-pride-lipstick-2	F553
 
 xx-pride-leather	F560
 xx-pride-poly	F561

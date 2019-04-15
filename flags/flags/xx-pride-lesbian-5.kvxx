@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Lesbian Pride" fly="h*14/9">
+	<defs>
+		<color id="violet">
+			<colorspec model="rgb" value="102 51 153"/>
+		</color>
+		<color id="rose">
+			<colorspec model="rgb" value="255 102 153"/>
+		</color>
+		<color id="dill">
+			<colorspec model="rgb" value="102 204 51"/>
+		</color>
+		<color id="crocus">
+			<colorspec model="rgb" value="255 204 51"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="4" colors="violet crocus dill rose"/>
+</flag>
