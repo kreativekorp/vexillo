@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Aromantic Pride" fly="h*3/2">
+	<!-- I could not find an authoritative source for proportion or colors. There probably is none. -->
+	<defs>
+		<color id="green1">
+			<colorspec model="rgb" value="85 170 68"/>
+		</color>
+		<color id="green2">
+			<colorspec model="rgb" value="176 208 128"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="gray">
+			<colorspec model="rgb" value="170 170 170"/>
+		</color>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="green1 green2 white gray black"/>
+</flag>

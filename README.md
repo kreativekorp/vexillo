@@ -136,6 +136,7 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <table align="center">
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-agender.png" width="18" height="12" title="Agender Pride"></td><td><code>xx-pride-agender</code></td><td>Agender Pride</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-ally.png" width="18" height="12" title="Ally Pride"></td><td><code>xx-pride-ally</code></td><td>Ally Pride</td></tr>
+<tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-aromantic.png" width="18" height="12" title="Aromantic Pride"></td><td><code>xx-pride-aromantic</code></td><td>Aromantic Pride</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-asexual.png" width="18" height="12" title="Asexual Pride"></td><td><code>xx-pride-asexual</code></td><td>Asexual Pride</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-bdsm.png" width="18" height="12" title="BDSM Pride"></td><td><code>xx-pride-bdsm</code></td><td>BDSM Pride</td></tr>
 <tr><td><img src="https://raw.githubusercontent.com/kreativekorp/vexillo/master/artwork/vexillo/pgc024/xx-pride-bear.png" width="18" height="12" title="Bear Pride"></td><td><code>xx-pride-bear</code></td><td>Bear Pride</td></tr>

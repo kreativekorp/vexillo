@@ -1819,6 +1819,7 @@ xx-pride-lesbian-3	F518
 xx-pride-lesbian-4	F519
 xx-pride-lesbian-5	F51A
 xx-pride-lesbian-6	F51B
+xx-pride-aromantic	F51C
 
 xx-pride-trans	F520; 26A7; 1F3F3+200D+26A7; 1F3F4+200D+26A7
 xx-pride-trans-il	F521
