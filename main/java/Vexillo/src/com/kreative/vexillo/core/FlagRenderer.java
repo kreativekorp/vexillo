@@ -517,41 +517,74 @@ public class FlagRenderer {
 		}
 	}
 	
+	public boolean isRectangular() {
+		return (
+			!containsAnyKey(flag.dimensions(),
+				".boundleft", ".boundtop", ".boundright", ".boundbottom",
+				".glazeleft", ".glazetop", ".glazeright", ".glazebottom"
+			) &&
+			!containsAnyKey(flag.symbols(), ".boundarea", ".glazearea")
+		);
+	}
+	
+	public Rectangle getBoundaryRect(int x, int y, int w, int h) {
+		Map<String, Dimension> d = flag.createNamespace(h, w);
+		int bx = x + getRounded(d, ".boundleft", ".glazeleft", 0);
+		int by = y + getRounded(d, ".boundtop", ".glazetop", 0);
+		int bw = x + getRounded(d, ".boundright", ".glazeright", w) - bx;
+		int bh = y + getRounded(d, ".boundbottom", ".glazebottom", h) - by;
+		return (bw > 0 && bh > 0) ? new Rectangle(bx, by, bw, bh) : null;
+	}
+	
+	public Shape getBoundaryShape(int x, int y, int w, int h) {
+		Rectangle br = getBoundaryRect(x, y, w, h);
+		if (br == null) return null;
+		Map<String, Symbol> s = flag.symbols(); Shape sh;
+		if (s.containsKey(".boundarea")) sh = s.get(".boundarea").toPath();
+		else if (s.containsKey(".glazearea")) sh = s.get(".glazearea").toPath();
+		else return br;
+		sh = AffineTransform.getScaleInstance(br.width, br.height).createTransformedShape(sh);
+		sh = AffineTransform.getTranslateInstance(br.x, br.y).createTransformedShape(sh);
+		return sh;
+	}
+	
+	private boolean containsAnyKey(Map<String, ?> map, String... keys) {
+		for (String k : keys) if (map.containsKey(k)) return true;
+		return false;
+	}
+	
+	private int getRounded(Map<String, Dimension> ns, String k1, String k2, int def) {
+		if (ns.containsKey(k1)) return (int)Math.round(ns.get(k1).value(ns));
+		if (ns.containsKey(k2)) return (int)Math.round(ns.get(k2).value(ns));
+		return def;
+	}
+	
 	public void glaze(Graphics2D g, int x, int y, int w, int h, int t) {
 		prep(g);
-		Map<String, Dimension> d = flag.createNamespace(h, w);
-		int gx = d.containsKey(".glazeleft") ? (x + (int)Math.round(d.get(".glazeleft").value(d))) : x;
-		int gy = d.containsKey(".glazetop") ? (y + (int)Math.round(d.get(".glazetop").value(d))) : y;
-		int gw = d.containsKey(".glazeright") ? (x + (int)Math.round(d.get(".glazeright").value(d)) - gx) : w;
-		int gh = d.containsKey(".glazebottom") ? (y + (int)Math.round(d.get(".glazebottom").value(d)) - gy) : h;
-		if (gw > 0 && gh > 0) {
-			if (flag.symbols().containsKey(".glazearea")) {
-				Shape sh = flag.symbols().get(".glazearea").toPath();
-				sh = AffineTransform.getScaleInstance(gw, gh).createTransformedShape(sh);
-				sh = AffineTransform.getTranslateInstance(gx, gy).createTransformedShape(sh);
-				g.setPaint(new GradientPaint(gx, gy, topGlaze, gx+gw/2, gy+gh/2, topMiddleGlaze));
-				g.fill(sh);
-				g.setPaint(new GradientPaint(gx+gw/2, gy+gh/2, bottomMiddleGlaze, gx+gw, gy+gh, bottomGlaze));
-				g.fill(sh);
-				Shape sh2 = new BasicStroke(t * 2).createStrokedShape(sh);
-				Shape sh3 = new BasicStroke(t * 4).createStrokedShape(sh);
-				Area outer = new Area(sh); outer.intersect(new Area(sh2));
-				Area inner = new Area(sh); inner.intersect(new Area(sh3)); inner.subtract(outer);
-				g.setPaint(innerGlaze); g.fill(inner);
-				g.setPaint(outerGlaze); g.fill(outer);
-			} else {
-				g.setPaint(new GradientPaint(gx, gy, topGlaze, gx+gw/2, gy+gh/2, topMiddleGlaze));
-				g.fillRect(gx, gy, gw, gh);
-				g.setPaint(new GradientPaint(gx+gw/2, gy+gh/2, bottomMiddleGlaze, gx+gw, gy+gh, bottomGlaze));
-				g.fillRect(gx, gy, gw, gh);
-				Rectangle r1 = new Rectangle(gx, gy, gw, gh);
-				Rectangle r2 = new Rectangle(gx+t, gy+t, gw-t*2, gh-t*2);
-				Rectangle r3 = new Rectangle(gx+t*2, gy+t*2, gw-t*4, gh-t*4);
-				Area outer = new Area(r1); outer.subtract(new Area(r2));
-				Area inner = new Area(r2); inner.subtract(new Area(r3));
-				g.setPaint(innerGlaze); g.fill(inner);
-				g.setPaint(outerGlaze); g.fill(outer);
-			}
+		Shape sh = getBoundaryShape(x, y, w, h);
+		if (sh == null) return;
+		boolean isRect = (sh instanceof Rectangle);
+		Rectangle gr = isRect ? (Rectangle)sh : sh.getBounds();
+		int gx = gr.x, gy = gr.y, gw = gr.width, gh = gr.height;
+		
+		g.setPaint(new GradientPaint(gx, gy, topGlaze, gx+gw/2, gy+gh/2, topMiddleGlaze));
+		if (isRect) g.fillRect(gx, gy, gw, gh); else g.fill(sh);
+		g.setPaint(new GradientPaint(gx+gw/2, gy+gh/2, bottomMiddleGlaze, gx+gw, gy+gh, bottomGlaze));
+		if (isRect) g.fillRect(gx, gy, gw, gh); else g.fill(sh);
+		
+		Area outer, inner;
+		if (isRect) {
+			Rectangle r2 = new Rectangle(gx+t, gy+t, gw-t*2, gh-t*2);
+			Rectangle r3 = new Rectangle(gx+t*2, gy+t*2, gw-t*4, gh-t*4);
+			outer = new Area(gr); outer.subtract(new Area(r2));
+			inner = new Area(r2); inner.subtract(new Area(r3));
+		} else {
+			Shape sh2 = new BasicStroke(t * 2).createStrokedShape(sh);
+			Shape sh3 = new BasicStroke(t * 4).createStrokedShape(sh);
+			outer = new Area(sh); outer.intersect(new Area(sh2));
+			inner = new Area(sh); inner.intersect(new Area(sh3)); inner.subtract(outer);
 		}
+		g.setPaint(innerGlaze); g.fill(inner);
+		g.setPaint(outerGlaze); g.fill(outer);
 	}
 }
