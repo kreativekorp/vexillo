@@ -14,6 +14,7 @@ fi
 rm -rf out
 mkdir -p out/s{g,m}{a,c,d,f,k}360
 mkdir -p out/p{g,m}{a,c,d,f,k}{360,128,072,024}
+mkdir -p out/pvf160
 
 $VEXPORT -f svg \
 	-d out/sga360 -h 360 -w   0 -g 30 flags/*.kvxx \
@@ -75,6 +76,8 @@ $VEXPORT -f png \
 	-d out/pmf024 -h  24 -w  24 -g  0 -s  3 flags/*.kvxx \
 	-d out/pmk024 -h  22 -w  32 -g  0 -s  3 flags/*.kvxx
 
+$VEXPORT -f png -y fruit -d out/pvf160 flags/*.kvxx
+
 export COPYFILE_DISABLE=true
 find flags -name .DS_Store -delete
 zip -r out/vexillo-flags.zip flags/*.kvxx
@@ -135,3 +138,5 @@ zip -r pmc024.zip pmc024
 zip -r pmd024.zip pmd024
 zip -r pmf024.zip pmf024
 zip -r pmk024.zip pmk024
+
+zip -r pvf160.zip pvf160
