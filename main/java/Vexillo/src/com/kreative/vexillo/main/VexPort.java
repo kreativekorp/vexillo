@@ -1,12 +1,15 @@
 package com.kreative.vexillo.main;
 
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import javax.imageio.ImageIO;
 import com.kreative.vexillo.core.Flag;
 import com.kreative.vexillo.core.FlagParser;
 import com.kreative.vexillo.core.FlagRenderer;
 import com.kreative.vexillo.core.SVGExporter;
+import com.kreative.vexillo.style.Stylizer;
 
 public class VexPort {
 	public static void main(String[] args) {
@@ -34,6 +37,25 @@ public class VexPort {
 				} else if (arg.equals("-g") && argi < args.length) {
 					try { o.glaze = Integer.parseInt(args[argi++]); }
 					catch (NumberFormatException e) { o.glaze = 0; }
+				} else if (arg.equals("-y") && argi < args.length) {
+					String name = args[argi++];
+					if (name.length() > 0) {
+						if (!name.contains(".")) {
+							if (!name.contains("Stylizer")) {
+								String fi = name.substring(0, 1).toUpperCase();
+								name = fi + name.substring(1) + "Stylizer";
+							}
+							name = "com.kreative.vexillo.style." + name;
+						}
+						try {
+							o.style = Class.forName(name).asSubclass(Stylizer.class).newInstance();
+						} catch (Exception e) {
+							System.err.println("Unknown stylizer class: " + name);
+							o.style = null;
+						}
+					} else {
+						o.style = null;
+					}
 				} else if (arg.equals("-f") && argi < args.length) {
 					o.format = args[argi++];
 				} else if (arg.equals("-o") && argi < args.length) {
@@ -69,6 +91,7 @@ public class VexPort {
 		System.out.println("  -h <height>     Set image height. Defaults to 200.");
 		System.out.println("  -s <scale>      Render as a larger image, then reduce (supersampling).");
 		System.out.println("  -g <thickness>  Add glazing like on FamFamFam flag icons. Set to 0 to disable.");
+		System.out.println("  -y <classname>  Use a Stylizer class to generate a stylized flag image.");
 		System.out.println("  -f <format>     Set exported image format: png, jpg, gif, bmp, wbmp, or svg.");
 		System.out.println("  -o <path>       Set output file. Forgotten once used.");
 		System.out.println("  -d <path>       Set output directory.");
@@ -110,7 +133,11 @@ public class VexPort {
 			} else if (height < 1) {
 				height = flag.getHeightFromWidth(width);
 			}
-			if (o.format.equalsIgnoreCase("svg")) {
+			if (o.style != null) {
+				FlagRenderer r = new FlagRenderer(file.getParentFile(), flag);
+				BufferedImage image = o.style.stylize(r, width, height, o.supersample, o.glaze);
+				ImageIO.write(image, o.format, out);
+			} else if (o.format.equalsIgnoreCase("svg")) {
 				SVGExporter e = new SVGExporter(file.getParentFile(), flag);
 				e.export(out, width, height, o.glaze);
 			} else {
@@ -138,6 +165,7 @@ public class VexPort {
 		public int height = 0;
 		public int supersample = 0;
 		public int glaze = 0;
+		public Stylizer style = null;
 		public String format = "png";
 		public File outputFile = null;
 		public File outputDirectory = null;
@@ -145,8 +173,12 @@ public class VexPort {
 		
 		public String getStatusString() {
 			StringBuffer s = new StringBuffer(width + "x" + height);
-			if (supersample > 1) s.append(" " + supersample + "x");
-			s.append((glaze > 0) ? " glazed" : " matte");
+			if (style != null) {
+				s.append(" " + style.getClass().getSimpleName());
+			} else {
+				if (supersample > 1) s.append(" " + supersample + "x");
+				s.append((glaze > 0) ? " glazed" : " matte");
+			}
 			s.append(" " + format);
 			return s.toString();
 		}

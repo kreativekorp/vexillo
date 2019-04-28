@@ -3,6 +3,8 @@ package com.kreative.vexillo.main;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
@@ -233,7 +235,11 @@ public class VexMoji {
 		public boolean printedHelp = false;
 		
 		public String name = "Kreative Vexillo";
-		public String copyright = "Copyright 2017 Kreative Software";
+		public String copyright = (
+			"Copyright 2017-" +
+			new GregorianCalendar().get(Calendar.YEAR) +
+			" Kreative Software"
+		);
 		public String vendorId = "KrKo";
 		public int emAscent = 900;
 		public int emDescent = 300;
