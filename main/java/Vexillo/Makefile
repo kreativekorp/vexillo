@@ -1,5 +1,5 @@
 SRCFILES := $(shell find src -name \*.java)
-RESFILES := $(shell (find src -name \*.dtd ; find src -name \*.ttf) | sed s/^src\\///)
+RESFILES := $(shell (find src -name \*.dtd ; find src -name \*.ttf ; find src -name \*.png) | sed s/^src\\///)
 PACKAGES := $(shell find src/com/kreative/vexillo -type d \! -path \*/.\* | sed s/^src\\/// | tr / .)
 
 all: clean bin doc vexillo.jar vexillo-src.tgz
