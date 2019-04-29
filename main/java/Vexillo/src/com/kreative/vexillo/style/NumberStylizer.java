@@ -4,13 +4,10 @@ import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.Shape;
+import java.awt.geom.Area;
 import java.awt.image.BufferedImage;
-import java.awt.image.renderable.ParameterBlock;
 import javax.media.jai.BorderExtender;
-import javax.media.jai.Interpolation;
-import javax.media.jai.JAI;
 import javax.media.jai.RenderedOp;
-import javax.media.jai.WarpCubic;
 import com.kreative.vexillo.core.FlagRenderer;
 
 public class NumberStylizer implements Stylizer {
@@ -22,42 +19,33 @@ public class NumberStylizer implements Stylizer {
 	
 	@Override
 	public BufferedImage stylize(FlagRenderer r, int unused1, int unused2, int unused3, int unused4) {
-		Shape sh = r.getBoundaryShape(0, 0, dims[0], dims[1]);
-		BufferedImage image = r.renderToImage(dims[0], dims[1], dims[2], 0);
-		Graphics2D g = image.createGraphics();
-		g.setClip(sh);
-		g.setPaint(new Color(0, 0, 0, 57));
-		g.setStroke(new BasicStroke(dims[3] * 2));
-		g.draw(sh);
+		BufferedImage i = r.renderToImage(dims[0], dims[1], dims[2], 0);
+		RenderedOp bi = JAIUtils.border(i, border[0], border[1], border[2], border[3], BorderExtender.BORDER_COPY);
+		RenderedOp wi = JAIUtils.warp(bi, xCoeffs, yCoeffs);
+		RenderedOp si = JAIUtils.scale(wi, scale[0], scale[1], scale[2], scale[3]);
+		BufferedImage t = createTemplate(r);
+		RenderedOp bt = JAIUtils.border(t, border[0], border[1], 0, 0, BorderExtender.BORDER_ZERO);
+		RenderedOp wt = JAIUtils.warp(bt, xCoeffs, yCoeffs);
+		RenderedOp st = JAIUtils.scale(wt, scale[0], scale[1], scale[2], scale[3]);
+		return JAIUtils.multiply(st.getAsBufferedImage(), si.getAsBufferedImage());
+	}
+	
+	private static BufferedImage createTemplate(FlagRenderer r) {
+		Shape outer = r.getBoundaryShape(0, border[2], dims[0], dims[1]);
+		Shape stroke = new BasicStroke(dims[3] * 2).createStrokedShape(outer);
+		Area inner = new Area(outer); inner.subtract(new Area(stroke));
+		int w = dims[0], h = dims[1] + border[2] + border[3];
+		BufferedImage tmpl = new BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
+		int[] rgb = new int[w];
+		for (int i = 0; i < w; i++) rgb[i] = 0xFFFFFF;
+		tmpl.setRGB(0, 0, w, h, rgb, 0, 0);
+		Graphics2D g = tmpl.createGraphics();
+		JAIUtils.prep(g);
+		g.setPaint(new Color(0xC6C6C6));
+		g.fill(outer);
+		g.setPaint(Color.white);
+		g.fill(inner);
 		g.dispose();
-		RenderedOp bordered = border(image, border[0], border[1], border[2], border[3], BorderExtender.BORDER_ZERO);
-		RenderedOp warped = warp(bordered, xCoeffs, yCoeffs);
-		RenderedOp scaled = scale(warped, scale[0], scale[1], scale[2], scale[3]);
-		return scaled.getAsBufferedImage();
-	}
-	
-	private static RenderedOp border(Object src, int l, int r, int t, int b, int type) {
-		ParameterBlock pb = new ParameterBlock();
-		pb.addSource(src);
-		pb.add(l); pb.add(r); pb.add(t); pb.add(b);
-		pb.add(BorderExtender.createInstance(type));
-		pb.add(null);
-		return JAI.create("border", pb);
-	}
-	
-	private static RenderedOp warp(Object src, float[] xCoeffs, float[] yCoeffs) {
-		ParameterBlock pb = new ParameterBlock();
-		pb.addSource(src);
-		pb.add(new WarpCubic(xCoeffs, yCoeffs));
-		pb.add(Interpolation.getInstance(Interpolation.INTERP_BILINEAR));
-		return JAI.create("warp", pb);
-	}
-	
-	private static RenderedOp scale(Object src, float sx, float sy, float tx, float ty) {
-		ParameterBlock pb = new ParameterBlock();
-		pb.addSource(src);
-		pb.add(sx); pb.add(sy); pb.add(tx); pb.add(ty);
-		pb.add(Interpolation.getInstance(Interpolation.INTERP_BILINEAR));
-		return JAI.create("scale", pb);
+		return tmpl;
 	}
 }
