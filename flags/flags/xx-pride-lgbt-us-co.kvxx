@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="LGBT Pride (Colorado)" fly="h*3/2">
+	<defs>
+		<dim id="dd" e="min(h/3,w*2/5)"/>
+		<color id="co-blue">
+			<colorspec model="rgb" value="16 46 130"/>
+		</color>
+		<color id="co-white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="co-red">
+			<colorspec model="rgb" value="191 44 52"/>
+		</color>
+		<color id="co-yellow">
+			<colorspec model="rgb" value="246 208 71"/>
+		</color>
+		<color id="pr-red">
+			<colorspec model="rgb" value="255 0 0"/>
+		</color>
+		<color id="pr-orange">
+			<colorspec model="rgb" value="255 153 0"/>
+		</color>
+		<color id="pr-yellow">
+			<colorspec model="rgb" value="255 255 0"/>
+		</color>
+		<color id="pr-green">
+			<colorspec model="rgb" value="0 153 0"/>
+		</color>
+		<color id="pr-blue">
+			<colorspec model="rgb" value="0 0 255"/>
+		</color>
+		<color id="pr-purple">
+			<colorspec model="rgb" value="153 0 153"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="7" colors="pr-red pr-orange pr-yellow co-white pr-green pr-blue pr-purple" weights="1 1 1 3 1 1 1"/>
+	<disc cx="w*19/45" cy="h/2" w="dd*2" h="dd*2" arcstart="22.5" arcend="337.5" color="co-red"/>
+	<disc cx="w*19/45" cy="h/2" w="dd" h="dd" color="co-yellow"/>
+</flag>

@@ -1806,6 +1806,8 @@ xx-pride-lgbt	F500; 1F308; 1F3F3+200D+1F308; 1F3F4+200D+1F308
 xx-pride-lgbt-7band	F501
 xx-pride-lgbt-8band	F502
 xx-pride-lgbt-us	F503
+xx-pride-lgbt-us-co	F504
+xx-pride-lgbt-us-phl	F505
 
 xx-pride-asexual	F510
 xx-pride-lesbian-1	F511
