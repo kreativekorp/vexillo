@@ -38,24 +38,7 @@ public class VexPort {
 					try { o.glaze = Integer.parseInt(args[argi++]); }
 					catch (NumberFormatException e) { o.glaze = 0; }
 				} else if (arg.equals("-y") && argi < args.length) {
-					String name = args[argi++];
-					if (name.length() > 0) {
-						if (!name.contains(".")) {
-							if (!name.contains("Stylizer")) {
-								String fi = name.substring(0, 1).toUpperCase();
-								name = fi + name.substring(1) + "Stylizer";
-							}
-							name = "com.kreative.vexillo.style." + name;
-						}
-						try {
-							o.style = Class.forName(name).asSubclass(Stylizer.class).newInstance();
-						} catch (Exception e) {
-							System.err.println("Unknown stylizer class: " + name);
-							o.style = null;
-						}
-					} else {
-						o.style = null;
-					}
+					o.style = loadStylizer(args[argi++]);
 				} else if (arg.equals("-f") && argi < args.length) {
 					o.format = args[argi++];
 				} else if (arg.equals("-o") && argi < args.length) {
@@ -98,6 +81,24 @@ public class VexPort {
 		System.out.println("  -v              Print paths of files as they are read (verbose).");
 		System.out.println("  --              Treat remaining arguments as file names.");
 		System.out.println();
+	}
+	
+	private static Stylizer loadStylizer(String name) {
+		if (name.length() > 0) {
+			if (!name.contains(".")) {
+				if (!name.contains("Stylizer")) {
+					String fi = name.substring(0, 1).toUpperCase();
+					name = fi + name.substring(1) + "Stylizer";
+				}
+				name = "com.kreative.vexillo.style." + name;
+			}
+			try {
+				return Class.forName(name).asSubclass(Stylizer.class).newInstance();
+			} catch (Exception e) {
+				System.err.println("Unknown stylizer class: " + name);
+			}
+		}
+		return null;
 	}
 	
 	private static Flag readFile(File file) {

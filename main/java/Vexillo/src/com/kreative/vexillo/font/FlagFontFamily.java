@@ -1,12 +1,15 @@
 package com.kreative.vexillo.font;
 
 import java.io.File;
+import java.util.Calendar;
 import java.util.Collections;
+import java.util.GregorianCalendar;
 import java.util.SortedMap;
 import java.util.SortedSet;
 import java.util.TreeMap;
 import java.util.TreeSet;
 import com.kreative.vexillo.core.Flag;
+import com.kreative.vexillo.style.Stylizer;
 
 public class FlagFontFamily {
 	private final Encoding encoding;
@@ -16,7 +19,11 @@ public class FlagFontFamily {
 	
 	/* Font properties */
 	public String name = "Kreative Vexillo";
-	public String copyright = "Copyright 2017 Kreative Software";
+	public String copyright = (
+		"Copyright 2017-" +
+		new GregorianCalendar().get(Calendar.YEAR) +
+		" Kreative Software"
+	);
 	public String vendorId = "KrKo";
 	public int emAscent = 900;
 	public int emDescent = 300;
@@ -33,6 +40,7 @@ public class FlagFontFamily {
 	public int bitmapHeight = 88;
 	public int bitmapWidth = 128;
 	public int bitmapGlaze = 8;
+	public Stylizer bitmapStyle = null;
 	
 	public FlagFontFamily(Encoding encoding) {
 		this.encoding = encoding;

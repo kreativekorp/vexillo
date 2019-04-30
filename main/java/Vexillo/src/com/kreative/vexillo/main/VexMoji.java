@@ -13,6 +13,7 @@ import com.kreative.vexillo.core.FlagParser;
 import com.kreative.vexillo.font.Encoding;
 import com.kreative.vexillo.font.FlagFontFamily;
 import com.kreative.vexillo.font.SFDExporter;
+import com.kreative.vexillo.style.Stylizer;
 
 public class VexMoji {
 	public static void main(String[] args) {
@@ -80,6 +81,8 @@ public class VexMoji {
 				} else if (arg.equals("-bg") && argi < args.length) {
 					try { o.bitmapGlaze = Integer.parseInt(args[argi++]); }
 					catch (NumberFormatException e) { o.bitmapGlaze = 0; }
+				} else if (arg.equals("-by") && argi < args.length) {
+					o.bitmapStyle = loadStylizer(args[argi++]);
 				} else if (arg.equals("--help")) {
 					printHelp(arg0);
 					o.printedHelp = true;
@@ -129,11 +132,30 @@ public class VexMoji {
 		System.out.println("  -bh <pixels>    Set image height.");
 		System.out.println("  -bw <pixels>    Set image width. Set to 0 to calculate from flag geometry.");
 		System.out.println("  -bg <pixels>    Add glazing like on FamFamFam flag icons. Set to 0 to disable.");
+		System.out.println("  -by <classname> Use a Stylizer class to generate stylized flag images.");
 		System.out.println("  --              Treat remaining arguments as file names.");
 		System.out.println();
 		System.out.println("VexMoji outputs an sfd file to be compiled into a ttf file by FontForge,");
 		System.out.println("and image directories to be injected into the ttf file by Bits\'n\'Picas.");
 		System.out.println();
+	}
+	
+	private static Stylizer loadStylizer(String name) {
+		if (name.length() > 0) {
+			if (!name.contains(".")) {
+				if (!name.contains("Stylizer")) {
+					String fi = name.substring(0, 1).toUpperCase();
+					name = fi + name.substring(1) + "Stylizer";
+				}
+				name = "com.kreative.vexillo.style." + name;
+			}
+			try {
+				return Class.forName(name).asSubclass(Stylizer.class).newInstance();
+			} catch (Exception e) {
+				System.err.println("Unknown stylizer class: " + name);
+			}
+		}
+		return null;
 	}
 	
 	private static void process(Options o) {
@@ -154,6 +176,7 @@ public class VexMoji {
 		font.bitmapHeight = o.bitmapHeight;
 		font.bitmapWidth = o.bitmapWidth;
 		font.bitmapGlaze = o.bitmapGlaze;
+		font.bitmapStyle = o.bitmapStyle;
 		for (File flagFile : o.flagFiles) {
 			Flag flag = readFlag(flagFile);
 			if (flag == null) continue;
@@ -255,5 +278,6 @@ public class VexMoji {
 		public int bitmapHeight = 88;
 		public int bitmapWidth = 128;
 		public int bitmapGlaze = 8;
+		public Stylizer bitmapStyle = null;
 	}
 }

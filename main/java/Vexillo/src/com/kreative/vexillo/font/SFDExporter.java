@@ -1,5 +1,6 @@
 package com.kreative.vexillo.font;
 
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -11,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.SortedSet;
 import java.util.TreeSet;
+import javax.imageio.ImageIO;
 import com.kreative.vexillo.core.Flag;
 import com.kreative.vexillo.core.FlagRenderer;
 import com.kreative.vexillo.core.SVGExporter;
@@ -137,17 +139,25 @@ public class SFDExporter {
 		FlagRenderer renderer = new FlagRenderer(flagFile.getParentFile(), flag);
 		File pngFile = new File(sbixDir, "char_" + Integer.toHexString(cp).toUpperCase() + ".png");
 		int w = (font.bitmapWidth > 0) ? font.bitmapWidth : flag.getWidthFromHeight(font.bitmapHeight);
-		renderer.renderToFile(pngFile, "png", w, font.bitmapHeight, 0, font.bitmapGlaze);
+		if (font.bitmapStyle == null) renderer.renderToFile(pngFile, "png", w, font.bitmapHeight, 0, font.bitmapGlaze);
+		else ImageIO.write(font.bitmapStyle.stylize(renderer, w, font.bitmapHeight, 0, font.bitmapGlaze), "png", pngFile);
 	}
 	
 	private static void writeSVG(File svgDir, int cp, FlagFontFamily font, Flag flag, File flagFile) throws IOException {
 		int tx = font.leftBearing;
 		int ty = font.glyphBottom + font.glyphHeight;
-		SVGExporter exporter = new SVGExporter(flagFile.getParentFile(), flag, true, tx, -ty);
 		File svgFile = new File(svgDir, "char_" + Integer.toHexString(cp).toUpperCase() + ".svg");
 		int w = (font.glyphWidth > 0) ? font.glyphWidth : flag.getWidthFromHeight(font.glyphHeight);
-		int g = font.glyphHeight * font.bitmapGlaze / font.bitmapHeight;
-		exporter.export(svgFile, w, font.glyphHeight, g);
+		if (font.bitmapStyle == null) {
+			SVGExporter exporter = new SVGExporter(flagFile.getParentFile(), flag, true, tx, -ty);
+			int g = font.glyphHeight * font.bitmapGlaze / font.bitmapHeight;
+			exporter.export(svgFile, w, font.glyphHeight, g);
+		} else {
+			FlagRenderer renderer = new FlagRenderer(flagFile.getParentFile(), flag);
+			int iw = (font.bitmapWidth > 0) ? font.bitmapWidth : flag.getWidthFromHeight(font.bitmapHeight);
+			BufferedImage image = font.bitmapStyle.stylize(renderer, iw, font.bitmapHeight, 0, font.bitmapGlaze);
+			ImageSVGExporter.exportToFile(image, "png", "image/png", tx, -ty, w, font.glyphHeight, svgFile);
+		}
 	}
 	
 	private static abstract class SFDCharacter {
