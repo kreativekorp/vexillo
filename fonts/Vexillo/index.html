@@ -95,6 +95,9 @@
 	@font-face { font-family: VexilloXMD; src: url(VexilloMD.ttf.sbix.ttf); }
 	@font-face { font-family: VexilloXMF; src: url(VexilloMF.ttf.sbix.ttf); }
 	@font-face { font-family: VexilloXMK; src: url(VexilloMK.ttf.sbix.ttf); }
+	@font-face { font-family: VexilloXVF; src: url(VexilloVF.ttf.sbix.ttf); }
+	@font-face { font-family: VexilloXVN; src: url(VexilloVN.ttf.sbix.ttf); }
+	@font-face { font-family: VexilloXVB; src: url(VexilloVB.ttf.sbix.ttf); }
 	@font-face { font-family: VexilloSGA; src: url(VexilloGA.ttf.svg.ttf); }
 	@font-face { font-family: VexilloSGC; src: url(VexilloGC.ttf.svg.ttf); }
 	@font-face { font-family: VexilloSGD; src: url(VexilloGD.ttf.svg.ttf); }
@@ -105,6 +108,9 @@
 	@font-face { font-family: VexilloSMD; src: url(VexilloMD.ttf.svg.ttf); }
 	@font-face { font-family: VexilloSMF; src: url(VexilloMF.ttf.svg.ttf); }
 	@font-face { font-family: VexilloSMK; src: url(VexilloMK.ttf.svg.ttf); }
+	@font-face { font-family: VexilloSVF; src: url(VexilloVF.ttf.svg.ttf); }
+	@font-face { font-family: VexilloSVN; src: url(VexilloVN.ttf.svg.ttf); }
+	@font-face { font-family: VexilloSVB; src: url(VexilloVB.ttf.svg.ttf); }
 	.chromacheck-svg .v.ga { font-family: VexilloSGA; }
 	.chromacheck-svg .v.gc { font-family: VexilloSGC; }
 	.chromacheck-svg .v.gd { font-family: VexilloSGD; }
@@ -115,6 +121,9 @@
 	.chromacheck-svg .v.md { font-family: VexilloSMD; }
 	.chromacheck-svg .v.mf { font-family: VexilloSMF; }
 	.chromacheck-svg .v.mk { font-family: VexilloSMK; }
+	.chromacheck-svg .v.vf { font-family: VexilloSVF; }
+	.chromacheck-svg .v.vn { font-family: VexilloSVN; }
+	.chromacheck-svg .v.vb { font-family: VexilloSVB; }
 	.chromacheck-sbix .v.ga { font-family: VexilloXGA; }
 	.chromacheck-sbix .v.gc { font-family: VexilloXGC; }
 	.chromacheck-sbix .v.gd { font-family: VexilloXGD; }
@@ -125,6 +134,9 @@
 	.chromacheck-sbix .v.md { font-family: VexilloXMD; }
 	.chromacheck-sbix .v.mf { font-family: VexilloXMF; }
 	.chromacheck-sbix .v.mk { font-family: VexilloXMK; }
+	.chromacheck-sbix .v.vf { font-family: VexilloXVF; }
+	.chromacheck-sbix .v.vn { font-family: VexilloXVN; }
+	.chromacheck-sbix .v.vb { font-family: VexilloXVB; }
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://pixelambacht.nl/chromacheck/chromacheck-min.js"></script>
@@ -1816,6 +1828,8 @@
 			[['xx-pride-lgbt-7band'], [[0xF501]]],
 			[['xx-pride-lgbt-8band'], [[0xF502]]],
 			[['xx-pride-lgbt-us'], [[0xF503]]],
+			[['xx-pride-lgbt-us-co'], [[0xF504]]],
+			[['xx-pride-lgbt-us-phl'], [[0xF505]]],
 			[['xx-pride-asexual'], [[0xF510]]],
 			[['xx-pride-lesbian-1'], [[0xF511]]],
 			[['xx-pride-gay'], [[0xF512], [0x26A3], [0x1F3F3, 0x200D, 0x26A3], [0x1F3F4, 0x200D, 0x26A3]]],
@@ -2193,6 +2207,9 @@
 			<th class="vcol">MD</th>
 			<th class="vcol">MF</th>
 			<th class="vcol">MK</th>
+			<th class="vcol">VF</th>
+			<th class="vcol">VN</th>
+			<th class="vcol">VB</th>
 			<th class="vcol">Sys</th>
 			<th class="vhtmlcol">HTML</th>
 		</tr>
@@ -2210,6 +2227,9 @@
 			<td class="vcol v md">&nbsp;</td>
 			<td class="vcol v mf">&nbsp;</td>
 			<td class="vcol v mk">&nbsp;</td>
+			<td class="vcol v vf">&nbsp;</td>
+			<td class="vcol v vn">&nbsp;</td>
+			<td class="vcol v vb">&nbsp;</td>
 			<td class="vcol v">&nbsp;</td>
 			<td class="vhtmlcol"><code class="vhtml">&nbsp;</code></td>
 		</tr>
@@ -2225,6 +2245,9 @@
 			<td class="vcol v md">&nbsp;</td>
 			<td class="vcol v mf">&nbsp;</td>
 			<td class="vcol v mk">&nbsp;</td>
+			<td class="vcol v vf">&nbsp;</td>
+			<td class="vcol v vn">&nbsp;</td>
+			<td class="vcol v vb">&nbsp;</td>
 			<td class="vcol v">&nbsp;</td>
 			<td class="vhtmlcol"><code class="vhtml">&nbsp;</code></td>
 		</tr>
@@ -2240,6 +2263,9 @@
 			<td class="vcol v md">&nbsp;</td>
 			<td class="vcol v mf">&nbsp;</td>
 			<td class="vcol v mk">&nbsp;</td>
+			<td class="vcol v vf">&nbsp;</td>
+			<td class="vcol v vn">&nbsp;</td>
+			<td class="vcol v vb">&nbsp;</td>
 			<td class="vcol v">&nbsp;</td>
 			<td class="vhtmlcol"><code class="vhtml">&nbsp;</code></td>
 		</tr>
@@ -2255,6 +2281,9 @@
 			<td class="vcol v md">&nbsp;</td>
 			<td class="vcol v mf">&nbsp;</td>
 			<td class="vcol v mk">&nbsp;</td>
+			<td class="vcol v vf">&nbsp;</td>
+			<td class="vcol v vn">&nbsp;</td>
+			<td class="vcol v vb">&nbsp;</td>
 			<td class="vcol v">&nbsp;</td>
 			<td class="vhtmlcol"><code class="vhtml">&nbsp;</code></td>
 		</tr>
@@ -2270,6 +2299,9 @@
 			<td class="vcol v md">&nbsp;</td>
 			<td class="vcol v mf">&nbsp;</td>
 			<td class="vcol v mk">&nbsp;</td>
+			<td class="vcol v vf">&nbsp;</td>
+			<td class="vcol v vn">&nbsp;</td>
+			<td class="vcol v vb">&nbsp;</td>
 			<td class="vcol v">&nbsp;</td>
 			<td class="vhtmlcol"><code class="vhtml">&nbsp;</code></td>
 		</tr>
@@ -2285,6 +2317,9 @@
 			<td class="vcol v md">&nbsp;</td>
 			<td class="vcol v mf">&nbsp;</td>
 			<td class="vcol v mk">&nbsp;</td>
+			<td class="vcol v vf">&nbsp;</td>
+			<td class="vcol v vn">&nbsp;</td>
+			<td class="vcol v vb">&nbsp;</td>
 			<td class="vcol v">&nbsp;</td>
 			<td class="vhtmlcol"><code class="vhtml">&nbsp;</code></td>
 		</tr>
@@ -3732,6 +3767,18 @@
 		<td class="vcol v gc" title="xx-pride-lgbt-us">&#xF503;</td>
 		<td class="idcol"><code>xx-pride-lgbt-us</code></td>
 		<td class="namecol">LGBT Pride (United States)</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F504</code></th>
+		<td class="vcol v gc" title="xx-pride-lgbt-us-co">&#xF504;</td>
+		<td class="idcol"><code>xx-pride-lgbt-us-co</code></td>
+		<td class="namecol">LGBT Pride (Colorado)</td>
+	</tr>
+	<tr>
+		<th class="vcol"><code>F505</code></th>
+		<td class="vcol v gc" title="xx-pride-lgbt-us-phl">&#xF505;</td>
+		<td class="idcol"><code>xx-pride-lgbt-us-phl</code></td>
+		<td class="namecol">LGBT Pride (Philadelphia)</td>
 	</tr>
 	<tr>
 		<th class="vcol"><code>F510</code></th>
