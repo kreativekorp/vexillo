@@ -68,18 +68,17 @@ public class ASCII85OutputStream extends OutputStream {
 	
 	@Override
 	public void flush() throws IOException {
+		if (out != null) out.flush();
+	}
+	
+	@Override
+	public void close() throws IOException {
 		if (count > 0) {
 			for (int i = count; i < 4; i++) word <<= 8;
 			writeWord();
 		}
 		word = -1;
 		count = -1;
-		if (out != null) out.flush();
-	}
-	
-	@Override
-	public void close() throws IOException {
-		flush();
 		if (out != null) out.close();
 	}
 	

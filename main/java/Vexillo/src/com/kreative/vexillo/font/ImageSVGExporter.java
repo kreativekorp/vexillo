@@ -30,7 +30,7 @@ public class ImageSVGExporter {
 		svg.append(" xmlns=\"http://www.w3.org/2000/svg\"");
 		svg.append(" xmlns:xlink=\"http://www.w3.org/1999/xlink\">");
 		String url = encodeImageDataURL(image, format, mimeType);
-		svg.append("<image x=\"" + x + "\" y=\"" + x + "\"");
+		svg.append("<image x=\"" + x + "\" y=\"" + y + "\"");
 		svg.append(" width=\"" + w + "\" height=\"" + h + "\"");
 		svg.append(" xlink:href=\"" + url + "\"/>");
 		svg.append("</svg>");

@@ -45,18 +45,17 @@ public class Base64OutputStream extends OutputStream {
 	
 	@Override
 	public void flush() throws IOException {
+		if (out != null) out.flush();
+	}
+	
+	@Override
+	public void close() throws IOException {
 		if (count > 0) {
 			for (int i = count; i < 3; i++) word <<= 8;
 			writeWord();
 		}
 		word = 0;
 		count = 0;
-		if (out != null) out.flush();
-	}
-	
-	@Override
-	public void close() throws IOException {
-		flush();
 		if (out != null) out.close();
 	}
 	
