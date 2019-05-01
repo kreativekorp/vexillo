@@ -29,6 +29,10 @@ $VEXMOJI -n 'Kreative Vexillo MF' -ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 
 $VEXMOJI -n 'Kreative Vexillo GK' -ma  900 -md 300 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1100 -gw 1600 -bh 132 -bw 192 -bg 12 -o fonts/VexilloGK.sfd -e encoding.txt flags/*.kvxx
 $VEXMOJI -n 'Kreative Vexillo MK' -ma  900 -md 300 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1100 -gw 1600 -bh 132 -bw 192 -bg  0 -o fonts/VexilloMK.sfd -e encoding.txt flags/*.kvxx
 
+$VEXMOJI -n 'Kreative Vexillo VF' -ma  640 -md 160 -la  800 -ld 250 -sw  800 -lb 0 -rb 0 -gb  -60 -gh  800 -gw  800 -bh 160 -bw 160 -bg 0 -by fruit  -o fonts/VexilloVF.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI -n 'Kreative Vexillo VN' -ma 1900 -md 500 -la 1900 -ld 500 -sw 2550 -lb 0 -rb 0 -gb -500 -gh 2400 -gw 2550 -bh 128 -bw 136 -bg 0 -by number -o fonts/VexilloVN.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI -n 'Kreative Vexillo VB' -ma 1556 -md 492 -la 1901 -ld 483 -sw  651 -lb 0 -rb 0 -gb -400 -gh 2048 -gw 2048 -bh 160 -bw 160 -bg 0 -by bird   -o fonts/VexilloVB.sfd -e encoding.txt flags/*.kvxx
+
 if command -v fontforge >/dev/null 2>&1; then
 	FONTFORGE="fontforge"
 elif test -f /Applications/FontForge.app/Contents/Resources/opt/local/bin/fontforge; then
