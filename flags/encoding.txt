@@ -953,6 +953,16 @@ mx-bcn; xx-bajacalifornia	E49D
 mx-roo; xx-quintanaroo	E49E
 mx-bcs; xx-bajacaliforniasur	E49F
 
+um-67; xx-johnstonatoll	E4B0
+um-71; xx-midwayislands	E4B1
+um-76; xx-navassaisland	E4B2
+um-79; xx-wakeisland	E4B3
+um-81; xx-bakerisland	E4B4
+um-84; xx-howlandisland	E4B5
+um-86; xx-jarvisisland	E4B6
+um-89; xx-kingmanreef	E4B7
+um-95; xx-palmyraatoll	E4B8
+
 xx-na-us	E4C0
 xx-na-ca	E4C1
 xx-na-mx	E4C2
@@ -1227,6 +1237,7 @@ no-19	E613
 no-20	E614
 no-21	E615
 no-22	E616
+no-23; no-50	E617
 
 dk-015	E640
 dk-020	E641
@@ -1251,27 +1262,27 @@ dk-84	E654
 dk-85	E655
 xx-christiania	E67F
 
-se-ab	E681
-se-c	E683
-se-d	E684
-se-e	E685
-se-f	E686
-se-g	E687
-se-h	E688
-se-i	E689
-se-k	E68A
-se-m; xx-scania	E68C
-se-n	E68D
-se-o	E68E
-se-s	E691
-se-t	E692
-se-u	E693
-se-w	E694
-se-x	E695
-se-y	E696
-se-z	E697
-se-ac	E698
-se-bd	E699
+se-01; se-ab	E681
+se-03; se-c	E683
+se-04; se-d	E684
+se-05; se-e	E685
+se-06; se-f	E686
+se-07; se-g	E687
+se-08; se-h	E688
+se-09; se-i	E689
+se-10; se-k	E68A
+se-12; se-m; xx-scania	E68C
+se-13; se-n	E68D
+se-14; se-o	E68E
+se-17; se-s	E691
+se-18; se-t	E692
+se-19; se-u	E693
+se-20; se-w	E694
+se-21; se-x	E695
+se-22; se-y	E696
+se-23; se-z	E697
+se-24; se-ac	E698
+se-25; se-bd	E699
 xx-fennoswede	E6BF
 
 fi-01	E6C1
@@ -1763,6 +1774,206 @@ it-vr	E9EA
 it-vv	E9EB
 it-vi	E9EC
 it-vt	E9ED
+
+
+## F200-F2FF	Oceanic Flags
+
+# Australasia
+
+au-nsw; au-ns	F200
+au-qld; au-ql	F201
+au-sa	F202
+au-tas; au-ts	F203
+au-vic; au-vi	F204
+au-wa	F205
+au-act; au-ct	F206
+au-nt	F207
+
+nz-auk	F210
+nz-bop	F211
+nz-can	F212
+nz-gis	F213
+nz-hkb	F214
+nz-mbh	F215
+nz-mwt	F216
+nz-nsn	F217
+nz-ntl	F218
+nz-ota	F219
+nz-stl	F21A
+nz-tas	F21B
+nz-tki	F21C
+nz-wko	F21D
+nz-wgn	F21E
+nz-wtc	F21F
+nz-cit	F220
+nz-krikienoid	F22F
+
+# Melanesia
+
+pg-ncd	F230
+pg-cpm	F231
+pg-cpk	F232
+pg-ehg	F233
+pg-ebr	F234
+pg-esw	F235
+pg-epw	F236
+pg-gpk	F237
+pg-hla	F238
+pg-jwk	F239
+pg-mpm	F23A
+pg-mrl	F23B
+pg-mba	F23C
+pg-mpl	F23D
+pg-nik	F23E
+pg-npp	F23F
+pg-san	F240
+pg-shm	F241
+pg-wpd	F242
+pg-whm	F243
+pg-wbk	F244
+pg-nsb; pg-nsa	F245
+
+fj-c	F250
+fj-e	F251
+fj-n	F252
+fj-w	F253
+fj-r	F254
+
+fj-01	F261
+fj-02	F262
+fj-03	F263
+fj-04	F264
+fj-05	F265
+fj-06	F266
+fj-07	F267
+fj-08	F268
+fj-09	F269
+fj-10	F26A
+fj-11	F26B
+fj-12	F26C
+fj-13	F26D
+fj-14	F26E
+
+sb-ct	F270
+sb-ce	F271
+sb-ch	F272
+sb-gu	F273
+sb-is	F274
+sb-mk	F275
+sb-ml	F276
+sb-rb	F277
+sb-te	F278
+sb-we	F279
+
+vu-map	F280
+vu-pam	F281
+vu-sam	F282
+vu-see	F283
+vu-tae	F284
+vu-tob	F285
+
+# Polynesia
+
+ws-aa	F290
+ws-al	F291
+ws-at	F292
+ws-fa	F293
+ws-ge	F294
+ws-gi	F295
+ws-pa	F296
+ws-sa	F297
+ws-tu	F298
+ws-vf	F299
+ws-vs	F29A
+
+to-01	F29B
+to-02	F29C
+to-03	F29D
+to-04	F29E
+to-05	F29F
+
+tv-fun	F2A0
+tv-nmg	F2A1
+tv-nma	F2A2
+tv-nit	F2A3
+tv-nui	F2A4
+tv-nkf	F2A5
+tv-nkl	F2A6
+tv-vai	F2A7
+
+wf-al	F2AD
+wf-sg	F2AE
+wf-uv	F2AF
+
+# Micronesia
+
+fm-trk	F2B0
+fm-ksa	F2B1
+fm-pni	F2B2
+fm-yap	F2B3
+
+ki-g	F2B8
+ki-l	F2B9
+ki-p	F2BA
+
+mh-l	F2C0
+mh-t	F2C1
+mh-all	F2C2
+mh-alk	F2C3
+mh-arn	F2C4
+mh-aur	F2C5
+mh-kil	F2C6
+mh-ebo	F2C7
+mh-eni	F2C8
+mh-jab	F2C9
+mh-jal	F2CA
+mh-kwa	F2CB
+mh-lae	F2CC
+mh-lib	F2CD
+mh-lik	F2CE
+mh-maj	F2CF
+mh-mal	F2D0
+mh-mej	F2D1
+mh-mil	F2D2
+mh-nmk	F2D3
+mh-nmu	F2D4
+mh-ron	F2D5
+mh-uja	F2D6
+mh-uti	F2D7
+mh-wth	F2D8
+mh-wtj	F2D9
+
+pw-002	F2E0
+pw-004	F2E1
+pw-010	F2E2
+pw-050	F2E3
+pw-100	F2E4
+pw-150	F2E5
+pw-212	F2E6
+pw-214	F2E7
+pw-218	F2E8
+pw-222	F2E9
+pw-224	F2EA
+pw-226	F2EB
+pw-227	F2EC
+pw-228	F2ED
+pw-350	F2EE
+pw-370	F2EF
+
+nr-01	F2F1
+nr-02	F2F2
+nr-03	F2F3
+nr-04	F2F4
+nr-05	F2F5
+nr-06	F2F6
+nr-07	F2F7
+nr-08	F2F8
+nr-09	F2F9
+nr-10	F2FA
+nr-11	F2FB
+nr-12	F2FC
+nr-13	F2FD
+nr-14	F2FE
 
 
 ## F300-F3FF	Miscellaneous Subdivision Flags

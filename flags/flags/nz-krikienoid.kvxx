@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="nz-krikienoid" name="New Zealand (Krikienoid Proposal)" properties="proposal" fly="h*3/2">
+	<defs>
+		<dim id="x0" e="w/2 - h*3/4"/>
+		<dim id="x1" e="w/2 - h*1/4"/>
+		<dim id="x2" e="w/2 + h*1/4"/>
+		<dim id="x3" e="w/2 + h*3/4"/>
+		<dim id="d" e="h/4"/>
+		<dim id="e" e="d * (1-sqrt(2)/2)"/>
+		<color id="red">
+			<colorspec model="rgb" value="190 42 51"/>
+			<colorspec model="pantone" value="186 C"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="22 74 179"/>
+			<colorspec model="pantone" value="2728 C"/>
+		</color>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+			<colorspec model="pantone" value="BLACK"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+			<colorspec model="pantone" value="WHITE"/>
+		</color>
+		<symdef id="koru" d="M 0 0.5 A 0.5 0.5 0 1 0 -0.5 0 L -10 0 L -10 0.5 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<poly points="0 0 x2 0 x0 h 0 h" color="blue"/>
+	<poly points="x2+e 0 x3-e 0 x1-e h x0+e h" color="red"/>
+	<poly points="x3 0 w 0 w h x1 h" color="black"/>
+	<symbol symbol="koru" x="x1" y="h*1/4" sx="d" sy="d" rotate="-45" color="white"/>
+	<symbol symbol="koru" x="x2" y="h*3/4" sx="d" sy="d" rotate="135" color="white"/>
+</flag>
