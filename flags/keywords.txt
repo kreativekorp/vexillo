@@ -71,7 +71,7 @@ xx-generic-blk-swt	generic general swallowtail black sable
 
 ## Signal Flags
 
-xx-ics-ca	ics international code signals maritime signal call answer
+xx-ics-ca	ics international code signals maritime signal answer
 xx-ics-a	ics international code signals maritime signal letter a alfa alpha
 xx-ics-b	ics international code signals maritime signal letter b bravo
 xx-ics-c	ics international code signals maritime signal letter c charlie
@@ -1509,7 +1509,7 @@ mh-all	oceania micronesia republic marshall islands municipality ailinglaplap ae
 mh-alk	oceania micronesia republic marshall islands municipality ailuk aelok
 mh-arn	oceania micronesia republic marshall islands municipality arno
 mh-aur	oceania micronesia republic marshall islands municipality aur
-mh-kil	oceania micronesia republic marshall islands municipality biniki kili pikinni kole
+mh-kil	oceania micronesia republic marshall islands municipality bikini kili pikinni kole
 mh-ebo	oceania micronesia republic marshall islands municipality ebon epoon
 mh-eni	oceania micronesia republic marshall islands municipality enewetak ujelang anewetak wujlan
 mh-jab	oceania micronesia republic marshall islands municipality jabat jebat
