@@ -1774,6 +1774,7 @@ it-vr	E9EA
 it-vv	E9EB
 it-vi	E9EC
 it-vt	E9ED
+it-sd	E9EE
 
 
 ## F200-F2FF	Oceanic Flags

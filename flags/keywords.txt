@@ -1,0 +1,1697 @@
+## Generic Flags
+
+xx-generic-wht	generic general rectangular rectangle white argent
+xx-generic-ylw	generic general rectangular rectangle yellow or
+xx-generic-org	generic general rectangular rectangle orange tenne tenny tawny
+xx-generic-red	generic general rectangular rectangle red gules
+xx-generic-mag	generic general rectangular rectangle magenta fuchsia fuschia hot pink
+xx-generic-vlt	generic general rectangular rectangle violet purple purpure
+xx-generic-ind	generic general rectangular rectangle indigo
+xx-generic-blu	generic general rectangular rectangle blue azure
+xx-generic-trq	generic general rectangular rectangle turquoise cyan
+xx-generic-grn	generic general rectangular rectangle green vert
+xx-generic-brn	generic general rectangular rectangle brown tenne tenny tawny
+xx-generic-tan	generic general rectangular rectangle tan fawn buff proper
+xx-generic-lgy	generic general rectangular rectangle light gray grey ash
+xx-generic-mgy	generic general rectangular rectangle medium gray grey iron
+xx-generic-dgy	generic general rectangular rectangle dark gray grey sable
+xx-generic-blk	generic general rectangular rectangle black sable
+
+xx-generic-wht-tpz	generic general trapezoidal trapezoid pennant white argent
+xx-generic-ylw-tpz	generic general trapezoidal trapezoid pennant yellow or
+xx-generic-org-tpz	generic general trapezoidal trapezoid pennant orange tenne tenny tawny
+xx-generic-red-tpz	generic general trapezoidal trapezoid pennant red gules
+xx-generic-mag-tpz	generic general trapezoidal trapezoid pennant magenta fuchsia fuschia hot pink
+xx-generic-vlt-tpz	generic general trapezoidal trapezoid pennant violet purple purpure
+xx-generic-ind-tpz	generic general trapezoidal trapezoid pennant indigo
+xx-generic-blu-tpz	generic general trapezoidal trapezoid pennant blue azure
+xx-generic-trq-tpz	generic general trapezoidal trapezoid pennant turquoise cyan
+xx-generic-grn-tpz	generic general trapezoidal trapezoid pennant green vert
+xx-generic-brn-tpz	generic general trapezoidal trapezoid pennant brown tenne tenny tawny
+xx-generic-tan-tpz	generic general trapezoidal trapezoid pennant tan fawn buff proper
+xx-generic-lgy-tpz	generic general trapezoidal trapezoid pennant light gray grey ash
+xx-generic-mgy-tpz	generic general trapezoidal trapezoid pennant medium gray grey iron
+xx-generic-dgy-tpz	generic general trapezoidal trapezoid pennant dark gray grey sable
+xx-generic-blk-tpz	generic general trapezoidal trapezoid pennant black sable
+
+xx-generic-wht-tri	generic general triangular triangle pennant white argent
+xx-generic-ylw-tri	generic general triangular triangle pennant yellow or
+xx-generic-org-tri	generic general triangular triangle pennant orange tenne tenny tawny
+xx-generic-red-tri	generic general triangular triangle pennant red gules
+xx-generic-mag-tri	generic general triangular triangle pennant magenta fuchsia fuschia hot pink
+xx-generic-vlt-tri	generic general triangular triangle pennant violet purple purpure
+xx-generic-ind-tri	generic general triangular triangle pennant indigo
+xx-generic-blu-tri	generic general triangular triangle pennant blue azure
+xx-generic-trq-tri	generic general triangular triangle pennant turquoise cyan
+xx-generic-grn-tri	generic general triangular triangle pennant green vert
+xx-generic-brn-tri	generic general triangular triangle pennant brown tenne tenny tawny
+xx-generic-tan-tri	generic general triangular triangle pennant tan fawn buff proper
+xx-generic-lgy-tri	generic general triangular triangle pennant light gray grey ash
+xx-generic-mgy-tri	generic general triangular triangle pennant medium gray grey iron
+xx-generic-dgy-tri	generic general triangular triangle pennant dark gray grey sable
+xx-generic-blk-tri	generic general triangular triangle pennant black sable
+
+xx-generic-wht-swt	generic general swallowtail white argent
+xx-generic-ylw-swt	generic general swallowtail yellow or
+xx-generic-org-swt	generic general swallowtail orange tenne tenny tawny
+xx-generic-red-swt	generic general swallowtail red gules
+xx-generic-mag-swt	generic general swallowtail magenta fuchsia fuschia hot pink
+xx-generic-vlt-swt	generic general swallowtail violet purple purpure
+xx-generic-ind-swt	generic general swallowtail indigo
+xx-generic-blu-swt	generic general swallowtail blue azure
+xx-generic-trq-swt	generic general swallowtail turquoise cyan
+xx-generic-grn-swt	generic general swallowtail green vert
+xx-generic-brn-swt	generic general swallowtail brown tenne tenny tawny
+xx-generic-tan-swt	generic general swallowtail tan fawn buff proper
+xx-generic-lgy-swt	generic general swallowtail light gray grey ash
+xx-generic-mgy-swt	generic general swallowtail medium gray grey iron
+xx-generic-dgy-swt	generic general swallowtail dark gray grey sable
+xx-generic-blk-swt	generic general swallowtail black sable
+
+
+## Signal Flags
+
+xx-ics-ca	ics international code signals maritime signal call answer
+xx-ics-a	ics international code signals maritime signal letter a alfa alpha
+xx-ics-b	ics international code signals maritime signal letter b bravo
+xx-ics-c	ics international code signals maritime signal letter c charlie
+xx-ics-d	ics international code signals maritime signal letter d delta
+xx-ics-e	ics international code signals maritime signal letter e echo
+xx-ics-f	ics international code signals maritime signal letter f foxtrot
+xx-ics-g	ics international code signals maritime signal letter g golf
+xx-ics-h	ics international code signals maritime signal letter h hotel
+xx-ics-i	ics international code signals maritime signal letter i india
+xx-ics-j	ics international code signals maritime signal letter j juliet juliett
+xx-ics-k	ics international code signals maritime signal letter k kilo
+xx-ics-l	ics international code signals maritime signal letter l lima
+xx-ics-m	ics international code signals maritime signal letter m mike
+xx-ics-n	ics international code signals maritime signal letter n november
+xx-ics-o	ics international code signals maritime signal letter o oscar
+xx-ics-p	ics international code signals maritime signal letter p papa
+xx-ics-q	ics international code signals maritime signal letter q quebec semaphore yellow
+xx-ics-r	ics international code signals maritime signal letter r romeo
+xx-ics-s	ics international code signals maritime signal letter s sierra
+xx-ics-t	ics international code signals maritime signal letter t tango
+xx-ics-u	ics international code signals maritime signal letter u uniform
+xx-ics-v	ics international code signals maritime signal letter v victor
+xx-ics-w	ics international code signals maritime signal letter w whiskey wiskey whisky wisky
+xx-ics-x	ics international code signals maritime signal letter x ray xray
+xx-ics-y	ics international code signals maritime signal letter y yankee
+xx-ics-z	ics international code signals maritime signal letter z zulu
+xx-semaphore-jp-l	semaphore japan japanese left hand white
+xx-semaphore	semaphore red yellow
+xx-semaphore-jp-r	semaphore japan japanese right hand red
+xx-semaphore-xx-1	semaphore blue
+xx-semaphore-xx-2	semaphore black
+
+xx-ics-0	ics international code signals maritime signal number 0 zero
+xx-ics-1	ics international code signals maritime signal number 1 one
+xx-ics-2	ics international code signals maritime signal number 2 two
+xx-ics-3	ics international code signals maritime signal number 3 three
+xx-ics-4	ics international code signals maritime signal number 4 four
+xx-ics-5	ics international code signals maritime signal number 5 five
+xx-ics-6	ics international code signals maritime signal number 6 six
+xx-ics-7	ics international code signals maritime signal number 7 seven
+xx-ics-8	ics international code signals maritime signal number 8 eight
+xx-ics-9	ics international code signals maritime signal number 9 nine niner
+xx-ics-1r	ics international code signals maritime signal 1st first repeater
+xx-ics-2r	ics international code signals maritime signal 2nd second repeater
+xx-ics-3r	ics international code signals maritime signal 3rd third repeater
+xx-ics-4r	ics international code signals maritime signal 4th fourth repeater
+xx-ics-5r	ics international code signals maritime signal 5th fifth repeater
+xx-ics-6r	ics international code signals maritime signal 6th sixth repeater
+
+xx-nato-0	nato north atlantic treaty organization maritime signal number 0 zero
+xx-nato-1	nato north atlantic treaty organization maritime signal number 1 one
+xx-nato-2	nato north atlantic treaty organization maritime signal number 2 two
+xx-nato-3	nato north atlantic treaty organization maritime signal number 3 three
+xx-nato-4	nato north atlantic treaty organization maritime signal number 4 four
+xx-nato-5	nato north atlantic treaty organization maritime signal number 5 five
+xx-nato-6	nato north atlantic treaty organization maritime signal number 6 six
+xx-nato-7	nato north atlantic treaty organization maritime signal number 7 seven
+xx-nato-8	nato north atlantic treaty organization maritime signal number 8 eight
+xx-nato-9	nato north atlantic treaty organization maritime signal number 9 nine niner
+xx-esperanto-ch	esperanto signal letter ch chefo
+xx-esperanto-gh	esperanto signal letter gh ghirafo
+xx-esperanto-hh	esperanto signal letter hh hhaoso
+xx-esperanto-jh	esperanto signal letter jh jhurnalo
+xx-esperanto-sh	esperanto signal letter sh shilingo
+xx-esperanto-uu	esperanto signal letter uu universo hoko universohoko
+
+
+## ISO Country Code Flags
+
+ca	north america canada
+gl	north america northern europe scandinavia kingdom denmark greenland
+mx	north america mexico united mexican states
+us	north america united states us usa
+bz	north central america belize
+cr	north central america republic costa rica
+sv	north central america republic el salvador
+gt	north central america republic guatemala
+hn	north central america republic honduras
+ni	north central america republic nicaragua
+pa	north central america republic panama
+ai	north america caribbean united kingdom great britain uk gb anguilla
+ag	north america caribbean antigua barbuda
+aw	north america caribbean kingdom netherlands country aruba
+bs	north america caribbean commonwealth bahamas
+bb	north america caribbean barbados
+bm	north america caribbean united kingdom great britain uk gb bermuda
+bq	north america caribbean kingdom netherlands special municipality bonaire sint eustatius saba
+vg	north america caribbean united kingdom great britain uk gb british virgin islands bvi
+ky	north america caribbean united kingdom great britain uk gb cayman islands
+cp; xx-clippertonisland	north america caribbean france french republic clipperton island
+cu	north america caribbean republic cuba
+cw	north america caribbean kingdom netherlands country curacao
+dm	north america caribbean commonwealth dominica
+do	north america caribbean dominican republic
+gd	north america caribbean grenada
+gp	north america caribbean france french republic overseas region guadeloupe
+ht	north america caribbean republic haiti hayti
+jm	north america caribbean jamaica
+mq	north america caribbean france french republic martinique
+ms	north america caribbean united kingdom great britain uk gb montserrat
+an; xx-netherlandsantilles	north america caribbean kingdom netherlands antilles
+pr	north america caribbean united states us usa commonwealth porto puerto rico
+bl	north america caribbean france french republic territorial collectivity st saint barthelemy barths barts ouanalao
+kn	north america caribbean federation st saint christopher kitts nevis
+lc	north america caribbean st saint lucia
+mf	north america caribbean france french republic st saint martin
+pm	north america caribbean france french republic overseas collectivity st saint pierre miquelon
+vc	north america caribbean st saint vincent grenadines
+sx	north america caribbean kingdom netherlands country sint maarten
+tt	north america caribbean republic trinidad tobago
+tc	north america caribbean united kingdom great britain uk gb turks caicos islands
+vi	north america caribbean united states us usa virgin islands vi
+
+ar	south america argentina argentine republic
+bo	south america plurinational state bolivia
+bv	south america kingdom norway bouvet island
+br	south america federative republic brazil
+cl	south america republic chile
+co	south america republic colombia
+ec	south america republic ecuador
+fk	south america united kingdom great britain uk gb falkland islands
+gf	south america france french republic guiana
+gy	south america co operative cooperative republic guyana
+py	south america republic paraguay
+pe	south america republic peru
+gs	south america united kingdom great britain uk gb georgia sandwich islands sgssi
+sr	south america republic suriname
+uy	south america oriental republic uruguay
+ve	south america bolivarian republic venezuela
+
+dk	northern europe scandinavia kingdom denmark
+fo	northern europe scandinavia kingdom denmark faroe faeroe islands
+fi	northern europe scandinavia republic finland suomi
+sf; xx-suomifinland	northern europe scandinavia republic finland suomi
+ax	northern europe scandinavia republic finland suomi aland aaland islands
+is	northern europe scandinavia iceland
+no	northern europe scandinavia kingdom norway
+sj	northern europe scandinavia kingdom norway arctic region svalbard jan mayen
+se	northern europe scandinavia kingdom sweden
+ee	northern europe baltic states republic estonia
+lv	northern europe baltic states republic latvia
+lt	northern europe baltic states republic lithuania
+ie	northern europe republic ireland
+gb	northern europe united kingdom great britain ireland uk gb
+uk	northern europe united kingdom great britain ireland uk gb
+gg	northern europe united kingdom great britain uk gb bailiwick guernsey
+im	northern europe united kingdom great britain uk gb isle man mann
+je	northern europe united kingdom great britain uk gb bailiwick jersey
+xe	northern europe united kingdom great britain uk gb england
+xs	northern europe united kingdom great britain uk gb scotland
+xw	northern europe united kingdom great britain uk gb wales
+at	western europe republic austria
+be	western europe kingdom belgium
+fr	western europe france french republic
+fx; xx-francemetropolitan	western europe france french republic metropolitan
+de	western europe federal republic germany
+li	western europe principality liechtenstein
+lu	western europe grand duchy luxembourg
+mc	western europe principality monaco
+nl	western europe kingdom netherlands
+ch	western europe switzerland swiss confederation
+al	southern europe republic albania
+ad	southern europe principality valleys andorra
+ba	southern europe bosnia herzegovina
+hr	southern europe republic croatia
+gi	southern europe united kingdom great britain uk gb gibraltar
+gr	southern europe greece hellenic republic hellas
+it	southern europe italy italian republic
+mt	southern europe republic malta
+me	southern europe montenegro
+mk	southern europe republic north macedonia
+pt	southern europe portugal portuguese republic
+sm	southern europe most serene republic san marino
+rs	southern europe republic serbia
+si	southern europe republic slovenia
+es	southern europe kingdom spain
+va	southern europe vatican city state holy see rome
+cs; xx-serbiaandmontenegro	southern europe republic serbia montenegro
+xk; xx-kosovo	southern europe republic kosovo
+yu; xx-yugoslavia	southern europe socialist federal republic yugoslavia sfry fry
+by	eastern europe republic belarus byelorussia belorussia
+bg	eastern europe republic bulgaria
+cz	eastern europe czechoslovakia czech republic czechia
+hu	eastern europe hungary
+md	eastern europe republic moldova
+pl	eastern europe republic poland
+ro	eastern europe romania
+sk	eastern europe czechoslovakia slovakia slovak republic
+ua	eastern europe ukraine
+am	eastern europe western southwestern asia middle east republic armenia
+az	eastern europe western southwestern asia middle east republic azerbaijan
+cy	eastern europe western southwestern asia middle east republic cyprus
+ge	eastern europe western southwestern asia middle east georgia
+tr	eastern europe western southwestern asia middle east republic turkey
+
+su; xx-ussr; xx-sovietunion	eastern europe north asia union soviet socialist republics ussr
+ru	eastern europe north asia russia russian federation
+
+kz	eastern europe central asia republic kazakhstan
+
+uz	central asia republic uzbekistan
+tj	central asia republic tajikistan
+tm	central asia republic turkmenistan turkmenia
+kg	central asia kyrgyzstan kyrgyz republic kirghizia
+cn	east asia peoples republic china prc
+hk	east asia hong kong hk special administrative region sar peoples republic china prc hidden pirate island
+mo	east asia macau macao special administrative region sar peoples republic china prc
+kp	east asia democratic peoples republic north korea dprk
+kr	east asia republic south korea rok
+jp	east asia japan
+tw	east asia taiwan republic china roc
+mn	east asia mongolia
+af	south asia islamic republic afghanistan
+pk	south asia islamic republic pakistan
+in	south asia republic india
+mv	south asia republic maldives
+lk	south asia democratic socialist republic sri lanka
+np	south asia federal democratic republic nepal most mathematical
+bt	south asia kingdom bhutan
+bd	south asia peoples republic bangladesh
+bn	southeast asia nation brunei abode peace
+kh	southeast asia kingdom cambodia
+id	southeast asia republic indonesia
+la	southeast asia laos lao peoples democratic republic
+my	southeast asia malaysia
+mm	southeast asia republic union myanmar burma
+bu; xx-burma	southeast asia republic union myanmar burma
+ph	southeast asia republic philippines
+sg	southeast asia republic singapore
+th	southeast asia kingdom thailand siam
+tl	southeast asia democratic republic east portuguese timor leste
+tp; xx-easttimor; xx-portuguesetimor	southeast asia democratic republic east portuguese timor leste
+vn	southeast asia socialist republic vietnam viet nam
+cc	southeast asia commonwealth australia cocos keeling islands
+cx	southeast asia commonwealth australia territory christmas island
+dg; xx-diegogarcia	southeast asia united kingdom great britain uk gb diego garcia
+io	southeast asia united kingdom great britain uk gb british indian ocean territory biot
+nt; xx-neutralzone	western southwestern asia middle east saudi arabian iraqi neutral zone
+bh	western southwestern asia middle east kingdom bahrain
+ir	western southwestern asia middle east islamic republic iran persia
+iq	western southwestern asia middle east republic iraq
+il	western southwestern asia middle east state israel
+jo	western southwestern asia middle east hashemite kingdom jordan
+kw	western southwestern asia middle east state kuwait
+lb	western southwestern asia middle east lebanon lebanese republic
+ps	western southwestern asia middle east state palestine palestinian territories west bank gaza strip
+om	western southwestern asia middle east sultanate oman
+qa	western southwestern asia middle east state qatar
+sa	western southwestern asia middle east kingdom saudi arabia
+sy	western southwestern asia middle east syria syrian arab republic
+ae	western southwestern asia middle east united arab emirates
+ye	western southwestern asia middle east republic yemen
+
+eg	north africa western southwestern asia middle east arab republic egypt
+
+dz	north africa peoples democratic republic algeria
+ic; xx-canaryislands	north africa kingdom spain autonomous community canarias canary islands
+xa	north africa kingdom spain autonomous community canarias canary islands
+ea; xx-ceutaandmelilla	north africa kingdom spain autonomous city ceuta melilla
+ly	north africa libya
+ma	north africa kingdom morocco
+sd	north africa republic sudan
+tn	north africa republic tunisia
+eh	north africa western sahara
+bi	east africa republic burundi
+km	east africa union comoros
+dj	east africa djibouti
+er	east africa state eritrea
+et	east africa federal democratic republic ethiopia
+ke	east africa republic kenya
+mg	east africa republic madagascar malagasy
+mw	east africa republic malawi
+mu	east africa republic mauritius
+yt	east africa france french republic overseas region department mayotte
+mz	east africa republic mozambique
+re	east africa france french republic overseas region la reunion
+rw	east africa republic rwanda
+sc	east africa republic seychelles
+so	east africa federal republic somalia
+ss	east africa republic south sudan
+tz	east africa united republic tanzania
+ug	east africa republic uganda
+zm	east africa republic zambia
+zw	east africa republic zimbabwe
+ao	central africa republic angola
+cm	central africa republic cameroon
+cf	central africa african republic car
+td	central africa republic chad
+cg	central africa republic congo brazzaville roc
+cd	central africa democratic republic congo dr drc droc kinshaha zaire
+zr; xx-zaire	central africa democratic republic congo dr drc droc kinshaha zaire
+gq	central africa republic equatorial guinea
+ga	central africa gabon gabonese republic
+st	central africa democratic republic sao tome principe
+bw	southern africa republic botswana
+sz	southern africa kingdom eswatini swaziland
+ls	southern africa kingdom lesotho
+na	southern africa republic namibia
+za	southern africa republic south rsa
+bj	west africa republic benin dahomey
+bf	west africa burkina faso
+cv	west africa republic cabo cape verde
+gm	west africa republic gambia
+gh	west africa republic ghana
+gn	west africa republic guinea conakry
+gw	west africa republic guinea bissau
+ci	west africa republic cote divoire ivory coast
+lr	west africa republic liberia
+ml	west africa republic mali
+mr	west africa mauritania
+ne	west africa republic niger
+ng	west africa federal republic nigeria
+sh	west africa united kingdom great britain uk gb st saint helena
+ac; xx-ascensionisland	west africa united kingdom great britain uk gb ascension island
+ta; xx-tristandacunha	west africa united kingdom great britain uk gb tristan da cunha matata
+sn	west africa republic senegal
+sl	west africa republic sierra leone salone
+tg	west africa togo togolese republic
+
+au	oceania australasia commonwealth australia
+nf	oceania australasia commonwealth australia norfolk island
+nz	oceania australasia new zealand
+fj	oceania melanesia republic fiji
+nc	oceania melanesia france french republic new caledonia
+pg	oceania melanesia southeast asia independent state papua new guinea
+sb	oceania melanesia solomon islands
+vu	oceania melanesia republic vanuatu
+fm	oceania micronesia federated states
+gu	oceania micronesia united states america us usa guam
+ki	oceania micronesia republic kiribati
+mh	oceania micronesia republic marshall islands
+nr	oceania micronesia republic nauru pleasant island
+mp	oceania micronesia united states america us usa commonwealth northern mariana islands
+pw	oceania micronesia republic palau
+as	oceania polynesia united states america us usa american samoa
+ck	oceania polynesia new zealand cook islands
+pf	oceania polynesia france french republic
+nu	oceania polynesia new zealand niue
+pn	oceania polynesia united kingdom great britain uk gb pitcairn henderson ducie oeno islands
+ws	oceania polynesia western samoa independent state
+tk	oceania polynesia new zealand tokelau
+to	oceania polynesia kingdom tonga
+tv	oceania polynesia tuvalu ellice islands
+wf	oceania polynesia france french republic territory wallis futuna islands
+
+aq	antarctica south pole blue map
+hm	antarctica south pole commonwealth australia territory heard island mcdonald islands
+tf	france french republic southern territories antarctic lands
+um	united states america us usa minor outlying islands lands
+
+ez; xx-eurozone	int international org organization eurozone euro area
+eu; xx-europeanunion	int international org organization european union eu
+qu	int international org organization european union eu
+un; xx-unitednations	int international org organization united nations un
+
+zz	undefined unknown invalid territory
+
+
+## North American Flags
+
+us-dc; xx-districtofcolumbia	north america united states us usa dist district columbia dc
+us-de; xx-delaware	north america united states us usa state delaware del de
+us-pa; xx-pennsylvania	north america united states us usa state pennsylvania penn pa
+us-nj; xx-newjersey	north america united states us usa state new jersey nj
+us-ga; xx-georgia	north america united states us usa state georgia ga
+us-ct; xx-connecticut	north america united states us usa state connecticut conn ct
+us-ma; xx-massachusetts	north america united states us usa state massachusetts mass ma
+us-md; xx-maryland	north america united states us usa state maryland md
+us-sc; xx-southcarolina	north america united states us usa state south carolina sc
+us-nh; xx-newhampshire	north america united states us usa state new hampshire nh
+us-va; xx-virginia	north america united states us usa state virginia va
+us-ny; xx-newyork	north america united states us usa state new york ny
+us-nc; xx-northcarolina	north america united states us usa state north carolina nc
+us-ri; xx-rhodeisland	north america united states us usa state rhode island providence plantations ri
+us-vt; xx-vermont	north america united states us usa state vermont vt
+us-ky; xx-kentucky	north america united states us usa state kentucky ky
+us-tn; xx-tennessee	north america united states us usa state tennessee tenn tn
+us-oh; xx-ohio	north america united states us usa state ohio oh
+us-la; xx-louisiana	north america united states us usa state louisiana la
+us-in; xx-indiana	north america united states us usa state indiana ind in
+us-ms; xx-mississippi	north america united states us usa state mississippi miss ms
+us-il; xx-illinois	north america united states us usa state illinois ill il
+us-al; xx-alabama	north america united states us usa state alabama ala al
+us-me; xx-maine	north america united states us usa state maine me
+us-mo; xx-missouri	north america united states us usa state missouri mo
+us-ar; xx-arkansas	north america united states us usa state arkansas ark ar
+us-mi; xx-michigan	north america united states us usa state michigan mich mi
+us-fl; xx-florida	north america united states us usa state florida fla fl
+us-tx; xx-texas	north america united states us usa state texas tex tx
+us-ia; xx-iowa	north america united states us usa state iowa ia
+us-wi; xx-wisconsin	north america united states us usa state wisconsin wis wi
+us-ca; xx-california	north america united states us usa state california republic calif ca
+us-mn; xx-minnesota	north america united states us usa state minnesota minn mn
+us-or; xx-oregon	north america united states us usa state oregon ore or
+us-ks; xx-kansas	north america united states us usa state kansas kans ks
+us-wv; xx-westvirginia	north america united states us usa state west virginia wva wv
+us-nv; xx-nevada	north america united states us usa state nevada nev nv
+us-ne; xx-nebraska	north america united states us usa state nebraska nebr ne
+us-co; xx-colorado	north america united states us usa state colorado colo co
+us-nd; xx-northdakota	north america united states us usa state north dakota nd
+us-sd; xx-southdakota	north america united states us usa state south dakota sd
+us-mt; xx-montana	north america united states us usa state montana mont mt
+us-wa; xx-washington	north america united states us usa state washington wash wa
+us-id; xx-idaho	north america united states us usa state idaho id
+us-wy; xx-wyoming	north america united states us usa state wyoming wyo wy
+us-ut; xx-utah	north america united states us usa state utah ut deseret
+us-ok; xx-oklahoma	north america united states us usa state oklahoma okla ok
+us-nm; xx-newmexico	north america united states us usa state new mexico nm
+us-az; xx-arizona	north america united states us usa state arizona ariz az
+us-ak; xx-alaska	north america united states us usa state alaska ak
+us-hi; xx-hawaii	oceania polynesia united states america us usa state hawaii hi
+xx-northtakoma	north america united states us usa state takoma tacoma nt simpson simpsons springfield not just another
+
+ca-on; xx-ontario	north america canada province ontario on
+ca-qc; xx-quebec	north america canada province quebec qc
+ca-ns; xx-novascotia	north america canada province nova scotia ns
+ca-nb; xx-newbrunswick	north america canada province new brunswick nb
+ca-mb; xx-manitoba	north america canada province manitoba mb
+ca-nt; xx-northwestterritories	north america canada province northwest territories territory nt
+ca-bc; xx-britishcolumbia	north america canada province british columbia bc
+ca-pe; xx-princeedwardisland	north america canada province prince edward island pe
+ca-yt; xx-yukon	north america canada province yukon territory yt
+ca-sk; xx-saskatchewan	north america canada province saskatchewan sk
+ca-ab; xx-alberta	north america canada province alberta ab
+ca-nl; xx-newfoundlandandlabrador	north america canada province newfoundland labrador nl
+ca-nu; xx-nunavut	north america canada province nunavut territory nu
+
+us-nyc; xx-newyorkcity	north america united states us usa city new york nyc ny
+us-chi; xx-chicago	north america united states us usa city chicago chi illinois ill il
+us-den; xx-denver	north america united states us usa city denver den colorado colo co
+us-phx; xx-phoenix	north america united states us usa city phoenix phx arizona ariz az
+us-pdx; xx-portland	north america united states us usa city portland pdx oregon ore or
+xx-cascadia	north america cascadia
+
+mx-cmx; xx-ciudaddemexico	north america mexico united mexican states city ciudad de cmx
+mx-mex; xx-mexico	north america mexico united mexican states state mex
+mx-gua; xx-guanajuato	north america mexico united mexican states state guanajuato gua
+mx-oax; xx-oaxaca	north america mexico united mexican states state oaxaca oax
+mx-pue; xx-puebla	north america mexico united mexican states state puebla pue
+mx-mic; xx-michoacan	north america mexico united mexican states state michoacan mic
+mx-slp; xx-sanluispotosi	north america mexico united mexican states state san luis potosi slp
+mx-ver; xx-veracruz	north america mexico united mexican states state veracruz ver
+mx-yuc; xx-yucatan	north america mexico united mexican states state yucatan yuc
+mx-jal; xx-jalisco	north america mexico united mexican states state jalisco jal
+mx-zac; xx-zacatecas	north america mexico united mexican states state zacatecas zac
+mx-que; xx-queretaro	north america mexico united mexican states state queretaro que
+mx-son; xx-sonora	north america mexico united mexican states state sonora son
+mx-tab; xx-tabasco	north america mexico united mexican states state tabasco tab
+mx-tam; xx-tamaulipas	north america mexico united mexican states state tamaulipas tam
+mx-nle; xx-nuevoleon	north america mexico united mexican states state nuevo leon nle
+mx-coa; xx-coahuila	north america mexico united mexican states state coahuila coa
+mx-dur; xx-durango	north america mexico united mexican states state durango dur
+mx-chh; xx-chihuahua	north america mexico united mexican states state chihuahua chh
+mx-chp; xx-chiapas	north america mexico united mexican states state chiapas chp
+mx-sin; xx-sinaloa	north america mexico united mexican states state sinaloa sin
+mx-gro; xx-guerrero	north america mexico united mexican states state guerrero gro
+mx-tla; xx-tlaxcala	north america mexico united mexican states state tlaxcala tla
+mx-col; xx-colima	north america mexico united mexican states state colima col
+mx-agu; xx-aguascalientes	north america mexico united mexican states state aguascalientes agu
+mx-cam; xx-campeche	north america mexico united mexican states state campeche cam
+mx-hid; xx-hidalgo	north america mexico united mexican states state hidalgo hid
+mx-mor; xx-morelos	north america mexico united mexican states state morelos mor
+mx-nay; xx-nayarit	north america mexico united mexican states state nayarit nay
+mx-bcn; xx-bajacalifornia	north america mexico united mexican states state baja california norte bcn
+mx-roo; xx-quintanaroo	north america mexico united mexican states state quintana roo
+mx-bcs; xx-bajacaliforniasur	north america mexico united mexican states state baja california sur bcs
+
+um-67; xx-johnstonatoll	oceania polynesia united states america us usa minor outlying islands lands johnston atoll
+um-71; xx-midwayislands	oceania polynesia united states america us usa minor outlying islands lands midway island atoll
+um-76; xx-navassaisland	north america caribbean united states us usa minor outlying islands lands navassa island
+um-79; xx-wakeisland	oceania micronesia united states america us usa minor outlying islands lands wake island
+um-81; xx-bakerisland	oceania polynesia united states america us usa minor outlying islands lands baker island
+um-84; xx-howlandisland	oceania micronesia united states america us usa minor outlying islands lands howland island
+um-86; xx-jarvisisland	oceania micronesia united states america us usa minor outlying islands lands jarvis island
+um-89; xx-kingmanreef	oceania polynesia united states america us usa minor outlying islands lands kingman reef
+um-95; xx-palmyraatoll	oceania polynesia united states america us usa minor outlying islands lands palmyra atoll
+
+xx-na-us	native american indian first nations peoples north america united states us usa
+xx-na-ca	native american indian first nations peoples north america canada
+xx-na-mx	native american indian first nations peoples north america mexico united mexican states
+xx-na-cherokee	native american indian first nations peoples tribe clan band cherokee
+xx-na-chickasaw	native american indian first nations peoples tribe clan band chickasaw
+xx-na-choctaw	native american indian first nations peoples tribe clan band choctaw
+xx-na-easternshawnee	native american indian first nations peoples tribe clan band eastern shawnee
+xx-na-hopi	native american indian first nations peoples tribe clan band hopi
+xx-na-iroquois	native american indian first nations peoples tribe clan band iroquois
+xx-na-lakota	native american indian first nations peoples tribe clan band lakota
+xx-na-miccosukee	native american indian first nations peoples tribe clan band miccosukee
+xx-na-navajo	native american indian first nations peoples tribe clan band navajo
+xx-na-northerncheyenne	native american indian first nations peoples tribe clan band northern cheyenne
+xx-na-quapaw	native american indian first nations peoples tribe clan band quapaw
+xx-na-shawnee	native american indian first nations peoples tribe clan band shawnee
+xx-na-spokane	native american indian first nations peoples tribe clan band spokane
+
+
+## British Flags
+
+gb-ukm; uk-ukm; xx-unitedkingdom	northern europe united kingdom great britain uk gb
+gb-gbn; uk-gbn; xx-greatbritain	northern europe united kingdom great britain uk gb
+gb-eaw; uk-eaw; xx-englandandwales	northern europe united kingdom great britain uk gb england wales
+gb-eng; uk-eng; xx-england	northern europe united kingdom great britain uk gb england
+gb-wls; uk-wls; xx-wales	northern europe united kingdom great britain uk gb wales
+gb-sct; uk-sct; xx-scotland	northern europe united kingdom great britain uk gb scotland
+gb-nir; uk-nir; xx-northernireland	northern europe united kingdom great britain uk gb ireland
+xx-scotchirish	northern europe united kingdom great britain uk gb scots scotch irish
+
+gb-bkm; uk-bkm	northern europe united kingdom great britain uk gb england county buckinghamshire
+gb-cam; uk-cam	northern europe united kingdom great britain uk gb england county cambridgeshire
+gb-cma; uk-cma	northern europe united kingdom great britain uk gb england county cumbria
+gb-dby; uk-dby	northern europe united kingdom great britain uk gb england county derbyshire
+gb-dev; uk-dev	northern europe united kingdom great britain uk gb england county devon
+gb-dor; uk-dor	northern europe united kingdom great britain uk gb england county dorset
+gb-esx; uk-esx	northern europe united kingdom great britain uk gb england county east sussex
+gb-ess; uk-ess	northern europe united kingdom great britain uk gb england county essex
+gb-gls; uk-gls	northern europe united kingdom great britain uk gb england county gloucestershire
+gb-ham; uk-ham	northern europe united kingdom great britain uk gb england county hampshire
+gb-hrt; uk-hrt	northern europe united kingdom great britain uk gb england county hertfordshire
+gb-ken; uk-ken	northern europe united kingdom great britain uk gb england county kent
+gb-lan; uk-lan	northern europe united kingdom great britain uk gb england county lancashire
+gb-lec; uk-lec	northern europe united kingdom great britain uk gb england county leicestershire
+gb-lin; uk-lin	northern europe united kingdom great britain uk gb england county lincolnshire
+gb-nfk; uk-nfk	northern europe united kingdom great britain uk gb england county norfolk
+gb-nyk; uk-nyk	northern europe united kingdom great britain uk gb england county north yorkshire
+gb-nth; uk-nth	northern europe united kingdom great britain uk gb england county northamptonshire
+gb-ntt; uk-ntt	northern europe united kingdom great britain uk gb england county nottinghamshire
+gb-oxf; uk-oxf	northern europe united kingdom great britain uk gb england county oxfordshire
+gb-som; uk-som	northern europe united kingdom great britain uk gb england county somerset
+gb-sts; uk-sts	northern europe united kingdom great britain uk gb england county staffordshire
+gb-sfk; uk-sfk	northern europe united kingdom great britain uk gb england county suffolk
+gb-sry; uk-sry	northern europe united kingdom great britain uk gb england county surrey
+gb-war; uk-war	northern europe united kingdom great britain uk gb england county warwickshire
+gb-wsx; uk-wsx	northern europe united kingdom great britain uk gb england county west sussex
+gb-wor; uk-wor	northern europe united kingdom great britain uk gb england county worcestershire
+gb-lnd; uk-lnd	northern europe united kingdom great britain uk gb england city london
+gb-bdg; uk-bdg	northern europe united kingdom great britain uk gb england london borough barking dagenham
+gb-bne; uk-bne	northern europe united kingdom great britain uk gb england london borough barnet
+gb-bex; uk-bex	northern europe united kingdom great britain uk gb england london borough bexley
+gb-ben; uk-ben	northern europe united kingdom great britain uk gb england london borough brent
+gb-bry; uk-bry	northern europe united kingdom great britain uk gb england london borough bromley
+gb-cmd; uk-cmd	northern europe united kingdom great britain uk gb england london borough camden
+gb-cry; uk-cry	northern europe united kingdom great britain uk gb england london borough croydon
+gb-eal; uk-eal	northern europe united kingdom great britain uk gb england london borough ealing
+gb-enf; uk-enf	northern europe united kingdom great britain uk gb england london borough enfield
+gb-gre; uk-gre	northern europe united kingdom great britain uk gb england london borough greenwich
+gb-hck; uk-hck	northern europe united kingdom great britain uk gb england london borough hackney
+gb-hmf; uk-hmf	northern europe united kingdom great britain uk gb england london borough hammersmith fulham
+gb-hry; uk-hry	northern europe united kingdom great britain uk gb england london borough haringey
+gb-hrw; uk-hrw	northern europe united kingdom great britain uk gb england london borough harrow
+gb-hav; uk-hav	northern europe united kingdom great britain uk gb england london borough havering
+gb-hil; uk-hil	northern europe united kingdom great britain uk gb england london borough hillingdon
+gb-hns; uk-hns	northern europe united kingdom great britain uk gb england london borough hounslow
+gb-isl; uk-isl	northern europe united kingdom great britain uk gb england london borough islington
+gb-kec; uk-kec	northern europe united kingdom great britain uk gb england london borough kensington chelsea
+gb-ktt; uk-ktt	northern europe united kingdom great britain uk gb england london borough kingston upon thames
+gb-lbh; uk-lbh	northern europe united kingdom great britain uk gb england london borough lambeth
+gb-lew; uk-lew	northern europe united kingdom great britain uk gb england london borough lewisham
+gb-mrt; uk-mrt	northern europe united kingdom great britain uk gb england london borough merton
+gb-nwm; uk-nwm	northern europe united kingdom great britain uk gb england london borough newham
+gb-rdb; uk-rdb	northern europe united kingdom great britain uk gb england london borough redbridge
+gb-ric; uk-ric	northern europe united kingdom great britain uk gb england london borough richmond upon thames
+gb-swk; uk-swk	northern europe united kingdom great britain uk gb england london borough southwark
+gb-stn; uk-stn	northern europe united kingdom great britain uk gb england london borough sutton
+gb-twh; uk-twh	northern europe united kingdom great britain uk gb england london borough tower hamlets
+gb-wft; uk-wft	northern europe united kingdom great britain uk gb england london borough waltham forest
+gb-wnd; uk-wnd	northern europe united kingdom great britain uk gb england london borough wandsworth
+gb-wsm; uk-wsm	northern europe united kingdom great britain uk gb england london borough westminster
+gb-bns; uk-bns	northern europe united kingdom great britain uk gb england metropolitan district barnsley
+gb-bir; uk-bir	northern europe united kingdom great britain uk gb england metropolitan district birmingham
+gb-bol; uk-bol	northern europe united kingdom great britain uk gb england metropolitan district bolton
+gb-brd; uk-brd	northern europe united kingdom great britain uk gb england metropolitan district bradford
+gb-bur; uk-bur	northern europe united kingdom great britain uk gb england metropolitan district bury
+gb-cld; uk-cld	northern europe united kingdom great britain uk gb england metropolitan district calderdale
+gb-cov; uk-cov	northern europe united kingdom great britain uk gb england metropolitan district coventry
+gb-dnc; uk-dnc	northern europe united kingdom great britain uk gb england metropolitan district doncaster
+gb-dud; uk-dud	northern europe united kingdom great britain uk gb england metropolitan district dudley
+gb-gat; uk-gat	northern europe united kingdom great britain uk gb england metropolitan district gateshead
+gb-kir; uk-kir	northern europe united kingdom great britain uk gb england metropolitan district kirklees
+gb-kwl; uk-kwl	northern europe united kingdom great britain uk gb england metropolitan district knowsley
+gb-lds; uk-lds	northern europe united kingdom great britain uk gb england metropolitan district leeds
+gb-liv; uk-liv	northern europe united kingdom great britain uk gb england metropolitan district liverpool
+gb-man; uk-man	northern europe united kingdom great britain uk gb england metropolitan district manchester
+gb-net; uk-net	northern europe united kingdom great britain uk gb england metropolitan district newcastle upon tyne
+gb-nty; uk-nty	northern europe united kingdom great britain uk gb england metropolitan district north tyneside
+gb-old; uk-old	northern europe united kingdom great britain uk gb england metropolitan district oldham
+gb-rch; uk-rch	northern europe united kingdom great britain uk gb england metropolitan district rochdale
+gb-rot; uk-rot	northern europe united kingdom great britain uk gb england metropolitan district rotherham
+gb-shn; uk-shn	northern europe united kingdom great britain uk gb england metropolitan district st saint helens
+gb-slf; uk-slf	northern europe united kingdom great britain uk gb england metropolitan district salford
+gb-saw; uk-saw	northern europe united kingdom great britain uk gb england metropolitan district sandwell
+gb-sft; uk-sft	northern europe united kingdom great britain uk gb england metropolitan district sefton
+gb-shf; uk-shf	northern europe united kingdom great britain uk gb england metropolitan district sheffield
+gb-sol; uk-sol	northern europe united kingdom great britain uk gb england metropolitan district solihull
+gb-sty; uk-sty	northern europe united kingdom great britain uk gb england metropolitan district south tyneside
+gb-skp; uk-skp	northern europe united kingdom great britain uk gb england metropolitan district stockport
+gb-snd; uk-snd	northern europe united kingdom great britain uk gb england metropolitan district sunderland
+gb-tam; uk-tam	northern europe united kingdom great britain uk gb england metropolitan district tameside
+gb-trf; uk-trf	northern europe united kingdom great britain uk gb england metropolitan district trafford
+gb-wkf; uk-wkf	northern europe united kingdom great britain uk gb england metropolitan district wakefield
+gb-wll; uk-wll	northern europe united kingdom great britain uk gb england metropolitan district walsall
+gb-wgn; uk-wgn	northern europe united kingdom great britain uk gb england metropolitan district wigan
+gb-wrl; uk-wrl	northern europe united kingdom great britain uk gb england metropolitan district wirral
+gb-wlv; uk-wlv	northern europe united kingdom great britain uk gb england metropolitan district wolverhampton
+gb-bas; uk-bas	northern europe united kingdom great britain uk gb england unitary authority bath north east somerset
+gb-bdf; uk-bdf	northern europe united kingdom great britain uk gb england unitary authority bedford
+gb-bbd; uk-bbd	northern europe united kingdom great britain uk gb england unitary authority blackburn darwen
+gb-bpl; uk-bpl	northern europe united kingdom great britain uk gb england unitary authority blackpool
+gb-bmh; uk-bmh	northern europe united kingdom great britain uk gb england unitary authority bournemouth
+gb-brc; uk-brc	northern europe united kingdom great britain uk gb england unitary authority bracknell forest
+gb-bnh; uk-bnh	northern europe united kingdom great britain uk gb england unitary authority brighton hove
+gb-bst; uk-bst	northern europe united kingdom great britain uk gb england unitary authority city bristol
+gb-cbf; uk-cbf	northern europe united kingdom great britain uk gb england unitary authority central bedfordshire
+gb-che; uk-che	northern europe united kingdom great britain uk gb england unitary authority cheshire east
+gb-chw; uk-chw	northern europe united kingdom great britain uk gb england unitary authority cheshire west chester
+gb-con; uk-con	northern europe united kingdom great britain uk gb england unitary authority cornwall
+gb-dal; uk-dal	northern europe united kingdom great britain uk gb england unitary authority darlington
+gb-der; uk-der	northern europe united kingdom great britain uk gb england unitary authority derby
+gb-dur; uk-dur	northern europe united kingdom great britain uk gb england unitary authority durham county
+gb-ery; uk-ery	northern europe united kingdom great britain uk gb england unitary authority east riding yorkshire
+gb-hal; uk-hal	northern europe united kingdom great britain uk gb england unitary authority halton
+gb-hpl; uk-hpl	northern europe united kingdom great britain uk gb england unitary authority hartlepool
+gb-hef; uk-hef	northern europe united kingdom great britain uk gb england unitary authority herefordshire
+gb-iow; uk-iow	northern europe united kingdom great britain uk gb england unitary authority isle wight
+gb-ios; uk-ios	northern europe united kingdom great britain uk gb england unitary authority isles scilly
+gb-khl; uk-khl	northern europe united kingdom great britain uk gb england unitary authority kingston upon hull
+gb-lce; uk-lce	northern europe united kingdom great britain uk gb england unitary authority leicester
+gb-lut; uk-lut	northern europe united kingdom great britain uk gb england unitary authority luton
+gb-mdw; uk-mdw	northern europe united kingdom great britain uk gb england unitary authority medway
+gb-mdb; uk-mdb	northern europe united kingdom great britain uk gb england unitary authority middlesbrough
+gb-mik; uk-mik	northern europe united kingdom great britain uk gb england unitary authority milton keynes
+gb-nel; uk-nel	northern europe united kingdom great britain uk gb england unitary authority north east lincolnshire
+gb-nln; uk-nln	northern europe united kingdom great britain uk gb england unitary authority north lincolnshire
+gb-nsm; uk-nsm	northern europe united kingdom great britain uk gb england unitary authority north somerset
+gb-nbl; uk-nbl	northern europe united kingdom great britain uk gb england unitary authority northumberland
+gb-ngm; uk-ngm	northern europe united kingdom great britain uk gb england unitary authority nottingham
+gb-pte; uk-pte	northern europe united kingdom great britain uk gb england unitary authority peterborough
+gb-ply; uk-ply	northern europe united kingdom great britain uk gb england unitary authority plymouth
+gb-pol; uk-pol	northern europe united kingdom great britain uk gb england unitary authority poole
+gb-por; uk-por	northern europe united kingdom great britain uk gb england unitary authority portsmouth
+gb-rdg; uk-rdg	northern europe united kingdom great britain uk gb england unitary authority reading
+gb-rcc; uk-rcc	northern europe united kingdom great britain uk gb england unitary authority redcar cleveland
+gb-rut; uk-rut	northern europe united kingdom great britain uk gb england unitary authority rutland
+gb-shr; uk-shr	northern europe united kingdom great britain uk gb england unitary authority shropshire
+gb-slg; uk-slg	northern europe united kingdom great britain uk gb england unitary authority slough
+gb-sgc; uk-sgc	northern europe united kingdom great britain uk gb england unitary authority south gloucestershire
+gb-sth; uk-sth	northern europe united kingdom great britain uk gb england unitary authority southampton
+gb-sos; uk-sos	northern europe united kingdom great britain uk gb england unitary authority southend sea
+gb-stt; uk-stt	northern europe united kingdom great britain uk gb england unitary authority stockton tees
+gb-ste; uk-ste	northern europe united kingdom great britain uk gb england unitary authority stoke trent
+gb-swd; uk-swd	northern europe united kingdom great britain uk gb england unitary authority swindon
+gb-tfw; uk-tfw	northern europe united kingdom great britain uk gb england unitary authority telford wrekin
+gb-thr; uk-thr	northern europe united kingdom great britain uk gb england unitary authority thurrock
+gb-tob; uk-tob	northern europe united kingdom great britain uk gb england unitary authority torbay
+gb-wrt; uk-wrt	northern europe united kingdom great britain uk gb england unitary authority warrington
+gb-wbk; uk-wbk	northern europe united kingdom great britain uk gb england unitary authority west berkshire
+gb-wil; uk-wil	northern europe united kingdom great britain uk gb england unitary authority wiltshire
+gb-wnm; uk-wnm	northern europe united kingdom great britain uk gb england unitary authority windsor maidenhead
+gb-wok; uk-wok	northern europe united kingdom great britain uk gb england unitary authority wokingham
+gb-yor; uk-yor	northern europe united kingdom great britain uk gb england unitary authority york
+
+gb-bgw; uk-bgw	northern europe united kingdom great britain uk gb wales unitary authority bleaneau gwent
+gb-bge; uk-bge	northern europe united kingdom great britain uk gb wales unitary authority bridgend pen y bont ar ogwr
+gb-cay; uk-cay	northern europe united kingdom great britain uk gb wales unitary authority caerphilly caerffili
+gb-crf; uk-crf	northern europe united kingdom great britain uk gb wales unitary authority cardiff caerdydd
+gb-cmn; uk-cmn	northern europe united kingdom great britain uk gb wales unitary authority carmarthenshire sir gaerfyrddin
+gb-cgn; uk-cgn	northern europe united kingdom great britain uk gb wales unitary authority ceredigion sir
+gb-cwy; uk-cwy	northern europe united kingdom great britain uk gb wales unitary authority conwy
+gb-den; uk-den	northern europe united kingdom great britain uk gb wales unitary authority denbighshire sir ddinbych
+gb-fln; uk-fln	northern europe united kingdom great britain uk gb wales unitary authority flintshire sir y fflint
+gb-gwn; uk-gwn	northern europe united kingdom great britain uk gb wales unitary authority gwynedd
+gb-agy; uk-agy	northern europe united kingdom great britain uk gb wales unitary authority isle anglesey sir ynys mon
+gb-mty; uk-mty	northern europe united kingdom great britain uk gb wales unitary authority merthyr tydfil tudful
+gb-mon; uk-mon	northern europe united kingdom great britain uk gb wales unitary authority monmouthshire sir fynwy
+gb-ntl; uk-ntl	northern europe united kingdom great britain uk gb wales unitary authority neath port talbot castell nedd
+gb-nwp; uk-nwp	northern europe united kingdom great britain uk gb wales unitary authority newport casnewydd
+gb-pem; uk-pem	northern europe united kingdom great britain uk gb wales unitary authority pembrokeshire sir benfro
+gb-pow; uk-pow	northern europe united kingdom great britain uk gb wales unitary authority powys
+gb-rct; uk-rct	northern europe united kingdom great britain uk gb wales unitary authority rhondda cynon taff taf
+gb-swa; uk-swa	northern europe united kingdom great britain uk gb wales unitary authority swansea abertawe
+gb-tof; uk-tof	northern europe united kingdom great britain uk gb wales unitary authority torfaen tor faen
+gb-vgl; uk-vgl	northern europe united kingdom great britain uk gb wales unitary authority vale glamorgan bro morgannwg
+gb-wrx; uk-wrx	northern europe united kingdom great britain uk gb wales unitary authority wrexham wrecsam
+
+gb-abe; uk-abe	northern europe united kingdom great britain uk gb scotland council area aberdeen city
+gb-abd; uk-abd	northern europe united kingdom great britain uk gb scotland council area aberdeenshire
+gb-ans; uk-ans	northern europe united kingdom great britain uk gb scotland council area angus
+gb-agb; uk-agb	northern europe united kingdom great britain uk gb scotland council area argyll bute
+gb-clk; uk-clk	northern europe united kingdom great britain uk gb scotland council area clackmannanshire
+gb-dgy; uk-dgy	northern europe united kingdom great britain uk gb scotland council area dumfries galloway
+gb-dnd; uk-dnd	northern europe united kingdom great britain uk gb scotland council area dundee city
+gb-eay; uk-eay	northern europe united kingdom great britain uk gb scotland council area east ayrshire
+gb-edu; uk-edu	northern europe united kingdom great britain uk gb scotland council area east dunbartonshire
+gb-eln; uk-eln	northern europe united kingdom great britain uk gb scotland council area east lothian
+gb-erw; uk-erw	northern europe united kingdom great britain uk gb scotland council area east renfrewshire
+gb-edh; uk-edh	northern europe united kingdom great britain uk gb scotland council area city edinburgh
+gb-els; uk-els	northern europe united kingdom great britain uk gb scotland council area eilean siar
+gb-fal; uk-fal	northern europe united kingdom great britain uk gb scotland council area falkirk
+gb-fif; uk-fif	northern europe united kingdom great britain uk gb scotland council area fife
+gb-glg; uk-glg	northern europe united kingdom great britain uk gb scotland council area glasgow city
+gb-hld; uk-hld	northern europe united kingdom great britain uk gb scotland council area highland
+gb-ivc; uk-ivc	northern europe united kingdom great britain uk gb scotland council area inverclyde
+gb-mln; uk-mln	northern europe united kingdom great britain uk gb scotland council area midlothian
+gb-mry; uk-mry	northern europe united kingdom great britain uk gb scotland council area moray
+gb-nay; uk-nay	northern europe united kingdom great britain uk gb scotland council area north ayrshire
+gb-nlk; uk-nlk	northern europe united kingdom great britain uk gb scotland council area north lanarkshire
+gb-ork; uk-ork	northern europe united kingdom great britain uk gb scotland council area orkney islands
+gb-pkn; uk-pkn	northern europe united kingdom great britain uk gb scotland council area perth kinross
+gb-rfw; uk-rfw	northern europe united kingdom great britain uk gb scotland council area renfrewshire
+gb-scb; uk-scb	northern europe united kingdom great britain uk gb scotland council area scottish borders
+gb-zet; uk-zet	northern europe united kingdom great britain uk gb scotland council area shetland islands
+gb-say; uk-say	northern europe united kingdom great britain uk gb scotland council area south ayrshire
+gb-slk; uk-slk	northern europe united kingdom great britain uk gb scotland council area south lanarkshire
+gb-stg; uk-stg	northern europe united kingdom great britain uk gb scotland council area stirling
+gb-wdu; uk-wdu	northern europe united kingdom great britain uk gb scotland council area west dunbartonshire
+gb-wln; uk-wln	northern europe united kingdom great britain uk gb scotland council area west lothian
+
+gb-ann; uk-ann	northern europe united kingdom great britain uk gb ireland district antrim newtownabbey
+gb-and; uk-and	northern europe united kingdom great britain uk gb ireland district ards north down
+gb-abc; uk-abc	northern europe united kingdom great britain uk gb ireland district armagh banbridge craigavon
+gb-bfs; uk-bfs	northern europe united kingdom great britain uk gb ireland district belfast
+gb-ccg; uk-ccg	northern europe united kingdom great britain uk gb ireland district causeway coast glens
+gb-drs; uk-drs	northern europe united kingdom great britain uk gb ireland district derry strabane
+gb-fmo; uk-fmo	northern europe united kingdom great britain uk gb ireland district fermanagh omagh
+gb-lbc; uk-lbc	northern europe united kingdom great britain uk gb ireland district lisburn castlereagh
+gb-mea; uk-mea	northern europe united kingdom great britain uk gb ireland district mid east antrim
+gb-mul; uk-mul	northern europe united kingdom great britain uk gb ireland district mid ulster
+gb-nmd; uk-nmd	northern europe united kingdom great britain uk gb ireland district newry mourne down
+
+
+## Scandinavian Flags
+
+no-01	northern europe scandinavia kingdom norway county ostfold
+no-02	northern europe scandinavia kingdom norway county akershus
+no-03	northern europe scandinavia kingdom norway county oslo
+no-04	northern europe scandinavia kingdom norway county hedmark
+no-05	northern europe scandinavia kingdom norway county oppland
+no-06	northern europe scandinavia kingdom norway county buskerud
+no-07	northern europe scandinavia kingdom norway county vestfold
+no-08	northern europe scandinavia kingdom norway county telemark
+no-09	northern europe scandinavia kingdom norway county aust agder
+no-10	northern europe scandinavia kingdom norway county vest agder
+no-11	northern europe scandinavia kingdom norway county rogaland
+no-12	northern europe scandinavia kingdom norway county hordaland
+no-14	northern europe scandinavia kingdom norway county sogn og fjordane
+no-15	northern europe scandinavia kingdom norway county more og romsdal
+no-16	northern europe scandinavia kingdom norway county sor trondelag
+no-17	northern europe scandinavia kingdom norway county nord trondelag
+no-18	northern europe scandinavia kingdom norway county nordland
+no-19	northern europe scandinavia kingdom norway county troms romsa
+no-20	northern europe scandinavia kingdom norway county finnmark finnmarku
+no-21	northern europe scandinavia kingdom norway arctic region svalbard
+no-22	northern europe scandinavia kingdom norway arctic region jan mayen
+no-23; no-50	northern europe scandinavia kingdom norway county trondelag
+
+dk-015	northern europe scandinavia kingdom denmark county kobenhavn
+dk-020	northern europe scandinavia kingdom denmark county frederiksborg
+dk-025	northern europe scandinavia kingdom denmark county roskilde
+dk-030	northern europe scandinavia kingdom denmark county vestsjaelland
+dk-035	northern europe scandinavia kingdom denmark county storstrom
+dk-040; xx-bornholm	northern europe scandinavia kingdom denmark county bornholm
+dk-042	northern europe scandinavia kingdom denmark county fyn
+dk-050	northern europe scandinavia kingdom denmark county sonderjylland
+dk-055	northern europe scandinavia kingdom denmark county ribe
+dk-060	northern europe scandinavia kingdom denmark county vejle
+dk-065	northern europe scandinavia kingdom denmark county ringkobing
+dk-070	northern europe scandinavia kingdom denmark county arhus
+dk-076	northern europe scandinavia kingdom denmark county viborg
+dk-080	northern europe scandinavia kingdom denmark county nordjylland
+dk-101	northern europe scandinavia kingdom denmark city kobenhavn
+dk-147	northern europe scandinavia kingdom denmark city frederiksberg
+dk-81	northern europe scandinavia kingdom denmark north region nordjylland
+dk-82	northern europe scandinavia kingdom denmark central region midtjylland
+dk-83	northern europe scandinavia kingdom denmark southern region syddanmark
+dk-84	northern europe scandinavia kingdom denmark capital region hovedstaden
+dk-85	northern europe scandinavia kingdom denmark zealand region sjaelland
+xx-christiania	northern europe scandinavia kingdom denmark freetown christiania
+
+se-01; se-ab	northern europe scandinavia kingdom sweden county stockholms lan
+se-03; se-c	northern europe scandinavia kingdom sweden county uppsala lan
+se-04; se-d	northern europe scandinavia kingdom sweden county sodermanlands lan
+se-05; se-e	northern europe scandinavia kingdom sweden county ostergotlands lan
+se-06; se-f	northern europe scandinavia kingdom sweden county jonkopings lan
+se-07; se-g	northern europe scandinavia kingdom sweden county kronobergs lan
+se-08; se-h	northern europe scandinavia kingdom sweden county kalmar lan
+se-09; se-i	northern europe scandinavia kingdom sweden county gotlands lan
+se-10; se-k	northern europe scandinavia kingdom sweden county blekinge lan
+se-12; se-m; xx-scania	northern europe scandinavia kingdom sweden county scania skane lan
+se-13; se-n	northern europe scandinavia kingdom sweden county hallands lan
+se-14; se-o	northern europe scandinavia kingdom sweden county vastra gotalands lan
+se-17; se-s	northern europe scandinavia kingdom sweden county varmlands lan
+se-18; se-t	northern europe scandinavia kingdom sweden county orebro lan
+se-19; se-u	northern europe scandinavia kingdom sweden county vastmanlands lan
+se-20; se-w	northern europe scandinavia kingdom sweden county dalarnas lan
+se-21; se-x	northern europe scandinavia kingdom sweden county gavleborgs lan
+se-22; se-y	northern europe scandinavia kingdom sweden county vasternorrlands lan
+se-23; se-z	northern europe scandinavia kingdom sweden county jamtlands lan
+se-24; se-ac	northern europe scandinavia kingdom sweden county vasterbottens lan
+se-25; se-bd	northern europe scandinavia kingdom sweden county norrbottens lan
+xx-fennoswede	northern europe scandinavia fennoswede fenno swede
+
+fi-01	northern europe scandinavia republic finland suomi region aland landskapet aaland ahvenanmaan maakunta
+fi-02	northern europe scandinavia republic finland suomi region south karelia sodra karelen etela karjala
+fi-03	northern europe scandinavia republic finland suomi region southern ostrobothnia sodra osterbotten etela pohjanmaa
+fi-04	northern europe scandinavia republic finland suomi region southern savonia sodra savolax etela savo
+fi-05	northern europe scandinavia republic finland suomi region kainuu kajanaland
+fi-06	northern europe scandinavia republic finland suomi region tavastia proper egentliga tavastland kanta hame
+fi-07	northern europe scandinavia republic finland suomi region central ostrobothnia mellersta osterbotten keski pohjanmaa
+fi-08	northern europe scandinavia republic finland suomi region central mellersta keski
+fi-09	northern europe scandinavia republic finland suomi region kymenlaakso kymmenedalen
+fi-10	northern europe scandinavia republic finland suomi region lapland lappland lappi
+fi-11	northern europe scandinavia republic finland suomi region pirkanmaa birkaland
+fi-12	northern europe scandinavia republic finland suomi region ostrobothnia osterbotten pohjanmaa
+fi-13	northern europe scandinavia republic finland suomi region north karelia norra karelen pohjois karjala
+fi-14	northern europe scandinavia republic finland suomi region ostroborthnia norra osterbotten pohjois pohjanmaa
+fi-15	northern europe scandinavia republic finland suomi region savonia norra savolax pohjois savo
+fi-16	northern europe scandinavia republic finland suomi region paijanne tavastia tavastland paijat hame
+fi-17	northern europe scandinavia republic finland suomi region satakunta
+fi-18	northern europe scandinavia republic finland suomi region uusimaa nyland
+fi-19	northern europe scandinavia republic finland suomi region southwest egentliga varsinais
+
+
+## Iberian Flags
+
+pt-01	southern europe portugal portuguese republic district aveiro
+pt-02	southern europe portugal portuguese republic district beja
+pt-03	southern europe portugal portuguese republic district braga
+pt-04	southern europe portugal portuguese republic district braganca
+pt-05	southern europe portugal portuguese republic district castelo branco
+pt-06	southern europe portugal portuguese republic district coimbra
+pt-07	southern europe portugal portuguese republic district evora
+pt-08	southern europe portugal portuguese republic district faro
+pt-09	southern europe portugal portuguese republic district guarda
+pt-10	southern europe portugal portuguese republic district leiria
+pt-11	southern europe portugal portuguese republic district lisboa
+pt-12	southern europe portugal portuguese republic district portalegre
+pt-13	southern europe portugal portuguese republic district porto
+pt-14	southern europe portugal portuguese republic district santarem
+pt-15	southern europe portugal portuguese republic district setubal
+pt-16	southern europe portugal portuguese republic district viana do castelo
+pt-17	southern europe portugal portuguese republic district vila real
+pt-18	southern europe portugal portuguese republic district viseu
+pt-20	southern europe portugal portuguese republic autonomous region azores
+pt-30	north africa portugal portuguese republic autonomous region madeira
+
+es-an	southern europe kingdom spain autonomous community andalucia andalusia
+es-ar	southern europe kingdom spain autonomous community aragon
+es-as	southern europe kingdom spain autonomous community principality principado de asturias
+es-cb	southern europe kingdom spain autonomous community cantabria
+es-ce	north africa kingdom spain autonomous city ceuta
+es-cl	southern europe kingdom spain autonomous community castile castilla y leon
+es-cm	southern europe kingdom spain autonomous community castile castilla la mancha
+es-cn	north africa kingdom spain autonomous community canarias canary islands
+es-ct; xx-catalonia	southern europe kingdom spain autonomous community catalunya cataluna catalonia
+es-ex	southern europe kingdom spain autonomous community extremadura
+es-ga	southern europe kingdom spain autonomous community galicia
+es-ib	southern europe kingdom spain autonomous community illes balears islas baleares balearic islands
+es-mc	southern europe kingdom spain autonomous community region de murcia
+es-md	southern europe kingdom spain autonomous community comunidad de madrid
+es-ml	north africa kingdom spain autonomous city melilla
+es-nc	southern europe kingdom spain autonomous community comunidad foral de navarra nafarroako foru komunitatea chartered navarre
+es-pv	southern europe kingdom spain autonomous community pais vasco euskal herria basque country
+es-ri	southern europe kingdom spain autonomous community la rioja
+es-vc	southern europe kingdom spain autonomous community comunidad comunitat valenciana valencian valencia
+
+es-a	southern europe kingdom spain province alicante alacant
+es-ab	southern europe kingdom spain province albacete
+es-al	southern europe kingdom spain province almeria
+es-av	southern europe kingdom spain province avila
+es-b	southern europe kingdom spain province barcelona
+es-ba	southern europe kingdom spain province badajoz
+es-bi	southern europe kingdom spain province bizkaia
+es-bu	southern europe kingdom spain province burgos
+es-c	southern europe kingdom spain province a la coruna
+es-ca	southern europe kingdom spain province cadiz
+es-cc	southern europe kingdom spain province caceres
+es-co	southern europe kingdom spain province cordoba
+es-cr	southern europe kingdom spain province ciudad real
+es-cs	southern europe kingdom spain province castellon castello
+es-cu	southern europe kingdom spain province cuenca
+es-gc	southern europe kingdom spain province las palmas
+es-gi	southern europe kingdom spain province girona gerona
+es-gr	southern europe kingdom spain province granada
+es-gu	southern europe kingdom spain province guadalajara
+es-h	southern europe kingdom spain province huelva
+es-hu	southern europe kingdom spain province huesca
+es-j	southern europe kingdom spain province jaen
+es-l	southern europe kingdom spain province lleida lerida
+es-le	southern europe kingdom spain province leon
+es-lo	southern europe kingdom spain province la rioja
+es-lu	southern europe kingdom spain province lugo
+es-m	southern europe kingdom spain province madrid
+es-ma	southern europe kingdom spain province malaga
+es-mu	southern europe kingdom spain province murcia
+es-na	southern europe kingdom spain province navarra nafarroa navarre
+es-o	southern europe kingdom spain province asturias
+es-or	southern europe kingdom spain province ourense orense
+es-p	southern europe kingdom spain province palencia
+es-pm	southern europe kingdom spain province balears baleares
+es-po	southern europe kingdom spain province pontevedra
+es-s	southern europe kingdom spain province cantabria
+es-sa	southern europe kingdom spain province salamanca
+es-se	southern europe kingdom spain province sevilla seville
+es-sg	southern europe kingdom spain province segovia
+es-so	southern europe kingdom spain province soria
+es-ss	southern europe kingdom spain province gipuzkoa
+es-t	southern europe kingdom spain province tarragona
+es-te	southern europe kingdom spain province teruel
+es-tf	southern europe kingdom spain province santa cruz de tenerife
+es-to	southern europe kingdom spain province toledo
+es-v	southern europe kingdom spain province valencia
+es-va	southern europe kingdom spain province valladolid
+es-vi	southern europe kingdom spain province alava araba
+es-z	southern europe kingdom spain province zaragoza
+es-za	southern europe kingdom spain province zamora
+
+ad-02	southern europe principality valleys andorra parish canillo
+ad-03	southern europe principality valleys andorra parish encamp
+ad-04	southern europe principality valleys andorra parish la massana
+ad-05	southern europe principality valleys andorra parish ordino
+ad-06	southern europe principality valleys andorra parish sant julia de loria
+ad-07	southern europe principality valleys andorra parish la vella
+ad-08	southern europe principality valleys andorra parish escaldes engordany
+
+
+## Western European Flags A
+
+fr-lre	east africa france french republic overseas region la reunion
+
+fr-a	western europe france french republic metropolitan region alsace
+fr-b	western europe france french republic metropolitan region aquitaine
+fr-c	western europe france french republic metropolitan region auvergne
+fr-d	western europe france french republic metropolitan region bourgogne burgundy
+fr-e; fr-bre; xx-brittany	western europe france french republic metropolitan region bretagne brittany
+fr-f; fr-cvl	western europe france french republic metropolitan region centre val de loire
+fr-g	western europe france french republic metropolitan region champagne ardenne
+fr-h; fr-cor	western europe france french republic collectivity corse corsica
+fr-i	western europe france french republic metropolitan region franche comte
+fr-j; fr-idf	western europe france french republic metropolitan region ile de
+fr-k	western europe france french republic metropolitan region languedoc roussillon
+fr-l	western europe france french republic metropolitan region limousin
+fr-m	western europe france french republic metropolitan region lorraine
+fr-n	western europe france french republic metropolitan region midi pyrenees
+fr-o	western europe france french republic metropolitan region nord pas de calais
+fr-p	western europe france french republic metropolitan region basse normandie lower normandy
+fr-q	western europe france french republic metropolitan region haute normandie upper normandy
+fr-r; fr-pdl	western europe france french republic metropolitan region pays de la loire
+fr-s	western europe france french republic metropolitan region picardie picardy
+fr-t	western europe france french republic metropolitan region poitou charentes
+fr-u; fr-pac	western europe france french republic metropolitan region provence alpes cote dazur
+fr-v	western europe france french republic metropolitan region rhone alpes
+
+fr-ara	western europe france french republic metropolitan region auvergne rhone alpes
+fr-bfc	western europe france french republic metropolitan region bourgogne burgundy franche comte
+fr-ges	western europe france french republic metropolitan region grand est
+fr-gua	north america caribbean france french republic overseas region guadeloupe
+fr-hdf	western europe france french republic metropolitan region hauts de
+fr-may	east africa france french republic overseas region department mayotte
+fr-nor	western europe france french republic metropolitan region normandie normandy
+fr-naq	western europe france french republic metropolitan region nouvelle aquitaine
+fr-occ	western europe france french republic metropolitan region occitanie
+
+fr-2a	western europe france french republic metropolitan department corse du sud
+
+fr-01	western europe france french republic metropolitan department ain
+fr-02	western europe france french republic metropolitan department aisne
+fr-03	western europe france french republic metropolitan department allier
+fr-04	western europe france french republic metropolitan department alpes de haute provence
+fr-05	western europe france french republic metropolitan department hautes alpes
+fr-06	western europe france french republic metropolitan department alpes maritimes
+fr-07	western europe france french republic metropolitan department ardeche
+fr-08	western europe france french republic metropolitan department ardennes
+fr-09	western europe france french republic metropolitan department ariege
+fr-10	western europe france french republic metropolitan department aube
+fr-11	western europe france french republic metropolitan department aude
+fr-12	western europe france french republic metropolitan department aveyron
+fr-13	western europe france french republic metropolitan department bouches du rhone
+fr-14	western europe france french republic metropolitan department calvados
+fr-15	western europe france french republic metropolitan department cantal
+fr-16	western europe france french republic metropolitan department charente
+fr-17	western europe france french republic metropolitan department charente maritime
+fr-18	western europe france french republic metropolitan department cher
+fr-19	western europe france french republic metropolitan department correze
+
+fr-2b	western europe france french republic metropolitan department haute corse
+
+fr-21	western europe france french republic metropolitan department cote dor
+fr-22	western europe france french republic metropolitan department cotes darmor
+fr-23	western europe france french republic metropolitan department creuse
+fr-24	western europe france french republic metropolitan department dordogne
+fr-25	western europe france french republic metropolitan department doubs
+fr-26	western europe france french republic metropolitan department drome
+fr-27	western europe france french republic metropolitan department eure
+fr-28	western europe france french republic metropolitan department eure et loir
+fr-29	western europe france french republic metropolitan department finistere
+fr-30	western europe france french republic metropolitan department gard
+fr-31	western europe france french republic metropolitan department haute garonne
+fr-32	western europe france french republic metropolitan department gers
+fr-33	western europe france french republic metropolitan department gironde
+fr-34	western europe france french republic metropolitan department herault
+fr-35	western europe france french republic metropolitan department ille et vilaine
+fr-36	western europe france french republic metropolitan department indre
+fr-37	western europe france french republic metropolitan department indre et loire
+fr-38	western europe france french republic metropolitan department isere
+fr-39	western europe france french republic metropolitan department jura
+fr-40	western europe france french republic metropolitan department landes
+fr-41	western europe france french republic metropolitan department loir et cher
+fr-42	western europe france french republic metropolitan department loire
+fr-43	western europe france french republic metropolitan department haute loire
+fr-44	western europe france french republic metropolitan department loire atlantique
+fr-45	western europe france french republic metropolitan department loiret
+fr-46	western europe france french republic metropolitan department lot
+fr-47	western europe france french republic metropolitan department lot et garonne
+fr-48	western europe france french republic metropolitan department lozere
+fr-49	western europe france french republic metropolitan department maine et loire
+fr-50; xx-manche	western europe france french republic metropolitan department manche
+fr-51	western europe france french republic metropolitan department marne
+fr-52	western europe france french republic metropolitan department haute marne
+fr-53	western europe france french republic metropolitan department mayenne
+fr-54	western europe france french republic metropolitan department meurthe et moselle
+fr-55	western europe france french republic metropolitan department meuse
+fr-56	western europe france french republic metropolitan department morbihan
+fr-57	western europe france french republic metropolitan department moselle
+fr-58	western europe france french republic metropolitan department nievre
+fr-59	western europe france french republic metropolitan department nord
+fr-60	western europe france french republic metropolitan department oise
+fr-61	western europe france french republic metropolitan department orne
+fr-62	western europe france french republic metropolitan department pas de calais
+fr-63	western europe france french republic metropolitan department puy de dome
+fr-64	western europe france french republic metropolitan department pyrenees atlantiques
+fr-65	western europe france french republic metropolitan department hautes pyrenees
+fr-66	western europe france french republic metropolitan department pyrenees orientales
+fr-67	western europe france french republic metropolitan department bas rhin
+fr-68	western europe france french republic metropolitan department haut rhin
+fr-69	western europe france french republic metropolitan department rhone
+fr-70	western europe france french republic metropolitan department haute saone
+fr-71	western europe france french republic metropolitan department saone et loire
+fr-72	western europe france french republic metropolitan department sarthe
+fr-73	western europe france french republic metropolitan department savoie
+fr-74	western europe france french republic metropolitan department haute savoie
+fr-75	western europe france french republic metropolitan department paris
+fr-76	western europe france french republic metropolitan department seine maritime
+fr-77	western europe france french republic metropolitan department seine et marne
+fr-78	western europe france french republic metropolitan department yvelines
+fr-79	western europe france french republic metropolitan department deux sevres
+fr-80	western europe france french republic metropolitan department somme
+fr-81	western europe france french republic metropolitan department tarn
+fr-82	western europe france french republic metropolitan department tarn et garonne
+fr-83	western europe france french republic metropolitan department var
+fr-84	western europe france french republic metropolitan department vaucluse
+fr-85	western europe france french republic metropolitan department vendee
+fr-86	western europe france french republic metropolitan department vienne
+fr-87	western europe france french republic metropolitan department haute vienne
+fr-88	western europe france french republic metropolitan department vosges
+fr-89	western europe france french republic metropolitan department yonne
+fr-90	western europe france french republic metropolitan department territoire de belfort
+fr-91	western europe france french republic metropolitan department essonne
+fr-92	western europe france french republic metropolitan department hauts de seine
+fr-93	western europe france french republic metropolitan department seine saint denis
+fr-94	western europe france french republic metropolitan department val de marne
+fr-95	western europe france french republic metropolitan department val doise
+
+nl-dr	western europe kingdom netherlands province drenthe
+nl-fl	western europe kingdom netherlands province flevoland
+nl-fr	western europe kingdom netherlands province fryslan friesland
+nl-ge	western europe kingdom netherlands province gelderland
+nl-gr	western europe kingdom netherlands province groningen
+nl-li	western europe kingdom netherlands province limburg
+nl-nb	western europe kingdom netherlands province noord north brabant
+nl-nh	western europe kingdom netherlands province noord north holland
+nl-ov	western europe kingdom netherlands province overijssel
+nl-ut	western europe kingdom netherlands province utrecht
+nl-ze	western europe kingdom netherlands province zeeland
+nl-zh	western europe kingdom netherlands province zuid south holland
+
+nl-aw	north america caribbean kingdom netherlands country aruba
+nl-cw	north america caribbean kingdom netherlands country curacao
+nl-sx	north america caribbean kingdom netherlands country sint maarten
+nl-bq1	north america caribbean kingdom netherlands special municipality bonaire
+nl-bq2	north america caribbean kingdom netherlands special municipality saba
+nl-bq3	north america caribbean kingdom netherlands special municipality sint eustatius
+
+nl-ams; xx-amsterdam	western europe kingdom netherlands city amsterdam
+
+be-bru	western europe kingdom belgium region de bruxelles capitale capital brussels hoofdstedelijk gewest
+be-vlg	western europe kingdom belgium region flamande flemish vlaams gewest
+be-wal	western europe kingdom belgium region wallonne walloon waals gewest
+
+be-van	western europe kingdom belgium province antwerpen
+be-wbr	western europe kingdom belgium province brabant wallon
+be-wht	western europe kingdom belgium province hainaut
+be-wlg	western europe kingdom belgium province liege
+be-vli	western europe kingdom belgium province limburg
+be-wlx	western europe kingdom belgium province luxembourg
+be-wna	western europe kingdom belgium province namur
+be-vov	western europe kingdom belgium province oost vlaanderen
+be-vbr	western europe kingdom belgium province vlaams brabant
+be-vwv	western europe kingdom belgium province west vlaanderen
+
+lu-ca	western europe grand duchy luxembourg district capellen kapellen
+lu-cl	western europe grand duchy luxembourg district clervaux clerf klierf
+lu-di	western europe grand duchy luxembourg district diekirch diekrech
+lu-ec	western europe grand duchy luxembourg district echternach iechternach
+lu-es	western europe grand duchy luxembourg district esch sur an der alzette uelzecht
+lu-gr	western europe grand duchy luxembourg district grevenmacher greivemaacher
+lu-lu	western europe grand duchy luxembourg district luxembourg luxemburg letzebuerg
+lu-me	western europe grand duchy luxembourg district mersch miersch
+lu-rd	western europe grand duchy luxembourg district redange redingen reiden atert
+lu-rm	western europe grand duchy luxembourg district remich reimech
+lu-vd	western europe grand duchy luxembourg district vianden veianen
+lu-wi	western europe grand duchy luxembourg district wiltz wolz
+
+de-bw	western europe federal republic germany land baden wurttemberg
+de-by	western europe federal republic germany land bayern bavaria
+de-be	western europe federal republic germany land berlin
+de-bb	western europe federal republic germany land brandenburg
+de-hb	western europe federal republic germany land bremen
+de-hh	western europe federal republic germany land hamburg
+de-he	western europe federal republic germany land hessen hesse
+de-mv	western europe federal republic germany land mecklenburg vorpommern western pomerania
+de-ni	western europe federal republic germany land niedersachsen lower saxony
+de-nw	western europe federal republic germany land nordrhein westfalen north rhine westphalia
+de-rp	western europe federal republic germany land rheinland pfalz rhineland palatinate
+de-sl	western europe federal republic germany land saarland
+de-sn	western europe federal republic germany land sachsen saxony
+de-st	western europe federal republic germany land sachsen saxony anhalt
+de-sh	western europe federal republic germany land schleswig holstein
+de-th	western europe federal republic germany land thuringen thuringia
+
+
+## Western European Flags B
+
+ch-ag	western europe switzerland swiss confederation canton aargau
+ch-ar	western europe switzerland swiss confederation canton appenzell ausserrhoden
+ch-ai	western europe switzerland swiss confederation canton appenzell inerrhoden
+ch-bl	western europe switzerland swiss confederation canton basel landschaft
+ch-bs	western europe switzerland swiss confederation canton basel stadt
+ch-be	western europe switzerland swiss confederation canton bern berne
+ch-fr	western europe switzerland swiss confederation canton fribourg freiburg
+ch-ge	western europe switzerland swiss confederation canton geneve geneva
+ch-gl	western europe switzerland swiss confederation canton glarus
+ch-gr	western europe switzerland swiss confederation canton graubunden grigioni grischun grisons
+ch-ju	western europe switzerland swiss confederation canton jura
+ch-lu	western europe switzerland swiss confederation canton luzern
+ch-ne	western europe switzerland swiss confederation canton neuchatel
+ch-nw	western europe switzerland swiss confederation canton nidwalden
+ch-ow	western europe switzerland swiss confederation canton obwalden
+ch-sg	western europe switzerland swiss confederation canton sankt gallen
+ch-sh	western europe switzerland swiss confederation canton schaffhausen
+ch-sz	western europe switzerland swiss confederation canton schwyz
+ch-so	western europe switzerland swiss confederation canton solothurn
+ch-tg	western europe switzerland swiss confederation canton thurgau
+ch-ti	western europe switzerland swiss confederation canton ticino
+ch-ur	western europe switzerland swiss confederation canton uri
+ch-vs	western europe switzerland swiss confederation canton valais wallis
+ch-vd	western europe switzerland swiss confederation canton vaud
+ch-zg	western europe switzerland swiss confederation canton zug
+ch-zh; xx-zurich	western europe switzerland swiss confederation canton zurich
+
+it-21	southern europe italy italian republic region piemonte piedmont
+it-23	southern europe italy italian republic region valle daosta val daoste aosta valley
+it-25	southern europe italy italian republic region lombardia lombardy
+it-32	southern europe italy italian republic region trentino alto adige sudtirol south tyrol
+it-34	southern europe italy italian republic region veneto
+it-36	southern europe italy italian republic region friuli venezia giulia
+it-42	southern europe italy italian republic region liguria
+it-45	southern europe italy italian republic region emilia romagna
+it-52	southern europe italy italian republic region toscana tuscany
+it-55	southern europe italy italian republic region umbria
+it-57	southern europe italy italian republic region marche
+it-62	southern europe italy italian republic region lazio
+it-65	southern europe italy italian republic region abruzzo
+it-67	southern europe italy italian republic region molise
+it-72	southern europe italy italian republic region campania
+it-75	southern europe italy italian republic region puglia apulia
+it-77	southern europe italy italian republic region basilicata
+it-78	southern europe italy italian republic region calabria
+it-82	southern europe italy italian republic region sicilia sicily
+it-88	southern europe italy italian republic region sardegna sardinia
+
+it-ag	southern europe italy italian republic free communal consortium agrigento
+it-al	southern europe italy italian republic province alessandria
+it-an	southern europe italy italian republic province ancona
+it-ao	southern europe italy italian republic province aosta aoste
+it-ap	southern europe italy italian republic province ascoli piceno
+it-aq	southern europe italy italian republic province laquila
+it-ar	southern europe italy italian republic province arezzo
+it-at	southern europe italy italian republic province asti
+it-av	southern europe italy italian republic province avellino
+it-ba	southern europe italy italian republic metropolitan city bari
+it-bg	southern europe italy italian republic province bergamo
+it-bi	southern europe italy italian republic province biella
+it-bl	southern europe italy italian republic province belluno
+it-bn	southern europe italy italian republic province benevento
+it-bo	southern europe italy italian republic metropolitan city bologna
+it-br	southern europe italy italian republic province brindisi
+it-bs	southern europe italy italian republic province brescia
+it-bt	southern europe italy italian republic province barletta andria trani
+it-bz	southern europe italy italian republic province bolzano bozen south tyrol
+it-ca	southern europe italy italian republic metropolitan city cagliari
+it-cb	southern europe italy italian republic province campobasso
+it-ce	southern europe italy italian republic province caserta
+it-ch	southern europe italy italian republic province chieti
+it-ci	southern europe italy italian republic province carbonia iglesias
+it-cl	southern europe italy italian republic free communal consortium caltanissetta
+it-cn	southern europe italy italian republic province cuneo
+it-co	southern europe italy italian republic province como
+it-cr	southern europe italy italian republic province cremona
+it-cs	southern europe italy italian republic province cosenza
+it-ct	southern europe italy italian republic metropolitan city catania
+it-cz	southern europe italy italian republic province catanzaro
+it-en	southern europe italy italian republic free communal consortium enna
+it-fc	southern europe italy italian republic province forli cesena
+it-fe	southern europe italy italian republic province ferrara
+it-fg	southern europe italy italian republic province foggia
+it-fi	southern europe italy italian republic metropolitan city firenze florence
+it-fm	southern europe italy italian republic province fermo
+it-fr	southern europe italy italian republic province frosinone
+it-ge	southern europe italy italian republic metropolitan city genova genoa
+it-go	southern europe italy italian republic province gorizia
+it-gr	southern europe italy italian republic province grosseto
+it-im	southern europe italy italian republic province imperia
+it-is	southern europe italy italian republic province isernia
+it-kr	southern europe italy italian republic province crotone
+it-lc	southern europe italy italian republic province lecco
+it-le	southern europe italy italian republic province lecce
+it-li	southern europe italy italian republic province livorno leghorn
+it-lo	southern europe italy italian republic province lodi
+it-lt	southern europe italy italian republic province latina
+it-lu	southern europe italy italian republic province lucca
+it-mb	southern europe italy italian republic province monza e brianza
+it-mc	southern europe italy italian republic province macerata
+it-me	southern europe italy italian republic metropolitan city messina
+it-mi	southern europe italy italian republic metropolitan city milano milan
+it-mn	southern europe italy italian republic province mantova
+it-mo	southern europe italy italian republic province modena
+it-ms	southern europe italy italian republic province massa carrara
+it-mt	southern europe italy italian republic province matera
+it-na	southern europe italy italian republic metropolitan city napoli naples
+it-no	southern europe italy italian republic province novara
+it-nu	southern europe italy italian republic province nuoro
+it-og	southern europe italy italian republic province ogliastra
+it-or	southern europe italy italian republic province oristano
+it-ot	southern europe italy italian republic province olbia tempio
+it-pa	southern europe italy italian republic metropolitan city palermo
+it-pc	southern europe italy italian republic province piacenza
+it-pd	southern europe italy italian republic province padova padua
+it-pe	southern europe italy italian republic province pescara
+it-pg	southern europe italy italian republic province perugia
+it-pi	southern europe italy italian republic province pisa
+it-pn	southern europe italy italian republic province pordenone
+it-po	southern europe italy italian republic province prato
+it-pr	southern europe italy italian republic province parma
+it-pt	southern europe italy italian republic province pistoia
+it-pu	southern europe italy italian republic province pesaro e urbino
+it-pv	southern europe italy italian republic province pavia
+it-pz	southern europe italy italian republic province potenza
+it-ra	southern europe italy italian republic province ravenna
+it-rc	southern europe italy italian republic metropolitan city reggio calabria
+it-re	southern europe italy italian republic province reggio emilia
+it-rg	southern europe italy italian republic free communal consortium ragusa
+it-ri	southern europe italy italian republic province rieti
+it-rm	southern europe italy italian republic metropolitan city roma rome
+it-rn	southern europe italy italian republic province rimini
+it-ro	southern europe italy italian republic province rovigo
+it-sa	southern europe italy italian republic province salerno
+it-sd	southern europe italy italian republic province sud sardegna
+it-si	southern europe italy italian republic province siena
+it-so	southern europe italy italian republic province sondrio
+it-sp	southern europe italy italian republic province la spezia
+it-sr	southern europe italy italian republic free communal consortium siracusa syracuse
+it-ss	southern europe italy italian republic province sassari
+it-sv	southern europe italy italian republic province savona
+it-ta	southern europe italy italian republic province taranto ionian
+it-te	southern europe italy italian republic province teramo
+it-tn	southern europe italy italian republic province trento trentino
+it-to	southern europe italy italian republic metropolitan city torino turin
+it-tp	southern europe italy italian republic free communal consortium trapani
+it-tr	southern europe italy italian republic province terni
+it-ts	southern europe italy italian republic province trieste
+it-tv	southern europe italy italian republic province treviso
+it-ud	southern europe italy italian republic province udine
+it-va	southern europe italy italian republic province varese
+it-vb	southern europe italy italian republic province verbano cusio ossola
+it-vc	southern europe italy italian republic province vercelli
+it-ve	southern europe italy italian republic metropolitan city venezia venice
+it-vi	southern europe italy italian republic province vicenza
+it-vr	southern europe italy italian republic province verona
+it-vs	southern europe italy italian republic province medio campidano
+it-vt	southern europe italy italian republic province viterbo
+it-vv	southern europe italy italian republic province vibo valentia
+
+
+## Oceanic Flags
+
+# Australasia
+
+au-nsw; au-ns	oceania australasia commonwealth australia state new south wales
+au-qld; au-ql	oceania australasia commonwealth australia state queensland
+au-sa	oceania australasia commonwealth australia state south
+au-tas; au-ts	oceania australasia commonwealth australia state tasmania
+au-vic; au-vi	oceania australasia commonwealth australia state victoria
+au-wa	oceania australasia commonwealth australia state western
+au-act; au-ct	oceania australasia commonwealth australia australian capital territory
+au-nt	oceania australasia commonwealth australia northern territory
+
+nz-auk	oceania australasia new zealand region auckland tamaki makau rau
+nz-bop	oceania australasia new zealand region bay plenty te moana a toi te huatahi
+nz-can	oceania australasia new zealand region canterbury waitaha
+nz-gis	oceania australasia new zealand region gisborne turanga nui a kiwa
+nz-hkb	oceania australasia new zealand region hawkes bay te matau a maui
+nz-mbh	oceania australasia new zealand region marlborough
+nz-mwt	oceania australasia new zealand region manawatu wanganui whanganui
+nz-nsn	oceania australasia new zealand region nelson whakatu
+nz-ntl	oceania australasia new zealand region northland te tai tokerau
+nz-ota	oceania australasia new zealand region otago o takou
+nz-stl	oceania australasia new zealand region southland murihiku
+nz-tas	oceania australasia new zealand region tasman
+nz-tki	oceania australasia new zealand region taranaki
+nz-wko	oceania australasia new zealand region waikato
+nz-wgn	oceania australasia new zealand region wellington te whanga nui a tara
+nz-wtc	oceania australasia new zealand region west coast te taihau a uru
+nz-cit	oceania australasia new zealand special island authority chatham islands territory wharekauri
+nz-krikienoid	oceania australasia new zealand krikienoid proposal
+
+# Melanesia
+
+pg-ncd	oceania melanesia southeast asia independent state papua new guinea national capital district port moresby
+pg-cpm	oceania melanesia southeast asia independent state papua new guinea province central
+pg-cpk	oceania melanesia southeast asia independent state papua new guinea province chimbu
+pg-ehg	oceania melanesia southeast asia independent state papua new guinea province eastern highlands
+pg-ebr	oceania melanesia southeast asia independent state papua new guinea province east new britain
+pg-esw	oceania melanesia southeast asia independent state papua new guinea province east sepik
+pg-epw	oceania melanesia southeast asia independent state papua new guinea province enga
+pg-gpk	oceania melanesia southeast asia independent state papua new guinea province gulf
+pg-hla	oceania melanesia southeast asia independent state papua new guinea province hela
+pg-jwk	oceania melanesia southeast asia independent state papua new guinea province jiwaka
+pg-mpm	oceania melanesia southeast asia independent state papua new guinea province madang
+pg-mrl	oceania melanesia southeast asia independent state papua new guinea province manus
+pg-mba	oceania melanesia southeast asia independent state papua new guinea province milne bay
+pg-mpl	oceania melanesia southeast asia independent state papua new guinea province morobe
+pg-nik	oceania melanesia southeast asia independent state papua new guinea province new ireland
+pg-npp	oceania melanesia southeast asia independent state papua new guinea province northern
+pg-san	oceania melanesia southeast asia independent state papua new guinea province west sepik
+pg-shm	oceania melanesia southeast asia independent state papua new guinea province southern highlands
+pg-wpd	oceania melanesia southeast asia independent state papua new guinea province western
+pg-whm	oceania melanesia southeast asia independent state papua new guinea province western highlands
+pg-wbk	oceania melanesia southeast asia independent state papua new guinea province west new britain
+pg-nsb; pg-nsa	oceania melanesia southeast asia independent state papua new guinea autonomous region bougainville
+
+fj-c	oceania melanesia republic fiji division central
+fj-e	oceania melanesia republic fiji division eastern
+fj-n	oceania melanesia republic fiji division northern
+fj-w	oceania melanesia republic fiji division western
+fj-r	oceania melanesia republic fiji dependency rotuma
+
+fj-01	oceania melanesia republic fiji province ba
+fj-02	oceania melanesia republic fiji province bua
+fj-03	oceania melanesia republic fiji province cakaudrove
+fj-04	oceania melanesia republic fiji province kadavu
+fj-05	oceania melanesia republic fiji province lau
+fj-06	oceania melanesia republic fiji province lomaiviti
+fj-07	oceania melanesia republic fiji province macuata
+fj-08	oceania melanesia republic fiji province nadroga navosa
+fj-09	oceania melanesia republic fiji province naitasiri
+fj-10	oceania melanesia republic fiji province namosi
+fj-11	oceania melanesia republic fiji province ra
+fj-12	oceania melanesia republic fiji province rewa
+fj-13	oceania melanesia republic fiji province serua
+fj-14	oceania melanesia republic fiji province tailevu
+
+sb-ct	oceania melanesia solomon islands capital territory honiara
+sb-ce	oceania melanesia solomon islands province central
+sb-ch	oceania melanesia solomon islands province choiseul
+sb-gu	oceania melanesia solomon islands province guadalcanal
+sb-is	oceania melanesia solomon islands province isabel
+sb-mk	oceania melanesia solomon islands province makira ulawa
+sb-ml	oceania melanesia solomon islands province malaita
+sb-rb	oceania melanesia solomon islands province rennell bellona
+sb-te	oceania melanesia solomon islands province temotu
+sb-we	oceania melanesia solomon islands province western
+
+vu-map	oceania melanesia republic vanuatu province malampa
+vu-pam	oceania melanesia republic vanuatu province penama
+vu-sam	oceania melanesia republic vanuatu province sanma
+vu-see	oceania melanesia republic vanuatu province shefa
+vu-tae	oceania melanesia republic vanuatu province tafea
+vu-tob	oceania melanesia republic vanuatu province torba
+
+# Polynesia
+
+ws-aa	oceania polynesia western samoa independent state district aana
+ws-al	oceania polynesia western samoa independent state district aiga i le tai
+ws-at	oceania polynesia western samoa independent state district atua
+ws-fa	oceania polynesia western samoa independent state district faasaleleaga
+ws-ge	oceania polynesia western samoa independent state district gagaemauga
+ws-gi	oceania polynesia western samoa independent state district gagaifomauga
+ws-pa	oceania polynesia western samoa independent state district palauli
+ws-sa	oceania polynesia western samoa independent state district satupaitea
+ws-tu	oceania polynesia western samoa independent state district tuamasaga
+ws-vf	oceania polynesia western samoa independent state district vaa o fonoti
+ws-vs	oceania polynesia western samoa independent state district vaisigano
+
+to-01	oceania polynesia kingdom tonga division eua
+to-02	oceania polynesia kingdom tonga division haapai
+to-03	oceania polynesia kingdom tonga division niuas
+to-04	oceania polynesia kingdom tonga division tongatapu
+to-05	oceania polynesia kingdom tonga division vavau
+
+tv-fun	oceania polynesia tuvalu ellice islands town council funafuti
+tv-nmg	oceania polynesia tuvalu ellice islands island council nanumaga
+tv-nma	oceania polynesia tuvalu ellice islands island council nanumea
+tv-nit	oceania polynesia tuvalu ellice islands island council niutao
+tv-nui	oceania polynesia tuvalu ellice islands island council nui
+tv-nkf	oceania polynesia tuvalu ellice islands island council nukufetau
+tv-nkl	oceania polynesia tuvalu ellice islands island council nukulaelae
+tv-vai	oceania polynesia tuvalu ellice islands island council vaitupu
+
+wf-al	oceania polynesia france french republic territory wallis futuna islands precinct alo
+wf-sg	oceania polynesia france french republic territory wallis futuna islands precinct sigave
+wf-uv	oceania polynesia france french republic territory wallis futuna islands precinct uvea
+
+# Micronesia
+
+fm-trk	oceania micronesia federated states state chuuk truk
+fm-ksa	oceania micronesia federated states state kosrae
+fm-pni	oceania micronesia federated states state pohnpei
+fm-yap	oceania micronesia federated states state yap
+
+ki-g	oceania micronesia republic kiribati gilbert islands
+ki-l	oceania micronesia republic kiribati line islands
+ki-p	oceania micronesia republic kiribati phoenix islands
+
+mh-l	oceania micronesia republic marshall islands ralik chain
+mh-t	oceania micronesia republic marshall islands ratak chain
+mh-all	oceania micronesia republic marshall islands municipality ailinglaplap aelonlaplap
+mh-alk	oceania micronesia republic marshall islands municipality ailuk aelok
+mh-arn	oceania micronesia republic marshall islands municipality arno
+mh-aur	oceania micronesia republic marshall islands municipality aur
+mh-kil	oceania micronesia republic marshall islands municipality biniki kili pikinni kole
+mh-ebo	oceania micronesia republic marshall islands municipality ebon epoon
+mh-eni	oceania micronesia republic marshall islands municipality enewetak ujelang anewetak wujlan
+mh-jab	oceania micronesia republic marshall islands municipality jabat jebat
+mh-jal	oceania micronesia republic marshall islands municipality jaluit jalwoj
+mh-kwa	oceania micronesia republic marshall islands municipality kwajalein kuwajleen
+mh-lae	oceania micronesia republic marshall islands municipality lae
+mh-lib	oceania micronesia republic marshall islands municipality lib ellep
+mh-lik	oceania micronesia republic marshall islands municipality likiep
+mh-maj	oceania micronesia republic marshall islands municipality majuro majro
+mh-mal	oceania micronesia republic marshall islands municipality maloelap
+mh-mej	oceania micronesia republic marshall islands municipality mejit majej
+mh-mil	oceania micronesia republic marshall islands municipality mili mile
+mh-nmk	oceania micronesia republic marshall islands municipality namdrik namdik
+mh-nmu	oceania micronesia republic marshall islands municipality namu namo
+mh-ron	oceania micronesia republic marshall islands municipality rongelap ronlap
+mh-uja	oceania micronesia republic marshall islands municipality ujae
+mh-uti	oceania micronesia republic marshall islands municipality utrik utrok
+mh-wth	oceania micronesia republic marshall islands municipality wotho wotto
+mh-wtj	oceania micronesia republic marshall islands municipality wotje wojja
+
+pw-002	oceania micronesia republic palau state aimeliik
+pw-004	oceania micronesia republic palau state airai
+pw-010	oceania micronesia republic palau state anguar
+pw-050	oceania micronesia republic palau state hatohobei
+pw-100	oceania micronesia republic palau state kayangel
+pw-150	oceania micronesia republic palau state koror
+pw-212	oceania micronesia republic palau state melekeok
+pw-214	oceania micronesia republic palau state ngaraard
+pw-218	oceania micronesia republic palau state ngarchelong
+pw-222	oceania micronesia republic palau state ngardmau
+pw-224	oceania micronesia republic palau state ngatpang
+pw-226	oceania micronesia republic palau state ngchesar
+pw-227	oceania micronesia republic palau state ngeremlengui
+pw-228	oceania micronesia republic palau state ngiwal
+pw-350	oceania micronesia republic palau state peleliu
+pw-370	oceania micronesia republic palau state sonsorol
+
+nr-01	oceania micronesia republic nauru pleasant island district aiwo
+nr-02	oceania micronesia republic nauru pleasant island district anabar
+nr-03	oceania micronesia republic nauru pleasant island district anetan
+nr-04	oceania micronesia republic nauru pleasant island district anibare
+nr-05	oceania micronesia republic nauru pleasant island district baitsi baiti
+nr-06	oceania micronesia republic nauru pleasant island district boe
+nr-07	oceania micronesia republic nauru pleasant island district buada
+nr-08	oceania micronesia republic nauru pleasant island district denigomodu
+nr-09	oceania micronesia republic nauru pleasant island district ewa
+nr-10	oceania micronesia republic nauru pleasant island district ijuw
+nr-11	oceania micronesia republic nauru pleasant island district meneng
+nr-12	oceania micronesia republic nauru pleasant island district nibok
+nr-13	oceania micronesia republic nauru pleasant island district uaboe
+nr-14	oceania micronesia republic nauru pleasant island district yaren
+
+
+## Miscellaneous Subdivision Flags
+
+aq-smith; xx-aq-smith	antarctica south pole whitney smith proposal orange
+so-somaliland; xx-somaliland	east africa federal republic somalia somaliland
+sy-snc; xx-sy-snc	western southwestern asia middle east syria syrian arab republic national coalition
+xx-northpole	arctic north pole
+
+
+## Constructed Language Flags
+
+xx-conlang	conlang constructed language creation society
+xx-conlang-esperanto	conlang constructed language esperanto
+xx-conlang-lfn	conlang constructed language lfn lingua franca nova
+xx-conlang-pandunia	conlang constructed language pandunia
+xx-conlang-klingon	conlang constructed language klingon empire kronos qonos star trek
+
+
+## Pride Flags
+
+xx-pride-lgbt	lgbt gay pride rainbow 6 six band bands
+xx-pride-lgbt-7band	lgbt gay pride rainbow 7 seven band bands
+xx-pride-lgbt-8band	lgbt gay pride rainbow 8 eight band bands
+xx-pride-lgbt-us	lgbt gay pride rainbow north america united states us usa
+xx-pride-lgbt-us-co	lgbt gay pride rainbow north america united states us usa state colorado colo co
+xx-pride-lgbt-us-phl	lgbt gay pride rainbow north america united states us usa city philadelphia phl pennsylvania penn pa
+
+xx-pride-asexual	lgbt gay pride asexual ace
+xx-pride-lesbian-1	lgbt gay pride lesbian labrys triangle purple
+xx-pride-gay	lgbt gay pride male homosexuality
+xx-pride-bisexual	lgbt gay pride bisexual bi
+xx-pride-pansexual	lgbt gay pride pansexual pan
+xx-pride-polysexual	lgbt gay pride polysexual poly
+xx-pride-demisexual	lgbt gay pride demisexual demi
+xx-pride-lesbian-2	lgbt gay pride lesbian pink red 9 nine band bands
+xx-pride-lesbian-3	lgbt gay pride lesbian orange pink 7 seven band bands
+xx-pride-lesbian-4	lgbt gay pride lesbian orange pink 5 five band bands
+xx-pride-lesbian-5	lgbt gay pride lesbian inclusive everyone 4 four band bands lydia lydiandragon
+xx-pride-lesbian-6	lgbt gay pride lesbian inclusive everyone 4 four band bands maya kern revision revised
+xx-pride-aromantic	lgbt gay pride aromantic aro
+
+xx-pride-trans	lgbt trans transgender transsexual pride monica helms
+xx-pride-trans-il	lgbt trans transgender transsexual pride israel
+
+xx-pride-agender	lgbt gay pride gender agender
+xx-pride-female	pride gender female
+xx-pride-male	pride gender male
+xx-pride-androgyne	lgbt gay pride gender androgyne androgynous
+xx-pride-bigender	lgbt gay pride gender bigender
+xx-pride-genderfluid	lgbt gay pride gender genderfluid fluid
+xx-pride-genderqueer	lgbt gay pride gender genderqueer queer
+xx-pride-nonbinary	lgbt gay pride gender nonbinary non binary nb enby
+
+xx-pride-intersex-1	lgbt gay pride intersex gradient
+xx-pride-intersex-2	lgbt gay pride intersex circle
+
+xx-pride-bear	lgbt gay pride bear
+xx-pride-lipstick-1	lgbt gay pride femme lipstick lesbian pink red 9 nine band bands
+xx-pride-twink	lgbt gay pride femme male twink
+xx-pride-lipstick-2	lgbt gay pride femme lipstick lesbian inclusive everyone 4 four band bands rebecca bettencourt
+
+xx-pride-leather	kink pride bdsm leather
+xx-pride-poly	pride poly polyamory polyamorous
+xx-pride-bdsm	kink pride bdsm
+xx-pride-rubber	kink pride bdsm rubber
+xx-pride-ownership	kink pride bdsm ownership
+xx-pride-master-slave	kink pride bdsm master slave
+xx-pride-fat-fetish	pride fat fetish
+
+xx-pride-ally	pride lgbt ally
+xx-pride-heterosexual	pride straight hetero heterosexual
+
+xx-aristasia	aristasia feminine empire herthe
+
+xx-christian	christ christian christianity
+
+
+## Sports Flags
+
+xx-racing-start	sport sports racing start race safe conditions pit lane open
+xx-racing-caution	sport sports racing caution
+xx-racing-hazard	sport sports racing debris fluid oil hazard track
+xx-racing-pit-closed	sport sports racing pit lane closed
+xx-racing-stop	sport sports racing race stop stopped delay delayed
+xx-racing-slow-vehicle	sport sports racing slow vehicle track final lap
+xx-racing-final-lap	sport sports racing final lap ambulance course
+xx-racing-return	sport sports racing return pits penality disqualification
+xx-racing-return-service	sport sports racing return pits service mechanical problem
+xx-racing-unsportsmanlike	sport sports racing unsportsmanlike conduct
+xx-racing-not-scored	sport sports racing ignore ignored ignoring black not no longer being scored
+xx-racing-faster-car-1	sport sports racing faster car approaching fia
+xx-racing-faster-car-2	sport sports racing faster car approaching nascar indy
+xx-racing-finish	sport sports racing race finish finished checkered chequered
+
+
+## Mika City Flags
+
+xx-kk-mika	kreative entertainment media mika mylar
+xx-kk-kellahanamana	kreative entertainment media kellahanamana kellamanahana
+xx-kk-kappaa	kreative entertainment media kappaa
+
+xx-kk-mika-tammy	kreative entertainment media mika mylar tammy tammies
+xx-kk-mika-emily	kreative entertainment media mika mylar emily emilies
+
+xx-kk-mika-annett	kreative entertainment media mika mylar mikianan mylarian family annett toynenda
+xx-kk-mika-harrett	kreative entertainment media mika mylar mikianan mylarian family harrett
+xx-kk-mika-korra	kreative entertainment media mika mylar mikianan mylarian family korra texxa
+xx-kk-mika-lyndaea	kreative entertainment media mika mylar mikianan mylarian family lyndaea
+xx-kk-mika-morra	kreative entertainment media mika mylar mikianan mylarian family morra rytta
+xx-kk-mika-olla	kreative entertainment media mika mylar mikianan mylarian family olla senna
+
+xx-kk-kappaa-ioxio	kreative entertainment media kappaa kappaan family ioxio
+xx-kk-kappaa-sibleck	kreative entertainment media kappaa kappaan family sibleck
+
+
+## Miscellaneous Flags
+
+xx-misc-vexillo	misc miscellaneous kreative vexillo
+xx-misc-fam	misc miscellaneous fam famfamfam
+
+xx-org-fiav	org organization fiav international federation vexillological associations
+xx-org-fotw	org organization fotw flags world
+xx-org-nava	org organization nava north american vexillological association
+
+xx-pirate	misc miscellaneous pirate piracy skull crossbones
+xx-pace	misc miscellaneous pace peace rainbow
+
+xx-misc-rgb	misc miscellaneous color model system rgb red green blue
+xx-misc-cmyk	misc miscellaneous color model system cmyk cyan magenta yellow black key
+xx-misc-ntsc	misc miscellaneous color model system ntsc national television standards commission never twice same
+xx-misc-ntscid	misc miscellaneous color model system ntsc national television standards commission never twice same station id bar
+
+xx-misc-iguana	misc miscellaneous iguana powersurgius apple computer power macintosh secret about box easter egg
