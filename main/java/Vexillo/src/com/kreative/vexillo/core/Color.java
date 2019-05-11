@@ -22,6 +22,17 @@ public abstract class Color {
 			}
 			return 0;
 		}
+		@Override
+		public String toString() {
+			StringBuffer sb = new StringBuffer();
+			boolean first = true;
+			for (Color color : list) {
+				if (first) first = false;
+				else sb.append(", ");
+				sb.append(color);
+			}
+			return sb.toString();
+		}
 		@Override public boolean add(Color c) { return list.add(c); }
 		@Override public void add(int i, Color c) { list.add(i, c); }
 		@Override public boolean addAll(Collection<? extends Color> c) { return list.addAll(c); }
@@ -58,6 +69,10 @@ public abstract class Color {
 		public int getRGB() {
 			return 0xFF000000 | (r << 16) | (g << 8) | b;
 		}
+		@Override
+		public String toString() {
+			return "RGB(" + r + " " + g + " " + b + ")";
+		}
 	}
 	
 	public static final class RGBDecimal extends Color implements HasRGB {
@@ -74,6 +89,10 @@ public abstract class Color {
 			int b = (int)Math.round(this.b * 255);
 			return 0xFF000000 | (r << 16) | (g << 8) | b;
 		}
+		@Override
+		public String toString() {
+			return "RGB(" + r + " " + g + " " + b + ")";
+		}
 	}
 	
 	public static final class HSV extends Color {
@@ -83,6 +102,10 @@ public abstract class Color {
 			this.s = Math.max(0.0, Math.min(100.0, s));
 			this.v = Math.max(0.0, Math.min(100.0, v));
 		}
+		@Override
+		public String toString() {
+			return "HSV(" + h + " " + s + " " + v + ")";
+		}
 	}
 	
 	public static final class HSL extends Color {
@@ -91,6 +114,10 @@ public abstract class Color {
 			this.h = Math.max(0.0, Math.min(360.0, h));
 			this.s = Math.max(0.0, Math.min(100.0, s));
 			this.l = Math.max(0.0, Math.min(100.0, l));
+		}
+		@Override
+		public String toString() {
+			return "HSL(" + h + " " + s + " " + l + ")";
 		}
 	}
 	
@@ -102,6 +129,10 @@ public abstract class Color {
 			this.y = Math.max(0, Math.min(100, y));
 			this.k = Math.max(0, Math.min(100, k));
 		}
+		@Override
+		public String toString() {
+			return "CMYK(" + c + " " + m + " " + y + " " + k + ")";
+		}
 	}
 	
 	public static final class CMYKDecimal extends Color {
@@ -111,6 +142,10 @@ public abstract class Color {
 			this.m = Math.max(0.0, Math.min(1.0, m));
 			this.y = Math.max(0.0, Math.min(1.0, y));
 			this.k = Math.max(0.0, Math.min(1.0, k));
+		}
+		@Override
+		public String toString() {
+			return "CMYK(" + c + " " + m + " " + y + " " + k + ")";
 		}
 	}
 	
@@ -127,6 +162,10 @@ public abstract class Color {
 			this.a = Math.max(-100.0, Math.min(100.0, a));
 			this.b = Math.max(-100.0, Math.min(100.0, b));
 		}
+		@Override
+		public String toString() {
+			return "CIELab(" + illuminant + " " + l + " " + a + " " + b + ")";
+		}
 	}
 	
 	public static final class CIExyY extends Color {
@@ -135,6 +174,10 @@ public abstract class Color {
 			this.x = x;
 			this.y = y;
 			this.Y = Y;
+		}
+		@Override
+		public String toString() {
+			return "CIExyY(" + x + " " + y + " " + Y + ")";
 		}
 	}
 	
@@ -145,6 +188,10 @@ public abstract class Color {
 			this.y = y;
 			this.z = z;
 		}
+		@Override
+		public String toString() {
+			return "CIEXYZ(" + x + " " + y + " " + z + ")";
+		}
 	}
 	
 	public static final class NCSBase extends Color {
@@ -152,6 +199,10 @@ public abstract class Color {
 		public final Hue hue;
 		public NCSBase(Hue hue) {
 			this.hue = hue;
+		}
+		@Override
+		public String toString() {
+			return "NCS(" + hue + ")";
 		}
 	}
 	
@@ -173,12 +224,23 @@ public abstract class Color {
 			this.whiteness = 100 - this.blackness - this.chromaticity;
 			this.baseHuePercent = 100 - this.mixedHuePercent;
 		}
+		@Override
+		public String toString() {
+			String h1 = baseHue.toString().substring(0, 1);
+			String h2 = mixedHue.toString().substring(0, 1);
+			String hue = h1 + mixedHuePercent + h2;
+			return "NCS(" + blackness + " " + chromaticity + " " + hue + ")";
+		}
 	}
 	
 	public static final class MunsellNeutral extends Color {
 		public final double value;
 		public MunsellNeutral(double value) {
 			this.value = Math.max(0.0, Math.min(100.0, value));
+		}
+		@Override
+		public String toString() {
+			return "Munsell(N" + value + ")";
 		}
 	}
 	
@@ -197,12 +259,21 @@ public abstract class Color {
 			this.value = Math.max(0.0, Math.min(100.0, v));
 			this.chroma = Math.max(0.0, Math.min(100.0, s));
 		}
+		@Override
+		public String toString() {
+			String hh = hue.toString().replaceAll("([A-Z])[A-Z]+_?", "$1");
+			return "Munsell(" + hueSubstep + hh + " " + value + " " + chroma + ")";
+		}
 	}
 	
 	public static final class Cable extends Color {
 		public final int number;
 		public Cable(int number) {
 			this.number = Math.max(10000, Math.min(99999, number));
+		}
+		@Override
+		public String toString() {
+			return "Cable(" + number + ")";
 		}
 	}
 	
@@ -211,12 +282,20 @@ public abstract class Color {
 		public RAL(int number) {
 			this.number = Math.max(1000, Math.min(9999, number));
 		}
+		@Override
+		public String toString() {
+			return "RAL(" + number + ")";
+		}
 	}
 	
 	public static final class Pantone extends Color {
 		public final String name;
 		public Pantone(String name) {
 			this.name = name.trim();
+		}
+		@Override
+		public String toString() {
+			return "Pantone(" + name + ")";
 		}
 	}
 }

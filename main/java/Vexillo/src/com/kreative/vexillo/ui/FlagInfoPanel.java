@@ -60,7 +60,7 @@ public class FlagInfoPanel extends JPanel {
 			idLabel.setText(flag.getId());
 			nameLabel.setText(flag.getName());
 			propertyLabel.setText(propertyString());
-			proportionLabel.setText(proportionString());
+			proportionLabel.setText(flag.getProportionString());
 		}
 	}
 	
@@ -73,24 +73,6 @@ public class FlagInfoPanel extends JPanel {
 			}
 		}
 		return "\u00A0";
-	}
-	
-	private String proportionString() {
-		int bestDenom = 1;
-		double bestNum = flag.getWidthFromHeight2D(1);
-		double bestError = Math.abs(bestNum - Math.round(bestNum));
-		if (bestError == 0) return bestDenom + ":" + (int)Math.round(bestNum);
-		for (int denom = 2; denom < 1000; denom++) {
-			double num = flag.getWidthFromHeight2D(denom);
-			double error = Math.abs(num - Math.round(num));
-			if (error == 0) return denom + ":" + (int)Math.round(num);
-			else if (error < bestError) {
-				bestDenom = denom;
-				bestNum = num;
-				bestError = error;
-			}
-		}
-		return bestDenom + ":" + bestNum;
 	}
 	
 	private static Font getFont(String name, int size) {

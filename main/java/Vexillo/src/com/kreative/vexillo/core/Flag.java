@@ -63,6 +63,24 @@ public class Flag {
 		return width / getWidthFromHeight2D(1);
 	}
 	
+	public String getProportionString() {
+		int bestDenom = 1;
+		double bestNum = getWidthFromHeight2D(1);
+		double bestError = Math.abs(bestNum - Math.round(bestNum));
+		if (bestError == 0) return bestDenom + ":" + (int)Math.round(bestNum);
+		for (int denom = 2; denom < 1000; denom++) {
+			double num = getWidthFromHeight2D(denom);
+			double error = Math.abs(num - Math.round(num));
+			if (error == 0) return denom + ":" + (int)Math.round(num);
+			else if (error < bestError) {
+				bestDenom = denom;
+				bestNum = num;
+				bestError = error;
+			}
+		}
+		return bestDenom + ":" + bestNum;
+	}
+	
 	public Map<String, Dimension> dimensions() { return this.dimensions; }
 	public Map<String, Color> colors() { return this.colors; }
 	public Map<String, Symbol> symbols() { return this.symbols; }

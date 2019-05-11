@@ -9,6 +9,8 @@ import java.text.CharacterIterator;
 import java.text.StringCharacterIterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
+import com.kreative.vexillo.core.Color;
 import com.kreative.vexillo.core.Flag;
 import com.kreative.vexillo.core.FlagParser;
 
@@ -98,6 +100,21 @@ public class VexInfo {
 				return Double.toString(flag.getHeightFromWidth2D(1));
 			}
 		},
+		C("colors") {
+			@Override
+			public String getValue(File flagFile, Flag flag) {
+				StringBuffer sb = new StringBuffer();
+				boolean first = true;
+				for (Map.Entry<String,Color> e : flag.colors().entrySet()) {
+					if (first) first = false;
+					else sb.append("; ");
+					sb.append(e.getKey());
+					sb.append(": ");
+					sb.append(e.getValue());
+				}
+				return sb.toString();
+			}
+		},
 		E("file extension") {
 			@Override
 			public String getValue(File flagFile, Flag flag) {
@@ -166,6 +183,18 @@ public class VexInfo {
 			@Override
 			public String getValue(File flagFile, Flag flag) {
 				return flag.getProperties().toString();
+			}
+		},
+		Q("properties (private use codepoints)") {
+			@Override
+			public String getValue(File flagFile, Flag flag) {
+				return flag.getProperties().getCodePointString();
+			}
+		},
+		R("aspect ratio (string)") {
+			@Override
+			public String getValue(File flagFile, Flag flag) {
+				return flag.getProportionString();
 			}
 		};
 		public final String description;
