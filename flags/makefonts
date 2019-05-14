@@ -14,24 +14,36 @@ fi
 rm -rf fonts
 mkdir fonts
 
-$VEXMOJI -n 'Kreative Vexillo GA' -ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw    0 -bh 120 -bw   0 -bg 10 -o fonts/VexilloGA.sfd -e encoding.txt flags/*.kvxx
-$VEXMOJI -n 'Kreative Vexillo MA' -ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw    0 -bh 120 -bw   0 -bg  0 -o fonts/VexilloMA.sfd -e encoding.txt flags/*.kvxx
+AMETRICS="-ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw    0"
+CMETRICS="-ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw 1800"
+DMETRICS="-ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw 1600"
+FMETRICS="-ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw 1200"
+KMETRICS="-ma  900 -md 300 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1100 -gw 1600"
 
-$VEXMOJI -n 'Kreative Vexillo GC' -ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw 1800 -bh 120 -bw 180 -bg 10 -o fonts/VexilloGC.sfd -e encoding.txt flags/*.kvxx
-$VEXMOJI -n 'Kreative Vexillo MC' -ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw 1800 -bh 120 -bw 180 -bg  0 -o fonts/VexilloMC.sfd -e encoding.txt flags/*.kvxx
+VFMETRICS="-ma  640 -md 160 -la  800 -ld 250 -sw  800 -lb 0 -rb 0 -gb  -60 -gh  800 -gw  800"
+VNMETRICS="-ma 1900 -md 500 -la 1900 -ld 500 -sw 2550 -lb 0 -rb 0 -gb -500 -gh 2400 -gw 2550"
+VBMETRICS="-ma 1556 -md 492 -la 1901 -ld 483 -sw  651 -lb 0 -rb 0 -gb -400 -gh 2048 -gw 2048"
 
-$VEXMOJI -n 'Kreative Vexillo GD' -ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw 1600 -bh 120 -bw 160 -bg 10 -o fonts/VexilloGD.sfd -e encoding.txt flags/*.kvxx
-$VEXMOJI -n 'Kreative Vexillo MD' -ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw 1600 -bh 120 -bw 160 -bg  0 -o fonts/VexilloMD.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI --cbdt   -n 'Kreative Vexillo GA' $AMETRICS -bh  84 -bw   0 -bg  7 -o fonts/VexilloGA.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI --cbdt   -n 'Kreative Vexillo MA' $AMETRICS -bh  84 -bw   0 -bg  0 -o fonts/VexilloMA.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI --nocbdt -n 'Kreative Vexillo GA' $AMETRICS -bh 120 -bw   0 -bg 10 -o fonts/VexilloGA.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI --nocbdt -n 'Kreative Vexillo MA' $AMETRICS -bh 120 -bw   0 -bg  0 -o fonts/VexilloMA.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI          -n 'Kreative Vexillo GC' $CMETRICS -bh 120 -bw 180 -bg 10 -o fonts/VexilloGC.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI          -n 'Kreative Vexillo MC' $CMETRICS -bh 120 -bw 180 -bg  0 -o fonts/VexilloMC.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI          -n 'Kreative Vexillo GD' $DMETRICS -bh 120 -bw 160 -bg 10 -o fonts/VexilloGD.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI          -n 'Kreative Vexillo MD' $DMETRICS -bh 120 -bw 160 -bg  0 -o fonts/VexilloMD.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI          -n 'Kreative Vexillo GF' $FMETRICS -bh 120 -bw 120 -bg 10 -o fonts/VexilloGF.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI          -n 'Kreative Vexillo MF' $FMETRICS -bh 120 -bw 120 -bg  0 -o fonts/VexilloMF.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI --cbdt   -n 'Kreative Vexillo GK' $KMETRICS -bh 110 -bw 160 -bg 10 -o fonts/VexilloGK.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI --cbdt   -n 'Kreative Vexillo MK' $KMETRICS -bh 110 -bw 160 -bg  0 -o fonts/VexilloMK.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI --nocbdt -n 'Kreative Vexillo GK' $KMETRICS -bh 132 -bw 192 -bg 12 -o fonts/VexilloGK.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI --nocbdt -n 'Kreative Vexillo MK' $KMETRICS -bh 132 -bw 192 -bg  0 -o fonts/VexilloMK.sfd -e encoding.txt flags/*.kvxx
 
-$VEXMOJI -n 'Kreative Vexillo GF' -ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw 1200 -bh 120 -bw 120 -bg 10 -o fonts/VexilloGF.sfd -e encoding.txt flags/*.kvxx
-$VEXMOJI -n 'Kreative Vexillo MF' -ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -gw 1200 -bh 120 -bw 120 -bg  0 -o fonts/VexilloMF.sfd -e encoding.txt flags/*.kvxx
-
-$VEXMOJI -n 'Kreative Vexillo GK' -ma  900 -md 300 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1100 -gw 1600 -bh 132 -bw 192 -bg 12 -o fonts/VexilloGK.sfd -e encoding.txt flags/*.kvxx
-$VEXMOJI -n 'Kreative Vexillo MK' -ma  900 -md 300 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1100 -gw 1600 -bh 132 -bw 192 -bg  0 -o fonts/VexilloMK.sfd -e encoding.txt flags/*.kvxx
-
-$VEXMOJI -n 'Kreative Vexillo VF' -ma  640 -md 160 -la  800 -ld 250 -sw  800 -lb 0 -rb 0 -gb  -60 -gh  800 -gw  800 -bh 160 -bw 160 -bg 0 -by fruit  -o fonts/VexilloVF.sfd -e encoding.txt flags/*.kvxx
-$VEXMOJI -n 'Kreative Vexillo VN' -ma 1900 -md 500 -la 1900 -ld 500 -sw 2550 -lb 0 -rb 0 -gb -500 -gh 2400 -gw 2550 -bh 128 -bw 136 -bg 0 -by number -o fonts/VexilloVN.sfd -e encoding.txt flags/*.kvxx
-$VEXMOJI -n 'Kreative Vexillo VB' -ma 1556 -md 492 -la 1901 -ld 483 -sw  651 -lb 0 -rb 0 -gb -400 -gh 2048 -gw 2048 -bh 160 -bw 160 -bg 0 -by bird   -o fonts/VexilloVB.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI --cbdt   -n 'Kreative Vexillo VF' $VFMETRICS -bh 120 -bw 120 -bg 0 -by fruit  -o fonts/VexilloVF.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI --nocbdt -n 'Kreative Vexillo VF' $VFMETRICS -bh 160 -bw 160 -bg 0 -by fruit  -o fonts/VexilloVF.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI          -n 'Kreative Vexillo VN' $VNMETRICS -bh 128 -bw 136 -bg 0 -by number -o fonts/VexilloVN.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI --cbdt   -n 'Kreative Vexillo VB' $VBMETRICS -bh 120 -bw 120 -bg 0 -by bird   -o fonts/VexilloVB.sfd -e encoding.txt flags/*.kvxx
+$VEXMOJI --nocbdt -n 'Kreative Vexillo VB' $VBMETRICS -bh 160 -bw 160 -bg 0 -by bird   -o fonts/VexilloVB.sfd -e encoding.txt flags/*.kvxx
 
 if command -v fontforge >/dev/null 2>&1; then
 	FONTFORGE="fontforge"
@@ -61,14 +73,17 @@ fi
 
 $BITSNPICAS injectsbix fonts/Vexillo??.ttf
 $BITSNPICAS injectsvg fonts/Vexillo??.ttf
+$BITSNPICAS injectcbdt fonts/Vexillo??.ttf
 
 rm -rf tmp
 mkdir tmp
 cd tmp
 mkdir Apple
 mkdir Mozilla+Adobe
+mkdir Google
 cp ../fonts/*.ttf.sbix.ttf Apple
 cp ../fonts/*.ttf.svg.ttf Mozilla+Adobe
-zip -r ../fonts/vexillo-fonts.zip Apple Mozilla+Adobe
+cp ../fonts/*.ttf.cbdt.ttf Google
+zip -r ../fonts/vexillo-fonts.zip Apple Mozilla+Adobe Google
 cd ..
 rm -rf tmp
