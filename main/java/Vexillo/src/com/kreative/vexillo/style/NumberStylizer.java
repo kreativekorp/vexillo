@@ -9,6 +9,7 @@ import java.awt.image.BufferedImage;
 import javax.media.jai.BorderExtender;
 import javax.media.jai.RenderedOp;
 import com.kreative.vexillo.core.FlagRenderer;
+import com.kreative.vexillo.core.ImageUtils;
 
 public class NumberStylizer implements Stylizer {
 	private static final int[] dims = { 252, 172, 2, 8 };
@@ -18,7 +19,7 @@ public class NumberStylizer implements Stylizer {
 	private static final float[] scale = { 0.5f, 0.5f, 0, 0 };
 	
 	@Override
-	public BufferedImage stylize(FlagRenderer r, int unused1, int unused2, int unused3, int unused4) {
+	public BufferedImage stylize(FlagRenderer r, int w, int h, int unused3, int unused4) {
 		BufferedImage i = r.renderToImage(dims[0], dims[1], dims[2], 0);
 		RenderedOp bi = JAIUtils.border(i, border[0], border[1], border[2], border[3], BorderExtender.BORDER_COPY);
 		RenderedOp wi = JAIUtils.warp(bi, xCoeffs, yCoeffs);
@@ -27,7 +28,9 @@ public class NumberStylizer implements Stylizer {
 		RenderedOp bt = JAIUtils.border(t, border[0], border[1], 0, 0, BorderExtender.BORDER_ZERO);
 		RenderedOp wt = JAIUtils.warp(bt, xCoeffs, yCoeffs);
 		RenderedOp st = JAIUtils.scale(wt, scale[0], scale[1], scale[2], scale[3]);
-		return JAIUtils.multiply(st.getAsBufferedImage(), si.getAsBufferedImage());
+		i = JAIUtils.multiply(st.getAsBufferedImage(), si.getAsBufferedImage());
+		if (w != 136 || h != 128) i = ImageUtils.scale(i, w, h);
+		return i;
 	}
 	
 	private static BufferedImage createTemplate(FlagRenderer r) {

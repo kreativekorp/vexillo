@@ -18,27 +18,63 @@ import com.kreative.vexillo.core.FlagRenderer;
 import com.kreative.vexillo.core.SVGExporter;
 
 public class SFDExporter {
-	public static void export(File sfdFile, FlagFontFamily font) throws IOException {
-		File parent = sfdFile.getParentFile();
-		String baseName = sfdFile.getName();
+	private File parent;
+	private String baseName;
+	private File sfdFile;
+	private FlagFontFamily font;
+	private File cbdtDir;
+	private File cbdtFile;
+	private File sbixDir;
+	private File svgDir;
+	
+	public SFDExporter(File baseFile, FlagFontFamily flagFontFamily) {
+		parent = baseFile.getParentFile();
+		baseName = baseFile.getName();
 		int o = baseName.lastIndexOf('.');
 		if (o > 0) baseName = baseName.substring(0, o);
 		sfdFile = new File(parent, baseName + ".sfd");
-		File sbixDir = new File(parent, baseName + ".ttf.sbix.d");
-		if (!sbixDir.exists()) sbixDir.mkdir();
+		font = flagFontFamily;
+	}
+	
+	public void includeCbdt() {
+		cbdtDir = new File(parent, baseName + ".ttf.cbdt.d");
+		cbdtDir = new File(cbdtDir, "0000");
+		cbdtFile = new File(cbdtDir, "metadata.txt");
+	}
+	
+	public void includeSbix() {
+		sbixDir = new File(parent, baseName + ".ttf.sbix.d");
 		sbixDir = new File(sbixDir, Integer.toString(font.getPixelsPerEm()));
-		if (!sbixDir.exists()) sbixDir.mkdir();
-		File svgDir = new File(parent, baseName + ".ttf.svg.d");
-		if (!svgDir.exists()) svgDir.mkdir();
+	}
+	
+	public void includeSvg() {
+		svgDir = new File(parent, baseName + ".ttf.svg.d");
+	}
+	
+	public void export() throws IOException {
+		boolean valid;
 		FileOutputStream sfdfos = new FileOutputStream(sfdFile);
 		OutputStreamWriter sfdosw = new OutputStreamWriter(sfdfos, "UTF-8");
 		PrintWriter sfd = new PrintWriter(sfdosw, true);
-		export(sfd, sbixDir, svgDir, font);
+		if (cbdtDir != null) cbdtDir.mkdirs();
+		if (sbixDir != null) sbixDir.mkdirs();
+		if (svgDir != null) svgDir.mkdirs();
+		if (cbdtFile != null) {
+			FileOutputStream cbdtfos = new FileOutputStream(cbdtFile);
+			OutputStreamWriter cbdtosw = new OutputStreamWriter(cbdtfos, "UTF-8");
+			PrintWriter cbdtmd = new PrintWriter(cbdtosw, true);
+			valid = export(sfd, cbdtmd);
+			cbdtmd.flush();
+			cbdtmd.close();
+		} else {
+			valid = export(sfd, null);
+		}
 		sfd.flush();
 		sfd.close();
+		if (!valid) throw new IOException("numeric overflow in cbdt metrics");
 	}
 	
-	private static void export(PrintWriter sfd, File sbixDir, File svgDir, FlagFontFamily font) throws IOException {
+	private boolean export(PrintWriter sfd, PrintWriter cbdtmd) throws IOException {
 		int nextPrivateUseCharacter = 0x100000;
 		List<SFDCharacter> chars = new ArrayList<SFDCharacter>();
 		chars.add(new SFDSpaceCharacter(0x20, chars.size(), font));
@@ -49,14 +85,16 @@ public class SFDExporter {
 			Flag flag = font.getFlag(node);
 			File flagFile = font.getFlagFile(node);
 			chars.add(new SFDEmojiCharacter(cp, chars.size(), font, flag, node));
-			writeImage(sbixDir, cp, font, flag, flagFile);
-			writeSVG(svgDir, cp, font, flag, flagFile);
+			if (cbdtDir != null) writeImage(cbdtDir, cp, font, flag, flagFile);
+			if (sbixDir != null) writeImage(sbixDir, cp, font, flag, flagFile);
+			if (svgDir != null) writeSVG(svgDir, cp, font, flag, flagFile);
 			for (int i = 0; i < node.countCodeSequences(); i++) {
 				CodeSequence cs = node.getCodeSequence(i);
 				if (cs.length() == 1 && cs.codePointAt(0) != cp) {
 					chars.add(new SFDEmojiCharacter(cs.codePointAt(0), chars.size(), font, flag, null));
-					writeImage(sbixDir, cs.codePointAt(0), font, flag, flagFile);
-					writeSVG(svgDir, cs.codePointAt(0), font, flag, flagFile);
+					if (cbdtDir != null) writeImage(cbdtDir, cs.codePointAt(0), font, flag, flagFile);
+					if (sbixDir != null) writeImage(sbixDir, cs.codePointAt(0), font, flag, flagFile);
+					if (svgDir != null) writeSVG(svgDir, cs.codePointAt(0), font, flag, flagFile);
 				}
 			}
 		}
@@ -77,6 +115,7 @@ public class SFDExporter {
 		for (SFDCharacter ch : chars) remaining.remove(ch.cp);
 		for (int cp : remaining) chars.add(new SFDEmptyCharacter(cp, chars.size()));
 		printFont(sfd, font, chars);
+		return cbdtmd == null || printCbdtMetadata(cbdtmd, font, chars);
 	}
 	
 	private static void printFont(PrintWriter sfd, FlagFontFamily font, List<SFDCharacter> chars) {
@@ -133,6 +172,57 @@ public class SFDExporter {
 		}
 		sfd.println("EndChars");
 		sfd.println("EndSplineFont");
+	}
+	
+	private static boolean printCbdtMetadata(PrintWriter out, FlagFontFamily font, List<SFDCharacter> chars) {
+		boolean valid = true;
+		int ppem = font.getPixelsPerEm();
+		int ascent = font.emUnitsToPixels(font.lineAscent);
+		int descent = font.emUnitsToPixels(-font.lineDescent);
+		int widthMax = 0;
+		for (SFDCharacter ch : chars) {
+			if (ch instanceof SFDEmojiCharacter) {
+				int width = font.emUnitsToPixels(ch.width);
+				if (width > widthMax) widthMax = width;
+			}
+		}
+		if (ppem < 0 || ppem >= 256) valid = false;
+		if (ascent < -128 || ascent >= 128) valid = false;
+		if (descent < -128 || descent >= 128) valid = false;
+		if (widthMax < 0 || widthMax >= 256) valid = false;
+		out.println("horiAscender: " + ascent);
+		out.println("horiDescender: " + descent);
+		out.println("horiWidthMax: " + widthMax);
+		out.println("vertAscender: " + ascent);
+		out.println("vertDescender: " + descent);
+		out.println("vertWidthMax: " + widthMax);
+		out.println("ppemX: " + ppem);
+		out.println("ppemY: " + ppem);
+		for (SFDCharacter ch : chars) {
+			if (ch instanceof SFDEmojiCharacter) {
+				SFDEmojiCharacter ech = (SFDEmojiCharacter)ch;
+				String h = Integer.toHexString(ech.cp).toUpperCase();
+				int height = font.emUnitsToPixels(ech.y2 - ech.y1);
+				int width = font.emUnitsToPixels(ech.x2 - ech.x1);
+				int bearingX = font.emUnitsToPixels(ech.x1);
+				int bearingY = font.emUnitsToPixels(ech.y2);
+				int advance = font.emUnitsToPixels(ech.width);
+				if (height < 0 || height >= 256) valid = false;
+				if (width < 0 || width >= 256) valid = false;
+				if (bearingX < -128 || bearingX >= 128) valid = false;
+				if (bearingY < -128 || bearingY >= 128) valid = false;
+				if (advance < 0 || advance >= 256) valid = false;
+				out.println();
+				out.println("glyph: char_" + h);
+				out.println("height: " + height);
+				out.println("width: " + width);
+				out.println("bearingX: " + bearingX);
+				out.println("bearingY: " + bearingY);
+				out.println("advance: " + advance);
+				out.println("endGlyph");
+			}
+		}
+		return valid;
 	}
 	
 	private static void writeImage(File sbixDir, int cp, FlagFontFamily font, Flag flag, File flagFile) throws IOException {

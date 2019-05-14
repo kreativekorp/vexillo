@@ -29,6 +29,24 @@ public class VexMoji {
 			if (o.parsingOptions && arg.startsWith("-")) {
 				if (arg.equals("--")) {
 					o.parsingOptions = false;
+				} else if (arg.equals("--cbdt")) {
+					o.checkFormat(false);
+					o.cbdt = true;
+				} else if (arg.equals("--nocbdt")) {
+					o.checkFormat(true);
+					o.cbdt = false;
+				} else if (arg.equals("--sbix")) {
+					o.checkFormat(false);
+					o.sbix = true;
+				} else if (arg.equals("--nosbix")) {
+					o.checkFormat(true);
+					o.sbix = false;
+				} else if (arg.equals("--svg")) {
+					o.checkFormat(false);
+					o.svg = true;
+				} else if (arg.equals("--nosvg")) {
+					o.checkFormat(true);
+					o.svg = false;
 				} else if (arg.equals("-o") && argi < args.length) {
 					o.outputFile = new File(args[argi++]);
 				} else if (arg.equals("-e") && argi < args.length) {
@@ -98,7 +116,7 @@ public class VexMoji {
 				o.flagFiles.add(new File(arg));
 			}
 		}
-		if (o.outputFile == null || o.encoding == null || o.flagFiles.isEmpty()) {
+		if (!o.checkFormat(true) || o.outputFile == null || o.encoding == null || o.flagFiles.isEmpty()) {
 			if (!o.printedHelp) printHelp(arg0);
 		} else {
 			process(o);
@@ -113,6 +131,9 @@ public class VexMoji {
 		System.out.println("  " + arg0 + " [<options>] <output-file> <encoding-file> <flag-files>");
 		System.out.println();
 		System.out.println("Options:");
+		System.out.println("  --[no]cbdt      [Do not] generate a cbdt directory.");
+		System.out.println("  --[no]sbix      [Do not] generate an sbix directory.");
+		System.out.println("  --[no]svg       [Do not] generate an svg directory.");
 		System.out.println("  -o <path>       Set output file.");
 		System.out.println("  -e <path>       Set encoding file.");
 		System.out.println("  -f <path>       Add flag file.");
@@ -177,6 +198,7 @@ public class VexMoji {
 		font.bitmapWidth = o.bitmapWidth;
 		font.bitmapGlaze = o.bitmapGlaze;
 		font.bitmapStyle = o.bitmapStyle;
+		System.out.print("Generating " + o.outputFile.getName() + " ...");
 		for (File flagFile : o.flagFiles) {
 			Flag flag = readFlag(flagFile);
 			if (flag == null) continue;
@@ -189,7 +211,9 @@ public class VexMoji {
 			boolean added = font.addFlag(id, flag, flagFile);
 			if (!added) System.err.println("Warning: No encoding for " + flagFile.getName());
 		}
-		writeFont(o.outputFile, font);
+		System.out.print(" ...");
+		writeFont(o.outputFile, font, o);
+		System.out.println(" done.");
 	}
 	
 	private static Encoding readEncoding(File file) {
@@ -238,9 +262,13 @@ public class VexMoji {
 		}
 	}
 	
-	private static void writeFont(File out, FlagFontFamily font) {
+	private static void writeFont(File out, FlagFontFamily font, Options o) {
 		try {
-			SFDExporter.export(out, font);
+			SFDExporter exp = new SFDExporter(out, font);
+			if (o.cbdt) exp.includeCbdt();
+			if (o.sbix) exp.includeSbix();
+			if (o.svg) exp.includeSvg();
+			exp.export();
 		} catch (IOException e) {
 			System.err.println(
 				"Error writing " + out.getName() + ": " +
@@ -252,6 +280,10 @@ public class VexMoji {
 	
 	private static class Options {
 		public boolean parsingOptions = true;
+		public boolean setFormat = false;
+		public boolean cbdt = false;
+		public boolean sbix = false;
+		public boolean svg = false;
 		public File outputFile = null;
 		public Encoding encoding = null;
 		public List<File> flagFiles = new LinkedList<File>();
@@ -279,5 +311,15 @@ public class VexMoji {
 		public int bitmapWidth = 128;
 		public int bitmapGlaze = 8;
 		public Stylizer bitmapStyle = null;
+		
+		public boolean checkFormat(boolean def) {
+			if (setFormat) {
+				return (cbdt || sbix || svg);
+			} else {
+				setFormat = true;
+				cbdt = sbix = svg = def;
+				return def;
+			}
+		}
 	}
 }

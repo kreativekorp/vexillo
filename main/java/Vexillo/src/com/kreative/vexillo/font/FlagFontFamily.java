@@ -80,7 +80,11 @@ public class FlagFontFamily {
 		return Collections.unmodifiableSortedMap(flagFiles);
 	}
 	
+	public int emUnitsToPixels(float u) {
+		return Math.round(u * bitmapHeight / glyphHeight);
+	}
+	
 	public int getPixelsPerEm() {
-		return bitmapHeight * (emAscent + emDescent) / glyphHeight;
+		return emUnitsToPixels(emAscent + emDescent);
 	}
 }

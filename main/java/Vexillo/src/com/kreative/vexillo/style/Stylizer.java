@@ -5,8 +5,8 @@ import com.kreative.vexillo.core.FlagRenderer;
 
 public interface Stylizer {
 	public BufferedImage stylize(
-		FlagRenderer r,
-		// These parameters may be ignored if desired.
-		int width, int height, int supersample, int glaze
+		FlagRenderer r, int width, int height,
+		// The following parameters may be ignored if desired.
+		int supersample, int glaze
 	);
 }
