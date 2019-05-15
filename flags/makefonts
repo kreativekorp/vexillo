@@ -21,7 +21,7 @@ FMETRICS="-ma 1000 -md 200 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1200 -g
 KMETRICS="-ma  900 -md 300 -la 1200 -ld 400 -lb 100 -rb 100 -gb -100 -gh 1100 -gw 1600"
 
 VFMETRICS="-ma  640 -md 160 -la  800 -ld 250 -sw  800 -lb 0 -rb 0 -gb  -60 -gh  800 -gw  800"
-VNMETRICS="-ma 1900 -md 500 -la 1900 -ld 500 -sw 2550 -lb 0 -rb 0 -gb -500 -gh 2400 -gw 2550"
+VNMETRICS="-ma 1900 -md 500 -la 2224 -ld 594 -sw 2994 -lb 0 -rb 0 -gb -594 -gh 2818 -gw 2994"
 VBMETRICS="-ma 1556 -md 492 -la 1901 -ld 483 -sw  651 -lb 0 -rb 0 -gb -400 -gh 2048 -gw 2048"
 
 $VEXMOJI --cbdt   -n 'Kreative Vexillo GA' $AMETRICS -bh  84 -bw   0 -bg  7 -o fonts/VexilloGA.sfd -e encoding.txt flags/*.kvxx
