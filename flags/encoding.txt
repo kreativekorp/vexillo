@@ -2127,3 +2127,5 @@ xx-misc-ntsc	F862
 xx-misc-ntscid	F863
 
 xx-misc-iguana	F880
+
+xx-misc-cmc	F8C0

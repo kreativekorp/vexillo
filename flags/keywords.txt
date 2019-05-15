@@ -1695,3 +1695,5 @@ xx-misc-ntsc	misc miscellaneous color model system ntsc national television stan
 xx-misc-ntscid	misc miscellaneous color model system ntsc national television standards commission never twice same station id bar
 
 xx-misc-iguana	misc miscellaneous iguana powersurgius apple computer power macintosh secret about box easter egg
+
+xx-misc-cmc	misc miscellaneous mlpfim mlp fim my little pony friendship is magic cmc cutie mark crusader crusaders day camp
