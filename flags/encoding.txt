@@ -918,6 +918,7 @@ us-chi; xx-chicago	E461
 us-den; xx-denver	E462
 us-phx; xx-phoenix	E463
 us-pdx; xx-portland	E464
+us-pih; xx-pocatello	E465
 xx-cascadia	E47F
 
 mx-cmx; xx-ciudaddemexico	E480
@@ -2020,6 +2021,7 @@ xx-pride-lgbt-8band	F502
 xx-pride-lgbt-us	F503
 xx-pride-lgbt-us-co	F504
 xx-pride-lgbt-us-phl	F505
+xx-pride-lgbt-progress	F506
 
 xx-pride-asexual	F510
 xx-pride-lesbian-1	F511
@@ -2117,6 +2119,7 @@ xx-misc-fam	F801
 xx-org-fiav	F820
 xx-org-fotw	F821
 xx-org-nava	F822
+xx-org-pfa	F823
 
 xx-pirate	F840; 2620; 1F3F3+200D+2620; 1F3F4+200D+2620
 xx-pace	F841; 262E; 1F3F3+200D+262E; 1F3F4+200D+262E

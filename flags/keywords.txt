@@ -504,6 +504,7 @@ us-chi; xx-chicago	north america united states us usa city chicago chi illinois 
 us-den; xx-denver	north america united states us usa city denver den colorado colo co
 us-phx; xx-phoenix	north america united states us usa city phoenix phx arizona ariz az
 us-pdx; xx-portland	north america united states us usa city portland pdx oregon ore or
+us-pih; xx-pocatello	north america united states us usa city pocatello pih idaho id
 xx-cascadia	north america cascadia
 
 mx-cmx; xx-ciudaddemexico	north america mexico united mexican states city ciudad de cmx
@@ -1588,6 +1589,7 @@ xx-pride-lgbt-8band	lgbt gay pride rainbow 8 eight band bands
 xx-pride-lgbt-us	lgbt gay pride rainbow north america united states us usa
 xx-pride-lgbt-us-co	lgbt gay pride rainbow north america united states us usa state colorado colo co
 xx-pride-lgbt-us-phl	lgbt gay pride rainbow north america united states us usa city philadelphia phl pennsylvania penn pa
+xx-pride-lgbt-progress	lgbt gay pride rainbow progress initiative reboot inclusive new daniel quasar
 
 xx-pride-asexual	lgbt gay pride asexual ace
 xx-pride-lesbian-1	lgbt gay pride lesbian labrys triangle purple
@@ -1685,6 +1687,7 @@ xx-misc-fam	misc miscellaneous fam famfamfam
 xx-org-fiav	org organization fiav international federation vexillological associations
 xx-org-fotw	org organization fotw flags world
 xx-org-nava	org organization nava north american vexillological association
+xx-org-pfa	org organization pfa portland flag association
 
 xx-pirate	misc miscellaneous pirate piracy skull crossbones
 xx-pace	misc miscellaneous pace peace rainbow

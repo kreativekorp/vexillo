@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Portland Flag Association" fly="h*5/3">
+	<defs>
+		<color id="blue">
+			<colorspec model="rgb" value="74 148 220"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="gold">
+			<colorspec model="rgb" value="255 223 0"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="0 157 99"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<poly points="0 (-h/4) w/2 h/2 w (-h/4)" color="blue"/>
+	<poly points="0 (-h/6) w/2 h*7/12 w (-h/6) w h/6 w/2 h*11/12 0 h/6" color="gold"/>
+	<poly points="0 h/4 w/2 h 0 h" color="green"/>
+	<poly points="w h/4 w/2 h w h" color="green"/>
+</flag>

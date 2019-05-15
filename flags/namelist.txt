@@ -846,78 +846,79 @@ zz	FLAG FOR UNKNOWN OR INVALID TERRITORY
 
 ## E400-E4FF	North American Flags
 
-us-dc; xx-districtofcolumbia	FLAG FOR DISTRICT OF COLUMBIA
-us-de; xx-delaware	FLAG FOR DELAWARE
-us-pa; xx-pennsylvania	FLAG FOR PENNSYLVANIA
-us-nj; xx-newjersey	FLAG FOR NEW JERSEY
-us-ga; xx-georgia	FLAG FOR STATE OF GEORGIA
-us-ct; xx-connecticut	FLAG FOR CONNECTICUT
-us-ma; xx-massachusetts	FLAG FOR MASSACHUSETTS
-us-md; xx-maryland	FLAG FOR MARYLAND
-us-sc; xx-southcarolina	FLAG FOR SOUTH CAROLINA
-us-nh; xx-newhampshire	FLAG FOR NEW HAMPSHIRE
-us-va; xx-virginia	FLAG FOR VIRGINIA
-us-ny; xx-newyork	FLAG FOR NEW YORK
-us-nc; xx-northcarolina	FLAG FOR NORTH CAROLINA
-us-ri; xx-rhodeisland	FLAG FOR RHODE ISLAND
-us-vt; xx-vermont	FLAG FOR VERMONT
-us-ky; xx-kentucky	FLAG FOR KENTUCKY
-us-tn; xx-tennessee	FLAG FOR TENNESSEE
-us-oh; xx-ohio	FLAG FOR OHIO
-us-la; xx-louisiana	FLAG FOR LOUISIANA
-us-in; xx-indiana	FLAG FOR INDIANA
-us-ms; xx-mississippi	FLAG FOR MISSISSIPPI
-us-il; xx-illinois	FLAG FOR ILLINOIS
-us-al; xx-alabama	FLAG FOR ALABAMA
-us-me; xx-maine	FLAG FOR MAINE
-us-mo; xx-missouri	FLAG FOR MISSOURI
-us-ar; xx-arkansas	FLAG FOR ARKANSAS
-us-mi; xx-michigan	FLAG FOR MICHIGAN
-us-fl; xx-florida	FLAG FOR FLORIDA
-us-tx; xx-texas	FLAG FOR TEXAS
-us-ia; xx-iowa	FLAG FOR IOWA
-us-wi; xx-wisconsin	FLAG FOR WISCONSIN
-us-ca; xx-california	FLAG FOR CALIFORNIA
-us-mn; xx-minnesota	FLAG FOR MINNESOTA
-us-or; xx-oregon	FLAG FOR OREGON
-us-ks; xx-kansas	FLAG FOR KANSAS
-us-wv; xx-westvirginia	FLAG FOR WEST VIRGINIA
-us-nv; xx-nevada	FLAG FOR NEVADA
-us-ne; xx-nebraska	FLAG FOR NEBRASKA
-us-co; xx-colorado	FLAG FOR COLORADO
-us-nd; xx-northdakota	FLAG FOR NORTH DAKOTA
-us-sd; xx-southdakota	FLAG FOR SOUTH DAKOTA
-us-mt; xx-montana	FLAG FOR MONTANA
-us-wa; xx-washington	FLAG FOR WASHINGTON
-us-id; xx-idaho	FLAG FOR IDAHO
-us-wy; xx-wyoming	FLAG FOR WYOMING
-us-ut; xx-utah	FLAG FOR UTAH
-us-ok; xx-oklahoma	FLAG FOR OKLAHOMA
-us-nm; xx-newmexico	FLAG FOR NEW MEXICO
-us-az; xx-arizona	FLAG FOR ARIZONA
-us-ak; xx-alaska	FLAG FOR ALASKA
-us-hi; xx-hawaii	FLAG FOR HAWAII
-xx-northtakoma	FLAG FOR NORTH TAKOMA
+us-dc; xx-districtofcolumbia	FLAG FOR UNITED STATES-DISTRICT OF COLUMBIA
+us-de; xx-delaware	FLAG FOR UNITED STATES-DELAWARE
+us-pa; xx-pennsylvania	FLAG FOR UNITED STATES-PENNSYLVANIA
+us-nj; xx-newjersey	FLAG FOR UNITED STATES-NEW JERSEY
+us-ga; xx-georgia	FLAG FOR UNITED STATES-GEORGIA
+us-ct; xx-connecticut	FLAG FOR UNITED STATES-CONNECTICUT
+us-ma; xx-massachusetts	FLAG FOR UNITED STATES-MASSACHUSETTS
+us-md; xx-maryland	FLAG FOR UNITED STATES-MARYLAND
+us-sc; xx-southcarolina	FLAG FOR UNITED STATES-SOUTH CAROLINA
+us-nh; xx-newhampshire	FLAG FOR UNITED STATES-NEW HAMPSHIRE
+us-va; xx-virginia	FLAG FOR UNITED STATES-VIRGINIA
+us-ny; xx-newyork	FLAG FOR UNITED STATES-NEW YORK
+us-nc; xx-northcarolina	FLAG FOR UNITED STATES-NORTH CAROLINA
+us-ri; xx-rhodeisland	FLAG FOR UNITED STATES-RHODE ISLAND
+us-vt; xx-vermont	FLAG FOR UNITED STATES-VERMONT
+us-ky; xx-kentucky	FLAG FOR UNITED STATES-KENTUCKY
+us-tn; xx-tennessee	FLAG FOR UNITED STATES-TENNESSEE
+us-oh; xx-ohio	FLAG FOR UNITED STATES-OHIO
+us-la; xx-louisiana	FLAG FOR UNITED STATES-LOUISIANA
+us-in; xx-indiana	FLAG FOR UNITED STATES-INDIANA
+us-ms; xx-mississippi	FLAG FOR UNITED STATES-MISSISSIPPI
+us-il; xx-illinois	FLAG FOR UNITED STATES-ILLINOIS
+us-al; xx-alabama	FLAG FOR UNITED STATES-ALABAMA
+us-me; xx-maine	FLAG FOR UNITED STATES-MAINE
+us-mo; xx-missouri	FLAG FOR UNITED STATES-MISSOURI
+us-ar; xx-arkansas	FLAG FOR UNITED STATES-ARKANSAS
+us-mi; xx-michigan	FLAG FOR UNITED STATES-MICHIGAN
+us-fl; xx-florida	FLAG FOR UNITED STATES-FLORIDA
+us-tx; xx-texas	FLAG FOR UNITED STATES-TEXAS
+us-ia; xx-iowa	FLAG FOR UNITED STATES-IOWA
+us-wi; xx-wisconsin	FLAG FOR UNITED STATES-WISCONSIN
+us-ca; xx-california	FLAG FOR UNITED STATES-CALIFORNIA
+us-mn; xx-minnesota	FLAG FOR UNITED STATES-MINNESOTA
+us-or; xx-oregon	FLAG FOR UNITED STATES-OREGON
+us-ks; xx-kansas	FLAG FOR UNITED STATES-KANSAS
+us-wv; xx-westvirginia	FLAG FOR UNITED STATES-WEST VIRGINIA
+us-nv; xx-nevada	FLAG FOR UNITED STATES-NEVADA
+us-ne; xx-nebraska	FLAG FOR UNITED STATES-NEBRASKA
+us-co; xx-colorado	FLAG FOR UNITED STATES-COLORADO
+us-nd; xx-northdakota	FLAG FOR UNITED STATES-NORTH DAKOTA
+us-sd; xx-southdakota	FLAG FOR UNITED STATES-SOUTH DAKOTA
+us-mt; xx-montana	FLAG FOR UNITED STATES-MONTANA
+us-wa; xx-washington	FLAG FOR UNITED STATES-WASHINGTON
+us-id; xx-idaho	FLAG FOR UNITED STATES-IDAHO
+us-wy; xx-wyoming	FLAG FOR UNITED STATES-WYOMING
+us-ut; xx-utah	FLAG FOR UNITED STATES-UTAH
+us-ok; xx-oklahoma	FLAG FOR UNITED STATES-OKLAHOMA
+us-nm; xx-newmexico	FLAG FOR UNITED STATES-NEW MEXICO
+us-az; xx-arizona	FLAG FOR UNITED STATES-ARIZONA
+us-ak; xx-alaska	FLAG FOR UNITED STATES-ALASKA
+us-hi; xx-hawaii	FLAG FOR UNITED STATES-HAWAII
+xx-northtakoma	FLAG FOR UNITED STATES-NORTH TAKOMA
 
-ca-on; xx-ontario	FLAG FOR ONTARIO
-ca-qc; xx-quebec	FLAG FOR QUEBEC
-ca-ns; xx-novascotia	FLAG FOR NOVA SCOTIA
-ca-nb; xx-newbrunswick	FLAG FOR NEW BRUNSWICK
-ca-mb; xx-manitoba	FLAG FOR MANITOBA
-ca-nt; xx-northwestterritories	FLAG FOR NORTHWEST TERRITORIES
-ca-bc; xx-britishcolumbia	FLAG FOR BRITISH COLUMBIA
-ca-pe; xx-princeedwardisland	FLAG FOR PRINCE EDWARD ISLAND
-ca-yt; xx-yukon	FLAG FOR YUKON
-ca-sk; xx-saskatchewan	FLAG FOR SASKATCHEWAN
-ca-ab; xx-alberta	FLAG FOR ALBERTA
-ca-nl; xx-newfoundlandandlabrador	FLAG FOR NEWFOUNDLAND AND LABRADOR
-ca-nu; xx-nunavut	FLAG FOR NUNAVUT
+ca-on; xx-ontario	FLAG FOR CANADA-ONTARIO
+ca-qc; xx-quebec	FLAG FOR CANADA-QUEBEC
+ca-ns; xx-novascotia	FLAG FOR CANADA-NOVA SCOTIA
+ca-nb; xx-newbrunswick	FLAG FOR CANADA-NEW BRUNSWICK
+ca-mb; xx-manitoba	FLAG FOR CANADA-MANITOBA
+ca-nt; xx-northwestterritories	FLAG FOR CANADA-NORTHWEST TERRITORIES
+ca-bc; xx-britishcolumbia	FLAG FOR CANADA-BRITISH COLUMBIA
+ca-pe; xx-princeedwardisland	FLAG FOR CANADA-PRINCE EDWARD ISLAND
+ca-yt; xx-yukon	FLAG FOR CANADA-YUKON
+ca-sk; xx-saskatchewan	FLAG FOR CANADA-SASKATCHEWAN
+ca-ab; xx-alberta	FLAG FOR CANADA-ALBERTA
+ca-nl; xx-newfoundlandandlabrador	FLAG FOR CANADA-NEWFOUNDLAND AND LABRADOR
+ca-nu; xx-nunavut	FLAG FOR CANADA-NUNAVUT
 
-us-nyc; xx-newyorkcity	FLAG FOR NEW YORK CITY
-us-chi; xx-chicago	FLAG FOR CHICAGO
-us-den; xx-denver	FLAG FOR DENVER
-us-phx; xx-phoenix	FLAG FOR PHOENIX
-us-pdx; xx-portland	FLAG FOR PORTLAND
+us-nyc; xx-newyorkcity	FLAG FOR UNITED STATES-NEW YORK-NEW YORK
+us-chi; xx-chicago	FLAG FOR UNITED STATES-ILLINOIS-CHICAGO
+us-den; xx-denver	FLAG FOR UNITED STATES-COLORADO-DENVER
+us-phx; xx-phoenix	FLAG FOR UNITED STATES-ARIZONA-PHOENIX
+us-pdx; xx-portland	FLAG FOR UNITED STATES-OREGON-PORTLAND
+us-pih; xx-pocatello	FLAG FOR UNITED STATES-IDAHO-POCATELLO
 xx-cascadia	FLAG FOR CASCADIA
 
 mx-cmx; xx-ciudaddemexico	FLAG FOR MEXICO-MEXICO CITY
@@ -2002,6 +2003,7 @@ xx-pride-lgbt-8band	RAINBOW FLAG WITH EIGHT BANDS
 xx-pride-lgbt-us	RAINBOW FLAG WITH CANTON OF FLAG FOR UNITED STATES
 xx-pride-lgbt-us-co	RAINBOW FLAG FOR COLORADO
 xx-pride-lgbt-us-phl	RAINBOW FLAG FOR PHILADELPHIA
+xx-pride-lgbt-progress	PROGRESS RAINBOW FLAG
 
 xx-pride-asexual	ASEXUAL PRIDE FLAG
 xx-pride-lesbian-1	LESBIAN PRIDE FLAG-1
@@ -2099,6 +2101,7 @@ xx-misc-fam	FLAG FOR FAMFAMFAM
 xx-org-fiav	FLAG FOR INTERNATIONAL FEDERATION OF VEXILLOLOGICAL ASSOCIATIONS
 xx-org-fotw	FLAG FOR FLAGS OF THE WORLD
 xx-org-nava	FLAG FOR NORTH AMERICAN VEXILLOLOGICAL ASSOCIATION
+xx-org-pfa	FLAG FOR PORTLAND FLAG ASSOCIATION
 
 xx-pirate	PIRATE FLAG
 xx-pace	PACE FLAG

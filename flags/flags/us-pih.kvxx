@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="us-pih" name="Pocatello" fly="h*5/3">
+	<defs>
+		<dim id="sd" e="min(h*13/36,w*13/36)"/>
+		<color id="blue">
+			<colorspec model="rgb" value="54 97 173"/>
+			<colorspec model="pantone" value="7685 C"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="219 47 50"/>
+			<colorspec model="pantone" value="179 C"/>
+		</color>
+		<color id="gold">
+			<colorspec model="rgb" value="255 204 45"/>
+			<colorspec model="pantone" value="122 C"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+			<colorspec model="pantone" value="Safe"/>
+		</color>
+		<symdef id="mountains" d="M 0 0.8349 L 0 1 L 1 1 L 1 0.8349 L 0.8741 0.6589 L 0.7852 0.8009 L 0.5806 0.4568 L 0.4889 0.6049 L 0.3146 0.3059 Z"/>
+		<symdef id="compass" d="M 0.315 0.0573 L 0.3386 0.224 L 0.3928 0.18 L 0.3668 0.272 L 0.4664 0.3093 L 0.3664 0.3482 L 0.3939 0.4419 L 0.3366 0.3904 L 0.3147 0.5486 L 0.2938 0.3917 L 0.2334 0.4425 L 0.2631 0.3482 L 0.1631 0.3093 L 0.2641 0.2726 L 0.2367 0.1784 L 0.2928 0.2255 Z"/>
+		<symdef id="icecap" d="M 0.3939 0.442 L 0.3939 0.442 L 0.3387 0.3951 L 0.315 0.5637 L 0.2928 0.3951 L 0.2334 0.4425 L 0.2363 0.4377 L 0.3147 0.3088 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<symbol symbol="mountains" x="0" y="0" sx="w" sy="h" color="red"/>
+	<symbol symbol="compass" x="0" y="0" sx="w" sy="h" color="gold"/>
+	<symbol symbol="icecap" x="0" y="0" sx="w" sy="h" color="white"/>
+	<field x1="0" y1="h*0.884888888889" x2="w" y2="h*0.92124537037" color="blue"/>
+</flag>
