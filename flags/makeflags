@@ -12,137 +12,129 @@ else
 fi
 
 rm -rf out
-mkdir -p out/s{g,m}{a,c,d,f,k}360
-mkdir -p out/p{g,m}{a,c,d,f,k}{360,128,072,024}
-mkdir -p out/pvf160
-mkdir -p out/pvn128
-mkdir -p out/pvb160
+mkdir -p out/s{g,m}{a,b,c,d,e,f,h,k,v,w}360
+mkdir -p out/p{g,m}{a,b,c,d,e,f,h,k,v,w}{360,128,072,024}
+mkdir -p out/{pvf160,pvn128,pvb160}
 
 $VEXPORT -f svg \
 	-d out/sga360 -h 360 -w   0 -g 30 flags/*.kvxx \
+	-d out/sgb360 -h 360 -w 600 -g 30 flags/*.kvxx \
 	-d out/sgc360 -h 360 -w 540 -g 30 flags/*.kvxx \
 	-d out/sgd360 -h 360 -w 480 -g 30 flags/*.kvxx \
+	-d out/sge360 -h 360 -w 450 -g 30 flags/*.kvxx \
 	-d out/sgf360 -h 360 -w 360 -g 30 flags/*.kvxx \
+	-d out/sgh360 -h 360 -w 720 -g 30 flags/*.kvxx \
 	-d out/sgk360 -h 396 -w 576 -g 36 flags/*.kvxx \
+	-d out/sgv360 -h 360 -w 576 -g 30 flags/*.kvxx \
+	-d out/sgw360 -h 360 -w 640 -g 30 flags/*.kvxx \
 	-d out/sma360 -h 360 -w   0 -g  0 flags/*.kvxx \
+	-d out/smb360 -h 360 -w 600 -g  0 flags/*.kvxx \
 	-d out/smc360 -h 360 -w 540 -g  0 flags/*.kvxx \
 	-d out/smd360 -h 360 -w 480 -g  0 flags/*.kvxx \
+	-d out/sme360 -h 360 -w 450 -g  0 flags/*.kvxx \
 	-d out/smf360 -h 360 -w 360 -g  0 flags/*.kvxx \
-	-d out/smk360 -h 396 -w 576 -g  0 flags/*.kvxx
+	-d out/smh360 -h 360 -w 720 -g  0 flags/*.kvxx \
+	-d out/smk360 -h 396 -w 576 -g  0 flags/*.kvxx \
+	-d out/smv360 -h 360 -w 576 -g  0 flags/*.kvxx \
+	-d out/smw360 -h 360 -w 640 -g  0 flags/*.kvxx
 
 $VEXPORT -f png \
 	-d out/pga360 -h 360 -w   0 -g 30 flags/*.kvxx \
+	-d out/pgb360 -h 360 -w 600 -g 30 flags/*.kvxx \
 	-d out/pgc360 -h 360 -w 540 -g 30 flags/*.kvxx \
 	-d out/pgd360 -h 360 -w 480 -g 30 flags/*.kvxx \
+	-d out/pge360 -h 360 -w 450 -g 30 flags/*.kvxx \
 	-d out/pgf360 -h 360 -w 360 -g 30 flags/*.kvxx \
+	-d out/pgh360 -h 360 -w 720 -g 30 flags/*.kvxx \
 	-d out/pgk360 -h 396 -w 576 -g 36 flags/*.kvxx \
+	-d out/pgv360 -h 360 -w 576 -g 30 flags/*.kvxx \
+	-d out/pgw360 -h 360 -w 640 -g 30 flags/*.kvxx \
 	-d out/pma360 -h 360 -w   0 -g  0 flags/*.kvxx \
+	-d out/pmb360 -h 360 -w 600 -g  0 flags/*.kvxx \
 	-d out/pmc360 -h 360 -w 540 -g  0 flags/*.kvxx \
 	-d out/pmd360 -h 360 -w 480 -g  0 flags/*.kvxx \
+	-d out/pme360 -h 360 -w 450 -g  0 flags/*.kvxx \
 	-d out/pmf360 -h 360 -w 360 -g  0 flags/*.kvxx \
-	-d out/pmk360 -h 396 -w 576 -g  0 flags/*.kvxx
+	-d out/pmh360 -h 360 -w 720 -g  0 flags/*.kvxx \
+	-d out/pmk360 -h 396 -w 576 -g  0 flags/*.kvxx \
+	-d out/pmv360 -h 360 -w 576 -g  0 flags/*.kvxx \
+	-d out/pmw360 -h 360 -w 640 -g  0 flags/*.kvxx
 
 $VEXPORT -f png \
 	-d out/pga128 -w 128 -h   0 -g  8 flags/*.kvxx \
+	-d out/pgb128 -w 128 -h  76 -g  8 flags/*.kvxx \
 	-d out/pgc128 -w 128 -h  86 -g  8 flags/*.kvxx \
 	-d out/pgd128 -w 128 -h  96 -g  8 flags/*.kvxx \
+	-d out/pge128 -w 128 -h 102 -g  8 flags/*.kvxx \
 	-d out/pgf128 -w 128 -h 128 -g  8 flags/*.kvxx \
+	-d out/pgh128 -w 128 -h  64 -g  8 flags/*.kvxx \
 	-d out/pgk128 -w 128 -h  88 -g  8 flags/*.kvxx \
+	-d out/pgv128 -w 128 -h  80 -g  8 flags/*.kvxx \
+	-d out/pgw128 -w 128 -h  72 -g  8 flags/*.kvxx \
 	-d out/pma128 -w 128 -h   0 -g  0 flags/*.kvxx \
+	-d out/pmb128 -w 128 -h  76 -g  0 flags/*.kvxx \
 	-d out/pmc128 -w 128 -h  86 -g  0 flags/*.kvxx \
 	-d out/pmd128 -w 128 -h  96 -g  0 flags/*.kvxx \
+	-d out/pme128 -w 128 -h 102 -g  0 flags/*.kvxx \
 	-d out/pmf128 -w 128 -h 128 -g  0 flags/*.kvxx \
-	-d out/pmk128 -w 128 -h  88 -g  0 flags/*.kvxx
+	-d out/pmh128 -w 128 -h  64 -g  0 flags/*.kvxx \
+	-d out/pmk128 -w 128 -h  88 -g  0 flags/*.kvxx \
+	-d out/pmv128 -w 128 -h  80 -g  0 flags/*.kvxx \
+	-d out/pmw128 -w 128 -h  72 -g  0 flags/*.kvxx
 
 $VEXPORT -f png \
 	-d out/pga072 -h  72 -w   0 -g  6 flags/*.kvxx \
+	-d out/pgb072 -h  72 -w 120 -g  6 flags/*.kvxx \
 	-d out/pgc072 -h  72 -w 108 -g  6 flags/*.kvxx \
 	-d out/pgd072 -h  72 -w  96 -g  6 flags/*.kvxx \
+	-d out/pge072 -h  72 -w  90 -g  6 flags/*.kvxx \
 	-d out/pgf072 -h  72 -w  72 -g  6 flags/*.kvxx \
+	-d out/pgh072 -h  72 -w 144 -g  6 flags/*.kvxx \
 	-d out/pgk072 -h  66 -w  96 -g  6 flags/*.kvxx \
+	-d out/pgv072 -h  72 -w 116 -g  6 flags/*.kvxx \
+	-d out/pgw072 -h  72 -w 128 -g  6 flags/*.kvxx \
 	-d out/pma072 -h  72 -w   0 -g  0 flags/*.kvxx \
+	-d out/pmb072 -h  72 -w 120 -g  0 flags/*.kvxx \
 	-d out/pmc072 -h  72 -w 108 -g  0 flags/*.kvxx \
 	-d out/pmd072 -h  72 -w  96 -g  0 flags/*.kvxx \
+	-d out/pme072 -h  72 -w  90 -g  0 flags/*.kvxx \
 	-d out/pmf072 -h  72 -w  72 -g  0 flags/*.kvxx \
-	-d out/pmk072 -h  66 -w  96 -g  0 flags/*.kvxx
+	-d out/pmh072 -h  72 -w 144 -g  0 flags/*.kvxx \
+	-d out/pmk072 -h  66 -w  96 -g  0 flags/*.kvxx \
+	-d out/pmv072 -h  72 -w 116 -g  0 flags/*.kvxx \
+	-d out/pmw072 -h  72 -w 128 -g  0 flags/*.kvxx
 
 $VEXPORT -f png \
 	-d out/pga024 -h  24 -w   0 -g  2 -s  3 flags/*.kvxx \
+	-d out/pgb024 -h  24 -w  40 -g  2 -s  3 flags/*.kvxx \
 	-d out/pgc024 -h  24 -w  36 -g  2 -s  3 flags/*.kvxx \
 	-d out/pgd024 -h  24 -w  32 -g  2 -s  3 flags/*.kvxx \
+	-d out/pge024 -h  24 -w  30 -g  2 -s  3 flags/*.kvxx \
 	-d out/pgf024 -h  24 -w  24 -g  2 -s  3 flags/*.kvxx \
+	-d out/pgh024 -h  24 -w  48 -g  2 -s  3 flags/*.kvxx \
 	-d out/pgk024 -h  22 -w  32 -g  2 -s  3 flags/*.kvxx \
+	-d out/pgv024 -h  24 -w  38 -g  2 -s  3 flags/*.kvxx \
+	-d out/pgw024 -h  24 -w  42 -g  2 -s  3 flags/*.kvxx \
 	-d out/pma024 -h  24 -w   0 -g  0 -s  3 flags/*.kvxx \
+	-d out/pmb024 -h  24 -w  40 -g  0 -s  3 flags/*.kvxx \
 	-d out/pmc024 -h  24 -w  36 -g  0 -s  3 flags/*.kvxx \
 	-d out/pmd024 -h  24 -w  32 -g  0 -s  3 flags/*.kvxx \
+	-d out/pme024 -h  24 -w  30 -g  0 -s  3 flags/*.kvxx \
 	-d out/pmf024 -h  24 -w  24 -g  0 -s  3 flags/*.kvxx \
-	-d out/pmk024 -h  22 -w  32 -g  0 -s  3 flags/*.kvxx
+	-d out/pmh024 -h  24 -w  48 -g  0 -s  3 flags/*.kvxx \
+	-d out/pmk024 -h  22 -w  32 -g  0 -s  3 flags/*.kvxx \
+	-d out/pmv024 -h  24 -w  38 -g  0 -s  3 flags/*.kvxx \
+	-d out/pmw024 -h  24 -w  42 -g  0 -s  3 flags/*.kvxx
 
-$VEXPORT -f png -y fruit -d out/pvf160 flags/*.kvxx
-$VEXPORT -f png -y number -d out/pvn128 flags/*.kvxx
-$VEXPORT -f png -y bird -d out/pvb160 flags/*.kvxx
+$VEXPORT -f png -y fruit  -d out/pvf160 -h 160 -w 160 flags/*.kvxx
+$VEXPORT -f png -y number -d out/pvn128 -h 128 -w 136 flags/*.kvxx
+$VEXPORT -f png -y bird   -d out/pvb160 -h 160 -w 160 flags/*.kvxx
 
 export COPYFILE_DISABLE=true
 find flags -name .DS_Store -delete
 zip -r out/vexillo-flags.zip flags/*.kvxx
 
 cd out
-
-zip -r sga360.zip sga360
-zip -r sgc360.zip sgc360
-zip -r sgd360.zip sgd360
-zip -r sgf360.zip sgf360
-zip -r sgk360.zip sgk360
-zip -r sma360.zip sma360
-zip -r smc360.zip smc360
-zip -r smd360.zip smd360
-zip -r smf360.zip smf360
-zip -r smk360.zip smk360
-
-zip -r pga360.zip pga360
-zip -r pgc360.zip pgc360
-zip -r pgd360.zip pgd360
-zip -r pgf360.zip pgf360
-zip -r pgk360.zip pgk360
-zip -r pma360.zip pma360
-zip -r pmc360.zip pmc360
-zip -r pmd360.zip pmd360
-zip -r pmf360.zip pmf360
-zip -r pmk360.zip pmk360
-
-zip -r pga128.zip pga128
-zip -r pgc128.zip pgc128
-zip -r pgd128.zip pgd128
-zip -r pgf128.zip pgf128
-zip -r pgk128.zip pgk128
-zip -r pma128.zip pma128
-zip -r pmc128.zip pmc128
-zip -r pmd128.zip pmd128
-zip -r pmf128.zip pmf128
-zip -r pmk128.zip pmk128
-
-zip -r pga072.zip pga072
-zip -r pgc072.zip pgc072
-zip -r pgd072.zip pgd072
-zip -r pgf072.zip pgf072
-zip -r pgk072.zip pgk072
-zip -r pma072.zip pma072
-zip -r pmc072.zip pmc072
-zip -r pmd072.zip pmd072
-zip -r pmf072.zip pmf072
-zip -r pmk072.zip pmk072
-
-zip -r pga024.zip pga024
-zip -r pgc024.zip pgc024
-zip -r pgd024.zip pgd024
-zip -r pgf024.zip pgf024
-zip -r pgk024.zip pgk024
-zip -r pma024.zip pma024
-zip -r pmc024.zip pmc024
-zip -r pmd024.zip pmd024
-zip -r pmf024.zip pmf024
-zip -r pmk024.zip pmk024
-
-zip -r pvf160.zip pvf160
-zip -r pvn128.zip pvn128
-zip -r pvb160.zip pvb160
+for i in s{g,m}{a,b,c,d,e,f,h,k,v,w}360; do zip -r $i.zip $i; done
+for i in p{g,m}{a,b,c,d,e,f,h,k,v,w}{360,128,072,024}; do zip -r $i.zip $i; done
+for i in {pvf160,pvn128,pvb160}; do zip -r $i.zip $i; done
