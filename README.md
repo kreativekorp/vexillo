@@ -78,7 +78,9 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="artwork/vexillo/pgc024/gb-nir.png" width="18" height="12" title="Northern Ireland"></td><td><code>gb-nir</code></td><td>Northern Ireland</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/gb-sct.png" width="18" height="12" title="Scotland"></td><td><code>gb-sct</code></td><td>Scotland</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/gb-wls.png" width="18" height="12" title="Wales"></td><td><code>gb-wls</code></td><td>Wales</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/it-82.png" width="18" height="12" title="Sicily"></td><td><code>it-82</code></td><td>Sicily</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/nl-ams.png" width="18" height="12" title="Amsterdam"></td><td><code>nl-ams</code></td><td>Amsterdam</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nz-krikienoid.png" width="18" height="12" title="New Zealand (Krikienoid Proposal)"></td><td><code>nz-krikienoid</code></td><td>New Zealand (Krikienoid Proposal)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/se-m.png" width="18" height="12" title="Scania"></td><td><code>se-m</code></td><td>Scania</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/sy-snc.png" width="18" height="12" title="Syrian National Coalition"></td><td><code>sy-snc</code></td><td>Syrian National Coalition</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/uk-eng.png" width="18" height="12" title="England"></td><td><code>uk-eng</code></td><td>England</td></tr>
@@ -101,11 +103,15 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="artwork/vexillo/pgc024/us-sc.png" width="18" height="12" title="South Carolina"></td><td><code>us-sc</code></td><td>South Carolina</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-tn.png" width="18" height="12" title="Tennessee"></td><td><code>us-tn</code></td><td>Tennessee</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-tx.png" width="18" height="12" title="Texas"></td><td><code>us-tx</code></td><td>Texas</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/us-ana.png" width="18" height="12" title="Anaheim"></td><td><code>us-ana</code></td><td>Anaheim</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-chi.png" width="18" height="12" title="Chicago"></td><td><code>us-chi</code></td><td>Chicago</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-den.png" width="18" height="12" title="Denver"></td><td><code>us-den</code></td><td>Denver</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/us-lax.png" width="18" height="12" title="Los Angeles"></td><td><code>us-lax</code></td><td>Los Angeles</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-nyc.png" width="18" height="12" title="New York City"></td><td><code>us-nyc</code></td><td>New York City</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-pdx.png" width="18" height="12" title="Portland"></td><td><code>us-pdx</code></td><td>Portland</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-phx.png" width="18" height="12" title="Phoenix"></td><td><code>us-phx</code></td><td>Phoenix</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/us-pih.png" width="18" height="12" title="Pocatello"></td><td><code>us-pih</code></td><td>Pocatello</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/us-sfo.png" width="18" height="12" title="San Francisco"></td><td><code>us-sfo</code></td><td>San Francisco</td></tr>
 </table>
 
 ## Aliases for ISO Country Codes or Subdivisions
@@ -137,6 +143,7 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-fennoswede.png" width="18" height="12" title="Fenno-Swede"></td><td><code>xx-fennoswede</code></td><td>Fenno-Swede</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-ca.png" width="18" height="12" title="Native American (Canada)"></td><td><code>xx-na-ca</code></td><td>Native American (Canada)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-us.png" width="18" height="12" title="Native American (United States)"></td><td><code>xx-na-us</code></td><td>Native American (United States)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-na-iroquois.png" width="18" height="12" title="Iroquois"></td><td><code>xx-na-iroquois</code></td><td>Iroquois</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-miccosukee.png" width="18" height="12" title="Miccosukee"></td><td><code>xx-na-miccosukee</code></td><td>Miccosukee</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-navajo.png" width="18" height="12" title="Navajo"></td><td><code>xx-na-navajo</code></td><td>Navajo</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-northpole.png" width="18" height="12" title="North Pole"></td><td><code>xx-northpole</code></td><td>North Pole</td></tr>
@@ -184,6 +191,7 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-lgbt-us.png" width="18" height="12" title="LGBT Pride (United States)"></td><td><code>xx-pride-lgbt-us</code></td><td>LGBT Pride (United States)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-lgbt-us-co.png" width="18" height="12" title="LGBT Pride (Colorado)"></td><td><code>xx-pride-lgbt-us-co</code></td><td>LGBT Pride (Colorado)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-lgbt-us-phl.png" width="18" height="12" title="LGBT Pride (Philadelphia)"></td><td><code>xx-pride-lgbt-us-phl</code></td><td>LGBT Pride (Philadelphia)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-lgbt-progress.png" width="18" height="12" title="Daniel Quasar's &ldquo;Progress&rdquo; Pride Flag"></td><td><code>xx-pride-lgbt-progress</code></td><td>Daniel Quasar's &ldquo;Progress&rdquo; Pride Flag</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-lipstick-1.png" width="18" height="12" title="Lipstick Lesbian Pride (deprecated)"></td><td><code>xx-pride-lipstick-1</code></td><td>Lipstick Lesbian Pride (deprecated)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-lipstick-2.png" width="18" height="12" title="Lipstick Lesbian Pride (new)"></td><td><code>xx-pride-lipstick-2</code></td><td>Lipstick Lesbian Pride (new)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-master-slave.png" width="18" height="12" title="Master-Slave Pride"></td><td><code>xx-pride-master-slave</code></td><td>Master-Slave Pride</td></tr>
@@ -222,6 +230,7 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <table align="center">
 <tr><td><img src="artwork/vexillo/pgc024/xx-aristasia.png" width="18" height="12" title="Aristasia"></td><td><code>xx-aristasia</code></td><td>Aristasia</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-christian.png" width="18" height="12" title="Christian"></td><td><code>xx-christian</code></td><td>Christian</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-misc-cmc.png" width="18" height="12" title="Cutie Mark Day Camp"></td><td><code>xx-misc-cmc</code></td><td>Cutie Mark Day Camp</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-misc-cmyk.png" width="18" height="12" title="CMYK"></td><td><code>xx-misc-cmyk</code></td><td>CMYK</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-misc-fam.png" width="18" height="12" title="FamFamFam"></td><td><code>xx-misc-fam</code></td><td>FamFamFam</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-misc-iguana.png" width="18" height="12" title="Iguana iguana powersurgius"></td><td><code>xx-misc-iguana</code></td><td>Iguana iguana powersurgius</td></tr>
@@ -230,9 +239,10 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-misc-rgb.png" width="18" height="12" title="RGB"></td><td><code>xx-misc-rgb</code></td><td>RGB</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-misc-vexillo.png" width="18" height="12" title="Vexillo"></td><td><code>xx-misc-vexillo</code></td><td>Vexillo</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-northtakoma.png" width="18" height="12" title="North Takoma"></td><td><code>xx-northtakoma</code></td><td>North Takoma</td></tr>
-<tr><td><img src="artwork/vexillo/pgc024/xx-org-fiav.png" width="18" height="12" title="FIAV"></td><td><code>xx-org-fiav</code></td><td>FIAV</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-org-fiav.png" width="18" height="12" title="International Federation of Vexillological Associations"></td><td><code>xx-org-fiav</code></td><td>International Federation of Vexillological Associations</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-org-fotw.png" width="18" height="12" title="Flags of the World"></td><td><code>xx-org-fotw</code></td><td>Flags of the World</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-org-nava.png" width="18" height="12" title="North American Vexillological Association"></td><td><code>xx-org-nava</code></td><td>North American Vexillological Association</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-org-pfa.png" width="18" height="12" title="Portland Flag Association"></td><td><code>xx-org-pfa</code></td><td>Portland Flag Association</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pace.png" width="18" height="12" title="Pace"></td><td><code>xx-pace</code></td><td>Pace</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pirate.png" width="18" height="12" title="Pirate"></td><td><code>xx-pirate</code></td><td>Pirate</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-semaphore.png" width="18" height="12" title="Semaphore"></td><td><code>xx-semaphore</code></td><td>Semaphore</td></tr>
