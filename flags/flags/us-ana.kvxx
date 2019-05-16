@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="us-ana" name="Anaheim" fly="h*3/2">
+	<defs>
+		<dim id="sdx" e="h*0.28"/>
+		<dim id="sdy1" e="h*0.21"/>
+		<dim id="sdy2" e="h*0.33"/>
+		<dim id="ss" e="h/15"/>
+		<color id="blue1">
+			<colorspec model="rgb" value="0 35 125"/>
+		</color>
+		<color id="blue2">
+			<colorspec model="rgb" value="66 189 222"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue1 blue2 blue1" weights="21 8 21"/>
+	<symbol symbol="star" x="w/2" y="h/2-sdy2" sx="ss" sy="ss" rotate="0" color="white"/>
+	<symbol symbol="star" x="w/2" y="h/2+sdy2" sx="ss" sy="ss" rotate="180" color="white"/>
+	<symbol symbol="star" x="w/2-sdx" y="h/2+sdy1" sx="ss" sy="ss" rotate="0" color="white"/>
+	<symbol symbol="star" x="w/2+sdx" y="h/2+sdy1" sx="ss" sy="ss" rotate="0" color="white"/>
+	<symbol symbol="star" x="w/2-sdx" y="h/2-sdy1" sx="ss" sy="ss" rotate="180" color="white"/>
+	<symbol symbol="star" x="w/2+sdx" y="h/2-sdy1" sx="ss" sy="ss" rotate="180" color="white"/>
+</flag>

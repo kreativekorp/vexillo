@@ -919,6 +919,9 @@ us-den; xx-denver	E462
 us-phx; xx-phoenix	E463
 us-pdx; xx-portland	E464
 us-pih; xx-pocatello	E465
+us-sfo; xx-sanfrancisco	E466
+us-lax; xx-losangeles	E467
+us-ana; xx-anaheim	E468
 xx-cascadia	E47F
 
 mx-cmx; xx-ciudaddemexico	E480

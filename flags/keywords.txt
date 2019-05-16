@@ -505,6 +505,9 @@ us-den; xx-denver	north america united states us usa city denver den colorado co
 us-phx; xx-phoenix	north america united states us usa city phoenix phx arizona ariz az
 us-pdx; xx-portland	north america united states us usa city portland pdx oregon ore or
 us-pih; xx-pocatello	north america united states us usa city pocatello pih idaho id
+us-sfo; xx-sanfrancisco	north america united states us usa city san francisco sfo california republic calif ca
+us-lax; xx-losangeles	north america united states us usa city los angeles lax california republic calif ca
+us-ana; xx-anaheim	north america united states us usa city anaheim ana california republic calif ca
 xx-cascadia	north america cascadia
 
 mx-cmx; xx-ciudaddemexico	north america mexico united mexican states city ciudad de cmx
@@ -558,10 +561,10 @@ xx-na-chickasaw	native american indian first nations peoples tribe clan band chi
 xx-na-choctaw	native american indian first nations peoples tribe clan band choctaw
 xx-na-easternshawnee	native american indian first nations peoples tribe clan band eastern shawnee
 xx-na-hopi	native american indian first nations peoples tribe clan band hopi
-xx-na-iroquois	native american indian first nations peoples tribe clan band iroquois
+xx-na-iroquois	native american indian first nations peoples tribe clan band iroquois confederacy
 xx-na-lakota	native american indian first nations peoples tribe clan band lakota
 xx-na-miccosukee	native american indian first nations peoples tribe clan band miccosukee
-xx-na-navajo	native american indian first nations peoples tribe clan band navajo
+xx-na-navajo	native american indian first nations peoples tribe clan band navajo nation
 xx-na-northerncheyenne	native american indian first nations peoples tribe clan band northern cheyenne
 xx-na-quapaw	native american indian first nations peoples tribe clan band quapaw
 xx-na-shawnee	native american indian first nations peoples tribe clan band shawnee
