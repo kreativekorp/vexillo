@@ -141,6 +141,15 @@ public abstract class Dimension {
 		}
 	}
 	
+	public static final class Sgn extends Dimension {
+		private final Dimension a;
+		public Sgn(Dimension a) { this.a = a; }
+		@Override
+		public double value(Map<String, Dimension> ns) {
+			return Math.signum(a.value(ns));
+		}
+	}
+	
 	public static final class Sqrt extends Dimension {
 		private final Dimension a;
 		public Sqrt(Dimension a) { this.a = a; }
@@ -294,6 +303,15 @@ public abstract class Dimension {
 		}
 	}
 	
+	public static final class Cmp extends Dimension {
+		private final Dimension a, b;
+		public Cmp(Dimension a, Dimension b) { this.a = a; this.b = b; }
+		@Override
+		public double value(Map<String, Dimension> ns) {
+			return Math.signum(a.value(ns) - b.value(ns));
+		}
+	}
+	
 	public static final class Hypot extends Dimension {
 		private final Dimension a, b;
 		public Hypot(Dimension a, Dimension b) { this.a = a; this.b = b; }
@@ -309,6 +327,21 @@ public abstract class Dimension {
 		@Override
 		public double value(Map<String, Dimension> ns) {
 			return Math.toDegrees(Math.atan2(a.value(ns), b.value(ns)));
+		}
+	}
+	
+	public static final class Cond extends Dimension {
+		private final Dimension c, p, n, z, nan;
+		public Cond(Dimension c, Dimension p, Dimension n, Dimension z, Dimension nan) {
+			this.c = c; this.p = p; this.n = n; this.z = z; this.nan = nan;
+		}
+		@Override
+		public double value(Map<String, Dimension> ns) {
+			double c = this.c.value(ns);
+			if (c > 0) return p.value(ns);
+			if (c < 0) return n.value(ns);
+			if (c == 0) return z.value(ns);
+			return nan.value(ns);
 		}
 	}
 }

@@ -30,6 +30,7 @@ public class DimensionParser {
 			}
 			String id = s.toString();
 			if (id.equalsIgnoreCase("abs")) return new Dimension.Abs(parseFactor());
+			if (id.equalsIgnoreCase("sgn")) return new Dimension.Sgn(parseFactor());
 			if (id.equalsIgnoreCase("sqrt")) return new Dimension.Sqrt(parseFactor());
 			if (id.equalsIgnoreCase("cbrt")) return new Dimension.Cbrt(parseFactor());
 			if (id.equalsIgnoreCase("sin")) return new Dimension.Sin(parseFactor());
@@ -50,8 +51,10 @@ public class DimensionParser {
 			if (id.equalsIgnoreCase("log")) { Dimension[] d = parseArgs(new Dimension[2]); return new Dimension.Log(d[0], d[1]); }
 			if (id.equalsIgnoreCase("min")) { Dimension[] d = parseArgs(new Dimension[2]); return new Dimension.Min(d[0], d[1]); }
 			if (id.equalsIgnoreCase("max")) { Dimension[] d = parseArgs(new Dimension[2]); return new Dimension.Max(d[0], d[1]); }
+			if (id.equalsIgnoreCase("cmp")) { Dimension[] d = parseArgs(new Dimension[2]); return new Dimension.Cmp(d[0], d[1]); }
 			if (id.equalsIgnoreCase("hypot")) { Dimension[] d = parseArgs(new Dimension[2]); return new Dimension.Hypot(d[0], d[1]); }
 			if (id.equalsIgnoreCase("atan2")) { Dimension[] d = parseArgs(new Dimension[2]); return new Dimension.Atan2(d[0], d[1]); }
+			if (id.equalsIgnoreCase("cond")) { Dimension[] d = parseArgs(new Dimension[5]); return new Dimension.Cond(d[0], d[1], d[2], d[3], d[4]); }
 			return new Dimension.Variable(id);
 		} else switch (ch) {
 			case '+': it.next(); return new Dimension.Pos(parseFactor());
