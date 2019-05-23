@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="r/vexillology" fly="h*19/10">
+	<defs>
+		<dim id="ah1" e="h*0.515"/>
+		<dim id="ah2" e="h*0.415"/>
+		<dim id="ax1" e="w/2-h*0.0835"/>
+		<dim id="ax2" e="w/2+h*0.0835"/>
+		<dim id="ay1" e="h/2-h*0.125"/>
+		<dim id="ay2" e="h/2+h*0.125"/>
+		<color id="upvote">
+			<colorspec model="rgb" value="255 139 96"/>
+		</color>
+		<color id="downvote">
+			<colorspec model="rgb" value="148 148 255"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="knockout" d="M 0 -0.5 L 0.522 0.022 H -0.522 Z"/>
+		<symdef id="arrow" d="M 0 -0.5 L 0.522 0.022 H 0.16 V 0.5 H -0.16 V 0.022 H -0.522 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="upvote white downvote"/>
+	<symbol symbol="knockout" x="ax1" y="ay1" sx="ah1" sy="ah1" rotate="0" color="white"/>
+	<symbol symbol="knockout" x="ax2" y="ay2" sx="ah1" sy="ah1" rotate="180" color="white"/>
+	<symbol symbol="arrow" x="ax1" y="ay1" sx="ah2" sy="ah2" rotate="0" color="upvote"/>
+	<symbol symbol="arrow" x="ax2" y="ay2" sx="ah2" sy="ah2" rotate="180" color="downvote"/>
+</flag>

@@ -2128,6 +2128,8 @@ xx-kk-kappaa-sibleck	F773
 xx-misc-vexillo	F800
 xx-misc-fam	F801
 
+xx-misc-r-vexillology	F810
+
 xx-org-fiav	F820
 xx-org-fotw	F821
 xx-org-nava	F822

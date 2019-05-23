@@ -1696,6 +1696,8 @@ xx-kk-kappaa-sibleck	kreative entertainment media kappaa kappaan family sibleck
 xx-misc-vexillo	misc miscellaneous kreative vexillo
 xx-misc-fam	misc miscellaneous fam famfamfam
 
+xx-misc-r-vexillology	misc miscellaneous community reddit subreddit sub r vexillology
+
 xx-org-fiav	org organization fiav international federation vexillological associations
 xx-org-fotw	org organization fotw flags world
 xx-org-nava	org organization nava north american vexillological association
