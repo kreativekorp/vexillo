@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="LGBT Pride (United Kingdom)" fly="h*2">
+	<defs>
+		<!-- Dimensions of Saltire -->
+		<dim id="t1" e="h*6/30"/>
+		<dim id="t2" e="h*4/30"/>
+		<!-- Dimensions of Cross -->
+		<dim id="cy1" e="h*10/30"/>
+		<dim id="cy2" e="h*12/30"/>
+		<dim id="cy3" e="h*18/30"/>
+		<dim id="cy4" e="h*20/30"/>
+		<dim id="cx1" e="w/2-h*5/30"/>
+		<dim id="cx2" e="w/2-h*3/30"/>
+		<dim id="cx3" e="w/2+h*3/30"/>
+		<dim id="cx4" e="w/2+h*5/30"/>
+		<!-- Colors -->
+		<color id="pink">
+			<colorspec model="rgb" value="250 135 210"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="186 C"/>
+			<colorspec model="cmyk" value="0 91 76 6"/>
+			<colorspec model="rgb" value="207 20 43"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<!-- Saltire -->
+	<field x1="0" y1="0" x2="w" y2="h" color="pink"/>
+	<saltire x1="0" y1="0" x2="w" y2="h" thickness="t1" color="white"/>
+	<g>
+		<clip>
+			<saltire x1="0" y1="0" x2="w" y2="h" thickness="t2"/>
+		</clip>
+		<poly points="0 0 w/2 h/2 0 h/2" color="red"/>
+		<poly points="w 0 w/2 h/2 w/2 0" color="red"/>
+		<poly points="0 h w/2 h/2 w/2 h" color="red"/>
+		<poly points="w h w/2 h/2 w h/2" color="red"/>
+	</g>
+	<!-- Cross -->
+	<cross x1="0" y1="0" x2="cx1" y2="cy1" x3="cx4" y3="cy4" x4="w" y4="h" color="white"/>
+	<cross x1="0" y1="0" x2="cx2" y2="cy2" x3="cx3" y3="cy3" x4="w" y4="h" color="red"/>
+</flag>

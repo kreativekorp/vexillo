@@ -138,6 +138,11 @@ xx-esperanto-jh	esperanto signal letter jh jhurnalo
 xx-esperanto-sh	esperanto signal letter sh shilingo
 xx-esperanto-uu	esperanto signal letter uu universo hoko universohoko
 
+xx-us-gale-warning	north america united states us usa maritime signal small craft gale warning
+xx-us-storm-warning	north america united states us usa maritime signal whole gale storm hurricane warning
+xx-us-diver-down	north america united states us usa maritime signal diver down
+xx-us-distress	north america united states us usa maritime signal distress orange black disc square
+
 
 ## ISO Country Code Flags
 
@@ -215,8 +220,8 @@ ee	northern europe baltic states republic estonia
 lv	northern europe baltic states republic latvia
 lt	northern europe baltic states republic lithuania
 ie	northern europe republic ireland
-gb	northern europe united kingdom great britain ireland uk gb
-uk	northern europe united kingdom great britain ireland uk gb
+gb	northern europe united kingdom great britain ireland uk gb union jack
+uk	northern europe united kingdom great britain ireland uk gb union jack
 gg	northern europe united kingdom great britain uk gb bailiwick guernsey
 im	northern europe united kingdom great britain uk gb isle man mann
 je	northern europe united kingdom great britain uk gb bailiwick jersey
@@ -1586,18 +1591,22 @@ xx-conlang-klingon	conlang constructed language klingon empire kronos qonos star
 
 ## Pride Flags
 
-xx-pride-lgbt	lgbt gay pride rainbow 6 six band bands
-xx-pride-lgbt-7band	lgbt gay pride rainbow 7 seven band bands
-xx-pride-lgbt-8band	lgbt gay pride rainbow 8 eight band bands
+xx-pride-lgbt	lgbt gay pride rainbow 6 six band bands gilbert baker
+xx-pride-lgbt-7band	lgbt gay pride rainbow 7 seven band bands gilbert baker
+xx-pride-lgbt-8band	lgbt gay pride rainbow 8 eight band bands gilbert baker
 xx-pride-lgbt-us	lgbt gay pride rainbow north america united states us usa
 xx-pride-lgbt-us-co	lgbt gay pride rainbow north america united states us usa state colorado colo co
 xx-pride-lgbt-us-phl	lgbt gay pride rainbow north america united states us usa city philadelphia phl pennsylvania penn pa
 xx-pride-lgbt-progress	lgbt gay pride rainbow progress initiative reboot inclusive new daniel quasar
+xx-pride-lgbt-za	lgbt gay pride rainbow southern africa republic south rsa
+xx-pride-lgbt-tw	lgbt gay pride rainbow east asia taiwan republic china roc
+xx-pride-lgbt-9band	lgbt gay pride rainbow 9 nine band bands love fest festival estevao romane
+xx-pride-lgbt-gb; xx-pride-lgbt-uk	lgbt gay pride northern europe united kingdom great britain uk gb pink jack
 
-xx-pride-asexual	lgbt gay pride asexual ace
+xx-pride-asexual	lgbt gay pride asexual ace aven visibility education network user standup
 xx-pride-lesbian-1	lgbt gay pride lesbian labrys triangle purple
 xx-pride-gay	lgbt gay pride male homosexuality
-xx-pride-bisexual	lgbt gay pride bisexual bi
+xx-pride-bisexual	lgbt gay pride bisexual bi michael page
 xx-pride-pansexual	lgbt gay pride pansexual pan
 xx-pride-polysexual	lgbt gay pride polysexual poly
 xx-pride-demisexual	lgbt gay pride demisexual demi
@@ -1609,26 +1618,26 @@ xx-pride-lesbian-6	lgbt gay pride lesbian inclusive everyone 4 four band bands m
 xx-pride-aromantic	lgbt gay pride aromantic aro
 
 xx-pride-trans	lgbt trans transgender transsexual pride monica helms
-xx-pride-trans-il	lgbt trans transgender transsexual pride israel
+xx-pride-trans-il	lgbt trans transgender transsexual pride western southwestern asia middle east state israel
 
-xx-pride-agender	lgbt gay pride gender agender
+xx-pride-agender	lgbt gay pride gender agender tumblr user transrants
 xx-pride-female	pride gender female
 xx-pride-male	pride gender male
 xx-pride-androgyne	lgbt gay pride gender androgyne androgynous
 xx-pride-bigender	lgbt gay pride gender bigender
 xx-pride-genderfluid	lgbt gay pride gender genderfluid fluid
-xx-pride-genderqueer	lgbt gay pride gender genderqueer queer
-xx-pride-nonbinary	lgbt gay pride gender nonbinary non binary nb enby
+xx-pride-genderqueer	lgbt gay pride gender genderqueer queer marilyn roxie
+xx-pride-nonbinary	lgbt gay pride gender nonbinary non binary nb enby kye rowan
 
-xx-pride-intersex-1	lgbt gay pride intersex gradient
-xx-pride-intersex-2	lgbt gay pride intersex circle
+xx-pride-intersex-1	lgbt gay pride intersex blue pink gradient
+xx-pride-intersex-2	lgbt gay pride intersex human rights australia yellow purple circle
 
-xx-pride-bear	lgbt gay pride bear
+xx-pride-bear	lgbt gay pride bear craig byrnes
 xx-pride-lipstick-1	lgbt gay pride femme lipstick lesbian pink red 9 nine band bands
 xx-pride-twink	lgbt gay pride femme male twink
 xx-pride-lipstick-2	lgbt gay pride femme lipstick lesbian inclusive everyone 4 four band bands rebecca bettencourt
 
-xx-pride-leather	kink pride bdsm leather
+xx-pride-leather	kink pride bdsm leather tony deblase
 xx-pride-poly	pride poly polyamory polyamorous
 xx-pride-bdsm	kink pride bdsm
 xx-pride-rubber	kink pride bdsm rubber

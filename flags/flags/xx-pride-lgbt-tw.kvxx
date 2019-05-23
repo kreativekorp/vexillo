@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="LGBT Pride (Taiwan)" fly="h*3/2">
+	<defs>
+		<dim id="d1" e="min(h*3/8,w*3/8)"/>
+		<dim id="d2" e="d1*128/226"/>
+		<dim id="d3" e="d1*114/226"/>
+		<color id="red">
+			<colorspec model="rgb" value="255 0 0"/>
+		</color>
+		<color id="orange">
+			<colorspec model="rgb" value="255 153 0"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 255 0"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="0 153 0"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="0 0 255"/>
+		</color>
+		<color id="purple">
+			<colorspec model="rgb" value="153 0 153"/>
+		</color>
+		<color id="twblue">
+			<colorspec model="pantone" value="2748"/>
+			<colorspec model="cmyk" value="100 88 0 14"/>
+			<colorspec model="rgb" value="25 57 138"/>
+		</color>
+		<color id="twwhite">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="ray" d="M -0.266667 0 L 0 -1 L 0.266667 0 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="6" colors="red orange yellow green blue purple"/>
+	<field x1="0" y1="0" x2="w/2" y2="h/2" color="twblue"/>
+	<for var="x" start="0" end="11">
+		<symbol symbol="ray" x="w/4" y="h/4" sx="d1/2" sy="d1/2" rotate="x*30" color="twwhite"/>
+	</for>
+	<disc cx="w/4" cy="h/4" w="d2" h="d2" color="twblue"/>
+	<disc cx="w/4" cy="h/4" w="d3" h="d3" color="twwhite"/>
+</flag>

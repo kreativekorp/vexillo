@@ -138,6 +138,11 @@ xx-esperanto-jh	E0BD; 0134; 0135
 xx-esperanto-sh	E0BE; 015C; 015D
 xx-esperanto-uu	E0BF; 016C; 016D
 
+xx-us-gale-warning	E0C0
+xx-us-storm-warning	E0C1
+xx-us-diver-down	E0C2
+xx-us-distress	E0C3
+
 
 ## E100-E3FF	ISO Country Code Flags
 
@@ -2025,6 +2030,10 @@ xx-pride-lgbt-us	F503
 xx-pride-lgbt-us-co	F504
 xx-pride-lgbt-us-phl	F505
 xx-pride-lgbt-progress	F506
+xx-pride-lgbt-za	F507
+xx-pride-lgbt-tw	F508
+xx-pride-lgbt-9band	F509
+xx-pride-lgbt-gb; xx-pride-lgbt-uk	F50A
 
 xx-pride-asexual	F510
 xx-pride-lesbian-1	F511

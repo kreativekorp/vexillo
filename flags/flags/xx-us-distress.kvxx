@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Distress Signal" fly="h*3/2">
+	<defs>
+		<dim id="s" e="max(w,h)/3"/>
+		<dim id="d" e="max(w,h)/6"/>
+		<dim id="sx1" e="(max(w,h)-d)/2-s"/>
+		<dim id="sx2" e="(max(w,h)-d)/2"/>
+		<dim id="sy1" e="(min(w,h)-s)/2"/>
+		<dim id="sy2" e="(min(w,h)+s)/2"/>
+		<dim id="dx" e="(max(w,h)+d+s)/2"/>
+		<dim id="dy" e="min(w,h)/2"/>
+		<color id="orange">
+			<colorspec model="rgb" value="255 153 0"/>
+		</color>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="orange"/>
+	<field x1="cond(h-w,sy1,sx1,sx1,sx1)"
+	       y1="cond(h-w,sx1,sy1,sy1,sy1)"
+	       x2="cond(h-w,sy2,sx2,sx2,sx2)"
+	       y2="cond(h-w,sx2,sy2,sy2,sy2)"
+	       color="black"/>
+	<disc cx="cond(h-w,dy,dx,dx,dx)"
+	      cy="cond(h-w,dx,dy,dy,dy)"
+	      w="s" h="s" color="black"/>
+</flag>
