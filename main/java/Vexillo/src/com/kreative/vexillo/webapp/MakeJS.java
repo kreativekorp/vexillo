@@ -20,9 +20,14 @@ import com.kreative.vexillo.core.PropertySet;
 import com.kreative.vexillo.font.CodeSequence;
 import com.kreative.vexillo.font.Encoding;
 import com.kreative.vexillo.font.EncodingNode;
+import com.kreative.vexillo.main.Vexillo;
 
 public class MakeJS {
 	public static void main(String[] args) throws IOException {
+		main(Vexillo.arg0(MakeJS.class), args, 0);
+	}
+	
+	public static void main(String arg0, String[] args, int argi) throws IOException {
 		try { System.setProperty("apple.awt.UIElement", "true"); } catch (Exception e) {}
 		boolean parsingOptions = true;
 		File outputFile = new File("vexdata.js");
@@ -32,7 +37,6 @@ public class MakeJS {
 		PatternListComparator.ForStrings sortOrder = new PatternListComparator.ForStrings();
 		Map<String,Flag> flags = new HashMap<String,Flag>();
 		List<String> ids = new ArrayList<String>();
-		int argi = 0;
 		while (argi < args.length) {
 			String arg = args[argi++];
 			if (parsingOptions && arg.startsWith("-")) {

@@ -1,5 +1,9 @@
 package com.kreative.vexillo.main;
 
+import java.io.IOException;
+import com.kreative.vexillo.webapp.MakeJS;
+import com.kreative.vexillo.webapp.MakeUniData;
+
 public class Vexillo {
 	public static String arg0(Class<?> main) {
 		try {
@@ -45,6 +49,12 @@ public class Vexillo {
 			ASCII85Encode.main(arg0 + " ASCII85Encode", args, argi + 1);
 		} else if (args[argi].equalsIgnoreCase("ASCII85Decode")) {
 			ASCII85Decode.main(arg0 + " ASCII85Decode", args, argi + 1);
+		} else if (args[argi].equalsIgnoreCase("MakeJS")) {
+			try { MakeJS.main(arg0 + " MakeJS", args, argi + 1); }
+			catch (IOException e) { e.printStackTrace(); }
+		} else if (args[argi].equalsIgnoreCase("MakeUniData")) {
+			try { MakeUniData.main(arg0 + " MakeUniData", args, argi + 1); }
+			catch (IOException e) { e.printStackTrace(); }
 		} else {
 			printHelp(arg0);
 		}
