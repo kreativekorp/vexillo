@@ -1372,6 +1372,171 @@ it-vt	southern europe italy italian republic province viterbo
 it-vv	southern europe italy italian republic province vibo valentia
 
 
+## Asian Flags A
+
+cn-ah	east asia peoples republic china prc province anhui sheng
+cn-bj	east asia peoples republic china prc municipality beijing shi
+cn-cq	east asia peoples republic china prc municipality chongqing shi
+cn-fj	east asia peoples republic china prc province fujian sheng
+cn-gd	east asia peoples republic china prc province guangdong sheng
+cn-gs	east asia peoples republic china prc province gansu sheng
+cn-gx	east asia peoples republic china prc autonomous region guangxi zhuangzu zizhiqu
+cn-gz	east asia peoples republic china prc province guizhou sheng
+cn-ha	east asia peoples republic china prc province henan sheng
+cn-hb	east asia peoples republic china prc province hubei sheng
+cn-he	east asia peoples republic china prc province hebei sheng
+cn-hi	east asia peoples republic china prc province hainan sheng
+cn-hk	east asia peoples republic china prc special administrative region sar hong kong xianggang tebiexingzhengqu
+cn-hl	east asia peoples republic china prc province heilongjiang sheng
+cn-hn	east asia peoples republic china prc province hunan sheng
+cn-jl	east asia peoples republic china prc province jilin sheng
+cn-js	east asia peoples republic china prc province jiangsu sheng
+cn-jx	east asia peoples republic china prc province jiangxi sheng
+cn-ln	east asia peoples republic china prc province liaoning sheng
+cn-mo	east asia peoples republic china prc special administrative region sar macao macau aomen tebiexingzhengqu
+cn-nm	east asia peoples republic china prc autonomous region nei mongol zizhiqu
+cn-nx	east asia peoples republic china prc autonomous region ningxia huizi zizhiqu
+cn-qh	east asia peoples republic china prc province qinghai sheng
+cn-sc	east asia peoples republic china prc province sichuan sheng
+cn-sd	east asia peoples republic china prc province shandong sheng
+cn-sh	east asia peoples republic china prc municipality shanghai shi
+cn-sn	east asia peoples republic china prc province shaanxi sheng
+cn-sx	east asia peoples republic china prc province shanxi sheng
+cn-tj	east asia peoples republic china prc municipality tianjin shi
+cn-tw	east asia peoples republic china prc province taiwan sheng
+cn-xj	east asia peoples republic china prc autonomous region xinjiang uygur zizhiqu
+cn-xz	east asia peoples republic china prc autonomous region xizang zizhiqu
+cn-yn	east asia peoples republic china prc province yunnan sheng
+cn-zj	east asia peoples republic china prc province zhejiang sheng
+
+mn-1	east asia mongolia capital city ulaanbaatar
+mn-035	east asia mongolia province orhon
+mn-037	east asia mongolia province darhan uul
+mn-039	east asia mongolia province hentiy
+mn-041	east asia mongolia province hovsgol
+mn-043	east asia mongolia province hovd
+mn-046	east asia mongolia province uvs
+mn-047	east asia mongolia province tov
+mn-049	east asia mongolia province selenge
+mn-051	east asia mongolia province suhbaatar
+mn-053	east asia mongolia province omnogovi
+mn-055	east asia mongolia province ovorhangay
+mn-057	east asia mongolia province dzavhan
+mn-059	east asia mongolia province dundgovi
+mn-061	east asia mongolia province dornod
+mn-063	east asia mongolia province dornogovi
+mn-064	east asia mongolia province govi sumber
+mn-065	east asia mongolia province govi altay
+mn-067	east asia mongolia province bulgan
+mn-069	east asia mongolia province bayanhongor
+mn-071	east asia mongolia province bayan olgiy
+mn-073	east asia mongolia province arhangay
+
+kp-01	east asia democratic peoples republic north korea dprk capital city pyongyang phyeongyang
+kp-02	east asia democratic peoples republic north korea dprk province south pyongan phyeongannamto
+kp-03	east asia democratic peoples republic north korea dprk province north pyongan phyeonganpukto
+kp-04	east asia democratic peoples republic north korea dprk province chagang jakangto
+kp-05	east asia democratic peoples republic north korea dprk province south hwanghae hwanghainamto
+kp-06	east asia democratic peoples republic north korea dprk province north hwanghae hwanghaipukto
+kp-07	east asia democratic peoples republic north korea dprk province kangwon kangweonto
+kp-08	east asia democratic peoples republic north korea dprk province south hamgyong hamkyeongnamto
+kp-09	east asia democratic peoples republic north korea dprk province north hamgyong hamkyeongpukto
+kp-10	east asia democratic peoples republic north korea dprk province ryanggang ryangkangto
+kp-13	east asia democratic peoples republic north korea dprk special city rason raseon
+kp-14	east asia democratic peoples republic north korea dprk metropolitan city nampo nampho
+
+kr-11	east asia republic south korea rok special city seoul teukbyeolsi
+kr-26	east asia republic south korea rok metropolitan city busan gwangyeoksi
+kr-27	east asia republic south korea rok metropolitan city daegu gwangyeoksi
+kr-28	east asia republic south korea rok metropolitan city incheon gwangyeoksi
+kr-29	east asia republic south korea rok metropolitan city gwangju gwangyeoksi
+kr-30	east asia republic south korea rok metropolitan city daejeon gwangyeoksi
+kr-31	east asia republic south korea rok metropolitan city ulsan gwangyeoksi
+kr-41	east asia republic south korea rok province gyeonggi do
+kr-42	east asia republic south korea rok province gangwon do
+kr-43	east asia republic south korea rok province north chungcheong chungbuk chungcheongbuk do
+kr-44	east asia republic south korea rok province south chungcheong chungnam chungcheongnam do
+kr-45	east asia republic south korea rok province north jeolla jeonbuk jeollabuk do
+kr-46	east asia republic south korea rok province south jeolla jeonnam jeollanam do
+kr-47	east asia republic south korea rok province north gyeongsang gyeongbuk gyeongsangbuk do
+kr-48	east asia republic south korea rok province south gyeongsang gyeongnam gyeongsangnam do
+kr-49	east asia republic south korea rok special self governing province jeju teukbyeoljachido
+kr-50	east asia republic south korea rok special self governing city sejong
+
+jp-01	east asia japan prefecture hokkaido
+jp-02	east asia japan prefecture aomori
+jp-03	east asia japan prefecture iwate
+jp-04	east asia japan prefecture miyagi
+jp-05	east asia japan prefecture akita
+jp-06	east asia japan prefecture yamagata
+jp-07	east asia japan prefecture fukushima
+jp-08	east asia japan prefecture ibaraki
+jp-09	east asia japan prefecture tochigi
+jp-10	east asia japan prefecture gunma
+jp-11	east asia japan prefecture saitama
+jp-12	east asia japan prefecture chiba
+jp-13; jp-hnd	east asia japan prefecture city tokyo metropolis
+jp-14	east asia japan prefecture kanagawa
+jp-15	east asia japan prefecture niigata
+jp-16	east asia japan prefecture toyama
+jp-17	east asia japan prefecture ishikawa
+jp-18	east asia japan prefecture fukui
+jp-19	east asia japan prefecture yamanashi
+jp-20	east asia japan prefecture nagano
+jp-21	east asia japan prefecture gifu
+jp-22	east asia japan prefecture shizuoka
+jp-23	east asia japan prefecture aichi
+jp-24	east asia japan prefecture mie
+jp-25	east asia japan prefecture shiga
+jp-26	east asia japan prefecture kyoto
+jp-27	east asia japan prefecture osaka
+jp-28	east asia japan prefecture hyogo
+jp-29	east asia japan prefecture nara
+jp-30	east asia japan prefecture wakayama
+jp-31	east asia japan prefecture tottori
+jp-32	east asia japan prefecture shimane
+jp-33	east asia japan prefecture okayama
+jp-34	east asia japan prefecture hiroshima
+jp-35	east asia japan prefecture yamaguchi
+jp-36	east asia japan prefecture tokushima
+jp-37	east asia japan prefecture kagawa
+jp-38	east asia japan prefecture ehime
+jp-39	east asia japan prefecture kochi
+jp-40	east asia japan prefecture fukuoka
+jp-41	east asia japan prefecture saga
+jp-42	east asia japan prefecture nagasaki
+jp-43	east asia japan prefecture kumamoto
+jp-44	east asia japan prefecture oita
+jp-45	east asia japan prefecture miyazaki
+jp-46	east asia japan prefecture kagoshima
+jp-47	east asia japan prefecture okinawa
+jp-uky	east asia japan city kyoto
+jp-itm	east asia japan city osaka
+
+tw-cha	east asia taiwan republic china roc county changhua
+tw-cyi	east asia taiwan republic china roc city chiayi
+tw-cyq	east asia taiwan republic china roc county chiayi
+tw-hsq	east asia taiwan republic china roc county hsinchu
+tw-hsz	east asia taiwan republic china roc city hsinchu
+tw-hua	east asia taiwan republic china roc county hualien
+tw-ila	east asia taiwan republic china roc county yilan
+tw-kee	east asia taiwan republic china roc city keelung
+tw-khh	east asia taiwan republic china roc special municipality kaohsiung
+tw-kin	east asia taiwan republic china roc county kinmen
+tw-lie	east asia taiwan republic china roc county lienchiang
+tw-mia	east asia taiwan republic china roc county miaoli
+tw-nan	east asia taiwan republic china roc county nantou
+tw-nwt	east asia taiwan republic china roc special municipality new taipei
+tw-pen	east asia taiwan republic china roc county penghu
+tw-pif	east asia taiwan republic china roc county pingtung
+tw-tao	east asia taiwan republic china roc special municipality taoyuan
+tw-tnn	east asia taiwan republic china roc special municipality tainan
+tw-tpe	east asia taiwan republic china roc special municipality taipei
+tw-ttt	east asia taiwan republic china roc county taitung
+tw-txg	east asia taiwan republic china roc special municipality taichung
+tw-yun	east asia taiwan republic china roc county yunlin
+
+
 ## Oceanic Flags
 
 # Australasia
