@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+
+if command -v vexillo >/dev/null 2>&1; then
+	VEXILLO="vexillo"
+elif test -f vexillo.jar; then
+	VEXILLO="java -jar vexillo.jar"
+else
+	echo "Please run make install or add vexillo.jar to this directory."
+	exit 1
+fi
+
+./makeflags
+./makefonts
+
+$VEXILLO MakeJS -e encoding.txt -k keywords.txt -n namelist.txt -s sortorder.txt -o vexdata.js
+$VEXILLO MakeUniData -e encoding.txt -n namelist.txt -o unicodedata.txt
+
+mv out/*.zip ../downloads/
+rm -rf ../artwork/vexillo/*
+mv out/* ../artwork/vexillo/
+rmdir out
+
+mv fonts/*.ttf.*.ttf ../fonts/Vexillo/
+rm -rf fonts/*.d
+rm fonts/Vexillo??.ttf
+rm fonts/Vexillo??.sfd
+rm fonts/vexillo-fonts.zip
+rmdir fonts
+
+mv vexdata.js ../app/
+
+cd ../main/java/Vexillo/
+make
+mv *.jar *.tgz ../../../downloads/
+rm -rf bin doc
+cd ../../../flags/
