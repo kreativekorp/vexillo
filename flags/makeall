@@ -12,7 +12,7 @@ fi
 ./makeflags
 ./makefonts
 
-$VEXILLO MakeJS -e encoding.txt -k keywords.txt -n namelist.txt -s sortorder.txt -o vexdata.js
+$VEXILLO MakeJS -e encoding.txt -k keywords.txt -n namelist.txt -s sortorder.txt -o vexdata.js flags/*.kvxx
 $VEXILLO MakeUniData -e encoding.txt -n namelist.txt -o unicodedata.txt
 
 mv out/*.zip ../downloads/
