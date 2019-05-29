@@ -2294,6 +2294,7 @@ xx-misc-vexillo	F800
 xx-misc-fam	F801
 
 xx-misc-r-vexillology	F810
+xx-misc-hello-internet	F811
 
 xx-org-fiav	F820
 xx-org-fotw	F821
@@ -2311,3 +2312,4 @@ xx-misc-ntscid	F863
 xx-misc-iguana	F880
 
 xx-misc-cmc	F8C0
+xx-misc-lunanova	F8C1
