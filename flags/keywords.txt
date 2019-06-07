@@ -1770,7 +1770,7 @@ xx-pride-lgbt-gb; xx-pride-lgbt-uk	lgbt gay pride northern europe united kingdom
 
 xx-pride-asexual	lgbt gay pride asexual ace aven visibility education network user standup
 xx-pride-lesbian-1	lgbt gay pride lesbian labrys triangle purple
-xx-pride-gay	lgbt gay pride male homosexuality
+xx-pride-gay-male	lgbt gay pride male homosexual leonis ignis
 xx-pride-bisexual	lgbt gay pride bisexual bi michael page
 xx-pride-pansexual	lgbt gay pride pansexual pan
 xx-pride-polysexual	lgbt gay pride polysexual poly
@@ -1781,6 +1781,7 @@ xx-pride-lesbian-4	lgbt gay pride lesbian orange pink 5 five band bands
 xx-pride-lesbian-5	lgbt gay pride lesbian inclusive everyone 4 four band bands lydia lydiandragon
 xx-pride-lesbian-6	lgbt gay pride lesbian inclusive everyone 4 four band bands maya kern revision revised
 xx-pride-aromantic	lgbt gay pride aromantic aro
+xx-pride-demiromantic	lgbt gay pride demiromantic dero
 
 xx-pride-trans	lgbt trans transgender transsexual pride monica helms
 xx-pride-trans-il	lgbt trans transgender transsexual pride western southwestern asia middle east state israel
@@ -1793,6 +1794,9 @@ xx-pride-bigender	lgbt gay pride gender bigender
 xx-pride-genderfluid	lgbt gay pride gender genderfluid fluid
 xx-pride-genderqueer	lgbt gay pride gender genderqueer queer marilyn roxie
 xx-pride-nonbinary	lgbt gay pride gender nonbinary non binary nb enby kye rowan
+xx-pride-neutrois	lgbt gay pride gender neutrois
+xx-pride-demigirl	lgbt gay pride gender demigirl demiwoman demifemale
+xx-pride-demiboy	lgbt gay pride gender demiboy demiman demimale
 
 xx-pride-intersex-1	lgbt gay pride intersex blue pink gradient
 xx-pride-intersex-2	lgbt gay pride intersex human rights australia yellow purple circle

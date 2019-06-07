@@ -2184,7 +2184,7 @@ xx-pride-lgbt-gb; xx-pride-lgbt-uk	PRIDE FLAG FOR UNITED KINGDOM
 
 xx-pride-asexual	ASEXUAL PRIDE FLAG
 xx-pride-lesbian-1	LESBIAN PRIDE FLAG-1
-xx-pride-gay	GAY PRIDE FLAG
+xx-pride-gay-male	GAY MALE PRIDE FLAG
 xx-pride-bisexual	BISEXUAL PRIDE FLAG
 xx-pride-pansexual	PANSEXUAL PRIDE FLAG
 xx-pride-polysexual	POLYSEXUAL PRIDE FLAG
@@ -2195,6 +2195,7 @@ xx-pride-lesbian-4	LESBIAN PRIDE FLAG-4
 xx-pride-lesbian-5	LESBIAN PRIDE FLAG-5
 xx-pride-lesbian-6	LESBIAN PRIDE FLAG-6
 xx-pride-aromantic	AROMANTIC PRIDE FLAG
+xx-pride-demiromantic	DEMIROMANTIC PRIDE FLAG
 
 xx-pride-trans	TRANSGENDER PRIDE FLAG
 xx-pride-trans-il	TRANSGENDER PRIDE FLAG FOR ISRAEL
@@ -2207,6 +2208,9 @@ xx-pride-bigender	BIGENDER PRIDE FLAG
 xx-pride-genderfluid	GENDERFLUID PRIDE FLAG
 xx-pride-genderqueer	GENDERQUEER PRIDE FLAG
 xx-pride-nonbinary	NON-BINARY PRIDE FLAG
+xx-pride-neutrois	NEUTROIS PRIDE FLAG
+xx-pride-demigirl	DEMIGIRL PRIDE FLAG
+xx-pride-demiboy	DEMIBOY PRIDE FLAG
 
 xx-pride-intersex-1	INTERSEX PRIDE FLAG-1
 xx-pride-intersex-2	INTERSEX PRIDE FLAG-2

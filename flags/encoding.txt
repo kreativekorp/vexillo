@@ -2202,7 +2202,7 @@ xx-pride-lgbt-gb; xx-pride-lgbt-uk	F50A
 
 xx-pride-asexual	F510
 xx-pride-lesbian-1	F511
-xx-pride-gay	F512; 26A3; 1F3F3+200D+26A3; 1F3F4+200D+26A3
+xx-pride-gay-male	F512; 26A3; 1F3F3+200D+26A3; 1F3F4+200D+26A3
 xx-pride-bisexual	F513
 xx-pride-pansexual	F514
 xx-pride-polysexual	F515
@@ -2213,6 +2213,7 @@ xx-pride-lesbian-4	F519
 xx-pride-lesbian-5	F51A
 xx-pride-lesbian-6	F51B; 26A2; 1F3F3+200D+26A2; 1F3F4+200D+26A2
 xx-pride-aromantic	F51C
+xx-pride-demiromantic	F51D
 
 xx-pride-trans	F520; 26A7; 1F3F3+200D+26A7; 1F3F4+200D+26A7
 xx-pride-trans-il	F521
@@ -2225,6 +2226,9 @@ xx-pride-bigender	F534
 xx-pride-genderfluid	F535
 xx-pride-genderqueer	F536
 xx-pride-nonbinary	F537
+xx-pride-neutrois	F538
+xx-pride-demigirl	F539
+xx-pride-demiboy	F53A
 
 xx-pride-intersex-1	F540
 xx-pride-intersex-2	F541
