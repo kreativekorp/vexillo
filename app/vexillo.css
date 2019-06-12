@@ -6,6 +6,22 @@ body {
 	font-family: sans-serif;
 	font-size: 16px;
 }
+a:link {
+	color: #9900cc;
+	text-decoration: none;
+}
+a:visited {
+	color: #cc00ff;
+	text-decoration: none;
+}
+a:active {
+	color: #ff0000;
+	text-decoration: underline;
+}
+a:hover {
+	color: #ff00ff;
+	text-decoration: underline;
+}
 .hidden {
 	display: none !important;
 }
@@ -44,7 +60,7 @@ body {
 	position: absolute;
 	top: 9px;
 	left: 250px;
-	right: 410px;
+	right: 60px;
 	bottom: 9px;
 	height: 32px;
 	line-height: 32px;
@@ -66,39 +82,7 @@ body {
 .search-input::placeholder {
 	color: rgba(255, 255, 255, 0.5);
 }
-.style-selectors {
-	display: block;
-	position: absolute;
-	top: 0;
-	right: 50px;
-	bottom: 0;
-	height: 50px;
-	line-height: 50px;
-	font-size: 12px;
-	font-weight: bold;
-	text-transform: uppercase;
-	cursor: default;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
-.style-label,
-.style-selector {
-	display: inline-block;
-	padding: 0 5px;
-	height: 50px;
-	line-height: 50px;
-}
-.style-selector:hover {
-	background: rgba(255, 255, 255, 0.3);
-}
-.style-selector.selected {
-	background: rgba(255, 255, 255, 0.5);
-}
-.github-link {
+.menu-icon {
 	display: block;
 	position: absolute;
 	top: 9px;
@@ -106,6 +90,82 @@ body {
 	bottom: 9px;
 	width: 32px;
 	height: 32px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+.menu {
+	display: block;
+	position: fixed;
+	top: 50px;
+	right: 10px;
+	padding: 8px 0;
+	background: #ffffff;
+	color: #000000;
+	-webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.5);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.menu-separator {
+	display: block;
+	background: #cccccc;
+	height: 1px;
+	margin: 8px 0;
+}
+.menu-label {
+	display: block;
+	padding: 0 40px;
+	height: 32px;
+	line-height: 32px;
+	color: #999999;
+	cursor: default;
+}
+.menu-item {
+	display: block;
+	padding: 0 40px;
+	height: 32px;
+	line-height: 32px;
+	cursor: pointer;
+}
+.menu-item:hover {
+	background: #eeeeee;
+}
+.menu-item.selected {
+	background: url(checkmark.png) no-repeat;
+	background-size: 24px 24px;
+	background-position: 8px 4px;
+}
+.menu-item.selected:hover {
+	background: #eeeeee url(checkmark.png) no-repeat;
+	background-size: 24px 24px;
+	background-position: 8px 4px;
+}
+a.menu-item,
+a.menu-item:active,
+a.menu-item:focus,
+a.menu-item:hover,
+a.menu-item:link,
+a.menu-item:visited {
+	color: #000000;
+	text-decoration: none;
+}
+.github-link {
+	background: url(github.png) no-repeat;
+	background-size: 24px 24px;
+	background-position: 8px 4px;
+}
+.github-link:hover {
+	background: #eeeeee url(github.png) no-repeat;
+	background-size: 24px 24px;
+	background-position: 8px 4px;
 }
 .content {
 	margin: 50px 0 0 0;
@@ -244,6 +304,22 @@ th, td {
 	padding: 6px;
 	white-space: nowrap;
 	overflow: hidden;
+	overflow-x: auto;
+}
+.downloads::-webkit-scrollbar {
+	width: 16px;
+	height: 16px;
+}
+.downloads::-webkit-scrollbar-track {
+	background: #ffffff;
+}
+.downloads::-webkit-scrollbar-thumb {
+	background: #999999;
+	border: 4px solid #ffffff;
+	border-radius: 8px;
+}
+.downloads::-webkit-scrollbar-thumb:hover {
+	background: #666666;
 }
 .downloads > div {
 	display: inline-block;
@@ -311,22 +387,6 @@ th, td {
 .downloads .dl-links,
 .downloads .dl-links-all {
 	width: 160px;
-}
-a:link {
-	color: #9900cc;
-	text-decoration: none;
-}
-a:visited {
-	color: #cc00ff;
-	text-decoration: none;
-}
-a:active {
-	color: #ff0000;
-	text-decoration: underline;
-}
-a:hover {
-	color: #ff00ff;
-	text-decoration: underline;
 }
 .downloads a {
 	display: block;
@@ -409,4 +469,18 @@ a:hover {
 	line-height: 14px;
 	text-align: center;
 	color: black;
+}
+@media (max-width: 480px) {
+	.app-title {
+		display: none;
+	}
+	.search-container {
+		left: 10px;
+		right: 50px;
+	}
+	.dialog {
+		top: 60px;
+		left: 10px;
+		right: 10px;
+	}
 }

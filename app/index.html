@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>Kreative Vexillo</title>
+<meta name="viewport" content="width=device_display, initial-scale=1.0">
 <link rel="stylesheet" href="vexillo.css">
 </head>
 <body>
@@ -8,15 +9,17 @@
 <div class="search-bar">
 	<span class="app-title"><img src="vexillo.png" width="48" height="32">Kreative Vexillo</span>
 	<span class="search-container"><input type="text" class="search-input" placeholder="e.g. &quot;japan&quot;, &quot;polynesia&quot;, &quot;esperanto&quot;, &quot;pride&quot;"></span>
-	<span class="style-selectors"><!--
-		--><span class="style-label">Style:</span><!--
-		--><span class="style-selector" data-styleid="pmc072" data-height="36" data-width="54" data-dlstyle="m" data-dlratio="c">Matte</span><!--
-		--><span class="style-selector" data-styleid="pgc072" data-height="36" data-width="54" data-dlstyle="g" data-dlratio="c">Glossy</span><!--
-		--><span class="style-selector" data-styleid="pvf160" data-height="48" data-width="48" data-dlstyle="vf">Apple</span><!--
-		--><span class="style-selector" data-styleid="pvn128" data-height="48" data-width="51" data-dlstyle="vn">Google</span><!--
-		--><span class="style-selector" data-styleid="pvb160" data-height="48" data-width="48" data-dlstyle="vb">Twitter</span><!--
-	--></span>
-	<span class="github-link"><a href="https://github.com/kreativekorp/vexillo" target="_blank"><img src="github.png" width="32" height="32" alt="GitHub repository" title="GitHub repository"></a></span>
+	<button class="menu-icon"><img src="menui.png" width="32" height="32" alt="Option Menu" title="Option Menu"></button>
+	<div class="menu hidden">
+		<div class="menu-label style-label">Style:</div>
+		<a href="#" class="menu-item style-selector" data-styleid="pmc072" data-height="36" data-width="54" data-dlstyle="m" data-dlratio="c">Matte</a>
+		<a href="#" class="menu-item style-selector" data-styleid="pgc072" data-height="36" data-width="54" data-dlstyle="g" data-dlratio="c">Glossy</a>
+		<a href="#" class="menu-item style-selector" data-styleid="pvf160" data-height="48" data-width="48" data-dlstyle="vf">Apple</a>
+		<a href="#" class="menu-item style-selector" data-styleid="pvn128" data-height="48" data-width="51" data-dlstyle="vn">Google</a>
+		<a href="#" class="menu-item style-selector" data-styleid="pvb160" data-height="48" data-width="48" data-dlstyle="vb">Twitter</a>
+		<div class="menu-separator"></div>
+		<a href="https://github.com/kreativekorp/vexillo" target="_blank" class="menu-item github-link">GitHub Repository</a>
+	</div>
 </div>
 
 <div class="content">

@@ -200,12 +200,21 @@ V.clickCopy = function(element) {
 	});
 };
 
+var getLS = function(key, val) {
+	key = 'com.kreative.vexillo.webapp.' + key;
+	return window.localStorage && window.localStorage[key] || val;
+};
+var setLS = function(key, val) {
+	key = 'com.kreative.vexillo.webapp.' + key;
+	if (window.localStorage) window.localStorage[key] = val;
+};
+
 $(document).ready(function() {
-	var currentStyleID = 'pgc072';
-	var currentStyleHeight = 36;
-	var currentStyleWidth = 54;
-	var currentDLStyle = 'g';
-	var currentDLRatio = 'c';
+	var currentStyleID = getLS('styleId', 'pgc072');
+	var currentStyleHeight = parseInt(getLS('styleHeight', 36));
+	var currentStyleWidth = parseInt(getLS('styleWidth', 54));
+	var currentDLStyle = getLS('dlStyle', 'g');
+	var currentDLRatio = getLS('dlRatio', 'c');
 	
 	var updateStyleSelector = function() {
 		$('.style-selector').removeClass('selected');
@@ -249,11 +258,11 @@ $(document).ready(function() {
 	updateDLLinks();
 	
 	var setStyle = function(id, height, width, dlstyle, dlratio) {
-		currentStyleID = id;
-		currentStyleHeight = height;
-		currentStyleWidth = width;
-		if (dlstyle) currentDLStyle = dlstyle;
-		if (dlratio) currentDLRatio = dlratio;
+		setLS('styleId', currentStyleID = id);
+		setLS('styleHeight', currentStyleHeight = height);
+		setLS('styleWidth', currentStyleWidth = width);
+		if (dlstyle) setLS('dlStyle', currentDLStyle = dlstyle);
+		if (dlratio) setLS('dlRatio', currentDLRatio = dlratio);
 		updateStyleSelector();
 		updateDLLinks();
 		$('.tile').each(function() {
@@ -271,14 +280,17 @@ $(document).ready(function() {
 		var w = parseInt(sel.attr('data-width'));
 		var dls = sel.attr('data-dlstyle');
 		var dlr = sel.attr('data-dlratio');
-		sel.bind('click', function(){setStyle(id, h, w, dls, dlr);});
+		sel.bind('click', function(e) {
+			setStyle(id, h, w, dls, dlr);
+			e.preventDefault();
+		});
 	});
 	
 	$('.dl-style-selector').each(function(){
 		var sel = $(this);
 		var id = sel.attr('data-style-code');
 		sel.bind('click', function(){
-			currentDLStyle = id;
+			setLS('dlStyle', currentDLStyle = id);
 			updateDLLinks();
 		});
 	});
@@ -286,7 +298,7 @@ $(document).ready(function() {
 		var sel = $(this);
 		var id = sel.attr('data-ar-code');
 		sel.bind('click', function(){
-			currentDLRatio = id;
+			setLS('dlRatio', currentDLRatio = id);
 			updateDLLinks();
 		});
 	});
@@ -444,10 +456,26 @@ $(document).ready(function() {
 	searchInput.bind('keydown', searchUpdate);
 	searchInput.bind('keyup', searchUpdate);
 	
+	var menu = $('.menu');
+	$('body').bind('click', function() {
+		menu.addClass('hidden');
+	});
+	$('.menu-icon').bind('click', function(e) {
+		menu.toggleClass('hidden');
+		e.stopPropagation();
+	});
+	menu.bind('click', function(e) {
+		e.stopPropagation();
+	});
+	$('.menu-item').bind('click', function() {
+		menu.addClass('hidden');
+	});
+	
 	$('body').bind('keydown', function(e) {
 		if (e.metaKey || e.ctrlKey) return;
 		if (e.which === 27) {
 			if ($('.smokescreen').hasClass('hidden')) {
+				menu.addClass('hidden');
 				searchInput.val('');
 			} else {
 				closeDialog();
