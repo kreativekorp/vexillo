@@ -471,7 +471,13 @@ $(document).ready(function() {
 		menu.addClass('hidden');
 	});
 	
+	$('body').bind('keyup', function(e) {
+		if (e.which === 16) $('.sh-acc').removeClass('acc-active');
+		if (e.which === 18) $('.alt-acc').removeClass('acc-active');
+	});
 	$('body').bind('keydown', function(e) {
+		if (e.which === 16) $('.sh-acc').addClass('acc-active');
+		if (e.which === 18) $('.alt-acc').addClass('acc-active');
 		if (e.metaKey || e.ctrlKey) return;
 		if (e.which === 27) {
 			if ($('.smokescreen').hasClass('hidden')) {
@@ -502,21 +508,21 @@ $(document).ready(function() {
 			}
 			if (!e.altKey && !$('.downloads').hasClass('hidden')) {
 				switch (e.which) {
-					case 65: currentDLRatio = 'a'; break;
-					case 66: currentDLRatio = 'b'; break;
-					case 67: currentDLRatio = 'c'; break;
-					case 68: currentDLRatio = 'd'; break;
-					case 69: currentDLRatio = 'e'; break;
-					case 70: currentDLRatio = 'f'; break;
-					case 71: currentDLStyle = 'g'; break;
-					case 72: currentDLRatio = 'h'; break;
-					case 75: currentDLRatio = 'k'; break;
-					case 77: currentDLStyle = 'm'; break;
-					case 86: currentDLRatio = 'v'; break;
-					case 87: currentDLRatio = 'w'; break;
-					case 73: currentDLStyle = 'vb'; break;
-					case 79: currentDLStyle = 'vn'; break;
-					case 80: currentDLStyle = 'vf'; break;
+					case 65: setLS('dlRatio', currentDLRatio = 'a'); break;
+					case 66: setLS('dlRatio', currentDLRatio = 'b'); break;
+					case 67: setLS('dlRatio', currentDLRatio = 'c'); break;
+					case 68: setLS('dlRatio', currentDLRatio = 'd'); break;
+					case 69: setLS('dlRatio', currentDLRatio = 'e'); break;
+					case 70: setLS('dlRatio', currentDLRatio = 'f'); break;
+					case 71: setLS('dlStyle', currentDLStyle = 'g'); break;
+					case 72: setLS('dlRatio', currentDLRatio = 'h'); break;
+					case 75: setLS('dlRatio', currentDLRatio = 'k'); break;
+					case 77: setLS('dlStyle', currentDLStyle = 'm'); break;
+					case 86: setLS('dlRatio', currentDLRatio = 'v'); break;
+					case 87: setLS('dlRatio', currentDLRatio = 'w'); break;
+					case 73: setLS('dlStyle', currentDLStyle = 'vb'); break; // i
+					case 79: setLS('dlStyle', currentDLStyle = 'vn'); break; // o
+					case 80: setLS('dlStyle', currentDLStyle = 'vf'); break; // p
 					default: return;
 				}
 				updateDLLinks();

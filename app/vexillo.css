@@ -470,6 +470,9 @@ th, td {
 	text-align: center;
 	color: black;
 }
+.acc-active {
+	text-decoration: underline;
+}
 @media (max-width: 480px) {
 	.app-title {
 		display: none;
