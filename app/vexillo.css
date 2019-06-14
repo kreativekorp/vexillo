@@ -180,6 +180,50 @@ a.menu-item:visited {
 .tile:hover {
 	background: #eeeeee;
 }
+h1 {
+	margin: 16px 0;
+	font-size: 24px;
+}
+table.block-table {
+	margin: 16px 0;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+table.block-table th {
+	margin: 0;
+	padding: 4px 0;
+	width: 72px;
+	border: 1px solid #999999;
+	font-family: monospace;
+	text-align: center;
+	vertical-align: center;
+}
+table.block-table td {
+	margin: 0;
+	padding: 0;
+	width: 72px;
+	border: 1px solid #999999;
+	text-align: center;
+	vertical-align: center;
+}
+table.block-table .tile {
+	display: block;
+	padding: 8px;
+	width: 56px;
+	text-align: center;
+}
+.block-cell-nonmatch {
+	background: #cccccc;
+}
+.block-cell-nonmatch .tile:hover {
+	background: #bbbbbb;
+}
+.block-cell-unassigned {
+	background: #999999;
+}
+.block-cell-unassigned .tile:hover {
+	background: #888888;
+}
 .smokescreen {
 	position: fixed;
 	top: 0;

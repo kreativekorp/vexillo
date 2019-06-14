@@ -200,6 +200,140 @@ V.clickCopy = function(element) {
 	});
 };
 
+V.regions = [
+	['North America',         ['north', 'america'                                   ]],
+	['Central America',       ['north', 'central', 'america'                        ]],
+	['Caribbean',             ['north', 'america', 'caribbean'                      ]],
+	['Native American',       ['native', 'american'                                 ]],
+	['South America',         ['south', 'america'                                   ]],
+	['Northern Europe',       ['northern', 'europe'                                 ]],
+	['Western Europe',        ['western', 'europe'                                  ]],
+	['Southern Europe',       ['southern', 'europe'                                 ]],
+	['Eastern Europe',        ['eastern', 'europe'                                  ]],
+	['Central Asia',          ['central', 'asia'                                    ]],
+	['East Asia',             ['east', 'asia'                                       ]],
+	['South Asia',            ['south', 'asia'                                      ]],
+	['Southeast Asia',        ['southeast', 'asia'                                  ]],
+	['Southwest Asia',        ['western', 'southwestern', 'asia'                    ]],
+	['North Africa',          ['north', 'africa'                                    ]],
+	['East Africa',           ['east', 'africa'                                     ]],
+	['Central Africa',        ['central', 'africa'                                  ]],
+	['Southern Africa',       ['southern', 'africa'                                 ]],
+	['West Africa',           ['west', 'africa'                                     ]],
+	['Australasia',           ['oceania', 'australasia'                             ]],
+	['Melanesia',             ['oceania', 'melanesia'                               ]],
+	['Micronesia',            ['oceania', 'micronesia'                              ]],
+	['Polynesia',             ['oceania', 'polynesia'                               ]],
+	['Antarctica',            ['antarctica'                                         ]],
+	['International',         ['int', 'international'                               ]],
+	['Constructed Languages', ['conlang', 'constructed', 'language'                 ]],
+	['Pride',                 ['pride'                                              ]],
+	['Uncategorized',         [                                                     ]],
+	['Organizational',        ['org', 'organization'                                ]],
+	['Miscellaneous',         ['misc', 'miscellaneous'                              ]],
+	['ICS',                   ['ics', 'international', 'code', 'signals'            ]],
+	['NATO',                  ['nato', 'north', 'atlantic', 'treaty', 'organization']],
+	['Esperanto',             ['esperanto'                                          ]],
+	['Semaphore',             ['semaphore'                                          ]],
+	['Racing',                ['sport', 'sports', 'racing'                          ]],
+	['Generic',               ['generic', 'general'                                 ]],
+	['Kreative Media',        ['kreative', 'entertainment', 'media'                 ]],
+];
+var copyRegions = function(regions) {
+	var ra = [];
+	for (var i = 0; i < regions.length; i++) {
+		var orig = regions[i];
+		var copy = [orig[0], orig[1], []];
+		ra.push(copy);
+	}
+	return ra;
+};
+var arrayStartsWith = function(arr, subarr) {
+	for (var i = 0; i < subarr.length; i++) {
+		if (arr[i] !== subarr[i]) {
+			return false;
+		}
+	}
+	return true;
+};
+var regionForKeywords = function(regions, keywords) {
+	var rr = null;
+	var rrkw = null;
+	for (var i = 0; i < regions.length; i++) {
+		var cr = regions[i];
+		var crkw = cr[1];
+		if (!rrkw || crkw.length > rrkw.length) {
+			if (arrayStartsWith(keywords, crkw)) {
+				rr = cr;
+				rrkw = crkw;
+			}
+		}
+	}
+	return rr;
+};
+V.regionsForFlags = function(regions, flags) {
+	var ra = copyRegions(regions);
+	for (var i = 0; i < flags.length; i++) {
+		var r = regionForKeywords(ra, flags[i].keywords);
+		if (r) r[2].push(flags[i]);
+	}
+	return ra;
+};
+
+V.blocks = [
+	[0xE000, 0xE07F, 'Generic Flags',                   {size: 0}],
+	[0xE080, 0xE0FF, 'Signal Flags',                    {size: 0}],
+	[0xE100, 0xE3FF, 'ISO Country Code Flags',          {size: 0}],
+	[0xE400, 0xE4FF, 'North American Flags',            {size: 0}],
+	[0xE500, 0xE5FF, 'British Flags',                   {size: 0}],
+	[0xE600, 0xE6FF, 'Scandinavian Flags',              {size: 0}],
+	[0xE700, 0xE7FF, 'Iberian Flags',                   {size: 0}],
+	[0xE800, 0xE8FF, 'Western European Flags-A',        {size: 0}],
+	[0xE900, 0xE9FF, 'Western European Flags-B',        {size: 0}],
+	[0xEA00, 0xEAFF, 'Western European Flags-C',        {size: 0}],
+	[0xEB00, 0xEBFF, 'Eastern European Flags-A',        {size: 0}],
+	[0xEC00, 0xECFF, 'Eastern European Flags-B',        {size: 0}],
+	[0xED00, 0xEDFF, 'Eastern European Flags-C',        {size: 0}],
+	[0xEE00, 0xEEFF, 'Asian Flags-A',                   {size: 0}],
+	[0xEF00, 0xEFFF, 'Asian Flags-B',                   {size: 0}],
+	[0xF000, 0xF0FF, 'South American Flags',            {size: 0}],
+	[0xF100, 0xF1FF, 'African Flags',                   {size: 0}],
+	[0xF200, 0xF2FF, 'Oceanic Flags',                   {size: 0}],
+	[0xF300, 0xF3FF, 'Miscellaneous Subdivision Flags', {size: 0}],
+	[0xF400, 0xF4FF, 'Constructed Language Flags',      {size: 0}],
+	[0xF500, 0xF5FF, 'Pride Flags',                     {size: 0}],
+	[0xF600, 0xF6FF, 'Sports Flags',                    {size: 0}],
+	[0xF700, 0xF7FF, 'Kreative Media Flags',            {size: 0}],
+	[0xF800, 0xF8FF, 'Miscellaneous Flags',             {size: 0}],
+];
+for (var i = 0; i < V.encoding.length; i++) {
+	var node = V.encoding[i];
+	var flag = null;
+	for (var j = 0; j < node[0].length; j++) {
+		var id = node[0][j];
+		var f = V.flagmap[id];
+		if (f) {
+			flag = f;
+			break;
+		}
+	}
+	if (flag) {
+		for (var j = 0; j < node[1].length; j++) {
+			var cps = node[1][j];
+			if (cps.length == 1 && ispua(cps[0])) {
+				var cp = cps[0];
+				for (var k = 0; k < V.blocks.length; k++) {
+					var block = V.blocks[k];
+					if (cp >= block[0] && cp <= block[1] && !block[3][cp]) {
+						block[3][cp] = flag;
+						block[3].size++;
+					}
+				}
+			}
+		}
+	}
+}
+
 var getLS = function(key, val) {
 	key = 'com.kreative.vexillo.webapp.' + key;
 	return window.localStorage && window.localStorage[key] || val;
@@ -210,6 +344,7 @@ var setLS = function(key, val) {
 };
 
 $(document).ready(function() {
+	var currentArrange = getLS('arrange', 'id');
 	var currentStyleID = getLS('styleId', 'pgc072');
 	var currentStyleHeight = parseInt(getLS('styleHeight', 36));
 	var currentStyleWidth = parseInt(getLS('styleWidth', 54));
@@ -434,27 +569,150 @@ $(document).ready(function() {
 			tiles.append(makeTile(flags[i], i));
 		}
 	};
+	var setRegions = function(regions, flags) {
+		var tiles = $('.tiles').empty();
+		var index = 0;
+		var ra = V.regionsForFlags(regions, flags);
+		for (var i = 0; i < ra.length; i++) {
+			if (ra[i][2].length) {
+				tiles.append($('<h1>').addClass('region-header').text(ra[i][0]));
+				for (var j = 0; j < ra[i][2].length; j++) {
+					tiles.append(makeTile(ra[i][2][j], index++));
+				}
+			}
+		}
+	};
+	
+	var makeCodePointSet = function(flags) {
+		var cpset = {};
+		for (var i = 0; i < flags.length; i++) {
+			var enc = flags[i].encoding;
+			if (enc) {
+				for (var j = 0; j < enc.length; j++) {
+					var cps = enc[j];
+					if (cps.length == 1 && ispua(cps[0])) {
+						cpset[cps[0]] = true;
+					}
+				}
+			}
+		}
+		return cpset;
+	};
+	var makeBlockHeader = function(block) {
+		var s = block[0].toString(16).toUpperCase();
+		var e = block[1].toString(16).toUpperCase();
+		var r = $('<code>').text(s + '-' + e);
+		var n = $('<span>').text(' \u00A0 ' + block[2]);
+		var h = $('<h1>');
+		h.addClass('block-header');
+		h.append(r);
+		h.append(n);
+		return h;
+	};
+	var makeHexHeader = function() {
+		var row = $('<tr>');
+		row.append($('<th>'));
+		for (var i = 0; i < 16; i++) {
+			var h = i.toString(16).toUpperCase();
+			row.append($('<th>').text(h));
+		}
+		return row;
+	};
+	var makeHexRow = function(i) {
+		var row = $('<tr>');
+		var h = (i >> 4).toString(16).toUpperCase();
+		row.append($('<th>').text(h));
+		return row;
+	};
+	var setEncTables = function(flags) {
+		var matches = makeCodePointSet(flags);
+		var cells = $('.tiles .block-cell');
+		if (cells.length) {
+			cells.each(function(){
+				var cell = $(this);
+				var cp = parseInt(cell.find('.tile').attr('data-index'));
+				if (matches[cp]) cell.removeClass('block-cell-nonmatch');
+				else cell.addClass('block-cell-nonmatch');
+			});
+			return;
+		}
+		var tiles = $('.tiles').empty();
+		for (var i = 0; i < V.blocks.length; i++) {
+			var block = V.blocks[i];
+			if (block[3].size) {
+				tiles.append(makeBlockHeader(block));
+				var table = $('<table>');
+				table.attr('cellpadding', 0);
+				table.attr('cellspacing', 0);
+				table.addClass('block-table');
+				table.append(makeHexHeader());
+				for (var j = block[0]; j <= block[1]; j += 16) {
+					var row = makeHexRow(j);
+					for (var k = 0; k < 16; k++) {
+						var cell = $('<td>');
+						if (block[3][j+k]) {
+							cell.addClass('block-cell');
+							if (!matches[j+k]) cell.addClass('block-cell-nonmatch');
+							cell.append(makeTile(block[3][j+k], j+k));
+						} else {
+							cell.addClass('block-cell-unassigned');
+						}
+						row.append(cell);
+					}
+					table.append(row);
+				}
+				tiles.append(table);
+			}
+		}
+	};
 	
 	var searchInput = $('.search-input');
 	var searchString = searchInput.val();
-	var searchFn = function() {
-		var keywords = V.splitKeywords(searchString);
-		var tiles = V.findByKeywords(keywords);
-		setTiles(tiles);
+	var searchKeywords = V.splitKeywords(searchString);
+	var searchResults = V.findByKeywords(searchKeywords);
+	var showResults = function() {
+		switch (currentArrange) {
+			default: setTiles(searchResults); break;
+			case 'geo': setRegions(V.regions, searchResults); break;
+			case 'cp': setEncTables(searchResults); break;
+		}
 	};
-	searchFn();
+	showResults();
 	
 	var searchTimeout = null;
 	var searchUpdate = function() {
 		var s = searchInput.val();
 		if (searchString === s) return;
 		searchString = s;
+		searchKeywords = V.splitKeywords(searchString);
+		searchResults = V.findByKeywords(searchKeywords);
 		if (searchTimeout) window.clearTimeout(searchTimeout);
-		searchTimeout = window.setTimeout(searchFn, 200);
+		searchTimeout = window.setTimeout(showResults, 200);
 	};
 	searchInput.bind('change', searchUpdate);
 	searchInput.bind('keydown', searchUpdate);
 	searchInput.bind('keyup', searchUpdate);
+	
+	var updateArrangeSelector = function() {
+		$('.arrange-selector').removeClass('selected');
+		$('.arrange-selector').each(function() {
+			var sel = $(this);
+			var id = sel.attr('data-arrange');
+			if (id === currentArrange) sel.addClass('selected');
+		});
+	};
+	updateArrangeSelector();
+	
+	$('.arrange-selector').each(function() {
+		var sel = $(this);
+		var id = sel.attr('data-arrange');
+		sel.bind('click', function(e) {
+			setLS('arrange', currentArrange = id);
+			showResults();
+			updateArrangeSelector();
+			e.preventDefault();
+		});
+	});
 	
 	var menu = $('.menu');
 	$('body').bind('click', function() {
