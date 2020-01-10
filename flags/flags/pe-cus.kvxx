@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="pe-cus" name="Cusco" fly="h*7/4">
+	<defs>
+		<color id="r">
+			<colorspec model="rgb" value="218 18 26"/>
+		</color>
+		<color id="o">
+			<colorspec model="rgb" value="235 119 17"/>
+		</color>
+		<color id="y">
+			<colorspec model="rgb" value="252 221 9"/>
+		</color>
+		<color id="g">
+			<colorspec model="rgb" value="7 137 48"/>
+		</color>
+		<color id="c">
+			<colorspec model="rgb" value="137 197 227"/>
+		</color>
+		<color id="b">
+			<colorspec model="rgb" value="15 71 175"/>
+		</color>
+		<color id="v">
+			<colorspec model="rgb" value="116 44 100"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="7" colors="r o y g c b v"/>
+</flag>

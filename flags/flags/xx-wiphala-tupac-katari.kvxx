@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Wiphala (Tupac Katari)" fly="h">
+	<defs>
+		<color id="g">
+			<colorspec model="rgb" value="138 176 156"/>
+		</color>
+		<color id="y">
+			<colorspec model="rgb" value="252 221 100"/>
+		</color>
+		<color id="o">
+			<colorspec model="rgb" value="218 114 72"/>
+		</color>
+		<color id="r">
+			<colorspec model="rgb" value="255 153 128"/>
+		</color>
+		<color id="n">
+			<colorspec model="rgb" value="171 85 0"/>
+		</color>
+		<color id="v">
+			<colorspec model="rgb" value="161 113 124"/>
+		</color>
+		<color id="b">
+			<colorspec model="rgb" value="123 150 158"/>
+		</color>
+	</defs>
+	<vband x1="0" y1="h*0/7" x2="w" y2="h*1/7" bands="7" colors="g y o r n v b"/>
+	<vband x1="0" y1="h*1/7" x2="w" y2="h*2/7" bands="7" colors="b g y o r n v"/>
+	<vband x1="0" y1="h*2/7" x2="w" y2="h*3/7" bands="7" colors="v b g y o r n"/>
+	<vband x1="0" y1="h*3/7" x2="w" y2="h*4/7" bands="7" colors="n v b g y o r"/>
+	<vband x1="0" y1="h*4/7" x2="w" y2="h*5/7" bands="7" colors="r n v b g y o"/>
+	<vband x1="0" y1="h*5/7" x2="w" y2="h*6/7" bands="7" colors="o r n v b g y"/>
+	<vband x1="0" y1="h*6/7" x2="w" y2="h*7/7" bands="7" colors="y o r n v b g"/>
+</flag>

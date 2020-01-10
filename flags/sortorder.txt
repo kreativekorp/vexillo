@@ -5,6 +5,7 @@
 4	^xx-na-[a-z]{2}$
 4	^xx-na-[a-z]{2}-.*$
 3	^xx-na-.*$
+3	^xx-wiphala(-.*)?$
 3	^xx-conlang(-.*)?$
 4	^xx-pride-lgbt(-.*)?$
 5	^xx-pride-lgbt-[a-z]{2}$

@@ -1537,6 +1537,269 @@ tw-txg	east asia taiwan republic china roc special municipality taichung
 tw-yun	east asia taiwan republic china roc county yunlin
 
 
+## South American Flags
+
+pe-lma	south america republic peru municipality municipalidad metropolitana de lima llaqta suyu hatun
+pe-ama	south america republic peru region amazonas amarumayu amasunu
+pe-anc	south america republic peru region ancash anqash ankashu
+pe-apu	south america republic peru region apurimac apurimaq
+pe-are	south america republic peru region arequipa ariqipa arikipa
+pe-aya	south america republic peru region ayacucho ayakuchu ayaquchu
+pe-caj	south america republic peru region cajamarca kashamarka qajamarka
+pe-cus	south america republic peru region cusco cuzco qusqu kusku rainbow
+pe-cal	south america republic peru region el callao qallaw kallao
+pe-huv	south america republic peru region huancavelica wankawillka wankawelika
+pe-huc	south america republic peru region huanuco wanuku
+pe-ica	south america republic peru region ica ika
+pe-jun	south america republic peru region junin hunin
+pe-lal	south america republic peru region la libertad qispi kay
+pe-lam	south america republic peru region lambayeque lampalliqi
+pe-lim	south america republic peru region lima
+pe-lor	south america republic peru region loreto luritu
+pe-mdd	south america republic peru region madre de dios mayutata
+pe-moq	south america republic peru region moquegua muqiwa moqwegwa
+pe-pas	south america republic peru region pasco pasqu
+pe-piu	south america republic peru region piura piwra
+pe-pun	south america republic peru region puno punu
+pe-sam	south america republic peru region san martin
+pe-tac	south america republic peru region tacna taqna takna
+pe-tum	south america republic peru region tumbes tumpis
+pe-uca	south america republic peru region ucayali ukayali
+
+ec-a	south america republic ecuador azuay
+ec-b	south america republic ecuador bolivar
+ec-c	south america republic ecuador carchi
+ec-d	south america republic ecuador orellana
+ec-e	south america republic ecuador esmeraldas
+ec-f	south america republic ecuador canar
+ec-g	south america republic ecuador guayas
+ec-h	south america republic ecuador chimborazo
+ec-i	south america republic ecuador imbabura
+ec-l	south america republic ecuador loja
+ec-m	south america republic ecuador manabi
+ec-n	south america republic ecuador napo
+ec-o	south america republic ecuador el oro
+ec-p	south america republic ecuador pichincha
+ec-r	south america republic ecuador los rios
+ec-s	south america republic ecuador morona santiago
+ec-sd	south america republic ecuador santo domingo de los tsachilas
+ec-se	south america republic ecuador santa elena
+ec-t	south america republic ecuador tungurahua
+ec-u	south america republic ecuador sucumbios
+ec-w	south america republic ecuador galapagos
+ec-x	south america republic ecuador cotopaxi
+ec-y	south america republic ecuador pastaza
+ec-z	south america republic ecuador zamora chinchipe
+
+co-dc	south america republic colombia capital district distrito de bogota
+co-ama	south america republic colombia department amazonas
+co-ant	south america republic colombia department antioquia
+co-ara	south america republic colombia department arauca
+co-atl	south america republic colombia department atlantico
+co-bol	south america republic colombia department bolivar
+co-boy	south america republic colombia department boyaca
+co-cal	south america republic colombia department caldas
+co-caq	south america republic colombia department caqueta
+co-cas	south america republic colombia department casanare
+co-cau	south america republic colombia department cauca
+co-ces	south america republic colombia department cesar
+co-cor	south america republic colombia department cordoba
+co-cun	south america republic colombia department cundinamarca
+co-cho	south america republic colombia department choco
+co-gua	south america republic colombia department guainia
+co-guv	south america republic colombia department guaviare
+co-hui	south america republic colombia department huila
+co-lag	south america republic colombia department la guajira
+co-mag	south america republic colombia department magdalena
+co-met	south america republic colombia department meta
+co-nar	south america republic colombia department narino
+co-nsa	south america republic colombia department norte de santanr
+co-put	south america republic colombia department putumayo
+co-qui	south america republic colombia department quindio
+co-ris	south america republic colombia department risaralda
+co-sap	south america republic colombia department san andres providencia y ta calina
+co-san	south america republic colombia department santander
+co-suc	south america republic colombia department sucre
+co-tol	south america republic colombia department tolima
+co-vac	south america republic colombia department valle del cauca
+co-vau	south america republic colombia department vaupes
+co-vid	south america republic colombia department vichada
+
+ve-a	south america bolivarian republic venezuela capital district distrito
+ve-b	south america bolivarian republic venezuela state anzoategui
+ve-c	south america bolivarian republic venezuela state apure
+ve-d	south america bolivarian republic venezuela state aragua
+ve-e	south america bolivarian republic venezuela state barinas
+ve-f	south america bolivarian republic venezuela state bolivar
+ve-g	south america bolivarian republic venezuela state carabobo
+ve-h	south america bolivarian republic venezuela state cojedes
+ve-i	south america bolivarian republic venezuela state falcon
+ve-j	south america bolivarian republic venezuela state guarico
+ve-k	south america bolivarian republic venezuela state lara
+ve-l	south america bolivarian republic venezuela state merida
+ve-m	south america bolivarian republic venezuela state miranda
+ve-n	south america bolivarian republic venezuela state monagas
+ve-o	south america bolivarian republic venezuela state nueva esparta
+ve-p	south america bolivarian republic venezuela state portuguesa
+ve-r	south america bolivarian republic venezuela state sucre
+ve-s	south america bolivarian republic venezuela state tachira
+ve-t	south america bolivarian republic venezuela state trujillo
+ve-u	south america bolivarian republic venezuela state yaracuy
+ve-v	south america bolivarian republic venezuela state zulia
+ve-w	south america bolivarian republic venezuela federal dependency dependencias es
+ve-x	south america bolivarian republic venezuela state vargas
+ve-y	south america bolivarian republic venezuela state delta amacuro
+ve-z	south america bolivarian republic venezuela state amazonas
+
+gy-ba	south america co operative cooperative republic guyana barima waini
+gy-cu	south america co operative cooperative republic guyana cuyuni mazaruni
+gy-de	south america co operative cooperative republic guyana demerara mahaica
+gy-eb	south america co operative cooperative republic guyana east berbice rentyne
+gy-es	south america co operative cooperative republic guyana essequibo islands west demerara
+gy-ma	south america co operative cooperative republic guyana mahaica berbice
+gy-pm	south america co operative cooperative republic guyana pomeroon supenaam
+gy-pt	south america co operative cooperative republic guyana potaro siparuni
+gy-ud	south america co operative cooperative republic guyana upper demerara berbice
+gy-ut	south america co operative cooperative republic guyana upper takutu essequibo
+
+sr-br	south america republic suriname brokopondo
+sr-cm	south america republic suriname commewijne
+sr-cr	south america republic suriname coronie
+sr-ma	south america republic suriname marowijne
+sr-ni	south america republic suriname nickerie
+sr-pr	south america republic suriname para
+sr-pm	south america republic suriname paramaribo
+sr-sa	south america republic suriname saramacca
+sr-si	south america republic suriname sipaliwini
+sr-wa	south america republic suriname wanica
+
+br-ac	south america federative republic brazil state acre
+br-al	south america federative republic brazil state alagoas
+br-ap	south america federative republic brazil state amapa
+br-am	south america federative republic brazil state amazonas
+br-ba	south america federative republic brazil state bahia
+br-ce	south america federative republic brazil state ceara
+br-df	south america federative republic brazil federal district distrito
+br-es	south america federative republic brazil state espirito santo
+br-go	south america federative republic brazil state goias
+br-ma	south america federative republic brazil state maranhao
+br-mt	south america federative republic brazil state mato grosso
+br-ms	south america federative republic brazil state mato grosso do sul
+br-mg	south america federative republic brazil state minas gerais
+br-pa	south america federative republic brazil state para
+br-pb	south america federative republic brazil state paraiba
+br-pr	south america federative republic brazil state parana
+br-pe	south america federative republic brazil state pernambuco
+br-pi	south america federative republic brazil state piaui
+br-rj	south america federative republic brazil state rio de janeiro
+br-rn	south america federative republic brazil state rio grande do norte
+br-rs	south america federative republic brazil state rio grande do sul
+br-ro	south america federative republic brazil state rondonia
+br-rr	south america federative republic brazil state roraima
+br-sc	south america federative republic brazil state santa catarina
+br-sp	south america federative republic brazil state sao paulo
+br-se	south america federative republic brazil state sergipe
+br-to	south america federative republic brazil state tocantins
+
+bo-b	south america plurinational state bolivia department el beni
+bo-c	south america plurinational state bolivia department cochabamba
+bo-h	south america plurinational state bolivia department chuquisaca
+bo-l	south america plurinational state bolivia department la paz
+bo-n	south america plurinational state bolivia department pando
+bo-o	south america plurinational state bolivia department oruro
+bo-p	south america plurinational state bolivia department potosi
+bo-s	south america plurinational state bolivia department santa cruz
+bo-t	south america plurinational state bolivia department tarija
+
+xx-wiphala-qullasuyu	native american indian first nations peoples south america andes wiphala qullasuyu cullasuyu collasuyu qollasuyu qulla culla colla qolla suyu rainbow
+xx-wiphala-kuntisuyu	native american indian first nations peoples south america andes wiphala kuntinsuyu kuntisuyu cuntisuyu contisuyu qontisuyu kuntin kunti cunti conti qonti suyu rainbow
+xx-wiphala-chinchaysuyu	native american indian first nations peoples south america andes wiphala chinchaysuyu chinchasuyu chinchay chincha suyu rainbow
+xx-wiphala-antisuyu-1	native american indian first nations peoples south america andes wiphala antinsuyu antisuyu antin anti suyu rainbow
+xx-wiphala-antisuyu-2	native american indian first nations peoples south america andes wiphala antinsuyu antisuyu antin anti suyu rainbow
+xx-wiphala-tupac-katari	native american indian first nations peoples south america andes wiphala tupac katari catari
+
+cl-ta	south america republic chile tarapaca
+cl-an	south america republic chile antofagasta
+cl-at	south america republic chile atacama
+cl-co	south america republic chile coquimbo
+cl-vs	south america republic chile valparaiso
+cl-li	south america republic chile libertador general bernardo o higgins ohiggins
+cl-ml	south america republic chile maule
+cl-bi	south america republic chile biobio
+cl-ar	south america republic chile la araucania
+cl-ll	south america republic chile los lagos
+cl-ai	south america republic chile aisen aysen del general carlos ibanez campo
+cl-ma	south america republic chile magallanes
+cl-rm	south america republic chile region metropolitana de santiago
+cl-lr	south america republic chile los rios
+cl-ap	south america republic chile arica y parinacota
+cl-nb	south america republic chile nuble
+
+ar-a	south america argentina argentine republic province salta
+ar-b	south america argentina argentine republic province buenos aires
+ar-c	south america argentina argentine republic city ciudad autonoma de buenos aires
+ar-d	south america argentina argentine republic province san luis
+ar-e	south america argentina argentine republic province entre rios
+ar-f	south america argentina argentine republic province la rioja
+ar-g	south america argentina argentine republic province santiago del estero
+ar-h	south america argentina argentine republic province chaco
+ar-j	south america argentina argentine republic province san juan
+ar-k	south america argentina argentine republic province catamarca
+ar-l	south america argentina argentine republic province la pampa
+ar-m	south america argentina argentine republic province mendoza
+ar-n	south america argentina argentine republic province misiones
+ar-p	south america argentina argentine republic province formosa
+ar-q	south america argentina argentine republic province neuquen
+ar-r	south america argentina argentine republic province rio negro
+ar-s	south america argentina argentine republic province santa fe
+ar-t	south america argentina argentine republic province tucuman
+ar-u	south america argentina argentine republic province chubut
+ar-v	south america argentina argentine republic province tierra del fuego
+ar-w	south america argentina argentine republic province corrientes
+ar-x	south america argentina argentine republic province cordoba
+ar-y	south america argentina argentine republic province jujuy
+ar-z	south america argentina argentine republic province santa cruz
+
+py-asu	south america republic paraguay capital asuncion
+py-1	south america republic paraguay department departamento de concepcion
+py-2	south america republic paraguay department departamento de san pedro
+py-3	south america republic paraguay department departamento de cordillera
+py-4	south america republic paraguay department departamento de guaira
+py-5	south america republic paraguay department departamento de caaguazu
+py-6	south america republic paraguay department departamento de caazapa
+py-7	south america republic paraguay department departamento de itapua
+py-8	south america republic paraguay department departamento de misiones
+py-9	south america republic paraguay department departamento de paraguari
+py-10	south america republic paraguay department departamento de alto parana
+py-11	south america republic paraguay department departamento central
+py-12	south america republic paraguay department departamento de neembucu
+py-13	south america republic paraguay department departamento de amambay
+py-14	south america republic paraguay department departamento de caninyu
+py-15	south america republic paraguay department departamento de presinte hayes
+py-16	south america republic paraguay department departamento de alto
+py-19	south america republic paraguay department departamento de boqueron
+
+uy-ar	south america oriental republic uruguay artigas
+uy-ca	south america oriental republic uruguay canelones
+uy-cl	south america oriental republic uruguay cerro largo
+uy-co	south america oriental republic uruguay colonia
+uy-du	south america oriental republic uruguay durazno
+uy-fs	south america oriental republic uruguay flores
+uy-fd	south america oriental republic uruguay florida
+uy-la	south america oriental republic uruguay lavalleja
+uy-ma	south america oriental republic uruguay maldonado
+uy-mo	south america oriental republic uruguay montevideo
+uy-pa	south america oriental republic uruguay paysandu
+uy-rn	south america oriental republic uruguay rio negro
+uy-rv	south america oriental republic uruguay rivera
+uy-ro	south america oriental republic uruguay rocha
+uy-sa	south america oriental republic uruguay salto
+uy-sj	south america oriental republic uruguay san jose
+uy-so	south america oriental republic uruguay soriano
+uy-ta	south america oriental republic uruguay tacuarembo
+uy-tt	south america oriental republic uruguay treinta y tres
+
+
 ## Oceanic Flags
 
 # Australasia
