@@ -2425,9 +2425,17 @@ xx-northpole	FLAG FOR NORTH POLE
 ## F400-F4FF	Constructed Language Flags
 
 xx-conlang	CONLANG FLAG
+xx-conlang-bolak	FLAG FOR BOLAK
 xx-conlang-esperanto	FLAG FOR ESPERANTO
+xx-conlang-glosa	FLAG FOR GLOSA
+xx-conlang-ido	FLAG FOR IDO
+xx-conlang-interlingua	FLAG FOR INTERLINGUA
+xx-conlang-interlingue	FLAG FOR INTERLINGUE
 xx-conlang-lfn	FLAG FOR LINGUA FRANCA NOVA
+xx-conlang-lojban	FLAG FOR LOJBAN
+xx-conlang-novial	FLAG FOR NOVIAL
 xx-conlang-pandunia	FLAG FOR PANDUNIA
+xx-conlang-volapuk	FLAG FOR VOLAPUK
 xx-conlang-klingon	FLAG FOR KLINGON
 
 

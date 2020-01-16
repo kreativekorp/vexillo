@@ -2011,10 +2011,18 @@ xx-northpole	arctic north pole
 ## Constructed Language Flags
 
 xx-conlang	conlang constructed language creation society
-xx-conlang-esperanto	conlang constructed language esperanto
-xx-conlang-lfn	conlang constructed language lfn lingua franca nova
-xx-conlang-pandunia	conlang constructed language pandunia
-xx-conlang-klingon	conlang constructed language klingon empire kronos qonos star trek
+xx-conlang-bolak	conlang constructed language qbo bolak leon bollack
+xx-conlang-esperanto	conlang constructed language epo esperanto ll zamenhof
+xx-conlang-glosa	conlang constructed language qgl glosa ronald clark wendy ashby
+xx-conlang-ido	conlang constructed language ido
+xx-conlang-interlingua	conlang constructed language ina interlingua iala international auxiliary association
+xx-conlang-interlingue	conlang constructed language ile interlingue occ occidental edgar de whal
+xx-conlang-lfn	conlang constructed language lfn elefen lingua franca nova george boeree
+xx-conlang-lojban	conlang constructed language jbo lojban llg logical group
+xx-conlang-novial	conlang constructed language nov novial nova international auxiliari lingue otto jespersen
+xx-conlang-pandunia	conlang constructed language qpn pandunia risto kupsala
+xx-conlang-volapuk	conlang constructed language vol volapuk johann martin schleyer
+xx-conlang-klingon	conlang constructed language tlh tlhingan hol klingon empire kronos qonos star trek marc okrand
 
 
 ## Pride Flags

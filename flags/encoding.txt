@@ -2443,9 +2443,17 @@ xx-northpole	F3EC
 ## F400-F4FF	Constructed Language Flags
 
 xx-conlang	F400
+xx-conlang-bolak	F414
 xx-conlang-esperanto	F420
+xx-conlang-glosa	F424
+xx-conlang-ido	F428
+xx-conlang-interlingua	F429
+xx-conlang-interlingue	F42A
 xx-conlang-lfn	F430
+xx-conlang-lojban	F431
+xx-conlang-novial	F434
 xx-conlang-pandunia	F438
+xx-conlang-volapuk	F43E
 xx-conlang-klingon	F440
 
 

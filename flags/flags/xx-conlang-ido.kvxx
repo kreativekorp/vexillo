@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Ido" fly="h*3/2">
+	<defs>
+		<dim id="a" e="h*0.07"/>
+		<dim id="b" e="w*0.07"/>
+		<dim id="c" e="h/2 - a"/>
+		<dim id="d" e="c*2/sqrt(3)"/>
+		<dim id="e" e="h*3/5"/>
+		<color id="blue">
+			<colorspec model="rgb" value="51 153 255"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<poly points="(w-d)/2 h/2 (w+d)/2 h/2 w/2 h-a" color="white"/>
+	<poly points="(w-d/3)/2 h/2 w/2 a (w+d/3)/2 h/2 w/2 e" color="white"/>
+	<poly points="(w-d/3)/2 h/2+c*2/3 b h-a (w-d*2/3)/2 h/2+c/3 w/2 e" color="white"/>
+	<poly points="(w+d/3)/2 h/2+c*2/3 w-b h-a (w+d*2/3)/2 h/2+c/3 w/2 e" color="white"/>
+</flag>
