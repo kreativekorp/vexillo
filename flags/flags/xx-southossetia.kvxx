@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="South Ossetia" fly="h*2">
+	<!-- Internationally recognized as part of Georgia. -->
+	<defs>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="rgb" value="255 255 255"/>
+			<!-- colorspec model="ncs" value="03 00 N"/ -->
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="Red 032"/>
+			<colorspec model="cmyk" value="0 90 86 0"/>
+			<colorspec model="rgb" value="250 60 50"/>
+			<colorspec model="ncs" value="05 80 Y80R"/>
+		</color>
+		<!--
+			Wikipedia gives the spec for the yellow in the flag of North Ossetia,
+			but not for the yellow in the flag of South Ossetia, which is darker.
+		-->
+		<color id="yellow">
+			<colorspec model="pantone" value="Yellow 116"/>
+			<colorspec model="cmyk" value="0 0 100 0"/>
+			<colorspec model="rgb" value="255 255 0"/>
+			<colorspec model="ncs" value="05 70 G70Y"/>
+		</color>
+		<color id="gold">
+			<colorspec model="rgb" value="255 223 0"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="white red gold"/>
+</flag>

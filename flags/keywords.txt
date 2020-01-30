@@ -2003,6 +2003,10 @@ nr-14	oceania micronesia republic nauru pleasant island district yaren
 ## Miscellaneous Subdivision Flags
 
 aq-smith; xx-aq-smith	antarctica south pole whitney smith proposal orange
+az-artsakh; xx-artsakh	eastern europe western southwestern asia middle east republic azerbaijan artsakh nagorno karabakh nagornokarabakh
+ge-abkhazia; xx-abkhazia	eastern europe western southwestern asia middle east georgia republic abkhazia
+ge-southossetia; xx-southossetia	eastern europe western southwestern asia middle east georgia republic south ossetia state alania tskhinvali region
+md-transnistria; xx-transnistria	eastern europe republic moldova transnistria transdniestria pridnestrovian moldavian pmr
 so-somaliland; xx-somaliland	east africa federal republic somalia somaliland
 sy-snc; xx-sy-snc	western southwestern asia middle east syria syrian arab republic national coalition
 xx-northpole	arctic north pole

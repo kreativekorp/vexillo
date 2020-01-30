@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Abkhazia" fly="h*2">
+	<!-- Internationally recognized as part of Georgia. -->
+	<defs>
+		<dim id="fh" e="h*3/7"/>
+		<dim id="fw" e="fh*16/9"/>
+		<dim id="cx" e="fw/2"/>
+		<dim id="cy" e="fh*0.8"/>
+		<dim id="R" e="fh*0.645"/>
+		<dim id="r" e="fh*0.078"/>
+		<color id="green">
+			<colorspec model="rgb" value="0 153 62"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="200 49 42"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+		<symdef id="hand" d="M -0.1373 0.0586
+		                     c 0 0 -0.0153 0.0064 -0.0048 0.1284
+		                     c 0.0085 0.1004 0.0443 0.1331 0.0443 0.1331
+		                     l 0.0156 0.0622 l 0.1482 0.0006
+		                     c 0 0 0.0027 -0.0385 0.0084 -0.0507
+		                     c 0.0141 -0.0299 0.07 -0.0641 0.0939 -0.1157
+		                     c 0.0258 -0.0315 0.0129 -0.0957 0.0646 -0.1576
+		                     c 0.0257 -0.0308 -0.0301 -0.0177 -0.0301 -0.0177
+		                     c -0.0306 0.0203 -0.0455 0.0441 -0.0532 0.0607
+		                     c -0.0052 0.032 -0.0292 0.0588 -0.0314 0.0356
+		                     c 0 0 -0.0087 -0.0402 -0.0349 -0.1184
+		                     c -0.0026 -0.0232 -0.0138 -0.1033 -0.0162 -0.1645
+		                     c -0.0017 -0.0398 -0.0365 -0.0422 -0.0395 -0.0018
+		                     l -0.0042 0.1602 l -0.0083 -0.185
+		                     c -0.0035 -0.0524 -0.0432 -0.0446 -0.0449 -0.0012
+		                     l -0.0017 0.1926 l -0.0072 -0.1867
+		                     c -0.0107 -0.0357 -0.0389 -0.0145 -0.0395 0.0241
+		                     l -0.0048 0.1817
+		                     c 0 0 -0.0061 -0.0995 -0.0074 -0.1415
+		                     c -0.0013 -0.0253 -0.0309 -0.0234 -0.0337 0.0127
+		                     C -0.128 -0.0382 -0.1343 0.0045 -0.1373 0.0586
+		                     L -0.1373 0.0586 z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="7" colors="green white"/>
+	<field x1="0" y1="0" x2="fw" y2="fh" color="red"/>
+	<for var="i" start="-3" end="3">
+		<symbol symbol="star" x="cx+R*sin(i*24)" y="cy-R*cos(i*24)" sx="r" sy="r" color="white"/>
+	</for>
+	<symbol symbol="hand" x="fw/2" y="fh/2" sx="fh" sy="fh" color="white"/>
+</flag>

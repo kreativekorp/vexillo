@@ -2417,6 +2417,10 @@ nr-14	FLAG FOR NAURU-YAREN
 ## F300-F3FF	Miscellaneous Subdivision Flags
 
 aq-smith; xx-aq-smith	FLAG FOR ANTARCTICA-WHITNEY SMITH PROPOSAL
+az-artsakh; xx-artsakh	FLAG FOR ARTSAKH
+ge-abkhazia; xx-abkhazia	FLAG FOR ABKHAZIA
+ge-southossetia; xx-southossetia	FLAG FOR SOUTH OSSETIA
+md-transnistria; xx-transnistria	FLAG FOR TRANSNISTRIA
 so-somaliland; xx-somaliland	FLAG FOR SOMALILAND
 sy-snc; xx-sy-snc	FLAG FOR SYRIAN NATIONAL COALITION
 xx-northpole	FLAG FOR NORTH POLE
