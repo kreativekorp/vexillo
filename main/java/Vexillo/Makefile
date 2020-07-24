@@ -1,6 +1,6 @@
 SRCFILES := $(shell find src -name \*.java)
 RESFILES := $(shell (find src -name \*.dtd ; find src -name \*.ttf ; find src -name \*.png) | sed s/^src\\///)
-PACKAGES := $(shell find src/com/kreative/vexillo -type d \! -path \*/.\* | sed s/^src\\/// | tr / .)
+PACKAGES := $(shell find src -name \*.java | sed -E s/^src\\/\|\\/[^\\/]+$$//g | sort | uniq | tr / .)
 
 all: clean bin doc vexillo.jar vexillo-src.tgz
 
@@ -38,12 +38,28 @@ vexillo-src.tgz: src
 install: vexillo.jar
 	sudo cp -f vexillo.jar /usr/local/lib/
 	sudo chmod -f 644 /usr/local/lib/vexillo.jar
-	sudo cp -i dep/{ascii85,base64}{en,de}code /usr/local/bin/
-	sudo chmod -f 755 /usr/local/bin/{ascii85,base64}{en,de}code
+	sudo cp -i dep/ascii85encode /usr/local/bin/
+	sudo cp -i dep/ascii85decode /usr/local/bin/
+	sudo cp -i dep/base64encode /usr/local/bin/
+	sudo cp -i dep/base64decode /usr/local/bin/
+	sudo chmod -f 755 /usr/local/bin/ascii85encode
+	sudo chmod -f 755 /usr/local/bin/ascii85decode
+	sudo chmod -f 755 /usr/local/bin/base64encode
+	sudo chmod -f 755 /usr/local/bin/base64decode
 	sudo cp -i dep/rewritesvgpath /usr/local/bin/
 	sudo chmod -f 755 /usr/local/bin/rewritesvgpath
-	sudo cp -f dep/vex{illo,view,port,moji,info,calc} /usr/local/bin/
-	sudo chmod -f 755 /usr/local/bin/vex{illo,view,port,moji,info,calc}
+	sudo cp -f dep/vexillo /usr/local/bin/
+	sudo cp -f dep/vexview /usr/local/bin/
+	sudo cp -f dep/vexport /usr/local/bin/
+	sudo cp -f dep/vexmoji /usr/local/bin/
+	sudo cp -f dep/vexinfo /usr/local/bin/
+	sudo cp -f dep/vexcalc /usr/local/bin/
+	sudo chmod -f 755 /usr/local/bin/vexillo
+	sudo chmod -f 755 /usr/local/bin/vexview
+	sudo chmod -f 755 /usr/local/bin/vexport
+	sudo chmod -f 755 /usr/local/bin/vexmoji
+	sudo chmod -f 755 /usr/local/bin/vexinfo
+	sudo chmod -f 755 /usr/local/bin/vexcalc
 
 uninstall:
 	if [ -f /usr/local/bin/ascii85encode ]; then sudo rm -i /usr/local/bin/ascii85encode; fi
