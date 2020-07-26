@@ -117,7 +117,8 @@ public class RewriteSVGPath {
 					if (v == (int)v) {
 						outPath.add(Integer.toString((int)v));
 					} else {
-						outPath.add(Double.toString(Math.round(v * 10000.0) / 10000.0));
+						String vs = Double.toString(Math.round(v * 10000.0) / 10000.0);
+						outPath.add(vs.replaceAll("([1-9]).0E-4", "0.000$1"));
 					}
 					currentParamNumber++;
 				}
