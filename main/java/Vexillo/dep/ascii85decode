@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-java -Dcom.kreative.arg0=ascii85decode -cp /usr/local/lib/vexillo.jar com.kreative.vexillo.main.ASCII85Decode "$@"
+java -Dcom.kreative.arg0=ascii85decode -cp "/usr/local/lib/vexillo.jar:$CLASSPATH" com.kreative.vexillo.main.ASCII85Decode "$@"

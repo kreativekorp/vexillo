@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-java -Dcom.kreative.arg0=vexinfo -cp /usr/local/lib/vexillo.jar com.kreative.vexillo.main.VexInfo "$@"
+java -Dcom.kreative.arg0=vexinfo -cp "/usr/local/lib/vexillo.jar:$CLASSPATH" com.kreative.vexillo.main.VexInfo "$@"
