@@ -1951,6 +1951,48 @@ tw-txg	EED4
 tw-yun	EED5
 
 
+## EF00-EFFF	Asian Flags B
+
+in-ap	EF00
+in-ar	EF01
+in-as	EF02
+in-br	EF03
+in-ct	EF04
+in-ga	EF05
+in-gj	EF06
+in-hr	EF07
+in-hp	EF08
+in-jh	EF09
+in-ka	EF0A
+in-kl	EF0B
+in-mp	EF0C
+in-mh	EF0D
+in-mn	EF0E
+in-ml	EF0F
+in-mz	EF10
+in-nl	EF11
+in-or	EF12
+in-pb	EF13
+in-rj	EF14
+in-sk	EF15
+in-tn	EF16
+in-tg	EF17
+in-tr	EF18
+in-ut	EF19
+in-up	EF1A
+in-wb	EF1B
+in-an	EF20
+in-ch	EF21
+in-dn	EF22
+in-dd	EF23
+in-dl	EF24
+in-jk	EF25
+in-la	EF26
+in-ld	EF27
+in-py	EF28
+xx-romani	EF2F
+
+
 ## F000-F0FF	South American Flags
 
 pe-lma	F000
@@ -2244,6 +2286,7 @@ nz-wko	F21D
 nz-wgn	F21E
 nz-wtc	F21F
 nz-cit	F220
+nz-laserkiwi	F22E
 nz-krikienoid	F22F
 
 # Melanesia

@@ -1537,6 +1537,48 @@ tw-txg	east asia taiwan republic china roc special municipality taichung
 tw-yun	east asia taiwan republic china roc county yunlin
 
 
+# Asian Flags B
+
+in-ap	south asia republic india state andhra pradesh
+in-ar	south asia republic india state arunachal pradesh
+in-as	south asia republic india state assam
+in-br	south asia republic india state bihar
+in-ct	south asia republic india state chhattisgarh
+in-ga	south asia republic india state goa
+in-gj	south asia republic india state gujarat
+in-hr	south asia republic india state haryana
+in-hp	south asia republic india state himachal pradesh
+in-jh	south asia republic india state jharkhand
+in-ka	south asia republic india state karnataka
+in-kl	south asia republic india state kerala
+in-mp	south asia republic india state madhya pradesh
+in-mh	south asia republic india state maharashtra
+in-mn	south asia republic india state manipur
+in-ml	south asia republic india state meghalaya
+in-mz	south asia republic india state mizoram
+in-nl	south asia republic india state nagaland
+in-or	south asia republic india state orissa odisha
+in-pb	south asia republic india state punjab
+in-rj	south asia republic india state rajasthan
+in-sk	south asia republic india state sikkam
+in-tn	south asia republic india state tamil nadu
+in-tg	south asia republic india state telangana
+in-tr	south asia republic india state tripura
+in-ut	south asia republic india state uttaranchal uttarakhand
+in-up	south asia republic india state uttar pradesh
+in-wb	south asia republic india state west bengal
+in-an	south asia republic india union territory andaman nicobar islands
+in-ch	south asia republic india union territory chandigarh
+in-dn	south asia republic india union territory dadra nagar haveli
+in-dd	south asia republic india union territory daman diu
+in-dl	south asia republic india union territory delhi
+in-jk	south asia republic india union territory jammu kashmir
+in-la	south asia republic india union territory ladakh
+in-ld	south asia republic india union territory lakshadweep
+in-py	south asia republic india union territory puducherry pondicherry
+xx-romani	roma romani romany people
+
+
 ## South American Flags
 
 pe-lma	south america republic peru municipality municipalidad metropolitana de lima llaqta suyu hatun
@@ -1830,7 +1872,8 @@ nz-wko	oceania australasia new zealand region waikato
 nz-wgn	oceania australasia new zealand region wellington te whanga nui a tara
 nz-wtc	oceania australasia new zealand region west coast te taihau a uru
 nz-cit	oceania australasia new zealand special island authority chatham islands territory wharekauri
-nz-krikienoid	oceania australasia new zealand krikienoid proposal
+nz-laserkiwi	oceania australasia new zealand proposal fire lazer laser kiwi james lucy gray
+nz-krikienoid	oceania australasia new zealand proposal krikienoid
 
 # Melanesia
 
