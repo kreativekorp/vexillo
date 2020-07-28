@@ -8,7 +8,7 @@
 </style>
 <defs>
 <clipPath id="clip0">
-<path d="M 0 0 L 0 30 L 0 30 L 200 180 L 0 330 L 0 360 L 40 360 L 240 210 L 440 360 L 480 360 L 480 330 L 280 180 L 480 30 L 480 0 L 440 0 L 240 150 L 240 150 L 40 0 Z"/>
+<path d="M 0 0 L 0 30 L 0 30 L 200 180 L 0 330 L 0 330 L 0 360 L 40 360 L 240 210 L 240 210 L 440 360 L 480 360 L 480 330 L 280 180 L 480 30 L 480 0 L 440 0 L 240 150 L 240 150 L 240 150 L 240 150 L 240 150 L 240 150 L 40 0 Z"/>
 </clipPath>
 <linearGradient id="glaze" x1="0%" y1="0%" x2="100%" y2="100%">
 <stop offset="0%" stop-color="rgb(255,255,255)" stop-opacity="0.2"/>
@@ -19,7 +19,7 @@
 </defs>
 <g>
 <rect x="0" y="0" width="480" height="360" class="blue"/>
-<path d="M 0 0 L 0 45 L 180 180 L 0 315 L 0 315 L 0 360 L 60 360 L 240 225 L 420 360 L 480 360 L 480 315 L 480 315 L 300 180 L 480 45 L 480 0 L 420 0 L 240 135 L 60 0 Z" class="white"/>
+<path d="M 0 0 L 0 45 L 0 45 L 180 180 L 0 315 L 0 315 L 0 360 L 60 360 L 240 225 L 240 225 L 420 360 L 480 360 L 480 315 L 300 180 L 480 45 L 480 0 L 420 0 L 240 135 L 240 135 L 60 0 Z" class="white"/>
 <g clip-path="url(#clip0)">
 <path d="M 0 0 L 240 180 L 0 180 Z" class="red"/>
 <path d="M 480 0 L 240 180 L 240 0 Z" class="red"/>

@@ -25,8 +25,8 @@
 <rect x="0" y="0" width="540" height="360" class="blue"/>
 <path d="M 540 0 L 540 360 L 0 360 Z" class="green"/>
 <g clip-path="url(#clip0)">
-<path d="M 506.7424 -49.9393 L -33.2576 310.0608 L 33.2576 409.9392 L 573.2576 49.9393 L 506.7424 -49.9393 Z" class="white"/>
-<path d="M 515.0568 -37.4544 L -24.9432 322.5456 L 24.9432 397.4544 L 564.9432 37.4544 L 515.0568 -37.4544 Z" class="red"/>
+<path d="M 573.282 49.923 L 573.282 49.923 L 33.282 409.923 L -33.282 310.077 L 506.718 -49.923 Z" class="white"/>
+<path d="M 564.9615 37.4423 L 564.9615 37.4423 L 24.9615 397.4423 L -24.9615 322.5577 L 515.0385 -37.4423 Z" class="red"/>
 </g>
 <use xlink:href="#star12" transform="translate(120 96) scale(60 60) rotate(0)" class="yellow"/>
 <use xlink:href="#disc" transform="translate(120 96) scale(72 72) rotate(0)" class="blue"/>

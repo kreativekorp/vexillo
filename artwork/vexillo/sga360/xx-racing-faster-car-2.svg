@@ -19,7 +19,7 @@
 <g>
 <rect x="0" y="0" width="480" height="360" class="blue"/>
 <g clip-path="url(#clip0)">
-<path d="M 453.0275 -36.0206 L -26.9725 323.9794 L 26.9725 396.0206 L 506.9725 36.0206 L 453.0275 -36.0206 Z" class="yellow"/>
+<path d="M 507 36 L 507 36 L 27 396 L -27 324 L 453 -36 Z" class="yellow"/>
 </g>
 </g>
 <g>

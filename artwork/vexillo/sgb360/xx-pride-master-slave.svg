@@ -17,10 +17,10 @@
 <g>
 <rect x="0" y="0" width="600" height="360" class="white"/>
 <rect x="19.8" y="19.8" width="560.4" height="320.4" class="black"/>
-<path d="M 120.6 60 L 120.6 300 L 160.2 300 L 160.2 60 L 120.6 60 Z" class="red"/>
-<path d="M 240 139.8 L 480 139.8 L 480 100.2 L 240 100.2 L 240 139.8 Z" class="red"/>
-<path d="M 240 199.8 L 480 199.8 L 480 160.2 L 240 160.2 L 240 199.8 Z" class="red"/>
-<path d="M 240 259.8 L 480 259.8 L 480 220.2 L 240 220.2 L 240 259.8 Z" class="red"/>
+<path d="M 160.2 60 L 160.2 60 L 160.2 300 L 120.6 300 L 120.6 60 Z" class="red"/>
+<path d="M 240 100.2 L 240 100.2 L 480 100.2 L 480 139.8 L 240 139.8 Z" class="red"/>
+<path d="M 240 160.2 L 240 160.2 L 480 160.2 L 480 199.8 L 240 199.8 Z" class="red"/>
+<path d="M 240 220.2 L 240 220.2 L 480 220.2 L 480 259.8 L 240 259.8 Z" class="red"/>
 </g>
 <g>
 <rect x="0" y="0" width="600" height="360" fill="url(#glaze)"/>
