@@ -10,6 +10,6 @@
 <rect x="0" y="0" width="480" height="360" class="green"/>
 <path d="M 0 0 L 240 180 L 0 360 Z" class="black"/>
 <path d="M 480 0 L 240 180 L 480 360 Z" class="black"/>
-<path d="M 0 0 L 0 37.5 L 0 37.5 L 190 180 L 190 180 L 0 322.5 L 0 322.5 L 0 360 L 50 360 L 240 217.5 L 240 217.5 L 430 360 L 480 360 L 480 322.5 L 290 180 L 480 37.5 L 480 0 L 430 0 L 240 142.5 L 240 142.5 L 50 0 Z" class="yellow"/>
+<path d="M 0 0 L 0 37.5 L 190 180 L 0 322.5 L 0 360 L 50 360 L 240 217.5 L 430 360 L 480 360 L 480 322.5 L 290 180 L 480 37.5 L 480 0 L 430 0 L 240 142.5 L 50 0 Z" class="yellow"/>
 </g>
 </svg>

@@ -9,9 +9,9 @@
 <g>
 <rect x="0" y="0" width="480" height="360" class="white"/>
 <rect x="19.8" y="19.8" width="440.4" height="320.4" class="black"/>
-<path d="M 92.52 60 L 92.52 300 L 132.12 300 L 132.12 60 L 92.52 60 Z" class="red"/>
-<path d="M 192 139.8 L 384 139.8 L 384 100.2 L 192 100.2 L 192 139.8 Z" class="red"/>
-<path d="M 192 199.8 L 384 199.8 L 384 160.2 L 192 160.2 L 192 199.8 Z" class="red"/>
-<path d="M 192 259.8 L 384 259.8 L 384 220.2 L 192 220.2 L 192 259.8 Z" class="red"/>
+<path d="M 132.12 60 L 132.12 60 L 132.12 300 L 92.52 300 L 92.52 60 Z" class="red"/>
+<path d="M 192 100.2 L 192 100.2 L 384 100.2 L 384 139.8 L 192 139.8 Z" class="red"/>
+<path d="M 192 160.2 L 192 160.2 L 384 160.2 L 384 199.8 L 192 199.8 Z" class="red"/>
+<path d="M 192 220.2 L 192 220.2 L 384 220.2 L 384 259.8 L 192 259.8 Z" class="red"/>
 </g>
 </svg>

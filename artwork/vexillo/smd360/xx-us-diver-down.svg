@@ -7,6 +7,6 @@
 </style>
 <g>
 <rect x="0" y="0" width="480" height="360" class="red"/>
-<path d="M -26.9725 36.0206 L 453.0275 396.0206 L 506.9725 323.9794 L 26.9725 -36.0206 L -26.9725 36.0206 Z" class="white"/>
+<path d="M 27 -36 L 27 -36 L 507 324 L 453 396 L -27 36 Z" class="white"/>
 </g>
 </svg>

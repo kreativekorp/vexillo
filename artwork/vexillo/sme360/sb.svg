@@ -17,7 +17,7 @@
 <path d="M 0 0 L 450 0 L 0 360 Z" class="blue"/>
 <path d="M 450 0 L 450 360 L 0 360 Z" class="green"/>
 <g clip-path="url(#clip0)">
-<path d="M 440.6271 -11.7111 L -9.3729 348.2889 L 9.3729 371.7111 L 459.3729 11.7111 L 440.6271 -11.7111 Z" class="yellow"/>
+<path d="M 459.3704 11.713 L 459.3704 11.713 L 9.3704 371.713 L -9.3704 348.287 L 440.6296 -11.713 Z" class="yellow"/>
 </g>
 <use xlink:href="#star" transform="translate(33.75 49.5) scale(30 30) rotate(0)" class="white"/>
 <use xlink:href="#star" transform="translate(123.75 49.5) scale(30 30) rotate(0)" class="white"/>

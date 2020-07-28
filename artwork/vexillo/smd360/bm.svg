@@ -8,14 +8,14 @@
 </style>
 <defs>
 <clipPath id="clip0">
-<path d="M 0 0 L 0 15 L 0 15 L 100 90 L 0 165 L 0 180 L 20 180 L 120 105 L 220 180 L 240 180 L 240 165 L 140 90 L 240 15 L 240 0 L 220 0 L 120 75 L 120 75 L 20 0 Z"/>
+<path d="M 0 0 L 0 15 L 0 15 L 100 90 L 0 165 L 0 165 L 0 180 L 20 180 L 120 105 L 120 105 L 220 180 L 240 180 L 240 165 L 140 90 L 240 15 L 240 0 L 220 0 L 120 75 L 120 75 L 120 75 L 120 75 L 120 75 L 120 75 L 20 0 Z"/>
 </clipPath>
 </defs>
 <g>
 <rect x="0" y="0" width="480" height="360" class="red"/>
 <g>
 <rect x="0" y="0" width="240" height="180" class="blue"/>
-<path d="M 0 0 L 0 22.5 L 90 90 L 0 157.5 L 0 157.5 L 0 180 L 30 180 L 120 112.5 L 210 180 L 240 180 L 240 157.5 L 240 157.5 L 150 90 L 240 22.5 L 240 0 L 210 0 L 120 67.5 L 30 0 Z" class="white"/>
+<path d="M 0 0 L 0 22.5 L 0 22.5 L 90 90 L 0 157.5 L 0 157.5 L 0 180 L 30 180 L 120 112.5 L 120 112.5 L 210 180 L 240 180 L 240 157.5 L 150 90 L 240 22.5 L 240 0 L 210 0 L 120 67.5 L 120 67.5 L 30 0 Z" class="white"/>
 <g clip-path="url(#clip0)">
 <path d="M 0 0 L 120 90 L 0 90 Z" class="red"/>
 <path d="M 240 0 L 120 90 L 120 0 Z" class="red"/>

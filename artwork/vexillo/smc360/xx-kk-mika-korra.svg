@@ -7,9 +7,9 @@
 </style>
 <g>
 <rect x="0" y="0" width="540" height="360" class="blue"/>
-<path d="M 54 144 L 54 324 L 90 324 L 90 144 L 54 144 Z" class="silver"/>
-<path d="M 149.2721 131.2721 L 59.2721 221.2721 L 84.7279 246.7279 L 174.7279 156.7279 L 149.2721 131.2721 Z" class="silver"/>
-<path d="M 72 252 L 234 252 L 234 216 L 72 216 L 72 252 Z" class="silver"/>
-<path d="M 144 234 L 144 360 L 180 360 L 180 234 L 144 234 Z" class="silver"/>
+<path d="M 90 144 L 90 144 L 90 324 L 54 324 L 54 144 Z" class="silver"/>
+<path d="M 174.7279 156.7279 L 174.7279 156.7279 L 84.7279 246.7279 L 59.2721 221.2721 L 149.2721 131.2721 Z" class="silver"/>
+<path d="M 72 216 L 72 216 L 234 216 L 234 252 L 72 252 Z" class="silver"/>
+<path d="M 180 234 L 180 234 L 180 360 L 144 360 L 144 234 Z" class="silver"/>
 </g>
 </svg>
