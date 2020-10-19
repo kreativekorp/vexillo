@@ -2499,10 +2499,11 @@ xx-pride-lgbt-za	RAINBOW FLAG FOR SOUTH AFRICA
 xx-pride-lgbt-tw	RAINBOW FLAG FOR TAIWAN
 xx-pride-lgbt-9band	RAINBOW FLAG WITH NINE BANDS
 xx-pride-lgbt-gb; xx-pride-lgbt-uk	PRIDE FLAG FOR UNITED KINGDOM
+xx-pride-lgbt-hk	RAINBOW FLAG FOR HONG KONG
 
 xx-pride-asexual	ASEXUAL PRIDE FLAG
 xx-pride-lesbian-1	LESBIAN PRIDE FLAG-1
-xx-pride-gay-male	GAY MALE PRIDE FLAG
+xx-pride-gay-male-1	GAY MALE PRIDE FLAG-1
 xx-pride-bisexual	BISEXUAL PRIDE FLAG
 xx-pride-pansexual	PANSEXUAL PRIDE FLAG
 xx-pride-polysexual	POLYSEXUAL PRIDE FLAG
@@ -2514,6 +2515,8 @@ xx-pride-lesbian-5	LESBIAN PRIDE FLAG-5
 xx-pride-lesbian-6	LESBIAN PRIDE FLAG-6
 xx-pride-aromantic	AROMANTIC PRIDE FLAG
 xx-pride-demiromantic	DEMIROMANTIC PRIDE FLAG
+xx-pride-gay-male-2	GAY MALE PRIDE FLAG-2
+xx-pride-gay-male-3	GAY MALE PRIDE FLAG-3
 
 xx-pride-trans	TRANSGENDER PRIDE FLAG
 xx-pride-trans-il	TRANSGENDER PRIDE FLAG FOR ISRAEL
@@ -2550,6 +2553,10 @@ xx-pride-ally	ALLY PRIDE FLAG
 xx-pride-heterosexual	HETEROSEXUAL PRIDE FLAG
 
 xx-aristasia	FLAG FOR ARISTASIA
+
+xx-pride-diamoric	DIAMORIC PRIDE FLAG
+xx-pride-sapphic	SAPPHIC PRIDE FLAG
+xx-pride-achillean	ACHILLEAN PRIDE FLAG
 
 xx-christian	CHRISTIAN FLAG
 

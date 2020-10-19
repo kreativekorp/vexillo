@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Gay Male Pride" fly="h*16/9">
+	<defs>
+		<color id="band1">
+			<colorspec model="rgb" value="0 165 213"/>
+		</color>
+		<color id="band2">
+			<colorspec model="rgb" value="86 185 255"/>
+		</color>
+		<color id="band3">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="band4">
+			<colorspec model="rgb" value="98 211 143"/>
+		</color>
+		<color id="band5">
+			<colorspec model="rgb" value="2 163 66"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="band1 band2 band3 band4 band5"/>
+</flag>

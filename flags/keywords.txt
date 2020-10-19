@@ -2085,10 +2085,11 @@ xx-pride-lgbt-za	pride lgbt gay rainbow southern africa republic south rsa
 xx-pride-lgbt-tw	pride lgbt gay rainbow east asia taiwan republic china roc
 xx-pride-lgbt-9band	pride lgbt gay rainbow 9 nine band bands love fest festival estevao romane
 xx-pride-lgbt-gb; xx-pride-lgbt-uk	pride lgbt gay northern europe united kingdom great britain uk gb pink jack
+xx-pride-lgbt-hk	pride lgbt gay rainbow east asia hong kong hk special administrative region sar peoples republic china prc hidden pirate island
 
 xx-pride-asexual	pride lgbt gay asexual ace aven visibility education network user standup
 xx-pride-lesbian-1	pride lgbt gay lesbian labrys triangle purple
-xx-pride-gay-male	pride lgbt gay male homosexual leonis ignis
+xx-pride-gay-male-1	pride lgbt gay male homosexual brown blue 7 seven band bands leonis ignis
 xx-pride-bisexual	pride lgbt gay bisexual bi michael page
 xx-pride-pansexual	pride lgbt gay pansexual pan
 xx-pride-polysexual	pride lgbt gay polysexual poly
@@ -2100,6 +2101,8 @@ xx-pride-lesbian-5	pride lgbt gay lesbian inclusive everyone 4 four band bands l
 xx-pride-lesbian-6	pride lgbt gay lesbian inclusive everyone 4 four band bands maya kern revision revised
 xx-pride-aromantic	pride lgbt gay aromantic aro
 xx-pride-demiromantic	pride lgbt gay demiromantic dero
+xx-pride-gay-male-2	pride lgbt gay male homosexual green blue 7 seven band bands
+xx-pride-gay-male-3	pride lgbt gay male homosexual green blue 5 five band bands
 
 xx-pride-trans	pride lgbt trans transgender transsexual monica helms
 xx-pride-trans-il	pride lgbt trans transgender transsexual western southwestern asia middle east state israel
@@ -2136,6 +2139,10 @@ xx-pride-ally	pride lgbt ally
 xx-pride-heterosexual	pride straight hetero heterosexual
 
 xx-aristasia	aristasia feminine empire herthe
+
+xx-pride-diamoric	pride lgbt gay diamoric nonbinary non binary nb enby
+xx-pride-sapphic	pride lgbt gay sapphic sappho lesbian bisexual pansexual woman women female aligned
+xx-pride-achillean	pride lgbt gay achillean achilles achilleus homosexual bisexual pansexual man men male aligned
 
 xx-christian	christ christian christianity
 
