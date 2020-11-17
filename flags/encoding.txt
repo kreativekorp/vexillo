@@ -2256,6 +2256,39 @@ uy-ta	F0FD
 uy-tt	F0FE
 
 
+## F100-F1FF	African Flags
+
+eg-dk	F100
+eg-ba	F101
+eg-bh	F102
+eg-fym	F103
+eg-gh	F104
+eg-alx	F105
+eg-is	F106
+eg-gz	F107
+eg-mnf	F108
+eg-mn	F109
+eg-c	F10A
+eg-kb	F10B
+eg-lx	F10C
+eg-wad	F10D
+eg-suz	F10E
+eg-shr	F10F
+eg-asn	F110
+eg-ast	F111
+eg-bns	F112
+eg-pts	F113
+eg-dt	F114
+eg-js	F115
+eg-kfs	F116
+eg-mt	F117
+eg-kn	F118
+eg-sin	F119
+eg-shg	F11A
+
+xx-wakanda	F1FF
+
+
 ## F200-F2FF	Oceanic Flags
 
 # Australasia
@@ -2577,6 +2610,8 @@ xx-pride-sapphic	F591
 xx-pride-achillean	F592
 
 xx-christian	F5C0; 271D; 1F3F3+200D+271D; 1F3F4+200D+271D
+
+xx-blm	F5E0
 
 
 ## F600-F6FF	Sports Flags

@@ -457,7 +457,7 @@ us-tn; xx-tennessee	north america united states us usa state tennessee tenn tn
 us-oh; xx-ohio	north america united states us usa state ohio oh
 us-la; xx-louisiana	north america united states us usa state louisiana la
 us-in; xx-indiana	north america united states us usa state indiana ind in
-us-ms; xx-mississippi	north america united states us usa state mississippi miss ms
+us-ms; xx-mississippi	north america united states us usa state mississippi miss ms new magnolia
 us-il; xx-illinois	north america united states us usa state illinois ill il
 us-al; xx-alabama	north america united states us usa state alabama ala al
 us-me; xx-maine	north america united states us usa state maine me
@@ -1842,6 +1842,39 @@ uy-ta	south america oriental republic uruguay tacuarembo
 uy-tt	south america oriental republic uruguay treinta y tres
 
 
+## African Flags
+
+eg-dk	north africa western southwestern asia middle east arab republic egypt ad daqahliyah dakahlia
+eg-ba	north africa western southwestern asia middle east arab republic egypt al bahr ahmar red sea
+eg-bh	north africa western southwestern asia middle east arab republic egypt al buhayrah beheira
+eg-fym	north africa western southwestern asia middle east arab republic egypt al fayyum faiyum
+eg-gh	north africa western southwestern asia middle east arab republic egypt al gharbiyah gharbia
+eg-alx	north africa western southwestern asia middle east arab republic egypt al iskandariyah alexandria
+eg-is	north africa western southwestern asia middle east arab republic egypt al isma iliyah ismailiyah ismailia
+eg-gz	north africa western southwestern asia middle east arab republic egypt al jizah giza
+eg-mnf	north africa western southwestern asia middle east arab republic egypt al minufiyah monufia
+eg-mn	north africa western southwestern asia middle east arab republic egypt al minya
+eg-c	north africa western southwestern asia middle east arab republic egypt al qahirah cairo
+eg-kb	north africa western southwestern asia middle east arab republic egypt al qalyubiyah qalyubia
+eg-lx	north africa western southwestern asia middle east arab republic egypt al uqsur luxor
+eg-wad	north africa western southwestern asia middle east arab republic egypt al wadi jadid new valley
+eg-suz	north africa western southwestern asia middle east arab republic egypt as suways suez
+eg-shr	north africa western southwestern asia middle east arab republic egypt ash sharqiyah al sharqia
+eg-asn	north africa western southwestern asia middle east arab republic egypt aswan
+eg-ast	north africa western southwestern asia middle east arab republic egypt asyut
+eg-bns	north africa western southwestern asia middle east arab republic egypt bani suwayf beni suef
+eg-pts	north africa western southwestern asia middle east arab republic egypt bur sa id port said
+eg-dt	north africa western southwestern asia middle east arab republic egypt dumyat damietta
+eg-js	north africa western southwestern asia middle east arab republic egypt janub sina south sinai
+eg-kfs	north africa western southwestern asia middle east arab republic egypt kafr ash shaykh el sheikh
+eg-mt	north africa western southwestern asia middle east arab republic egypt matruh matrouh
+eg-kn	north africa western southwestern asia middle east arab republic egypt qina qena
+eg-sin	north africa western southwestern asia middle east arab republic egypt shamal sina north sinai
+eg-shg	north africa western southwestern asia middle east arab republic egypt suhaj sohag
+
+xx-wakanda	east africa kingdom wakanda marvel comic comics cinematic universe mcu
+
+
 ## Oceanic Flags
 
 # Australasia
@@ -2145,6 +2178,8 @@ xx-pride-sapphic	pride lgbt gay sapphic sappho lesbian bisexual pansexual woman 
 xx-pride-achillean	pride lgbt gay achillean achilles achilleus homosexual bisexual pansexual man men male aligned
 
 xx-christian	christ christian christianity
+
+xx-blm	black lives matter blm
 
 
 ## Sports Flags
