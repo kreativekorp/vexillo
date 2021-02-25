@@ -29,6 +29,7 @@ vexillo.jar: bin
 	export COPYFILE_DISABLE=true
 	find bin -name .DS_Store -delete
 	jar cmf dep/MANIFEST.MF vexillo.jar -C bin com/kreative
+	chmod +x vexillo.jar
 
 vexillo-src.tgz: src
 	export COPYFILE_DISABLE=true
