@@ -2119,6 +2119,7 @@ xx-pride-lgbt-tw	pride lgbt gay rainbow east asia taiwan republic china roc
 xx-pride-lgbt-9band	pride lgbt gay rainbow 9 nine band bands love fest festival estevao romane
 xx-pride-lgbt-gb; xx-pride-lgbt-uk	pride lgbt gay northern europe united kingdom great britain uk gb pink jack
 xx-pride-lgbt-hk	pride lgbt gay rainbow east asia hong kong hk special administrative region sar peoples republic china prc hidden pirate island
+xx-pride-lgbt-ca	pride lgbt gay rainbow north america canada
 
 xx-pride-asexual	pride lgbt gay asexual ace aven visibility education network user standup
 xx-pride-lesbian-1	pride lgbt gay lesbian labrys triangle purple

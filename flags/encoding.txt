@@ -2551,6 +2551,7 @@ xx-pride-lgbt-tw	F508
 xx-pride-lgbt-9band	F509
 xx-pride-lgbt-gb; xx-pride-lgbt-uk	F50A
 xx-pride-lgbt-hk	F50B
+xx-pride-lgbt-ca	F50C
 
 xx-pride-asexual	F510
 xx-pride-lesbian-1	F511

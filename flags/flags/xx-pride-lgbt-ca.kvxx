@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="LGBT Pride (Canada)" fly="h*2">
+	<defs>
+		<dim id="ld" e="min(h,w/2)"/>
+		<dim id="lx" e="w/2-ld"/>
+		<dim id="ly" e="(h-ld)/2"/>
+		<color id="red">
+			<colorspec model="rgb" value="255 0 0"/>
+		</color>
+		<color id="orange">
+			<colorspec model="rgb" value="255 153 0"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 255 0"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="0 153 0"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="0 0 255"/>
+		</color>
+		<color id="purple">
+			<colorspec model="rgb" value="153 0 153"/>
+		</color>
+		<color id="cared">
+			<colorspec model="cmyk" value="0 100 100 0"/>
+			<colorspec model="pantone" value="032"/>
+			<colorspec model="pantone" value="485"/>
+			<colorspec model="rgb" value="255 0 0"/>
+		</color>
+		<color id="cawhite">
+			<colorspec model="cmyk" value="0 0 0 0"/>
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<!-- Stolen from Wikipedia -->
+		<symdef id="leaf" d="m 499.99228 46.875 l -34.11312 63.62529
+		                     c -3.87086 6.91501 -10.80627 6.27363 -17.74169 2.41138
+		                     l -24.69699 -12.78858 l 18.40705 97.72711
+		                     c 3.87086 17.85419 -8.54859 17.85419 -14.67765 10.13435
+		                     l -43.10105 -48.25099 l -6.99738 24.503
+		                     c -0.80692 3.21777 -4.35481 6.59744 -9.67748 5.79261
+		                     l -54.50177 -11.45912 l 14.31524 52.04475
+		                     c 3.06451 11.58054 5.4549 16.37528 -3.09375 19.42959
+		                     l -19.42619 9.13025 l 93.82127 76.20838
+		                     c 3.7135 2.88151 5.58971 8.067 4.26768 12.7621
+		                     l -8.21136 26.94707
+		                     c 32.30405 -3.72371 61.24898 -9.32594 93.56939 -12.77619
+		                     c 2.85323 -0.30459 7.62988 4.40408 7.61029 7.71058
+		                     l -4.28024 98.72342 l 15.70639 0 l -2.47237 -98.5117
+		                     c -0.0197 -3.3065 4.31372 -8.22689 7.16695 -7.9223
+		                     c 32.32041 3.45026 61.26538 9.05248 93.56942 12.77619
+		                     l -8.21134 -26.94707
+		                     c -1.32203 -4.6951 0.55417 -9.88059 4.26767 -12.7621
+		                     l 93.82125 -76.20838 l -19.42617 -9.13025
+		                     c -8.54867 -3.05431 -6.15828 -7.84905 -3.09377 -19.42959
+		                     l 14.31527 -52.04475 l -54.5018 11.45912
+		                     c -5.32267 0.80483 -8.87056 -2.57484 -9.6775 -5.79261
+		                     l -6.99737 -24.503 l -43.10103 48.25099
+		                     c -6.12908 7.71984 -18.54854 7.71984 -14.67768 -10.13435
+		                     l 18.40702 -97.72711 l -24.69694 12.78858
+		                     c -6.93559 3.86225 -13.87083 4.50363 -17.7417 -2.41138 z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="6" colors="red orange yellow green blue purple"/>
+	<vband x1="w/4" y1="0" x2="w*3/4" y2="h" bands="1" colors="cawhite"/>
+	<symbol symbol="leaf" x="lx" y="ly" sx="ld/500" sy="ld/500" color="cared"/>
+</flag>
