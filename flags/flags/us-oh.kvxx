@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="us-oh" name="Ohio" properties="cf sf" fly="h*13/8">
+	<defs>
+		<dim id="tx" e="w*8/13"/>
+		<dim id="cx" e="w*(2*sqrt(5)-2)/13"/>
+		<dim id="cy" e="h*(2*sqrt(5)-2)/8"/>
+		<dim id="cr" e="min(cx,cy)*2/5"/>
+		<dim id="sa" e="atan2(h/2,cx)/2"/>
+		<dim id="sr" e="cr/3"/>
+		<color id="red">
+			<colorspec model="rgb" value="193 19 61"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="0 28 90"/>
+		</color>
+		<symdef id="star" d="M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+		                     L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+		                     L -0.5878 0.809 L -0.3633 0.118
+		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
+		<symdef id=".glazearea" d="M 0 0 L 1 0.1875 L 0.769230769231 0.5 L 1 0.8125 L 0 1 Z"/>
+	</defs>
+	<g>
+		<clip>
+			<symbol symbol=".glazearea" x="0" y="0" sx="w" sy="h"/>
+		</clip>
+		<field x1="0" x2="w" y1="0" y2="h" color="white"/>
+		<dband x1="0" x2="w*2" y1="0" y2="h*3/8" thickness="h/4" color="red"/>
+		<dband x1="0" x2="w" y1="h/2" y2="h/2" thickness="h/8" color="red"/>
+		<dband x1="0" x2="w*2" y1="h" y2="h*5/8" thickness="h/4" color="red"/>
+	</g>
+	<poly points="0 0 tx h/2 0 h" color="blue"/>
+	<disc cx="cx" cy="h/2" w="cr*3" h="cr*3" color="white"/>
+	<disc cx="cx" cy="h/2" w="cr*2" h="cr*2" color="red"/>
+	<for var="t" start="-4" end="4">
+		<symbol symbol="star"
+		        x="cx-cr*2*cos(t*sa)"
+		        y="h/2-cr*2*sin(t*sa)"
+		        sx="sr" sy="sr"
+		        rotate="t*sa-90"
+		        color="white"/>
+	</for>
+	<for var="s" start="-1" end="1" step="2">
+		<for var="t" start="-1" end="1" step="2">
+			<symbol symbol="star"
+			        x="cx-cr*3*cos((2*sa+t*sa/3)*s)"
+			        y="h/2-cr*3*sin((2*sa+t*sa/3)*s)"
+			        sx="sr" sy="sr"
+			        rotate="((2*sa+t*sa/3)*s)-90"
+			        color="white"/>
+		</for>
+	</for>
+	<symbol symbol="star" x="cx+cr*2" y="h/2" sx="sr" sy="sr" rotate="90" color="white"/>
+	<symbol symbol="star" x="cx+cr*4" y="h/2" sx="sr" sy="sr" rotate="90" color="white"/>
+	<for var="t" start="-1" end="1" step="2">
+		<symbol symbol="star"
+		        x="cx+cr*3*cos(t*sa/3)"
+		        y="h/2+cr*3*sin(t*sa/3)"
+		        sx="sr" sy="sr"
+		        rotate="(t*sa/3)+90"
+		        color="white"/>
+	</for>
+</flag>
