@@ -29,26 +29,30 @@ public class Vexillo {
 	public static void main(String arg0, String[] args, int argi) {
 		if (argi >= args.length) {
 			printHelp(arg0);
-		} else if (args[argi].equalsIgnoreCase("view")) {
+		} else if (args[argi].equalsIgnoreCase("v") || args[argi].equalsIgnoreCase("view")) {
 			VexView.main(arg0 + " view", args, argi + 1);
-		} else if (args[argi].equalsIgnoreCase("export")) {
+		} else if (args[argi].equalsIgnoreCase("x") || args[argi].equalsIgnoreCase("export")) {
 			VexPort.main(arg0 + " export", args, argi + 1);
-		} else if (args[argi].equalsIgnoreCase("emoji")) {
+		} else if (args[argi].equalsIgnoreCase("e") || args[argi].equalsIgnoreCase("emoji")) {
 			VexMoji.main(arg0 + " emoji", args, argi + 1);
-		} else if (args[argi].equalsIgnoreCase("info")) {
+		} else if (args[argi].equalsIgnoreCase("i") || args[argi].equalsIgnoreCase("info")) {
 			VexInfo.main(arg0 + " info", args, argi + 1);
-		} else if (args[argi].equalsIgnoreCase("calc")) {
+		} else if (args[argi].equalsIgnoreCase("c") || args[argi].equalsIgnoreCase("calc")) {
 			VexCalc.main(arg0 + " calc", args, argi + 1);
-		} else if (args[argi].equalsIgnoreCase("RewriteSVGPath")) {
+		} else if (args[argi].equalsIgnoreCase("rwp") || args[argi].equalsIgnoreCase("RewriteSVGPath")) {
 			RewriteSVGPath.main(arg0 + " RewriteSVGPath", args, argi + 1);
-		} else if (args[argi].equalsIgnoreCase("Base64Encode")) {
+		} else if (args[argi].equalsIgnoreCase("b64e") || args[argi].equalsIgnoreCase("Base64Encode")) {
 			Base64Encode.main(arg0 + " Base64Encode", args, argi + 1);
-		} else if (args[argi].equalsIgnoreCase("Base64Decode")) {
+		} else if (args[argi].equalsIgnoreCase("b64d") || args[argi].equalsIgnoreCase("Base64Decode")) {
 			Base64Decode.main(arg0 + " Base64Decode", args, argi + 1);
-		} else if (args[argi].equalsIgnoreCase("ASCII85Encode")) {
+		} else if (args[argi].equalsIgnoreCase("a85e") || args[argi].equalsIgnoreCase("ASCII85Encode")) {
 			ASCII85Encode.main(arg0 + " ASCII85Encode", args, argi + 1);
-		} else if (args[argi].equalsIgnoreCase("ASCII85Decode")) {
+		} else if (args[argi].equalsIgnoreCase("a85d") || args[argi].equalsIgnoreCase("ASCII85Decode")) {
 			ASCII85Decode.main(arg0 + " ASCII85Decode", args, argi + 1);
+		} else if (args[argi].equalsIgnoreCase("di") || args[argi].equalsIgnoreCase("DefineImage")) {
+			DefineImage.main(arg0 + " DefineImage", args, argi + 1);
+		} else if (args[argi].equalsIgnoreCase("ds") || args[argi].equalsIgnoreCase("DefineSymbol")) {
+			DefineSymbol.main(arg0 + " DefineSymbol", args, argi + 1);
 		} else if (args[argi].equalsIgnoreCase("MakeJS")) {
 			try { MakeJS.main(arg0 + " MakeJS", args, argi + 1); }
 			catch (IOException e) { e.printStackTrace(); }
@@ -75,6 +79,8 @@ public class Vexillo {
 		System.out.println("  " + arg0 + " Base64Decode [<options>] [<files>]");
 		System.out.println("  " + arg0 + " ASCII85Encode [<options>] [<files>]");
 		System.out.println("  " + arg0 + " ASCII85Decode [<options>] [<files>]");
+		System.out.println("  " + arg0 + " DefineImage [-n <id>] <files>");
+		System.out.println("  " + arg0 + " DefineSymbol [-n <id>] <files>");
 		System.out.println();
 	}
 }

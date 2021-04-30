@@ -47,7 +47,7 @@ install: vexillo.jar
 	sudo chmod -f 755 /usr/local/bin/ascii85decode
 	sudo chmod -f 755 /usr/local/bin/base64encode
 	sudo chmod -f 755 /usr/local/bin/base64decode
-	sudo cp -i dep/rewritesvgpath /usr/local/bin/
+	sudo cp -f dep/rewritesvgpath /usr/local/bin/
 	sudo chmod -f 755 /usr/local/bin/rewritesvgpath
 	sudo cp -f dep/vexillo /usr/local/bin/
 	sudo cp -f dep/vexview /usr/local/bin/

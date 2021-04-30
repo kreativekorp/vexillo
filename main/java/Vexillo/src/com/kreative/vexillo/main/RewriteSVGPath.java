@@ -2,6 +2,7 @@ package com.kreative.vexillo.main;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class RewriteSVGPath {
 	public static void main(String[] args) {
@@ -10,11 +11,16 @@ public class RewriteSVGPath {
 	
 	public static void main(String arg0, String[] args, int argi) {
 		if (argi >= args.length) { printHelp(arg0); return; }
+		boolean written = false;
 		double xs = 1.0, ys = 1.0, xt = 0.0, yt = 0.0;
+		SplitType st = SplitType.NONE; int sw = 50;
+		boolean opts = true;
 		while (argi < args.length) {
 			String arg = args[argi++];
-			if (arg.startsWith("-")) {
-				if (arg.equalsIgnoreCase("-s") && argi < args.length) {
+			if (opts && arg.startsWith("-")) {
+				if (arg.equals("--")) {
+					opts = false;
+				} else if (arg.equalsIgnoreCase("-s") && argi < args.length) {
 					xs = ys = Double.parseDouble(args[argi++]);
 				} else if (arg.equalsIgnoreCase("-xs") && argi < args.length) {
 					xs = Double.parseDouble(args[argi++]);
@@ -30,14 +36,51 @@ public class RewriteSVGPath {
 					xt = Double.parseDouble(args[argi++]);
 				} else if (arg.equalsIgnoreCase("-yt") && argi < args.length) {
 					yt = Double.parseDouble(args[argi++]);
+				} else if (arg.equalsIgnoreCase("-n") || arg.equalsIgnoreCase("--none")) {
+					st = SplitType.NONE;
+				} else if (arg.equalsIgnoreCase("-c") || arg.equalsIgnoreCase("--contours")) {
+					st = SplitType.CONTOUR;
+				} else if (arg.equalsIgnoreCase("-p") || arg.equalsIgnoreCase("--pretty")) {
+					st = SplitType.PRETTY;
+				} else if (arg.equalsIgnoreCase("-i") || arg.equalsIgnoreCase("--instructions")) {
+					st = SplitType.INSTRUCTION;
+				} else if (arg.equalsIgnoreCase("-w") && argi < args.length) {
+					sw = Integer.parseInt(args[argi++]);
+					if (sw < 1) sw = 50;
+				} else if (arg.equalsIgnoreCase("--stdin")) {
+					@SuppressWarnings("resource")
+					Scanner scan = new Scanner(System.in);
+					StringBuffer sb = new StringBuffer();
+					while (scan.hasNextLine()) {
+						sb.append(scan.nextLine());
+						sb.append("\n");
+					}
+					String p = rewriteSVGPath(sb.toString(), xs, ys, xt, yt);
+					System.out.println(st.splitRewrittenSVGPath(p, sw));
+					written = true;
 				} else if (arg.equalsIgnoreCase("--help")) {
 					printHelp(arg0);
+					written = true;
 				} else {
 					System.err.println("Unknown option: " + arg);
+					written = true;
 				}
 			} else {
-				System.out.println(rewriteSVGPath(arg, xs, ys, xt, yt));
+				String p = rewriteSVGPath(arg, xs, ys, xt, yt);
+				System.out.println(st.splitRewrittenSVGPath(p, sw));
+				written = true;
 			}
+		}
+		if (!written) {
+			@SuppressWarnings("resource")
+			Scanner scan = new Scanner(System.in);
+			StringBuffer sb = new StringBuffer();
+			while (scan.hasNextLine()) {
+				sb.append(scan.nextLine());
+				sb.append("\n");
+			}
+			String p = rewriteSVGPath(sb.toString(), xs, ys, xt, yt);
+			System.out.println(st.splitRewrittenSVGPath(p, sw));
 		}
 	}
 	
@@ -54,7 +97,59 @@ public class RewriteSVGPath {
 		System.out.println("  -ys <scale>     Set vertical scaling.");
 		System.out.println("  -xt <length>    Set horizontal translation.");
 		System.out.println("  -yt <length>    Set vertical translation.");
+		System.out.println("  -n              Output entire path on a single line.");
+		System.out.println("  -c              Output each contour on its own line.");
+		System.out.println("  -i              Output each instruction on its own line.");
+		System.out.println("  -p              Split path into lines of a specified width.");
+		System.out.println("  -w  <width>     Set the line width used by -p. Default: 50.");
 		System.out.println();
+	}
+	
+	protected static enum SplitType {
+		NONE {
+			@Override
+			public String splitRewrittenSVGPath(String p, int sw) {
+				return p;
+			}
+		},
+		CONTOUR {
+			@Override
+			public String splitRewrittenSVGPath(String p, int sw) {
+				return p.replaceAll("([Zz])\\s+", "$1\n");
+			}
+		},
+		PRETTY {
+			@Override
+			public String splitRewrittenSVGPath(String p, int sw) {
+				StringBuffer sb = new StringBuffer();
+				int cols = 0;
+				for (String i : p.replaceAll("\\s+([A-Ya-y])", "\n$1").split("\n")) {
+					if (cols > 0) {
+						if (cols + 1 + i.length() > sw) {
+							sb.append('\n');
+							cols = 0;
+						} else {
+							sb.append(' ');
+							cols++;
+						}
+					}
+					sb.append(i);
+					if (i.endsWith("Z") || i.endsWith("z")) {
+						cols = sw;
+					} else {
+						cols += i.length();
+					}
+				}
+				return sb.toString();
+			}
+		},
+		INSTRUCTION {
+			@Override
+			public String splitRewrittenSVGPath(String p, int sw) {
+				return p.replaceAll("\\s+([A-Ya-y])", "\n$1");
+			}
+		};
+		public abstract String splitRewrittenSVGPath(String p, int sw);
 	}
 	
 	private static enum ParamType {
@@ -63,7 +158,7 @@ public class RewriteSVGPath {
 		ANGLE, BOOLEAN_FLAG;
 	}
 	
-	private static String rewriteSVGPath(String path, double xs, double ys, double xt, double yt) {
+	protected static String rewriteSVGPath(String path, double xs, double ys, double xt, double yt) {
 		String[] inPath = path
 			.replaceAll(",", " ")
 			.replaceAll("-", " -")
