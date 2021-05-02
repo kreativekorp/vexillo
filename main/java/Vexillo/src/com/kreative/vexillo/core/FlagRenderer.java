@@ -303,24 +303,24 @@ public class FlagRenderer {
 				double height = y2 - y1;
 				double imageHeightWithinWidth = width * (double)image.getHeight() / (double)image.getWidth();
 				double imageWidthWithinHeight = height * (double)image.getWidth() / (double)image.getHeight();
-				if (imageHeightWithinWidth <= height) {
-					int l = (int)Math.round(x1);
-					int r = (int)Math.round(x2);
-					int t = (int)Math.round(y1 + (height - imageHeightWithinWidth)/2.0);
-					int b = (int)Math.round(y1 + (height + imageHeightWithinWidth)/2.0);
-					if ((r - l) > 0 && (b - t) > 0) {
-						image = ImageUtils.scale(image, r - l, b - t);
-						g.drawImage(image, null, l, t);
-					}
-				} else if (imageWidthWithinHeight <= width) {
-					int t = (int)Math.round(y1);
-					int b = (int)Math.round(y2);
-					int l = (int)Math.round(x1 + (width - imageWidthWithinHeight)/2.0);
-					int r = (int)Math.round(x1 + (width + imageWidthWithinHeight)/2.0);
-					if ((r - l) > 0 && (b - t) > 0) {
-						image = ImageUtils.scale(image, r - l, b - t);
-						g.drawImage(image, null, l, t);
-					}
+				final int l, r, t, b;
+				if (imageWidthWithinHeight < width) {
+					l = (int)Math.round(x1 + (width - imageWidthWithinHeight)/2.0);
+					r = (int)Math.round(x1 + (width + imageWidthWithinHeight)/2.0);
+				} else {
+					l = (int)Math.round(x1);
+					r = (int)Math.round(x2);
+				}
+				if (imageHeightWithinWidth < height) {
+					t = (int)Math.round(y1 + (height - imageHeightWithinWidth)/2.0);
+					b = (int)Math.round(y1 + (height + imageHeightWithinWidth)/2.0);
+				} else {
+					t = (int)Math.round(y1);
+					b = (int)Math.round(y2);
+				}
+				if ((r - l) > 0 && (b - t) > 0) {
+					image = ImageUtils.scale(image, r - l, b - t);
+					g.drawImage(image, null, l, t);
 				}
 			}
 		} else if (i instanceof Instruction.HGradInstruction) {
