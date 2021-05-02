@@ -19,7 +19,7 @@
 <rect x="0" y="0" width="540" height="360" class="red"/>
 <path d="M 0 0 L 270 180 L 0 360 Z" class="green"/>
 <path d="M 540 360 L 270 180 L 540 0 Z" class="green"/>
-<path d="M 0 0 L 0 27.0416 L 0 27.0416 L 229.4375 180 L 0 332.9584 L 0 360 L 40.5625 360 L 270 207.0416 L 270 207.0416 L 499.4375 360 L 540 360 L 540 332.9584 L 310.5625 180 L 310.5625 180 L 540 27.0416 L 540 0 L 499.4375 0 L 270 152.9584 L 270 152.9584 L 40.5625 0 Z" class="white"/>
+<path d="M 0 0 L 0 27.0416 L 0 27.0416 L 229.4375 180 L 229.4375 180 L 0 332.9584 L 0 360 L 40.5625 360 L 270 207.0416 L 270 207.0416 L 270 207.0416 L 270 207.0416 L 499.4375 360 L 540 360 L 540 332.9584 L 310.5625 180 L 310.5625 180 L 540 27.0416 L 540 0 L 499.4375 0 L 270 152.9584 L 40.5625 0 Z" class="white"/>
 <ellipse cx="270" cy="180" rx="108" ry="108" class="white"/>
 <use xlink:href="#star6" transform="translate(270 128.0385) scale(24.75 24.75) rotate(0)" class="green"/>
 <use xlink:href="#star6" transform="translate(225 205.9808) scale(24.75 24.75) rotate(0)" class="green"/>
