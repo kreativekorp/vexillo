@@ -8,6 +8,7 @@ import javax.imageio.ImageIO;
 import com.kreative.vexillo.core.Flag;
 import com.kreative.vexillo.core.FlagParser;
 import com.kreative.vexillo.core.FlagRenderer;
+import com.kreative.vexillo.core.ImageScaler;
 import com.kreative.vexillo.core.SVGExporter;
 import com.kreative.vexillo.style.Stylizer;
 
@@ -31,6 +32,8 @@ public class VexPort {
 				} else if (arg.equals("-h") && argi < args.length) {
 					try { o.height = Integer.parseInt(args[argi++]); }
 					catch (NumberFormatException e) { o.height = 0; }
+				} else if (arg.equals("-i") && argi < args.length) {
+					o.supersampler = parseScaler(args[argi++]);
 				} else if (arg.equals("-s") && argi < args.length) {
 					try { o.supersample = Integer.parseInt(args[argi++]); }
 					catch (NumberFormatException e) { o.supersample = 0; }
@@ -56,7 +59,7 @@ public class VexPort {
 				File inputFile = new File(arg);
 				if (o.verbose) System.out.println(inputFile.getAbsolutePath() + " (" + o.getStatusString() + ")...");
 				File outputFile = o.getOutputFile(inputFile);
-				Flag flag = readFile(inputFile);
+				Flag flag = readFile(inputFile, o);
 				if (flag != null) renderFlag(inputFile, flag, outputFile, o);
 			}
 		}
@@ -72,6 +75,9 @@ public class VexPort {
 		System.out.println("Options:");
 		System.out.println("  -w <width>      Set image width. Set to 0 to calculate from flag geometry.");
 		System.out.println("  -h <height>     Set image height. Defaults to 200.");
+		System.out.println("  -i <algorithm>  Set image interpretation algorithm for supersampling:");
+		System.out.println("                      iterative-bicubic, iterative-bilinear, iterative-nearest,");
+		System.out.println("                      bicubic, bilinear, or nearest.");
 		System.out.println("  -s <scale>      Render as a larger image, then reduce (supersampling).");
 		System.out.println("  -g <thickness>  Add glazing like on FamFamFam flag icons. Set to 0 to disable.");
 		System.out.println("  -y <classname>  Use a Stylizer class to generate a stylized flag image.");
@@ -81,6 +87,34 @@ public class VexPort {
 		System.out.println("  -v              Print paths of files as they are read (verbose).");
 		System.out.println("  --              Treat remaining arguments as file names.");
 		System.out.println();
+	}
+	
+	private static ImageScaler parseScaler(String s) {
+		if (s.equalsIgnoreCase("d")) return ImageScaler.DEFAULT;
+		if (s.equalsIgnoreCase("def")) return ImageScaler.DEFAULT;
+		if (s.equalsIgnoreCase("default")) return ImageScaler.DEFAULT;
+		if (s.equalsIgnoreCase("n")) return ImageScaler.NEAREST;
+		if (s.equalsIgnoreCase("near")) return ImageScaler.NEAREST;
+		if (s.equalsIgnoreCase("nearest")) return ImageScaler.NEAREST;
+		if (s.equalsIgnoreCase("l")) return ImageScaler.BILINEAR;
+		if (s.equalsIgnoreCase("linear")) return ImageScaler.BILINEAR;
+		if (s.equalsIgnoreCase("bilinear")) return ImageScaler.BILINEAR;
+		if (s.equalsIgnoreCase("c")) return ImageScaler.BICUBIC;
+		if (s.equalsIgnoreCase("cubic")) return ImageScaler.BICUBIC;
+		if (s.equalsIgnoreCase("bicubic")) return ImageScaler.BICUBIC;
+		if (s.equalsIgnoreCase("id")) return ImageScaler.ITERATIVE_DEFAULT;
+		if (s.equalsIgnoreCase("iter-def")) return ImageScaler.ITERATIVE_DEFAULT;
+		if (s.equalsIgnoreCase("iterative-default")) return ImageScaler.ITERATIVE_DEFAULT;
+		if (s.equalsIgnoreCase("in")) return ImageScaler.ITERATIVE_NEAREST;
+		if (s.equalsIgnoreCase("iter-near")) return ImageScaler.ITERATIVE_NEAREST;
+		if (s.equalsIgnoreCase("iterative-nearest")) return ImageScaler.ITERATIVE_NEAREST;
+		if (s.equalsIgnoreCase("il")) return ImageScaler.ITERATIVE_BILINEAR;
+		if (s.equalsIgnoreCase("iter-linear")) return ImageScaler.ITERATIVE_BILINEAR;
+		if (s.equalsIgnoreCase("iterative-bilinear")) return ImageScaler.ITERATIVE_BILINEAR;
+		if (s.equalsIgnoreCase("ic")) return ImageScaler.ITERATIVE_BICUBIC;
+		if (s.equalsIgnoreCase("iter-cubic")) return ImageScaler.ITERATIVE_BICUBIC;
+		if (s.equalsIgnoreCase("iterative-bicubic")) return ImageScaler.ITERATIVE_BICUBIC;
+		return null;
 	}
 	
 	private static Stylizer loadStylizer(String name) {
@@ -101,7 +135,7 @@ public class VexPort {
 		return null;
 	}
 	
-	private static Flag readFile(File file) {
+	private static Flag readFile(File file, Options o) {
 		try {
 			FileInputStream in = new FileInputStream(file);
 			Flag flag = FlagParser.parse(file.getName(), in);
@@ -113,6 +147,7 @@ public class VexPort {
 				e.getClass().getSimpleName() + ": " +
 				e.getMessage()
 			);
+			if (o.verbose) e.printStackTrace();
 			return null;
 		} catch (RuntimeException e) {
 			System.err.println(
@@ -120,6 +155,7 @@ public class VexPort {
 				e.getClass().getSimpleName() + ": " +
 				e.getMessage()
 			);
+			if (o.verbose) e.printStackTrace();
 			return null;
 		}
 	}
@@ -136,14 +172,14 @@ public class VexPort {
 			}
 			if (o.style != null) {
 				FlagRenderer r = new FlagRenderer(file.getParentFile(), flag);
-				BufferedImage image = o.style.stylize(r, width, height, o.supersample, o.glaze);
+				BufferedImage image = o.style.stylize(r, width, height, o.supersampler, o.supersample, o.glaze);
 				ImageIO.write(image, o.format, out);
 			} else if (o.format.equalsIgnoreCase("svg")) {
 				SVGExporter e = new SVGExporter(file.getParentFile(), flag);
 				e.export(out, width, height, o.glaze);
 			} else {
 				FlagRenderer r = new FlagRenderer(file.getParentFile(), flag);
-				r.renderToFile(out, o.format, width, height, o.supersample, o.glaze);
+				r.renderToFile(out, o.format, width, height, o.supersampler, o.supersample, o.glaze);
 			}
 		} catch (RuntimeException e) {
 			System.err.println(
@@ -151,12 +187,14 @@ public class VexPort {
 				e.getClass().getSimpleName() + ": " +
 				e.getMessage()
 			);
+			if (o.verbose) e.printStackTrace();
 		} catch (IOException e) {
 			System.err.println(
 				"Error writing " + out.getName() + ": " +
 				e.getClass().getSimpleName() + ": " +
 				e.getMessage()
 			);
+			if (o.verbose) e.printStackTrace();
 		}
 	}
 	
@@ -164,6 +202,7 @@ public class VexPort {
 		public boolean parsingOptions = true;
 		public int width = 0;
 		public int height = 0;
+		public ImageScaler supersampler = ImageScaler.ITERATIVE_BICUBIC;
 		public int supersample = 0;
 		public int glaze = 0;
 		public Stylizer style = null;

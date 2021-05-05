@@ -229,8 +229,8 @@ public class SFDExporter {
 		FlagRenderer renderer = new FlagRenderer(flagFile.getParentFile(), flag);
 		File pngFile = new File(sbixDir, "char_" + Integer.toHexString(cp).toUpperCase() + ".png");
 		int w = (font.bitmapWidth > 0) ? font.bitmapWidth : flag.getWidthFromHeight(font.bitmapHeight);
-		if (font.bitmapStyle == null) renderer.renderToFile(pngFile, "png", w, font.bitmapHeight, 0, font.bitmapGlaze);
-		else ImageIO.write(font.bitmapStyle.stylize(renderer, w, font.bitmapHeight, 0, font.bitmapGlaze), "png", pngFile);
+		if (font.bitmapStyle == null) renderer.renderToFile(pngFile, "png", w, font.bitmapHeight, null, 0, font.bitmapGlaze);
+		else ImageIO.write(font.bitmapStyle.stylize(renderer, w, font.bitmapHeight, null, 0, font.bitmapGlaze), "png", pngFile);
 	}
 	
 	private static void writeSVG(File svgDir, int cp, FlagFontFamily font, Flag flag, File flagFile) throws IOException {
@@ -245,7 +245,7 @@ public class SFDExporter {
 		} else {
 			FlagRenderer renderer = new FlagRenderer(flagFile.getParentFile(), flag);
 			int iw = (font.bitmapWidth > 0) ? font.bitmapWidth : flag.getWidthFromHeight(font.bitmapHeight);
-			BufferedImage image = font.bitmapStyle.stylize(renderer, iw, font.bitmapHeight, 0, font.bitmapGlaze);
+			BufferedImage image = font.bitmapStyle.stylize(renderer, iw, font.bitmapHeight, null, 0, font.bitmapGlaze);
 			ImageSVGExporter.exportToFile(image, "png", "image/png", tx, -ty, w, font.glyphHeight, svgFile);
 		}
 	}

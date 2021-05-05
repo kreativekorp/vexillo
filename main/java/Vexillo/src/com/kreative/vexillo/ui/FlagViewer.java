@@ -86,7 +86,7 @@ public class FlagViewer extends JComponent {
 			int w = getWidth() - i.left - i.right;
 			int h = getHeight() - i.top - i.bottom;
 			int gl = glaze ? glazeAmount : 0;
-			BufferedImage img = renderer.renderToImage(w, h, 0, gl);
+			BufferedImage img = renderer.renderToImage(w, h, null, 0, gl);
 			g.drawImage(img, i.left, i.top, null);
 		}
 	}

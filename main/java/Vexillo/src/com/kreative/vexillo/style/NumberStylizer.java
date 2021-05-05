@@ -9,9 +9,10 @@ import java.awt.image.BufferedImage;
 import javax.media.jai.BorderExtender;
 import javax.media.jai.RenderedOp;
 import com.kreative.vexillo.core.FlagRenderer;
-import com.kreative.vexillo.core.ImageUtils;
+import com.kreative.vexillo.core.ImageScaler;
 
 public class NumberStylizer implements Stylizer {
+	private static final ImageScaler scaler = ImageScaler.ITERATIVE_BICUBIC;
 	private static final int[] dims = { 252, 172, 2, 8 };
 	private static final int[] border = { 10, 10, 26, 30 };
 	private static final float[] xCoeffs = { 0, 1, 0, 0, 0, 0, 0, 0, 0, 0 };
@@ -19,8 +20,8 @@ public class NumberStylizer implements Stylizer {
 	private static final float[] scale = { 0.5f, 0.5f, 0, 0 };
 	
 	@Override
-	public BufferedImage stylize(FlagRenderer r, int w, int h, int unused3, int unused4) {
-		BufferedImage i = r.renderToImage(dims[0], dims[1], dims[2], 0);
+	public BufferedImage stylize(FlagRenderer r, int w, int h, ImageScaler unused2, int unused3, int unused4) {
+		BufferedImage i = r.renderToImage(dims[0], dims[1], scaler, dims[2], 0);
 		RenderedOp bi = JAIUtils.border(i, border[0], border[1], border[2], border[3], BorderExtender.BORDER_COPY);
 		RenderedOp wi = JAIUtils.warp(bi, xCoeffs, yCoeffs);
 		RenderedOp si = JAIUtils.scale(wi, scale[0], scale[1], scale[2], scale[3]);
@@ -29,8 +30,7 @@ public class NumberStylizer implements Stylizer {
 		RenderedOp wt = JAIUtils.warp(bt, xCoeffs, yCoeffs);
 		RenderedOp st = JAIUtils.scale(wt, scale[0], scale[1], scale[2], scale[3]);
 		i = JAIUtils.multiply(st.getAsBufferedImage(), si.getAsBufferedImage());
-		if (w != 136 || h != 128) i = ImageUtils.scale(i, w, h);
-		return i;
+		return ImageScaler.ITERATIVE_BICUBIC.scale(i, w, h);
 	}
 	
 	private static BufferedImage createTemplate(FlagRenderer r) {

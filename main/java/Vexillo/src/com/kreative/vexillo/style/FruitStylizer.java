@@ -13,9 +13,10 @@ import javax.imageio.ImageIO;
 import javax.media.jai.BorderExtender;
 import javax.media.jai.RenderedOp;
 import com.kreative.vexillo.core.FlagRenderer;
-import com.kreative.vexillo.core.ImageUtils;
+import com.kreative.vexillo.core.ImageScaler;
 
 public class FruitStylizer implements Stylizer {
+	private static final ImageScaler scaler = ImageScaler.ITERATIVE_BICUBIC;
 	private static final int[] dims = { 280, 180, 2, 12 };
 	private static final int[] border = { 20, 20, 66, 60 };
 	private static final float[] xCoeffs = { 0, 1, 0, 0, 0, 0, 0, 0, 0, 0 };
@@ -32,8 +33,8 @@ public class FruitStylizer implements Stylizer {
 	}
 	
 	@Override
-	public BufferedImage stylize(FlagRenderer r, int w, int h, int unused3, int unused4) {
-		BufferedImage i = r.renderToImage(dims[0], dims[1], dims[2], 0);
+	public BufferedImage stylize(FlagRenderer r, int w, int h, ImageScaler unused2, int unused3, int unused4) {
+		BufferedImage i = r.renderToImage(dims[0], dims[1], scaler, dims[2], 0);
 		RenderedOp bi = JAIUtils.border(i, border[0], border[1], border[2], border[3], BorderExtender.BORDER_COPY);
 		RenderedOp wi = JAIUtils.warp(bi, xCoeffs, yCoeffs);
 		RenderedOp si = JAIUtils.scale(wi, scale[0], scale[1], scale[2], scale[3]);
@@ -46,8 +47,7 @@ public class FruitStylizer implements Stylizer {
 			template = st.getAsBufferedImage();
 		}
 		i = JAIUtils.multiply(template, si.getAsBufferedImage());
-		if (w != 160 || h != 160) i = ImageUtils.scale(i, w, h);
-		return i;
+		return ImageScaler.ITERATIVE_BICUBIC.scale(i, w, h);
 	}
 	
 	private static BufferedImage createTemplate(FlagRenderer r) {

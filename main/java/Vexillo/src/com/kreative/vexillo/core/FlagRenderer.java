@@ -41,19 +41,27 @@ public class FlagRenderer {
 		this.imageCache = new HashMap<String, BufferedImage>();
 	}
 	
-	public void renderToFile(File out, String format, int w, int h, int supersample, int glaze) throws IOException {
-		BufferedImage img = renderToImage(w, h, supersample, glaze);
+	public File getFile() {
+		return parent;
+	}
+	
+	public Flag getFlag() {
+		return flag;
+	}
+	
+	public void renderToFile(File out, String format, int w, int h, ImageScaler supersampler, int supersample, int glaze) throws IOException {
+		BufferedImage img = renderToImage(w, h, supersampler, supersample, glaze);
 		ImageIO.write(img, format, out);
 	}
 	
-	public BufferedImage renderToImage(int w, int h, int supersample, int glaze) {
+	public BufferedImage renderToImage(int w, int h, ImageScaler supersampler, int supersample, int glaze) {
 		BufferedImage img;
-		if (supersample > 1) {
+		if (supersampler != null && supersample > 1) {
 			img = new BufferedImage(w * supersample, h * supersample, BufferedImage.TYPE_INT_ARGB);
 			Graphics2D g = img.createGraphics();
 			render(g, 0, 0, w * supersample, h * supersample);
 			g.dispose();
-			img = ImageUtils.scale(img, w, h);
+			img = supersampler.scale(img, w, h);
 		} else {
 			img = new BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
 			Graphics2D g = img.createGraphics();
@@ -319,7 +327,7 @@ public class FlagRenderer {
 					b = (int)Math.round(y2);
 				}
 				if ((r - l) > 0 && (b - t) > 0) {
-					image = ImageUtils.scale(image, r - l, b - t);
+					image = ImageScaler.ITERATIVE_BICUBIC.scale(image, r - l, b - t);
 					g.drawImage(image, null, l, t);
 				}
 			}

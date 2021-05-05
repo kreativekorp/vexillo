@@ -7,24 +7,24 @@ import java.awt.Shape;
 import java.awt.geom.Area;
 import java.awt.image.BufferedImage;
 import com.kreative.vexillo.core.FlagRenderer;
-import com.kreative.vexillo.core.ImageUtils;
+import com.kreative.vexillo.core.ImageScaler;
 
 public class BirdStylizer implements Stylizer {
+	private static final ImageScaler scaler = ImageScaler.ITERATIVE_BICUBIC;
 	private static final int width = 160;
 	private static final int height = 116;
 	private static final int supersample = 2;
 	private static final int corner = 17;
 	
 	@Override
-	public BufferedImage stylize(FlagRenderer r, int w, int h, int unused3, int unused4) {
-		BufferedImage im1 = r.renderToImage(width, height, supersample, 0);
+	public BufferedImage stylize(FlagRenderer r, int w, int h, ImageScaler unused2, int unused3, int unused4) {
+		BufferedImage im1 = r.renderToImage(width, height, scaler, supersample, 0);
 		BufferedImage im2 = new BufferedImage(width, width, BufferedImage.TYPE_INT_ARGB);
 		int[] rgb = new int[width * height];
 		im1.getRGB(0, 0, width, height, rgb, 0, width);
 		im2.setRGB(0, (width - height) / 2, width, height, rgb, 0, width);
 		im1 = JAIUtils.multiply(createTemplate(r), im2);
-		if (w != 160 || h != 160) im1 = ImageUtils.scale(im1, w, h);
-		return im1;
+		return ImageScaler.ITERATIVE_BICUBIC.scale(im1, w, h);
 	}
 	
 	private static BufferedImage createTemplate(FlagRenderer r) {

@@ -29,6 +29,7 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import com.kreative.vexillo.core.Flag;
 import com.kreative.vexillo.core.FlagRenderer;
+import com.kreative.vexillo.core.ImageScaler;
 import com.kreative.vexillo.core.SVGExporter;
 
 public class ExportDialog extends JDialog {
@@ -50,6 +51,7 @@ public class ExportDialog extends JDialog {
 	private JSpinner widthSpinner;
 	private JSpinner heightSpinner;
 	private JCheckBox constrainCheckBox;
+	private JComboBox supersamplerSelector;
 	private SpinnerNumberModel supersampleSpinnerModel;
 	private JSpinner supersampleSpinner;
 	private SpinnerNumberModel glazeSpinnerModel;
@@ -86,6 +88,10 @@ public class ExportDialog extends JDialog {
 		widthSpinner = new JSpinner(widthSpinnerModel);
 		heightSpinner = new JSpinner(heightSpinnerModel);
 		constrainCheckBox = new JCheckBox("Constrain Proportions");
+		supersamplerSelector = new JComboBox(ImageScaler.values());
+		supersamplerSelector.setEditable(false);
+		supersamplerSelector.setMaximumRowCount(ImageScaler.values().length);
+		supersamplerSelector.setSelectedItem(ImageScaler.ITERATIVE_BICUBIC);
 		supersampleSpinnerModel = new SpinnerNumberModel(1, 1, 255, 1);
 		supersampleSpinner = new JSpinner(supersampleSpinnerModel);
 		glazeSpinnerModel = new SpinnerNumberModel(g, 0, 255, 1);
@@ -96,7 +102,7 @@ public class ExportDialog extends JDialog {
 		JPanel p1 = makeRow(formatSelector);
 		JPanel p2 = makeRow(widthSpinner, "px  by  ", heightSpinner, "px");
 		JPanel p3 = makeRow(constrainCheckBox);
-		JPanel p4 = makeRow(supersampleSpinner, "x");
+		JPanel p4 = makeRow(supersampleSpinner, "x  ", supersamplerSelector);
 		JPanel p5 = makeRow(glazeSpinner, "px");
 		JPanel bottom = new JPanel(new FlowLayout());
 		bottom.add(cancelButton);
@@ -183,6 +189,7 @@ public class ExportDialog extends JDialog {
 					String format = formatSelector.getSelectedItem().toString().toLowerCase();
 					int width = widthSpinnerModel.getNumber().intValue();
 					int height = heightSpinnerModel.getNumber().intValue();
+					ImageScaler s = (ImageScaler)supersamplerSelector.getSelectedItem();
 					int ss = supersampleSpinnerModel.getNumber().intValue();
 					int glaze = glazeSpinnerModel.getNumber().intValue();
 					if (format.equals("svg")) {
@@ -190,7 +197,7 @@ public class ExportDialog extends JDialog {
 						e.export(outputFile, width, height, glaze);
 					} else {
 						FlagRenderer r = new FlagRenderer(parentFile, flag);
-						r.renderToFile(outputFile, format, width, height, ss, glaze);
+						r.renderToFile(outputFile, format, width, height, s, ss, glaze);
 					}
 				} catch (Exception e) {
 					JOptionPane.showMessageDialog(null, "Error: " + e.getMessage(), "Export", JOptionPane.ERROR_MESSAGE);
