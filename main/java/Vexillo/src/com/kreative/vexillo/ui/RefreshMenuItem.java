@@ -24,12 +24,14 @@ public class RefreshMenuItem extends JMenuItem {
 				public void actionPerformed(ActionEvent event) {
 					try {
 						File flagFile = frame.getFlagFile();
+						File parentFile = frame.getParentFile();
 						FileInputStream in = new FileInputStream(flagFile);
 						Flag flag = FlagParser.parse(flagFile.getName(), in);
 						in.close();
 						String title = flagFile.getName();
 						if (flag.getName() != null) title += ": " + flag.getName();
-						frame.setFlag(title, flagFile, flag);
+						frame.setTitle(title);
+						frame.setFlag(flagFile, parentFile, flag);
 					} catch (Exception e) {}
 				}
 			});

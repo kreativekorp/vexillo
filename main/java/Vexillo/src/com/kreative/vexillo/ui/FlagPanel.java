@@ -10,36 +10,22 @@ public class FlagPanel extends JPanel {
 	
 	private final FlagInfoPanel infoPanel;
 	private final FlagViewer viewer;
-	private File parent;
-	private Flag flag;
 	
-	public FlagPanel() {
-		this(null, null);
-	}
-	
-	public FlagPanel(File parent, Flag flag) {
+	public FlagPanel(File flagFile, File parent, Flag flag) {
 		this.infoPanel = new FlagInfoPanel(flag);
-		this.viewer = new FlagViewer(parent, flag);
-		this.parent = parent;
-		this.flag = flag;
+		this.viewer = new FlagViewer(flagFile, parent, flag);
 		setLayout(new BorderLayout());
 		add(infoPanel, BorderLayout.PAGE_START);
 		add(viewer, BorderLayout.CENTER);
 	}
 	
-	public File getParentFile() {
-		return parent;
-	}
+	public File getFlagFile() { return viewer.getFlagFile(); }
+	public File getParentFile() { return viewer.getParentFile(); }
+	public Flag getFlag() { return viewer.getFlag(); }
 	
-	public Flag getFlag() {
-		return flag;
-	}
-	
-	public void setFlag(File parent, Flag flag) {
+	public void setFlag(File flagFile, File parent, Flag flag) {
 		this.infoPanel.setFlag(flag);
-		this.viewer.setFlag(parent, flag);
-		this.parent = parent;
-		this.flag = flag;
+		this.viewer.setFlag(flagFile, parent, flag);
 	}
 	
 	public int getViewerWidth() { return viewer.getWidth(); }

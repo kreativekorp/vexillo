@@ -32,7 +32,7 @@ public class OpenMenuItem extends JMenuItem {
 					in.close();
 					String title = file.getName();
 					if (flag.getName() != null) title += ": " + flag.getName();
-					FlagFrame frame = new FlagFrame(title, file, flag);
+					FlagFrame frame = new FlagFrame(title, file, file.getParentFile(), flag);
 					frame.setVisible(true);
 				} catch (Exception e) {
 					JOptionPane.showMessageDialog(null, "Error: " + e.getMessage(), "Open", JOptionPane.ERROR_MESSAGE);

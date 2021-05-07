@@ -15,6 +15,7 @@ public class FlagFontFamily {
 	private final Encoding encoding;
 	private final SortedSet<EncodingNode> nodes;
 	private final SortedMap<EncodingNode, Flag> flags;
+	private final SortedMap<EncodingNode, File> parents;
 	private final SortedMap<EncodingNode, File> flagFiles;
 	
 	/* Font properties */
@@ -46,16 +47,18 @@ public class FlagFontFamily {
 		this.encoding = encoding;
 		this.nodes = new TreeSet<EncodingNode>();
 		this.flags = new TreeMap<EncodingNode, Flag>();
+		this.parents = new TreeMap<EncodingNode, File>();
 		this.flagFiles = new TreeMap<EncodingNode, File>();
 	}
 	
-	public boolean addFlag(String id, Flag flag, File flagFile) {
+	public boolean addFlag(String id, File flagFile, File parent, Flag flag) {
 		String nid = id.toLowerCase().replaceAll("[^a-z0-9]+", "");
 		if (nid.length() == 0) return false;
 		EncodingNode node = encoding.getNormalizedIdMap().get(nid);
 		if (node == null) return false;
 		nodes.add(node);
 		flags.put(node, flag);
+		parents.put(node, parent);
 		flagFiles.put(node, flagFile);
 		return true;
 	}
@@ -70,6 +73,14 @@ public class FlagFontFamily {
 	
 	public SortedMap<EncodingNode, Flag> getFlagMap() {
 		return Collections.unmodifiableSortedMap(flags);
+	}
+	
+	public File getParentFile(EncodingNode node) {
+		return parents.get(node);
+	}
+	
+	public SortedMap<EncodingNode, File> getParentFileMap() {
+		return Collections.unmodifiableSortedMap(parents);
 	}
 	
 	public File getFlagFile(EncodingNode node) {

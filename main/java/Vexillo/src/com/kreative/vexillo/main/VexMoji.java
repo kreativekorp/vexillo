@@ -208,7 +208,7 @@ public class VexMoji {
 				int i = id.lastIndexOf('.');
 				if (i > 0) id = id.substring(0, i);
 			}
-			boolean added = font.addFlag(id, flag, flagFile);
+			boolean added = font.addFlag(id, flagFile, flagFile.getParentFile(), flag);
 			if (!added) System.err.println("Warning: No encoding for " + flagFile.getName());
 		}
 		System.out.print(" ...");

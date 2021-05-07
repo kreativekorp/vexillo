@@ -27,7 +27,11 @@ public class CopyImageMenuItem extends JMenuItem {
 		} else {
 			addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-					FlagRenderer r = new FlagRenderer(frame.getFlagFile(), frame.getFlag());
+					FlagRenderer r = new FlagRenderer(
+						frame.getFlagFile(),
+						frame.getParentFile(),
+						frame.getFlag()
+					);
 					BufferedImage img = r.renderToImage(
 						frame.getViewerWidth(),
 						frame.getViewerHeight(),

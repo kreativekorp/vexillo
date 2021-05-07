@@ -8,36 +8,21 @@ public class FlagFrame extends JFrame {
 	private static final long serialVersionUID = 1L;
 	
 	private final FlagPanel panel;
-	private File flagFile;
-	private Flag flag;
 	
-	public FlagFrame(String title, File flagFile, Flag flag) {
+	public FlagFrame(String title, File flagFile, File parent, Flag flag) {
 		super(title);
 		setJMenuBar(new FlagMenuBar(this));
-		this.panel = new FlagPanel(flagFile.getParentFile(), flag);
-		this.flagFile = flagFile;
-		this.flag = flag;
+		this.panel = new FlagPanel(flagFile, parent, flag);
 		setContentPane(panel);
 		pack();
 	}
 	
-	public File getParentFile() {
-		return flagFile.getParentFile();
-	}
+	public File getFlagFile() { return panel.getFlagFile(); }
+	public File getParentFile() { return panel.getParentFile(); }
+	public Flag getFlag() { return panel.getFlag(); }
 	
-	public File getFlagFile() {
-		return flagFile;
-	}
-	
-	public Flag getFlag() {
-		return flag;
-	}
-	
-	public void setFlag(String title, File flagFile, Flag flag) {
-		setTitle(title);
-		this.panel.setFlag(flagFile.getParentFile(), flag);
-		this.flagFile = flagFile;
-		this.flag = flag;
+	public void setFlag(File flagFile, File parent, Flag flag) {
+		this.panel.setFlag(flagFile, parent, flag);
 	}
 	
 	public int getViewerWidth() {
@@ -49,6 +34,7 @@ public class FlagFrame extends JFrame {
 	}
 	
 	public void setHoist(int h) {
+		Flag flag = panel.getFlag();
 		int w = (
 			(flag == null || flag.getFly() == null) ?
 			(h * 3 / 2) : flag.getWidthFromHeight(h)

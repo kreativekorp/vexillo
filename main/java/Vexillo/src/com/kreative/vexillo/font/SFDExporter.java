@@ -83,18 +83,19 @@ public class SFDExporter {
 			CodeSequence ccs = node.getCanonicalCodeSequence();
 			int cp = (ccs.length() == 1) ? ccs.codePointAt(0) : (nextPrivateUseCharacter++);
 			Flag flag = font.getFlag(node);
+			File parent = font.getParentFile(node);
 			File flagFile = font.getFlagFile(node);
 			chars.add(new SFDEmojiCharacter(cp, chars.size(), font, flag, node));
-			if (cbdtDir != null) writeImage(cbdtDir, cp, font, flag, flagFile);
-			if (sbixDir != null) writeImage(sbixDir, cp, font, flag, flagFile);
-			if (svgDir != null) writeSVG(svgDir, cp, font, flag, flagFile);
+			if (cbdtDir != null) writeImage(cbdtDir, cp, font, flagFile, parent, flag);
+			if (sbixDir != null) writeImage(sbixDir, cp, font, flagFile, parent, flag);
+			if (svgDir != null) writeSVG(svgDir, cp, font, flagFile, parent, flag);
 			for (int i = 0; i < node.countCodeSequences(); i++) {
 				CodeSequence cs = node.getCodeSequence(i);
 				if (cs.length() == 1 && cs.codePointAt(0) != cp) {
 					chars.add(new SFDEmojiCharacter(cs.codePointAt(0), chars.size(), font, flag, null));
-					if (cbdtDir != null) writeImage(cbdtDir, cs.codePointAt(0), font, flag, flagFile);
-					if (sbixDir != null) writeImage(sbixDir, cs.codePointAt(0), font, flag, flagFile);
-					if (svgDir != null) writeSVG(svgDir, cs.codePointAt(0), font, flag, flagFile);
+					if (cbdtDir != null) writeImage(cbdtDir, cs.codePointAt(0), font, flagFile, parent, flag);
+					if (sbixDir != null) writeImage(sbixDir, cs.codePointAt(0), font, flagFile, parent, flag);
+					if (svgDir != null) writeSVG(svgDir, cs.codePointAt(0), font, flagFile, parent, flag);
 				}
 			}
 		}
@@ -225,25 +226,25 @@ public class SFDExporter {
 		return valid;
 	}
 	
-	private static void writeImage(File sbixDir, int cp, FlagFontFamily font, Flag flag, File flagFile) throws IOException {
-		FlagRenderer renderer = new FlagRenderer(flagFile.getParentFile(), flag);
+	private static void writeImage(File sbixDir, int cp, FlagFontFamily font, File flagFile, File parent, Flag flag) throws IOException {
+		FlagRenderer renderer = new FlagRenderer(flagFile, parent, flag);
 		File pngFile = new File(sbixDir, "char_" + Integer.toHexString(cp).toUpperCase() + ".png");
 		int w = (font.bitmapWidth > 0) ? font.bitmapWidth : flag.getWidthFromHeight(font.bitmapHeight);
 		if (font.bitmapStyle == null) renderer.renderToFile(pngFile, "png", w, font.bitmapHeight, null, 0, font.bitmapGlaze);
 		else ImageIO.write(font.bitmapStyle.stylize(renderer, w, font.bitmapHeight, null, 0, font.bitmapGlaze), "png", pngFile);
 	}
 	
-	private static void writeSVG(File svgDir, int cp, FlagFontFamily font, Flag flag, File flagFile) throws IOException {
+	private static void writeSVG(File svgDir, int cp, FlagFontFamily font, File flagFile, File parent, Flag flag) throws IOException {
 		int tx = font.leftBearing;
 		int ty = font.glyphBottom + font.glyphHeight;
 		File svgFile = new File(svgDir, "char_" + Integer.toHexString(cp).toUpperCase() + ".svg");
 		int w = (font.glyphWidth > 0) ? font.glyphWidth : flag.getWidthFromHeight(font.glyphHeight);
 		if (font.bitmapStyle == null) {
-			SVGExporter exporter = new SVGExporter(flagFile.getParentFile(), flag, true, tx, -ty);
+			SVGExporter exporter = new SVGExporter(flagFile, parent, flag, true, tx, -ty);
 			int g = font.glyphHeight * font.bitmapGlaze / font.bitmapHeight;
 			exporter.export(svgFile, w, font.glyphHeight, g);
 		} else {
-			FlagRenderer renderer = new FlagRenderer(flagFile.getParentFile(), flag);
+			FlagRenderer renderer = new FlagRenderer(flagFile, parent, flag);
 			int iw = (font.bitmapWidth > 0) ? font.bitmapWidth : flag.getWidthFromHeight(font.bitmapHeight);
 			BufferedImage image = font.bitmapStyle.stylize(renderer, iw, font.bitmapHeight, null, 0, font.bitmapGlaze);
 			ImageSVGExporter.exportToFile(image, "png", "image/png", tx, -ty, w, font.glyphHeight, svgFile);

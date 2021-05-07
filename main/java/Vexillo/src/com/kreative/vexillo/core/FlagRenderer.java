@@ -29,25 +29,23 @@ public class FlagRenderer {
 	private static final java.awt.Color innerGlaze = new java.awt.Color(255, 255, 255, 102);
 	private static final java.awt.Color outerGlaze = new java.awt.Color(0, 0, 0, 102);
 	
+	private final File flagFile;
 	private final File parent;
 	private final Flag flag;
 	private final Map<String, Shape> shapeCache;
 	private final Map<String, BufferedImage> imageCache;
 	
-	public FlagRenderer(File parent, Flag flag) {
+	public FlagRenderer(File flagFile, File parent, Flag flag) {
+		this.flagFile = flagFile;
 		this.parent = parent;
 		this.flag = flag;
 		this.shapeCache = new HashMap<String, Shape>();
 		this.imageCache = new HashMap<String, BufferedImage>();
 	}
 	
-	public File getFile() {
-		return parent;
-	}
-	
-	public Flag getFlag() {
-		return flag;
-	}
+	public File getFlagFile() { return flagFile; }
+	public File getParentFile() { return parent; }
+	public Flag getFlag() { return flag; }
 	
 	public void renderToFile(File out, String format, int w, int h, ImageScaler supersampler, int supersample, int glaze) throws IOException {
 		BufferedImage img = renderToImage(w, h, supersampler, supersample, glaze);

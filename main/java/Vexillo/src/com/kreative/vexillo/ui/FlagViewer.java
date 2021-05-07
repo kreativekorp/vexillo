@@ -17,6 +17,7 @@ public class FlagViewer extends JComponent {
 	private static final int DEFAULT_WIDTH = 300;
 	private static final int DEFAULT_HEIGHT = 200;
 	
+	private File flagFile;
 	private File parent;
 	private Flag flag;
 	private FlagRenderer renderer;
@@ -25,28 +26,26 @@ public class FlagViewer extends JComponent {
 	private Dimension minSize;
 	private Dimension prefSize;
 	
-	public FlagViewer(File parent, Flag flag) {
+	public FlagViewer(File flagFile, File parent, Flag flag) {
+		this.flagFile = flagFile;
 		this.parent = parent;
 		this.flag = flag;
-		this.renderer = new FlagRenderer(parent, flag);
+		this.renderer = new FlagRenderer(flagFile, parent, flag);
 		this.glaze = false;
 		this.glazeAmount = 8;
 		this.minSize = null;
 		this.prefSize = null;
 	}
 	
-	public File getParentFile() {
-		return parent;
-	}
+	public File getFlagFile() { return flagFile; }
+	public File getParentFile() { return parent; }
+	public Flag getFlag() { return flag; }
 	
-	public Flag getFlag() {
-		return flag;
-	}
-	
-	public void setFlag(File parent, Flag flag) {
+	public void setFlag(File flagFile, File parent, Flag flag) {
+		this.flagFile = flagFile;
 		this.parent = parent;
 		this.flag = flag;
-		this.renderer = new FlagRenderer(parent, flag);
+		this.renderer = new FlagRenderer(flagFile, parent, flag);
 		this.repaint();
 	}
 	

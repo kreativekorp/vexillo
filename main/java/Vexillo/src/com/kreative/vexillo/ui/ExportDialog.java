@@ -41,6 +41,7 @@ public class ExportDialog extends JDialog {
 	private static final int HBORDER = 20;
 	private static final int VBORDER = 12;
 	
+	private final File flagFile;
 	private final File parentFile;
 	private final Flag flag;
 	private final File outputFile;
@@ -60,8 +61,9 @@ public class ExportDialog extends JDialog {
 	private JButton saveButton;
 	private boolean locked = false;
 	
-	public ExportDialog(Frame p, File pf, Flag flag, File out, int w, int h, int g) {
+	public ExportDialog(Frame p, File ff, File pf, Flag flag, File out, int w, int h, int g) {
 		super(p, "Export", true);
+		this.flagFile = ff;
 		this.parentFile = pf;
 		this.flag = flag;
 		this.outputFile = out;
@@ -193,10 +195,10 @@ public class ExportDialog extends JDialog {
 					int ss = supersampleSpinnerModel.getNumber().intValue();
 					int glaze = glazeSpinnerModel.getNumber().intValue();
 					if (format.equals("svg")) {
-						SVGExporter e = new SVGExporter(parentFile, flag);
+						SVGExporter e = new SVGExporter(flagFile, parentFile, flag);
 						e.export(outputFile, width, height, glaze);
 					} else {
-						FlagRenderer r = new FlagRenderer(parentFile, flag);
+						FlagRenderer r = new FlagRenderer(flagFile, parentFile, flag);
 						r.renderToFile(outputFile, format, width, height, s, ss, glaze);
 					}
 				} catch (Exception e) {

@@ -25,8 +25,8 @@ public class ExportMenuItem extends JMenuItem {
 					if (fd.getDirectory() == null || fd.getFile() == null) return;
 					File file = new File(fd.getDirectory(), fd.getFile());
 					new ExportDialog(
-						frame, frame.getParentFile(), frame.getFlag(), file,
-						frame.getViewerWidth(), frame.getViewerHeight(), frame.getGlaze()
+						frame, frame.getFlagFile(), frame.getParentFile(), frame.getFlag(),
+						file, frame.getViewerWidth(), frame.getViewerHeight(), frame.getGlaze()
 					).setVisible(true);
 				}
 			});

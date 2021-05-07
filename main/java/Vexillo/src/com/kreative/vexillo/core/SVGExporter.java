@@ -27,17 +27,19 @@ public class SVGExporter {
 	private static final int GRAD_ID = 1;
 	private static final int NEXT_ID = 2;
 	
+	private final File flagFile;
 	private final File parent;
 	private final Flag flag;
 	private final boolean embeddedMode;
 	private final int tx, ty;
 	private final Map<String, String> imageCache;
 	
-	public SVGExporter(File parent, Flag flag) {
-		this(parent, flag, false, 0, 0);
+	public SVGExporter(File flagFile, File parent, Flag flag) {
+		this(flagFile, parent, flag, false, 0, 0);
 	}
 	
-	public SVGExporter(File parent, Flag flag, boolean embeddedMode, int tx, int ty) {
+	public SVGExporter(File flagFile, File parent, Flag flag, boolean embeddedMode, int tx, int ty) {
+		this.flagFile = flagFile;
 		this.parent = parent;
 		this.flag = flag;
 		this.embeddedMode = embeddedMode;
@@ -45,6 +47,10 @@ public class SVGExporter {
 		this.ty = ty;
 		this.imageCache = new HashMap<String, String>();
 	}
+	
+	public File getFlagFile() { return flagFile; }
+	public File getParentFile() { return parent; }
+	public Flag getFlag() { return flag; }
 	
 	public String exportToString(int w, int h, int glaze) {
 		StringWriter sw = new StringWriter();

@@ -171,14 +171,14 @@ public class VexPort {
 				height = flag.getHeightFromWidth(width);
 			}
 			if (o.style != null) {
-				FlagRenderer r = new FlagRenderer(file.getParentFile(), flag);
+				FlagRenderer r = new FlagRenderer(file, file.getParentFile(), flag);
 				BufferedImage image = o.style.stylize(r, width, height, o.supersampler, o.supersample, o.glaze);
 				ImageIO.write(image, o.format, out);
 			} else if (o.format.equalsIgnoreCase("svg")) {
-				SVGExporter e = new SVGExporter(file.getParentFile(), flag);
+				SVGExporter e = new SVGExporter(file, file.getParentFile(), flag);
 				e.export(out, width, height, o.glaze);
 			} else {
-				FlagRenderer r = new FlagRenderer(file.getParentFile(), flag);
+				FlagRenderer r = new FlagRenderer(file, file.getParentFile(), flag);
 				r.renderToFile(out, o.format, width, height, o.supersampler, o.supersample, o.glaze);
 			}
 		} catch (RuntimeException e) {

@@ -22,7 +22,7 @@ public class CopySVGMenuItem extends JMenuItem {
 		} else {
 			addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-					SVGExporter s = new SVGExporter(frame.getFlagFile(), frame.getFlag());
+					SVGExporter s = new SVGExporter(frame.getFlagFile(), frame.getParentFile(), frame.getFlag());
 					String svg = s.exportToString(frame.getViewerWidth(), frame.getViewerHeight(), frame.getGlaze());
 					StringSelection ss = new StringSelection(svg);
 					Clipboard cb = Toolkit.getDefaultToolkit().getSystemClipboard();
