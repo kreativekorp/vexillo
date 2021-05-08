@@ -8,7 +8,12 @@ import com.kreative.vexillo.style.Stylizer;
 public class ACNLStylizer implements Stylizer {
 	@Override
 	public BufferedImage stylize(FlagRenderer r, int w, int h, ImageScaler s, int ss, int g) {
-		BufferedImage image = createCard(r, s, ss, g).getCardImage();
+		BufferedImage image;
+		if (ss == 42) {
+			image = Candidate.createCandidates(r, g).get(0).getQRCard().getCardImage();
+		} else {
+			image = createCard(r, s, ss, g).getCardImage();
+		}
 		return ImageScaler.ITERATIVE_BICUBIC.scale(image, w, h);
 	}
 	
