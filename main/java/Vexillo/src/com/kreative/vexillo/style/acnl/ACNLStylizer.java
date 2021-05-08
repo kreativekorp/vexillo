@@ -22,9 +22,9 @@ public class ACNLStylizer implements Stylizer {
 		int[] palette = makePalette(image);
 		ACNLFile acnl = new ACNLFile();
 		acnl.setTitle(getTitle(r));
-		acnl.setCreatorID(22136);
+		acnl.setCreatorID(0xF1A6);
 		acnl.setCreatorName("Vexillo");
-		acnl.setTownID(19307);
+		acnl.setTownID(0xBECA);
 		acnl.setTownName("Kreative");
 		acnl.setPaletteRGB(palette);
 		acnl.setImage(image);

@@ -69,16 +69,16 @@ public class Candidate implements Comparable<Candidate> {
 		image.getRGB(0, 0, 32, 32, imgRGB, 0, 32);
 		for (int i = 0, y = 0; y < 32; y++) {
 			for (int x = 0; x < 32; x++, i++) {
-				int ir = (imgRGB[i] >> 16) & 0xFF;
-				int ig = (imgRGB[i] >>  8) & 0xFF;
-				int ib = (imgRGB[i] >>  0) & 0xFF;
+				int ir = (imgRGB[i] < 0) ? ((imgRGB[i] >> 16) & 0xFF) : 0xFF;
+				int ig = (imgRGB[i] < 0) ? ((imgRGB[i] >>  8) & 0xFF) : 0xFF;
+				int ib = (imgRGB[i] < 0) ? ((imgRGB[i] >>  0) & 0xFF) : 0xFF;
 				int minDiff = Integer.MAX_VALUE;
 				for (int q = 0; q < 9; q++) {
 					for (int p = 0; p < 9; p++) {
 						int j = (y * 9 + q) * 288 + (x * 9 + p);
-						int sr = (srcRGB[j] >> 16) & 0xFF;
-						int sg = (srcRGB[j] >>  8) & 0xFF;
-						int sb = (srcRGB[j] >>  0) & 0xFF;
+						int sr = (srcRGB[j] < 0) ? ((srcRGB[j] >> 16) & 0xFF) : 0xFF;
+						int sg = (srcRGB[j] < 0) ? ((srcRGB[j] >>  8) & 0xFF) : 0xFF;
+						int sb = (srcRGB[j] < 0) ? ((srcRGB[j] >>  0) & 0xFF) : 0xFF;
 						int diff = colorDiff(sr, ir, sg, ig, sb, ib);
 						if (diff < minDiff) minDiff = diff;
 					}
@@ -96,18 +96,18 @@ public class Candidate implements Comparable<Candidate> {
 		for (int i = 0, y = 0; y < 32; y++) {
 			for (int x = 0; x < 32; x++, i++) {
 				if (y > 0 && x > 0) {
-					int r0 = (rgb[i - 33] >> 16) & 0xFF;
-					int g0 = (rgb[i - 33] >>  8) & 0xFF;
-					int b0 = (rgb[i - 33] >>  0) & 0xFF;
-					int r1 = (rgb[i - 32] >> 16) & 0xFF;
-					int g1 = (rgb[i - 32] >>  8) & 0xFF;
-					int b1 = (rgb[i - 32] >>  0) & 0xFF;
-					int r2 = (rgb[i -  1] >> 16) & 0xFF;
-					int g2 = (rgb[i -  1] >>  8) & 0xFF;
-					int b2 = (rgb[i -  1] >>  0) & 0xFF;
-					int r3 = (rgb[i -  0] >> 16) & 0xFF;
-					int g3 = (rgb[i -  0] >>  8) & 0xFF;
-					int b3 = (rgb[i -  0] >>  0) & 0xFF;
+					int r0 = (rgb[i - 33] < 0) ? ((rgb[i - 33] >> 16) & 0xFF) : 0xFF;
+					int g0 = (rgb[i - 33] < 0) ? ((rgb[i - 33] >>  8) & 0xFF) : 0xFF;
+					int b0 = (rgb[i - 33] < 0) ? ((rgb[i - 33] >>  0) & 0xFF) : 0xFF;
+					int r1 = (rgb[i - 32] < 0) ? ((rgb[i - 32] >> 16) & 0xFF) : 0xFF;
+					int g1 = (rgb[i - 32] < 0) ? ((rgb[i - 32] >>  8) & 0xFF) : 0xFF;
+					int b1 = (rgb[i - 32] < 0) ? ((rgb[i - 32] >>  0) & 0xFF) : 0xFF;
+					int r2 = (rgb[i -  1] < 0) ? ((rgb[i -  1] >> 16) & 0xFF) : 0xFF;
+					int g2 = (rgb[i -  1] < 0) ? ((rgb[i -  1] >>  8) & 0xFF) : 0xFF;
+					int b2 = (rgb[i -  1] < 0) ? ((rgb[i -  1] >>  0) & 0xFF) : 0xFF;
+					int r3 = (rgb[i -  0] < 0) ? ((rgb[i -  0] >> 16) & 0xFF) : 0xFF;
+					int g3 = (rgb[i -  0] < 0) ? ((rgb[i -  0] >>  8) & 0xFF) : 0xFF;
+					int b3 = (rgb[i -  0] < 0) ? ((rgb[i -  0] >>  0) & 0xFF) : 0xFF;
 					int d1 = colorDiff(r1, r0, g1, g0, b1, b0);
 					int d2 = colorDiff(r2, r0, g2, g0, b2, b0);
 					int d3 = colorDiff(r3, r0, g3, g0, b3, b0);
