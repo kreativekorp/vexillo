@@ -521,6 +521,10 @@ th, td {
 	height: 20px;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 }
+.acqr {
+	padding: 12px;
+	text-align: center;
+}
 .clickcopy {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;

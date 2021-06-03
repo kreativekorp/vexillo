@@ -624,6 +624,9 @@ $(document).ready(function() {
 			}
 			colors.append(ce);
 		}
+		/* ACQR */
+		var acqrURL = artworkURL + '/pvx240/' + flag.id + '.png';
+		$('.acqr img').attr('src', acqrURL);
 		$('.dialog').removeClass('hidden');
 	};
 	var closeDialog = function() {
@@ -853,6 +856,7 @@ $(document).ready(function() {
 					case 68: setCurrentTab('downloads'); break;
 					case 69: setCurrentTab('encoding'); break;
 					case 67: setCurrentTab('colors'); break;
+					case 65: setCurrentTab('acqr'); break;
 					default: return;
 				}
 				e.preventDefault();
