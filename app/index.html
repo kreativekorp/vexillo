@@ -13,16 +13,16 @@
 	<button class="menu-icon"><img src="menui.png" width="32" height="32" alt="Option Menu" title="Option Menu"></button>
 	<div class="menu hidden">
 		<div class="menu-label arrange-label">Arrange:</div>
-		<a href="#" class="menu-item arrange-selector" data-arrange="id">by Identifier</a>
-		<a href="#" class="menu-item arrange-selector" data-arrange="geo">by Geography</a>
-		<a href="#" class="menu-item arrange-selector" data-arrange="cp">by PUA Encoding</a>
+		<a href="?a=id" class="menu-item arrange-selector" data-arrange="id">by Identifier</a>
+		<a href="?a=geo" class="menu-item arrange-selector" data-arrange="geo">by Geography</a>
+		<a href="?a=cp" class="menu-item arrange-selector" data-arrange="cp">by PUA Encoding</a>
 		<div class="menu-separator"></div>
 		<div class="menu-label style-label">Style:</div>
-		<a href="#" class="menu-item style-selector" data-styleid="pmc072" data-height="36" data-width="54" data-dlstyle="m" data-dlratio="c">Matte</a>
-		<a href="#" class="menu-item style-selector" data-styleid="pgc072" data-height="36" data-width="54" data-dlstyle="g" data-dlratio="c">Glossy</a>
-		<a href="#" class="menu-item style-selector" data-styleid="pvf160" data-height="48" data-width="48" data-dlstyle="vf">Apple</a>
-		<a href="#" class="menu-item style-selector" data-styleid="pvn128" data-height="48" data-width="51" data-dlstyle="vn">Google</a>
-		<a href="#" class="menu-item style-selector" data-styleid="pvb160" data-height="48" data-width="48" data-dlstyle="vb">Twitter</a>
+		<a href="?s=mc" class="menu-item style-selector" data-styleid="pmc072" data-height="36" data-width="54" data-dlstyle="m" data-dlratio="c">Matte</a>
+		<a href="?s=gc" class="menu-item style-selector" data-styleid="pgc072" data-height="36" data-width="54" data-dlstyle="g" data-dlratio="c">Glossy</a>
+		<a href="?s=vf" class="menu-item style-selector" data-styleid="pvf160" data-height="48" data-width="48" data-dlstyle="vf">Apple</a>
+		<a href="?s=vn" class="menu-item style-selector" data-styleid="pvn128" data-height="48" data-width="51" data-dlstyle="vn">Google</a>
+		<a href="?s=vb" class="menu-item style-selector" data-styleid="pvb160" data-height="48" data-width="48" data-dlstyle="vb">Twitter</a>
 		<div class="menu-separator"></div>
 		<a href="https://github.com/kreativekorp/vexillo" target="_blank" class="menu-item github-link">GitHub Repository</a>
 	</div>
@@ -42,10 +42,10 @@
 	<div class="flag-viewer"><img></div>
 	
 	<div class="tabs"><!--
-		--><span class="tab" data-tab-class="properties"><span class="alt-acc">P</span>roperties</span><!--
-		--><span class="tab" data-tab-class="downloads"><span class="alt-acc">D</span>ownloads</span><!--
-		--><span class="tab" data-tab-class="encoding"><span class="alt-acc">E</span>ncoding</span><!--
-		--><span class="tab" data-tab-class="colors"><span class="alt-acc">C</span>olors</span><!--
+		--><a class="tab" data-tab-class="properties"><span class="alt-acc">P</span>roperties</a><!--
+		--><a class="tab" data-tab-class="downloads"><span class="alt-acc">D</span>ownloads</a><!--
+		--><a class="tab" data-tab-class="encoding"><span class="alt-acc">E</span>ncoding</a><!--
+		--><a class="tab" data-tab-class="colors"><span class="alt-acc">C</span>olors</a><!--
 	--></div>
 	
 	<div class="tab-content properties">

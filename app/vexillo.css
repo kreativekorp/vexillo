@@ -180,6 +180,15 @@ a.menu-item:visited {
 .tile:hover {
 	background: #eeeeee;
 }
+a.tile,
+a.tile:active,
+a.tile:focus,
+a.tile:hover,
+a.tile:link,
+a.tile:visited {
+	color: #000000;
+	text-decoration: none;
+}
 h1 {
 	margin: 16px 0;
 	font-size: 24px;
@@ -251,6 +260,7 @@ table.block-table .tile {
 	left: 9px;
 	width: 24px;
 	height 24px;
+	cursor: pointer;
 	opacity: 0.5;
 }
 .flagpole-link:hover {
@@ -267,6 +277,7 @@ table.block-table .tile {
 	padding: 0;
 	border: none;
 	background: none;
+	cursor: pointer;
 	opacity: 0.5;
 }
 .close-button:hover {
@@ -304,6 +315,27 @@ table.block-table .tile {
 .tab.selected {
 	background: #cccccc;
 	color: #000000;
+}
+a.tab,
+a.tab:link,
+a.tab:visited {
+	color: #333333;
+	text-decoration: none;
+}
+a.tab:active,
+a.tab:focus,
+a.tab:hover {
+	color: #222222;
+	text-decoration: none;
+}
+a.tab.selected,
+a.tab.selected:active,
+a.tab.selected:focus,
+a.tab.selected:hover,
+a.tab.selected:link,
+a.tab.selected:visited {
+	color: #000000;
+	text-decoration: none;
 }
 th, td {
 	padding: 1px 16px 1px 0;
@@ -389,6 +421,7 @@ th, td {
 	padding: 2px 12px 2px 70px;
 	margin: 2px 0;
 	border: 1px solid #cccccc;
+	cursor: pointer;
 }
 .downloads .dl-style-selector:hover {
 	background: #eeeeee;
@@ -421,6 +454,7 @@ th, td {
 	padding: 2px 12px 2px 8px;
 	margin: 2px 0;
 	border: 1px solid #cccccc;
+	cursor: pointer;
 }
 .downloads .dl-ar-selector:hover {
 	background: #eeeeee;

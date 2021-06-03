@@ -334,6 +334,62 @@ for (var i = 0; i < V.encoding.length; i++) {
 	}
 }
 
+var getQueryParams = function() {
+	var qp = {};
+	var qa = window.location.search.substring(1).split('&');
+	for (var i = 0; i < qa.length; i++) {
+		if (qa[i].length) {
+			var qo = qa[i].indexOf('=');
+			if (qo > 0) {
+				var qk = decodeURIComponent(qa[i].substring(0, qo));
+				qp[qk] = decodeURIComponent(qa[i].substring(qo + 1));
+			} else {
+				qp[decodeURIComponent(qa[i])] = true;
+			}
+		}
+	}
+	return qp;
+};
+var getQueryParamKeys = function() {
+	var qk = [];
+	var qa = window.location.search.substring(1).split('&');
+	for (var i = 0; i < qa.length; i++) {
+		if (qa[i].length) {
+			var qo = qa[i].indexOf('=');
+			if (qo > 0) {
+				qk.push(decodeURIComponent(qa[i].substring(0, qo)));
+			} else {
+				qk.push(decodeURIComponent(qa[i]));
+			}
+		}
+	}
+	return qk;
+};
+var setQueryParam = function(key, val, push) {
+	var qp = getQueryParams();
+	if (qp[key] === val) return;
+	qp[key] = val;
+	var qa = [];
+	var qk = getQueryParamKeys();
+	if (qk.indexOf(key) < 0) qk.push(key);
+	for (var i = 0; i < qk.length; i++) {
+		if (qp[qk[i]] === undefined || qp[qk[i]] === false) {
+			continue;
+		} else if (qp[qk[i]] === true) {
+			qa.push(encodeURIComponent(qk[i]));
+		} else {
+			var qv = encodeURIComponent(qp[qk[i]]);
+			qa.push(encodeURIComponent(qk[i]) + '=' + qv);
+		}
+	}
+	var qs = qa.length ? ('?' + qa.join('&')) : window.location.href.split('?')[0];
+	if (window.location.hash) qs += window.location.hash;
+	if (push) {
+		if (window.history.pushState) window.history.pushState({}, '', qs);
+	} else {
+		if (window.history.replaceState) window.history.replaceState({}, '', qs);
+	}
+};
 var getLS = function(key, val) {
 	key = 'com.kreative.vexillo.webapp.' + key;
 	return window.localStorage && window.localStorage[key] || val;
@@ -344,12 +400,27 @@ var setLS = function(key, val) {
 };
 
 $(document).ready(function() {
+	var qp = getQueryParams();
 	var currentArrange = getLS('arrange', 'id');
 	var currentStyleID = getLS('styleId', 'pgc072');
 	var currentStyleHeight = parseInt(getLS('styleHeight', 36));
 	var currentStyleWidth = parseInt(getLS('styleWidth', 54));
 	var currentDLStyle = getLS('dlStyle', 'g');
 	var currentDLRatio = getLS('dlRatio', 'c');
+	if (qp['a']) {
+		var sel = $('.arrange-selector[data-arrange="' + qp['a'] + '"]');
+		if (sel.length) currentArrange = qp['a'];
+	}
+	if (qp['s']) {
+		var sel = $('.style-selector[href="?s=' + qp['s'] + '"]');
+		if (sel.length) {
+			currentStyleID = sel.attr('data-styleid');
+			currentStyleHeight = parseInt(sel.attr('data-height'));
+			currentStyleWidth = parseInt(sel.attr('data-width'));
+			currentDLStyle = sel.attr('data-dlstyle') || currentDLStyle;
+			currentDLRatio = sel.attr('data-dlratio') || currentDLRatio;
+		}
+	}
 	
 	var updateStyleSelector = function() {
 		$('.style-selector').removeClass('selected');
@@ -410,12 +481,14 @@ $(document).ready(function() {
 	};
 	$('.style-selector').each(function() {
 		var sel = $(this);
+		var qv = sel.attr('href').split('=')[1];
 		var id = sel.attr('data-styleid');
 		var h = parseInt(sel.attr('data-height'));
 		var w = parseInt(sel.attr('data-width'));
 		var dls = sel.attr('data-dlstyle');
 		var dlr = sel.attr('data-dlratio');
 		sel.bind('click', function(e) {
+			setQueryParam('s', qv);
 			setStyle(id, h, w, dls, dlr);
 			e.preventDefault();
 		});
@@ -439,6 +512,7 @@ $(document).ready(function() {
 	});
 	
 	var setCurrentTab = function(tabClass) {
+		setQueryParam('t', tabClass);
 		$('.tab').removeClass('selected');
 		$('.tab').each(function() {
 			var tab = $(this);
@@ -451,10 +525,14 @@ $(document).ready(function() {
 	$('.tab').each(function() {
 		var tab = $(this);
 		var cls = tab.attr('data-tab-class');
-		tab.bind('click', function(){setCurrentTab(cls);});
+		tab.bind('click', function(e) {
+			setCurrentTab(cls);
+			e.preventDefault();
+		});
 	});
 	
 	var openDialog = function(flag) {
+		setQueryParam('d', flag.id);
 		$('.smokescreen').removeClass('hidden');
 		/* Flagpole Link */
 		var flagURL = artworkURL + '/pma360/' + flag.id + '.png';
@@ -464,6 +542,12 @@ $(document).ready(function() {
 		viewer.attr('src', flagURL);
 		viewer.attr('height', 180);
 		viewer.attr('width', Math.round(180 * flag.ar));
+		/* Tabs */
+		$('.tab').each(function() {
+			var tab = $(this);
+			var cls = tab.attr('data-tab-class');
+			tab.attr('href', '?d=' + flag.id + '&t=' + cls);
+		});
 		/* Properties */
 		setCurrentTab('properties');
 		$('.prop-id').text(flag.id || '\u00A0');
@@ -543,6 +627,8 @@ $(document).ready(function() {
 		$('.dialog').removeClass('hidden');
 	};
 	var closeDialog = function() {
+		setQueryParam('t', false);
+		setQueryParam('d', false);
 		$('.dialog').addClass('hidden');
 		$('.smokescreen').addClass('hidden');
 	};
@@ -550,17 +636,21 @@ $(document).ready(function() {
 	V.clickCopy($('.prop-puaname'));
 	
 	var makeTile = function(flag, index) {
-		var tile = $('<div>').addClass('tile');
+		var tile = $('<a>').addClass('tile');
 		tile.attr('data-flagid', flag.id);
 		tile.attr('data-index', index);
 		tile.attr('title', flag.name);
+		tile.attr('href', '?d=' + flag.id);
 		var img = $('<img>');
 		img.attr('src', artworkURL + '/' + currentStyleID + '/' + flag.id + '.png');
 		img.attr('height', currentStyleHeight);
 		img.attr('width', currentStyleWidth);
 		img.attr('alt', flag.name);
 		tile.append(img);
-		tile.bind('click', function(){openDialog(flag);});
+		tile.bind('click', function(e) {
+			openDialog(flag);
+			e.preventDefault();
+		});
 		return tile;
 	};
 	var setTiles = function(flags) {
@@ -667,6 +757,7 @@ $(document).ready(function() {
 	};
 	
 	var searchInput = $('.search-input');
+	if (qp['q']) searchInput.val(qp['q']);
 	var searchString = searchInput.val();
 	var searchKeywords = V.splitKeywords(searchString);
 	var searchResults = V.findByKeywords(searchKeywords);
@@ -687,7 +778,10 @@ $(document).ready(function() {
 		searchKeywords = V.splitKeywords(searchString);
 		searchResults = V.findByKeywords(searchKeywords);
 		if (searchTimeout) window.clearTimeout(searchTimeout);
-		searchTimeout = window.setTimeout(showResults, 200);
+		searchTimeout = window.setTimeout(function() {
+			setQueryParam('q', s || false);
+			showResults();
+		}, 200);
 	};
 	searchInput.bind('change', searchUpdate);
 	searchInput.bind('keydown', searchUpdate);
@@ -707,6 +801,7 @@ $(document).ready(function() {
 		var sel = $(this);
 		var id = sel.attr('data-arrange');
 		sel.bind('click', function(e) {
+			setQueryParam('a', id);
 			setLS('arrange', currentArrange = id);
 			showResults();
 			updateArrangeSelector();
@@ -791,7 +886,15 @@ $(document).ready(function() {
 		}
 	});
 	
-	searchInput.focus();
+	if (qp['d'] && V.flagmap[qp['d']]) {
+		openDialog(V.flagmap[qp['d']]);
+		if (qp['t']) {
+			var tab = $('.tab[data-tab-class="' + qp['t'] + '"]');
+			if (tab.length) setCurrentTab(qp['t']);
+		}
+	} else {
+		searchInput.focus();
+	}
 });
 
 })(jQuery,window,document,Vexillo);
