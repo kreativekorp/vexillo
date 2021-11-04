@@ -22,7 +22,7 @@
 <rect x="0" y="0" width="480" height="360" class="white"/>
 <g>
 <path d="M 0 0 L 480 0 L 0 360 Z" class="blue"/>
-<path d="M 0 0 L 0 45 L 0 45 L 180 180 L 180 180 L 0 315 L 0 315 L 0 360 L 60 360 L 240 225 L 240 225 L 420 360 L 480 360 L 480 315 L 300 180 L 480 45 L 480 0 L 420 0 L 240 135 L 240 135 L 60 0 Z" class="white"/>
+<path d="M 0 0 L 0 45 L 0 45 L 180 180 L 0 315 L 0 315 L 0 360 L 60 360 L 240 225 L 240 225 L 420 360 L 480 360 L 480 315 L 300 180 L 480 45 L 480 0 L 420 0 L 240 135 L 240 135 L 60 0 Z" class="white"/>
 </g>
 <g clip-path="url(#clip0)">
 <g>
