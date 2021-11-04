@@ -927,6 +927,7 @@ us-pih; xx-pocatello	E465
 us-sfo; xx-sanfrancisco	E466
 us-lax; xx-losangeles	E467
 us-ana; xx-anaheim	E468
+xx-maegnolyun	E47E
 xx-cascadia	E47F
 
 mx-cmx; xx-ciudaddemexico	E480

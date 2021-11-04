@@ -513,6 +513,7 @@ us-pih; xx-pocatello	north america united states us usa city pocatello pih idaho
 us-sfo; xx-sanfrancisco	north america united states us usa city san francisco sfo california republic calif ca
 us-lax; xx-losangeles	north america united states us usa city los angeles lax california republic calif ca
 us-ana; xx-anaheim	north america united states us usa city anaheim ana california republic calif ca
+xx-maegnolyun	north america united states us usa south southern dixieland magnolia magnolian maegnolyun luke mcready
 xx-cascadia	north america cascadia
 
 mx-cmx; xx-ciudaddemexico	north america mexico united mexican states city ciudad de cmx
