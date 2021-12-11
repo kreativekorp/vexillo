@@ -1,0 +1,139 @@
+#!/usr/bin/env bash
+
+if command -v vexport >/dev/null 2>&1; then
+	VEXPORT="vexport -v"
+elif command -v vexillo >/dev/null 2>&1; then
+	VEXPORT="vexillo export -v"
+elif test -f vexillo.jar; then
+	VEXPORT="java -jar vexillo.jar export -v"
+else
+	echo "Please run make install or add vexillo.jar to this directory."
+	exit 1
+fi
+
+function mkflag {
+	mkdir -p "out/$1"
+	cp "flags/$1".* "out/$1"
+
+	$VEXPORT -f svg \
+		-o "out/$1/sga360.svg" -h 360 -w   0 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/sgb360.svg" -h 360 -w 600 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/sgc360.svg" -h 360 -w 540 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/sgd360.svg" -h 360 -w 480 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/sge360.svg" -h 360 -w 450 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/sgf360.svg" -h 360 -w 360 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/sgh360.svg" -h 360 -w 720 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/sgk360.svg" -h 396 -w 576 -g 36 "flags/$1.kvxx" \
+		-o "out/$1/sgv360.svg" -h 360 -w 576 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/sgw360.svg" -h 360 -w 640 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/sma360.svg" -h 360 -w   0 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/smb360.svg" -h 360 -w 600 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/smc360.svg" -h 360 -w 540 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/smd360.svg" -h 360 -w 480 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/sme360.svg" -h 360 -w 450 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/smf360.svg" -h 360 -w 360 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/smh360.svg" -h 360 -w 720 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/smk360.svg" -h 396 -w 576 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/smv360.svg" -h 360 -w 576 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/smw360.svg" -h 360 -w 640 -g  0 "flags/$1.kvxx"
+
+	$VEXPORT -f png \
+		-o "out/$1/pga360.png" -h 360 -w   0 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/pgb360.png" -h 360 -w 600 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/pgc360.png" -h 360 -w 540 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/pgd360.png" -h 360 -w 480 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/pge360.png" -h 360 -w 450 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/pgf360.png" -h 360 -w 360 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/pgh360.png" -h 360 -w 720 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/pgk360.png" -h 396 -w 576 -g 36 "flags/$1.kvxx" \
+		-o "out/$1/pgv360.png" -h 360 -w 576 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/pgw360.png" -h 360 -w 640 -g 30 "flags/$1.kvxx" \
+		-o "out/$1/pma360.png" -h 360 -w   0 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmb360.png" -h 360 -w 600 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmc360.png" -h 360 -w 540 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmd360.png" -h 360 -w 480 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pme360.png" -h 360 -w 450 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmf360.png" -h 360 -w 360 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmh360.png" -h 360 -w 720 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmk360.png" -h 396 -w 576 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmv360.png" -h 360 -w 576 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmw360.png" -h 360 -w 640 -g  0 "flags/$1.kvxx"
+
+	$VEXPORT -f png \
+		-o "out/$1/pga128.png" -w 128 -h   0 -g  8 "flags/$1.kvxx" \
+		-o "out/$1/pgb128.png" -w 128 -h  76 -g  8 "flags/$1.kvxx" \
+		-o "out/$1/pgc128.png" -w 128 -h  86 -g  8 "flags/$1.kvxx" \
+		-o "out/$1/pgd128.png" -w 128 -h  96 -g  8 "flags/$1.kvxx" \
+		-o "out/$1/pge128.png" -w 128 -h 102 -g  8 "flags/$1.kvxx" \
+		-o "out/$1/pgf128.png" -w 128 -h 128 -g  8 "flags/$1.kvxx" \
+		-o "out/$1/pgh128.png" -w 128 -h  64 -g  8 "flags/$1.kvxx" \
+		-o "out/$1/pgk128.png" -w 128 -h  88 -g  8 "flags/$1.kvxx" \
+		-o "out/$1/pgv128.png" -w 128 -h  80 -g  8 "flags/$1.kvxx" \
+		-o "out/$1/pgw128.png" -w 128 -h  72 -g  8 "flags/$1.kvxx" \
+		-o "out/$1/pma128.png" -w 128 -h   0 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmb128.png" -w 128 -h  76 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmc128.png" -w 128 -h  86 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmd128.png" -w 128 -h  96 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pme128.png" -w 128 -h 102 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmf128.png" -w 128 -h 128 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmh128.png" -w 128 -h  64 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmk128.png" -w 128 -h  88 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmv128.png" -w 128 -h  80 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmw128.png" -w 128 -h  72 -g  0 "flags/$1.kvxx"
+
+	$VEXPORT -f png \
+		-o "out/$1/pga072.png" -h  72 -w   0 -g  6 "flags/$1.kvxx" \
+		-o "out/$1/pgb072.png" -h  72 -w 120 -g  6 "flags/$1.kvxx" \
+		-o "out/$1/pgc072.png" -h  72 -w 108 -g  6 "flags/$1.kvxx" \
+		-o "out/$1/pgd072.png" -h  72 -w  96 -g  6 "flags/$1.kvxx" \
+		-o "out/$1/pge072.png" -h  72 -w  90 -g  6 "flags/$1.kvxx" \
+		-o "out/$1/pgf072.png" -h  72 -w  72 -g  6 "flags/$1.kvxx" \
+		-o "out/$1/pgh072.png" -h  72 -w 144 -g  6 "flags/$1.kvxx" \
+		-o "out/$1/pgk072.png" -h  66 -w  96 -g  6 "flags/$1.kvxx" \
+		-o "out/$1/pgv072.png" -h  72 -w 116 -g  6 "flags/$1.kvxx" \
+		-o "out/$1/pgw072.png" -h  72 -w 128 -g  6 "flags/$1.kvxx" \
+		-o "out/$1/pma072.png" -h  72 -w   0 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmb072.png" -h  72 -w 120 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmc072.png" -h  72 -w 108 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmd072.png" -h  72 -w  96 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pme072.png" -h  72 -w  90 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmf072.png" -h  72 -w  72 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmh072.png" -h  72 -w 144 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmk072.png" -h  66 -w  96 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmv072.png" -h  72 -w 116 -g  0 "flags/$1.kvxx" \
+		-o "out/$1/pmw072.png" -h  72 -w 128 -g  0 "flags/$1.kvxx"
+
+	$VEXPORT -f png \
+		-o "out/$1/pga024.png" -h  24 -w   0 -g  2 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pgb024.png" -h  24 -w  40 -g  2 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pgc024.png" -h  24 -w  36 -g  2 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pgd024.png" -h  24 -w  32 -g  2 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pge024.png" -h  24 -w  30 -g  2 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pgf024.png" -h  24 -w  24 -g  2 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pgh024.png" -h  24 -w  48 -g  2 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pgk024.png" -h  22 -w  32 -g  2 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pgv024.png" -h  24 -w  38 -g  2 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pgw024.png" -h  24 -w  42 -g  2 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pma024.png" -h  24 -w   0 -g  0 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pmb024.png" -h  24 -w  40 -g  0 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pmc024.png" -h  24 -w  36 -g  0 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pmd024.png" -h  24 -w  32 -g  0 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pme024.png" -h  24 -w  30 -g  0 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pmf024.png" -h  24 -w  24 -g  0 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pmh024.png" -h  24 -w  48 -g  0 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pmk024.png" -h  22 -w  32 -g  0 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pmv024.png" -h  24 -w  38 -g  0 -s  3 "flags/$1.kvxx" \
+		-o "out/$1/pmw024.png" -h  24 -w  42 -g  0 -s  3 "flags/$1.kvxx"
+
+	ACNL="com.kreative.vexillo.style.acnl.ACNLStylizer -s 42"
+	$VEXPORT -f png -y fruit  -o "out/$1/pvf160.png" -h 160 -w 160 "flags/$1.kvxx"
+	$VEXPORT -f png -y number -o "out/$1/pvn128.png" -h 128 -w 136 "flags/$1.kvxx"
+	$VEXPORT -f png -y bird   -o "out/$1/pvb160.png" -h 160 -w 160 "flags/$1.kvxx"
+	$VEXPORT -f png -y $ACNL  -o "out/$1/pvx240.png" -h 240 -w 400 "flags/$1.kvxx"
+
+	cd out
+	zip -r "$1.zip" "$1"
+	cd ..
+}
+
+for i in "$@"; do mkflag "$i"; done
