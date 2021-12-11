@@ -36,8 +36,7 @@ public class Candidate implements Comparable<Candidate> {
 	private final String params;
 	
 	private Candidate(FlagRenderer r, ImageScaler s, int ss, int glaze, BufferedImage srcImage4x) {
-		ACNLStylizer style = new ACNLStylizer();
-		card = style.createCard(r, s, ss, glaze);
+		card = ACNLStylizer.createCard(r, s, ss, glaze);
 		image = card.getPreview();
 		image3x = new BufferedImage(96, 96, BufferedImage.TYPE_INT_ARGB);
 		Graphics2D g = image3x.createGraphics();

@@ -1,23 +1,44 @@
 package com.kreative.vexillo.style.acnl;
 
 import java.awt.image.BufferedImage;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import com.kreative.vexillo.core.FlagRenderer;
 import com.kreative.vexillo.core.ImageScaler;
+import com.kreative.vexillo.core.ImageSource;
 import com.kreative.vexillo.style.Stylizer;
 
 public class ACNLStylizer implements Stylizer {
 	@Override
 	public BufferedImage stylize(FlagRenderer r, int w, int h, ImageScaler s, int ss, int g) {
-		BufferedImage image;
-		if (ss == 42) {
-			image = Candidate.createCandidates(r, g).get(0).getQRCard().getCardImage();
-		} else {
-			image = createCard(r, s, ss, g).getCardImage();
-		}
+		BufferedImage image = createBestCard(r, s, ss, g).getCardImage();
 		return ImageScaler.ITERATIVE_BICUBIC.scale(image, w, h);
 	}
 	
-	public ACQRCard createCard(FlagRenderer r, ImageScaler s, int ss, int g) {
+	private static ACQRCard createBestCard(FlagRenderer r, ImageScaler s, int ss, int g) {
+		if (r.getFlag().images().containsKey(".acnl")) {
+			for (ImageSource src : r.getFlag().images().get(".acnl")) {
+				try {
+					InputStream in = src.getInputStream(r.getParentFile());
+					ByteArrayOutputStream out = new ByteArrayOutputStream();
+					for (int b = in.read(); b >= 0; b = in.read()) out.write(b);
+					in.close();
+					out.close();
+					return new ACNLFile(out.toByteArray()).getQRCard(0);
+				} catch (IOException e) {
+					continue;
+				}
+			}
+		}
+		if (ss == 42) {
+			return Candidate.createCandidates(r, g).get(0).getQRCard();
+		} else {
+			return createCard(r, s, ss, g);
+		}
+	}
+	
+	protected static ACQRCard createCard(FlagRenderer r, ImageScaler s, int ss, int g) {
 		BufferedImage image = r.renderToImage(32, 32, s, ss, g);
 		int[] palette = makePalette(image);
 		ACNLFile acnl = new ACNLFile();
@@ -31,7 +52,7 @@ public class ACNLStylizer implements Stylizer {
 		return acnl.getQRCard(0);
 	}
 	
-	private int[] makePalette(BufferedImage image) {
+	private static int[] makePalette(BufferedImage image) {
 		int[] rp = ColorReducer.reduce(image, 15);
 		int[] p = new int[15]; int i = 0;
 		for (int rgb : rp) p[i++] = rgb;
@@ -39,7 +60,7 @@ public class ACNLStylizer implements Stylizer {
 		return p;
 	}
 	
-	private String getTitle(FlagRenderer r) {
+	private static String getTitle(FlagRenderer r) {
 		String name = r.getFlag().getName();
 		if (name != null && name.length() > 0) return name;
 		String id = r.getFlag().getId();
