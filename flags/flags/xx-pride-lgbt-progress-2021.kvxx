@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Progress Pride Flag 2021" fly="h*5/3">
+	<defs>
+		<dim id="t" e="h*0.105"/>
+		<dim id="o" e="t/4"/>
+		<color id="red">
+			<colorspec model="rgb" value="251 37 4"/>
+		</color>
+		<color id="orange">
+			<colorspec model="rgb" value="251 148 5"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="251 251 6"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="5 249 6"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="5 27 140"/>
+		</color>
+		<color id="purple">
+			<colorspec model="rgb" value="83 28 141"/>
+		</color>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<color id="brown">
+			<colorspec model="rgb" value="144 83 8"/>
+		</color>
+		<color id="turquoise">
+			<colorspec model="rgb" value="125 211 247"/>
+		</color>
+		<color id="pink">
+			<colorspec model="rgb" value="244 182 229"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="purple2">
+			<colorspec model="rgb" value="142 60 221"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="6" colors="red orange yellow green blue purple"/>
+	<poly points="0 0 o+t*4 0 o+t*4+h/2 h/2 o+t*4 h 0 h" color="black"/>
+	<poly points="0 0 o+t*3 0 o+t*3+h/2 h/2 o+t*3 h 0 h" color="brown"/>
+	<poly points="0 0 o+t*2 0 o+t*2+h/2 h/2 o+t*2 h 0 h" color="turquoise"/>
+	<poly points="0 0 o+t*1 0 o+t*1+h/2 h/2 o+t*1 h 0 h" color="pink"/>
+	<poly points="0 0 o+t*0 0 o+t*0+h/2 h/2 o+t*0 h 0 h" color="white"/>
+	<poly points="0 t-o h/2-(t-o) h/2 0 h-(t-o)" color="yellow"/>
+	<disc cx="h*0.16" cy="h/2" w="h/4" h="h/4" color="purple2"/>
+	<disc cx="h*0.16" cy="h/2" w="h/5" h="h/5" color="yellow"/>
+</flag>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Dollgender" fly="h*5/3">
+	<defs>
+		<dim id="L1" e="h*0.1075"/>
+		<dim id="H1" e="h*0.4"/>
+		<dim id="H2" e="H1*7/9"/>
+		<color id="tband">
+			<colorspec model="rgb" value="231 193 218"/>
+		</color>
+		<color id="tlace">
+			<colorspec model="rgb" value="238 206 230"/>
+		</color>
+		<color id="mband">
+			<colorspec model="rgb" value="253 226 233"/>
+		</color>
+		<color id="blace">
+			<colorspec model="rgb" value="254 203 220"/>
+		</color>
+		<color id="bband">
+			<colorspec model="rgb" value="252 193 213"/>
+		</color>
+		<color id="heart">
+			<colorspec model="rgb" value="252 163 193"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="disc" d="M 0.5 0 A 0.5 0.5 0 0 0 -0.5 0 A 0.5 0.5 0 0 0 0.5 0 Z"/>
+		<symdef id="heart" d="M 0 0.5 C 0 0.5 -0.5 0.1 -0.5 -0.25
+		                      C -0.5 -0.39 -0.39 -0.5 -0.25 -0.5
+		                      C -0.09 -0.5 0 -0.3 0 -0.25
+		                      C 0 -0.3 0.09 -0.5 0.25 -0.5
+		                      C 0.39 -0.5 0.5 -0.39 0.5 -0.25
+		                      C 0.5 0.1 0 0.5 0 0.5 Z"/>
+		<symdef id="button" d="M 0.5 0 A 0.5 0.5 0 0 0 -0.5 0 A 0.5 0.5 0 0 0 0.5 0 Z
+		                       M -0.05 -0.1125 A 0.0625 0.0625 0 0 1 -0.175 -0.1125 A 0.0625 0.0625 0 0 1 -0.05 -0.1125 Z
+		                       M 0.175 -0.1125 A 0.0625 0.0625 0 0 1 0.05 -0.1125 A 0.0625 0.0625 0 0 1 0.175 -0.1125 Z
+		                       M -0.05 0.1125 A 0.0625 0.0625 0 0 1 -0.175 0.1125 A 0.0625 0.0625 0 0 1 -0.05 0.1125 Z
+		                       M 0.175 0.1125 A 0.0625 0.0625 0 0 1 0.05 0.1125 A 0.0625 0.0625 0 0 1 0.175 0.1125 Z"/>
+		<imgdef id=".acnl">
+			<imgsrc type="application/x-acnl" enc="ascii85">
+				<![CDATA[
+					6i_-*C]J8OB)lKCD?+2IAH6`Nzzzzz!!&nd<WH\2GQ;FXC]J8ODZBb;zb.^LKEWBYN@/tBLB`N;VAH2]
+					1z0d.c,;,\#,"7O!c?S;oi$4-\46psF26psF26psF26psF26psF26psF26psF26psF26psF26psF26ps
+					F26psF26psF26psF26psF26psF26psF26psF26psF26psF21da&U6SgPd1GhHT1da&U1G^gC1G^gC1G^
+					gC1G^gC6psF26psF26psF26psF21G^gC1G^gC1G^gC1G^gCzzzzz!-!,eE-DNezz!-a6CGDLGCz!9!8T
+					!/HATLPU0Ti9h'T!:K:C!/HAdLkp9UmdBKCi"#25%YojrLkp<6%dr6bi9p%$%X3_bLkp95mdBKQi9p%$
+					%WI5[Lkl;omdBKQi"#25%Ub$ILhI"N%dr6b!:K:C!!$VeLh6VemdBKC!9!8T!!$D]BEeG:i9h'Tz!!!"
+					2AcMf2zz!!!","onW'zzzzzAnGXeAnGXeAnGXeAnGXeGB\7TGB\7TGB\7TGB\7TAnGXeAnGXeAnGXeAn
+					GXeB6Im"G%PB1AnQ:!B6Im"GB\7TGB\7TGB\7TGB\7TGB\7TGB\7TGB\7TGB\7TGB\7TGB\7TGB\7TGB
+					\7TGB\7TGB\7TGB\7TGB\7TGB\7TGB\7TGB\7TGB\7T
+				]]>
+			</imgsrc>
+		</imgdef>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="tband mband bband" weights="5 8 5"/>
+	<for var="x" start="0" end="w*2.2/L1+1">
+		<symbol symbol="disc" x="(x-0.25)*L1/2.2" y="h*5/18-L1*3/4" sx="L1/2" sy="L1/2" color="tlace"/>
+		<symbol symbol="disc" x="(x-0.25)*L1/2.2" y="h*13/18+L1*3/4" sx="L1/2" sy="L1/2" color="blace"/>
+	</for>
+	<hband x1="0" y1="h*5/18-L1*2/3" x2="w" y2="h*5/18" bands="3" colors="tlace tband tlace" weights="1 1 6"/>
+	<hband x1="0" y1="h*13/18" x2="w" y2="h*13/18+L1*2/3" bands="3" colors="blace bband blace" weights="6 1 1"/>
+	<g>
+		<clip>
+			<symbol symbol="heart" x="w/2" y="h/2" sx="H1*1.08" sy="H1"/>
+		</clip>
+		<hgrad x1="0" y1="(h-H1)/2" x2="w" y2="(h+H1)/2" color1="heart" color2="blace"/>
+		<symbol symbol="heart" x="w/2" y="h/2" sx="H2*1.08" sy="H2" color="heart"/>
+	</g>
+	<symbol symbol="button" x="h*0.155" y="h/2" sx="h*0.238" sy="h*0.238" color="white"/>
+	<symbol symbol="button" x="w-h*0.155" y="h/2" sx="h*0.238" sy="h*0.238" color="white"/>
+</flag>

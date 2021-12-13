@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Abrosexual Pride" fly="h*5/3">
+	<defs>
+		<color id="green1">
+			<colorspec model="rgb" value="117 202 146"/>
+		</color>
+		<color id="green2">
+			<colorspec model="rgb" value="178 228 197"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="pink1">
+			<colorspec model="rgb" value="230 149 181"/>
+		</color>
+		<color id="pink2">
+			<colorspec model="rgb" value="218 68 108"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="green1 green2 white pink1 pink2"/>
+</flag>

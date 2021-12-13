@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Aroace Pride" fly="h*5/3">
+	<defs>
+		<color id="yellow1">
+			<colorspec model="rgb" value="226 140 0"/>
+		</color>
+		<color id="yellow2">
+			<colorspec model="rgb" value="236 205 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="blue1">
+			<colorspec model="rgb" value="98 174 220"/>
+		</color>
+		<color id="blue2">
+			<colorspec model="rgb" value="32 56 86"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="yellow1 yellow2 white blue1 blue2"/>
+</flag>

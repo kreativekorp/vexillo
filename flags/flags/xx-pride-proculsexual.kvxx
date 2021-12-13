@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Proculsexual Pride" fly="h*5/3">
+	<defs>
+		<color id="grey">
+			<colorspec model="rgb" value="192 192 192"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="214 0 0"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="211 176 55"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="grey red yellow red grey"/>
+</flag>

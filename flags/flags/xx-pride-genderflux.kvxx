@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Genderflux Pride" fly="h*5/3">
+	<defs>
+		<color id="pink1">
+			<colorspec model="rgb" value="244 118 149"/>
+		</color>
+		<color id="pink2">
+			<colorspec model="rgb" value="241 163 185"/>
+		</color>
+		<color id="grey">
+			<colorspec model="rgb" value="206 206 206"/>
+		</color>
+		<color id="blue1">
+			<colorspec model="rgb" value="123 224 247"/>
+		</color>
+		<color id="blue2">
+			<colorspec model="rgb" value="62 205 250"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="254 244 140"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="6" colors="pink1 pink2 grey blue1 blue2 yellow"/>
+</flag>

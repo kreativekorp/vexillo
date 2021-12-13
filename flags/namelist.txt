@@ -2535,6 +2535,7 @@ xx-pride-lgbt-9band	RAINBOW FLAG WITH NINE BANDS
 xx-pride-lgbt-gb; xx-pride-lgbt-uk	PRIDE FLAG FOR UNITED KINGDOM
 xx-pride-lgbt-hk	RAINBOW FLAG FOR HONG KONG
 xx-pride-lgbt-ca	RAINBOW FLAG FOR CANADA
+xx-pride-lgbt-progress-2021	PROGRESS RAINBOW FLAG-2021
 
 xx-pride-asexual	ASEXUAL PRIDE FLAG
 xx-pride-lesbian-1	LESBIAN PRIDE FLAG-1
@@ -2560,13 +2561,16 @@ xx-pride-agender	AGENDER PRIDE FLAG
 xx-pride-female	FEMALE PRIDE FLAG
 xx-pride-male	MALE PRIDE FLAG
 xx-pride-androgyne	ANDROGYNE PRIDE FLAG
-xx-pride-bigender	BIGENDER PRIDE FLAG
+xx-pride-bigender-1	BIGENDER PRIDE FLAG-1
 xx-pride-genderfluid	GENDERFLUID PRIDE FLAG
 xx-pride-genderqueer	GENDERQUEER PRIDE FLAG
 xx-pride-nonbinary	NON-BINARY PRIDE FLAG
 xx-pride-neutrois	NEUTROIS PRIDE FLAG
 xx-pride-demigirl	DEMIGIRL PRIDE FLAG
 xx-pride-demiboy	DEMIBOY PRIDE FLAG
+xx-pride-genderflux	GENDERFLUX PRIDE FLAG
+xx-pride-bigender-2	BIGENDER PRIDE FLAG-2
+xx-pride-bigender-3	BIGENDER PRIDE FLAG-3
 
 xx-pride-intersex-1	INTERSEX PRIDE FLAG-1
 xx-pride-intersex-2	INTERSEX PRIDE FLAG-2
@@ -2592,10 +2596,18 @@ xx-aristasia	FLAG FOR ARISTASIA
 xx-pride-diamoric	DIAMORIC PRIDE FLAG
 xx-pride-sapphic	SAPPHIC PRIDE FLAG
 xx-pride-achillean	ACHILLEAN PRIDE FLAG
+xx-pride-omnisexual	OMNISEXUAL PRIDE FLAG
+xx-pride-abrosexual	ABROSEXUAL PRIDE FLAG
+xx-pride-aroace	AROACE PRIDE FLAG
+xx-pride-greysexual	GREYSEXUAL PRIDE FLAG
+xx-pride-proculsexual	PROCULSEXUAL PRIDE FLAG
+
+xx-pride-dollgender	DOLLGENDER PRIDE FLAG
 
 xx-christian	CHRISTIAN FLAG
 
 xx-blm	BLACK LIVES MATTER FLAG
+xx-pan-african	PAN-AFRICAN FLAG
 
 
 ## F600-F6FF	Sports Flags

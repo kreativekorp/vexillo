@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Greysexual Pride" fly="h*16/9">
+	<defs>
+		<color id="purple">
+			<colorspec model="rgb" value="116 1 149"/>
+		</color>
+		<color id="grey">
+			<colorspec model="rgb" value="174 178 170"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="purple grey white grey purple"/>
+</flag>
