@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="au-aboriginal" name="Australian Aboriginal" fly="h*3/2">
+	<defs>
+		<color id="black">
+			<colorspec model="pantone" value="Black C"/>
+			<colorspec model="cmyk" value="0 0 0 100"/>
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="1795 C"/>
+			<colorspec model="pantone" value="179 C"/>
+			<colorspec model="cmyk" value="0 100 100 30"/>
+			<colorspec model="rgb" value="204 0 0"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="123 C"/>
+			<colorspec model="cmyk" value="0 0 100 0"/>
+			<colorspec model="rgb" value="255 255 0"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="2" colors="black red"/>
+	<disc cx="w/2" cy="h/2" w="min(h/2,w/2)" h="min(h/2,w/2)" color="yellow"/>
+</flag>

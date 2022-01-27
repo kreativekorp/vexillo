@@ -2302,6 +2302,7 @@ au-vic; au-vi	F204
 au-wa	F205
 au-act; au-ct	F206
 au-nt	F207
+au-aboriginal	F20F
 
 nz-auk	F210
 nz-bop	F211
@@ -2512,6 +2513,8 @@ nr-14	F2FE
 #   yz  ( 7) - F   yz  (19) - F   vwxyz (40) - 5/B/F
 
 aq-smith; xx-aq-smith	F30A
+aq-bartram; xx-aq-bartram	F30B
+aq-emblem; xx-aq-emblem	F30C
 az-artsakh; xx-artsakh	F30F
 ge-abkhazia; xx-abkhazia	F342
 ge-southossetia; xx-southossetia	F343
