@@ -2090,6 +2090,7 @@ md-transnistria; xx-transnistria	eastern europe republic moldova transnistria tr
 so-somaliland; xx-somaliland	east africa federal republic somalia somaliland
 sy-snc; xx-sy-snc	western southwestern asia middle east syria syrian arab republic national coalition
 xx-northpole	arctic north pole
+xx-refugeenation	int international refugee nation yara said
 
 
 ## Constructed Language Flags

@@ -2504,6 +2504,7 @@ md-transnistria; xx-transnistria	FLAG FOR TRANSNISTRIA
 so-somaliland; xx-somaliland	FLAG FOR SOMALILAND
 sy-snc; xx-sy-snc	FLAG FOR SYRIAN NATIONAL COALITION
 xx-northpole	FLAG FOR NORTH POLE
+xx-refugeenation	FLAG FOR REFUGEE NATION
 
 
 ## F400-F4FF	Constructed Language Flags

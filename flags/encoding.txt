@@ -2522,6 +2522,7 @@ md-transnistria; xx-transnistria	F371
 so-somaliland; xx-somaliland	F3B9
 sy-snc; xx-sy-snc	F3BF
 xx-northpole	F3EC
+xx-refugeenation	F3ED; 1F3F3+200D+1F7E7+200D+2B1B+200D+1F7E7; 1F3F4+200D+1F7E7+200D+2B1B+200D+1F7E7
 
 
 ## F400-F4FF	Constructed Language Flags
