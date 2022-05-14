@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Kurdistan" fly="h*3/2">
+	<defs>
+		<color id="red">
+			<colorspec model="rgb" value="235 35 35"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="39 138 65"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="250 185 20"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="M 0 -1 l 0.0749 0.5084 l 0.2215 -0.4638
+		                     l -0.0783 0.5079 l 0.3483 -0.3779 l -0.2245 0.4623
+		                     l 0.4442 -0.2584 l -0.3508 0.3756 l 0.5007 -0.116
+		                     l -0.4459 0.2555 l 0.5126 0.0367 l -0.5014 0.1127
+		                     l 0.479 0.1862 l -0.5123 -0.0401 l 0.4028 0.3191
+		                     l -0.4778 -0.1893 l 0.2909 0.4237
+		                     l -0.4008 -0.3217 l 0.1531 0.4906
+		                     l -0.2881 -0.4256 l 0.0017 0.5139 L 0 0.5084
+		                     L -0.1499 1 l 0.0017 -0.5139 l -0.2881 0.4256
+		                     l 0.1531 -0.4906 l -0.4008 0.3217 l 0.2909 -0.4237
+		                     l -0.4778 0.1893 l 0.4028 -0.3191 l -0.5123 0.0401
+		                     l 0.479 -0.1862 l -0.5014 -0.1127 l 0.5126 -0.0367
+		                     l -0.4459 -0.2555 l 0.5007 0.116 l -0.3508 -0.3756
+		                     l 0.4442 0.2584 l -0.2245 -0.4623 l 0.3483 0.3779
+		                     l -0.0783 -0.5079 l 0.2215 0.4638 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="red white green"/>
+	<symbol symbol="star" x="w/2" y="h/2" sx="h/4" sy="h/4" color="yellow"/>
+</flag>
