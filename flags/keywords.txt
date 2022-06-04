@@ -193,7 +193,7 @@ vi	north america caribbean united states us usa virgin islands vi
 ar	south america argentina argentine republic
 bo	south america plurinational state bolivia
 bv	south america kingdom norway bouvet island
-br	south america federative republic brazil
+br	south america federative republic brazil brasil
 cl	south america republic chile
 co	south america republic colombia
 ec	south america republic ecuador
@@ -2112,68 +2112,71 @@ xx-conlang-klingon	conlang constructed language tlh tlhingan hol klingon empire 
 
 ## Pride Flags
 
-xx-pride-lgbt	pride lgbt gay rainbow 6 six band bands gilbert baker
-xx-pride-lgbt-7band	pride lgbt gay rainbow 7 seven band bands gilbert baker
-xx-pride-lgbt-8band	pride lgbt gay rainbow 8 eight band bands gilbert baker
+xx-pride-lgbt	pride lgbt gay rainbow 6 six band bands gilbert baker 1979
+xx-pride-lgbt-7band	pride lgbt gay rainbow 7 seven band bands gilbert baker 1979
+xx-pride-lgbt-8band	pride lgbt gay rainbow 8 eight band bands gilbert baker 1978
 xx-pride-lgbt-us	pride lgbt gay rainbow north america united states us usa
 xx-pride-lgbt-us-co	pride lgbt gay rainbow north america united states us usa state colorado colo co
-xx-pride-lgbt-us-phl	pride lgbt gay rainbow north america united states us usa city philadelphia phl pennsylvania penn pa
-xx-pride-lgbt-progress	pride lgbt gay rainbow progress initiative reboot inclusive new daniel quasar
-xx-pride-lgbt-za	pride lgbt gay rainbow southern africa republic south rsa
+xx-pride-lgbt-us-phl	pride lgbt gay rainbow north america united states us usa city philadelphia phl pennsylvania penn pa 2017
+xx-pride-lgbt-progress	pride lgbt gay rainbow progress initiative reboot inclusive new daniel quasar 2018
+xx-pride-lgbt-za	pride lgbt gay rainbow southern africa republic south rsa eugene brockman 2010
 xx-pride-lgbt-tw	pride lgbt gay rainbow east asia taiwan republic china roc
 xx-pride-lgbt-9band	pride lgbt gay rainbow 9 nine band bands love fest festival estevao romane
-xx-pride-lgbt-gb; xx-pride-lgbt-uk	pride lgbt gay northern europe united kingdom great britain uk gb pink jack
+xx-pride-lgbt-gb; xx-pride-lgbt-uk	pride lgbt gay northern europe united kingdom great britain uk gb pink jack david gwinnutt 2006
 xx-pride-lgbt-hk	pride lgbt gay rainbow east asia hong kong hk special administrative region sar peoples republic china prc hidden pirate island
 xx-pride-lgbt-ca	pride lgbt gay rainbow north america canada
-xx-pride-lgbt-progress-2021	pride lgbt gay rainbow progress intersex equality rights uk valentino vecchietti
+xx-pride-lgbt-progress-2021	pride lgbt gay rainbow progress intersex equality rights uk valentino vecchietti 2021
+xx-pride-lgbt-br	pride lgbt gay rainbow south america federative republic brazil brasil
+xx-pride-lgbt-il	pride lgbt gay rainbow western southwestern asia middle east state israel jewish
 
-xx-pride-asexual	pride lgbt gay asexual ace aven visibility education network user standup
-xx-pride-lesbian-1	pride lgbt gay wlw lesbian labrys triangle purple
+xx-pride-asexual	pride lgbt gay asexual ace aven visibility education network standup 2010
+xx-pride-lesbian-1	pride lgbt gay wlw lesbian labrys triangle purple sean campbel campbell palm springs times 1999
 xx-pride-gay-male-1	pride lgbt gay mlm male homosexual brown blue 7 seven band bands leonis ignis
-xx-pride-bisexual	pride lgbt gay bisexual bi michael page
-xx-pride-pansexual	pride lgbt gay pansexual pan
+xx-pride-bisexual	pride lgbt gay bisexual bi michael page 1998
+xx-pride-pansexual	pride lgbt gay pansexual pan 2010
 xx-pride-polysexual	pride lgbt gay polysexual poly
 xx-pride-demisexual	pride lgbt gay demisexual demi
-xx-pride-lesbian-2	pride lgbt gay wlw lesbian pink red 9 nine band bands
-xx-pride-lesbian-3	pride lgbt gay wlw lesbian orange pink sunset 7 seven band bands
-xx-pride-lesbian-4	pride lgbt gay wlw lesbian orange pink sunset 5 five band bands
-xx-pride-lesbian-5	pride lgbt gay wlw lesbian inclusive everyone 4 four band bands lydia lydiandragon
-xx-pride-lesbian-6	pride lgbt gay wlw lesbian inclusive everyone 4 four band bands maya kern revision revised
-xx-pride-aromantic	pride lgbt gay aromantic aro
+xx-pride-lesbian-2	pride lgbt gay wlw lesbian pink red 9 nine band bands this life 2010
+xx-pride-lesbian-3	pride lgbt gay wlw lesbian orange pink sunset 7 seven band bands emily sadlesbeandisaster 2018
+xx-pride-lesbian-4	pride lgbt gay wlw lesbian orange pink sunset 5 five band bands emily sadlesbeandisaster 2018
+xx-pride-lesbian-5	pride lgbt gay wlw lesbian inclusive everyone 4 four band bands lydia lydiandragon 2018
+xx-pride-lesbian-6	pride lgbt gay wlw lesbian inclusive everyone 4 four band bands maya kern revision revised 2019
+xx-pride-aromantic	pride lgbt gay aromantic aro cameron whimsey 2014
 xx-pride-demiromantic	pride lgbt gay demiromantic dero
-xx-pride-gay-male-2	pride lgbt gay mlm male homosexual green blue vincian 7 seven band bands
-xx-pride-gay-male-3	pride lgbt gay mlm male homosexual green blue vincian 5 five band bands
+xx-pride-gay-male-2	pride lgbt gay mlm male homosexual green blue vincian 7 seven band bands toothpaste triton gayflagblog hermy 2019
+xx-pride-gay-male-3	pride lgbt gay mlm male homosexual green blue vincian 5 five band bands toothpaste triton gayflagblog hermy 2019
 
-xx-pride-trans	pride lgbt trans transgender transsexual monica helms
+xx-pride-trans	pride lgbt trans transgender transsexual monica helms 1999
 xx-pride-trans-il	pride lgbt trans transgender transsexual western southwestern asia middle east state israel
 
-xx-pride-agender	pride lgbt gay gender agender tumblr user transrants
+xx-pride-agender	pride lgbt gay gender agender transrants salem fontana 2014
 xx-pride-female	pride gender female
 xx-pride-male	pride gender male
-xx-pride-androgyne	pride lgbt gay gender androgyne androgynous
-xx-pride-bigender-1	pride lgbt gay gender bigender no-bucks-for-this-doe
+xx-pride-androgyne	pride lgbt gay gender androgyne androgynous saveferris 2011
+xx-pride-bigender-1	pride lgbt gay gender bigender nobucksforthisdoe natalie phox nittrusfox 2009
 xx-pride-genderfluid	pride lgbt gay gender genderfluid fluid
-xx-pride-genderqueer	pride lgbt gay gender genderqueer queer marilyn roxie
-xx-pride-nonbinary	pride lgbt gay gender nonbinary non binary nb enby kye rowan
+xx-pride-genderqueer	pride lgbt gay gender genderqueer queer marilyn roxie 2011
+xx-pride-nonbinary	pride lgbt gay gender nonbinary non binary nb enby kye rowan 2014
 xx-pride-neutrois	pride lgbt gay gender neutrois
-xx-pride-demigirl	pride lgbt gay gender demigirl demiwoman demifemale
-xx-pride-demiboy	pride lgbt gay gender demiboy demiman demimale
+xx-pride-demigirl	pride lgbt gay gender demigirl demiwoman demifemale transrants salem fontana
+xx-pride-demiboy	pride lgbt gay gender demiboy demiman demimale transrants salem fontana
 xx-pride-genderflux	pride lgbt gay gender genderflux flux
 xx-pride-bigender-2	pride lgbt gay gender bigender
-xx-pride-bigender-3	pride lgbt gay gender bigender camp-mlm
+xx-pride-bigender-3	pride lgbt gay gender bigender campmlm natalie phox nittrusfox 2009
+xx-pride-littleender	pride lgbt gay gender bigender littleender ellie coyote ledcoyote 2022
 
-xx-pride-intersex-1	pride lgbt gay intersex blue pink gradient natalie phox
+xx-pride-intersex-1	pride lgbt gay intersex blue pink gradient natalie phox nittrusfox 2009
 xx-pride-intersex-2	pride lgbt gay intersex human rights australia yellow purple circle morgan carpenter
 
 xx-pride-bear	pride lgbt gay bear craig byrnes
-xx-pride-lipstick-1	pride lgbt gay femme lipstick lesbian pink red 9 nine band bands
-xx-pride-twink	pride lgbt gay femme male twink
-xx-pride-lipstick-2	pride lgbt gay femme lipstick lesbian inclusive everyone 4 four band bands rebecca bettencourt
+xx-pride-lipstick-1	pride lgbt gay wlw femme lipstick lesbian pink red 9 nine band bands
+xx-pride-twink	pride lgbt gay mlm femme male homosexual twink
+xx-pride-lipstick-2	pride lgbt gay wlw femme lipstick lesbian inclusive everyone 4 four band bands rebecca bettencourt 2019
 
 xx-pride-leather	pride kink bdsm leather tony deblase
-xx-pride-poly	pride poly polyamory polyamorous
+xx-pride-poly	pride poly polyamory polyamorous jim evans 1995
 xx-pride-bdsm	pride kink bdsm
-xx-pride-rubber	pride kink bdsm rubber
+xx-pride-rubber	pride kink bdsm rubber peter tolos scott moats 1995
 xx-pride-ownership	pride kink bdsm ownership
 xx-pride-master-slave	pride kink bdsm master slave
 xx-pride-fat-fetish	pride fat fetish
@@ -2187,17 +2190,21 @@ xx-pride-diamoric	pride lgbt gay diamoric nonbinary non binary nb enby
 xx-pride-sapphic	pride lgbt gay sapphic sappho lesbian bisexual pansexual woman women female aligned
 xx-pride-achillean	pride lgbt gay achillean achilles achilleus homosexual bisexual pansexual man men male aligned
 xx-pride-omnisexual	pride lgbt gay omnisexual omni pastelmemer
-xx-pride-abrosexual	pride lgbt gay abrosexual abro mod chad pride-flags-for-us
-xx-pride-aroace	pride lgbt gay aromantic aro asexual ace aroaesflags
-xx-pride-greysexual	pride lgbt gay greysexual graysexual grey gray grace milith rusignuolo
+xx-pride-abrosexual	pride lgbt gay abrosexual abro mod chad prideflagsforus
+xx-pride-aroace	pride lgbt gay aromantic aro asexual ace aroace acearo arosexual aroaesflags
+xx-pride-greysexual	pride lgbt gay greysexual graysexual grey gray grace milith rusignuolo 2013
 xx-pride-proculsexual	pride lgbt gay proculsexual procul beyond mogai
+xx-pride-aegosexual	pride lgbt gay aegosexual aego autochorissexual autochoris hunterinabrowncoat 2014
 
 xx-pride-dollgender	pride lgbt gay gender dollgender doll
 
 xx-christian	christ christian christianity
 
 xx-blm	black lives matter blm
-xx-pan-african	pan african pan-african afro american afro-american black liberation unia universal negro improvement association marcus garvey
+xx-pan-african	pan african panafrican afro american afroamerican black liberation unia universal negro improvement association marcus garvey
+
+xx-pride-lgbt-crab	pride lgbt gay rainbow 6 six band bands cool crab print shop deluxe foone turing 2022
+xx-pride-trans-crab	pride lgbt trans transgender transsexual cool crab print shop deluxe foone turing 2022
 
 
 ## Sports Flags
@@ -2253,6 +2260,7 @@ xx-org-pfa	org organization pfa portland flag association
 
 xx-pirate	misc miscellaneous pirate piracy skull crossbones
 xx-pace	misc miscellaneous pace peace rainbow
+xx-trains	misc miscellaneous trains pride train landscape ellsworth kelly 1953
 
 xx-misc-rgb	misc miscellaneous color model system rgb red green blue
 xx-misc-cmyk	misc miscellaneous color model system cmyk cyan magenta yellow black key

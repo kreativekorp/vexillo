@@ -2558,6 +2558,8 @@ xx-pride-lgbt-gb; xx-pride-lgbt-uk	F50A
 xx-pride-lgbt-hk	F50B
 xx-pride-lgbt-ca	F50C
 xx-pride-lgbt-progress-2021	F50D
+xx-pride-lgbt-br	F50E
+xx-pride-lgbt-il	F50F
 
 xx-pride-asexual	F510
 xx-pride-lesbian-1	F511
@@ -2593,6 +2595,7 @@ xx-pride-demiboy	F53A
 xx-pride-genderflux	F53B
 xx-pride-bigender-2	F53C
 xx-pride-bigender-3	F53D
+xx-pride-littleender	F53E
 
 xx-pride-intersex-1	F540
 xx-pride-intersex-2	F541
@@ -2623,6 +2626,7 @@ xx-pride-abrosexual	F594
 xx-pride-aroace	F595
 xx-pride-greysexual	F596
 xx-pride-proculsexual	F597
+xx-pride-aegosexual	F598
 
 xx-pride-dollgender	F5A0
 
@@ -2630,6 +2634,9 @@ xx-christian	F5C0; 271D; 1F3F3+200D+271D; 1F3F4+200D+271D
 
 xx-blm	F5E0
 xx-pan-african	F5E1
+
+xx-pride-lgbt-crab	F5F0
+xx-pride-trans-crab	F5F1
 
 
 ## F600-F6FF	Sports Flags
@@ -2685,6 +2692,7 @@ xx-org-pfa	F823
 
 xx-pirate	F840; 2620; 1F3F3+200D+2620; 1F3F4+200D+2620
 xx-pace	F841; 262E; 1F3F3+200D+262E; 1F3F4+200D+262E
+xx-trains	F842
 
 xx-misc-rgb	F860
 xx-misc-cmyk	F861

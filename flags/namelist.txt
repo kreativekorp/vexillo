@@ -2540,6 +2540,8 @@ xx-pride-lgbt-gb; xx-pride-lgbt-uk	PRIDE FLAG FOR UNITED KINGDOM
 xx-pride-lgbt-hk	RAINBOW FLAG FOR HONG KONG
 xx-pride-lgbt-ca	RAINBOW FLAG FOR CANADA
 xx-pride-lgbt-progress-2021	PROGRESS RAINBOW FLAG-2021
+xx-pride-lgbt-br	RAINBOW FLAG FOR BRAZIL
+xx-pride-lgbt-il	RAINBOW FLAG FOR ISRAEL
 
 xx-pride-asexual	ASEXUAL PRIDE FLAG
 xx-pride-lesbian-1	LESBIAN PRIDE FLAG-1
@@ -2575,6 +2577,7 @@ xx-pride-demiboy	DEMIBOY PRIDE FLAG
 xx-pride-genderflux	GENDERFLUX PRIDE FLAG
 xx-pride-bigender-2	BIGENDER PRIDE FLAG-2
 xx-pride-bigender-3	BIGENDER PRIDE FLAG-3
+xx-pride-littleender	LITTLEENDER PRIDE FLAG
 
 xx-pride-intersex-1	INTERSEX PRIDE FLAG-1
 xx-pride-intersex-2	INTERSEX PRIDE FLAG-2
@@ -2605,6 +2608,7 @@ xx-pride-abrosexual	ABROSEXUAL PRIDE FLAG
 xx-pride-aroace	AROACE PRIDE FLAG
 xx-pride-greysexual	GREYSEXUAL PRIDE FLAG
 xx-pride-proculsexual	PROCULSEXUAL PRIDE FLAG
+xx-pride-aegosexual	AEGOSEXUAL PRIDE FLAG
 
 xx-pride-dollgender	DOLLGENDER PRIDE FLAG
 
@@ -2612,6 +2616,9 @@ xx-christian	CHRISTIAN FLAG
 
 xx-blm	BLACK LIVES MATTER FLAG
 xx-pan-african	PAN-AFRICAN FLAG
+
+xx-pride-lgbt-crab	RAINBOW FLAG WITH COOL CRAB
+xx-pride-trans-crab	TRANSGENDER PRIDE FLAG WITH COOL CRAB
 
 
 ## F600-F6FF	Sports Flags
@@ -2667,6 +2674,7 @@ xx-org-pfa	FLAG FOR PORTLAND FLAG ASSOCIATION
 
 xx-pirate	PIRATE FLAG
 xx-pace	PACE FLAG
+xx-trains	TRAIN LANDSCAPE FLAG
 
 xx-misc-rgb	FLAG WITH RGB COLOR BARS
 xx-misc-cmyk	FLAG WITH CMYK COLOR BARS
