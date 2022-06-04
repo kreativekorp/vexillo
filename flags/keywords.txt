@@ -2089,6 +2089,7 @@ ge-southossetia; xx-southossetia	eastern europe western southwestern asia middle
 md-transnistria; xx-transnistria	eastern europe republic moldova transnistria transdniestria pridnestrovian moldavian pmr
 so-somaliland; xx-somaliland	east africa federal republic somalia somaliland
 sy-snc; xx-sy-snc	western southwestern asia middle east syria syrian arab republic national coalition
+xx-kurdistan	eastern europe western southwestern asia middle east kurdistan
 xx-northpole	arctic north pole
 xx-refugeenation	int international refugee nation yara said
 
