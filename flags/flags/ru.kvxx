@@ -2,20 +2,34 @@
 <!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
 <flag id="ru" name="Russia" properties="cf sf ce se normal" fly="h*3/2">
 	<defs>
+		<!--
+			https://en.wikipedia.org/wiki/Flag_of_Russia#Colour_specifications
+			Federal constitutional law of the Russian Federation only says that
+			the colours of the flag are "white", "blue" (синий, or dark blue,
+			as Russian has two colours that are called "blue" in English), and
+			"red". The Federal Constitutional Law on the State Flag of the
+			Russian Federation does not actually specify which shades the
+			colours should be. Russian government agencies when ordering the
+			manufacture of cloth for the flag indicate the following Pantone
+			colours: white, blue (Pantone 286C), and red (Pantone 485C).
+		-->
 		<color id="white">
-			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="ral" value="9016"/>
+			<colorspec model="pantone" value="White"/>
 			<colorspec model="cmyk" value="0 0 0 0"/>
 			<colorspec model="rgb" value="255 255 255"/>
 		</color>
 		<color id="blue">
-			<colorspec model="pantone" value="285"/>
-			<colorspec model="cmyk" value="89 43 0 0"/>
-			<colorspec model="rgb" value="0 125 195"/>
+			<colorspec model="ral" value="5005"/>
+			<colorspec model="pantone" value="286C"/>
+			<colorspec model="cmyk" value="100 80 0 12"/>
+			<colorspec model="rgb" value="0 50 160"/>
 		</color>
 		<color id="red">
-			<colorspec model="pantone" value="032"/>
-			<colorspec model="cmyk" value="0 90 86 0"/>
-			<colorspec model="rgb" value="239 65 53"/>
+			<colorspec model="ral" value="3028"/>
+			<colorspec model="pantone" value="485C"/>
+			<colorspec model="cmyk" value="0 95 100 0"/>
+			<colorspec model="rgb" value="218 41 28"/>
 		</color>
 	</defs>
 	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="white blue red"/>
