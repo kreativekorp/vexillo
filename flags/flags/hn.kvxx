@@ -3,19 +3,17 @@
 <flag id="hn" name="Honduras" properties="cf sf wf ce se normal" fly="h*2">
 	<defs>
 		<dim id="sr" e="h/18"/>
-		<dim id="sx1" e="w*2/6"/>
-		<dim id="sx2" e="w*3/6"/>
-		<dim id="sx3" e="w*4/6"/>
+		<dim id="sx1" e="w*13/36"/>
+		<dim id="sx2" e="w*18/36"/>
+		<dim id="sx3" e="w*23/36"/>
 		<dim id="sy1" e="h*5/12"/>
 		<dim id="sy2" e="h*6/12"/>
 		<dim id="sy3" e="h*7/12"/>
 		<color id="blue">
-			<colorspec model="pantone" value="285"/>
-			<colorspec model="cmyk" value="89 43 0 0"/>
-			<colorspec model="rgb" value="0 125 195"/>
+			<colorspec model="cmyk" value="100 18 0 11"/>
+			<colorspec model="rgb" value="85 188 228"/>
 		</color>
 		<color id="white">
-			<colorspec model="pantone" value="Safe"/>
 			<colorspec model="cmyk" value="0 0 0 0"/>
 			<colorspec model="rgb" value="255 255 255"/>
 		</color>
