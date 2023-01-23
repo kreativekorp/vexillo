@@ -1039,7 +1039,7 @@ fr-ges	western europe france french republic metropolitan region grand est
 fr-gua	north america caribbean france french republic overseas region guadeloupe
 fr-hdf	western europe france french republic metropolitan region hauts de
 fr-may	east africa france french republic overseas region department mayotte
-fr-nor	western europe france french republic metropolitan region normandie normandy
+fr-nor; xx-normandy	western europe france french republic metropolitan region normandie normandy
 fr-naq	western europe france french republic metropolitan region nouvelle aquitaine
 fr-occ	western europe france french republic metropolitan region occitanie
 

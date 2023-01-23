@@ -1452,7 +1452,7 @@ fr-ges	E819
 fr-gua	E81A
 fr-hdf	E81B
 fr-may	E81C
-fr-nor	E81D
+fr-nor; xx-normandy	E81D
 fr-naq	E81E
 fr-occ	E81F
 
