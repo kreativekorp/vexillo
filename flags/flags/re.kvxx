@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
-<flag id="re" name="R&#233;union" properties="cf sf wf ce se normal" fly="h*3/2">
-	<!-- Same as France. -->
+<flag id="re" name="R&#233;union" properties="proposal" fly="h*3/2">
+	<!--
+		The official flag of Réunion is the flag of France.
+		However, most emoji fonts use this flag, called
+		Lö Mahavéli, designed by Guy Pignolet and selected
+		by the Vexillological Association of Réunion.
+	-->
 	<defs>
+		<dim id="t" e="h*3/40"/>
+		<dim id="t2" e="h/16"/>
 		<color id="blue">
-			<colorspec model="pantone" value="Reflex Blue"/>
-			<colorspec model="cmyk" value="100 70 0 5"/>
-			<colorspec model="rgb" value="0 85 164"/>
-			<colorspec model="ncs" value="25 65 R80B"/>
-		</color>
-		<color id="white">
-			<colorspec model="pantone" value="Safe"/>
-			<colorspec model="cmyk" value="0 0 0 0"/>
-			<colorspec model="rgb" value="255 255 255"/>
-			<colorspec model="ncs" value="white"/>
+			<colorspec model="rgb" value="51 102 255"/>
 		</color>
 		<color id="red">
-			<colorspec model="pantone" value="Red 032"/>
-			<colorspec model="cmyk" value="0 90 86 0"/>
-			<colorspec model="rgb" value="250 60 50"/>
-			<colorspec model="ncs" value="05 80 Y80R"/>
+			<colorspec model="rgb" value="255 0 0"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 255 0"/>
 		</color>
 	</defs>
-	<vband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue white red"/>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<poly points="0 h w/2 h/2 w h" color="red"/>
+	<poly points="w/2 h/2 0 (h-t)/2 0 (h+t)/2" color="yellow"/>
+	<poly points="w/2 h/2 0 t2 0 0 t2 0" color="yellow"/>
+	<poly points="w/2 h/2 (w-t)/2 0 (w+t)/2 0" color="yellow"/>
+	<poly points="w/2 h/2 w t2 w 0 w-t2 0" color="yellow"/>
+	<poly points="w/2 h/2 w (h-t)/2 w (h+t)/2" color="yellow"/>
 </flag>
