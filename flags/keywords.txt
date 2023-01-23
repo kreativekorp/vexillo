@@ -271,7 +271,7 @@ am	eastern europe western southwestern asia middle east republic armenia
 az	eastern europe western southwestern asia middle east republic azerbaijan
 cy	eastern europe western southwestern asia middle east republic cyprus
 ge	eastern europe western southwestern asia middle east georgia
-tr	eastern europe western southwestern asia middle east republic turkey
+tr	eastern europe western southwestern asia middle east republic turkey turkiye
 
 su; xx-ussr; xx-sovietunion	eastern europe north asia union soviet socialist republics ussr
 ru	eastern europe north asia russia russian federation
