@@ -1786,6 +1786,8 @@ it-vi	E9EC
 it-vt	E9ED
 it-sd	E9EE
 
+xx-romanempire	E9FF
+
 
 ## EE00-EEFF	Asian Flags A
 

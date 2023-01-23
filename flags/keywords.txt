@@ -1373,6 +1373,8 @@ it-vs	southern europe italy italian republic province medio campidano
 it-vt	southern europe italy italian republic province viterbo
 it-vv	southern europe italy italian republic province vibo valentia
 
+xx-romanempire	southern europe roma rome roman kingdom republic empire latin spqr senatus populusque populus que romanus
+
 
 ## Asian Flags A
 
