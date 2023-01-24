@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag fly="h*4/3">
+	<defs>
+		<dim id="d" e="min(h*3/5,w*3/5)"/>
+		<dim id="t" e="min(h/5,w/5)"/>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="255 0 0"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<dband x1="(w-d)/2" y1="(h-d)/2" x2="(w+d)/2" y2="(h+d)/2" thickness="t" color="red"/>
+	<dband x1="(w-d)/2" y2="(h-d)/2" x2="(w+d)/2" y1="(h+d)/2" thickness="t" color="red"/>
+</flag>

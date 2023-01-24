@@ -2218,6 +2218,7 @@ xx-racing-caution	sport sports racing caution
 xx-racing-hazard	sport sports racing debris fluid oil hazard track
 xx-racing-pit-closed	sport sports racing pit lane closed
 xx-racing-stop	sport sports racing race stop stopped delay delayed
+xx-racing-code-60	sport sports racing code 60 kmh kph 37 mph
 xx-racing-slow-vehicle	sport sports racing slow vehicle track final lap
 xx-racing-final-lap	sport sports racing final lap ambulance course
 xx-racing-return	sport sports racing return pits penality disqualification
@@ -2226,7 +2227,14 @@ xx-racing-unsportsmanlike	sport sports racing unsportsmanlike conduct
 xx-racing-not-scored	sport sports racing ignore ignored ignoring black not no longer being scored
 xx-racing-faster-car-1	sport sports racing faster car approaching fia
 xx-racing-faster-car-2	sport sports racing faster car approaching nascar indy
-xx-racing-finish	sport sports racing race finish finished checkered chequered
+xx-racing-finish-stage	sport sports racing stage finish finished green white checkered chequered
+xx-racing-finish	sport sports racing race finish finished black white checkered chequered
+xx-racing-ambulance	sport sports racing medical attention required ambulance course
+xx-racing-precipitation	sport sports racing precipitation rain conditions
+xx-racing-leave-course	sport sports racing rider must leave course
+xx-racing-faster-motorcycle	sport sports racing faster motorcycle approaching
+xx-racing-visibility	sport sports racing poor v visibility ahead
+xx-racing-sun	sport sports racing glare from sun ahead
 
 
 ## Mika City Flags

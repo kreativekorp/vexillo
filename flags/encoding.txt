@@ -2649,6 +2649,7 @@ xx-racing-caution	F601
 xx-racing-hazard	F602
 xx-racing-pit-closed	F603
 xx-racing-stop	F604
+xx-racing-code-60	F605
 xx-racing-slow-vehicle	F606
 xx-racing-final-lap	F607
 xx-racing-return	F608
@@ -2657,7 +2658,14 @@ xx-racing-unsportsmanlike	F60A
 xx-racing-not-scored	F60B
 xx-racing-faster-car-1	F60C
 xx-racing-faster-car-2	F60D
+xx-racing-finish-stage	F60E
 xx-racing-finish	F60F; 1F3C1
+xx-racing-ambulance	F610
+xx-racing-precipitation	F611
+xx-racing-leave-course	F612
+xx-racing-faster-motorcycle	F613
+xx-racing-visibility	F614
+xx-racing-sun	F615
 
 
 ## F700-F7FF	Mika City Flags

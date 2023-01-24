@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag fly="h*4/3">
+	<defs>
+		<color id="green">
+			<colorspec model="rgb" value="0 204 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="green"/>
+	<for var="y" start="0" end="4" step="2">
+		<for var="x" start="1" end="3" step="2">
+			<field x1="w*x/5" y1="h*y/5" x2="w*(x+1)/5" y2="h*(y+1)/5" color="white"/>
+			<field x1="w*y/5" y1="h*x/5" x2="w*(y+1)/5" y2="h*(x+1)/5" color="white"/>
+		</for>
+	</for>
+</flag>
