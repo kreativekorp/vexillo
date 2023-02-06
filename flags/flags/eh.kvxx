@@ -5,7 +5,7 @@
 		<dim id="th" e="w/3"/>
 		<dim id="cco" e="w/2"/>
 		<dim id="cch" e="h*5/21"/>
-		<dim id="cci" e="cco-cch/6"/>
+		<dim id="cci" e="cco+cch/6"/>
 		<dim id="sx" e="(cco+cci)/2"/>
 		<dim id="sd" e="cch*0.986*4/5"/>
 		<color id="red">
@@ -34,7 +34,7 @@
 		                     L -0.9511 -0.309 L -0.2245 -0.309 Z"/>
 	</defs>
 	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="black white green"/>
-	<poly points="w 0 w h w-th h/2" color="red"/>
+	<poly points="0 0 0 h th h/2" color="red"/>
 	<disc cx="cco" cy="h/2" w="cch" h="cch" color="red"/>
 	<disc cx="cci" cy="h/2" w="cch" h="cch" color="white"/>
 	<symbol symbol="star" x="sx" y="h/2" sx="sd/2" sy="sd/2" color="red"/>
