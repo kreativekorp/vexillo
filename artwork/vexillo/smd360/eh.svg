@@ -16,9 +16,9 @@
 <rect x="0" y="120" width="480" height="120" class="white"/>
 <rect x="0" y="240" width="480" height="120" class="green"/>
 </g>
-<path d="M 480 0 L 480 360 L 320 180 Z" class="red"/>
+<path d="M 0 0 L 0 360 L 160 180 Z" class="red"/>
 <ellipse cx="240" cy="180" rx="42.8571" ry="42.8571" class="red"/>
-<ellipse cx="225.7143" cy="180" rx="42.8571" ry="42.8571" class="white"/>
-<use xlink:href="#star" transform="translate(232.8571 180) scale(33.8057 33.8057) rotate(0)" class="red"/>
+<ellipse cx="254.2857" cy="180" rx="42.8571" ry="42.8571" class="white"/>
+<use xlink:href="#star" transform="translate(247.1429 180) scale(33.8057 33.8057) rotate(0)" class="red"/>
 </g>
 </svg>

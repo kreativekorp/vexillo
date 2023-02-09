@@ -22,10 +22,10 @@
 <rect x="0" y="120" width="360" height="120" class="white"/>
 <rect x="0" y="240" width="360" height="120" class="green"/>
 </g>
-<path d="M 360 0 L 360 360 L 240 180 Z" class="red"/>
+<path d="M 0 0 L 0 360 L 120 180 Z" class="red"/>
 <ellipse cx="180" cy="180" rx="42.8571" ry="42.8571" class="red"/>
-<ellipse cx="165.7143" cy="180" rx="42.8571" ry="42.8571" class="white"/>
-<use xlink:href="#star" transform="translate(172.8571 180) scale(33.8057 33.8057) rotate(0)" class="red"/>
+<ellipse cx="194.2857" cy="180" rx="42.8571" ry="42.8571" class="white"/>
+<use xlink:href="#star" transform="translate(187.1429 180) scale(33.8057 33.8057) rotate(0)" class="red"/>
 </g>
 <g>
 <rect x="0" y="0" width="360" height="360" fill="url(#glaze)"/>
