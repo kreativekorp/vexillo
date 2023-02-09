@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
-<flag id="gp" name="Guadeloupe" properties="no-flag" fly="h*3/2">
-	<!-- Same as gp-black. -->
+<flag id="gp-black" name="Guadeloupe (Black Local Variant)" properties="no-flag" fly="h*3/2">
 	<defs>
 		<dim id="f" e="min(h/3,w/3)"/>
 		<dim id="s" e="min(h*2/3,w*0.6)"/>

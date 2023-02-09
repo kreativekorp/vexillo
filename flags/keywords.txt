@@ -2089,6 +2089,9 @@ aq-emblem; xx-aq-emblem	antarctica south pole emblem antarctic treaty system dar
 az-artsakh; xx-artsakh	eastern europe western southwestern asia middle east republic azerbaijan artsakh nagorno karabakh nagornokarabakh
 ge-abkhazia; xx-abkhazia	eastern europe western southwestern asia middle east georgia republic abkhazia
 ge-southossetia; xx-southossetia	eastern europe western southwestern asia middle east georgia republic south ossetia state alania tskhinvali region
+gp-black	north america caribbean france french republic overseas region guadeloupe black local variant
+gp-red	north america caribbean france french republic overseas region guadeloupe red local variant
+gp-uplg	north america caribbean france french republic overseas region guadeloupe uplg peoples union liberation
 md-transnistria; xx-transnistria	eastern europe republic moldova transnistria transdniestria pridnestrovian moldavian pmr
 so-somaliland; xx-somaliland	east africa federal republic somalia somaliland
 sy-snc; xx-sy-snc	western southwestern asia middle east syria syrian arab republic national coalition

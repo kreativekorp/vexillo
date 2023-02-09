@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
-<flag id="gp" name="Guadeloupe" properties="no-flag" fly="h*3/2">
-	<!-- Same as gp-black. -->
+<flag id="gp-red" name="Guadeloupe (Red Local Variant)" properties="no-flag" fly="h*3/2">
 	<defs>
 		<dim id="f" e="min(h/3,w/3)"/>
 		<dim id="s" e="min(h*2/3,w*0.6)"/>
 		<color id="blue">
 			<colorspec model="rgb" value="0 36 136"/>
 		</color>
-		<color id="black">
-			<colorspec model="rgb" value="0 0 0"/>
+		<color id="red">
+			<colorspec model="rgb" value="218 18 26"/>
 		</color>
 		<color id="yellow">
 			<colorspec model="rgb" value="252 221 9"/>
@@ -486,7 +485,7 @@
 			L 0.0377 0.3335 Z
 		"/>
 	</defs>
-	<hband x1="0" y1="0" x2="w" y2="h" bands="2" colors="blue black" weights="1 2"/>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="2" colors="blue red" weights="1 2"/>
 	<symbol symbol="fleur" x="w*0.185" y="h/6" sx="f" sy="f" color="yellow"/>
 	<symbol symbol="fleur" x="w*0.500" y="h/6" sx="f" sy="f" color="yellow"/>
 	<symbol symbol="fleur" x="w*0.815" y="h/6" sx="f" sy="f" color="yellow"/>

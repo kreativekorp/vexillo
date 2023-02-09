@@ -2502,6 +2502,9 @@ aq-emblem; xx-aq-emblem	FLAG FOR ANTARCTICA-ANTARCTIC TREATY SYSTEM
 az-artsakh; xx-artsakh	FLAG FOR ARTSAKH
 ge-abkhazia; xx-abkhazia	FLAG FOR ABKHAZIA
 ge-southossetia; xx-southossetia	FLAG FOR SOUTH OSSETIA
+gp-black	FLAG FOR GUADELOUPE-BLACK LOCAL VARIANT
+gp-red	FLAG FOR GUADELOUPE-RED LOCAL VARIANT
+gp-uplg	FLAG FOR PEOPLES UNION FOR THE LIBERATION OF GUADELOUPE
 md-transnistria; xx-transnistria	FLAG FOR TRANSNISTRIA
 so-somaliland; xx-somaliland	FLAG FOR SOMALILAND
 sy-snc; xx-sy-snc	FLAG FOR SYRIAN NATIONAL COALITION

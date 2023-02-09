@@ -2520,6 +2520,9 @@ aq-emblem; xx-aq-emblem	F30C
 az-artsakh; xx-artsakh	F30F
 ge-abkhazia; xx-abkhazia	F342
 ge-southossetia; xx-southossetia	F343
+gp-black	F348
+gp-red	F349
+gp-uplg	F34A
 md-transnistria; xx-transnistria	F371
 so-somaliland; xx-somaliland	F3B9
 sy-snc; xx-sy-snc	F3BF
