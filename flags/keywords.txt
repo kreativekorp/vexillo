@@ -225,7 +225,7 @@ uk	northern europe united kingdom great britain ireland uk gb union jack
 gg	northern europe united kingdom great britain uk gb bailiwick guernsey
 im	northern europe united kingdom great britain uk gb isle man mann
 je	northern europe united kingdom great britain uk gb bailiwick jersey
-sq	northern europe united kingdom great britain uk gb sark sercq ser cerq
+cq	northern europe united kingdom great britain uk gb sark sercq ser cerq
 xe	northern europe united kingdom great britain uk gb england
 xs	northern europe united kingdom great britain uk gb scotland
 xw	northern europe united kingdom great britain uk gb wales

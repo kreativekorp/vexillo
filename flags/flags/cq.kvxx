@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
-<flag id="sq" name="Sark" fly="h*5/3">
+<flag id="cq" name="Sark" fly="h*5/3">
 	<defs>
 		<dim id="y1" e="h*2/5"/>
 		<dim id="y2" e="h*3/5"/>
