@@ -90,7 +90,7 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="artwork/vexillo/pgc024/uk-nir.png" width="18" height="12" title="Northern Ireland"></td><td><code>uk-nir</code></td><td>Northern Ireland</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/uk-sct.png" width="18" height="12" title="Scotland"></td><td><code>uk-sct</code></td><td>Scotland</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/uk-wls.png" width="18" height="12" title="Wales"></td><td><code>uk-wls</code></td><td>Wales</td></tr>
-</table></td></tr><tr><td valign="top"><table align="center">
+</table></td><td valign="top"><table align="center">
 <tr><td><img src="artwork/vexillo/pgc024/us-ak.png" width="18" height="12" title="Alaska"></td><td><code>us-ak</code></td><td>Alaska</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-al.png" width="18" height="12" title="Alabama"></td><td><code>us-al</code></td><td>Alabama</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-ar.png" width="18" height="12" title="Arkansas"></td><td><code>us-ar</code></td><td>Arkansas</td></tr>
