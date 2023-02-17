@@ -49,8 +49,8 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 ## ISO Country Code Subdivisions
 
 <table align="center"><tr><td valign="top"><table align="center">
-<tr><td><img src="artwork/vexillo/pgc024/aq-bartram.png" width="18" height="12" title="Antarctica (Graham Bartram Proposal)"></td><td><code>aq-bartram</code></td><td>Antarctica (Graham Bartram Proposal)</td></tr>
-<tr><td><img src="artwork/vexillo/pgc024/aq-emblem.png" width="18" height="12" title="Antarctica (Emblem of the Antarctic Treaty System)"></td><td><code>aq-emblem</code></td><td>Antarctica (Emblem of the Antarctic Treaty System)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/aq-bartram.png" width="18" height="12" title="Antarctica (Graham Bartram Prop.)"></td><td><code>aq-bartram</code></td><td>Antarctica (Graham Bartram Prop.)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/aq-emblem.png" width="18" height="12" title="Antarctica (Antarctic Treaty System)"></td><td><code>aq-emblem</code></td><td>Antarctica (Antarctic Treaty System)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/aq-smith.png" width="18" height="12" title="Antarctica (Whitney Smith Proposal)"></td><td><code>aq-smith</code></td><td>Antarctica (Whitney Smith Proposal)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/au-aboriginal.png" width="18" height="12" title="Australian Aboriginal"></td><td><code>au-aboriginal</code></td><td>Australian Aboriginal</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/ca-on.png" width="18" height="12" title="Ontario"></td><td><code>ca-on</code></td><td>Ontario</td></tr>
@@ -69,8 +69,8 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="artwork/vexillo/pgc024/gb-sct.png" width="18" height="12" title="Scotland"></td><td><code>gb-sct</code></td><td>Scotland</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/gb-wls.png" width="18" height="12" title="Wales"></td><td><code>gb-wls</code></td><td>Wales</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/gp-black.png" width="18" height="12" title="Guadeloupe (Black Local Variant)"></td><td><code>gp-black</code></td><td>Guadeloupe (Black Local Variant)</td></tr>
-<tr><td><img src="artwork/vexillo/pgc024/gb-red.png" width="18" height="12" title="Guadeloupe (Red Local Variant)"></td><td><code>gb-red</code></td><td>Guadeloupe (Red Local Variant)</td></tr>
-<tr><td><img src="artwork/vexillo/pgc024/gb-uplg.png" width="18" height="12" title="Guadeloupe (UPLG)"></td><td><code>gb-uplg</code></td><td>Guadeloupe (UPLG)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/gp-red.png" width="18" height="12" title="Guadeloupe (Red Local Variant)"></td><td><code>gp-red</code></td><td>Guadeloupe (Red Local Variant)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/gp-uplg.png" width="18" height="12" title="Guadeloupe (UPLG)"></td><td><code>gp-uplg</code></td><td>Guadeloupe (UPLG)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/it-82.png" width="18" height="12" title="Sicily"></td><td><code>it-82</code></td><td>Sicily</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/jp-01.png" width="18" height="12" title="Hokkaido"></td><td><code>jp-01</code></td><td>Hokkaido</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/jp-13.png" width="18" height="12" title="Tokyo"></td><td><code>jp-13</code></td><td>Tokyo</td></tr>
