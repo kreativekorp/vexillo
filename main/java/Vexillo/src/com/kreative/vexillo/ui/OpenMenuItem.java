@@ -16,24 +16,30 @@ import com.kreative.vexillo.core.FlagParser;
 public class OpenMenuItem extends JMenuItem {
 	private static final long serialVersionUID = 1L;
 	
+	private static String lastOpenDirectory = null;
+	
 	public OpenMenuItem() {
 		setText("Open...");
 		if (!OSUtils.isMacOS()) setMnemonic(KeyEvent.VK_O);
 		setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, InputUtils.META_MASK));
 		addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent event) {
-				FileDialog fd = new FileDialog(new Frame(), "Open", FileDialog.LOAD);
+				Frame frame = new Frame();
+				FileDialog fd = new FileDialog(frame, "Open", FileDialog.LOAD);
+				if (lastOpenDirectory != null) fd.setDirectory(lastOpenDirectory);
 				fd.setVisible(true);
-				if (fd.getDirectory() == null || fd.getFile() == null) return;
-				File file = new File(fd.getDirectory(), fd.getFile());
+				String ds = fd.getDirectory(), fs = fd.getFile();
+				fd.dispose();
+				frame.dispose();
+				if (ds == null || fs == null) return;
+				File file = new File((lastOpenDirectory = ds), fs);
 				try {
 					FileInputStream in = new FileInputStream(file);
 					Flag flag = FlagParser.parse(file.getName(), in);
 					in.close();
 					String title = file.getName();
 					if (flag.getName() != null) title += ": " + flag.getName();
-					FlagFrame frame = new FlagFrame(title, file, file.getParentFile(), flag);
-					frame.setVisible(true);
+					new FlagFrame(title, file, file.getParentFile(), flag).setVisible(true);
 				} catch (Exception e) {
 					JOptionPane.showMessageDialog(null, "Error: " + e.getMessage(), "Open", JOptionPane.ERROR_MESSAGE);
 				}

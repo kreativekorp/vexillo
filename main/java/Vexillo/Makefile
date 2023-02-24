@@ -1,6 +1,6 @@
 SRCFILES := $(shell find src -name \*.java)
-RESFILES := $(shell (find src -name \*.dtd ; find src -name \*.ttf ; find src -name \*.png) | sed s/^src\\///)
-PACKAGES := $(shell find src -name \*.java | sed -E s/^src\\/\|\\/[^\\/]+$$//g | sort | uniq | tr / .)
+RESFILES := $(shell find src -type f \! -name .\* \! -name \*.java | sed s/^src\\///)
+PACKAGES := $(shell find src -name \*.java | sed -E s/^src\\/\|\\/[^\\/]+$$//g | grep -v \\.java$$ | sort | uniq | tr / .)
 
 all: clean bin doc vexillo.jar vexillo-src.tgz
 
@@ -18,12 +18,15 @@ eclipseclean:
 
 bin: src
 	mkdir -p bin
-	javac -sourcepath src $(SRCFILES) -d bin
+ifeq ($(origin JAVACFLAGS), undefined)
+	$(eval JAVACFLAGS = $(shell dep/minJavaVerOpts))
+endif
+	javac $(JAVACFLAGS) -sourcepath src $(SRCFILES) -d bin
 	$(foreach res,$(RESFILES),cp src/$(res) bin/$(res);)
 
 doc: src
 	mkdir -p doc
-	javadoc -sourcepath src $(PACKAGES) -d doc
+	javadoc $(JAVADOCFLAGS) -sourcepath src $(PACKAGES) -d doc
 
 vexillo.jar: bin
 	export COPYFILE_DISABLE=true

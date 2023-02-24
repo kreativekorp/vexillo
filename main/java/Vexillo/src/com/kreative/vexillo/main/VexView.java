@@ -1,8 +1,12 @@
 package com.kreative.vexillo.main;
 
+import java.awt.Toolkit;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import javax.swing.UIManager;
 import com.kreative.vexillo.core.Flag;
 import com.kreative.vexillo.core.FlagParser;
 import com.kreative.vexillo.ui.DummyFrame;
@@ -38,11 +42,27 @@ public class VexView {
 	}
 	
 	private static void init() {
-		if (OSUtils.isMacOS()) {
-			try { System.setProperty("apple.laf.useScreenMenuBar", "true"); } catch (Exception e) {}
-			try { System.setProperty("com.apple.mrj.application.apple.menu.about.name", "VexView"); } catch (Exception e) {}
-			new DummyFrame();
-		}
+		try { System.setProperty("com.apple.mrj.application.apple.menu.about.name", "VexView"); } catch (Exception e) {}
+		try { System.setProperty("apple.laf.useScreenMenuBar", "true"); } catch (Exception e) {}
+		try { UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName()); } catch (Exception e) {}
+		
+		try {
+			Method getModule = Class.class.getMethod("getModule");
+			Object javaDesktop = getModule.invoke(Toolkit.getDefaultToolkit().getClass());
+			Object allUnnamed = getModule.invoke(VexView.class);
+			Class<?> module = Class.forName("java.lang.Module");
+			Method addOpens = module.getMethod("addOpens", String.class, module);
+			addOpens.invoke(javaDesktop, "sun.awt.X11", allUnnamed);
+		} catch (Exception e) {}
+		
+		try {
+			Toolkit tk = Toolkit.getDefaultToolkit();
+			Field aacn = tk.getClass().getDeclaredField("awtAppClassName");
+			aacn.setAccessible(true);
+			aacn.set(tk, "VexView");
+		} catch (Exception e) {}
+		
+		if (OSUtils.isMacOS()) new DummyFrame();
 	}
 	
 	private static void readFile(File file) {
