@@ -2115,6 +2115,7 @@ xx-conlang-novial	conlang constructed language nov novial nova international aux
 xx-conlang-pandunia	conlang constructed language qpn pandunia risto kupsala
 xx-conlang-volapuk	conlang constructed language vol volapuk johann martin schleyer
 xx-conlang-klingon	conlang constructed language tlh tlhingan hol klingon empire kronos qonos star trek marc okrand
+xx-conlang-votgil	conlang constructed language votgil jack eisenmann
 
 
 ## Pride Flags

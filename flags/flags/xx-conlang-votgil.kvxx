@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="V&#246;tgil" fly="h*3/2">
+	<defs>
+		<dim id="s" e="min(h,w*7/10)"/>
+		<color id="gray">
+			<colorspec model="rgb" value="68 68 68"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<symdef id="votgil" d="
+			M 0.7778 -0.25 v -0.0556 H 0.3056 V -0.7778
+			h -0.0556 v 0.4722 H -0.25 V -0.7778 h -0.0556
+			v 0.4722 H -0.7778 v 0.0556 h 0.4722 v 0.5
+			H -0.7778 v 0.0556 h 0.4722 v 0.4722 h 0.0556
+			V 0.3056 h 0.5 v 0.4722 h 0.0556 V 0.3056 h 0.4722
+			v -0.0556 H 0.3056 V -0.25 H 0.7778 z
+			M 0.25 0.25 H -0.25 V -0.25 h 0.5 V 0.25 z
+			M -0.151 0.0375 L -0.125 0.0278 l 0.0259 -0.0099
+			C -0.098 0.0205 -0.0726 0.0833 0 0.0833
+			s 0.098 -0.0628 0.0991 -0.0655 l 0.052 0.0197
+			C 0.1495 0.0417 0.1117 0.1389 0 0.1389
+			S -0.1495 0.0417 -0.151 0.0375 z
+			M -0.1111 -0.0833
+			c 0 -0.0153 0.0124 -0.0278 0.0278 -0.0278
+			s 0.0278 0.0124 0.0278 0.0278
+			s -0.0124 0.0278 -0.0278 0.0278
+			S -0.1111 -0.068 -0.1111 -0.0833 z
+			M 0.0556 -0.0833
+			c 0 -0.0153 0.0124 -0.0278 0.0278 -0.0278
+			s 0.0278 0.0124 0.0278 0.0278
+			s -0.0124 0.0278 -0.0278 0.0278
+			S 0.0556 -0.068 0.0556 -0.0833 z
+		"/>
+	</defs>
+	<vband x1="0" y1="0" x2="w" y2="h" bands="3" colors="gray white gray" weights="3 14 3"/>
+	<symbol symbol="votgil" x="w/2" y="h/2" sx="s/2" sy="s/2" color="black"/>
+</flag>

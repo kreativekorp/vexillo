@@ -2534,6 +2534,13 @@ xx-refugeenation	F3ED; 1F3F3+200D+1F7E7+200D+2B1B+200D+1F7E7; 1F3F4+200D+1F7E7+2
 ## F400-F4FF	Constructed Language Flags
 
 xx-conlang	F400
+
+# Well-Known Auxlangs
+# F410 A | F420 EF | F430 LM
+# F414 B | F424 GH | F434 NO
+# F418 C | F428 IJ | F438 PQRS
+# F41C D | F42C K  | F43C TUVW
+
 xx-conlang-bolak	F414
 xx-conlang-esperanto	F420
 xx-conlang-glosa	F424
@@ -2545,7 +2552,22 @@ xx-conlang-lojban	F431
 xx-conlang-novial	F434
 xx-conlang-pandunia	F438
 xx-conlang-volapuk	F43E
+
+# Well-Known Artlangs
+
 xx-conlang-klingon	F440
+
+# Other Conlangs
+# F480 A | F4A0 F | F4C0 M | F4E0 T
+# F484 A | F4A4 G | F4C4 N | F4E4 T
+# F488 B | F4A8 H | F4C8 O | F4E8 U
+# F48C B | F4AC I | F4CC P | F4EC V
+# F490 C | F4B0 J | F4D0 Q | F4F0 W
+# F494 C | F4B4 K | F4D4 R | F4F4 X
+# F498 D | F4B8 L | F4D8 S | F4F8 Y
+# F49C E | F4BC M | F4DC S | F4FC Z
+
+xx-conlang-votgil	F4EE
 
 
 ## F500-F5FF	Pride Flags

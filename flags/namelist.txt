@@ -2528,6 +2528,7 @@ xx-conlang-novial	FLAG FOR NOVIAL
 xx-conlang-pandunia	FLAG FOR PANDUNIA
 xx-conlang-volapuk	FLAG FOR VOLAPUK
 xx-conlang-klingon	FLAG FOR KLINGON
+xx-conlang-votgil	FLAG FOR VOTGIL
 
 
 ## F500-F5FF	Pride Flags
