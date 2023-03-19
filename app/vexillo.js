@@ -423,6 +423,7 @@ $(document).ready(function() {
 	}
 	
 	var updateStyleSelector = function() {
+		$('.tiles').attr('class', 'tiles ' + currentStyleID);
 		$('.style-selector').removeClass('selected');
 		$('.style-selector').each(function() {
 			var sel = $(this);
