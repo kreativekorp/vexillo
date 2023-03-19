@@ -20,10 +20,13 @@ public class BirdStylizer implements Stylizer {
 	public BufferedImage stylize(FlagRenderer r, int w, int h, ImageScaler unused2, int unused3, int unused4) {
 		BufferedImage im1 = r.renderToImage(width, height, scaler, supersample, 0);
 		BufferedImage im2 = new BufferedImage(width, width, BufferedImage.TYPE_INT_ARGB);
+		BufferedImage im3 = new BufferedImage(width, width, BufferedImage.TYPE_INT_ARGB);
 		int[] rgb = new int[width * height];
 		im1.getRGB(0, 0, width, height, rgb, 0, width);
 		im2.setRGB(0, (width - height) / 2, width, height, rgb, 0, width);
-		im1 = JAIUtils.multiply(createTemplate(r), im2);
+		for (int i = 0; i < width; i++) rgb[i] = 0xFF141414;
+		im3.setRGB(0, 0, width, width, rgb, 0, 0);
+		im1 = JAIUtils.multiplyAdd(createTemplate(r), im2, im3);
 		return ImageScaler.ITERATIVE_BICUBIC.scale(im1, w, h);
 	}
 	
@@ -35,11 +38,11 @@ public class BirdStylizer implements Stylizer {
 		stroke = s.createStrokedShape(inner); inner.add(new Area(stroke));
 		BufferedImage tmpl = new BufferedImage(width, width, BufferedImage.TYPE_INT_ARGB);
 		int[] rgb = new int[width];
-		for (int i = 0; i < width; i++) rgb[i] = 0xEEEEEE;
+		for (int i = 0; i < width; i++) rgb[i] = 0xDADADA;
 		tmpl.setRGB(0, 0, width, width, rgb, 0, 0);
 		Graphics2D g = tmpl.createGraphics();
 		JAIUtils.prep(g);
-		g.setPaint(new Color(0xEEEEEE));
+		g.setPaint(new Color(0xDADADA));
 		g.fill(inner);
 		g.dispose();
 		return tmpl;
