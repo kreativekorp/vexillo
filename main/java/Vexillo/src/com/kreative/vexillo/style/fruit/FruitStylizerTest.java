@@ -2,6 +2,8 @@ package com.kreative.vexillo.style.fruit;
 
 import java.awt.Color;
 import java.awt.Graphics2D;
+import java.awt.Rectangle;
+import java.awt.Shape;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -13,22 +15,30 @@ import com.kreative.vexillo.style.JAIUtils;
 public class FruitStylizerTest {
 	public static void main(String[] args) throws IOException {
 		FruitStylizer fs = new FruitStylizer();
-		FlagRenderer whiteRenderer = new TestFlagRenderer(Color.white);
-		FlagRenderer blackRenderer = new TestFlagRenderer(Color.black);
-		BufferedImage whiteImage = fs.stylize(whiteRenderer, 160, 160, null, 0, 0);
-		BufferedImage blackImage = fs.stylize(blackRenderer, 160, 160, null, 0, 0);
-		BufferedImage maxImage = ImageIO.read(FruitStylizerTest.class.getResourceAsStream("fruitstylizer-max.png"));
-		BufferedImage minImage = ImageIO.read(FruitStylizerTest.class.getResourceAsStream("fruitstylizer-min.png"));
-		int[] whiteDiff = difference(whiteImage, maxImage);
-		int[] blackDiff = difference(blackImage, minImage);
+		FlagRenderer whiteRenderer = new TestFlagRenderer(Color.white, false);
+		FlagRenderer blackRenderer = new TestFlagRenderer(Color.black, false);
+		BufferedImage actualWhite = fs.stylize(whiteRenderer, 160, 160, null, 0, 0);
+		BufferedImage actualBlack = fs.stylize(blackRenderer, 160, 160, null, 0, 0);
+		BufferedImage actualRange = diffImage(difference(actualWhite, actualBlack), 160, 160, 255 << 24);
+		BufferedImage expectedWhite = ImageIO.read(FruitStylizerTest.class.getResourceAsStream("fruitstylizer-max.png"));
+		BufferedImage expectedBlack = ImageIO.read(FruitStylizerTest.class.getResourceAsStream("fruitstylizer-min.png"));
+		BufferedImage expectedRange = diffImage(difference(expectedWhite, expectedBlack), 160, 160, 255 << 24);
+		ImageIO.write(actualWhite, "png", new File("dev/test-white.png"));
+		ImageIO.write(actualBlack, "png", new File("dev/test-black.png"));
+		ImageIO.write(actualRange, "png", new File("dev/test-range.png"));
+		int[] whiteDiff = difference(actualWhite, expectedWhite);
+		int[] blackDiff = difference(actualBlack, expectedBlack);
+		int[] rangeDiff = difference(actualRange, expectedRange);
 		System.out.println("white: " + diffString(whiteDiff));
 		System.out.println("black: " + diffString(blackDiff));
-		ImageIO.write(diffImage(whiteDiff, 160, 160), "png", new File("dev/test-whitediff.png"));
-		ImageIO.write(diffImage(blackDiff, 160, 160), "png", new File("dev/test-blackdiff.png"));
+		System.out.println("range: " + diffString(rangeDiff));
+		ImageIO.write(diffImage(whiteDiff, 160, 160, -1), "png", new File("dev/test-whitediff.png"));
+		ImageIO.write(diffImage(blackDiff, 160, 160, -1), "png", new File("dev/test-blackdiff.png"));
+		ImageIO.write(diffImage(rangeDiff, 160, 160, -1), "png", new File("dev/test-rangediff.png"));
 		
-		String[] imageNames = new String[] { "max", "min", "minminuslingrad", "range" };
+		String[] imageNames = new String[] { "max", "min", "min2", "minminuslingrad", "range" };
 		for (String imageName : imageNames) {
-			BufferedImage img = ImageIO.read(FruitStylizerTest.class.getResourceAsStream("fruitstylizer-" + imageName + ".png"));
+			BufferedImage img = ImageIO.read(new File("dev/aceflag" + imageName + ".png"));
 			ImageIO.write(unwarp(img), "png", new File("dev/unwarp-" + imageName + ".png"));
 		}
 	}
@@ -73,9 +83,9 @@ public class FruitStylizerTest {
 		);
 	}
 	
-	private static BufferedImage diffImage(int[] diff, int w, int h) {
+	private static BufferedImage diffImage(int[] diff, int w, int h, int mask) {
 		int[] ffid = new int[diff.length];
-		for (int i = 0; i < diff.length; i++) ffid[i] = ~diff[i];
+		for (int i = 0; i < diff.length; i++) ffid[i] = diff[i] ^ mask;
 		BufferedImage d = new BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
 		d.setRGB(0, 0, w, h, ffid, 0, w);
 		return d;
@@ -107,16 +117,24 @@ public class FruitStylizerTest {
 	
 	private static class TestFlagRenderer extends FlagRenderer {
 		private final Color color;
-		private TestFlagRenderer(Color color) {
+		private final boolean isRectangular;
+		private TestFlagRenderer(Color color, boolean isRectangular) {
 			super(null, null, null);
 			this.color = color;
+			this.isRectangular = isRectangular;
 		}
 		public void render(Graphics2D g, int x, int y, int w, int h) {
 			g.setColor(this.color);
 			g.fillRect(x, y, w, h);
 		}
 		public boolean isRectangular() {
-			return true;
+			return this.isRectangular;
+		}
+		public Rectangle getBoundaryRect(int x, int y, int w, int h) {
+			return new Rectangle(x, y, w, h);
+		}
+		public Shape getBoundaryShape(int x, int y, int w, int h) {
+			return new Rectangle(x, y, w, h);
 		}
 	}
 }

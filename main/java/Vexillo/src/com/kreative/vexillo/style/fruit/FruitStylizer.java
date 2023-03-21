@@ -3,8 +3,6 @@ package com.kreative.vexillo.style.fruit;
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Graphics2D;
-import java.awt.LinearGradientPaint;
-import java.awt.Point;
 import java.awt.Shape;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Area;
@@ -73,14 +71,15 @@ public class FruitStylizer implements Stylizer {
 		tmpl.setRGB(0, 0, w, h, rgb, 0, 0);
 		
 		Graphics2D g = tmpl.createGraphics();
-		JAIUtils.prep(g);
 		g.clip(outer);
 		g.setColor(new Color(0xCCCCCC));
 		g.fillRect(0, 0, w, h);
 		
 		// inner round rectangle gradient
 		Shape inner = contract(outer, 70);
-		for (int v = 205, d = 216; v <= 217; d -= 16, v++) {
+		for (int i = 0; i < rrectGrad.length;) {
+			int v = rrectGrad[i++];
+			int d = rrectGrad[i++] * 2;
 			g.setColor(new Color(v, v, v));
 			g.setStroke(new BasicStroke(d, BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND));
 			g.draw(inner);
@@ -88,7 +87,9 @@ public class FruitStylizer implements Stylizer {
 		g.fill(inner);
 		
 		// outer rectangle gradient
-		for (int v = 203, d = 24; d > 0; d -= 3, v -= 7) {
+		for (int i = 0; i < outGrad.length;) {
+			int v = outGrad[i++];
+			int d = outGrad[i++] * 2;
 			g.setColor(new Color(v, v, v));
 			g.setStroke(new BasicStroke(d));
 			g.draw(outer);
@@ -100,7 +101,7 @@ public class FruitStylizer implements Stylizer {
 			public void apply(Graphics2D g, Shape s, float x1, float y1, float x2, float y2) {
 				if (isTopEdge(s, x1, y1, x2, y2)) {
 					line.setLine(x1, y1, x2, y2);
-					g.setColor(new Color(0, 0, 0, 10));
+					g.setColor(new Color(0, 0, 0, 9));
 					for (int d = 28; d > 0; d -= 2) {
 						g.setStroke(new BasicStroke(d));
 						g.draw(line);
@@ -122,29 +123,18 @@ public class FruitStylizer implements Stylizer {
 	}
 	
 	private static BufferedImage createMin(Shape outer, int w, int h) {
-		BufferedImage tmpl = new BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
-		Graphics2D g = tmpl.createGraphics();
-		JAIUtils.prep(g);
-		
 		// linear gradient
-		g.setPaint(new LinearGradientPaint(
-			new Point(0, h/2),
-			new Point(w, h/2),
-			new float[]{ 0, 0.46f, 0.635f, 0.87f, 0.9f, 0.965f },
-			new Color[]{
-				new Color(0, 0, 0),
-				new Color(38, 38, 38),
-				new Color(38, 38, 38),
-				new Color(0, 0, 0),
-				new Color(0, 0, 0),
-				new Color(22, 22, 22),
-			}
-		));
-		g.fillRect(0, 0, w, h);
-		g.setPaint(new Color(21, 21, 21));
-		g.fillRect(w-4, 0, 2, h);
+		BufferedImage tmpl = new BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
+		int[] rgb = new int[w];
+		for (int x = 0, i = 0; i < linGrad.length;) {
+			int count = linGrad[i++] * 2;
+			int value = (linGrad[i++] * 0x010101) | (0xFF << 24);
+			while (count-- > 0) rgb[x++] = value;
+		}
+		tmpl.setRGB(0, 0, w, h, rgb, 0, 0);
 		
 		// highlights and other weird stuff
+		Graphics2D g = tmpl.createGraphics();
 		new EdgeEffect(10, 1) {
 			public void apply(Graphics2D g, Shape s, float x1, float y1, float x2, float y2) {
 				if (isTopEdge(s, x1, y1, x2, y2)) {
@@ -172,7 +162,6 @@ public class FruitStylizer implements Stylizer {
 				}
 			}
 		}.apply(g, outer);
-		
 		g.dispose();
 		return tmpl;
 	}
@@ -238,4 +227,26 @@ public class FruitStylizer implements Stylizer {
 		bot1VHilite.curveTo(0.732, -0.132, 0.818, 0, 0.818, 0);
 		bot1VHilite.closePath();
 	}
+	
+	private static final int[] linGrad = {
+		2, 0, 3, 1, 2, 2, 2, 3, 2, 4, 1, 5, 2, 6, 2, 7, 2, 8, 1, 9,
+		1, 10, 2, 11, 2, 12, 1, 13, 1, 14, 2, 15, 1, 16, 1, 17, 2, 18,
+		1, 19, 2, 20, 1, 21, 1, 22, 2, 23, 1, 24, 2, 25, 1, 26, 2, 27,
+		1, 28, 1, 29, 2, 30, 2, 31, 2, 32, 1, 33, 2, 34, 3, 35, 2, 36,
+		3, 37, 26, 38, 1, 37, 1, 36, 1, 35, 1, 34, 1, 33, 1, 32, 1, 31,
+		1, 29, 1, 28, 1, 27, 1, 25, 1, 24, 1, 22, 1, 21, 1, 20, 1, 18,
+		1, 16, 1, 15, 1, 14, 1, 13, 1, 11, 1, 10, 1, 8, 1, 7, 1, 6,
+		1, 5, 1, 4, 2, 3, 1, 2, 2, 1, 4, 0, 1, 1, 1, 3, 1, 4, 1, 7,
+		1, 9, 1, 12, 1, 14, 1, 17, 1, 20, 3, 22, 1, 21, 1, 22
+	};
+	
+	private static final int[] rrectGrad = {
+		205, 90, 206, 78, 207, 72, 208, 66, 209, 62, 210, 58, 211, 54,
+		212, 50, 213, 46, 214, 36, 215, 30, 216, 24, 217, 12
+	};
+	
+	private static final int[] outGrad = {
+		205, 12, 202, 11, 198, 10, 192, 9, 186, 8, 180, 7,
+		172, 6, 164, 5, 156, 4, 150, 3, 148, 2, 146, 1
+	};
 }
