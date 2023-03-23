@@ -36,6 +36,22 @@
 			s -0.0124 0.0278 -0.0278 0.0278
 			S 0.0556 -0.068 0.0556 -0.0833 z
 		"/>
+		<imgdef id=".acnl">
+			<imgsrc type="application/x-acnl" enc="ascii85">
+				<![CDATA[
+					<WMgnF9#qRB`MrLzzzzzzz!!&nd<WH\2GQ;FXC]J8ODZBb;zb.^LKEWBYN@/tBLB`N;VAH2]1zn%WcO%
+					hB0]%hB0]%hB0N$4-\4&J6`R1G^gC1G^gC1D:?4&J6`R1G^gC1G^gC1D:?4&J6`R1G^gC1G^gC1D:?4&
+					J6`R1G^gC1G^gC1D:?4&J6`R1G^gC1G^gC1D:?4&J6`R1G^gC1G^gC1D:?4&J6`R1G^gC1G^gC1D:?4&
+					J6`R1G^^@1BTEh1D:?4&J6`R1G^^@1BTEh1D:?4&J6`R1G^^@1BTEh1D:?4&J6`R1G^^@1BTEh1D:?4&
+					J6`R1G^^@1BTEh1D:?4&J6`"zz0G>$1&J6`R1G^^@1BTEh1D:?4&J6`R1G^^=!s:>81D:?4&J6`R1G^^
+					@1BTEh1D:?4&J6`R1G^^=!s:>81D:?4&J6`R1G^]e0EX*e1D:?4&J6`R1G^^@1BTEh1D:?4&J6`"zz0G
+					>$1&J6`R1G^^@1BTEh1D:?4&J6`R1G^^@1BTEh1D:?4&J6`R1G^^@1BTEh1D:?4&J6`R1G^^@1BTEh1D
+					:?4&J6`R1G^^@1BTEh1D:?4&J6`R1G^gC1G^gC1D:?4&J6`R1G^gC1G^gC1D:?4&J6`R1G^gC1G^gC1D
+					:?4&J6`R1G^gC1G^gC1D:?4&J6`R1G^gC1G^gC1D:?4&J6`R1G^gC1G^gC1D:?4&J6`R1G^gC1G^gC1D
+					:?4
+				]]>
+			</imgsrc>
+		</imgdef>
 	</defs>
 	<vband x1="0" y1="0" x2="w" y2="h" bands="3" colors="gray white gray" weights="3 14 3"/>
 	<symbol symbol="votgil" x="w/2" y="h/2" sx="s/2" sy="s/2" color="black"/>
