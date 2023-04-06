@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="bq-se" name="Sint Eustatius" fly="h*3/2">
+	<defs>
+		<dim id="t" e="h/25"/>
+		<dim id="ph" e="(h-t)/2"/>
+		<dim id="pw" e="ph*1.78"/>
+		<dim id="s" e="h*0.06"/>
+		<dim id="sy" e="h*0.392"/>
+		<color id="red">
+			<colorspec model="rgb" value="220 23 29"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="1 42 135"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="249 217 15"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="0 136 48"/>
+		</color>
+		<symdef id="star" d="
+			M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+			L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+			L -0.5878 0.809 L -0.3633 0.118
+			L -0.9511 -0.309 L -0.2245 -0.309 Z
+		"/>
+		<symdef id="island" d="
+			M -0.2809 0.0614 C -0.2764 0.0467 -0.2665 0.0401 -0.2532 0.0431
+			C -0.245 0.0119 -0.207 0.0063 -0.1919 0.0217 L -0.1548 0.059
+			C -0.1467 0.0627 -0.1344 0.0641 -0.1259 0.0641
+			C -0.1154 0.0643 -0.1165 0.0691 -0.1077 0.0693
+			C -0.0842 0.0697 -0.0225 0.07 -0.0113 0.0693
+			C -0.0067 0.069 0.0956 -0.0438 0.0956 -0.0438
+			C 0.1041 -0.0543 0.1263 -0.0577 0.1385 -0.0492
+			C 0.1498 -0.0385 0.1617 -0.0373 0.17 -0.0444
+			C 0.1773 -0.0553 0.194 -0.0566 0.2045 -0.0504
+			L 0.3203 0.0393 L 0.1642 0.1267 H -0.1643 L -0.2809 0.0614 z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<field x1="t" y1="t" x2="w-t" y2="h-t" color="blue"/>
+	<cross x1="0" y1="0" x2="(w-t)/2" y2="(h-t)/2" x3="(w+t)/2" y3="(h+t)/2" x4="w" y4="h" color="red"/>
+	<poly points="(w-pw)/2 h/2 w/2 (h-ph)/2 (w+pw)/2 h/2 w/2 (h+ph)/2" color="white"/>
+	<symbol symbol="star" x="w/2" y="sy" sx="s" sy="s" color="yellow"/>
+	<symbol symbol="island" x="w/2" y="h/2" sx="h" sy="h" color="green"/>
+	<dband x1="w/2" y1="(h-ph)/2" x2="(w-pw)/2" y2="h/2" thickness="t" color="red"/>
+	<dband x1="w/2" y1="(h-ph)/2" x2="(w+pw)/2" y2="h/2" thickness="t" color="red"/>
+	<dband x1="w/2" y1="(h+ph)/2" x2="(w-pw)/2" y2="h/2" thickness="t" color="red"/>
+	<dband x1="w/2" y1="(h+ph)/2" x2="(w+pw)/2" y2="h/2" thickness="t" color="red"/>
+</flag>

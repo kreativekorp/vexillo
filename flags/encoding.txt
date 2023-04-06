@@ -1572,9 +1572,9 @@ nl-zh	E88B
 nl-aw	E890
 nl-cw	E891
 nl-sx	E892
-nl-bq1	E893
-nl-bq2	E894
-nl-bq3	E895
+nl-bq1; bq-bo	E893
+nl-bq2; bq-sa	E894
+nl-bq3; bq-se	E895
 
 nl-ams; xx-amsterdam	E898
 
@@ -1606,22 +1606,49 @@ lu-rm	E8C9
 lu-vd	E8CA
 lu-wi	E8CB
 
-de-bw	E8E0
-de-by	E8E1
-de-be	E8E2
-de-bb	E8E3
-de-hb	E8E4
-de-hh	E8E5
-de-he	E8E6
-de-mv	E8E7
-de-ni	E8E8
-de-nw	E8E9
-de-rp	E8EA
-de-sl	E8EB
-de-sn	E8EC
-de-st	E8ED
-de-sh	E8EE
-de-th	E8EF
+de-bw	E8D0
+de-by	E8D1
+de-be	E8D2
+de-bb	E8D3
+de-hb	E8D4
+de-hh	E8D5
+de-he	E8D6
+de-mv	E8D7
+de-ni	E8D8
+de-nw	E8D9
+de-rp	E8DA
+de-sl	E8DB
+de-sn	E8DC
+de-st	E8DD
+de-sh	E8DE
+de-th	E8DF
+
+pl-02	E8E0
+pl-04	E8E1
+pl-06	E8E2
+pl-08	E8E3
+pl-10	E8E4
+pl-12	E8E5
+pl-14	E8E6
+pl-16	E8E7
+pl-18	E8E8
+pl-20	E8E9
+pl-22	E8EA
+pl-24	E8EB
+pl-26	E8EC
+pl-28	E8ED
+pl-30	E8EE
+pl-32	E8EF
+
+at-1	E8F1
+at-2	E8F2
+at-3	E8F3
+at-4	E8F4
+at-5	E8F5
+at-6	E8F6
+at-7	E8F7
+at-8	E8F8
+at-9	E8F9
 
 
 ## E900-E9FF	Western European Flags B
@@ -1787,6 +1814,85 @@ it-vt	E9ED
 it-sd	E9EE
 
 xx-romanempire	E9FF
+
+
+## ED00-EDFF	Middle Eastern Flags
+
+bh-01	ED00
+bh-02; bh-15	ED01
+bh-03	ED02
+bh-04	ED03
+bh-05	ED04
+bh-06	ED05
+bh-07	ED06
+bh-08	ED07
+bh-09	ED08
+bh-10	ED09
+bh-11	ED0A
+bh-12	ED0B
+bh-13	ED0C
+bh-14	ED0D
+bh-16	ED0E
+bh-17	ED0F
+
+ir-00	ED10
+ir-01	ED11
+ir-02	ED12
+ir-03	ED13
+ir-04	ED14
+ir-05	ED15
+ir-06	ED16
+ir-07	ED17
+ir-08	ED18
+ir-09	ED19
+ir-10	ED1A
+ir-11	ED1B
+ir-12	ED1C
+ir-13	ED1D
+ir-14	ED1E
+ir-15	ED1F
+ir-16	ED20
+ir-17	ED21
+ir-18	ED22
+ir-19	ED23
+ir-20	ED24
+ir-21	ED25
+ir-22	ED26
+ir-23	ED27
+ir-24	ED28
+ir-25	ED29
+ir-26	ED2A
+ir-27	ED2B
+ir-28	ED2C
+ir-29	ED2D
+ir-30	ED2E
+
+iq-an	ED30
+iq-ar	ED31
+iq-ba	ED32
+iq-bb	ED33
+iq-bg	ED34
+iq-da	ED35
+iq-di	ED36
+iq-dq	ED37
+iq-ka	ED38
+iq-ki	ED39
+iq-kr	ED3A
+iq-ma	ED3B
+iq-mu	ED3C
+iq-na	ED3D
+iq-ni	ED3E
+iq-qa	ED3F
+iq-sd	ED40
+iq-su	ED41
+iq-wa	ED42
+
+il-d	ED48
+il-m	ED49
+il-z	ED4A
+il-ha	ED4B
+il-ta	ED4C
+il-jm	ED4D
 
 
 ## EE00-EEFF	Asian Flags A
@@ -2289,6 +2395,10 @@ eg-kn	F118
 eg-sin	F119
 eg-shg	F11A
 
+km-a	F1FC
+km-g	F1FD
+km-m	F1FE
+
 xx-wakanda	F1FF
 
 
@@ -2529,6 +2639,18 @@ sy-snc; xx-sy-snc	F3BF
 xx-kurdistan	F3EB
 xx-northpole	F3EC
 xx-refugeenation	F3ED; 1F3F3+200D+1F7E7+200D+2B1B+200D+1F7E7; 1F3F4+200D+1F7E7+200D+2B1B+200D+1F7E7
+
+xx-int-africanunion	F3F0
+xx-int-arableague	F3F1
+xx-int-aec	F3F2
+xx-int-asean	F3F3
+xx-int-cis	F3F4
+xx-int-commonwealth	F3F5
+xx-int-nato	F3F6
+xx-int-norden	F3F7
+xx-int-pacific	F3F8
+xx-int-saarc	F3F9
+xx-int-ots	F3FA
 
 
 ## F400-F4FF	Constructed Language Flags

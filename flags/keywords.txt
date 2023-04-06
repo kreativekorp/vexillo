@@ -1159,9 +1159,9 @@ nl-zh	western europe kingdom netherlands province zuid south holland
 nl-aw	north america caribbean kingdom netherlands country aruba
 nl-cw	north america caribbean kingdom netherlands country curacao
 nl-sx	north america caribbean kingdom netherlands country sint maarten
-nl-bq1	north america caribbean kingdom netherlands special municipality bonaire
-nl-bq2	north america caribbean kingdom netherlands special municipality saba
-nl-bq3	north america caribbean kingdom netherlands special municipality sint eustatius
+nl-bq1; bq-bo	north america caribbean kingdom netherlands special municipality bonaire
+nl-bq2; bq-sa	north america caribbean kingdom netherlands special municipality saba
+nl-bq3; bq-se	north america caribbean kingdom netherlands special municipality sint eustatius
 
 nl-ams; xx-amsterdam	western europe kingdom netherlands city amsterdam
 
@@ -1209,6 +1209,33 @@ de-sn	western europe federal republic germany land sachsen saxony
 de-st	western europe federal republic germany land sachsen saxony anhalt
 de-sh	western europe federal republic germany land schleswig holstein
 de-th	western europe federal republic germany land thuringen thuringia
+
+pl-02	eastern europe republic poland voivodeship dolnoslaskie lower silesia
+pl-04	eastern europe republic poland voivodeship kujawsko pomorskie kuyavia pomerania
+pl-06	eastern europe republic poland voivodeship lubelskie lublin
+pl-08	eastern europe republic poland voivodeship lubuskie lubusz
+pl-10	eastern europe republic poland voivodeship lodzkie lodz
+pl-12	eastern europe republic poland voivodeship malopolskie lesser
+pl-14	eastern europe republic poland voivodeship mazowieckie mazovia
+pl-16	eastern europe republic poland voivodeship opolskie opole upper silesia
+pl-18	eastern europe republic poland voivodeship podkarpackie subcarpathia
+pl-20	eastern europe republic poland voivodeship podlaskie
+pl-22	eastern europe republic poland voivodeship pomorskie pomerania
+pl-24	eastern europe republic poland voivodeship slaskie silesia
+pl-26	eastern europe republic poland voivodeship swietokrzyskie holy cross
+pl-28	eastern europe republic poland voivodeship warminsko mazurskie warmia masuria
+pl-30	eastern europe republic poland voivodeship wielkopolskie greater
+pl-32	eastern europe republic poland voivodeship zachodniopomorskie west pomerania
+
+at-1	western europe republic austria state burgenland
+at-2	western europe republic austria state karnten carinthia
+at-3	western europe republic austria state niederosterreich lower
+at-4	western europe republic austria state oberosterreich upper
+at-5	western europe republic austria state salzburg
+at-6	western europe republic austria state steiermark styria
+at-7	western europe republic austria state tirol tyrol
+at-8	western europe republic austria state vorarlberg
+at-9	western europe republic austria state wien vienna
 
 
 ## Western European Flags B
@@ -1376,6 +1403,85 @@ it-vv	southern europe italy italian republic province vibo valentia
 xx-romanempire	southern europe roma rome roman kingdom republic empire latin spqr senatus populusque populus que romanus
 
 
+## Middle Eastern Flags
+
+bh-01	western southwestern asia middle east kingdom bahrain region al hadd
+bh-02; bh-15	western southwestern asia middle east kingdom bahrain region governorate al muharraq
+bh-03	western southwestern asia middle east kingdom bahrain region al manamah
+bh-04	western southwestern asia middle east kingdom bahrain region jidd hafs
+bh-05	western southwestern asia middle east kingdom bahrain region al mintaqah ash shamaliyah
+bh-06	western southwestern asia middle east kingdom bahrain region sitrah
+bh-07	western southwestern asia middle east kingdom bahrain region al mintaqah al wusta
+bh-08	western southwestern asia middle east kingdom bahrain region madinat isa
+bh-09	western southwestern asia middle east kingdom bahrain region ar rifa
+bh-10	western southwestern asia middle east kingdom bahrain region al mintaqah al gharbiyah
+bh-11	western southwestern asia middle east kingdom bahrain region mintaqat juzur hawar
+bh-12	western southwestern asia middle east kingdom bahrain region madinat hamad
+bh-13	western southwestern asia middle east kingdom bahrain governorate al asimah
+bh-14	western southwestern asia middle east kingdom bahrain governorate al janubiyah
+bh-16	western southwestern asia middle east kingdom bahrain governorate al wusta
+bh-17	western southwestern asia middle east kingdom bahrain governorate ash shamaliyah
+
+ir-00	western southwestern asia middle east islamic republic iran persia province markazi
+ir-01	western southwestern asia middle east islamic republic iran persia province gilan
+ir-02	western southwestern asia middle east islamic republic iran persia province mazandaran
+ir-03	western southwestern asia middle east islamic republic iran persia province azarbayjan e sharqi
+ir-04	western southwestern asia middle east islamic republic iran persia province azarbayjan e gharbi
+ir-05	western southwestern asia middle east islamic republic iran persia province kermanshah
+ir-06	western southwestern asia middle east islamic republic iran persia province khuzestan
+ir-07	western southwestern asia middle east islamic republic iran persia province fars
+ir-08	western southwestern asia middle east islamic republic iran persia province kerman
+ir-09	western southwestern asia middle east islamic republic iran persia province khorasan e razavi
+ir-10	western southwestern asia middle east islamic republic iran persia province esfahan
+ir-11	western southwestern asia middle east islamic republic iran persia province sistan va baluchestan
+ir-12	western southwestern asia middle east islamic republic iran persia province kordestan
+ir-13	western southwestern asia middle east islamic republic iran persia province hamadan
+ir-14	western southwestern asia middle east islamic republic iran persia province chahar mahal va bakhtiari
+ir-15	western southwestern asia middle east islamic republic iran persia province lorestan
+ir-16	western southwestern asia middle east islamic republic iran persia province ilam
+ir-17	western southwestern asia middle east islamic republic iran persia province kohgiluyeh va bowyer ahmad
+ir-18	western southwestern asia middle east islamic republic iran persia province bushehr
+ir-19	western southwestern asia middle east islamic republic iran persia province zanjan
+ir-20	western southwestern asia middle east islamic republic iran persia province semnan
+ir-21	western southwestern asia middle east islamic republic iran persia province yazd
+ir-22	western southwestern asia middle east islamic republic iran persia province hormozgan
+ir-23	western southwestern asia middle east islamic republic iran persia province tehran
+ir-24	western southwestern asia middle east islamic republic iran persia province ardabil
+ir-25	western southwestern asia middle east islamic republic iran persia province qom
+ir-26	western southwestern asia middle east islamic republic iran persia province qazvin
+ir-27	western southwestern asia middle east islamic republic iran persia province golestan
+ir-28	western southwestern asia middle east islamic republic iran persia province khorasan e shomali
+ir-29	western southwestern asia middle east islamic republic iran persia province khorasan e jonubi
+ir-30	western southwestern asia middle east islamic republic iran persia province alborz
+
+iq-an	western southwestern asia middle east republic iraq governorate al anbar
+iq-ar	western southwestern asia middle east republic iraq governorate arbil hewler
+iq-ba	western southwestern asia middle east republic iraq governorate al basrah
+iq-bb	western southwestern asia middle east republic iraq governorate babil
+iq-bg	western southwestern asia middle east republic iraq governorate baghdad
+iq-da	western southwestern asia middle east republic iraq governorate dahuk dihok
+iq-di	western southwestern asia middle east republic iraq governorate diyala
+iq-dq	western southwestern asia middle east republic iraq governorate dhi qar
+iq-ka	western southwestern asia middle east republic iraq governorate karbala
+iq-ki	western southwestern asia middle east republic iraq governorate kirkuk
+iq-kr	western southwestern asia middle east republic iraq region iqlim herem i kurdistan
+iq-ma	western southwestern asia middle east republic iraq governorate maysan
+iq-mu	western southwestern asia middle east republic iraq governorate al muthanna
+iq-na	western southwestern asia middle east republic iraq governorate an najaf
+iq-ni	western southwestern asia middle east republic iraq governorate ninawa
+iq-qa	western southwestern asia middle east republic iraq governorate al qadisiyah
+iq-sd	western southwestern asia middle east republic iraq governorate salah ad din
+iq-su	western southwestern asia middle east republic iraq governorate as sulaymaniyah slemani
+iq-wa	western southwestern asia middle east republic iraq governorate wasit
+
+il-d	western southwestern asia middle east state israel district hadarom southern
+il-m	western southwestern asia middle east state israel district hamerkaz central
+il-z	western southwestern asia middle east state israel district hatsafon northern
+il-ha	western southwestern asia middle east state israel district hefa haifa
+il-ta	western southwestern asia middle east state israel district tel aviv
+il-jm	western southwestern asia middle east state israel district yerushalayim jerusalem
+
+
 ## Asian Flags A
 
 cn-ah	east asia peoples republic china prc province anhui sheng
@@ -1541,7 +1647,7 @@ tw-txg	east asia taiwan republic china roc special municipality taichung
 tw-yun	east asia taiwan republic china roc county yunlin
 
 
-# Asian Flags B
+## Asian Flags B
 
 in-ap	south asia republic india state andhra pradesh
 in-ar	south asia republic india state arunachal pradesh
@@ -1876,6 +1982,10 @@ eg-kn	north africa western southwestern asia middle east arab republic egypt qin
 eg-sin	north africa western southwestern asia middle east arab republic egypt shamal sina north sinai
 eg-shg	north africa western southwestern asia middle east arab republic egypt suhaj sohag
 
+km-a	east africa union comoros island anjouan andjouan anjwan ndzuwani
+km-g	east africa union comoros island grande comore andjazidja anjazijah ngazidja
+km-m	east africa union comoros island moheli mouhili muhili mwali
+
 xx-wakanda	east africa kingdom wakanda marvel comic comics cinematic universe mcu
 
 
@@ -2098,6 +2208,18 @@ sy-snc; xx-sy-snc	western southwestern asia middle east syria syrian arab republ
 xx-kurdistan	eastern europe western southwestern asia middle east kurdistan
 xx-northpole	arctic north pole
 xx-refugeenation	int international refugee nation yara said
+
+xx-int-africanunion	int international org organization african union au
+xx-int-arableague	int international org organization arab league al
+xx-int-aec	int international org organization association caribbean states acs aec
+xx-int-asean	int international org organization association southeast south east asian nations asean
+xx-int-cis	int international org organization commonwealth independent states cis
+xx-int-commonwealth	int international org organization commonwealth nations
+xx-int-nato	int international org organization north atlantic treaty nato
+xx-int-norden	int international org organization nordic council norden
+xx-int-pacific	int international org organization pacific community
+xx-int-saarc	int international org organization south asian association regional cooperation saarc
+xx-int-ots	int international org organization turkic states ots
 
 
 ## Constructed Language Flags

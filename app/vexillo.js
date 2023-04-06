@@ -293,7 +293,7 @@ V.blocks = [
 	[0xEA00, 0xEAFF, 'Western European Flags-C',        {size: 0}],
 	[0xEB00, 0xEBFF, 'Eastern European Flags-A',        {size: 0}],
 	[0xEC00, 0xECFF, 'Eastern European Flags-B',        {size: 0}],
-	[0xED00, 0xEDFF, 'Eastern European Flags-C',        {size: 0}],
+	[0xED00, 0xEDFF, 'Middle Eastern Flags',            {size: 0}],
 	[0xEE00, 0xEEFF, 'Asian Flags-A',                   {size: 0}],
 	[0xEF00, 0xEFFF, 'Asian Flags-B',                   {size: 0}],
 	[0xF000, 0xF0FF, 'South American Flags',            {size: 0}],

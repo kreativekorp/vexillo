@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="km-a" name="Anjouan" fly="h*3/2">
+	<defs>
+		<dim id="cx1" e="w/2+h*3/60"/>
+		<dim id="cx2" e="w/2+h*5/32"/>
+		<dim id="cd1" e="h*5/8"/>
+		<dim id="cd2" e="h*9/16"/>
+		<dim id="sr" e="cd2/10"/>
+		<dim id="sx" e="cx2"/>
+		<dim id="sy1" e="h/2-cd2/3"/>
+		<dim id="sy2" e="h/2-cd2/9"/>
+		<dim id="sy3" e="h/2+cd2/9"/>
+		<dim id="sy4" e="h/2+cd2/3"/>
+		<color id="red">
+			<colorspec model="pantone" value="186"/>
+			<colorspec model="rgb" value="206 17 38"/>
+			<colorspec model="cmyk" value="0 92 82 15"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="rgb" value="255 255 255"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+		</color>
+		<symdef id="star" d="
+			M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+			L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+			L -0.5878 0.809 L -0.3633 0.118
+			L -0.9511 -0.309 L -0.2245 -0.309 Z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<disc cx="cx1" cy="h/2" w="cd1" h="cd1" color="white"/>
+	<disc cx="cx2" cy="h/2" w="cd2" h="cd2" color="red"/>
+	<symbol symbol="star" x="sx" y="sy1" sx="sr" sy="sr" color="white"/>
+	<symbol symbol="star" x="sx" y="sy2" sx="sr" sy="sr" color="white"/>
+	<symbol symbol="star" x="sx" y="sy3" sx="sr" sy="sr" color="white"/>
+	<symbol symbol="star" x="sx" y="sy4" sx="sr" sy="sr" color="white"/>
+</flag>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="North Atlantic Treaty Organization" fly="h*4/3">
+	<defs>
+		<dim id="b" e="min(h/10,w/10)"/>
+		<dim id="t" e="min(h*0.0112,w*0.0112)"/>
+		<dim id="d" e="min(h*0.475,w*0.475)"/>
+		<dim id="e" e="min(h*17/30,w*17/30)"/>
+		<color id="blue">
+			<colorspec model="pantone" value="280"/>
+			<colorspec model="rgb" value="0 73 144"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="compass" d="
+			M 0.0012 0.5283 V 0.0036 l 0.0948 0.0948
+			L 0.4675 0.0157 c 0.0041 0 0.0041 0.0038 0 0.0038
+			L 0.1199 0.13 L 0.0012 0.5283 z
+			M 0.0683 0.4019
+			c 0.1661 -0.0274 0.3004 -0.1576 0.332 -0.3273
+			l -0.0315 0.0121
+			c -0.0318 0.1417 -0.1464 0.2563 -0.2925 0.2878
+			L 0.0683 0.4019 z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<symbol symbol="compass" x="w/2" y="h/2" sx="d" sy="d" rotate="0" color="white"/>
+	<symbol symbol="compass" x="w/2" y="h/2" sx="d" sy="d" rotate="90" color="white"/>
+	<symbol symbol="compass" x="w/2" y="h/2" sx="d" sy="d" rotate="180" color="white"/>
+	<symbol symbol="compass" x="w/2" y="h/2" sx="d" sy="d" rotate="270" color="white"/>
+	<dband x1="w/2" y1="(h-e)/2" x2="w/2" y2="b" thickness="t" color="white"/>
+	<dband x1="w/2" y1="(h+e)/2" x2="w/2" y2="h-b" thickness="t" color="white"/>
+	<dband x1="(w-e)/2" y1="h/2" x2="b" y2="h/2" thickness="t" color="white"/>
+	<dband x1="(w+e)/2" y1="h/2" x2="w-b" y2="h/2" thickness="t" color="white"/>
+</flag>

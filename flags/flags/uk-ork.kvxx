@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="uk-ork" name="Orkney Islands" properties="cf" fly="h*11/8">
+	<defs>
+		<dim id="y1" e="h*6/16"/>
+		<dim id="y2" e="h*7/16"/>
+		<dim id="y3" e="h*9/16"/>
+		<dim id="y4" e="h*10/16"/>
+		<dim id="x1" e="min(h*6/16,w/2-h/8)"/>
+		<dim id="x2" e="min(h*7/16,w/2-h/16)"/>
+		<dim id="x3" e="min(h*9/16,w/2+h/16)"/>
+		<dim id="x4" e="min(h*10/16,w/2+h/8)"/>
+		<color id="red">
+			<colorspec model="rgb" value="210 43 45"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 255 25"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="0 90 200"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<cross x1="0" y1="0" x2="x1" y2="y1" x3="x4" y3="y4" x4="w" y4="h" color="yellow"/>
+	<cross x1="0" y1="0" x2="x2" y2="y2" x3="x3" y3="y3" x4="w" y4="h" color="blue"/>
+</flag>

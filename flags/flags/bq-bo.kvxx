@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="bq-bo" name="Bonaire" properties="cf sf" fly="h*3/2">
+	<defs>
+		<dim id="x" e="w*75/270"/>
+		<dim id="y" e="h*77.5/180"/>
+		<dim id="s" e="min(h/180,w/250)"/>
+		<dim id="r1" e="s*38.971143"/>
+		<dim id="r2" e="s*33.75"/>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 215 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="213 0 50"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="0 48 135"/>
+		</color>
+		<symdef id="compass" d="M 0 -45 L 25.980762 0 L 0 45 L -25.980762 0 Z M 45 0 L 0 25.980762 L -45 0 L 0 -25.980762 Z"/>
+		<symdef id="disc" d="M 0.5 0 A 0.5 0.5 0 0 0 -0.5 0 A 0.5 0.5 0 0 0 0.5 0 Z"/>
+		<symdef id="star" d="M 0 22.5 l -19.485572 -33.75 h 38.971143 z m 0 -45 l 19.485572 33.75 h -38.971143 z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<poly points="0 0 w 0 0 h" color="white"/>
+	<poly points="0 0 w*5/12 0 0 h*5/12" color="yellow"/>
+	<symbol symbol="compass" x="x" y="y" sx="s" sy="s" color="black"/>
+	<symbol symbol="disc" x="x" y="y" sx="r1*2" sy="r1*2" color="black"/>
+	<symbol symbol="disc" x="x" y="y" sx="r2*2" sy="r2*2" color="white"/>
+	<symbol symbol="star" x="x" y="y" sx="s" sy="s" color="red"/>
+</flag>

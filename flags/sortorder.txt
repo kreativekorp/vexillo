@@ -15,6 +15,7 @@
 5	^xx-pride-trans-[a-z]{2}-.*$
 3	^xx-pride-.*$
 2	^xx-.*$
+3	^xx-int-.*$
 3	^xx-org-.*$
 3	^xx-misc-.*$
 4	^xx-ics-ca$
