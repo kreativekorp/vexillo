@@ -8,7 +8,7 @@ import javax.media.jai.BorderExtender;
 import javax.media.jai.Interpolation;
 import javax.media.jai.JAI;
 import javax.media.jai.RenderedOp;
-import javax.media.jai.WarpCubic;
+import javax.media.jai.WarpGeneralPolynomial;
 
 public class JAIUtils {
 	public static void prep(Graphics2D g) {
@@ -31,7 +31,7 @@ public class JAIUtils {
 	public static RenderedOp warp(Object src, float[] xCoeffs, float[] yCoeffs) {
 		ParameterBlock pb = new ParameterBlock();
 		pb.addSource(src);
-		pb.add(new WarpCubic(xCoeffs, yCoeffs));
+		pb.add(new WarpGeneralPolynomial(xCoeffs, yCoeffs));
 		pb.add(Interpolation.getInstance(Interpolation.INTERP_BILINEAR));
 		return JAI.create("warp", pb);
 	}

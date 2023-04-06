@@ -21,9 +21,9 @@ import com.kreative.vexillo.style.Stylizer;
 public class FruitStylizer implements Stylizer {
 	private static final ImageScaler scaler = ImageScaler.ITERATIVE_BICUBIC;
 	private static final int[] dims = { 280, 180, 2, 12 };
-	private static final int[] border = { 20, 20, 66, 60 };
-	private static final float[] xCoeffs = { 0, 1, 0, 0, 0, 0, 0, 0, 0, 0 };
-	private static final float[] yCoeffs = { 0, -0.333508303f, 1, 3.893184497e-3f, 0, 0, -9.390406971e-6f, 0, 0, 0 };
+	private static final int[] border = { 20, 20, 66, 66 };
+	private static final float[] xCoeffs = { 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+	private static final float[] yCoeffs = { -245.94246f, -0.35414517f, 1.0132706f, 0.004102719f, 5.0318708E-5f, 0, -9.681555E-6f, -7.650721E-7f, 0, 0, 0, 1.3792706E-9f, 0, 0, 0 };
 	private static final float[] scale = { 0.5f, 0.5f, 0, 0 };
 	
 	private static final BufferedImage rectMin;
@@ -109,7 +109,7 @@ public class FruitStylizer implements Stylizer {
 				}
 				if (isBottomEdge(s, x1, y1, x2, y2)) {
 					line.setLine(x1, y1, x2, y2);
-					g.setColor(new Color(0, 0, 0, 6));
+					g.setColor(new Color(0, 0, 0, 2));
 					for (int d = 28; d > 0; d -= 2) {
 						g.setStroke(new BasicStroke(d));
 						g.draw(line);
