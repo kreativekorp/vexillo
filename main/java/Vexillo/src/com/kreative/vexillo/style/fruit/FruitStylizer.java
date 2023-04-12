@@ -9,6 +9,7 @@ import java.awt.geom.Area;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Line2D;
+import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 import javax.media.jai.BorderExtender;
@@ -21,9 +22,9 @@ import com.kreative.vexillo.style.Stylizer;
 public class FruitStylizer implements Stylizer {
 	private static final ImageScaler scaler = ImageScaler.ITERATIVE_BICUBIC;
 	private static final int[] dims = { 280, 180, 2, 12 };
-	private static final int[] border = { 20, 20, 66, 66 };
+	private static final int[] border = { 20, 20, 66, 62 };
 	private static final float[] xCoeffs = { 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-	private static final float[] yCoeffs = { -245.94246f, -0.35414517f, 1.0132706f, 0.004102719f, 5.0318708E-5f, 0, -9.681555E-6f, -7.650721E-7f, 0, 0, 0, 1.3792706E-9f, 0, 0, 0 };
+	private static final float[] yCoeffs = { -193.1933f, -0.35511288f, 1.0070014f, 0.004139615f, 2.222863E-5f, 0, -9.857017E-6f, -6.911222E-7f, 0, 0, 0, 1.4322632E-9f, 0, 0, 0 };
 	private static final float[] scale = { 0.5f, 0.5f, 0, 0 };
 	
 	private static final BufferedImage rectMin;
@@ -50,19 +51,37 @@ public class FruitStylizer implements Stylizer {
 		} else try {
 			Shape ts = r.getBoundaryShape(0, border[2], dims[0], dims[1]);
 			int tw = dims[0], th = dims[1] + border[2] + border[3];
+			BufferedImage a = createAlpha(ts, tw, th);
+			RenderedOp ba = JAIUtils.border(a, border[0], border[1], 0, 0, BorderExtender.BORDER_ZERO);
+			RenderedOp wa = JAIUtils.warp(ba, xCoeffs, yCoeffs);
+			RenderedOp sa = JAIUtils.scale(wa, scale[0], scale[1], scale[2], scale[3]);
 			BufferedImage m = createRange(ts, tw, th);
-			RenderedOp bm = JAIUtils.border(m, border[0], border[1], 0, 0, BorderExtender.BORDER_ZERO);
+			RenderedOp bm = JAIUtils.border(m, border[0], border[1], 0, 0, BorderExtender.BORDER_COPY);
 			RenderedOp wm = JAIUtils.warp(bm, xCoeffs, yCoeffs);
 			RenderedOp sm = JAIUtils.scale(wm, scale[0], scale[1], scale[2], scale[3]);
 			BufferedImage b = createMin(ts, tw, th);
-			RenderedOp bb = JAIUtils.border(b, border[0], border[1], 0, 0, BorderExtender.BORDER_ZERO);
+			RenderedOp bb = JAIUtils.border(b, border[0], border[1], 0, 0, BorderExtender.BORDER_COPY);
 			RenderedOp wb = JAIUtils.warp(bb, xCoeffs, yCoeffs);
 			RenderedOp sb = JAIUtils.scale(wb, scale[0], scale[1], scale[2], scale[3]);
 			i = JAIUtils.multiplyAdd(si.getAsBufferedImage(), sm.getAsBufferedImage(), sb.getAsBufferedImage());
+			i = JAIUtils.multiply(i, sa.getAsBufferedImage());
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return ImageScaler.ITERATIVE_BICUBIC.scale(i, w, h);
+	}
+	
+	private static BufferedImage createAlpha(Shape outer, int w, int h) {
+		BufferedImage tmpl = new BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
+		int[] rgb = new int[w]; for (int i = 0; i < w; i++) rgb[i] = 0xFFFFFF;
+		tmpl.setRGB(0, 0, w, h, rgb, 0, 0);
+		
+		Graphics2D g = tmpl.createGraphics();
+		g.setColor(new Color(0xFFFFFF));
+		g.fill(outer);
+		g.dispose();
+		
+		return tmpl;
 	}
 	
 	private static BufferedImage createRange(Shape outer, int w, int h) {
@@ -71,7 +90,6 @@ public class FruitStylizer implements Stylizer {
 		tmpl.setRGB(0, 0, w, h, rgb, 0, 0);
 		
 		Graphics2D g = tmpl.createGraphics();
-		g.clip(outer);
 		g.setColor(new Color(0xCCCCCC));
 		g.fillRect(0, 0, w, h);
 		
@@ -103,16 +121,22 @@ public class FruitStylizer implements Stylizer {
 					line.setLine(x1, y1, x2, y2);
 					g.setColor(new Color(0, 0, 0, 9));
 					for (int d = 28; d > 0; d -= 2) {
-						g.setStroke(new BasicStroke(d));
-						g.draw(line);
+						Shape line2 = shrink(line, d);
+						if (line2 == null) continue;
+						g.setStroke(new BasicStroke(d, BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND));
+						g.draw(line2);
 					}
 				}
 				if (isBottomEdge(s, x1, y1, x2, y2)) {
 					line.setLine(x1, y1, x2, y2);
-					g.setColor(new Color(0, 0, 0, 2));
-					for (int d = 28; d > 0; d -= 2) {
-						g.setStroke(new BasicStroke(d));
-						g.draw(line);
+					for (int i = 0; i < botGrad.length;) {
+						int v = botGrad[i++];
+						int d = botGrad[i++] * 2;
+						Shape line2 = shrink(line, d);
+						if (line2 == null) continue;
+						g.setColor(new Color(0, 0, 0, v));
+						g.setStroke(new BasicStroke(d, BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND));
+						g.draw(line2);
 					}
 				}
 			}
@@ -142,7 +166,7 @@ public class FruitStylizer implements Stylizer {
 					g.fill(align(top1VHilite, x1, y1, x2, y2, x1 > x2));
 					
 					g.setColor(new Color(255, 255, 255, 11));
-					for (int i = 2; i <= 10; i++) {
+					for (int i = 0; i <= 10; i++) {
 						g.fill(align(top70VHilite(i / 10.0), x1, y1, x2, y2, x1 > x2));
 					}
 				}
@@ -151,12 +175,12 @@ public class FruitStylizer implements Stylizer {
 					g.fill(align(bot1VHilite, x1, y1, x2, y2, x1 > x2));
 					
 					g.setColor(new Color(0, 0, 0, 17));
-					for (int i = 2; i <= 10; i++) {
+					for (int i = 0; i <= 10; i++) {
 						g.fill(align(bot18VHilite(i / 10.0), x1, y1, x2, y2, x1 > x2));
 					}
 					
 					g.setColor(new Color(0, 0, 0, 9));
-					for (int i = 2; i <= 10; i++) {
+					for (int i = 0; i <= 10; i++) {
 						g.fill(align(botPointHilite(i / 10.0), x1, y1, x2, y2, x1 > x2));
 					}
 				}
@@ -167,10 +191,23 @@ public class FruitStylizer implements Stylizer {
 	}
 	
 	private static Shape contract(Shape s, int t) {
-		if (t < 1) return s;
+		if (t <= 0) return s;
 		Shape ss = new BasicStroke(t * 2).createStrokedShape(s);
 		Area cs = new Area(s); cs.subtract(new Area(ss));
 		return cs;
+	}
+	
+	private static Shape shrink(Shape s, int t) {
+		if (t <= 0) return s;
+		Rectangle2D b = s.getBounds2D();
+		double h = Math.hypot(b.getWidth(), b.getHeight());
+		double scale = (h - t) / h;
+		if (scale <= 0) return null;
+		AffineTransform tx = new AffineTransform();
+		tx.translate(b.getCenterX(), b.getCenterY());
+		tx.scale(scale, scale);
+		tx.translate(-b.getCenterX(), -b.getCenterY());
+		return tx.createTransformedShape(s);
 	}
 	
 	private static Shape align(Shape s, float x1, float y1, float x2, float y2, boolean swap) {
@@ -186,12 +223,15 @@ public class FruitStylizer implements Stylizer {
 	
 	private static Shape top70VHilite(double grad) {
 		double y = 0.05 * grad;
+		double y2 = y * 0.1;
 		double x = 0.05 * (1 - grad);
 		GeneralPath p = new GeneralPath();
-		p.moveTo(x, 0);
-		p.curveTo(x, 0, x, y, 0.057, y);
+		p.moveTo(0, -y2);
+		p.lineTo(0, y2);
+		p.curveTo(0, y2, 0, y, 0.057, y);
 		p.lineTo(0.943, y);
-		p.curveTo(1-x, y, 1-x, 0, 1-x, 0);
+		p.curveTo(1-x, y, 1-x, 0, 1, 0);
+		p.lineTo(1, -y2);
 		p.closePath();
 		return p;
 	}
@@ -248,5 +288,10 @@ public class FruitStylizer implements Stylizer {
 	private static final int[] outGrad = {
 		205, 12, 202, 11, 198, 10, 192, 9, 186, 8, 180, 7,
 		172, 6, 164, 5, 156, 4, 150, 3, 148, 2, 146, 1
+	};
+	
+	private static final int[] botGrad = {
+		2, 14, 2, 13, 4, 12, 4, 11, 8, 10, 8, 9, 10, 8, 10, 7,
+		10, 6, 10, 5, 8, 4, 8, 3, 4, 2, 4, 1
 	};
 }

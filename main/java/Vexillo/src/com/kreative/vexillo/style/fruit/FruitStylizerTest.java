@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 import java.awt.Shape;
+import java.awt.geom.GeneralPath;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -15,8 +16,8 @@ import com.kreative.vexillo.style.JAIUtils;
 public class FruitStylizerTest {
 	public static void main(String[] args) throws IOException {
 		FruitStylizer fs = new FruitStylizer();
-		FlagRenderer whiteRenderer = new TestFlagRenderer(Color.white, false);
-		FlagRenderer blackRenderer = new TestFlagRenderer(Color.black, false);
+		FlagRenderer whiteRenderer = new TestFlagRenderer(Color.white, false, false);
+		FlagRenderer blackRenderer = new TestFlagRenderer(Color.black, false, false);
 		BufferedImage actualWhite = fs.stylize(whiteRenderer, 160, 160, null, 0, 0);
 		BufferedImage actualBlack = fs.stylize(blackRenderer, 160, 160, null, 0, 0);
 		BufferedImage actualRange = diffImage(difference(actualWhite, actualBlack), 160, 160, 255 << 24);
@@ -118,10 +119,12 @@ public class FruitStylizerTest {
 	private static class TestFlagRenderer extends FlagRenderer {
 		private final Color color;
 		private final boolean isRectangular;
-		private TestFlagRenderer(Color color, boolean isRectangular) {
+		private final boolean isSwallowtail;
+		private TestFlagRenderer(Color color, boolean isRectangular, boolean isSwallowtail) {
 			super(null, null, null);
 			this.color = color;
 			this.isRectangular = isRectangular;
+			this.isSwallowtail = isSwallowtail;
 		}
 		public void render(Graphics2D g, int x, int y, int w, int h) {
 			g.setColor(this.color);
@@ -134,7 +137,18 @@ public class FruitStylizerTest {
 			return new Rectangle(x, y, w, h);
 		}
 		public Shape getBoundaryShape(int x, int y, int w, int h) {
-			return new Rectangle(x, y, w, h);
+			if (this.isSwallowtail) {
+				GeneralPath p = new GeneralPath();
+				p.moveTo(x, y);
+				p.lineTo(x+w, y);
+				p.lineTo(x+w*0.75, y+h*0.5);
+				p.lineTo(x+w, y+h);
+				p.lineTo(x, y+h);
+				p.closePath();
+				return p;
+			} else {
+				return new Rectangle(x, y, w, h);
+			}
 		}
 	}
 }
