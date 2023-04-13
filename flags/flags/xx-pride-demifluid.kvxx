@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Demifluid Pride" fly="h*5/3">
+  <defs>
+    <color id="dkgray">
+      <colorspec model="rgb" value="128 128 128"/>
+    </color>
+    <color id="ltgray">
+      <colorspec model="rgb" value="196 196 196"/>
+    </color>
+    <color id="white">
+      <colorspec model="rgb" value="255 255 255"/>
+    </color>
+    <color id="red">
+      <colorspec model="rgb" value="255 172 205"/>
+    </color>
+    <color id="yellow">
+      <colorspec model="rgb" value="255 241 166"/>
+    </color>
+    <color id="blue">
+      <colorspec model="rgb" value="168 218 246"/>
+    </color>
+  </defs>
+  <hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="dkgray ltgray dkgray" weights="1 5 1"/>
+  <vgrad x1="0" y1="h*2/7" x2="w*2/5" y2="h*5/7" color1="red" color2="yellow"/>
+  <vgrad x1="w*2/5" y1="h*2/7" x2="w" y2="h*5/7" color1="yellow" color2="blue"/>
+  <hband x1="0" y1="h*3/7" x2="w" y2="h*4/7" bands="1" colors="white"/>
+</flag>

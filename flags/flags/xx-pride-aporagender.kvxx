@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Aporagender Pride" fly="h*3/2">
+	<defs>
+		<color id="pink">
+			<colorspec model="rgb" value="243 124 202"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 249 130"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="123 187 221"/>
+		</color>
+		<color id="purple">
+			<colorspec model="rgb" value="225 189 240"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="pink purple yellow purple blue"/>
+</flag>

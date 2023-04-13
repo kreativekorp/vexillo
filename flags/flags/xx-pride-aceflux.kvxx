@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Aceflux Pride" fly="h*5/3">
+	<defs>
+		<color id="c1">
+			<colorspec model="rgb" value="198 34 84"/>
+		</color>
+		<color id="c2">
+			<colorspec model="rgb" value="194 38 121"/>
+		</color>
+		<color id="c3">
+			<colorspec model="rgb" value="192 39 155"/>
+		</color>
+		<color id="c4">
+			<colorspec model="rgb" value="170 40 172"/>
+		</color>
+		<color id="c5">
+			<colorspec model="rgb" value="139 37 173"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="c1 c2 c3 c4 c5"/>
+</flag>

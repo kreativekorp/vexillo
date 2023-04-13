@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Transneutral Pride" fly="h*5/3">
+	<defs>
+		<color id="y1">
+			<colorspec model="rgb" value="255 250 164"/>
+		</color>
+		<color id="y2">
+			<colorspec model="rgb" value="255 244 67"/>
+		</color>
+		<color id="y3">
+			<colorspec model="rgb" value="255 252 204"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="y1 y2 y3 y2 y1"/>
+</flag>

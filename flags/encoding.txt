@@ -2731,6 +2731,10 @@ xx-pride-gay-male-3	F51F
 xx-pride-trans	F520; 26A7; 1F3F3+200D+26A7; 1F3F4+200D+26A7
 xx-pride-trans-il	F521
 
+xx-pride-transneutral	F528
+xx-pride-transfeminine	F529
+xx-pride-transmasculine	F52A
+
 xx-pride-agender	F530
 xx-pride-female	F531; 2640; 1F3F3+200D+2640; 1F3F4+200D+2640
 xx-pride-male	F532; 2642; 1F3F3+200D+2642; 1F3F4+200D+2642
@@ -2746,6 +2750,7 @@ xx-pride-genderflux	F53B
 xx-pride-bigender-2	F53C
 xx-pride-bigender-3	F53D
 xx-pride-littleender	F53E
+xx-pride-gender-neutral	F53F
 
 xx-pride-intersex-1	F540
 xx-pride-intersex-2	F541
@@ -2754,19 +2759,30 @@ xx-pride-bear	F550
 xx-pride-lipstick-1	F551
 xx-pride-twink	F552
 xx-pride-lipstick-2	F553
+xx-pride-apollonian	F554
+
+xx-pride-multisexual	F558
+xx-pride-pomosexual	F559
+xx-pride-uranic	F55A
+xx-pride-neptunic	F55B
 
 xx-pride-leather	F560
-xx-pride-poly	F561
+xx-pride-poly-1	F561
 xx-pride-bdsm	F562
 xx-pride-rubber	F563
 xx-pride-ownership	F564
 xx-pride-master-slave	F565
 xx-pride-fat-fetish	F566
+xx-pride-poly-2	F567
+xx-pride-poly-3	F568
 
 xx-pride-ally	F570
 xx-pride-heterosexual	F571
 
 xx-aristasia	F580
+
+xx-pride-queer	F588
+xx-pride-unlabeled	F589
 
 xx-pride-diamoric	F590
 xx-pride-sapphic	F591
@@ -2777,10 +2793,33 @@ xx-pride-aroace	F595
 xx-pride-greysexual	F596
 xx-pride-proculsexual	F597
 xx-pride-aegosexual	F598
+xx-pride-gynesexual	F599
+xx-pride-androsexual	F59A
+xx-pride-ceterosexual	F59B
+xx-pride-aspectrum	F59C
+xx-pride-aceflux	F59D
+xx-pride-aroflux	F59E
+xx-pride-gay-male-4	F59F
 
 xx-pride-dollgender	F5A0
 
+xx-pride-demigender	F5B0
+xx-pride-demiandrogyne-1	F5B1
+xx-pride-demiandrogyne-2	F5B2
+xx-pride-demifluid	F5B3
+xx-pride-demiflux	F5B4
+xx-pride-greygender	F5B5
+xx-pride-aporagender	F5B6
+xx-pride-multigender	F5B7
+xx-pride-trigender	F5B8
+xx-pride-polygender	F5B9
+xx-pride-pangender	F5BA
+xx-pride-maverique	F5BB
+xx-pride-xenogender	F5BC
+
 xx-christian	F5C0; 271D; 1F3F3+200D+271D; 1F3F4+200D+271D
+
+xx-otherkin	F5D0
 
 xx-blm	F5E0
 xx-pan-african	F5E1
@@ -2861,3 +2900,4 @@ xx-misc-iguana	F880
 
 xx-misc-cmc	F8C0
 xx-misc-lunanova	F8C1
+xx-misc-gus-cheer	F8C2

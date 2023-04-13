@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Aroflux Pride" fly="h*5/3">
+	<defs>
+		<color id="c1">
+			<colorspec model="rgb" value="231 82 107"/>
+		</color>
+		<color id="c2">
+			<colorspec model="rgb" value="216 108 101"/>
+		</color>
+		<color id="c3">
+			<colorspec model="rgb" value="183 165 93"/>
+		</color>
+		<color id="c4">
+			<colorspec model="rgb" value="163 201 90"/>
+		</color>
+		<color id="c5">
+			<colorspec model="rgb" value="146 229 85"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="c1 c2 c3 c4 c5"/>
+</flag>

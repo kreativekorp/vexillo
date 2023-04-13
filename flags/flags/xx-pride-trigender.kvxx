@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Trigender Pride" fly="h*5/3">
+	<defs>
+		<color id="pink">
+			<colorspec model="rgb" value="255 149 197"/>
+		</color>
+		<color id="purple">
+			<colorspec model="rgb" value="149 129 255"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="103 217 102"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="pink purple green purple pink"/>
+</flag>

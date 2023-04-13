@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="A-Spectrum Pride" fly="h*5/3">
+	<defs>
+		<dim id="d" e="min(h*5/6,w*5/6)"/>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="60 165 66"/>
+		</color>
+		<color id="purple">
+			<colorspec model="rgb" value="130 0 128"/>
+		</color>
+		<color id="gray">
+			<colorspec model="rgb" value="153 153 153"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="
+			M 0 -0.5 L 0.1 -0.1 L 0.5 0 L 0.1 0.1
+			L 0 0.5 L -0.1 0.1 L -0.5 0 L -0.1 -0.1 Z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w/2" y2="h/2" color="black"/>
+	<field x1="w/2" y1="0" x2="w" y2="h/2" color="green"/>
+	<field x1="0" y1="h/2" x2="w/2" y2="h" color="purple"/>
+	<field x1="w/2" y1="h/2" x2="w" y2="h" color="gray"/>
+	<symbol symbol="star" x="w/2" y="h/2" sx="d" sy="d" color="white"/>
+</flag>

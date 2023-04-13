@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Gus&#x2019; Cheer Flag" fly="h*4/3">
+	<defs>
+		<color id="blue1">
+			<colorspec model="rgb" value="60 76 160"/>
+		</color>
+		<color id="blue2">
+			<colorspec model="rgb" value="102 132 218"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue2"/>
+	<poly points="0 0 w 0 0 h" color="blue1"/>
+</flag>

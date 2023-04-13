@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Uranic Pride" fly="h*5/3">
+	<defs>
+		<color id="band1">
+			<colorspec model="rgb" value="59 123 214"/>
+		</color>
+		<color id="band2">
+			<colorspec model="rgb" value="79 161 240"/>
+		</color>
+		<color id="band3">
+			<colorspec model="rgb" value="105 201 251"/>
+		</color>
+		<color id="band4">
+			<colorspec model="rgb" value="154 235 252"/>
+		</color>
+		<color id="band5">
+			<colorspec model="rgb" value="255 251 222"/>
+		</color>
+		<color id="band6">
+			<colorspec model="rgb" value="255 242 198"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="6" colors="band1 band2 band3 band4 band5 band6"/>
+</flag>

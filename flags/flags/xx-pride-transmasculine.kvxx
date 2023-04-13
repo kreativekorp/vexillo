@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Transmasculine Pride" fly="h*5/3">
+	<defs>
+		<color id="pink">
+			<colorspec model="rgb" value="255 138 189"/>
+		</color>
+		<color id="blue1">
+			<colorspec model="rgb" value="205 245 254"/>
+		</color>
+		<color id="blue2">
+			<colorspec model="rgb" value="154 235 255"/>
+		</color>
+		<color id="blue3">
+			<colorspec model="rgb" value="116 223 255"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="7" colors="pink blue1 blue2 blue3 blue2 blue1 pink"/>
+</flag>

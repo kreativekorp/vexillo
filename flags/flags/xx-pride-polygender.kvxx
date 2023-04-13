@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Polygender Pride" fly="h*5/3">
+	<defs>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<color id="gray">
+			<colorspec model="rgb" value="147 147 147"/>
+		</color>
+		<color id="pink">
+			<colorspec model="rgb" value="237 148 197"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="245 237 129"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="100 187 230"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="black gray pink yellow blue"/>
+</flag>

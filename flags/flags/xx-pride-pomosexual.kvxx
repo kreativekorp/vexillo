@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Pomosexual Pride" fly="h*5/3">
+  <defs>
+    <color id="p1">
+      <colorspec model="rgb" value="255 174 201"/>
+    </color>
+    <color id="p2">
+      <colorspec model="rgb" value="255 198 222"/>
+    </color>
+    <color id="p3">
+      <colorspec model="rgb" value="232 205 255"/>
+    </color>
+    <color id="white">
+      <colorspec model="rgb" value="255 255 255"/>
+    </color>
+  </defs>
+  <hband x1="0" y1="0" x2="w" y2="h" bands="7" colors="p1 p2 white p3 white p2 p1"/>
+</flag>

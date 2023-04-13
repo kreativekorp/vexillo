@@ -2692,6 +2692,10 @@ xx-pride-gay-male-3	GAY MALE PRIDE FLAG-3
 xx-pride-trans	TRANSGENDER PRIDE FLAG
 xx-pride-trans-il	TRANSGENDER PRIDE FLAG FOR ISRAEL
 
+xx-pride-transneutral	TRANSNEUTRAL PRIDE FLAG
+xx-pride-transfeminine	TRANSFEMININE PRIDE FLAG
+xx-pride-transmasculine	TRANSMASCULINE PRIDE FLAG
+
 xx-pride-agender	AGENDER PRIDE FLAG
 xx-pride-female	FEMALE PRIDE FLAG
 xx-pride-male	MALE PRIDE FLAG
@@ -2707,6 +2711,7 @@ xx-pride-genderflux	GENDERFLUX PRIDE FLAG
 xx-pride-bigender-2	BIGENDER PRIDE FLAG-2
 xx-pride-bigender-3	BIGENDER PRIDE FLAG-3
 xx-pride-littleender	LITTLEENDER PRIDE FLAG
+xx-pride-gender-neutral	GENDER NEUTRAL PRIDE FLAG
 
 xx-pride-intersex-1	INTERSEX PRIDE FLAG-1
 xx-pride-intersex-2	INTERSEX PRIDE FLAG-2
@@ -2715,19 +2720,30 @@ xx-pride-bear	BEAR PRIDE FLAG
 xx-pride-lipstick-1	LIPSTICK LESBIAN PRIDE FLAG-1
 xx-pride-twink	TWINK PRIDE FLAG
 xx-pride-lipstick-2	LIPSTICK LESBIAN PRIDE FLAG-2
+xx-pride-apollonian	APOLLONIAN PRIDE FLAG
+
+xx-pride-multisexual	MULTISEXUAL PRIDE FLAG
+xx-pride-pomosexual	POMOSEXUAL PRIDE FLAG
+xx-pride-uranic	URANIC PRIDE FLAG
+xx-pride-neptunic	NEPTUNIC PRIDE FLAG
 
 xx-pride-leather	LEATHER PRIDE FLAG
-xx-pride-poly	POLYAMORY PRIDE FLAG
+xx-pride-poly-1	POLYAMORY PRIDE FLAG-1
 xx-pride-bdsm	BDSM PRIDE FLAG
 xx-pride-rubber	RUBBER PRIDE FLAG
 xx-pride-ownership	OWNERSHIP PRIDE FLAG
 xx-pride-master-slave	MASTER-SLAVE PRIDE FLAG
 xx-pride-fat-fetish	FAT FETISH FLAG
+xx-pride-poly-2	POLYAMORY PRIDE FLAG-2
+xx-pride-poly-3	POLYAMORY PRIDE FLAG-3
 
 xx-pride-ally	ALLY PRIDE FLAG
 xx-pride-heterosexual	HETEROSEXUAL PRIDE FLAG
 
 xx-aristasia	FLAG FOR ARISTASIA
+
+xx-pride-queer	QUEER PRIDE FLAG
+xx-pride-unlabeled	UNLABELED PRIDE FLAG
 
 xx-pride-diamoric	DIAMORIC PRIDE FLAG
 xx-pride-sapphic	SAPPHIC PRIDE FLAG
@@ -2738,10 +2754,33 @@ xx-pride-aroace	AROACE PRIDE FLAG
 xx-pride-greysexual	GREYSEXUAL PRIDE FLAG
 xx-pride-proculsexual	PROCULSEXUAL PRIDE FLAG
 xx-pride-aegosexual	AEGOSEXUAL PRIDE FLAG
+xx-pride-gynesexual	GYNESEXUAL PRIDE FLAG
+xx-pride-androsexual	ANDROSEXUAL PRIDE FLAG
+xx-pride-ceterosexual	CETEROSEXUAL PRIDE FLAG
+xx-pride-aspectrum	A-SPECTRUM PRIDE FLAG
+xx-pride-aceflux	ACEFLUX PRIDE FLAG
+xx-pride-aroflux	AROFLUX PRIDE FLAG
+xx-pride-gay-male-4	GAY MALE PRIDE FLAG-4
 
 xx-pride-dollgender	DOLLGENDER PRIDE FLAG
 
+xx-pride-demigender	DEMIGENDER PRIDE FLAG
+xx-pride-demiandrogyne-1	DEMIANDROGYNE PRIDE FLAG-1
+xx-pride-demiandrogyne-2	DEMIANDROGYNE PRIDE FLAG-2
+xx-pride-demifluid	DEMIFLUID PRIDE FLAG
+xx-pride-demiflux	DEMIFLUX PRIDE FLAG
+xx-pride-greygender	GREYGENDER PRIDE FLAG
+xx-pride-aporagender	APORAGENDER PRIDE FLAG
+xx-pride-multigender	MULTIGENDER PRIDE FLAG
+xx-pride-trigender	TRIGENDER PRIDE FLAG
+xx-pride-polygender	POLYGENDER PRIDE FLAG
+xx-pride-pangender	PANGENDER PRIDE FLAG
+xx-pride-maverique	MAVERIQUE PRIDE FLAG
+xx-pride-xenogender	XENOGENDER PRIDE FLAG
+
 xx-christian	CHRISTIAN FLAG
+
+xx-otherkin	OTHERKIN FLAG
 
 xx-blm	BLACK LIVES MATTER FLAG
 xx-pan-african	PAN-AFRICAN FLAG
@@ -2822,3 +2861,4 @@ xx-misc-iguana	IGUANA IGUANA POWERSURGIUS FLAG
 
 xx-misc-cmc	CUTIE MARK DAY CAMP FLAG
 xx-misc-lunanova	FLAG FOR LUNA NOVA MAGICAL ACADEMY
+xx-misc-gus-cheer	AUGUSTUS PORTER CHEER FLAG

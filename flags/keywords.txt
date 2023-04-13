@@ -2279,6 +2279,10 @@ xx-pride-gay-male-3	pride lgbt gay mlm male homosexual green blue vincian 5 five
 xx-pride-trans	pride lgbt trans transgender transsexual monica helms 1999
 xx-pride-trans-il	pride lgbt trans transgender transsexual western southwestern asia middle east state israel
 
+xx-pride-transneutral	pride lgbt trans transgender transsexual transneutral
+xx-pride-transfeminine	pride lgbt trans transgender transsexual transfeminine transfemme transfem
+xx-pride-transmasculine	pride lgbt trans transgender transsexual transmasculine transmasc
+
 xx-pride-agender	pride lgbt gay gender agender transrants salem fontana 2014
 xx-pride-female	pride gender female
 xx-pride-male	pride gender male
@@ -2294,6 +2298,7 @@ xx-pride-genderflux	pride lgbt gay gender genderflux flux
 xx-pride-bigender-2	pride lgbt gay gender bigender
 xx-pride-bigender-3	pride lgbt gay gender bigender campmlm natalie phox nittrusfox 2009
 xx-pride-littleender	pride lgbt gay gender bigender littleender ellie coyote ledcoyote 2022
+xx-pride-gender-neutral	pride lgbt gay gender neutral
 
 xx-pride-intersex-1	pride lgbt gay intersex blue pink gradient natalie phox nittrusfox 2009
 xx-pride-intersex-2	pride lgbt gay intersex human rights australia yellow purple circle morgan carpenter
@@ -2302,19 +2307,30 @@ xx-pride-bear	pride lgbt gay bear craig byrnes
 xx-pride-lipstick-1	pride lgbt gay wlw femme lipstick lesbian pink red 9 nine band bands
 xx-pride-twink	pride lgbt gay mlm femme male homosexual twink
 xx-pride-lipstick-2	pride lgbt gay wlw femme lipstick lesbian inclusive everyone 4 four band bands rebecca bettencourt 2019
+xx-pride-apollonian	pride lgbt gay gender apollonian apollian emozemo 2021
+
+xx-pride-multisexual	pride lgbt gay multisexual multi
+xx-pride-pomosexual	pride lgbt gay pomosexual pomo postmodern post modern pridecolorschemes 2016
+xx-pride-uranic	pride lgbt gay uranic
+xx-pride-neptunic	pride lgbt gay neptunic
 
 xx-pride-leather	pride kink bdsm leather tony deblase
-xx-pride-poly	pride poly polyamory polyamorous jim evans 1995
+xx-pride-poly-1	pride poly polyamory polyamorous pi jim evans 1995
 xx-pride-bdsm	pride kink bdsm
 xx-pride-rubber	pride kink bdsm rubber peter tolos scott moats 1995
 xx-pride-ownership	pride kink bdsm ownership
 xx-pride-master-slave	pride kink bdsm master slave
 xx-pride-fat-fetish	pride fat fetish
+xx-pride-poly-2	pride poly polyamory polyamorous infinity heart ym 2020
+xx-pride-poly-3	pride poly polyamory polyamorous tricolor heart polyamproud red howell 2022
 
 xx-pride-ally	pride lgbt ally
 xx-pride-heterosexual	pride straight hetero heterosexual
 
 xx-aristasia	aristasia feminine empire herthe
+
+xx-pride-queer	pride lgbt gay queer
+xx-pride-unlabeled	pride lgbt gay unlabeled unlabelled
 
 xx-pride-diamoric	pride lgbt gay diamoric nonbinary non binary nb enby
 xx-pride-sapphic	pride lgbt gay sapphic sappho lesbian bisexual pansexual woman women female aligned
@@ -2325,10 +2341,33 @@ xx-pride-aroace	pride lgbt gay aromantic aro asexual ace aroace acearo arosexual
 xx-pride-greysexual	pride lgbt gay greysexual graysexual grey gray grace milith rusignuolo 2013
 xx-pride-proculsexual	pride lgbt gay proculsexual procul beyond mogai
 xx-pride-aegosexual	pride lgbt gay aegosexual aego autochorissexual autochoris hunterinabrowncoat 2014
+xx-pride-gynesexual	pride lgbt gay gynesexual gynosexual gyne gyno
+xx-pride-androsexual	pride lgbt gay androsexual andro
+xx-pride-ceterosexual	pride lgbt gay ceterosexual skoliosexual allotroposexual cetero skolio allotropo savvyred 2013
+xx-pride-aspectrum	pride lgbt gay aspectrum aspec a spectrum spec themoonisaroace 2019
+xx-pride-aceflux	pride lgbt gay aceflux asexual ace flux
+xx-pride-aroflux	pride lgbt gay aroflux aromantic aro flux
+xx-pride-gay-male-4	pride lgbt gay mlm male homosexual green blue vincian 5 five band bands toothpaste triton gayflagblog hermy 2019
 
 xx-pride-dollgender	pride lgbt gay gender dollgender doll
 
+xx-pride-demigender	pride lgbt gay gender demigender
+xx-pride-demiandrogyne-1	pride lgbt gay gender demiandrogyne enbygsrd
+xx-pride-demiandrogyne-2	pride lgbt gay gender demiandrogyne
+xx-pride-demifluid	pride lgbt gay gender demigenderfluid demifluid
+xx-pride-demiflux	pride lgbt gay gender demigenderflux demiflux
+xx-pride-greygender	pride lgbt gay gender greygender graygender grey gray
+xx-pride-aporagender	pride lgbt gay gender aporagender aliagender hyaenahart
+xx-pride-multigender	pride lgbt gay gender multigender
+xx-pride-trigender	pride lgbt gay gender trigender
+xx-pride-polygender	pride lgbt gay gender polygender
+xx-pride-pangender	pride lgbt gay gender pangender
+xx-pride-maverique	pride lgbt gay gender maverique vesper h queerascat 2014
+xx-pride-xenogender	pride lgbt gay gender xenogender xeno roswell pastelmemer 2017
+
 xx-christian	christ christian christianity
+
+xx-otherkin	otherkin
 
 xx-blm	black lives matter blm
 xx-pan-african	pan african panafrican afro american afroamerican black liberation unia universal negro improvement association marcus garvey
@@ -2409,3 +2448,4 @@ xx-misc-iguana	misc miscellaneous iguana powersurgius apple computer power macin
 
 xx-misc-cmc	misc miscellaneous mlpfim mlp fim my little pony friendship is magic cmc cutie mark crusader crusaders day camp
 xx-misc-lunanova	misc miscellaneous little witch academia luna nova magical witchcraft academy
+xx-misc-gus-cheer	misc miscellaneous owl house gus augustus porter cheer cheering

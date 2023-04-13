@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Poly Pride" fly="h*5/3">
+	<defs>
+		<color id="blue">
+			<colorspec model="rgb" value="0 159 227"/>
+			<colorspec model="cmyk" value="100 0 0 0"/>
+		</color>
+		<color id="magenta">
+			<colorspec model="rgb" value="229 0 81"/>
+			<colorspec model="cmyk" value="0 100 50 0"/>
+		</color>
+		<color id="purple">
+			<colorspec model="rgb" value="52 12 70"/>
+			<colorspec model="cmyk" value="80 100 0 60"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+		</color>
+		<color id="gold">
+			<colorspec model="rgb" value="252 191 0"/>
+			<colorspec model="cmyk" value="0 27 100 0"/>
+		</color>
+		<symdef id="heart" d="
+			M 89.62 94.72 h 0
+			c -23.89 23.89 -23.89 62.64 0 86.53 l 3.82 3.82
+			h 0 s -4.07 4.07 -4.07 4.07
+			c -23.89 23.89 -23.89 62.64 0 86.53 h 0
+			c 23.89 23.89 62.64 23.89 86.53 0 l 4.07 -4.07
+			l 86.53 -86.53 l 0.79 -0.79 l -87.09 -85.52
+			l -0.23 -0.23 l -3.82 -3.82
+			c -23.89 -23.89 -62.64 -23.89 -86.53 0 Z
+		"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue magenta purple"/>
+	<poly points="0 0 h/3 0 h*2/3 h/3 0 h" color="white"/>
+	<symbol symbol="heart" x="0" y="0" sx="h/555.59" sy="h/555.59" color="gold"/>
+</flag>

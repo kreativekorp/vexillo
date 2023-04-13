@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Gynesexual Pride" fly="h*5/3">
+  <defs>
+    <color id="pink">
+      <colorspec model="rgb" value="245 169 184"/>
+    </color>
+    <color id="brown">
+      <colorspec model="rgb" value="143 63 43"/>
+    </color>
+    <color id="green">
+      <colorspec model="rgb" value="91 148 58"/>
+    </color>
+  </defs>
+  <hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="pink brown green"/>
+</flag>
