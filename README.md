@@ -52,12 +52,28 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="artwork/vexillo/pgc024/aq-bartram.png" width="18" height="12" title="Antarctica (Graham Bartram Prop.)"></td><td><code>aq-bartram</code></td><td>Antarctica (Graham Bartram Prop.)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/aq-emblem.png" width="18" height="12" title="Antarctica (Antarctic Treaty System)"></td><td><code>aq-emblem</code></td><td>Antarctica (Antarctic Treaty System)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/aq-smith.png" width="18" height="12" title="Antarctica (Whitney Smith Proposal)"></td><td><code>aq-smith</code></td><td>Antarctica (Whitney Smith Proposal)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/at-1.png" width="18" height="12" title="Burgenland"></td><td><code>at-1</code></td><td>Burgenland</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/at-2.png" width="18" height="12" title="Carinthia"></td><td><code>at-2</code></td><td>Carinthia</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/at-3.png" width="18" height="12" title="Lower Austria"></td><td><code>at-3</code></td><td>Lower Austria</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/at-4.png" width="18" height="12" title="Upper Austria"></td><td><code>at-4</code></td><td>Upper Austria</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/at-5.png" width="18" height="12" title="Salzburg"></td><td><code>at-5</code></td><td>Salzburg</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/at-6.png" width="18" height="12" title="Styria"></td><td><code>at-6</code></td><td>Styria</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/at-7.png" width="18" height="12" title="Tyrol"></td><td><code>at-7</code></td><td>Tyrol</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/at-8.png" width="18" height="12" title="Vorarlberg"></td><td><code>at-8</code></td><td>Vorarlberg</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/at-9.png" width="18" height="12" title="Vienna"></td><td><code>at-9</code></td><td>Vienna</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/au-aboriginal.png" width="18" height="12" title="Australian Aboriginal"></td><td><code>au-aboriginal</code></td><td>Australian Aboriginal</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/bq-bo.png" width="18" height="12" title="Bonaire"></td><td><code>bq-bo</code></td><td>Bonaire</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/bq-sa.png" width="18" height="12" title="Saba"></td><td><code>bq-sa</code></td><td>Saba</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/bq-se.png" width="18" height="12" title="Sint Eustatius"></td><td><code>bq-se</code></td><td>Sint Eustatius</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/ca-on.png" width="18" height="12" title="Ontario"></td><td><code>ca-on</code></td><td>Ontario</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/ca-qc.png" width="18" height="12" title="Quebec"></td><td><code>ca-qc</code></td><td>Quebec</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/ch-zh.png" width="18" height="12" title="Zürich"></td><td><code>ch-zh</code></td><td>Zürich</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/dk-040.png" width="18" height="12" title="Bornholm"></td><td><code>dk-040</code></td><td>Bornholm</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/es-ct.png" width="18" height="12" title="Catalonia"></td><td><code>es-ct</code></td><td>Catalonia</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/fm-ksa.png" width="18" height="12" title="Kosrae"></td><td><code>fm-ksa</code></td><td>Kosrae</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/fm-pni.png" width="18" height="12" title="Pohnpei"></td><td><code>fm-pni</code></td><td>Pohnpei</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/fm-trk.png" width="18" height="12" title="Chuuk"></td><td><code>fm-trk</code></td><td>Chuuk</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/fm-yap.png" width="18" height="12" title="Yap"></td><td><code>fm-yap</code></td><td>Yap</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/fr-50.png" width="18" height="12" title="Manche"></td><td><code>fr-50</code></td><td>Manche</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/fr-bre.png" width="18" height="12" title="Brittany"></td><td><code>fr-bre</code></td><td>Brittany</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/fr-e.png" width="18" height="12" title="Brittany"></td><td><code>fr-e</code></td><td>Brittany</td></tr>
@@ -66,11 +82,14 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="artwork/vexillo/pgc024/fr-q.png" width="18" height="12" title="Normandy"></td><td><code>fr-q</code></td><td>Normandy</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/gb-eng.png" width="18" height="12" title="England"></td><td><code>gb-eng</code></td><td>England</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/gb-nir.png" width="18" height="12" title="Northern Ireland"></td><td><code>gb-nir</code></td><td>Northern Ireland</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/gb-ork.png" width="18" height="12" title="Orkney Islands"></td><td><code>gb-ork</code></td><td>Orkney Islands</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/gb-sct.png" width="18" height="12" title="Scotland"></td><td><code>gb-sct</code></td><td>Scotland</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/gb-wls.png" width="18" height="12" title="Wales"></td><td><code>gb-wls</code></td><td>Wales</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/gb-zet.png" width="18" height="12" title="Shetland Islands"></td><td><code>gb-zet</code></td><td>Shetland Islands</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/gp-black.png" width="18" height="12" title="Guadeloupe (Black Local Variant)"></td><td><code>gp-black</code></td><td>Guadeloupe (Black Local Variant)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/gp-red.png" width="18" height="12" title="Guadeloupe (Red Local Variant)"></td><td><code>gp-red</code></td><td>Guadeloupe (Red Local Variant)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/gp-uplg.png" width="18" height="12" title="Guadeloupe (UPLG)"></td><td><code>gp-uplg</code></td><td>Guadeloupe (UPLG)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/iq-kr.png" width="18" height="12" title="Iraqi Kurdistan"></td><td><code>iq-kr</code></td><td>Iraqi Kurdistan</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/it-82.png" width="18" height="12" title="Sicily"></td><td><code>it-82</code></td><td>Sicily</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/jp-01.png" width="18" height="12" title="Hokkaido"></td><td><code>jp-01</code></td><td>Hokkaido</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/jp-13.png" width="18" height="12" title="Tokyo"></td><td><code>jp-13</code></td><td>Tokyo</td></tr>
@@ -79,7 +98,13 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="artwork/vexillo/pgc024/jp-hnd.png" width="18" height="12" title="Tokyo City"></td><td><code>jp-hnd</code></td><td>Tokyo City</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/jp-itm.png" width="18" height="12" title="Osaka City"></td><td><code>jp-itm</code></td><td>Osaka City</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/jp-uky.png" width="18" height="12" title="Kyoto City"></td><td><code>jp-uky</code></td><td>Kyoto City</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/km-a.png" width="18" height="12" title="Anjouan"></td><td><code>km-a</code></td><td>Anjouan</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/km-g.png" width="18" height="12" title="Grande Comore"></td><td><code>km-g</code></td><td>Grande Comore</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/km-m.png" width="18" height="12" title="Mohéli"></td><td><code>km-m</code></td><td>Mohéli</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/nl-ams.png" width="18" height="12" title="Amsterdam"></td><td><code>nl-ams</code></td><td>Amsterdam</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-bq1.png" width="18" height="12" title="Bonaire"></td><td><code>nl-bq1</code></td><td>Bonaire</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-bq2.png" width="18" height="12" title="Saba"></td><td><code>nl-bq2</code></td><td>Saba</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-bq3.png" width="18" height="12" title="Sint Eustatius"></td><td><code>nl-bq3</code></td><td>Sint Eustatius</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/nz-krikienoid.png" width="18" height="12" title="New Zealand (Krikienoid Proposal)"></td><td><code>nz-krikienoid</code></td><td>New Zealand (Krikienoid Proposal)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/nz-laserkiwi.png" width="18" height="12" title="New Zealand (Laser Kiwi Proposal)"></td><td><code>nz-laserkiwi</code></td><td>New Zealand (Laser Kiwi Proposal)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/pe-cus.png" width="18" height="12" title="Cusco"></td><td><code>pe-cus</code></td><td>Cusco</td></tr>
@@ -88,8 +113,10 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="artwork/vexillo/pgc024/sy-snc.png" width="18" height="12" title="Syrian National Coalition"></td><td><code>sy-snc</code></td><td>Syrian National Coalition</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/uk-eng.png" width="18" height="12" title="England"></td><td><code>uk-eng</code></td><td>England</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/uk-nir.png" width="18" height="12" title="Northern Ireland"></td><td><code>uk-nir</code></td><td>Northern Ireland</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/uk-ork.png" width="18" height="12" title="Orkney Islands"></td><td><code>uk-ork</code></td><td>Orkney Islands</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/uk-sct.png" width="18" height="12" title="Scotland"></td><td><code>uk-sct</code></td><td>Scotland</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/uk-wls.png" width="18" height="12" title="Wales"></td><td><code>uk-wls</code></td><td>Wales</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/uk-zet.png" width="18" height="12" title="Shetland Islands"></td><td><code>uk-zet</code></td><td>Shetland Islands</td></tr>
 </table></td><td valign="top"><table align="center">
 <tr><td><img src="artwork/vexillo/pgc024/us-ak.png" width="18" height="12" title="Alaska"></td><td><code>us-ak</code></td><td>Alaska</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-al.png" width="18" height="12" title="Alabama"></td><td><code>us-al</code></td><td>Alabama</td></tr>
@@ -193,10 +220,29 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-pan-african.png" width="18" height="12" title="Pan-African"></td><td><code>xx-pan-african</code></td><td>Pan-African</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-refugeenation.png" width="18" height="12" title="Refugee Nation"></td><td><code>xx-refugeenation</code></td><td>Refugee Nation</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-romanempire.png" width="18" height="12" title="Roman Empire"></td><td><code>xx-romanempire</code></td><td>Roman Empire</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-romani.png" width="18" height="12" title="Romani"></td><td><code>xx-romani</code></td><td>Romani</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-scotchirish.png" width="18" height="12" title="Scots-Irish"></td><td><code>xx-scotchirish</code></td><td>Scots-Irish</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-somaliland.png" width="18" height="12" title="Somaliland"></td><td><code>xx-somaliland</code></td><td>Somaliland</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-southossetia.png" width="18" height="12" title="South Ossetia"></td><td><code>xx-southossetia</code></td><td>South Ossetia</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-transnistria.png" width="18" height="12" title="Transnistria"></td><td><code>xx-transnistria</code></td><td>Transnistria</td></tr>
+</table>
+
+## International Organizations
+
+<table align="center">
+<tr><td><img src="artwork/vexillo/pgc024/xx-int-africanunion.png" width="18" height="12" title="African Union (AU)"></td><td><code>xx-int-africanunion</code></td><td>African Union (AU)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-int-arableague.png" width="18" height="12" title="Arab League"></td><td><code>xx-int-arableague</code></td><td>Arab League</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-int-aec.png" width="18" height="12" title="Association of Caribbean States (ACS/AEC)"></td><td><code>xx-int-aec</code></td><td>Association of Caribbean States (ACS/AEC)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-int-asean.png" width="18" height="12" title="Association of Southeast Asian Nations (ASEAN)"></td><td><code>xx-int-asean</code></td><td>Association of Southeast Asian Nations (ASEAN)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-int-cis.png" width="18" height="12" title="Commonwealth of Independent States (CIS)"></td><td><code>xx-int-cis</code></td><td>Commonwealth of Independent States (CIS)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-int-commonwealth.png" width="18" height="12" title="Commonwealth of Nations"></td><td><code>xx-int-commonwealth</code></td><td>Commonwealth of Nations</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/eu.png" width="18" height="12" title="European Union (EU)"></td><td><code>eu</code></td><td>European Union (EU)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-int-nato.png" width="18" height="12" title="North Atlantic Treaty Organization (NATO)"></td><td><code>xx-int-nato</code></td><td>North Atlantic Treaty Organization (NATO)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-int-norden.png" width="18" height="12" title="Nordic Council"></td><td><code>xx-int-norden</code></td><td>Nordic Council</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-int-ots.png" width="18" height="12" title="Organization of Turkic States (OTS)"></td><td><code>xx-int-ots</code></td><td>Organization of Turkic States (OTS)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-int-pacific.png" width="18" height="12" title="Pacific Community"></td><td><code>xx-int-pacific</code></td><td>Pacific Community</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-int-saarc.png" width="18" height="12" title="South Asian Association for Regional Cooperation (SAARC)"></td><td><code>xx-int-saarc</code></td><td>South Asian Association for Regional Cooperation (SAARC)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/un.png" width="18" height="12" title="United Nations (UN)"></td><td><code>un</code></td><td>United Nations (UN)</td></tr>
 </table>
 
 ## Wiphala
@@ -226,27 +272,40 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-conlang-novial.png" width="18" height="12" title="Novial"></td><td><code>xx-conlang-novial</code></td><td>Novial</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-conlang-pandunia.png" width="18" height="12" title="Pandunia"></td><td><code>xx-conlang-pandunia</code></td><td>Pandunia</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-conlang-volapuk.png" width="18" height="12" title="Volapük"></td><td><code>xx-conlang-volapuk</code></td><td>Volapük</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-conlang-votgil.png" width="18" height="12" title="Vötgil"></td><td><code>xx-conlang-votgil</code></td><td>Vötgil</td></tr>
 </table>
 
 ## Pride Flags
 
 <table align="center">
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-abrosexual.png" width="18" height="12" title="Abrosexual Pride"></td><td><code>xx-pride-abrosexual</code></td><td>Abrosexual Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-aceflux.png" width="18" height="12" title="Aceflux Pride"></td><td><code>xx-pride-aceflux</code></td><td>Aceflux Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-achillean.png" width="18" height="12" title="Achillean Pride"></td><td><code>xx-pride-achillean</code></td><td>Achillean Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-aegosexual.png" width="18" height="12" title="Aegosexual Pride"></td><td><code>xx-pride-aegosexual</code></td><td>Aegosexual Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-agender.png" width="18" height="12" title="Agender Pride"></td><td><code>xx-pride-agender</code></td><td>Agender Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-ally.png" width="18" height="12" title="Ally Pride"></td><td><code>xx-pride-ally</code></td><td>Ally Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-androgyne.png" width="18" height="12" title="Androgyne Pride"></td><td><code>xx-pride-androgyne</code></td><td>Androgyne Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-androsexual.png" width="18" height="12" title="Androsexual Pride"></td><td><code>xx-pride-androsexual</code></td><td>Androsexual Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-apollonian.png" width="18" height="12" title="Apollonian Pride"></td><td><code>xx-pride-apollonian</code></td><td>Apollonian Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-aporagender.png" width="18" height="12" title="Aporagender Pride"></td><td><code>xx-pride-aporagender</code></td><td>Aporagender Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-aroace.png" width="18" height="12" title="Aro/Ace Pride"></td><td><code>xx-pride-aroace</code></td><td>Aro/Ace Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-aroflux.png" width="18" height="12" title="Aroflux Pride"></td><td><code>xx-pride-aroflux</code></td><td>Aroflux Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-aromantic.png" width="18" height="12" title="Aromantic Pride"></td><td><code>xx-pride-aromantic</code></td><td>Aromantic Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-asexual.png" width="18" height="12" title="Asexual Pride"></td><td><code>xx-pride-asexual</code></td><td>Asexual Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-aspectrum.png" width="18" height="12" title="A-Spectrum Pride"></td><td><code>xx-pride-aspectrum</code></td><td>A-Spectrum Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-bdsm.png" width="18" height="12" title="BDSM Pride"></td><td><code>xx-pride-bdsm</code></td><td>BDSM Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-bear.png" width="18" height="12" title="Bear Pride"></td><td><code>xx-pride-bear</code></td><td>Bear Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-bigender-1.png" width="18" height="12" title="Bigender Pride"></td><td><code>xx-pride-bigender-1</code></td><td>Bigender Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-bigender-2.png" width="18" height="12" title="Bigender Pride"></td><td><code>xx-pride-bigender-2</code></td><td>Bigender Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-bigender-3.png" width="18" height="12" title="Bigender Pride"></td><td><code>xx-pride-bigender-3</code></td><td>Bigender Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-bisexual.png" width="18" height="12" title="Bisexual Pride"></td><td><code>xx-pride-bisexual</code></td><td>Bisexual Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-ceterosexual.png" width="18" height="12" title="Ceterosexual Pride"></td><td><code>xx-pride-ceterosexual</code></td><td>Ceterosexual Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-demiandrogyne-1.png" width="18" height="12" title="Demiandrogyne Pride"></td><td><code>xx-pride-demiandrogyne-1</code></td><td>Demiandrogyne Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-demiandrogyne-2.png" width="18" height="12" title="Demiandrogyne Pride"></td><td><code>xx-pride-demiandrogyne-2</code></td><td>Demiandrogyne Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-demiboy.png" width="18" height="12" title="Demiboy Pride"></td><td><code>xx-pride-demiboy</code></td><td>Demiboy Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-demifluid.png" width="18" height="12" title="Demifluid Pride"></td><td><code>xx-pride-demifluid</code></td><td>Demifluid Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-demiflux.png" width="18" height="12" title="Demiflux Pride"></td><td><code>xx-pride-demiflux</code></td><td>Demiflux Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-demigender.png" width="18" height="12" title="Demigender Pride"></td><td><code>xx-pride-demigender</code></td><td>Demigender Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-demigirl.png" width="18" height="12" title="Demigirl Pride"></td><td><code>xx-pride-demigirl</code></td><td>Demigirl Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-demiromantic.png" width="18" height="12" title="Demiromantic Pride"></td><td><code>xx-pride-demiromantic</code></td><td>Demiromantic Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-demisexual.png" width="18" height="12" title="Demisexual Pride"></td><td><code>xx-pride-demisexual</code></td><td>Demisexual Pride</td></tr>
@@ -256,10 +315,14 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-gay-male-1.png" width="18" height="12" title="Gay Male Pride"></td><td><code>xx-pride-gay-male-1</code></td><td>Gay Male Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-gay-male-2.png" width="18" height="12" title="Gay Male Pride"></td><td><code>xx-pride-gay-male-2</code></td><td>Gay Male Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-gay-male-3.png" width="18" height="12" title="Gay Male Pride"></td><td><code>xx-pride-gay-male-3</code></td><td>Gay Male Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-gay-male-4.png" width="18" height="12" title="Gay Male Pride"></td><td><code>xx-pride-gay-male-4</code></td><td>Gay Male Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-gender-neutral.png" width="18" height="12" title="Gender Neutral Pride"></td><td><code>xx-pride-gender-neutral</code></td><td>Gender Neutral Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-genderfluid.png" width="18" height="12" title="Genderfluid Pride"></td><td><code>xx-pride-genderfluid</code></td><td>Genderfluid Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-genderflux.png" width="18" height="12" title="Genderflux Pride"></td><td><code>xx-pride-genderflux</code></td><td>Genderflux Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-genderqueer.png" width="18" height="12" title="Genderqueer Pride"></td><td><code>xx-pride-genderqueer</code></td><td>Genderqueer Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-greygender.png" width="18" height="12" title="Greygender Pride"></td><td><code>xx-pride-greygender</code></td><td>Greygender Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-greysexual.png" width="18" height="12" title="Greysexual Pride"></td><td><code>xx-pride-greysexual</code></td><td>Greysexual Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-gynesexual.png" width="18" height="12" title="Gynesexual Pride"></td><td><code>xx-pride-gynesexual</code></td><td>Gynesexual Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-heterosexual.png" width="18" height="12" title="Heterosexual Pride"></td><td><code>xx-pride-heterosexual</code></td><td>Heterosexual Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-intersex-1.png" width="18" height="12" title="Intersex Pride"></td><td><code>xx-pride-intersex-1</code></td><td>Intersex Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-intersex-2.png" width="18" height="12" title="Intersex Pride"></td><td><code>xx-pride-intersex-2</code></td><td>Intersex Pride</td></tr>
@@ -292,20 +355,37 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-lipstick-2.png" width="18" height="12" title="Lipstick Lesbian Pride (inclusive)"></td><td><code>xx-pride-lipstick-2</code></td><td>Lipstick Lesbian Pride (inclusive)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-littleender.png" width="18" height="12" title="Littleender Pride"></td><td><code>xx-pride-littleender</code></td><td>Littleender Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-master-slave.png" width="18" height="12" title="Master-Slave Pride"></td><td><code>xx-pride-master-slave</code></td><td>Master-Slave Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-maverique.png" width="18" height="12" title="Maverique Pride"></td><td><code>xx-pride-maverique</code></td><td>Maverique Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-multigender.png" width="18" height="12" title="Multigender Pride"></td><td><code>xx-pride-multigender</code></td><td>Multigender Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-multisexual.png" width="18" height="12" title="Multisexual Pride"></td><td><code>xx-pride-multisexual</code></td><td>Multisexual Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-neptunic.png" width="18" height="12" title="Neptunic Pride"></td><td><code>xx-pride-neptunic</code></td><td>Neptunic Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-neutrois.png" width="18" height="12" title="Neutrois Pride"></td><td><code>xx-pride-neutrois</code></td><td>Neutrois Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-nonbinary.png" width="18" height="12" title="Non-Binary Pride"></td><td><code>xx-pride-nonbinary</code></td><td>Non-Binary Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-omnisexual.png" width="18" height="12" title="Omnisexual Pride"></td><td><code>xx-pride-omnisexual</code></td><td>Omnisexual Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-ownership.png" width="18" height="12" title="Ownership Flag"></td><td><code>xx-pride-ownership</code></td><td>Ownership Flag</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-pangender.png" width="18" height="12" title="Pangender Pride"></td><td><code>xx-pride-pangender</code></td><td>Pangender Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-pansexual.png" width="18" height="12" title="Pansexual Pride"></td><td><code>xx-pride-pansexual</code></td><td>Pansexual Pride</td></tr>
-<tr><td><img src="artwork/vexillo/pgc024/xx-pride-poly.png" width="18" height="12" title="Poly Pride"></td><td><code>xx-pride-poly</code></td><td>Poly Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-poly-1.png" width="18" height="12" title="Poly Pride"></td><td><code>xx-pride-poly-1</code></td><td>Poly Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-poly-2.png" width="18" height="12" title="Poly Pride"></td><td><code>xx-pride-poly-2</code></td><td>Poly Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-poly-3.png" width="18" height="12" title="Poly Pride"></td><td><code>xx-pride-poly-3</code></td><td>Poly Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-polygender.png" width="18" height="12" title="Polygender Pride"></td><td><code>xx-pride-polygender</code></td><td>Polygender Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-polysexual.png" width="18" height="12" title="Polysexual Pride"></td><td><code>xx-pride-polysexual</code></td><td>Polysexual Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-pomosexual.png" width="18" height="12" title="Pomosexual Pride"></td><td><code>xx-pride-pomosexual</code></td><td>Pomosexual Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-proculsexual.png" width="18" height="12" title="Proculsexual Pride"></td><td><code>xx-pride-proculsexual</code></td><td>Proculsexual Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-queer.png" width="18" height="12" title="Queer Pride"></td><td><code>xx-pride-queer</code></td><td>Queer Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-rubber.png" width="18" height="12" title="Rubber Pride"></td><td><code>xx-pride-rubber</code></td><td>Rubber Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-sapphic.png" width="18" height="12" title="Sapphic Pride"></td><td><code>xx-pride-sapphic</code></td><td>Sapphic Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-trans.png" width="18" height="12" title="Trans Pride"></td><td><code>xx-pride-trans</code></td><td>Trans Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-trans-crab.png" width="18" height="12" title="Trans Pride (Cool Crab)"></td><td><code>xx-pride-trans-crab</code></td><td>Trans Pride (Cool Crab)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-trans-il.png" width="18" height="12" title="Trans Pride (Israel)"></td><td><code>xx-pride-trans-il</code></td><td>Trans Pride (Israel)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-transfeminine.png" width="18" height="12" title="Transfeminine Pride"></td><td><code>xx-pride-transfeminine</code></td><td>Transfeminine Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-transmasculine.png" width="18" height="12" title="Transmasculine Pride"></td><td><code>xx-pride-transmasculine</code></td><td>Transmasculine Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-transneutral.png" width="18" height="12" title="Transneutral Pride"></td><td><code>xx-pride-transneutral</code></td><td>Transneutral Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-trigender.png" width="18" height="12" title="Trigender Pride"></td><td><code>xx-pride-trigender</code></td><td>Trigender Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-twink.png" width="18" height="12" title="Twink Pride"></td><td><code>xx-pride-twink</code></td><td>Twink Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-unlabeled.png" width="18" height="12" title="Unlabeled Pride"></td><td><code>xx-pride-unlabeled</code></td><td>Unlabeled Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-uranic.png" width="18" height="12" title="Uranic Pride"></td><td><code>xx-pride-uranic</code></td><td>Uranic Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-xenogender.png" width="18" height="12" title="Xenogender Pride"></td><td><code>xx-pride-xenogender</code></td><td>Xenogender Pride</td></tr>
 </table>
 
 ## Racing Flags
@@ -344,6 +424,7 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-misc-cmc.png" width="18" height="12" title="Cutie Mark Day Camp"></td><td><code>xx-misc-cmc</code></td><td>Cutie Mark Day Camp</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-misc-cmyk.png" width="18" height="12" title="CMYK"></td><td><code>xx-misc-cmyk</code></td><td>CMYK</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-misc-fam.png" width="18" height="12" title="FamFamFam"></td><td><code>xx-misc-fam</code></td><td>FamFamFam</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-misc-gus-cheer.png" width="18" height="12" title="Gus’ Cheer Flag"></td><td><code>xx-misc-gus-cheer</code></td><td>Gus’ Cheer Flag</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-misc-hello-internet.png" width="18" height="12" title="Hello Internet"></td><td><code>xx-misc-hello-internet</code></td><td>Hello Internet</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-misc-iguana.png" width="18" height="12" title="Iguana iguana powersurgius"></td><td><code>xx-misc-iguana</code></td><td>Iguana iguana powersurgius</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-misc-lunanova.png" width="18" height="12" title="Luna Nova"></td><td><code>xx-misc-lunanova</code></td><td>Luna Nova</td></tr>
@@ -357,9 +438,9 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-org-fotw.png" width="18" height="12" title="Flags of the World"></td><td><code>xx-org-fotw</code></td><td>Flags of the World</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-org-nava.png" width="18" height="12" title="North American Vexillological Association"></td><td><code>xx-org-nava</code></td><td>North American Vexillological Association</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-org-pfa.png" width="18" height="12" title="Portland Flag Association"></td><td><code>xx-org-pfa</code></td><td>Portland Flag Association</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-otherkin.png" width="18" height="12" title="Otherkin"></td><td><code>xx-otherkin</code></td><td>Otherkin</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pace.png" width="18" height="12" title="Pace"></td><td><code>xx-pace</code></td><td>Pace</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pirate.png" width="18" height="12" title="Pirate"></td><td><code>xx-pirate</code></td><td>Pirate</td></tr>
-<tr><td><img src="artwork/vexillo/pgc024/xx-romani.png" width="18" height="12" title="Romani"></td><td><code>xx-romani</code></td><td>Romani</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-trains.png" width="18" height="12" title="Train Landscape (Ellsworth Kelly, 1953)"></td><td><code>xx-trains</code></td><td>Train Landscape (Ellsworth Kelly, 1953)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-wakanda.png" width="18" height="12" title="Wakanda"></td><td><code>xx-wakanda</code></td><td>Wakanda</td></tr>
 </table>

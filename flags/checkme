@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+for i in `basename -a -s .kvxx flags/*.kvxx`; do
+	if ! grep -F -q "artwork/vexillo/pgc024/$i.png" ../README.md; then
+		echo "Missing in README.md: $i"
+	fi
+done
