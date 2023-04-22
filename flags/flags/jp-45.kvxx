@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Miyazaki Prefecture" fly="h*7/5">
+	<defs>
+		<dim id="es" e="min(h*111/200,w*111/280)"/>
+		<color id="green">
+			<colorspec model="rgb" value="21 153 57"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 255 1"/>
+		</color>
+		<symdef id="e" d="
+			M -0.6989 -0.5135 H 0.0068 L -0.2259 -0.1712
+			h 0.6847 L 0.2259 0.1712 h 0.7244 L 0.7187 0.4865
+			H -0.0083 L 0.2245 0.1441 h -0.6847
+			l 0.2328 -0.3423 h -0.7031 L -0.6989 -0.5135 z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="green"/>
+	<symbol symbol="e" x="w/2" y="h/2" sx="es" sy="es" color="yellow"/>
+</flag>

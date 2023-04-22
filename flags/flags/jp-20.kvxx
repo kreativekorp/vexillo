@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Nagano Prefecture" fly="h*3/2">
+	<defs>
+		<dim id="es" e="min(h*5/6,w*5/6)"/>
+		<color id="orange">
+			<colorspec model="rgb" value="246 102 55"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="e" d="
+			M 0.0337 -0.4988
+			C 0.2775 -0.4826 0.4735 -0.2916 0.4975 -0.05
+			H 0.298
+			c -0.0116 -0.1414 -0.0722 -0.2728 -0.1737 -0.3743
+			C 0.0962 -0.4523 0.0659 -0.4772 0.0337 -0.4988 z
+			M 0.1975 -0.05
+			C 0.1774 -0.2514 0.0373 -0.418 -0.1501 -0.477
+			C -0.3376 -0.4181 -0.4775 -0.2517 -0.4975 -0.05
+			H 0.1975 z
+			M 0.298 0.05
+			c -0.0116 0.1414 -0.0722 0.2728 -0.1737 0.3743
+			c -0.028 0.028 -0.0584 0.053 -0.0906 0.0746
+			C 0.2775 0.4826 0.4735 0.2916 0.4975 0.05
+			H 0.298 z
+			M 0.1975 0.05 h -0.695
+			c 0.02 0.2017 0.1599 0.3681 0.3474 0.427
+			C 0.0373 0.418 0.1774 0.2514 0.1975 0.05 z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="orange"/>
+	<symbol symbol="e" x="min(h/2,w/2)" y="h/2" sx="es" sy="es" color="white"/>
+</flag>

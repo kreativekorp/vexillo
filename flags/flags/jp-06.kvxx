@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Yamagata Prefecture" fly="h*3/2">
+	<defs>
+		<dim id="es" e="min(h/3,w/4)"/>
+		<color id="blue">
+			<colorspec model="rgb" value="0 107 189"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="e" d="
+			M -1.485 0.4785 L -0.9685 -0.5205 L -0.4828 0.411
+			L 0 -0.5205 L 0.4828 0.411 L 0.9685 -0.5205
+			l 0.5165 0.999 h -0.54 l -0.1803 -0.3476
+			l -0.1797 0.3476 h -0.6075 l -0.1803 -0.3476
+			l -0.1797 0.3476 h -0.6075 L -1.1703 0.1309
+			L -1.35 0.4785 h -0.135 z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<symbol symbol="e" x="w/2" y="h/2" sx="es" sy="es" color="white"/>
+</flag>

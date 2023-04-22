@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Kumamoto Prefecture" fly="h*3/2">
+	<defs>
+		<dim id="es" e="min(h*2/3,w/2)"/>
+		<color id="red">
+			<colorspec model="rgb" value="147 29 35"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="e" d="
+			M -0.72 -0.5 H 0 A 0.5 0.5 0 1 1 -0.4583 0.2
+			A 0.3 0.3 0 0 0 0.0917 -0.04
+			A 0.3 0.3 0 0 0 -0.4583 0.2 H -0.9 z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<symbol symbol="e" x="w/2" y="h/2" sx="es" sy="es" color="white"/>
+</flag>

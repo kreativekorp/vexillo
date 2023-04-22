@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Okinawa Prefecture" fly="h*3/2">
+	<defs>
+		<dim id="es" e="min(h*0.7125,w*0.7125)"/>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="238 0 0"/>
+		</color>
+		<symdef id="e" d="
+			M 0 -0.5 c -0.2761 0 -0.5 0.2239 -0.5 0.5
+			S -0.2761 0.5 0 0.5
+			c 0.2761 0 0.5 -0.2239 0.5 -0.5
+			C 0.5 -0.2761 0.2761 -0.5 0 -0.5 L 0 -0.5 z
+			M 0 -0.449 c 0.1888 0 0.3419 0.1565 0.3419 0.3495
+			c 0.0 0.193 -0.1531 0.3495 -0.3419 0.3495 H 0
+			c -0.1888 0 -0.3419 -0.1565 -0.3419 -0.3495
+			c 0 0 0 0.0 0 0.0
+			C -0.3419 -0.2925 -0.1888 -0.449 0 -0.449 z
+			M 0 -0.4009
+			c -0.1241 0 -0.2247 0.1004 -0.2247 0.2243
+			S -0.1241 0.0477 0 0.0477
+			S 0.2247 -0.0527 0.2247 -0.1766
+			S 0.1241 -0.4009 0 -0.4009 L 0 -0.4009 z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<symbol symbol="e" x="w/2" y="h/2" sx="es" sy="es" color="red"/>
+</flag>

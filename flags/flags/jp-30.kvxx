@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Wakayama Prefecture" fly="h*3/2">
+	<defs>
+		<dim id="es" e="min(h*2/3,w*2/3)"/>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="41 67 127"/>
+		</color>
+		<symdef id="e" d="
+			M -0.4841 0.125 A 0.5 0.5 0 1 1 0.4841 0.125
+			L 0 0.5 L -0.2227 0.3275 L 0.2 0
+			A 0.2 0.2 0 0 0 -0.2 0 L -0.0168 0.1419
+			L -0.2396 0.3144 z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<symbol symbol="e" x="w/2" y="h/2" sx="es" sy="es" color="blue"/>
+</flag>

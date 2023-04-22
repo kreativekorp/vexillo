@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Shimane Prefecture" fly="h*3/2">
+	<defs>
+		<dim id="es" e="min(h*3/5,w*3/5)"/>
+		<color id="red">
+			<colorspec model="rgb" value="149 0 23"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 215 0"/>
+		</color>
+		<symdef id="e" d="
+			M 0 0 L 0.1667 -0.1491
+			A 0.2 0.2 0 0 1 0.2879 -0.1996 v 0.1341
+			a 0.0667 0.0667 0 1 0 0.0243 0 v -0.1341
+			A 0.2 0.2 0 1 1 0.1 0 z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<symbol symbol="e" x="w/2" y="h/2" sx="es" sy="es" rotate="0" color="yellow"/>
+	<symbol symbol="e" x="w/2" y="h/2" sx="es" sy="es" rotate="90" color="yellow"/>
+	<symbol symbol="e" x="w/2" y="h/2" sx="es" sy="es" rotate="180" color="yellow"/>
+	<symbol symbol="e" x="w/2" y="h/2" sx="es" sy="es" rotate="270" color="yellow"/>
+</flag>

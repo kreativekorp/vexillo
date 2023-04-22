@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Kochi Prefecture" fly="h*3/2">
+	<defs>
+		<dim id="es" e="min(h*3/4,w*3/4)"/>
+		<color id="red">
+			<colorspec model="rgb" value="123 23 28"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="e" d="
+			M 0 -0.5037 L 0.1192 0.025
+			a 0.1222 0.1222 0 1 1 -0.2385 0 z
+			M -0.4443 0.0407 a 0.4444 0.4444 0 0 1 0.8886 0
+			h -0.189 a 0.2556 0.2556 0 0 0 -0.5106 0 z
+			M -0.4443 0.063 a 0.4444 0.4444 0 0 0 0.8886 0
+			h -0.189 a 0.2556 0.2556 0 0 1 -0.5106 0 z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<symbol symbol="e" x="w/2" y="h/2" sx="es" sy="es" color="white"/>
+</flag>

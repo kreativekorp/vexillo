@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Tokushima Prefecture" fly="h*10/7">
+	<defs>
+		<dim id="es" e="min(h*3/5,w*3/5)"/>
+		<color id="blue">
+			<colorspec model="rgb" value="35 71 148"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="252 212 0"/>
+		</color>
+		<symdef id="e" d="
+			M 0.4 0.3 L 0.5556 0.5 H 0.2222 l -0.0298 -0.0384
+			l 0 0 L 0.0061 0.2221
+			C 0.126 0.2189 0.2222 0.1207 0.2222 0
+			c 0 -0.0727 -0.0349 -0.1372 -0.0889 -0.1778
+			h 0.334 C 0.4884 -0.1225 0.5 -0.0626 0.5 0
+			C 0.5 0.1126 0.4628 0.2164 0.4 0.3 z
+			M -0.0556 0.2152
+			C -0.1514 0.1905 -0.2222 0.1035 -0.2222 0
+			c 0 -0.1227 0.0995 -0.2222 0.2222 -0.2222 h 0.448
+			c 0.0 0.0 0.0 -0.0001 0.0 -0.0001 L 0.6202 -0.5
+			H 0 c -0.0682 0 -0.1332 0.0137 -0.1924 0.0384
+			L -0.2222 -0.5 h -0.3333 l 0.1555 0.2
+			C -0.4628 -0.2164 -0.5 -0.1126 -0.5 0
+			c 0 0.2761 0.2239 0.5 0.5 0.5
+			c 0.0517 0 0.1016 -0.0079 0.1485 -0.0224
+			L -0.0556 0.2152 z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<symbol symbol="e" x="w/2" y="h/2" sx="es" sy="es" color="yellow"/>
+</flag>

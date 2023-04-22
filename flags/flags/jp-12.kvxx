@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Chiba Prefecture" fly="h*3/2">
+	<defs>
+		<dim id="es" e="min(h,w)*2/3"/>
+		<color id="blue">
+			<colorspec model="rgb" value="26 21 163"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 236 80"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="e1" d="
+			M 0.1443 -0.015 l 0.2887 0.25 L 0.0722 0.11
+			L 0 0.485 L -0.0722 0.11 l -0.3608 0.125
+			L -0.1443 -0.015 l -0.2887 -0.25 l 0.3608 0.125
+			l 0.0318 -0.1653 L -0.1 -0.365 l 0.1 -0.15
+			l 0.1 0.15 l -0.0597 0.0597 L 0.0722 -0.14
+			l 0.3608 -0.125 L 0.1443 -0.015 z
+		"/>
+		<symdef id="e2" d="
+			M 0 -0.4744 l 0.071 0.1066 l -0.055 0.0551
+			l 0.039 0.2026 l 0.2749 -0.0952 L 0.066 0.0231
+			L 0 0.3659 L -0.066 0.0231 l -0.2639 -0.2286
+			l 0.2749 0.0952 l 0.039 -0.2026 l -0.055 -0.055
+			L 0 -0.4744 z
+			M 0.0866 0.035 l 0.0405 -0.0351 l 0.2028 0.1756
+			L 0.0765 0.0877 L 0.0866 0.035 z
+			M -0.0866 0.035 l -0.0405 -0.0351 l -0.2028 0.1756
+			L -0.0765 0.0877 L -0.0866 0.035 z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<symbol symbol="e1" x="w/2" y="h/2" sx="es" sy="es" color="yellow"/>
+	<symbol symbol="e2" x="w/2" y="h/2" sx="es" sy="es" color="white"/>
+</flag>

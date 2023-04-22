@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Iwate Prefecture" fly="h*3/2">
+	<defs>
+		<dim id="es" e="min(h*6/11,w*7/11)"/>
+		<color id="blue">
+			<colorspec model="rgb" value="20 94 112"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="e" d="
+			M 0 -0.5 l -0.1732 0.3 l 0.0577 0.1 h -0.1155
+			l -0.0866 -0.15 h -0.1155 L -0.292 -0.0058 h 0.584
+			L 0.433 -0.25 H 0.3175 l -0.0866 0.15 H 0.1155
+			l 0.0577 -0.1 L 0 -0.5 z
+			M 0 -0.3 l 0.0577 0.1 L 0 -0.1 l -0.0577 -0.1
+			L 0 -0.3 z
+			M -0.292 0.0058 L -0.433 0.25 h 0.1155
+			l 0.0866 -0.15 h 0.1155 l -0.0577 0.1 L 0 0.5
+			l 0.1732 -0.3 l -0.0577 -0.1 h 0.1155
+			l 0.0866 0.15 h 0.1155 L 0.292 0.0058 H -0.292 z
+			M 0 0.1 l 0.0577 0.1 L 0 0.3 l -0.0577 -0.1
+			L 0 0.1 z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="blue"/>
+	<symbol symbol="e" x="w/2" y="h/2" sx="es" sy="es" color="white"/>
+</flag>
