@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ch-sz" name="Schwyz" fly="h">
+	<defs>
+		<dim id="s" e="h/3"/>
+		<dim id="t" e="h*3/64"/>
+		<color id="red">
+			<colorspec model="rgb" value="232 66 63"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<cross x1="t" y1="t" x2="t+(s-t)/2" y2="t+(s-t)/2" x3="t+(s+t)/2" y3="t+(s+t)/2" x4="t+s" y4="t+s" color="white"/>
+</flag>

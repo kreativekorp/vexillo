@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ch-ne" name="Neuch&#226;tel" fly="h">
+	<defs>
+		<dim id="x" e="w*5/6"/>
+		<dim id="y" e="t+s/2"/>
+		<dim id="s" e="min(w/3,h)-t*2"/>
+		<dim id="t" e="min(w/27,h/9)"/>
+		<color id="green">
+			<colorspec model="rgb" value="22 167 78"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="232 66 63"/>
+		</color>
+	</defs>
+	<vband x1="0" y1="0" x2="w" y2="h" bands="3" colors="green white red"/>
+	<cross x1="x-s/2" y1="y-s/2" x2="x-t/2" y2="y-t/2" x3="x+t/2" y3="y+t/2" x4="x+s/2" y4="y+s/2" color="white"/>
+</flag>
