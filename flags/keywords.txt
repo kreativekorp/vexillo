@@ -1237,6 +1237,8 @@ at-7	western europe republic austria state tirol tyrol
 at-8	western europe republic austria state vorarlberg
 at-9	western europe republic austria state wien vienna
 
+xx-genovia	western europe principality kingdom genovia princess diaries meg cabot
+
 
 ## Western European Flags B
 
@@ -2203,6 +2205,7 @@ gp-black	north america caribbean france french republic overseas region guadelou
 gp-red	north america caribbean france french republic overseas region guadeloupe red local variant
 gp-uplg	north america caribbean france french republic overseas region guadeloupe uplg peoples union liberation
 md-transnistria; xx-transnistria	eastern europe republic moldova transnistria transdniestria pridnestrovian moldavian pmr
+xx-oz	land oz wonderful wizard l frank baum
 so-somaliland; xx-somaliland	east africa federal republic somalia somaliland
 sy-snc; xx-sy-snc	western southwestern asia middle east syria syrian arab republic national coalition
 xx-kurdistan	eastern europe western southwestern asia middle east kurdistan
@@ -2237,6 +2240,7 @@ xx-conlang-novial	conlang constructed language nov novial nova international aux
 xx-conlang-pandunia	conlang constructed language qpn pandunia risto kupsala
 xx-conlang-volapuk	conlang constructed language vol volapuk johann martin schleyer
 xx-conlang-klingon	conlang constructed language tlh tlhingan hol klingon empire kronos qonos star trek marc okrand
+xx-conlang-tokipona	conlang constructed language tok toki pona sonja lang
 xx-conlang-votgil	conlang constructed language votgil jack eisenmann
 
 

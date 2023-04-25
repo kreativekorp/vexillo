@@ -1650,6 +1650,8 @@ at-7	FLAG FOR AUSTRIA-TYROL
 at-8	FLAG FOR AUSTRIA-VORARLBERG
 at-9	FLAG FOR AUSTRIA-VIENNA
 
+xx-genovia	FLAG FOR GENOVIA
+
 
 ## E900-E9FF	Western European Flags B
 
@@ -2616,6 +2618,7 @@ gp-black	FLAG FOR GUADELOUPE-BLACK LOCAL VARIANT
 gp-red	FLAG FOR GUADELOUPE-RED LOCAL VARIANT
 gp-uplg	FLAG FOR PEOPLES UNION FOR THE LIBERATION OF GUADELOUPE
 md-transnistria; xx-transnistria	FLAG FOR TRANSNISTRIA
+xx-oz	FLAG FOR OZ
 so-somaliland; xx-somaliland	FLAG FOR SOMALILAND
 sy-snc; xx-sy-snc	FLAG FOR SYRIAN NATIONAL COALITION
 xx-kurdistan	FLAG FOR KURDISTAN
@@ -2650,6 +2653,7 @@ xx-conlang-novial	FLAG FOR NOVIAL
 xx-conlang-pandunia	FLAG FOR PANDUNIA
 xx-conlang-volapuk	FLAG FOR VOLAPUK
 xx-conlang-klingon	FLAG FOR KLINGON
+xx-conlang-tokipona	FLAG FOR TOKI PONA
 xx-conlang-votgil	FLAG FOR VOTGIL
 
 

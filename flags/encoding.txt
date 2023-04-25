@@ -1650,6 +1650,8 @@ at-7	E8F7
 at-8	E8F8
 at-9	E8F9
 
+xx-genovia	E8FF
+
 
 ## E900-E9FF	Western European Flags B
 
@@ -2634,6 +2636,7 @@ gp-black	F348
 gp-red	F349
 gp-uplg	F34A
 md-transnistria; xx-transnistria	F371
+xx-oz	F397
 so-somaliland; xx-somaliland	F3B9
 sy-snc; xx-sy-snc	F3BF
 xx-kurdistan	F3EB
@@ -2689,6 +2692,7 @@ xx-conlang-klingon	F440
 # F498 D | F4B8 L | F4D8 S | F4F8 Y
 # F49C E | F4BC M | F4DC S | F4FC Z
 
+xx-conlang-tokipona	F4E4
 xx-conlang-votgil	F4EE
 
 

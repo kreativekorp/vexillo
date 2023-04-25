@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Oz" fly="h*sqrt(2)">
+	<defs>
+		<dim id="sr" e="min(h/5,w/5)"/>
+		<dim id="sy" e="h/2+sr*0.106"/>
+		<color id="red">
+			<colorspec model="rgb" value="255 0 0"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 255 0"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="62 194 97"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="0 0 255"/>
+		</color>
+		<color id="purple">
+			<colorspec model="rgb" value="153 102 204"/>
+		</color>
+		<symdef id="star" d="
+			M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+			L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+			L -0.5878 0.809 L -0.3633 0.118
+			L -0.9511 -0.309 L -0.2245 -0.309 Z
+		"/>
+	</defs>
+	<vband x1="0" y1="0" x2="w" y2="h" bands="2" colors="blue yellow"/>
+	<poly points="0 0 w 0 w/2 h/2" color="purple"/>
+	<poly points="w h 0 h w/2 h/2" color="red"/>
+	<symbol symbol="star" x="w/2" y="sy" sx="sr" sy="sr" color="green"/>
+</flag>
