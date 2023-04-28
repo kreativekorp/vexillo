@@ -65,8 +65,44 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="artwork/vexillo/pgc024/bq-bo.png" width="18" height="12" title="Bonaire"></td><td><code>bq-bo</code></td><td>Bonaire</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/bq-sa.png" width="18" height="12" title="Saba"></td><td><code>bq-sa</code></td><td>Saba</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/bq-se.png" width="18" height="12" title="Sint Eustatius"></td><td><code>bq-se</code></td><td>Sint Eustatius</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ca-ab.png" width="18" height="12" title="Alberta"></td><td><code>ca-ab</code></td><td>Alberta</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ca-bc.png" width="18" height="12" title="British Columbia"></td><td><code>ca-bc</code></td><td>British Columbia</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ca-mb.png" width="18" height="12" title="Manitoba"></td><td><code>ca-mb</code></td><td>Manitoba</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ca-nb.png" width="18" height="12" title="New Brunswick"></td><td><code>ca-nb</code></td><td>New Brunswick</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ca-nl.png" width="18" height="12" title="Newfoundland and Labrador"></td><td><code>ca-nl</code></td><td>Newfoundland and Labrador</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ca-ns.png" width="18" height="12" title="Nova Scotia"></td><td><code>ca-ns</code></td><td>Nova Scotia</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ca-nt.png" width="18" height="12" title="Northwest Territories"></td><td><code>ca-nt</code></td><td>Northwest Territories</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ca-nu.png" width="18" height="12" title="Nunavut"></td><td><code>ca-nu</code></td><td>Nunavut</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/ca-on.png" width="18" height="12" title="Ontario"></td><td><code>ca-on</code></td><td>Ontario</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ca-pe.png" width="18" height="12" title="Prince Edward Island"></td><td><code>ca-pe</code></td><td>Prince Edward Island</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/ca-qc.png" width="18" height="12" title="Quebec"></td><td><code>ca-qc</code></td><td>Quebec</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ca-sk.png" width="18" height="12" title="Saskatchewan"></td><td><code>ca-sk</code></td><td>Saskatchewan</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ca-yt.png" width="18" height="12" title="Yukon"></td><td><code>ca-yt</code></td><td>Yukon</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-ag.png" width="18" height="12" title="Aargau"></td><td><code>ch-ag</code></td><td>Aargau</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-ai.png" width="18" height="12" title="Appenzell Innerrhoden"></td><td><code>ch-ai</code></td><td>Appenzell Innerrhoden</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-ar.png" width="18" height="12" title="Appenzell Ausserrhoden"></td><td><code>ch-ar</code></td><td>Appenzell Ausserrhoden</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-be.png" width="18" height="12" title="Bern"></td><td><code>ch-be</code></td><td>Bern</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-bl.png" width="18" height="12" title="Basel-Landschaft"></td><td><code>ch-bl</code></td><td>Basel-Landschaft</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-bs.png" width="18" height="12" title="Basel-Stadt"></td><td><code>ch-bs</code></td><td>Basel-Stadt</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-fr.png" width="18" height="12" title="Fribourg"></td><td><code>ch-fr</code></td><td>Fribourg</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-ge.png" width="18" height="12" title="Geneva"></td><td><code>ch-ge</code></td><td>Geneva</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-gl.png" width="18" height="12" title="Glarus"></td><td><code>ch-gl</code></td><td>Glarus</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-gr.png" width="18" height="12" title="Graubünden"></td><td><code>ch-gr</code></td><td>Graubünden</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-ju.png" width="18" height="12" title="Jura"></td><td><code>ch-ju</code></td><td>Jura</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-lu.png" width="18" height="12" title="Lucerne"></td><td><code>ch-lu</code></td><td>Lucerne</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-ne.png" width="18" height="12" title="Neuchâtel"></td><td><code>ch-ne</code></td><td>Neuchâtel</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-nw.png" width="18" height="12" title="Nidwalden"></td><td><code>ch-nw</code></td><td>Nidwalden</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-ow.png" width="18" height="12" title="Obwalden"></td><td><code>ch-ow</code></td><td>Obwalden</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-sg.png" width="18" height="12" title="Sankt Gallen"></td><td><code>ch-sg</code></td><td>Sankt Gallen</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-sh.png" width="18" height="12" title="Schaffhausen"></td><td><code>ch-sh</code></td><td>Schaffhausen</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-so.png" width="18" height="12" title="Solothurn"></td><td><code>ch-so</code></td><td>Solothurn</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-sz.png" width="18" height="12" title="Schwyz"></td><td><code>ch-sz</code></td><td>Schwyz</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-tg.png" width="18" height="12" title="Thurgau"></td><td><code>ch-tg</code></td><td>Thurgau</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-ti.png" width="18" height="12" title="Ticino"></td><td><code>ch-ti</code></td><td>Ticino</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-ur.png" width="18" height="12" title="Uri"></td><td><code>ch-ur</code></td><td>Uri</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-vd.png" width="18" height="12" title="Vaud"></td><td><code>ch-vd</code></td><td>Vaud</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-vs.png" width="18" height="12" title="Valais"></td><td><code>ch-vs</code></td><td>Valais</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ch-zg.png" width="18" height="12" title="Zug"></td><td><code>ch-zg</code></td><td>Zug</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/ch-zh.png" width="18" height="12" title="Zürich"></td><td><code>ch-zh</code></td><td>Zürich</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/dk-040.png" width="18" height="12" title="Bornholm"></td><td><code>dk-040</code></td><td>Bornholm</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/es-ct.png" width="18" height="12" title="Catalonia"></td><td><code>es-ct</code></td><td>Catalonia</td></tr>
@@ -92,9 +128,52 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="artwork/vexillo/pgc024/iq-kr.png" width="18" height="12" title="Iraqi Kurdistan"></td><td><code>iq-kr</code></td><td>Iraqi Kurdistan</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/it-82.png" width="18" height="12" title="Sicily"></td><td><code>it-82</code></td><td>Sicily</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/jp-01.png" width="18" height="12" title="Hokkaido"></td><td><code>jp-01</code></td><td>Hokkaido</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-02.png" width="18" height="12" title="Aomori"></td><td><code>jp-02</code></td><td>Aomori</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-03.png" width="18" height="12" title="Iwate"></td><td><code>jp-03</code></td><td>Iwate</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-04.png" width="18" height="12" title="Miyagi"></td><td><code>jp-04</code></td><td>Miyagi</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-05.png" width="18" height="12" title="Akita"></td><td><code>jp-05</code></td><td>Akita</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-06.png" width="18" height="12" title="Yamagata"></td><td><code>jp-06</code></td><td>Yamagata</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-07.png" width="18" height="12" title="Fukushima"></td><td><code>jp-07</code></td><td>Fukushima</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-08.png" width="18" height="12" title="Ibaraki"></td><td><code>jp-08</code></td><td>Ibaraki</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-09.png" width="18" height="12" title="Tochigi"></td><td><code>jp-09</code></td><td>Tochigi</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-10.png" width="18" height="12" title="Gunma"></td><td><code>jp-10</code></td><td>Gunma</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-11.png" width="18" height="12" title="Saitama"></td><td><code>jp-11</code></td><td>Saitama</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-12.png" width="18" height="12" title="Chiba"></td><td><code>jp-12</code></td><td>Chiba</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/jp-13.png" width="18" height="12" title="Tokyo"></td><td><code>jp-13</code></td><td>Tokyo</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-14.png" width="18" height="12" title="Kanagawa"></td><td><code>jp-14</code></td><td>Kanagawa</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-15.png" width="18" height="12" title="Niigata"></td><td><code>jp-15</code></td><td>Niigata</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-16.png" width="18" height="12" title="Toyama"></td><td><code>jp-16</code></td><td>Toyama</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-17.png" width="18" height="12" title="Ishikawa"></td><td><code>jp-17</code></td><td>Ishikawa</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-18.png" width="18" height="12" title="Fukui"></td><td><code>jp-18</code></td><td>Fukui</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-19.png" width="18" height="12" title="Yamanashi"></td><td><code>jp-19</code></td><td>Yamanashi</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-20.png" width="18" height="12" title="Nagano"></td><td><code>jp-20</code></td><td>Nagano</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-21.png" width="18" height="12" title="Gifu"></td><td><code>jp-21</code></td><td>Gifu</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-22.png" width="18" height="12" title="Shizuoka"></td><td><code>jp-22</code></td><td>Shizuoka</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-23.png" width="18" height="12" title="Aichi"></td><td><code>jp-23</code></td><td>Aichi</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-24.png" width="18" height="12" title="Mie"></td><td><code>jp-24</code></td><td>Mie</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-25.png" width="18" height="12" title="Shiga"></td><td><code>jp-25</code></td><td>Shiga</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/jp-26.png" width="18" height="12" title="Kyoto"></td><td><code>jp-26</code></td><td>Kyoto</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/jp-27.png" width="18" height="12" title="Osaka"></td><td><code>jp-27</code></td><td>Osaka</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-28.png" width="18" height="12" title="Hyogo"></td><td><code>jp-28</code></td><td>Hyogo</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-29.png" width="18" height="12" title="Nara"></td><td><code>jp-29</code></td><td>Nara</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-30.png" width="18" height="12" title="Wakayama"></td><td><code>jp-30</code></td><td>Wakayama</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-31.png" width="18" height="12" title="Tottori"></td><td><code>jp-31</code></td><td>Tottori</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-32.png" width="18" height="12" title="Shimane"></td><td><code>jp-32</code></td><td>Shimane</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-33.png" width="18" height="12" title="Okayama"></td><td><code>jp-33</code></td><td>Okayama</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-34.png" width="18" height="12" title="Hiroshima"></td><td><code>jp-34</code></td><td>Hiroshima</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-35.png" width="18" height="12" title="Yamaguchi"></td><td><code>jp-35</code></td><td>Yamaguchi</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-36.png" width="18" height="12" title="Tokushima"></td><td><code>jp-36</code></td><td>Tokushima</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-37.png" width="18" height="12" title="Kagawa"></td><td><code>jp-37</code></td><td>Kagawa</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-38.png" width="18" height="12" title="Ehime"></td><td><code>jp-38</code></td><td>Ehime</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-39.png" width="18" height="12" title="Kochi"></td><td><code>jp-39</code></td><td>Kochi</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-40.png" width="18" height="12" title="Fukuoka"></td><td><code>jp-40</code></td><td>Fukuoka</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-41.png" width="18" height="12" title="Saga"></td><td><code>jp-41</code></td><td>Saga</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-42.png" width="18" height="12" title="Nagasaki"></td><td><code>jp-42</code></td><td>Nagasaki</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-43.png" width="18" height="12" title="Kumamoto"></td><td><code>jp-43</code></td><td>Kumamoto</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-44.png" width="18" height="12" title="Oita"></td><td><code>jp-44</code></td><td>Oita</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-45.png" width="18" height="12" title="Miyazaki"></td><td><code>jp-45</code></td><td>Miyazaki</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-46.png" width="18" height="12" title="Kagoshima"></td><td><code>jp-46</code></td><td>Kagoshima</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/jp-47.png" width="18" height="12" title="Okinawa"></td><td><code>jp-47</code></td><td>Okinawa</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/jp-hnd.png" width="18" height="12" title="Tokyo City"></td><td><code>jp-hnd</code></td><td>Tokyo City</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/jp-itm.png" width="18" height="12" title="Osaka City"></td><td><code>jp-itm</code></td><td>Osaka City</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/jp-uky.png" width="18" height="12" title="Kyoto City"></td><td><code>jp-uky</code></td><td>Kyoto City</td></tr>
@@ -271,6 +350,7 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-conlang-lojban.png" width="18" height="12" title="Lojban"></td><td><code>xx-conlang-lojban</code></td><td>Lojban</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-conlang-novial.png" width="18" height="12" title="Novial"></td><td><code>xx-conlang-novial</code></td><td>Novial</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-conlang-pandunia.png" width="18" height="12" title="Pandunia"></td><td><code>xx-conlang-pandunia</code></td><td>Pandunia</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-conlang-tokipona.png" width="18" height="12" title="Toki Pona"></td><td><code>xx-conlang-tokipona</code></td><td>Toki Pona</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-conlang-volapuk.png" width="18" height="12" title="Volapük"></td><td><code>xx-conlang-volapuk</code></td><td>Volapük</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-conlang-votgil.png" width="18" height="12" title="Vötgil"></td><td><code>xx-conlang-votgil</code></td><td>Vötgil</td></tr>
 </table>
@@ -421,6 +501,7 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-aristasia.png" width="18" height="12" title="Aristasia"></td><td><code>xx-aristasia</code></td><td>Aristasia</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-blm.png" width="18" height="12" title="Black Lives Matter"></td><td><code>xx-blm</code></td><td>Black Lives Matter</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-christian.png" width="18" height="12" title="Christian"></td><td><code>xx-christian</code></td><td>Christian</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-genovia.png" width="18" height="12" title="Genovia"></td><td><code>xx-genovia</code></td><td>Genovia</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-misc-cmc.png" width="18" height="12" title="Cutie Mark Day Camp"></td><td><code>xx-misc-cmc</code></td><td>Cutie Mark Day Camp</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-misc-cmyk.png" width="18" height="12" title="CMYK"></td><td><code>xx-misc-cmyk</code></td><td>CMYK</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-misc-fam.png" width="18" height="12" title="FamFamFam"></td><td><code>xx-misc-fam</code></td><td>FamFamFam</td></tr>
@@ -439,6 +520,7 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-org-nava.png" width="18" height="12" title="North American Vexillological Association"></td><td><code>xx-org-nava</code></td><td>North American Vexillological Association</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-org-pfa.png" width="18" height="12" title="Portland Flag Association"></td><td><code>xx-org-pfa</code></td><td>Portland Flag Association</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-otherkin.png" width="18" height="12" title="Otherkin"></td><td><code>xx-otherkin</code></td><td>Otherkin</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-oz.png" width="18" height="12" title="Oz"></td><td><code>xx-oz</code></td><td>Oz</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pace.png" width="18" height="12" title="Pace"></td><td><code>xx-pace</code></td><td>Pace</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pirate.png" width="18" height="12" title="Pirate"></td><td><code>xx-pirate</code></td><td>Pirate</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-trains.png" width="18" height="12" title="Train Landscape (Ellsworth Kelly, 1953)"></td><td><code>xx-trains</code></td><td>Train Landscape (Ellsworth Kelly, 1953)</td></tr>
