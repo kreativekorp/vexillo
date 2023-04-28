@@ -489,7 +489,6 @@ us-nm; xx-newmexico	north america united states us usa state new mexico nm
 us-az; xx-arizona	north america united states us usa state arizona ariz az
 us-ak; xx-alaska	north america united states us usa state alaska ak
 us-hi; xx-hawaii	oceania polynesia united states america us usa state hawaii hi
-xx-northtakoma	north america united states us usa state takoma tacoma nt simpson simpsons springfield not just another
 
 ca-on; xx-ontario	north america canada province ontario on
 ca-qc; xx-quebec	north america canada province quebec qc
@@ -1236,8 +1235,6 @@ at-6	western europe republic austria state steiermark styria
 at-7	western europe republic austria state tirol tyrol
 at-8	western europe republic austria state vorarlberg
 at-9	western europe republic austria state wien vienna
-
-xx-genovia	western europe principality kingdom genovia princess diaries meg cabot
 
 
 ## Western European Flags B
@@ -1988,8 +1985,6 @@ km-a	east africa union comoros island anjouan andjouan anjwan ndzuwani
 km-g	east africa union comoros island grande comore andjazidja anjazijah ngazidja
 km-m	east africa union comoros island moheli mouhili muhili mwali
 
-xx-wakanda	east africa kingdom wakanda marvel comic comics cinematic universe mcu
-
 
 ## Oceanic Flags
 
@@ -2205,7 +2200,6 @@ gp-black	north america caribbean france french republic overseas region guadelou
 gp-red	north america caribbean france french republic overseas region guadeloupe red local variant
 gp-uplg	north america caribbean france french republic overseas region guadeloupe uplg peoples union liberation
 md-transnistria; xx-transnistria	eastern europe republic moldova transnistria transdniestria pridnestrovian moldavian pmr
-xx-oz	land oz wonderful wizard l frank baum
 so-somaliland; xx-somaliland	east africa federal republic somalia somaliland
 sy-snc; xx-sy-snc	western southwestern asia middle east syria syrian arab republic national coalition
 xx-kurdistan	eastern europe western southwestern asia middle east kurdistan
@@ -2331,8 +2325,6 @@ xx-pride-poly-3	pride poly polyamory polyamorous tricolor heart polyamproud red 
 xx-pride-ally	pride lgbt ally
 xx-pride-heterosexual	pride straight hetero heterosexual
 
-xx-aristasia	aristasia feminine empire herthe
-
 xx-pride-queer	pride lgbt gay queer
 xx-pride-unlabeled	pride lgbt gay unlabeled unlabelled
 
@@ -2406,24 +2398,42 @@ xx-racing-visibility	sport sports racing poor v visibility ahead
 xx-racing-sun	sport sports racing glare from sun ahead
 
 
-## Mika City Flags
+## Fictional Location Flags
 
+# Kreative Media
 xx-kk-mika	kreative entertainment media mika mylar
 xx-kk-kellahanamana	kreative entertainment media kellahanamana kellamanahana
 xx-kk-kappaa	kreative entertainment media kappaa
-
-xx-kk-mika-tammy	kreative entertainment media mika mylar tammy tammies
-xx-kk-mika-emily	kreative entertainment media mika mylar emily emilies
-
+xx-kk-toopickle	kreative entertainment media toopickle
 xx-kk-mika-annett	kreative entertainment media mika mylar mikianan mylarian family annett toynenda
 xx-kk-mika-harrett	kreative entertainment media mika mylar mikianan mylarian family harrett
 xx-kk-mika-korra	kreative entertainment media mika mylar mikianan mylarian family korra texxa
 xx-kk-mika-lyndaea	kreative entertainment media mika mylar mikianan mylarian family lyndaea
 xx-kk-mika-morra	kreative entertainment media mika mylar mikianan mylarian family morra rytta
 xx-kk-mika-olla	kreative entertainment media mika mylar mikianan mylarian family olla senna
-
 xx-kk-kappaa-ioxio	kreative entertainment media kappaa kappaan family ioxio
 xx-kk-kappaa-sibleck	kreative entertainment media kappaa kappaan family sibleck
+xx-kk-mika-tammy	kreative entertainment media mika mylar tammy tammies
+xx-kk-mika-emily	kreative entertainment media mika mylar emily emilies
+
+# F720-F73F North America
+xx-northtakoma	north america united states us usa state takoma tacoma nt simpson simpsons springfield not just another
+
+# F740-F75F Europe
+xx-aristasia	aristasia feminine empire herthe
+xx-genovia	western europe principality kingdom genovia princess diaries meg cabot
+
+# F760-F77F Asia
+
+# F780-F79F South America
+
+# F7A0-F7BF Africa
+xx-wakanda	east africa kingdom wakanda marvel comic comics cinematic universe mcu
+
+# F7C0-F7DF Oceania
+
+# F7E0-F7FF Indeterminate or Extraterrestrial
+xx-oz	land oz wonderful wizard l frank baum
 
 
 ## Miscellaneous Flags

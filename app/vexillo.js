@@ -303,7 +303,7 @@ V.blocks = [
 	[0xF400, 0xF4FF, 'Constructed Language Flags',      {size: 0}],
 	[0xF500, 0xF5FF, 'Pride Flags',                     {size: 0}],
 	[0xF600, 0xF6FF, 'Sports Flags',                    {size: 0}],
-	[0xF700, 0xF7FF, 'Kreative Media Flags',            {size: 0}],
+	[0xF700, 0xF7FF, 'Fictional Location Flags',        {size: 0}],
 	[0xF800, 0xF8FF, 'Miscellaneous Flags',             {size: 0}],
 ];
 for (var i = 0; i < V.encoding.length; i++) {

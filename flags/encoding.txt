@@ -902,7 +902,6 @@ us-nm; xx-newmexico	E42F
 us-az; xx-arizona	E430
 us-ak; xx-alaska	E431
 us-hi; xx-hawaii	E432
-xx-northtakoma	E43F
 
 ca-on; xx-ontario	E440
 ca-qc; xx-quebec	E441
@@ -1649,8 +1648,6 @@ at-6	E8F6
 at-7	E8F7
 at-8	E8F8
 at-9	E8F9
-
-xx-genovia	E8FF
 
 
 ## E900-E9FF	Western European Flags B
@@ -2401,8 +2398,6 @@ km-a	F1FC
 km-g	F1FD
 km-m	F1FE
 
-xx-wakanda	F1FF
-
 
 ## F200-F2FF	Oceanic Flags
 
@@ -2636,7 +2631,6 @@ gp-black	F348
 gp-red	F349
 gp-uplg	F34A
 md-transnistria; xx-transnistria	F371
-xx-oz	F397
 so-somaliland; xx-somaliland	F3B9
 sy-snc; xx-sy-snc	F3BF
 xx-kurdistan	F3EB
@@ -2783,10 +2777,8 @@ xx-pride-poly-3	F568
 xx-pride-ally	F570
 xx-pride-heterosexual	F571
 
-xx-aristasia	F580
-
-xx-pride-queer	F588
-xx-pride-unlabeled	F589
+xx-pride-queer	F580
+xx-pride-unlabeled	F581
 
 xx-pride-diamoric	F590
 xx-pride-sapphic	F591
@@ -2858,24 +2850,42 @@ xx-racing-visibility	F614
 xx-racing-sun	F615
 
 
-## F700-F7FF	Mika City Flags
+## F700-F7FF	Fictional Location Flags
 
+# F700-F71F Kreative Media
 xx-kk-mika	F700
 xx-kk-kellahanamana	F701
 xx-kk-kappaa	F702
+xx-kk-toopickle	F703
+xx-kk-mika-annett	F710
+xx-kk-mika-harrett	F711
+xx-kk-mika-korra	F712
+xx-kk-mika-lyndaea	F713
+xx-kk-mika-morra	F714
+xx-kk-mika-olla	F715
+xx-kk-kappaa-ioxio	F716
+xx-kk-kappaa-sibleck	F717
+xx-kk-mika-tammy	F718
+xx-kk-mika-emily	F719
 
-xx-kk-mika-tammy	F720
-xx-kk-mika-emily	F721
+# F720-F73F North America
+xx-northtakoma	F720
 
-xx-kk-mika-annett	F741
-xx-kk-mika-harrett	F748
-xx-kk-mika-korra	F74B
-xx-kk-mika-lyndaea	F74C
-xx-kk-mika-morra	F74D
-xx-kk-mika-olla	F74F
+# F740-F75F Europe
+xx-aristasia	F740
+xx-genovia	F741
 
-xx-kk-kappaa-ioxio	F769
-xx-kk-kappaa-sibleck	F773
+# F760-F77F Asia
+
+# F780-F79F South America
+
+# F7A0-F7BF Africa
+xx-wakanda	F7A0
+
+# F7C0-F7DF Oceania
+
+# F7E0-F7FF Indeterminate or Extraterrestrial
+xx-oz	F7E0
 
 
 ## F800-F8FF	Miscellaneous Flags

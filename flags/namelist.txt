@@ -902,7 +902,6 @@ us-nm; xx-newmexico	FLAG FOR UNITED STATES-NEW MEXICO
 us-az; xx-arizona	FLAG FOR UNITED STATES-ARIZONA
 us-ak; xx-alaska	FLAG FOR UNITED STATES-ALASKA
 us-hi; xx-hawaii	FLAG FOR UNITED STATES-HAWAII
-xx-northtakoma	FLAG FOR UNITED STATES-NORTH TAKOMA
 
 ca-on; xx-ontario	FLAG FOR CANADA-ONTARIO
 ca-qc; xx-quebec	FLAG FOR CANADA-QUEBEC
@@ -1649,8 +1648,6 @@ at-6	FLAG FOR AUSTRIA-STYRIA
 at-7	FLAG FOR AUSTRIA-TYROL
 at-8	FLAG FOR AUSTRIA-VORARLBERG
 at-9	FLAG FOR AUSTRIA-VIENNA
-
-xx-genovia	FLAG FOR GENOVIA
 
 
 ## E900-E9FF	Western European Flags B
@@ -2401,8 +2398,6 @@ km-a	FLAG FOR COMOROS-ANJOUAN
 km-g	FLAG FOR COMOROS-GRANDE COMORE
 km-m	FLAG FOR COMOROS-MOHELI
 
-xx-wakanda	FLAG FOR WAKANDA
-
 
 ## F200-F2FF	Oceanic Flags
 
@@ -2618,7 +2613,6 @@ gp-black	FLAG FOR GUADELOUPE-BLACK LOCAL VARIANT
 gp-red	FLAG FOR GUADELOUPE-RED LOCAL VARIANT
 gp-uplg	FLAG FOR PEOPLES UNION FOR THE LIBERATION OF GUADELOUPE
 md-transnistria; xx-transnistria	FLAG FOR TRANSNISTRIA
-xx-oz	FLAG FOR OZ
 so-somaliland; xx-somaliland	FLAG FOR SOMALILAND
 sy-snc; xx-sy-snc	FLAG FOR SYRIAN NATIONAL COALITION
 xx-kurdistan	FLAG FOR KURDISTAN
@@ -2744,8 +2738,6 @@ xx-pride-poly-3	POLYAMORY PRIDE FLAG-3
 xx-pride-ally	ALLY PRIDE FLAG
 xx-pride-heterosexual	HETEROSEXUAL PRIDE FLAG
 
-xx-aristasia	FLAG FOR ARISTASIA
-
 xx-pride-queer	QUEER PRIDE FLAG
 xx-pride-unlabeled	UNLABELED PRIDE FLAG
 
@@ -2819,24 +2811,42 @@ xx-racing-visibility	RACING FLAG FOR POOR VISIBILITY AHEAD
 xx-racing-sun	RACING FLAG FOR GLARE FROM SUN AHEAD
 
 
-## F700-F7FF	Mika City Flags
+## F700-F7FF	Fictional Location Flags
 
+# F700-F71F Kreative Media
 xx-kk-mika	FLAG FOR MIKA
 xx-kk-kellahanamana	FLAG FOR KELLAHANAMANA
 xx-kk-kappaa	FLAG FOR KAPPAA
-
-xx-kk-mika-tammy	TAMMY FLAG
-xx-kk-mika-emily	EMILY FLAG
-
+xx-kk-toopickle	FLAG FOR TOOPICKLE
 xx-kk-mika-annett	FLAG FOR MIKA-ANNETT-TOYNENDA FAMILY
 xx-kk-mika-harrett	FLAG FOR MIKA-HARRETT FAMILY
 xx-kk-mika-korra	FLAG FOR MIKA-KORRA-TEXXA FAMILY
 xx-kk-mika-lyndaea	FLAG FOR MIKA-LYNDAEA FAMILY
 xx-kk-mika-morra	FLAG FOR MIKA-MORRA-RYTTA FAMILY
 xx-kk-mika-olla	FLAG FOR MIKA-OLLA-SENNA FAMILY
-
 xx-kk-kappaa-ioxio	FLAG FOR KAPPAA-IOXIO FAMILY
 xx-kk-kappaa-sibleck	FLAG FOR KAPPAA-SIBLECK FAMILY
+xx-kk-mika-tammy	TAMMY FLAG
+xx-kk-mika-emily	EMILY FLAG
+
+# F720-F73F North America
+xx-northtakoma	FLAG FOR UNITED STATES-NORTH TAKOMA
+
+# F740-F75F Europe
+xx-aristasia	FLAG FOR ARISTASIA
+xx-genovia	FLAG FOR GENOVIA
+
+# F760-F77F Asia
+
+# F780-F79F South America
+
+# F7A0-F7BF Africa
+xx-wakanda	FLAG FOR WAKANDA
+
+# F7C0-F7DF Oceania
+
+# F7E0-F7FF Indeterminate or Extraterrestrial
+xx-oz	FLAG FOR OZ
 
 
 ## F800-F8FF	Miscellaneous Flags
