@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="ca-nl" name="Newfoundland and Labrador" properties="cf sf normal" fly="h*2">
+	<defs>
+		<!-- from construction sheet -->
+		<dim id="u" e="w/432"/>
+		<dim id="v" e="h/216"/>
+		<dim id="T" e="u*(108*sqrt(3)-36)"/>
+		<dim id="J" e="u*(418-108*sqrt(3))"/>
+		<dim id="C" e="v*(32*sqrt(3)/3)"/>
+		<dim id="Q" e="u*(350-108*sqrt(3))"/>
+		<dim id="H" e="v*(99-12*sqrt(3))"/>
+		<!-- derived from above -->
+		<dim id="t" e="min(h/216,w/216)"/>
+		<dim id="rtx1" e="w-u*14-J"/>
+		<dim id="rtx2" e="w-u*14"/>
+		<dim id="rty1" e="v*9"/>
+		<dim id="rty2" e="v*9+H"/>
+		<dim id="rtt" e="t*18"/>
+		<dim id="ax1" e="w-u*14-J"/>
+		<dim id="ax2" e="w+u*2-J"/>
+		<dim id="ax3" e="w-u*76"/>
+		<dim id="ax4" e="w-u*36"/>
+		<dim id="ay1" e="(h-C)/2"/>
+		<dim id="ay2" e="h/2"/>
+		<dim id="ay3" e="(h+C)/2"/>
+		<dim id="at" e="t*8"/>
+		<dim id="atx" e="at/(2*sin(atan2(C/2,u*16)))"/>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="2955C"/>
+			<colorspec model="rgb" value="0 56 101"/>
+		</color>
+		<color id="red">
+			<colorspec model="pantone" value="200C"/>
+			<colorspec model="rgb" value="186 12 47"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="pantone" value="137C"/>
+			<colorspec model="rgb" value="255 164 0"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<field x1="u*16" y1="v*9" x2="u*16+T" y2="h-v*9" color="blue"/>
+	<dband x1="0" y1="0" x2="u*36+T" y2="h/2" thickness="t*16" color="white"/>
+	<dband x1="0" y1="h" x2="u*36+T" y2="h/2" thickness="t*16" color="white"/>
+	<dband x1="0" y1="h/2" x2="u*36+T" y2="h/2" thickness="t*16" color="white"/>
+	<g>
+		<clip>
+			<poly points="rtx1 rty1 rtx2 rty1 rtx1 rty2"/>
+		</clip>
+		<dband x1="rtx1" y1="rty1" x2="rtx2" y2="rty1" thickness="rtt" color="red"/>
+		<dband x1="rtx2" y1="rty1" x2="rtx1" y2="rty2" thickness="rtt" color="red"/>
+		<dband x1="rtx1" y1="rty2" x2="rtx1" y2="rty1" thickness="rtt" color="red"/>
+	</g>
+	<g>
+		<clip>
+			<poly points="rtx1 h-rty1 rtx2 h-rty1 rtx1 h-rty2"/>
+		</clip>
+		<dband x1="rtx1" y1="h-rty1" x2="rtx2" y2="h-rty1" thickness="rtt" color="red"/>
+		<dband x1="rtx2" y1="h-rty1" x2="rtx1" y2="h-rty2" thickness="rtt" color="red"/>
+		<dband x1="rtx1" y1="h-rty2" x2="rtx1" y2="h-rty1" thickness="rtt" color="red"/>
+	</g>
+	<poly points="ax1 ay1 ax3 ay1 ax4 ay2 ax3 ay3 ax1 ay3 ax2 ay2" color="yellow"/>
+	<g>
+		<clip>
+			<poly points="ax1 ay1 ax3 ay1 ax4 ay2 ax3 ay3 ax1 ay3 ax2 ay2"/>
+		</clip>
+		<dband x1="ax1" y1="ay1" x2="ax3" y2="ay1" thickness="at" color="red"/>
+		<dband x1="ax3" y1="ay1" x2="ax4" y2="ay2" thickness="at" color="red"/>
+		<dband x1="ax4" y1="ay2" x2="ax3" y2="ay3" thickness="at" color="red"/>
+		<dband x1="ax3" y1="ay3" x2="ax1" y2="ay3" thickness="at" color="red"/>
+		<poly points="ax1 ay1 ax1+atx ay1 ax2+atx ay2 ax1+atx ay3 ax1 ay3" color="red"/>
+	</g>
+</flag>
