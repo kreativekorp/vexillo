@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="de-by" name="Bavaria" properties="cf sf ce normal" fly="h*5/3">
+	<defs>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="0 152 212"/>
+		</color>
+		<symdef id="lozenge" d="
+			M 0.9636 0 L 0.7424 0 L 1 0.95 L 1 1 L 0.7924 1
+			L 0.5212 0 L 0.3 0 L 0.5712 1 L 0.35 1
+			L 0.15 0.2625 L 0 0.1988 L 0 0.525 L 0.1288 1
+			L 0.35 1 L 0 0.8513 L 0 0.525 L 1 0.95 L 1 0.6238
+			L 0.15 0.2625 L 0.0788 0 L 0.3 0 L 1 0.2975
+			L 1 0.1344 z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<symbol symbol="lozenge" x="0" y="0" sx="w" sy="h" color="blue"/>
+</flag>

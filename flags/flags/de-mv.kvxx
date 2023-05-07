@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="de-mv" name="Mecklenburg-Western Pomerania" properties="cf ce normal" fly="h*5/3">
+	<defs>
+		<color id="blue">
+			<colorspec model="rgb" value="43 88 163"/>
+			<colorspec model="cmyk" value="100 70 0 0"/>
+			<colorspec model="ral" value="5002"/>
+			<!-- colorspec model="hks" value="43" -->
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+			<colorspec model="cmyk" value="0 0 0 0"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="249 244 0"/>
+			<colorspec model="cmyk" value="0 0 100 0"/>
+			<colorspec model="ral" value="1021"/>
+			<!-- colorspec model="hks" value="3" -->
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="222 0 41"/>
+			<colorspec model="cmyk" value="0 100 100 0"/>
+			<colorspec model="ral" value="3020"/>
+			<!-- colorspec model="hks" value="13" -->
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="blue white yellow white red" weights="4 3 1 3 4"/>
+</flag>

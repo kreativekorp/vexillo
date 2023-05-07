@@ -503,6 +503,8 @@ ca-sk; xx-saskatchewan	north america canada province saskatchewan sk
 ca-ab; xx-alberta	north america canada province alberta ab
 ca-nl; xx-newfoundlandandlabrador	north america canada province newfoundland labrador nl
 ca-nu; xx-nunavut	north america canada province nunavut territory nu
+ca-labrador; xx-labrador	north america canada labrador
+ca-newfoundland; xx-newfoundland	north america canada newfoundland tricolor tricolour fishermens star sea association
 
 us-nyc; xx-newyorkcity	north america united states us usa city new york nyc ny
 us-chi; xx-chicago	north america united states us usa city chicago chi illinois ill il
@@ -1191,6 +1193,9 @@ lu-rd	western europe grand duchy luxembourg district redange redingen reiden ate
 lu-rm	western europe grand duchy luxembourg district remich reimech
 lu-vd	western europe grand duchy luxembourg district vianden veianen
 lu-wi	western europe grand duchy luxembourg district wiltz wolz
+
+de-by-r	western europe federal republic germany land bayern bavaria rautenflagge lozenge
+de-by-s	western europe federal republic germany land bayern bavaria streifenflagge striped
 
 de-bw	western europe federal republic germany land baden wurttemberg
 de-by	western europe federal republic germany land bayern bavaria
@@ -2017,6 +2022,7 @@ nz-wko	oceania australasia new zealand region waikato
 nz-wgn	oceania australasia new zealand region wellington te whanga nui a tara
 nz-wtc	oceania australasia new zealand region west coast te taihau a uru
 nz-cit	oceania australasia new zealand special island authority chatham islands territory wharekauri
+nz-redpeak	oceania australasia new zealand proposal first light red peak aaron dustin
 nz-laserkiwi	oceania australasia new zealand proposal fire lazer laser kiwi james lucy gray
 nz-krikienoid	oceania australasia new zealand proposal krikienoid
 

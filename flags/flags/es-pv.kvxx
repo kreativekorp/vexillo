@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="es-pv" name="Basque Country" properties="cf sf" fly="h*25/14">
+	<defs>
+		<dim id="t" e="min(h,w)*43/280"/>
+		<color id="red">
+			<colorspec model="rgb" value="213 43 30"/>
+			<colorspec model="pantone" value="485C"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="0 155 72"/>
+			<colorspec model="pantone" value="347C"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+			<colorspec model="pantone" value="Safe"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<saltire x1="0" y1="0" x2="w" y2="h" thickness="t" color="green"/>
+	<cross x1="0" y1="0" x2="(w-t)/2" y2="(h-t)/2" x3="(w+t)/2" y3="(h+t)/2" x4="w" y4="h" color="white"/>
+</flag>

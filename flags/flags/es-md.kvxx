@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="es-md" name="Community of Madrid" fly="h*11/7">
+	<defs>
+		<dim id="sd" e="min(h*3.5/14,w/4)"/>
+		<dim id="sx" e="min(h*4/14,w/4)"/>
+		<dim id="sy1" e="h*4/14+sd/2"/>
+		<dim id="sy2" e="h*10/14-sd/2+sd*0.118"/>
+		<color id="red">
+			<colorspec model="rgb" value="198 11 30"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="
+			M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+			L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+			L -0.5878 0.809 L -0.3633 0.118
+			L -0.9511 -0.309 L -0.2245 -0.309 Z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="red"/>
+	<symbol symbol="star" x="(w-sx*3)/2" y="sy1" sx="sd/2" sy="sd/2" color="white"/>
+	<symbol symbol="star" x="(w-sx*1)/2" y="sy1" sx="sd/2" sy="sd/2" color="white"/>
+	<symbol symbol="star" x="(w+sx*1)/2" y="sy1" sx="sd/2" sy="sd/2" color="white"/>
+	<symbol symbol="star" x="(w+sx*3)/2" y="sy1" sx="sd/2" sy="sd/2" color="white"/>
+	<symbol symbol="star" x="(w-sx*2)/2" y="sy2" sx="sd/2" sy="sd/2" color="white"/>
+	<symbol symbol="star" x="w/2"        y="sy2" sx="sd/2" sy="sd/2" color="white"/>
+	<symbol symbol="star" x="(w+sx*2)/2" y="sy2" sx="sd/2" sy="sd/2" color="white"/>
+</flag>

@@ -916,6 +916,8 @@ ca-sk; xx-saskatchewan	E449
 ca-ab; xx-alberta	E44A
 ca-nl; xx-newfoundlandandlabrador	E44B
 ca-nu; xx-nunavut	E44C
+ca-labrador; xx-labrador	E45E
+ca-newfoundland; xx-newfoundland	E45F
 
 us-nyc; xx-newyorkcity	E460
 us-chi; xx-chicago	E461
@@ -1604,6 +1606,9 @@ lu-rd	E8C8
 lu-rm	E8C9
 lu-vd	E8CA
 lu-wi	E8CB
+
+de-by-r	E8CE
+de-by-s	E8CF
 
 de-bw	E8D0
 de-by	E8D1
@@ -2430,6 +2435,7 @@ nz-wko	F21D
 nz-wgn	F21E
 nz-wtc	F21F
 nz-cit	F220
+nz-redpeak	F22D
 nz-laserkiwi	F22E
 nz-krikienoid	F22F
 
