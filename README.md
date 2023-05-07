@@ -78,6 +78,8 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="artwork/vexillo/pgc024/ca-qc.png" width="18" height="12" title="Quebec"></td><td><code>ca-qc</code></td><td>Quebec</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/ca-sk.png" width="18" height="12" title="Saskatchewan"></td><td><code>ca-sk</code></td><td>Saskatchewan</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/ca-yt.png" width="18" height="12" title="Yukon"></td><td><code>ca-yt</code></td><td>Yukon</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ca-labrador.png" width="18" height="12" title="Labrador"></td><td><code>ca-labrador</code></td><td>Labrador</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/ca-newfoundland.png" width="18" height="12" title="Newfoundland Tricolor"></td><td><code>ca-newfoundland</code></td><td>Newfoundland Tricolor</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/ch-ag.png" width="18" height="12" title="Aargau"></td><td><code>ch-ag</code></td><td>Aargau</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/ch-ai.png" width="18" height="12" title="Appenzell Innerrhoden"></td><td><code>ch-ai</code></td><td>Appenzell Innerrhoden</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/ch-ar.png" width="18" height="12" title="Appenzell Ausserrhoden"></td><td><code>ch-ar</code></td><td>Appenzell Ausserrhoden</td></tr>
@@ -105,7 +107,28 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="artwork/vexillo/pgc024/ch-zg.png" width="18" height="12" title="Zug"></td><td><code>ch-zg</code></td><td>Zug</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/ch-zh.png" width="18" height="12" title="Zürich"></td><td><code>ch-zh</code></td><td>Zürich</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/dk-040.png" width="18" height="12" title="Bornholm"></td><td><code>dk-040</code></td><td>Bornholm</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-bb.png" width="18" height="12" title="Brandenburg"></td><td><code>de-bb</code></td><td>Brandenburg</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-be.png" width="18" height="12" title="Berlin"></td><td><code>de-be</code></td><td>Berlin</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-bw.png" width="18" height="12" title="Baden-Württemberg"></td><td><code>de-bw</code></td><td>Baden-Württemberg</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-by.png" width="18" height="12" title="Bavaria"></td><td><code>de-by</code></td><td>Bavaria</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-by-r.png" width="18" height="12" title="Bavaria (Lozenge Flag)"></td><td><code>de-by-r</code></td><td>Bavaria (Lozenge Flag)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-by-s.png" width="18" height="12" title="Bavaria (Striped Flag)"></td><td><code>de-by-s</code></td><td>Bavaria (Striped Flag)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-hb.png" width="18" height="12" title="Bremen"></td><td><code>de-hb</code></td><td>Bremen</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-he.png" width="18" height="12" title="Hesse"></td><td><code>de-he</code></td><td>Hesse</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-hh.png" width="18" height="12" title="Hamburg"></td><td><code>de-hh</code></td><td>Hamburg</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-mv.png" width="18" height="12" title="Mecklenburg-Western Pomerania"></td><td><code>de-mv</code></td><td>Mecklenburg-Western Pomerania</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-ni.png" width="18" height="12" title="Lower Saxony"></td><td><code>de-ni</code></td><td>Lower Saxony</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-nw.png" width="18" height="12" title="North Rhine-Westphalia"></td><td><code>de-nw</code></td><td>North Rhine-Westphalia</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-rp.png" width="18" height="12" title="Rhineland-Palatinate"></td><td><code>de-rp</code></td><td>Rhineland-Palatinate</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-sh.png" width="18" height="12" title="Schleswig-Holstein"></td><td><code>de-sh</code></td><td>Schleswig-Holstein</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-sl.png" width="18" height="12" title="Saarland"></td><td><code>de-sl</code></td><td>Saarland</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-sn.png" width="18" height="12" title="Saxony"></td><td><code>de-sn</code></td><td>Saxony</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-st.png" width="18" height="12" title="Saxony-Anhalt"></td><td><code>de-st</code></td><td>Saxony-Anhalt</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/de-th.png" width="18" height="12" title="Thuringia"></td><td><code>de-th</code></td><td>Thuringia</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/es-cn.png" width="18" height="12" title="Canary Islands"></td><td><code>es-cn</code></td><td>Canary Islands</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/es-ct.png" width="18" height="12" title="Catalonia"></td><td><code>es-ct</code></td><td>Catalonia</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/es-md.png" width="18" height="12" title="Community of Madrid"></td><td><code>es-md</code></td><td>Community of Madrid</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/es-pv.png" width="18" height="12" title="Basque Country"></td><td><code>es-pv</code></td><td>Basque Country</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/fm-ksa.png" width="18" height="12" title="Kosrae"></td><td><code>fm-ksa</code></td><td>Kosrae</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/fm-pni.png" width="18" height="12" title="Pohnpei"></td><td><code>fm-pni</code></td><td>Pohnpei</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/fm-trk.png" width="18" height="12" title="Chuuk"></td><td><code>fm-trk</code></td><td>Chuuk</td></tr>
@@ -186,6 +209,7 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="artwork/vexillo/pgc024/nl-bq3.png" width="18" height="12" title="Sint Eustatius"></td><td><code>nl-bq3</code></td><td>Sint Eustatius</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/nz-krikienoid.png" width="18" height="12" title="New Zealand (Krikienoid Proposal)"></td><td><code>nz-krikienoid</code></td><td>New Zealand (Krikienoid Proposal)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/nz-laserkiwi.png" width="18" height="12" title="New Zealand (Laser Kiwi Proposal)"></td><td><code>nz-laserkiwi</code></td><td>New Zealand (Laser Kiwi Proposal)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nz-redpeak.png" width="18" height="12" title="New Zealand (Red Peak Proposal)"></td><td><code>nz-redpeak</code></td><td>New Zealand (Red Peak Proposal)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/pe-cus.png" width="18" height="12" title="Cusco"></td><td><code>pe-cus</code></td><td>Cusco</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/se-12.png" width="18" height="12" title="Scania"></td><td><code>se-12</code></td><td>Scania</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/se-m.png" width="18" height="12" title="Scania"></td><td><code>se-m</code></td><td>Scania</td></tr>
@@ -292,6 +316,7 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-maegnolyun.png" width="18" height="12" title="The Maegnolyun (American South)"></td><td><code>xx-maegnolyun</code></td><td>The Maegnolyun (American South)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-ca.png" width="18" height="12" title="Native American (Canada)"></td><td><code>xx-na-ca</code></td><td>Native American (Canada)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-us.png" width="18" height="12" title="Native American (United States)"></td><td><code>xx-na-us</code></td><td>Native American (United States)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-na-cherokee.png" width="18" height="12" title="Cherokee"></td><td><code>xx-na-cherokee</code></td><td>Cherokee</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-iroquois.png" width="18" height="12" title="Iroquois"></td><td><code>xx-na-iroquois</code></td><td>Iroquois</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-miccosukee.png" width="18" height="12" title="Miccosukee"></td><td><code>xx-na-miccosukee</code></td><td>Miccosukee</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-navajo.png" width="18" height="12" title="Navajo"></td><td><code>xx-na-navajo</code></td><td>Navajo</td></tr>
@@ -540,6 +565,7 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-kk-mika-morra.png" width="18" height="12" title="Morra-Rytta"></td><td><code>xx-kk-mika-morra</code></td><td>Morra-Rytta</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-kk-mika-olla.png" width="18" height="12" title="Ölla-Senna"></td><td><code>xx-kk-mika-olla</code></td><td>Ölla-Senna</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-kk-mika-tammy.png" width="18" height="12" title="Tammy"></td><td><code>xx-kk-mika-tammy</code></td><td>Tammy</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-kk-mika-emily.png" width="18" height="12" title="Emily"></td><td><code>xx-kk-mika-emily</code></td><td>Emily</td></tr>
 </table>
 
 ----
