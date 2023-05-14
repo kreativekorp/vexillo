@@ -203,10 +203,25 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="artwork/vexillo/pgc024/km-a.png" width="18" height="12" title="Anjouan"></td><td><code>km-a</code></td><td>Anjouan</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/km-g.png" width="18" height="12" title="Grande Comore"></td><td><code>km-g</code></td><td>Grande Comore</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/km-m.png" width="18" height="12" title="Mohéli"></td><td><code>km-m</code></td><td>Mohéli</td></tr>
-<tr><td><img src="artwork/vexillo/pgc024/nl-ams.png" width="18" height="12" title="Amsterdam"></td><td><code>nl-ams</code></td><td>Amsterdam</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-dr.png" width="18" height="12" title="Drenthe"></td><td><code>nl-dr</code></td><td>Drenthe</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-fl.png" width="18" height="12" title="Flevoland"></td><td><code>nl-fl</code></td><td>Flevoland</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-fr.png" width="18" height="12" title="Friesland"></td><td><code>nl-fr</code></td><td>Friesland</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-ge.png" width="18" height="12" title="Gelderland"></td><td><code>nl-ge</code></td><td>Gelderland</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-gr.png" width="18" height="12" title="Groningen"></td><td><code>nl-gr</code></td><td>Groningen</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-li.png" width="18" height="12" title="Limburg"></td><td><code>nl-li</code></td><td>Limburg</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-nb.png" width="18" height="12" title="North Brabant"></td><td><code>nl-nb</code></td><td>North Brabant</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-nh.png" width="18" height="12" title="North Holland"></td><td><code>nl-nh</code></td><td>North Holland</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-ov.png" width="18" height="12" title="Overijssel"></td><td><code>nl-ov</code></td><td>Overijssel</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-ut.png" width="18" height="12" title="Utrecht"></td><td><code>nl-ut</code></td><td>Utrecht</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-ze.png" width="18" height="12" title="Zeeland"></td><td><code>nl-ze</code></td><td>Zeeland</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-zh.png" width="18" height="12" title="South Holland"></td><td><code>nl-zh</code></td><td>South Holland</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-aw.png" width="18" height="12" title="Aruba"></td><td><code>nl-aw</code></td><td>Aruba</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-cw.png" width="18" height="12" title="Curaçao"></td><td><code>nl-cw</code></td><td>Curaçao</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-sx.png" width="18" height="12" title="Sint Maarten"></td><td><code>nl-sx</code></td><td>Sint Maarten</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/nl-bq1.png" width="18" height="12" title="Bonaire"></td><td><code>nl-bq1</code></td><td>Bonaire</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/nl-bq2.png" width="18" height="12" title="Saba"></td><td><code>nl-bq2</code></td><td>Saba</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/nl-bq3.png" width="18" height="12" title="Sint Eustatius"></td><td><code>nl-bq3</code></td><td>Sint Eustatius</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/nl-ams.png" width="18" height="12" title="Amsterdam"></td><td><code>nl-ams</code></td><td>Amsterdam</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/nz-krikienoid.png" width="18" height="12" title="New Zealand (Krikienoid Proposal)"></td><td><code>nz-krikienoid</code></td><td>New Zealand (Krikienoid Proposal)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/nz-laserkiwi.png" width="18" height="12" title="New Zealand (Laser Kiwi Proposal)"></td><td><code>nz-laserkiwi</code></td><td>New Zealand (Laser Kiwi Proposal)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/nz-redpeak.png" width="18" height="12" title="New Zealand (Red Peak Proposal)"></td><td><code>nz-redpeak</code></td><td>New Zealand (Red Peak Proposal)</td></tr>
@@ -272,6 +287,12 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="artwork/vexillo/pgc024/us-wi.png" width="18" height="12" title="Wisconsin"></td><td><code>us-wi</code></td><td>Wisconsin</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-wv.png" width="18" height="12" title="West Virginia"></td><td><code>us-wv</code></td><td>West Virginia</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-wy.png" width="18" height="12" title="Wyoming"></td><td><code>us-wy</code></td><td>Wyoming</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/us-as.png" width="18" height="12" title="American Samoa"></td><td><code>us-as</code></td><td>American Samoa</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/us-gu.png" width="18" height="12" title="Guam"></td><td><code>us-gu</code></td><td>Guam</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/us-mp.png" width="18" height="12" title="Northern Mariana Islands"></td><td><code>us-mp</code></td><td>Northern Mariana Islands</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/us-pr.png" width="18" height="12" title="Puerto Rico"></td><td><code>us-pr</code></td><td>Puerto Rico</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/us-um.png" width="18" height="12" title="US Minor Outlying Islands"></td><td><code>us-um</code></td><td>US Minor Outlying Islands</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/us-vi.png" width="18" height="12" title="US Virgin Islands"></td><td><code>us-vi</code></td><td>US Virgin Islands</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-ana.png" width="18" height="12" title="Anaheim"></td><td><code>us-ana</code></td><td>Anaheim</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-chi.png" width="18" height="12" title="Chicago"></td><td><code>us-chi</code></td><td>Chicago</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-den.png" width="18" height="12" title="Denver"></td><td><code>us-den</code></td><td>Denver</td></tr>
@@ -318,8 +339,10 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-us.png" width="18" height="12" title="Native American (United States)"></td><td><code>xx-na-us</code></td><td>Native American (United States)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-cherokee.png" width="18" height="12" title="Cherokee"></td><td><code>xx-na-cherokee</code></td><td>Cherokee</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-iroquois.png" width="18" height="12" title="Iroquois"></td><td><code>xx-na-iroquois</code></td><td>Iroquois</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-na-lakota.png" width="18" height="12" title="Lakota"></td><td><code>xx-na-lakota</code></td><td>Lakota</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-miccosukee.png" width="18" height="12" title="Miccosukee"></td><td><code>xx-na-miccosukee</code></td><td>Miccosukee</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-navajo.png" width="18" height="12" title="Navajo"></td><td><code>xx-na-navajo</code></td><td>Navajo</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-na-northerncheyenne.png" width="18" height="12" title="Northern Cheyenne"></td><td><code>xx-na-northerncheyenne</code></td><td>Northern Cheyenne</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-northpole.png" width="18" height="12" title="North Pole"></td><td><code>xx-northpole</code></td><td>North Pole</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pan-african.png" width="18" height="12" title="Pan-African"></td><td><code>xx-pan-african</code></td><td>Pan-African</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-refugeenation.png" width="18" height="12" title="Refugee Nation"></td><td><code>xx-refugeenation</code></td><td>Refugee Nation</td></tr>
