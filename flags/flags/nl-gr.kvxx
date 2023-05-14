@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="nl-gr" name="Groningen" fly="h*3/2">
+	<defs>
+		<dim id="T" e="min(h/3,w/3)"/>
+		<dim id="t" e="min(h/9,w/9)"/>
+		<color id="red">
+			<colorspec model="pantone" value="032U"/>
+			<colorspec model="rgb" value="218 18 26"/>
+		</color>
+		<color id="blue">
+			<colorspec model="pantone" value="300U"/>
+			<colorspec model="rgb" value="15 71 175"/>
+		</color>
+		<color id="white">
+			<colorspec model="pantone" value="Safe"/>
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="green">
+			<colorspec model="pantone" value="355U"/>
+			<colorspec model="rgb" value="7 137 48"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w/2" y2="h" bands="2" colors="red blue"/>
+	<hband x1="w/2" y1="0" x2="w" y2="h" bands="2" colors="blue red"/>
+	<cross x1="0" y1="0" x2="(w-T)/2" y2="(h-T)/2" x3="(w+T)/2" y3="(h+T)/2" x4="w" y4="h" color="white"/>
+	<cross x1="0" y1="0" x2="(w-t)/2" y2="(h-t)/2" x3="(w+t)/2" y3="(h+t)/2" x4="w" y4="h" color="green"/>
+</flag>

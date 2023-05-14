@@ -974,6 +974,13 @@ um-86; xx-jarvisisland	E4B6
 um-89; xx-kingmanreef	E4B7
 um-95; xx-palmyraatoll	E4B8
 
+us-as	E4BA
+us-gu	E4BB
+us-mp	E4BC
+us-pr	E4BD
+us-um	E4BE
+us-vi	E4BF
+
 xx-na-us	E4C0
 xx-na-ca	E4C1
 xx-na-mx	E4C2

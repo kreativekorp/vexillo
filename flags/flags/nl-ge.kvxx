@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="nl-ge" name="Gelderland" fly="h*13/9">
+	<defs>
+		<color id="blue">
+			<colorspec model="rgb" value="0 56 168"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="249 221 22"/>
+		</color>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="blue yellow black"/>
+</flag>

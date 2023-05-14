@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="nl-fr" name="Friesland" fly="h*13/9">
+	<defs>
+		<dim id="dx" e="w*2/7"/>
+		<dim id="dy" e="h*2/7"/>
+		<dim id="sw" e="min(h*37/180,w*37/180)"/>
+		<dim id="sa" e="atan2(h,w)"/>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="1 85 165"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="238 62 52"/>
+		</color>
+		<symdef id="seeblatt" d="
+			M -0.0141 0.5106
+			c -0.2863 -0.0383 -0.5 -0.2826 -0.5 -0.5714
+			C -0.5142 -0.2185 -0.4022 -0.3465 -0.2642 -0.3465
+			c 0.1086 -0.0011 0.2007 0.1063 0.2143 0.25
+			c 0 0.0197 0.016 0.0357 0.0357 0.0357
+			c 0.0197 0.0 0.0357 -0.016 0.0357 -0.0357
+			C 0.0351 -0.2402 0.1272 -0.3476 0.2358 -0.3465
+			c 0.1381 0.0 0.25 0.1279 0.25 0.2857
+			C 0.4859 0.228 0.2722 0.4723 -0.0141 0.5106 z
+		"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<poly points="w-dx 0 w 0 w dy" color="blue"/>
+	<poly points="w-dx*3 0 w-dx*2 0 w dy*2 w dy*3" color="blue"/>
+	<poly points="0 h-dy*2 0 h-dy*3 dx*3 h dx*2 h" color="blue"/>
+	<poly points="0 h-dy dx h 0 h" color="blue"/>
+	<symbol symbol="seeblatt" x="w*0.1083" y="h*0.6592" sx="sw" sy="sw" rotate="sa" color="red"/>
+	<symbol symbol="seeblatt" x="w*0.2816" y="h*0.8325" sx="sw" sy="sw" rotate="sa" color="red"/>
+	<symbol symbol="seeblatt" x="w*0.2416" y="h*0.2211" sx="sw" sy="sw" rotate="sa" color="red"/>
+	<symbol symbol="seeblatt" x="w*0.5083" y="h*0.4878" sx="sw" sy="sw" rotate="sa" color="red"/>
+	<symbol symbol="seeblatt" x="w*0.7750" y="h*0.7544" sx="sw" sy="sw" rotate="sa" color="red"/>
+	<symbol symbol="seeblatt" x="w*0.7350" y="h*0.1431" sx="sw" sy="sw" rotate="sa" color="red"/>
+	<symbol symbol="seeblatt" x="w*0.9083" y="h*0.3164" sx="sw" sy="sw" rotate="sa" color="red"/>
+</flag>

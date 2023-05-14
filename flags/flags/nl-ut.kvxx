@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="nl-ut" name="Utrecht" fly="h*3/2">
+	<defs>
+		<dim id="ch" e="h*3/8"/>
+		<dim id="t" e="h*3/32"/>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="218 18 26"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="2" colors="white red"/>
+	<field x1="0" y1="0" x2="ch" y2="ch" color="red"/>
+	<cross x1="0" y1="0" x2="(ch-t)/2" y2="(ch-t)/2" x3="(ch+t)/2" y3="(ch+t)/2" x4="ch" y4="ch" color="white"/>
+</flag>

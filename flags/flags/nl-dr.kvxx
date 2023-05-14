@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="nl-dr" name="Drenthe" fly="h*3/2">
+	<defs>
+		<dim id="sh" e="min(h*0.0691,w*0.0525)"/>
+		<dim id="ch" e="min(h*0.2275,w*0.2275)"/>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="218 18 26"/>
+		</color>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<symdef id="star" d="
+			M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+			L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+			L -0.5878 0.809 L -0.3633 0.118
+			L -0.9511 -0.309 L -0.2245 -0.309 Z
+		"/>
+		<symdef id="castle" d="
+			M -0.5089 -0.5 v 0.2308 h 0.1099 v 0.6154
+			h -0.1099 V 0.5 H 0.5089 V 0.3462 H 0.399
+			v -0.6154 h 0.1099 V -0.5 H 0.2418 v 0.2418
+			H 0.1319 V -0.5 h -0.2637 v 0.2418 h -0.1099
+			V -0.5 H -0.5089 z
+			M -0.0989 0.1044 H 0.0989 v 0.2418 H -0.0989
+			V 0.1044 z
+		"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="5" colors="white red white red white" weights="11 6 16 6 11"/>
+	<symbol symbol="star" x="w*0.107" y="h*0.5066" sx="sh" sy="sh" color="red"/>
+	<symbol symbol="star" x="w*0.211" y="h*0.5066" sx="sh" sy="sh" color="red"/>
+	<symbol symbol="star" x="w*0.315" y="h*0.5066" sx="sh" sy="sh" color="red"/>
+	<symbol symbol="star" x="w*0.685" y="h*0.5066" sx="sh" sy="sh" color="red"/>
+	<symbol symbol="star" x="w*0.789" y="h*0.5066" sx="sh" sy="sh" color="red"/>
+	<symbol symbol="star" x="w*0.893" y="h*0.5066" sx="sh" sy="sh" color="red"/>
+	<symbol symbol="castle" x="w/2" y="h/2" sx="ch" sy="ch" color="black"/>
+</flag>

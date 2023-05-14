@@ -561,6 +561,13 @@ um-86; xx-jarvisisland	oceania micronesia united states america us usa minor out
 um-89; xx-kingmanreef	oceania polynesia united states america us usa minor outlying islands lands kingman reef
 um-95; xx-palmyraatoll	oceania polynesia united states america us usa minor outlying islands lands palmyra atoll
 
+us-as	oceania polynesia united states america us usa american samoa
+us-gu	oceania micronesia united states america us usa guam
+us-mp	oceania micronesia united states america us usa commonwealth northern mariana islands
+us-pr	north america caribbean united states us usa commonwealth porto puerto rico
+us-um	united states america us usa minor outlying islands lands
+us-vi	north america caribbean united states us usa virgin islands vi
+
 xx-na-us	native american indian first nations peoples north america united states us usa
 xx-na-ca	native american indian first nations peoples north america canada
 xx-na-mx	native american indian first nations peoples north america mexico united mexican states

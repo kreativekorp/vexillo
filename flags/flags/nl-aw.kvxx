@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
-<flag id="aw" name="Aruba" properties="cf sf normal" fly="h*3/2">
+<flag id="nl-aw" name="Aruba" properties="cf sf normal" fly="h*3/2">
 	<defs>
 		<dim id="u" e="h/18"/>
 		<!-- The uncommented colors are from the NOC. -->

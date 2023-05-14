@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
-<flag id="cw" name="Cura&#231;ao" fly="h*3/2">
+<flag id="nl-cw" name="Cura&#231;ao" fly="h*3/2">
 	<defs>
 		<dim id="sd1" e="h/6"/>
 		<dim id="sd2" e="h*2/9"/>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="nl-nb" name="North Brabant" fly="h*3/2">
+	<defs>
+		<color id="red">
+			<colorspec model="rgb" value="218 18 26"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+	</defs>
+	<vband x1="0" y1="h*0/4" x2="w" y2="h*1/4" bands="6" colors="red white"/>
+	<vband x1="0" y1="h*1/4" x2="w" y2="h*2/4" bands="6" colors="white red"/>
+	<vband x1="0" y1="h*2/4" x2="w" y2="h*3/4" bands="6" colors="red white"/>
+	<vband x1="0" y1="h*3/4" x2="w" y2="h*4/4" bands="6" colors="white red"/>
+</flag>
