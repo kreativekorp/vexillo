@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
-<flag id="af" name="Afghanistan" fly="h*2">
-	<!-- Same as af-iea. -->
+<flag id="af-iea" name="Afghanistan (Islamic Emirate)" fly="h*2">
 	<defs>
 		<dim id="sh" e="min(h/2,w/3.5)"/>
 		<dim id="sw" e="sh*2.8"/>

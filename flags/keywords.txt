@@ -290,7 +290,7 @@ kr	east asia republic south korea rok
 jp	east asia japan
 tw	east asia taiwan republic china roc
 mn	east asia mongolia
-af	south asia islamic republic afghanistan
+af	south asia islamic emirate afghanistan
 pk	south asia islamic republic pakistan
 in	south asia republic india
 mv	south asia republic maldives
@@ -2203,6 +2203,8 @@ nr-14	oceania micronesia republic nauru pleasant island district yaren
 
 ## Miscellaneous Subdivision Flags
 
+af-iea	south asia islamic emirate afghanistan taliban
+af-ira	south asia islamic republic afghanistan
 aq-smith; xx-aq-smith	antarctica south pole whitney smith proposal orange
 aq-bartram; xx-aq-bartram	antarctica south pole graham bartram proposal light blue map
 aq-emblem; xx-aq-emblem	antarctica south pole emblem antarctic treaty system dark blue map
