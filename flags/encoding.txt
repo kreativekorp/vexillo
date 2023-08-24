@@ -142,6 +142,17 @@ xx-us-gale-warning	E0C0
 xx-us-storm-warning	E0C1
 xx-us-diver-down	E0C2
 xx-us-distress	E0C3
+xx-inspection	E0C4
+xx-inspection-eu	E0C5
+
+xx-beach-medium-hazard	E0D0
+xx-beach-high-hazard	E0D1
+xx-beach-marine-pests	E0D2
+xx-beach-swimming-area	E0D3
+xx-beach-watercraft-area	E0D4
+xx-beach-watercraft-prohibited	E0D5
+xx-beach-sun-warning	E0D6
+xx-beach-offshore-winds	E0D7
 
 
 ## E100-E3FF	ISO Country Code Flags
@@ -2830,7 +2841,10 @@ xx-pride-xenogender	F5BC
 
 xx-christian	F5C0; 271D; 1F3F3+200D+271D; 1F3F4+200D+271D
 
-xx-otherkin	F5D0
+xx-otherkin	F5C8
+
+xx-disability-1	F5D0
+xx-disability-2	F5D1
 
 xx-blm	F5E0
 xx-pan-african	F5E1
@@ -2919,6 +2933,7 @@ xx-org-pfa	F823
 xx-pirate	F840; 2620; 1F3F3+200D+2620; 1F3F4+200D+2620
 xx-pace	F841; 262E; 1F3F3+200D+262E; 1F3F4+200D+262E
 xx-trains	F842
+xx-freespeech	F843
 
 xx-misc-rgb	F860
 xx-misc-cmyk	F861

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Swimming Area" fly="h*4/3">
+	<defs>
+		<color id="red">
+			<colorspec model="rgb" value="206 17 39"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 198 29"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="2" colors="red yellow"/>
+</flag>

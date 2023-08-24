@@ -142,6 +142,17 @@ xx-us-gale-warning	north america united states us usa maritime signal small craf
 xx-us-storm-warning	north america united states us usa maritime signal whole gale storm hurricane warning
 xx-us-diver-down	north america united states us usa maritime signal diver down
 xx-us-distress	north america united states us usa maritime signal distress orange black disc square
+xx-inspection	north sea fishery fisheries inspection pennant international
+xx-inspection-eu	north sea fishery fisheries inspection pennant community eu european union waters
+
+xx-beach-medium-hazard	beach safety warning signal yellow medium hazard
+xx-beach-high-hazard	beach safety warning signal red high hazard
+xx-beach-marine-pests	beach safety warning signal purple marine pests present
+xx-beach-swimming-area	beach safety warning signal red over yellow recommended swimming area lifeguard supervision
+xx-beach-watercraft-area	beach safety warning signal quartered watercraft area
+xx-beach-watercraft-prohibited	beach safety warning signal black ball watercraft use prohibited
+xx-beach-sun-warning	beach safety warning signal sun warning high level uv ultraviolet radiation
+xx-beach-offshore-winds	beach safety warning signal orange windsock offshore winds present
 
 
 ## ISO Country Code Flags
@@ -2380,6 +2391,9 @@ xx-christian	christ christian christianity
 
 xx-otherkin	otherkin
 
+xx-disability-1	disability overcoming rights persons disabilities tricolor tricolour gold silver bronze eros recio 2017
+xx-disability-2	disability pride movement visually safe inclusive ann magill 2019 2021
+
 xx-blm	black lives matter blm
 xx-pan-african	pan african panafrican afro american afroamerican black liberation unia universal negro improvement association marcus garvey
 
@@ -2467,6 +2481,7 @@ xx-org-pfa	org organization pfa portland flag association
 xx-pirate	misc miscellaneous pirate piracy skull crossbones
 xx-pace	misc miscellaneous pace peace rainbow
 xx-trains	misc miscellaneous trains pride train landscape ellsworth kelly 1953
+xx-freespeech	misc miscellaneous free speech hd dvd aacs encryption key 09f9
 
 xx-misc-rgb	misc miscellaneous color model system rgb red green blue
 xx-misc-cmyk	misc miscellaneous color model system cmyk cyan magenta yellow black key

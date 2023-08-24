@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Disability" fly="h*5/3">
+	<defs>
+		<color id="gold">
+			<colorspec model="rgb" value="234 191 63"/>
+		</color>
+		<color id="silver">
+			<colorspec model="rgb" value="207 209 208"/>
+		</color>
+		<color id="bronze">
+			<colorspec model="rgb" value="211 152 74"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="gold silver bronze"/>
+</flag>

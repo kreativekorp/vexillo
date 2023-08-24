@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Sun Warning" fly="h*4/3">
+	<defs>
+		<dim id="D" e="min(h*15/24,w*15/24)"/>
+		<dim id="d" e="min(h*5/12,w*5/12)"/>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<color id="violet">
+			<colorspec model="rgb" value="128 64 128"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="255 85 85"/>
+		</color>
+		<color id="orange">
+			<colorspec model="rgb" value="255 128 64"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 255 48"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="192 255 48"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="black"/>
+	<disc cx="w/2" cy="h/2" w="D" h="D" color="violet"/>
+	<disc cx="w/2" cy="h/2" w="D*0.8+d*0.2" h="D*0.8+d*0.2" color="red"/>
+	<disc cx="w/2" cy="h/2" w="D*0.6+d*0.4" h="D*0.6+d*0.4" color="orange"/>
+	<disc cx="w/2" cy="h/2" w="D*0.4+d*0.6" h="D*0.4+d*0.6" color="yellow"/>
+	<disc cx="w/2" cy="h/2" w="D*0.2+d*0.8" h="D*0.2+d*0.8" color="green"/>
+	<disc cx="w/2" cy="h/2" w="d" h="d" color="black"/>
+</flag>

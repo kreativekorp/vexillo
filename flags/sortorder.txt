@@ -14,6 +14,7 @@
 5	^xx-pride-trans-[a-z]{2}$
 5	^xx-pride-trans-[a-z]{2}-.*$
 3	^xx-pride-.*$
+3	^xx-disability(-.*)?$
 2	^xx-.*$
 3	^xx-int-.*$
 3	^xx-org-.*$
@@ -28,6 +29,8 @@
 3	^xx-esperanto-.*$
 3	^xx-us-.*$
 3	^xx-semaphore(-.*)?$
+3	^xx-inspection(-.*)?$
+3	^xx-beach-.*$
 3	^xx-racing-.*$
 4	^xx-generic-wht(-.*)?$
 4	^xx-generic-ylw(-.*)?$

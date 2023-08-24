@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Disability Pride" fly="h*4/3">
+	<defs>
+		<dim id="t" e="min(h/10,w/10)"/>
+		<color id="black">
+			<colorspec model="rgb" value="89 89 89"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="207 114 128"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="238 222 119"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="232 232 232"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="123 194 224"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="59 176 125"/>
+		</color>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="black"/>
+	<g>
+		<clip>
+			<poly points="0 0 w h 0 h"/>
+		</clip>
+		<dband x1="0" y1="0" x2="w" y2="h" thickness="t*5" color="red"/>
+		<dband x1="0" y1="0" x2="w" y2="h" thickness="t*3" color="yellow"/>
+	</g>
+	<g>
+		<clip>
+			<poly points="0 0 w 0 w h"/>
+		</clip>
+		<dband x1="0" y1="0" x2="w" y2="h" thickness="t*5" color="green"/>
+		<dband x1="0" y1="0" x2="w" y2="h" thickness="t*3" color="blue"/>
+	</g>
+	<dband x1="0" y1="0" x2="w" y2="h" thickness="t" color="white"/>
+</flag>
