@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="LGBT Pride (Toki Pona)" fly="h*5/3">
+	<defs>
+		<dim id="by" e="h*0.558"/>
+		<dim id="bw" e="by*sqrt(3)"/>
+		<dim id="t" e="h*0.03"/>
+		<dim id="tw" e="h/sqrt(3)"/>
+		<dim id="tx1" e="(w-tw)/2"/>
+		<dim id="tx3" e="(w+tw)/2"/>
+		<dim id="ty1" e="by-h/3"/>
+		<dim id="ty3" e="by+h/6"/>
+		<dim id="u" e="t*sqrt(3)/2"/>
+		<dim id="ly" e="by-t/2"/>
+		<dim id="lx1" e="(w-tw-t/2)/2"/>
+		<dim id="lx3" e="(w+tw+t/2)/2"/>
+		<color id="red">
+			<colorspec model="rgb" value="247 84 104"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="247 236 106"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="75 218 170"/>
+		</color>
+		<color id="purple">
+			<colorspec model="rgb" value="191 120 188"/>
+		</color>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+	</defs>
+	<vband x1="0" y1="0" x2="w" y2="h" bands="2" colors="red green"/>
+	<poly points="w/2-bw 0 w/2+bw 0 w/2 by" color="yellow"/>
+	<poly points="tx1-u ty3+t/2 w/2 ty1-t tx3+u ty3+t/2" color="black"/>
+	<poly points="tx1+u ty3-t/2 w/2 ty1+t tx3-u ty3-t/2" color="purple"/>
+	<dband x1="lx1" y1="ly" x2="lx3" y2="ly" thickness="t" color="black"/>
+</flag>

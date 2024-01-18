@@ -2806,6 +2806,8 @@ xx-pride-heterosexual	F571
 xx-pride-queer	F580
 xx-pride-unlabeled	F581
 
+xx-pride-lgbt-tokipona	F588
+
 xx-pride-diamoric	F590
 xx-pride-sapphic	F591
 xx-pride-achillean	F592

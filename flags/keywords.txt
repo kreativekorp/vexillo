@@ -2354,6 +2354,8 @@ xx-pride-heterosexual	pride straight hetero heterosexual
 xx-pride-queer	pride lgbt gay queer
 xx-pride-unlabeled	pride lgbt gay unlabeled unlabelled
 
+xx-pride-lgbt-tokipona	pride lgbt gay conlang constructed language tok toki pona jan nijo
+
 xx-pride-diamoric	pride lgbt gay diamoric nonbinary non binary nb enby
 xx-pride-sapphic	pride lgbt gay sapphic sappho lesbian bisexual pansexual woman women female aligned
 xx-pride-achillean	pride lgbt gay achillean achilles achilleus homosexual bisexual pansexual man men male aligned

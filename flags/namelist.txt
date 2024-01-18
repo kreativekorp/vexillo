@@ -2767,6 +2767,8 @@ xx-pride-heterosexual	HETEROSEXUAL PRIDE FLAG
 xx-pride-queer	QUEER PRIDE FLAG
 xx-pride-unlabeled	UNLABELED PRIDE FLAG
 
+xx-pride-lgbt-tokipona	PRIDE FLAG FOR TOKI PONA
+
 xx-pride-diamoric	DIAMORIC PRIDE FLAG
 xx-pride-sapphic	SAPPHIC PRIDE FLAG
 xx-pride-achillean	ACHILLEAN PRIDE FLAG
