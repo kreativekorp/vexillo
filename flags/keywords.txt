@@ -2228,6 +2228,7 @@ gp-uplg	north america caribbean france french republic overseas region guadeloup
 md-transnistria; xx-transnistria	eastern europe republic moldova transnistria transdniestria pridnestrovian moldavian pmr
 so-somaliland; xx-somaliland	east africa federal republic somalia somaliland
 sy-snc; xx-sy-snc	western southwestern asia middle east syria syrian arab republic national coalition
+xx-druze	western southwestern asia middle east druze people
 xx-kurdistan	eastern europe western southwestern asia middle east kurdistan
 xx-northpole	arctic north pole
 xx-refugeenation	int international refugee nation yara said
@@ -2337,6 +2338,7 @@ xx-pride-multisexual	pride lgbt gay multisexual multi
 xx-pride-pomosexual	pride lgbt gay pomosexual pomo postmodern post modern pridecolorschemes 2016
 xx-pride-uranic	pride lgbt gay uranic
 xx-pride-neptunic	pride lgbt gay neptunic
+xx-pride-objectum	pride lgbt gay objectum
 
 xx-pride-leather	pride kink bdsm leather tony deblase
 xx-pride-poly-1	pride poly polyamory polyamorous pi jim evans 1995
@@ -2392,15 +2394,18 @@ xx-pride-xenogender	pride lgbt gay gender xenogender xeno roswell pastelmemer 20
 xx-christian	christ christian christianity
 
 xx-otherkin	otherkin
+xx-pride-voidpunk	voidpunk void punk pride
 
 xx-disability-1	disability overcoming rights persons disabilities tricolor tricolour gold silver bronze eros recio 2017
 xx-disability-2	disability pride movement visually safe inclusive ann magill 2019 2021
+xx-autism	disability neurodiversity infinity autism pride autistic empire misslunarose12
 
 xx-blm	black lives matter blm
 xx-pan-african	pan african panafrican afro american afroamerican black liberation unia universal negro improvement association marcus garvey
 
 xx-pride-lgbt-crab	pride lgbt gay rainbow 6 six band bands cool crab print shop deluxe foone turing 2022
 xx-pride-trans-crab	pride lgbt trans transgender transsexual cool crab print shop deluxe foone turing 2022
+xx-pride-ps2	pride ibm pc ps2 ps slash 2 foone turing 2023
 
 
 ## Sports Flags

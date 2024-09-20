@@ -2659,6 +2659,7 @@ gp-uplg	F34A
 md-transnistria; xx-transnistria	F371
 so-somaliland; xx-somaliland	F3B9
 sy-snc; xx-sy-snc	F3BF
+xx-druze	F3E9
 xx-kurdistan	F3EB
 xx-northpole	F3EC
 xx-refugeenation	F3ED; 1F3F3+200D+1F7E7+200D+2B1B+200D+1F7E7; 1F3F4+200D+1F7E7+200D+2B1B+200D+1F7E7
@@ -2789,6 +2790,7 @@ xx-pride-multisexual	F558
 xx-pride-pomosexual	F559
 xx-pride-uranic	F55A
 xx-pride-neptunic	F55B
+xx-pride-objectum	F55C
 
 xx-pride-leather	F560
 xx-pride-poly-1	F561
@@ -2844,15 +2846,18 @@ xx-pride-xenogender	F5BC
 xx-christian	F5C0; 271D; 1F3F3+200D+271D; 1F3F4+200D+271D
 
 xx-otherkin	F5C8
+xx-pride-voidpunk	F5C9
 
 xx-disability-1	F5D0
 xx-disability-2	F5D1
+xx-autism	F5D2
 
 xx-blm	F5E0
 xx-pan-african	F5E1
 
 xx-pride-lgbt-crab	F5F0
 xx-pride-trans-crab	F5F1
+xx-pride-ps2	F5F2
 
 
 ## F600-F6FF	Sports Flags

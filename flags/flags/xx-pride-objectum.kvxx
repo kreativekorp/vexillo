@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Objectum Pride" fly="h*5/3">
+	<defs>
+		<dim id="D" e="min(h*7/10,w*3/5*7/10)"/>
+		<dim id="d" e="min(h*19/30,w*3/5*19/30)"/>
+		<color id="blue">
+			<colorspec model="rgb" value="106 159 182"/>
+		</color>
+		<color id="gray">
+			<colorspec model="rgb" value="217 217 217"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="253 255 155"/>
+		</color>
+		<color id="purple">
+			<colorspec model="rgb" value="180 153 194"/>
+		</color>
+		<color id="red">
+			<colorspec model="rgb" value="227 0 0"/>
+		</color>
+	</defs>
+	<vband x1="0" y1="0" x2="w" y2="h" bands="5" colors="blue gray white yellow purple"/>
+	<disc cx="w/2" cy="h/2" w="D" h="D" color="red"/>
+	<disc cx="w/2" cy="h/2" w="d" h="d" color="white"/>
+</flag>

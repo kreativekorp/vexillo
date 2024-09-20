@@ -2641,6 +2641,7 @@ gp-uplg	FLAG FOR PEOPLES UNION FOR THE LIBERATION OF GUADELOUPE
 md-transnistria; xx-transnistria	FLAG FOR TRANSNISTRIA
 so-somaliland; xx-somaliland	FLAG FOR SOMALILAND
 sy-snc; xx-sy-snc	FLAG FOR SYRIAN NATIONAL COALITION
+xx-druze	FLAG FOR DRUZE
 xx-kurdistan	FLAG FOR KURDISTAN
 xx-northpole	FLAG FOR NORTH POLE
 xx-refugeenation	FLAG FOR REFUGEE NATION
@@ -2750,6 +2751,7 @@ xx-pride-multisexual	MULTISEXUAL PRIDE FLAG
 xx-pride-pomosexual	POMOSEXUAL PRIDE FLAG
 xx-pride-uranic	URANIC PRIDE FLAG
 xx-pride-neptunic	NEPTUNIC PRIDE FLAG
+xx-pride-objectum	OBJECTUM PRIDE FLAG
 
 xx-pride-leather	LEATHER PRIDE FLAG
 xx-pride-poly-1	POLYAMORY PRIDE FLAG-1
@@ -2805,15 +2807,18 @@ xx-pride-xenogender	XENOGENDER PRIDE FLAG
 xx-christian	CHRISTIAN FLAG
 
 xx-otherkin	OTHERKIN FLAG
+xx-pride-voidpunk	VOIDPUNK PRIDE FLAG
 
 xx-disability-1	DISABILITY OVERCOMING FLAG
 xx-disability-2	DISABILITY PRIDE FLAG
+xx-autism	AUTISM PRIDE FLAG
 
 xx-blm	BLACK LIVES MATTER FLAG
 xx-pan-african	PAN-AFRICAN FLAG
 
 xx-pride-lgbt-crab	RAINBOW FLAG WITH COOL CRAB
 xx-pride-trans-crab	TRANSGENDER PRIDE FLAG WITH COOL CRAB
+xx-pride-ps2	IBM PS2 PRIDE FLAG
 
 
 ## F600-F6FF	Sports Flags

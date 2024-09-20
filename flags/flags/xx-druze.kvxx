@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Druze" fly="h*3/2">
+	<defs>
+		<color id="red">
+			<colorspec model="rgb" value="210 22 45"/>
+		</color>
+		<color id="yellow">
+			<colorspec model="rgb" value="255 215 4"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="0 59 184"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="249 250 251"/>
+		</color>
+		<color id="green">
+			<colorspec model="rgb" value="0 128 74"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="4" colors="red yellow blue white"/>
+	<poly points="0 0 h/2 h/2 0 h" color="green"/>
+</flag>
