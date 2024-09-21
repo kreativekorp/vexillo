@@ -73,7 +73,9 @@ fi
 
 $FONTFORGE -lang=ff -c 'i = 1; while (i < $argc); Open($argv[i]); Generate($argv[i]:r + ".ttf", "", 128); i = i+1; endloop' fonts/Vexillo??.sfd
 
-if test -f BitsNPicas.jar; then
+if command -v bitsnpicas >/dev/null 2>&1; then
+	BITSNPICAS="bitsnpicas"
+elif test -f BitsNPicas.jar; then
 	BITSNPICAS="java -jar BitsNPicas.jar"
 elif test -f ../BitsNPicas/BitsNPicas.jar; then
 	BITSNPICAS="java -jar ../BitsNPicas/BitsNPicas.jar"
