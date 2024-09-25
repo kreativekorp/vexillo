@@ -13,6 +13,7 @@ import java.util.Map;
 import com.kreative.vexillo.core.Color;
 import com.kreative.vexillo.core.Flag;
 import com.kreative.vexillo.core.FlagParser;
+import com.kreative.vexillo.core.PolygonExporter;
 
 public class VexInfo {
 	public static void main(String[] args) {
@@ -195,6 +196,13 @@ public class VexInfo {
 			@Override
 			public String getValue(File flagFile, Flag flag) {
 				return flag.getProportionString();
+			}
+		},
+		V("polygons (VGA 640x480)") {
+			@Override
+			public String getValue(File flagFile, Flag flag) {
+				PolygonExporter polyexpo = new PolygonExporter(flagFile, flagFile.getParentFile(), flag);
+				return PolygonExporter.toCIntArrayString(polyexpo.getPolygons(640, 480, null, 4));
 			}
 		};
 		public final String description;
