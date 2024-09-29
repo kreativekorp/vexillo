@@ -1008,6 +1008,16 @@ xx-na-northerncheyenne	E4CC
 xx-na-quapaw	E4CD
 xx-na-shawnee	E4CE
 xx-na-spokane	E4CF
+xx-na-blackfeet	E4D0
+xx-na-flathead	E4D1
+xx-na-northernarapaho	E4D2
+xx-na-nezperce	E4D3
+xx-na-oneida	E4D4
+xx-na-osage	E4D5
+xx-na-puyallup	E4D6
+xx-na-saginawchippewa	E4D7
+xx-na-tohonooodham	E4D8
+xx-na-uintah-ouray	E4D9
 
 
 ## E500-E5FF	British Flags

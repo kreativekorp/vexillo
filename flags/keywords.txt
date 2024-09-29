@@ -582,19 +582,29 @@ us-vi	north america caribbean united states us usa virgin islands vi
 xx-na-us	native american indian first nations peoples north america united states us usa
 xx-na-ca	native american indian first nations peoples north america canada
 xx-na-mx	native american indian first nations peoples north america mexico united mexican states
-xx-na-cherokee	native american indian first nations peoples tribe clan band cherokee
+xx-na-cherokee	native american indian first nations peoples tribe clan band cherokee nation
 xx-na-chickasaw	native american indian first nations peoples tribe clan band chickasaw
-xx-na-choctaw	native american indian first nations peoples tribe clan band choctaw
+xx-na-choctaw	native american indian first nations peoples tribe clan band choctaw nation
 xx-na-easternshawnee	native american indian first nations peoples tribe clan band eastern shawnee
-xx-na-hopi	native american indian first nations peoples tribe clan band hopi
+xx-na-hopi	native american indian first nations peoples tribe clan band hopi nation
 xx-na-iroquois	native american indian first nations peoples tribe clan band iroquois confederacy
-xx-na-lakota	native american indian first nations peoples tribe clan band lakota
+xx-na-lakota	native american indian first nations peoples tribe clan band lakota pine ridge reservation
 xx-na-miccosukee	native american indian first nations peoples tribe clan band miccosukee
 xx-na-navajo	native american indian first nations peoples tribe clan band navajo nation
 xx-na-northerncheyenne	native american indian first nations peoples tribe clan band northern cheyenne
 xx-na-quapaw	native american indian first nations peoples tribe clan band quapaw
 xx-na-shawnee	native american indian first nations peoples tribe clan band shawnee
 xx-na-spokane	native american indian first nations peoples tribe clan band spokane
+xx-na-blackfeet	native american indian first nations peoples tribe clan band blackfoot blackfeet nation
+xx-na-flathead	native american indian first nations peoples tribe clan band flathead reservation
+xx-na-northernarapaho	native american indian first nations peoples tribe clan band northern arapaho wind river reservation
+xx-na-nezperce	native american indian first nations peoples tribe clan band nez perce
+xx-na-oneida	native american indian first nations peoples tribe clan band oneida nation wisconsin
+xx-na-osage	native american indian first nations peoples tribe clan band osage nation
+xx-na-puyallup	native american indian first nations peoples tribe clan band puyallup reservation
+xx-na-saginawchippewa	native american indian first nations peoples tribe clan band saginaw chippewa tribal nation isabella reservation
+xx-na-tohonooodham	native american indian first nations peoples tribe clan band tohono oodham o odham nation
+xx-na-uintah-ouray	native american indian first nations peoples tribe clan band uintah ouray reservation
 
 
 ## British Flags

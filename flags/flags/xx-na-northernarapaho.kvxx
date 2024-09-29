@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Northern Arapaho" fly="h*5/3">
+	<defs>
+		<dim id="t" e="h/23"/>
+		<color id="red">
+			<colorspec model="rgb" value="255 0 0"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<symdef id="halfdisc" d="M 0.5 0 A 0.5 0.5 0 0 0 -0.5 0 Z"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="7" weights="2 2 2 1 2 2 2" colors="red white black white black white red"/>
+	<poly points="0 0 h/2 h/2 0 h" color="black"/>
+	<poly points="0 t h/2-t h/2 0 h-t" color="white"/>
+	<symbol symbol="halfdisc" x="h*0.186" y="h*0.49" sx="h*2/11" sy="h*2/11" rotate="0" color="red"/>
+	<symbol symbol="halfdisc" x="h*0.186" y="h*0.51" sx="h*2/11" sy="h*2/11" rotate="180" color="black"/>
+</flag>
