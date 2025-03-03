@@ -2685,6 +2685,7 @@ xx-conlang-pandunia	FLAG FOR PANDUNIA
 xx-conlang-volapuk	FLAG FOR VOLAPUK
 xx-conlang-klingon	FLAG FOR KLINGON
 xx-conlang-tokipona	FLAG FOR TOKI PONA
+xx-conlang-viossa	FLAG FOR VIOSSA
 xx-conlang-votgil	FLAG FOR VOTGIL
 
 

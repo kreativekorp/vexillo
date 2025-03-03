@@ -2272,6 +2272,7 @@ xx-conlang-pandunia	conlang constructed language qpn pandunia risto kupsala
 xx-conlang-volapuk	conlang constructed language vol volapuk johann martin schleyer
 xx-conlang-klingon	conlang constructed language tlh tlhingan hol klingon empire kronos qonos star trek marc okrand
 xx-conlang-tokipona	conlang constructed language tok toki pona sonja lang
+xx-conlang-viossa	conlang constructed language qpv viossa community reddit subreddit sub r conlangs
 xx-conlang-votgil	conlang constructed language votgil jack eisenmann
 
 

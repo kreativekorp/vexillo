@@ -342,12 +342,22 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-maegnolyun.png" width="18" height="12" title="The Maegnolyun (American South)"></td><td><code>xx-maegnolyun</code></td><td>The Maegnolyun (American South)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-ca.png" width="18" height="12" title="Native American (Canada)"></td><td><code>xx-na-ca</code></td><td>Native American (Canada)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-us.png" width="18" height="12" title="Native American (United States)"></td><td><code>xx-na-us</code></td><td>Native American (United States)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-na-blackfeet.png" width="18" height="12" title="Blackfeet"></td><td><code>xx-na-blackfeet</code></td><td>Blackfeet</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-cherokee.png" width="18" height="12" title="Cherokee"></td><td><code>xx-na-cherokee</code></td><td>Cherokee</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-na-choctaw.png" width="18" height="12" title="Choctaw"></td><td><code>xx-na-choctaw</code></td><td>Choctaw</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-na-hopi.png" width="18" height="12" title="Hopi"></td><td><code>xx-na-hopi</code></td><td>Hopi</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-iroquois.png" width="18" height="12" title="Iroquois"></td><td><code>xx-na-iroquois</code></td><td>Iroquois</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-lakota.png" width="18" height="12" title="Lakota"></td><td><code>xx-na-lakota</code></td><td>Lakota</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-miccosukee.png" width="18" height="12" title="Miccosukee"></td><td><code>xx-na-miccosukee</code></td><td>Miccosukee</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-navajo.png" width="18" height="12" title="Navajo"></td><td><code>xx-na-navajo</code></td><td>Navajo</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-na-nezperce.png" width="18" height="12" title="Nezperce"></td><td><code>xx-na-nezperce</code></td><td>Nezperce</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-na-northernarapaho.png" width="18" height="12" title="Northern Arapaho"></td><td><code>xx-na-northernarapaho</code></td><td>Northern Arapaho</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-na-northerncheyenne.png" width="18" height="12" title="Northern Cheyenne"></td><td><code>xx-na-northerncheyenne</code></td><td>Northern Cheyenne</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-na-osage.png" width="18" height="12" title="Osage"></td><td><code>xx-na-osage</code></td><td>Osage</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-na-puyallup.png" width="18" height="12" title="Puyallup"></td><td><code>xx-na-puyallup</code></td><td>Puyallup</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-na-saginawchippewa.png" width="18" height="12" title="Saginaw Chippewa"></td><td><code>xx-na-saginawchippewa</code></td><td>Saginaw Chippewa</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-na-tohonooodham.png" width="18" height="12" title="Tohono O'Odham"></td><td><code>xx-na-tohonooodham</code></td><td>Tohono O'Odham</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-na-uintah-ouray.png" width="18" height="12" title="Uintah &amp; Ouray"></td><td><code>xx-na-uintah-ouray</code></td><td>Uintah &amp; Ouray</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-northpole.png" width="18" height="12" title="North Pole"></td><td><code>xx-northpole</code></td><td>North Pole</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pan-african.png" width="18" height="12" title="Pan-African"></td><td><code>xx-pan-african</code></td><td>Pan-African</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-refugeenation.png" width="18" height="12" title="Refugee Nation"></td><td><code>xx-refugeenation</code></td><td>Refugee Nation</td></tr>
@@ -404,6 +414,7 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-conlang-novial.png" width="18" height="12" title="Novial"></td><td><code>xx-conlang-novial</code></td><td>Novial</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-conlang-pandunia.png" width="18" height="12" title="Pandunia"></td><td><code>xx-conlang-pandunia</code></td><td>Pandunia</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-conlang-tokipona.png" width="18" height="12" title="Toki Pona"></td><td><code>xx-conlang-tokipona</code></td><td>Toki Pona</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-conlang-viossa.png" width="18" height="12" title="Viossa"></td><td><code>xx-conlang-viossa</code></td><td>Viossa</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-conlang-volapuk.png" width="18" height="12" title="Volapük"></td><td><code>xx-conlang-volapuk</code></td><td>Volapük</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-conlang-votgil.png" width="18" height="12" title="Vötgil"></td><td><code>xx-conlang-votgil</code></td><td>Vötgil</td></tr>
 </table>

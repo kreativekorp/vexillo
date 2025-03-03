@@ -2724,6 +2724,7 @@ xx-conlang-klingon	F440
 # F49C E | F4BC M | F4DC S | F4FC Z
 
 xx-conlang-tokipona	F4E4
+xx-conlang-viossa	F4ED
 xx-conlang-votgil	F4EE
 
 
