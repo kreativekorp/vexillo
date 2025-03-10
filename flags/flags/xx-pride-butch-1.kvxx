@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Butch Lesbian Pride" fly="h*3/2">
+	<defs>
+		<color id="band1">
+			<colorspec model="rgb" value="50 64 111"/>
+		</color>
+		<color id="band2">
+			<colorspec model="rgb" value="107 122 165"/>
+		</color>
+		<color id="band3">
+			<colorspec model="rgb" value="138 146 169"/>
+		</color>
+		<color id="band4">
+			<colorspec model="rgb" value="237 236 234"/>
+		</color>
+		<color id="band5">
+			<colorspec model="rgb" value="192 180 220"/>
+		</color>
+		<color id="band6">
+			<colorspec model="rgb" value="118 79 198"/>
+		</color>
+		<color id="band7">
+			<colorspec model="rgb" value="81 3 138"/>
+		</color>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="7" colors="band1 band2 band3 band4 band5 band6 band7"/>
+</flag>

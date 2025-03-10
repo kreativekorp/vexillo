@@ -444,6 +444,9 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-bigender-2.png" width="18" height="12" title="Bigender Pride"></td><td><code>xx-pride-bigender-2</code></td><td>Bigender Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-bigender-3.png" width="18" height="12" title="Bigender Pride"></td><td><code>xx-pride-bigender-3</code></td><td>Bigender Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-bisexual.png" width="18" height="12" title="Bisexual Pride"></td><td><code>xx-pride-bisexual</code></td><td>Bisexual Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-butch-1.png" width="18" height="12" title="Butch Lesbian Pride"></td><td><code>xx-pride-butch-1</code></td><td>Butch Lesbian Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-butch-2.png" width="18" height="12" title="Butch Lesbian Pride"></td><td><code>xx-pride-butch-2</code></td><td>Butch Lesbian Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-catgender.png" width="18" height="12" title="Catgender Pride"></td><td><code>xx-pride-catgender</code></td><td>Catgender Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-ceterosexual.png" width="18" height="12" title="Ceterosexual Pride"></td><td><code>xx-pride-ceterosexual</code></td><td>Ceterosexual Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-demiandrogyne-1.png" width="18" height="12" title="Demiandrogyne Pride"></td><td><code>xx-pride-demiandrogyne-1</code></td><td>Demiandrogyne Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-demiandrogyne-2.png" width="18" height="12" title="Demiandrogyne Pride"></td><td><code>xx-pride-demiandrogyne-2</code></td><td>Demiandrogyne Pride</td></tr>
@@ -458,6 +461,7 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-disability-1.png" width="18" height="12" title="Disability Rights Flag"></td><td><code>xx-disability-1</code></td><td>Disability Rights Flag</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-disability-2.png" width="18" height="12" title="Disability Rainbow Flag"></td><td><code>xx-disability-2</code></td><td>Disability Rainbow Flag</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-dollgender.png" width="18" height="12" title="Dollgender Pride"></td><td><code>xx-pride-dollgender</code></td><td>Dollgender Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-drag.png" width="18" height="12" title="Drag Flag"></td><td><code>xx-pride-drag</code></td><td>Drag Flag</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-fat-fetish.png" width="18" height="12" title="Fat Fetish Flag"></td><td><code>xx-pride-fat-fetish</code></td><td>Fat Fetish Flag</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-gay-male-1.png" width="18" height="12" title="Gay Male Pride"></td><td><code>xx-pride-gay-male-1</code></td><td>Gay Male Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-gay-male-2.png" width="18" height="12" title="Gay Male Pride"></td><td><code>xx-pride-gay-male-2</code></td><td>Gay Male Pride</td></tr>
@@ -522,8 +526,11 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-pomosexual.png" width="18" height="12" title="Pomosexual Pride"></td><td><code>xx-pride-pomosexual</code></td><td>Pomosexual Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-proculsexual.png" width="18" height="12" title="Proculsexual Pride"></td><td><code>xx-pride-proculsexual</code></td><td>Proculsexual Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-ps2.png" width="18" height="12" title="PS/2 Pride"></td><td><code>xx-pride-ps2</code></td><td>PS/2 Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-puppy.png" width="18" height="12" title="Puppy Pride"></td><td><code>xx-pride-puppy</code></td><td>Puppy Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-queer.png" width="18" height="12" title="Queer Pride"></td><td><code>xx-pride-queer</code></td><td>Queer Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-rubber.png" width="18" height="12" title="Rubber Pride"></td><td><code>xx-pride-rubber</code></td><td>Rubber Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-sapiosexual-1.png" width="18" height="12" title="Sapiosexual Pride"></td><td><code>xx-pride-sapiosexual-1</code></td><td>Sapiosexual Pride</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-sapiosexual-2.png" width="18" height="12" title="Sapiosexual Pride"></td><td><code>xx-pride-sapiosexual-2</code></td><td>Sapiosexual Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-sapphic.png" width="18" height="12" title="Sapphic Pride"></td><td><code>xx-pride-sapphic</code></td><td>Sapphic Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-trans.png" width="18" height="12" title="Trans Pride"></td><td><code>xx-pride-trans</code></td><td>Trans Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-trans-crab.png" width="18" height="12" title="Trans Pride (Cool Crab)"></td><td><code>xx-pride-trans-crab</code></td><td>Trans Pride (Cool Crab)</td></tr>

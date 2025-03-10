@@ -2757,6 +2757,8 @@ xx-pride-lipstick-1	LIPSTICK LESBIAN PRIDE FLAG-1
 xx-pride-twink	TWINK PRIDE FLAG
 xx-pride-lipstick-2	LIPSTICK LESBIAN PRIDE FLAG-2
 xx-pride-apollonian	APOLLONIAN PRIDE FLAG
+xx-pride-butch-1	BUTCH LESBIAN PRIDE FLAG-1
+xx-pride-butch-2	BUTCH LESBIAN PRIDE FLAG-2
 
 xx-pride-multisexual	MULTISEXUAL PRIDE FLAG
 xx-pride-pomosexual	POMOSEXUAL PRIDE FLAG
@@ -2773,12 +2775,16 @@ xx-pride-master-slave	MASTER-SLAVE PRIDE FLAG
 xx-pride-fat-fetish	FAT FETISH FLAG
 xx-pride-poly-2	POLYAMORY PRIDE FLAG-2
 xx-pride-poly-3	POLYAMORY PRIDE FLAG-3
+xx-pride-puppy	PUPPY PRIDE FLAG
+xx-pride-drag	DRAG FLAG
 
 xx-pride-ally	ALLY PRIDE FLAG
 xx-pride-heterosexual	HETEROSEXUAL PRIDE FLAG
 
 xx-pride-queer	QUEER PRIDE FLAG
 xx-pride-unlabeled	UNLABELED PRIDE FLAG
+xx-pride-sapiosexual-1	SAPIOSEXUAL PRIDE FLAG-1
+xx-pride-sapiosexual-2	SAPIOSEXUAL PRIDE FLAG-2
 
 xx-pride-lgbt-tokipona	PRIDE FLAG FOR TOKI PONA
 
@@ -2800,6 +2806,7 @@ xx-pride-aroflux	AROFLUX PRIDE FLAG
 xx-pride-gay-male-4	GAY MALE PRIDE FLAG-4
 
 xx-pride-dollgender	DOLLGENDER PRIDE FLAG
+xx-pride-catgender	CATGENDER PRIDE FLAG
 
 xx-pride-demigender	DEMIGENDER PRIDE FLAG
 xx-pride-demiandrogyne-1	DEMIANDROGYNE PRIDE FLAG-1

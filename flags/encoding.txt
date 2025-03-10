@@ -2796,6 +2796,8 @@ xx-pride-lipstick-1	F551
 xx-pride-twink	F552
 xx-pride-lipstick-2	F553
 xx-pride-apollonian	F554
+xx-pride-butch-1	F555
+xx-pride-butch-2	F556
 
 xx-pride-multisexual	F558
 xx-pride-pomosexual	F559
@@ -2812,12 +2814,16 @@ xx-pride-master-slave	F565
 xx-pride-fat-fetish	F566
 xx-pride-poly-2	F567
 xx-pride-poly-3	F568
+xx-pride-puppy	F569
+xx-pride-drag	F56A
 
 xx-pride-ally	F570
 xx-pride-heterosexual	F571
 
 xx-pride-queer	F580
 xx-pride-unlabeled	F581
+xx-pride-sapiosexual-1	F582
+xx-pride-sapiosexual-2	F583
 
 xx-pride-lgbt-tokipona	F588
 
@@ -2839,6 +2845,7 @@ xx-pride-aroflux	F59E
 xx-pride-gay-male-4	F59F
 
 xx-pride-dollgender	F5A0
+xx-pride-catgender	F5A1
 
 xx-pride-demigender	F5B0
 xx-pride-demiandrogyne-1	F5B1

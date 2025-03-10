@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Sapiosexual Pride" fly="h*5/3">
+  <defs>
+    <color id="green">
+      <colorspec model="rgb" value="60 126 20"/>
+    </color>
+    <color id="brown">
+      <colorspec model="rgb" value="149 84 56"/>
+    </color>
+    <color id="blue">
+      <colorspec model="rgb" value="23 39 248"/>
+    </color>
+  </defs>
+  <hband x1="0" y1="0" x2="w" y2="h" bands="3" colors="green brown blue"/>
+</flag>

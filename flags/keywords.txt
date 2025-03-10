@@ -2344,6 +2344,8 @@ xx-pride-lipstick-1	pride lgbt gay wlw femme lipstick lesbian pink red 9 nine ba
 xx-pride-twink	pride lgbt gay mlm femme male homosexual twink
 xx-pride-lipstick-2	pride lgbt gay wlw femme lipstick lesbian inclusive everyone 4 four band bands rebecca bettencourt 2019
 xx-pride-apollonian	pride lgbt gay gender apollonian apollian emozemo 2021
+xx-pride-butch-1	pride lgbt gay wlw butch lesbian blue purple tumblr dorian rutherford 2016
+xx-pride-butch-2	pride lgbt gay wlw butch lesbian red yellow tumblr butchspace 2017
 
 xx-pride-multisexual	pride lgbt gay multisexual multi
 xx-pride-pomosexual	pride lgbt gay pomosexual pomo postmodern post modern pridecolorschemes 2016
@@ -2360,12 +2362,16 @@ xx-pride-master-slave	pride kink bdsm master slave
 xx-pride-fat-fetish	pride fat fetish
 xx-pride-poly-2	pride poly polyamory polyamorous infinity heart ym 2020
 xx-pride-poly-3	pride poly polyamory polyamorous tricolor heart polyamproud red howell 2022
+xx-pride-puppy	pride kink bdsm puppy dog international pup flip gray leatherpup 2011
+xx-pride-drag	pride drag queen king veranda lni l ni
 
 xx-pride-ally	pride lgbt ally
 xx-pride-heterosexual	pride straight hetero heterosexual
 
 xx-pride-queer	pride lgbt gay queer
 xx-pride-unlabeled	pride lgbt gay unlabeled unlabelled
+xx-pride-sapiosexual-1	pride sapio sapiosexual green brown blue pepe frog
+xx-pride-sapiosexual-2	pride sapio sapiosexual white pink blue
 
 xx-pride-lgbt-tokipona	pride lgbt gay conlang constructed language tok toki pona jan nijo
 
@@ -2386,7 +2392,8 @@ xx-pride-aceflux	pride lgbt gay aceflux asexual ace flux
 xx-pride-aroflux	pride lgbt gay aroflux aromantic aro flux
 xx-pride-gay-male-4	pride lgbt gay mlm male homosexual green blue vincian 5 five band bands toothpaste triton gayflagblog hermy 2019
 
-xx-pride-dollgender	pride lgbt gay gender dollgender doll
+xx-pride-dollgender	pride lgbt gay gender xenogender xeno dollgender doll
+xx-pride-catgender	pride lgbt gay gender xenogender xeno catgender cat
 
 xx-pride-demigender	pride lgbt gay gender demigender
 xx-pride-demiandrogyne-1	pride lgbt gay gender demiandrogyne enbygsrd

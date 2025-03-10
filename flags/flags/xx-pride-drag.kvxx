@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Drag Flag" fly="h*13/7">
+	<defs>
+		<dim id="c" e="min(w/3,h)"/>
+		<dim id="s1" e="c*0.025"/>
+		<dim id="s2" e="c*0.015"/>
+		<color id="purple">
+			<colorspec model="rgb" value="231 103 255"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="0 102 255"/>
+		</color>
+		<color id="pink">
+			<colorspec model="rgb" value="255 163 230"/>
+		</color>
+		<symdef id="crown" d="
+			M 0.5 0.1628 c 0 0 -0.0917 0.0326 -0.2752 0.2305
+			c 0 0 -0.0025 -0.0116 -0.0025 -0.0476
+			c 0 -0.0578 0.012 -0.113 0.012 -0.113
+			s -0.0426 0.0212 -0.1423 0.1264 L 0.0 0
+			l -0.0919 0.3592
+			c -0.0996 -0.1053 -0.1422 -0.1264 -0.1422 -0.1264
+			s 0.012 0.0552 0.012 0.113
+			c 0 0.0359 -0.0026 0.0476 -0.0026 0.0476
+			C -0.4083 0.1954 -0.5 0.1628 -0.5 0.1628
+			s 0.1743 0.2031 0.1743 0.4004
+			c 0 0.0575 -0.0134 0.0881 -0.0134 0.0881
+			s 0.0958 -0.0556 0.3391 -0.0556
+			c 0.2433 0 0.3391 0.0556 0.3391 0.0556
+			s -0.0134 -0.0306 -0.0134 -0.0881
+			C 0.3257 0.3659 0.5 0.1628 0.5 0.1628 z
+		"/>
+		<symdef id="star" d="
+			M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+			L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+			L -0.5878 0.809 L -0.3633 0.118
+			L -0.9511 -0.309 L -0.2245 -0.309 Z
+		"/>
+	</defs>
+	<vband x1="0" y1="0" x2="w" y2="h" bands="3" colors="purple white blue"/>
+	<symbol symbol="crown" x="w/2" y="h/2-c*0.2" sx="c*0.676" sy="c*0.676" color="pink"/>
+	<symbol symbol="star" x="w/2-c*0.366" y="h/2-c*0.131" sx="s1" sy="s1" color="pink"/>
+	<symbol symbol="star" x="w/2-c*0.185" y="h/2-c*0.084" sx="s1" sy="s1" color="pink"/>
+	<symbol symbol="star" x="w/2" y="h/2-c*0.236" sx="s1" sy="s1" color="pink"/>
+	<symbol symbol="star" x="w/2+c*0.185" y="h/2-c*0.084" sx="s1" sy="s1" color="pink"/>
+	<symbol symbol="star" x="w/2+c*0.366" y="h/2-c*0.131" sx="s1" sy="s1" color="pink"/>
+	<symbol symbol="star" x="w/2-c*0.154" y="h/2+c*0.172" sx="s2" sy="s2" color="white"/>
+	<symbol symbol="star" x="w/2-c*0.117" y="h/2+c*0.164" sx="s2" sy="s2" color="white"/>
+	<symbol symbol="star" x="w/2-c*0.079" y="h/2+c*0.158" sx="s2" sy="s2" color="white"/>
+	<symbol symbol="star" x="w/2-c*0.039" y="h/2+c*0.154" sx="s2" sy="s2" color="white"/>
+	<symbol symbol="star" x="w/2" y="h/2+c*0.151" sx="s2" sy="s2" color="white"/>
+	<symbol symbol="star" x="w/2+c*0.039" y="h/2+c*0.154" sx="s2" sy="s2" color="white"/>
+	<symbol symbol="star" x="w/2+c*0.079" y="h/2+c*0.158" sx="s2" sy="s2" color="white"/>
+	<symbol symbol="star" x="w/2+c*0.117" y="h/2+c*0.164" sx="s2" sy="s2" color="white"/>
+	<symbol symbol="star" x="w/2+c*0.154" y="h/2+c*0.172" sx="s2" sy="s2" color="white"/>
+</flag>
