@@ -301,6 +301,7 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="artwork/vexillo/pgc024/us-chi.png" width="18" height="12" title="Chicago"></td><td><code>us-chi</code></td><td>Chicago</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-den.png" width="18" height="12" title="Denver"></td><td><code>us-den</code></td><td>Denver</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-lax.png" width="18" height="12" title="Los Angeles"></td><td><code>us-lax</code></td><td>Los Angeles</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/us-msn.png" width="18" height="12" title="Madison"></td><td><code>us-msn</code></td><td>Madison</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-nyc.png" width="18" height="12" title="New York City"></td><td><code>us-nyc</code></td><td>New York City</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-pdx.png" width="18" height="12" title="Portland"></td><td><code>us-pdx</code></td><td>Portland</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/us-phx.png" width="18" height="12" title="Phoenix"></td><td><code>us-phx</code></td><td>Phoenix</td></tr>
@@ -536,6 +537,8 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-trans.png" width="18" height="12" title="Trans Pride"></td><td><code>xx-pride-trans</code></td><td>Trans Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-trans-crab.png" width="18" height="12" title="Trans Pride (Cool Crab)"></td><td><code>xx-pride-trans-crab</code></td><td>Trans Pride (Cool Crab)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-trans-il.png" width="18" height="12" title="Trans Pride (Israel)"></td><td><code>xx-pride-trans-il</code></td><td>Trans Pride (Israel)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-trans-uk.png" width="18" height="12" title="Trans Pride (United Kingdom)"></td><td><code>xx-pride-trans-uk</code></td><td>Trans Pride (United Kingdom)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-trans-us.png" width="18" height="12" title="Trans Pride (United States)"></td><td><code>xx-pride-trans-us</code></td><td>Trans Pride (United States)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-transfeminine.png" width="18" height="12" title="Transfeminine Pride"></td><td><code>xx-pride-transfeminine</code></td><td>Transfeminine Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-transmasculine.png" width="18" height="12" title="Transmasculine Pride"></td><td><code>xx-pride-transmasculine</code></td><td>Transmasculine Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-transneutral.png" width="18" height="12" title="Transneutral Pride"></td><td><code>xx-pride-transneutral</code></td><td>Transneutral Pride</td></tr>

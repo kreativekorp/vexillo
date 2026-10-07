@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag id="us-msn" name="Madison" fly="h*3/2">
+	<defs>
+		<dim id="t" e="min(h/4,w/4)"/>
+		<dim id="c" e="min(h*3/10,w*3/10)"/>
+		<dim id="d" e="min(h*1/10,w*1/10)"/>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<color id="blue">
+			<colorspec model="rgb" value="102 204 255"/>
+		</color>
+		<color id="black">
+			<colorspec model="rgb" value="0 0 0"/>
+		</color>
+		<color id="gold">
+			<colorspec model="rgb" value="255 204 51"/>
+		</color>
+		<symdef id="cross" d="
+			M -0.3239 -0.1761 h 0.1477 v -0.1477
+			L 0 -0.5 l 0.1761 0.1761 v 0.1477 h 0.1477
+			L 0.5 0 L 0.3239 0.1761 H 0.1761 v 0.1477
+			L 0 0.5 l -0.1761 -0.1761 V 0.1761 h -0.1477 L -0.5 0 Z
+		"/>
+		<symdef id="disc" d="M 0.5 0 A 0.5 0.5 0 0 0 -0.5 0 A 0.5 0.5 0 0 0 0.5 0 Z"/>
+	</defs>
+	<field x1="0" y1="0" x2="w" y2="h" color="white"/>
+	<poly points="0 0 w-t 0 0 h-t" color="blue"/>
+	<poly points="w h t h w t" color="blue"/>
+	<symbol symbol="cross" x="w/2" y="h/2" sx="c" sy="c" color="black"/>
+	<symbol symbol="disc" x="w/2" y="h/2" sx="d" sy="d" color="gold"/>
+</flag>

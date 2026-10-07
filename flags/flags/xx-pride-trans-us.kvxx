@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flag PUBLIC "-//Kreative//DTD Vexillo 1.0//EN" "http://www.kreativekorp.com/dtd/kvxx.dtd">
+<flag name="Trans Pride (United States)" fly="h*19/10">
+	<defs>
+		<dim id="A" e="hoist"/>
+		<dim id="B" e="fly"/>
+		<dim id="C" e="A*7/13"/>
+		<dim id="D" e="B*2/5"/>
+		<dim id="E" e="C/10"/>
+		<dim id="F" e="C/10"/>
+		<dim id="G" e="D/12"/>
+		<dim id="H" e="D/12"/>
+		<dim id="K" e="L*4/5"/>
+		<dim id="L" e="A/13"/>
+		<color id="blue">
+			<colorspec model="rgb" value="115 207 248"/>
+		</color>
+		<color id="pink">
+			<colorspec model="rgb" value="251 197 221"/>
+		</color>
+		<color id="white">
+			<colorspec model="rgb" value="255 255 255"/>
+		</color>
+		<symdef id="star" d="
+			M 0 -1 L 0.2245 -0.309 L 0.9511 -0.309
+			L 0.3633 0.118 L 0.5878 0.809 L 0 0.382
+			L -0.5878 0.809 L -0.3633 0.118
+			L -0.9511 -0.309 L -0.2245 -0.309 Z
+		"/>
+	</defs>
+	<hband x1="0" y1="0" x2="w" y2="h" bands="13" colors="pink white"/>
+	<field x1="0" y1="0" x2="D" y2="C" color="blue"/>
+	<for var="y" start="0" end="8" step="2">
+		<for var="x" start="0" end="10" step="2">
+			<symbol symbol="star" x="G+H*x" y="E+F*y" sx="K/2" sy="K/2" color="white"/>
+		</for>
+	</for>
+	<for var="y" start="1" end="7" step="2">
+		<for var="x" start="1" end="9" step="2">
+			<symbol symbol="star" x="G+H*x" y="E+F*y" sx="K/2" sy="K/2" color="white"/>
+		</for>
+	</for>
+</flag>

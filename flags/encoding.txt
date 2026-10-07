@@ -939,6 +939,7 @@ us-pih; xx-pocatello	E465
 us-sfo; xx-sanfrancisco	E466
 us-lax; xx-losangeles	E467
 us-ana; xx-anaheim	E468
+us-msn	E469
 xx-maegnolyun	E47E
 xx-cascadia	E47F
 
@@ -2767,6 +2768,8 @@ xx-pride-gay-male-3	F51F
 
 xx-pride-trans	F520; 26A7; 1F3F3+200D+26A7; 1F3F4+200D+26A7
 xx-pride-trans-il	F521
+xx-pride-trans-uk	F522
+xx-pride-trans-us	F523
 
 xx-pride-transneutral	F528
 xx-pride-transfeminine	F529
