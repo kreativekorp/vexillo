@@ -1719,7 +1719,27 @@ in-jk	south asia republic india union territory jammu kashmir
 in-la	south asia republic india union territory ladakh
 in-ld	south asia republic india union territory lakshadweep
 in-py	south asia republic india union territory puducherry pondicherry
+
+np-center	south asia federal democratic republic nepal most mathematical center centre aligned centered centred
+np-hoist	south asia federal democratic republic nepal most mathematical hoist aligned transparent background
+np-white	south asia federal democratic republic nepal most mathematical hoist aligned white background
 xx-romani	roma romani romany people
+
+pk-is	south asia islamic republic pakistan federal capital territory islamabad
+pk-ba	south asia islamic republic pakistan province balochistan
+pk-kp	south asia islamic republic pakistan province khaibar khyber pakhtunkhwa
+pk-pb	south asia islamic republic pakistan province panjab punjab
+pk-sd	south asia islamic republic pakistan province sindh
+pk-gb	south asia islamic republic pakistan administered area gilgit baltistan
+pk-jk	south asia islamic republic pakistan administered area azad jammun jammu o kashmir
+
+np-p1	south asia federal democratic republic nepal province pradesh 1 koshi
+np-p2	south asia federal democratic republic nepal province pradesh 2 madhesh
+np-p3	south asia federal democratic republic nepal province pradesh 3 bagmati
+np-p4	south asia federal democratic republic nepal province pradesh 4 gandaki
+np-p5	south asia federal democratic republic nepal province pradesh 5 lumbini
+np-p6	south asia federal democratic republic nepal province pradesh 6 karnali
+np-p7	south asia federal democratic republic nepal province pradesh 7 sudurpashchim sudur pashchim
 
 
 ## South American Flags
@@ -2316,7 +2336,7 @@ xx-pride-gay-male-3	pride lgbt gay mlm male homosexual green blue vincian 5 five
 
 xx-pride-trans	pride lgbt trans transgender transsexual monica helms 1999
 xx-pride-trans-il	pride lgbt trans transgender transsexual western southwestern asia middle east state israel
-xx-pride-trans-uk	pride lgbt trans transgender transsexual northern europe united kingdom great britain ireland uk gb union jack
+xx-pride-trans-gb; xx-pride-trans-uk	pride lgbt trans transgender transsexual northern europe united kingdom great britain ireland uk gb union jack
 xx-pride-trans-us	pride lgbt trans transgender transsexual north america united states us usa
 
 xx-pride-transneutral	pride lgbt trans transgender transsexual transneutral

@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 if command -v vexport >/dev/null 2>&1; then
-	VEXPORT="vexport -v"
+	VEXPORT="vexport"
 elif command -v vexillo >/dev/null 2>&1; then
-	VEXPORT="vexillo export -v"
+	VEXPORT="vexillo export"
 elif test -f vexillo.jar; then
-	VEXPORT="java -jar vexillo.jar export -v"
+	VEXPORT="java -jar vexillo.jar export"
 else
 	echo "Please run make install or add vexillo.jar to this directory."
 	exit 1
@@ -16,127 +16,123 @@ mkdir -p out/s{g,m}{a,b,c,d,e,f,h,k,v,w}360
 mkdir -p out/p{g,m}{a,b,c,d,e,f,h,k,v,w}{360,128,072,024}
 mkdir -p out/{pvf160,pvn128,pvb160,pvx240}
 
-$VEXPORT -f svg \
-	-d out/sga360 -h 360 -w   0 -g 30 flags/*.kvxx \
-	-d out/sgb360 -h 360 -w 600 -g 30 flags/*.kvxx \
-	-d out/sgc360 -h 360 -w 540 -g 30 flags/*.kvxx \
-	-d out/sgd360 -h 360 -w 480 -g 30 flags/*.kvxx \
-	-d out/sge360 -h 360 -w 450 -g 30 flags/*.kvxx \
-	-d out/sgf360 -h 360 -w 360 -g 30 flags/*.kvxx \
-	-d out/sgh360 -h 360 -w 720 -g 30 flags/*.kvxx \
-	-d out/sgk360 -h 396 -w 576 -g 36 flags/*.kvxx \
-	-d out/sgv360 -h 360 -w 576 -g 30 flags/*.kvxx \
-	-d out/sgw360 -h 360 -w 640 -g 30 flags/*.kvxx \
-	-d out/sma360 -h 360 -w   0 -g  0 flags/*.kvxx \
-	-d out/smb360 -h 360 -w 600 -g  0 flags/*.kvxx \
-	-d out/smc360 -h 360 -w 540 -g  0 flags/*.kvxx \
-	-d out/smd360 -h 360 -w 480 -g  0 flags/*.kvxx \
-	-d out/sme360 -h 360 -w 450 -g  0 flags/*.kvxx \
-	-d out/smf360 -h 360 -w 360 -g  0 flags/*.kvxx \
-	-d out/smh360 -h 360 -w 720 -g  0 flags/*.kvxx \
-	-d out/smk360 -h 396 -w 576 -g  0 flags/*.kvxx \
-	-d out/smv360 -h 360 -w 576 -g  0 flags/*.kvxx \
-	-d out/smw360 -h 360 -w 640 -g  0 flags/*.kvxx
+echo "sga360..."; $VEXPORT -f svg -d out/sga360 -h 360 -w   0 -g 30 flags/*.kvxx
+echo "sgb360..."; $VEXPORT -f svg -d out/sgb360 -h 360 -w 600 -g 30 flags/*.kvxx
+echo "sgc360..."; $VEXPORT -f svg -d out/sgc360 -h 360 -w 540 -g 30 flags/*.kvxx
+echo "sgd360..."; $VEXPORT -f svg -d out/sgd360 -h 360 -w 480 -g 30 flags/*.kvxx
+echo "sge360..."; $VEXPORT -f svg -d out/sge360 -h 360 -w 450 -g 30 flags/*.kvxx
+echo "sgf360..."; $VEXPORT -f svg -d out/sgf360 -h 360 -w 360 -g 30 flags/*.kvxx
+echo "sgh360..."; $VEXPORT -f svg -d out/sgh360 -h 360 -w 720 -g 30 flags/*.kvxx
+echo "sgk360..."; $VEXPORT -f svg -d out/sgk360 -h 396 -w 576 -g 36 flags/*.kvxx
+echo "sgv360..."; $VEXPORT -f svg -d out/sgv360 -h 360 -w 576 -g 30 flags/*.kvxx
+echo "sgw360..."; $VEXPORT -f svg -d out/sgw360 -h 360 -w 640 -g 30 flags/*.kvxx
+echo "sma360..."; $VEXPORT -f svg -d out/sma360 -h 360 -w   0 -g  0 flags/*.kvxx
+echo "smb360..."; $VEXPORT -f svg -d out/smb360 -h 360 -w 600 -g  0 flags/*.kvxx
+echo "smc360..."; $VEXPORT -f svg -d out/smc360 -h 360 -w 540 -g  0 flags/*.kvxx
+echo "smd360..."; $VEXPORT -f svg -d out/smd360 -h 360 -w 480 -g  0 flags/*.kvxx
+echo "sme360..."; $VEXPORT -f svg -d out/sme360 -h 360 -w 450 -g  0 flags/*.kvxx
+echo "smf360..."; $VEXPORT -f svg -d out/smf360 -h 360 -w 360 -g  0 flags/*.kvxx
+echo "smh360..."; $VEXPORT -f svg -d out/smh360 -h 360 -w 720 -g  0 flags/*.kvxx
+echo "smk360..."; $VEXPORT -f svg -d out/smk360 -h 396 -w 576 -g  0 flags/*.kvxx
+echo "smv360..."; $VEXPORT -f svg -d out/smv360 -h 360 -w 576 -g  0 flags/*.kvxx
+echo "smw360..."; $VEXPORT -f svg -d out/smw360 -h 360 -w 640 -g  0 flags/*.kvxx
 
-$VEXPORT -f png \
-	-d out/pga360 -h 360 -w   0 -g 30 flags/*.kvxx \
-	-d out/pgb360 -h 360 -w 600 -g 30 flags/*.kvxx \
-	-d out/pgc360 -h 360 -w 540 -g 30 flags/*.kvxx \
-	-d out/pgd360 -h 360 -w 480 -g 30 flags/*.kvxx \
-	-d out/pge360 -h 360 -w 450 -g 30 flags/*.kvxx \
-	-d out/pgf360 -h 360 -w 360 -g 30 flags/*.kvxx \
-	-d out/pgh360 -h 360 -w 720 -g 30 flags/*.kvxx \
-	-d out/pgk360 -h 396 -w 576 -g 36 flags/*.kvxx \
-	-d out/pgv360 -h 360 -w 576 -g 30 flags/*.kvxx \
-	-d out/pgw360 -h 360 -w 640 -g 30 flags/*.kvxx \
-	-d out/pma360 -h 360 -w   0 -g  0 flags/*.kvxx \
-	-d out/pmb360 -h 360 -w 600 -g  0 flags/*.kvxx \
-	-d out/pmc360 -h 360 -w 540 -g  0 flags/*.kvxx \
-	-d out/pmd360 -h 360 -w 480 -g  0 flags/*.kvxx \
-	-d out/pme360 -h 360 -w 450 -g  0 flags/*.kvxx \
-	-d out/pmf360 -h 360 -w 360 -g  0 flags/*.kvxx \
-	-d out/pmh360 -h 360 -w 720 -g  0 flags/*.kvxx \
-	-d out/pmk360 -h 396 -w 576 -g  0 flags/*.kvxx \
-	-d out/pmv360 -h 360 -w 576 -g  0 flags/*.kvxx \
-	-d out/pmw360 -h 360 -w 640 -g  0 flags/*.kvxx
+echo "pga360..."; $VEXPORT -f png -d out/pga360 -h 360 -w   0 -g 30 flags/*.kvxx
+echo "pgb360..."; $VEXPORT -f png -d out/pgb360 -h 360 -w 600 -g 30 flags/*.kvxx
+echo "pgc360..."; $VEXPORT -f png -d out/pgc360 -h 360 -w 540 -g 30 flags/*.kvxx
+echo "pgd360..."; $VEXPORT -f png -d out/pgd360 -h 360 -w 480 -g 30 flags/*.kvxx
+echo "pge360..."; $VEXPORT -f png -d out/pge360 -h 360 -w 450 -g 30 flags/*.kvxx
+echo "pgf360..."; $VEXPORT -f png -d out/pgf360 -h 360 -w 360 -g 30 flags/*.kvxx
+echo "pgh360..."; $VEXPORT -f png -d out/pgh360 -h 360 -w 720 -g 30 flags/*.kvxx
+echo "pgk360..."; $VEXPORT -f png -d out/pgk360 -h 396 -w 576 -g 36 flags/*.kvxx
+echo "pgv360..."; $VEXPORT -f png -d out/pgv360 -h 360 -w 576 -g 30 flags/*.kvxx
+echo "pgw360..."; $VEXPORT -f png -d out/pgw360 -h 360 -w 640 -g 30 flags/*.kvxx
+echo "pma360..."; $VEXPORT -f png -d out/pma360 -h 360 -w   0 -g  0 flags/*.kvxx
+echo "pmb360..."; $VEXPORT -f png -d out/pmb360 -h 360 -w 600 -g  0 flags/*.kvxx
+echo "pmc360..."; $VEXPORT -f png -d out/pmc360 -h 360 -w 540 -g  0 flags/*.kvxx
+echo "pmd360..."; $VEXPORT -f png -d out/pmd360 -h 360 -w 480 -g  0 flags/*.kvxx
+echo "pme360..."; $VEXPORT -f png -d out/pme360 -h 360 -w 450 -g  0 flags/*.kvxx
+echo "pmf360..."; $VEXPORT -f png -d out/pmf360 -h 360 -w 360 -g  0 flags/*.kvxx
+echo "pmh360..."; $VEXPORT -f png -d out/pmh360 -h 360 -w 720 -g  0 flags/*.kvxx
+echo "pmk360..."; $VEXPORT -f png -d out/pmk360 -h 396 -w 576 -g  0 flags/*.kvxx
+echo "pmv360..."; $VEXPORT -f png -d out/pmv360 -h 360 -w 576 -g  0 flags/*.kvxx
+echo "pmw360..."; $VEXPORT -f png -d out/pmw360 -h 360 -w 640 -g  0 flags/*.kvxx
 
-$VEXPORT -f png \
-	-d out/pga128 -w 128 -h   0 -g  8 flags/*.kvxx \
-	-d out/pgb128 -w 128 -h  76 -g  8 flags/*.kvxx \
-	-d out/pgc128 -w 128 -h  86 -g  8 flags/*.kvxx \
-	-d out/pgd128 -w 128 -h  96 -g  8 flags/*.kvxx \
-	-d out/pge128 -w 128 -h 102 -g  8 flags/*.kvxx \
-	-d out/pgf128 -w 128 -h 128 -g  8 flags/*.kvxx \
-	-d out/pgh128 -w 128 -h  64 -g  8 flags/*.kvxx \
-	-d out/pgk128 -w 128 -h  88 -g  8 flags/*.kvxx \
-	-d out/pgv128 -w 128 -h  80 -g  8 flags/*.kvxx \
-	-d out/pgw128 -w 128 -h  72 -g  8 flags/*.kvxx \
-	-d out/pma128 -w 128 -h   0 -g  0 flags/*.kvxx \
-	-d out/pmb128 -w 128 -h  76 -g  0 flags/*.kvxx \
-	-d out/pmc128 -w 128 -h  86 -g  0 flags/*.kvxx \
-	-d out/pmd128 -w 128 -h  96 -g  0 flags/*.kvxx \
-	-d out/pme128 -w 128 -h 102 -g  0 flags/*.kvxx \
-	-d out/pmf128 -w 128 -h 128 -g  0 flags/*.kvxx \
-	-d out/pmh128 -w 128 -h  64 -g  0 flags/*.kvxx \
-	-d out/pmk128 -w 128 -h  88 -g  0 flags/*.kvxx \
-	-d out/pmv128 -w 128 -h  80 -g  0 flags/*.kvxx \
-	-d out/pmw128 -w 128 -h  72 -g  0 flags/*.kvxx
+echo "pga128..."; $VEXPORT -f png -d out/pga128 -w 128 -h   0 -g  8 flags/*.kvxx
+echo "pgb128..."; $VEXPORT -f png -d out/pgb128 -w 128 -h  76 -g  8 flags/*.kvxx
+echo "pgc128..."; $VEXPORT -f png -d out/pgc128 -w 128 -h  86 -g  8 flags/*.kvxx
+echo "pgd128..."; $VEXPORT -f png -d out/pgd128 -w 128 -h  96 -g  8 flags/*.kvxx
+echo "pge128..."; $VEXPORT -f png -d out/pge128 -w 128 -h 102 -g  8 flags/*.kvxx
+echo "pgf128..."; $VEXPORT -f png -d out/pgf128 -w 128 -h 128 -g  8 flags/*.kvxx
+echo "pgh128..."; $VEXPORT -f png -d out/pgh128 -w 128 -h  64 -g  8 flags/*.kvxx
+echo "pgk128..."; $VEXPORT -f png -d out/pgk128 -w 128 -h  88 -g  8 flags/*.kvxx
+echo "pgv128..."; $VEXPORT -f png -d out/pgv128 -w 128 -h  80 -g  8 flags/*.kvxx
+echo "pgw128..."; $VEXPORT -f png -d out/pgw128 -w 128 -h  72 -g  8 flags/*.kvxx
+echo "pma128..."; $VEXPORT -f png -d out/pma128 -w 128 -h   0 -g  0 flags/*.kvxx
+echo "pmb128..."; $VEXPORT -f png -d out/pmb128 -w 128 -h  76 -g  0 flags/*.kvxx
+echo "pmc128..."; $VEXPORT -f png -d out/pmc128 -w 128 -h  86 -g  0 flags/*.kvxx
+echo "pmd128..."; $VEXPORT -f png -d out/pmd128 -w 128 -h  96 -g  0 flags/*.kvxx
+echo "pme128..."; $VEXPORT -f png -d out/pme128 -w 128 -h 102 -g  0 flags/*.kvxx
+echo "pmf128..."; $VEXPORT -f png -d out/pmf128 -w 128 -h 128 -g  0 flags/*.kvxx
+echo "pmh128..."; $VEXPORT -f png -d out/pmh128 -w 128 -h  64 -g  0 flags/*.kvxx
+echo "pmk128..."; $VEXPORT -f png -d out/pmk128 -w 128 -h  88 -g  0 flags/*.kvxx
+echo "pmv128..."; $VEXPORT -f png -d out/pmv128 -w 128 -h  80 -g  0 flags/*.kvxx
+echo "pmw128..."; $VEXPORT -f png -d out/pmw128 -w 128 -h  72 -g  0 flags/*.kvxx
 
-$VEXPORT -f png \
-	-d out/pga072 -h  72 -w   0 -g  6 flags/*.kvxx \
-	-d out/pgb072 -h  72 -w 120 -g  6 flags/*.kvxx \
-	-d out/pgc072 -h  72 -w 108 -g  6 flags/*.kvxx \
-	-d out/pgd072 -h  72 -w  96 -g  6 flags/*.kvxx \
-	-d out/pge072 -h  72 -w  90 -g  6 flags/*.kvxx \
-	-d out/pgf072 -h  72 -w  72 -g  6 flags/*.kvxx \
-	-d out/pgh072 -h  72 -w 144 -g  6 flags/*.kvxx \
-	-d out/pgk072 -h  66 -w  96 -g  6 flags/*.kvxx \
-	-d out/pgv072 -h  72 -w 116 -g  6 flags/*.kvxx \
-	-d out/pgw072 -h  72 -w 128 -g  6 flags/*.kvxx \
-	-d out/pma072 -h  72 -w   0 -g  0 flags/*.kvxx \
-	-d out/pmb072 -h  72 -w 120 -g  0 flags/*.kvxx \
-	-d out/pmc072 -h  72 -w 108 -g  0 flags/*.kvxx \
-	-d out/pmd072 -h  72 -w  96 -g  0 flags/*.kvxx \
-	-d out/pme072 -h  72 -w  90 -g  0 flags/*.kvxx \
-	-d out/pmf072 -h  72 -w  72 -g  0 flags/*.kvxx \
-	-d out/pmh072 -h  72 -w 144 -g  0 flags/*.kvxx \
-	-d out/pmk072 -h  66 -w  96 -g  0 flags/*.kvxx \
-	-d out/pmv072 -h  72 -w 116 -g  0 flags/*.kvxx \
-	-d out/pmw072 -h  72 -w 128 -g  0 flags/*.kvxx
+echo "pga072..."; $VEXPORT -f png -d out/pga072 -h  72 -w   0 -g  6 flags/*.kvxx
+echo "pgb072..."; $VEXPORT -f png -d out/pgb072 -h  72 -w 120 -g  6 flags/*.kvxx
+echo "pgc072..."; $VEXPORT -f png -d out/pgc072 -h  72 -w 108 -g  6 flags/*.kvxx
+echo "pgd072..."; $VEXPORT -f png -d out/pgd072 -h  72 -w  96 -g  6 flags/*.kvxx
+echo "pge072..."; $VEXPORT -f png -d out/pge072 -h  72 -w  90 -g  6 flags/*.kvxx
+echo "pgf072..."; $VEXPORT -f png -d out/pgf072 -h  72 -w  72 -g  6 flags/*.kvxx
+echo "pgh072..."; $VEXPORT -f png -d out/pgh072 -h  72 -w 144 -g  6 flags/*.kvxx
+echo "pgk072..."; $VEXPORT -f png -d out/pgk072 -h  66 -w  96 -g  6 flags/*.kvxx
+echo "pgv072..."; $VEXPORT -f png -d out/pgv072 -h  72 -w 116 -g  6 flags/*.kvxx
+echo "pgw072..."; $VEXPORT -f png -d out/pgw072 -h  72 -w 128 -g  6 flags/*.kvxx
+echo "pma072..."; $VEXPORT -f png -d out/pma072 -h  72 -w   0 -g  0 flags/*.kvxx
+echo "pmb072..."; $VEXPORT -f png -d out/pmb072 -h  72 -w 120 -g  0 flags/*.kvxx
+echo "pmc072..."; $VEXPORT -f png -d out/pmc072 -h  72 -w 108 -g  0 flags/*.kvxx
+echo "pmd072..."; $VEXPORT -f png -d out/pmd072 -h  72 -w  96 -g  0 flags/*.kvxx
+echo "pme072..."; $VEXPORT -f png -d out/pme072 -h  72 -w  90 -g  0 flags/*.kvxx
+echo "pmf072..."; $VEXPORT -f png -d out/pmf072 -h  72 -w  72 -g  0 flags/*.kvxx
+echo "pmh072..."; $VEXPORT -f png -d out/pmh072 -h  72 -w 144 -g  0 flags/*.kvxx
+echo "pmk072..."; $VEXPORT -f png -d out/pmk072 -h  66 -w  96 -g  0 flags/*.kvxx
+echo "pmv072..."; $VEXPORT -f png -d out/pmv072 -h  72 -w 116 -g  0 flags/*.kvxx
+echo "pmw072..."; $VEXPORT -f png -d out/pmw072 -h  72 -w 128 -g  0 flags/*.kvxx
 
-$VEXPORT -f png \
-	-d out/pga024 -h  24 -w   0 -g  2 -s  3 flags/*.kvxx \
-	-d out/pgb024 -h  24 -w  40 -g  2 -s  3 flags/*.kvxx \
-	-d out/pgc024 -h  24 -w  36 -g  2 -s  3 flags/*.kvxx \
-	-d out/pgd024 -h  24 -w  32 -g  2 -s  3 flags/*.kvxx \
-	-d out/pge024 -h  24 -w  30 -g  2 -s  3 flags/*.kvxx \
-	-d out/pgf024 -h  24 -w  24 -g  2 -s  3 flags/*.kvxx \
-	-d out/pgh024 -h  24 -w  48 -g  2 -s  3 flags/*.kvxx \
-	-d out/pgk024 -h  22 -w  32 -g  2 -s  3 flags/*.kvxx \
-	-d out/pgv024 -h  24 -w  38 -g  2 -s  3 flags/*.kvxx \
-	-d out/pgw024 -h  24 -w  42 -g  2 -s  3 flags/*.kvxx \
-	-d out/pma024 -h  24 -w   0 -g  0 -s  3 flags/*.kvxx \
-	-d out/pmb024 -h  24 -w  40 -g  0 -s  3 flags/*.kvxx \
-	-d out/pmc024 -h  24 -w  36 -g  0 -s  3 flags/*.kvxx \
-	-d out/pmd024 -h  24 -w  32 -g  0 -s  3 flags/*.kvxx \
-	-d out/pme024 -h  24 -w  30 -g  0 -s  3 flags/*.kvxx \
-	-d out/pmf024 -h  24 -w  24 -g  0 -s  3 flags/*.kvxx \
-	-d out/pmh024 -h  24 -w  48 -g  0 -s  3 flags/*.kvxx \
-	-d out/pmk024 -h  22 -w  32 -g  0 -s  3 flags/*.kvxx \
-	-d out/pmv024 -h  24 -w  38 -g  0 -s  3 flags/*.kvxx \
-	-d out/pmw024 -h  24 -w  42 -g  0 -s  3 flags/*.kvxx
+echo "pga024..."; $VEXPORT -f png -d out/pga024 -h  24 -w   0 -g  2 -s  3 flags/*.kvxx
+echo "pgb024..."; $VEXPORT -f png -d out/pgb024 -h  24 -w  40 -g  2 -s  3 flags/*.kvxx
+echo "pgc024..."; $VEXPORT -f png -d out/pgc024 -h  24 -w  36 -g  2 -s  3 flags/*.kvxx
+echo "pgd024..."; $VEXPORT -f png -d out/pgd024 -h  24 -w  32 -g  2 -s  3 flags/*.kvxx
+echo "pge024..."; $VEXPORT -f png -d out/pge024 -h  24 -w  30 -g  2 -s  3 flags/*.kvxx
+echo "pgf024..."; $VEXPORT -f png -d out/pgf024 -h  24 -w  24 -g  2 -s  3 flags/*.kvxx
+echo "pgh024..."; $VEXPORT -f png -d out/pgh024 -h  24 -w  48 -g  2 -s  3 flags/*.kvxx
+echo "pgk024..."; $VEXPORT -f png -d out/pgk024 -h  22 -w  32 -g  2 -s  3 flags/*.kvxx
+echo "pgv024..."; $VEXPORT -f png -d out/pgv024 -h  24 -w  38 -g  2 -s  3 flags/*.kvxx
+echo "pgw024..."; $VEXPORT -f png -d out/pgw024 -h  24 -w  42 -g  2 -s  3 flags/*.kvxx
+echo "pma024..."; $VEXPORT -f png -d out/pma024 -h  24 -w   0 -g  0 -s  3 flags/*.kvxx
+echo "pmb024..."; $VEXPORT -f png -d out/pmb024 -h  24 -w  40 -g  0 -s  3 flags/*.kvxx
+echo "pmc024..."; $VEXPORT -f png -d out/pmc024 -h  24 -w  36 -g  0 -s  3 flags/*.kvxx
+echo "pmd024..."; $VEXPORT -f png -d out/pmd024 -h  24 -w  32 -g  0 -s  3 flags/*.kvxx
+echo "pme024..."; $VEXPORT -f png -d out/pme024 -h  24 -w  30 -g  0 -s  3 flags/*.kvxx
+echo "pmf024..."; $VEXPORT -f png -d out/pmf024 -h  24 -w  24 -g  0 -s  3 flags/*.kvxx
+echo "pmh024..."; $VEXPORT -f png -d out/pmh024 -h  24 -w  48 -g  0 -s  3 flags/*.kvxx
+echo "pmk024..."; $VEXPORT -f png -d out/pmk024 -h  22 -w  32 -g  0 -s  3 flags/*.kvxx
+echo "pmv024..."; $VEXPORT -f png -d out/pmv024 -h  24 -w  38 -g  0 -s  3 flags/*.kvxx
+echo "pmw024..."; $VEXPORT -f png -d out/pmw024 -h  24 -w  42 -g  0 -s  3 flags/*.kvxx
 
 ACNL="com.kreative.vexillo.style.acnl.ACNLStylizer -s 42"
-$VEXPORT -f png -y fruit  -d out/pvf160 -h 160 -w 160 flags/*.kvxx
-$VEXPORT -f png -y number -d out/pvn128 -h 128 -w 136 flags/*.kvxx
-$VEXPORT -f png -y bird   -d out/pvb160 -h 160 -w 160 flags/*.kvxx
-$VEXPORT -f png -y $ACNL  -d out/pvx240 -h 240 -w 400 flags/*.kvxx
+echo "pvf160..."; $VEXPORT -f png -y fruit  -d out/pvf160 -h 160 -w 160 flags/*.kvxx
+echo "pvn128..."; $VEXPORT -f png -y number -d out/pvn128 -h 128 -w 136 flags/*.kvxx
+echo "pvb160..."; $VEXPORT -f png -y bird   -d out/pvb160 -h 160 -w 160 flags/*.kvxx
+echo "pvx240..."; $VEXPORT -f png -y $ACNL  -d out/pvx240 -h 240 -w 400 flags/*.kvxx
 
+echo "ZIPPING..."
 export COPYFILE_DISABLE=true
 find flags -name .DS_Store -delete
-zip -r out/vexillo-flags.zip flags/*.kvxx
+zip -q -r out/vexillo-flags.zip flags/*.kvxx
 
 cd out
-for i in s{g,m}{a,b,c,d,e,f,h,k,v,w}360; do zip -r $i.zip $i; done
-for i in p{g,m}{a,b,c,d,e,f,h,k,v,w}{360,128,072,024}; do zip -r $i.zip $i; done
-for i in {pvf160,pvn128,pvb160,pvx240}; do zip -r $i.zip $i; done
+for i in s{g,m}{a,b,c,d,e,f,h,k,v,w}360; do echo "$i..."; zip -q -r $i.zip $i; done
+for i in p{g,m}{a,b,c,d,e,f,h,k,v,w}{360,128,072,024}; do echo "$i..."; zip -q -r $i.zip $i; done
+for i in {pvf160,pvn128,pvb160,pvx240}; do echo "$i..."; zip -q -r $i.zip $i; done

@@ -2132,7 +2132,27 @@ in-jk	EF25
 in-la	EF26
 in-ld	EF27
 in-py	EF28
+
+np-center	EF2C
+np-hoist	EF2D
+np-white	EF2E
 xx-romani	EF2F
+
+pk-is	EF30
+pk-ba	EF31
+pk-kp	EF32
+pk-pb	EF33
+pk-sd	EF34
+pk-gb	EF35
+pk-jk	EF36
+
+np-p1	EF38
+np-p2	EF39
+np-p3	EF3A
+np-p4	EF3B
+np-p5	EF3C
+np-p6	EF3D
+np-p7	EF3E
 
 
 ## F000-F0FF	South American Flags
@@ -2768,7 +2788,7 @@ xx-pride-gay-male-3	F51F
 
 xx-pride-trans	F520; 26A7; 1F3F3+200D+26A7; 1F3F4+200D+26A7
 xx-pride-trans-il	F521
-xx-pride-trans-uk	F522
+xx-pride-trans-gb; xx-pride-trans-uk	F522
 xx-pride-trans-us	F523
 
 xx-pride-transneutral	F528

@@ -226,6 +226,9 @@ Codes for generic flags are of the form `xx-generic-`*color* or `xx-generic-`*co
 <tr><td><img src="artwork/vexillo/pgc024/nl-bq2.png" width="18" height="12" title="Saba"></td><td><code>nl-bq2</code></td><td>Saba</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/nl-bq3.png" width="18" height="12" title="Sint Eustatius"></td><td><code>nl-bq3</code></td><td>Sint Eustatius</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/nl-ams.png" width="18" height="12" title="Amsterdam"></td><td><code>nl-ams</code></td><td>Amsterdam</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/np-center.png" width="18" height="12" title="Nepal (Centered)"></td><td><code>np-center</code></td><td>Nepal (Centered)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/np-hoist.png" width="18" height="12" title="Nepal (Hoist-Aligned)"></td><td><code>np-hoist</code></td><td>Nepal (Hoist-Aligned)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/np-white.png" width="18" height="12" title="Nepal (White Background)"></td><td><code>np-white</code></td><td>Nepal (White Background)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/nz-krikienoid.png" width="18" height="12" title="New Zealand (Krikienoid Proposal)"></td><td><code>nz-krikienoid</code></td><td>New Zealand (Krikienoid Proposal)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/nz-laserkiwi.png" width="18" height="12" title="New Zealand (Laser Kiwi Proposal)"></td><td><code>nz-laserkiwi</code></td><td>New Zealand (Laser Kiwi Proposal)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/nz-redpeak.png" width="18" height="12" title="New Zealand (Red Peak Proposal)"></td><td><code>nz-redpeak</code></td><td>New Zealand (Red Peak Proposal)</td></tr>
@@ -496,8 +499,8 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-lgbt-hk.png" width="18" height="12" title="LGBT Pride (Hong Kong)"></td><td><code>xx-pride-lgbt-hk</code></td><td>LGBT Pride (Hong Kong)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-lgbt-il.png" width="18" height="12" title="LGBT Pride (Israel)"></td><td><code>xx-pride-lgbt-il</code></td><td>LGBT Pride (Israel)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-lgbt-tw.png" width="18" height="12" title="LGBT Pride (Taiwan)"></td><td><code>xx-pride-lgbt-tw</code></td><td>LGBT Pride (Taiwan)</td></tr>
-<tr><td><img src="artwork/vexillo/pgc024/xx-pride-lgbt-gb.png" width="18" height="12" title="LGBT Pride (UK)"></td><td><code>xx-pride-lgbt-gb</code></td><td>LGBT Pride (UK)</td></tr>
-<tr><td><img src="artwork/vexillo/pgc024/xx-pride-lgbt-uk.png" width="18" height="12" title="LGBT Pride (UK)"></td><td><code>xx-pride-lgbt-uk</code></td><td>LGBT Pride (UK)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-lgbt-gb.png" width="18" height="12" title="LGBT Pride (United Kingdom)"></td><td><code>xx-pride-lgbt-gb</code></td><td>LGBT Pride (United Kingdom)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-lgbt-uk.png" width="18" height="12" title="LGBT Pride (United Kingdom)"></td><td><code>xx-pride-lgbt-uk</code></td><td>LGBT Pride (United Kingdom)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-lgbt-us.png" width="18" height="12" title="LGBT Pride (United States)"></td><td><code>xx-pride-lgbt-us</code></td><td>LGBT Pride (United States)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-lgbt-us-co.png" width="18" height="12" title="LGBT Pride (Colorado)"></td><td><code>xx-pride-lgbt-us-co</code></td><td>LGBT Pride (Colorado)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-lgbt-us-phl.png" width="18" height="12" title="LGBT Pride (Philadelphia)"></td><td><code>xx-pride-lgbt-us-phl</code></td><td>LGBT Pride (Philadelphia)</td></tr>
@@ -537,6 +540,7 @@ These are duplicates of flags with country codes or subdivision codes, but under
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-trans.png" width="18" height="12" title="Trans Pride"></td><td><code>xx-pride-trans</code></td><td>Trans Pride</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-trans-crab.png" width="18" height="12" title="Trans Pride (Cool Crab)"></td><td><code>xx-pride-trans-crab</code></td><td>Trans Pride (Cool Crab)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-trans-il.png" width="18" height="12" title="Trans Pride (Israel)"></td><td><code>xx-pride-trans-il</code></td><td>Trans Pride (Israel)</td></tr>
+<tr><td><img src="artwork/vexillo/pgc024/xx-pride-trans-gb.png" width="18" height="12" title="Trans Pride (United Kingdom)"></td><td><code>xx-pride-trans-gb</code></td><td>Trans Pride (United Kingdom)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-trans-uk.png" width="18" height="12" title="Trans Pride (United Kingdom)"></td><td><code>xx-pride-trans-uk</code></td><td>Trans Pride (United Kingdom)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-trans-us.png" width="18" height="12" title="Trans Pride (United States)"></td><td><code>xx-pride-trans-us</code></td><td>Trans Pride (United States)</td></tr>
 <tr><td><img src="artwork/vexillo/pgc024/xx-pride-transfeminine.png" width="18" height="12" title="Transfeminine Pride"></td><td><code>xx-pride-transfeminine</code></td><td>Transfeminine Pride</td></tr>
